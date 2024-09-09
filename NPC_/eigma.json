@@ -1,0 +1,84 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Witch",
+  "ANAM": "",
+  "BNAM": "b_n_nord_f_head_02",
+  "KNAM": "b_n_nord_f_hair_05",
+  "MODL": null,
+  "FNAM": "Eigma",
+  "SCRI": "fightEigma",
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 50,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel warhammer"
+    },
+    {
+      "count": 1,
+      "name": "crimson despair amulet"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer right"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "trollbone_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "trollbone_helm"
+    }
+  ],
+  "NPCS": [
+    "chameleon",
+    "paralysis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 18,
+    "health": 165,
+    "magicka": 80,
+    "fatigue": 263,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [63,69,94,55,83,51,61,50],
+    "skills": [7,7,7,7,70,12,7,7,12,16,26,42,57,57,62,16,16,1,7,33,33,38,70,12,7,33,7]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

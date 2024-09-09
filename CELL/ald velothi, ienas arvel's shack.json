@@ -1,0 +1,885 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1515584,1061158912]
+  },
+  "NAME": "Ald Velothi, Ienas Arvel's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,50,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [64,32,23,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-287937": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "serila arvel",
+      "DATA": [-191.0758514404297,200.68060302734375,-98.1706314086914,0,0,1.3000000715255737]
+    },
+    "0-68440": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [6.559000015258789,-144.8459930419922,-24.43600082397461,6.248278617858887,0,0]
+    },
+    "0-68441": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [-374.25201416015625,317.6789855957031,-20.687000274658203,0,0.01745329238474369,1.5707963705062866]
+    },
+    "0-68468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [117.02530670166016,93.35352325439453,-31.941932678222656,0,0,1.8000001907348633]
+    },
+    "0-68469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [104.50157928466797,-15.22765827178955,-31.941932678222656,0,0,0]
+    },
+    "0-68443": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_29",
+      "ANAM": "serila arvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-296.4266052246094,-24.87397003173828,-49.90399932861328,0,0,0.7003932595252991]
+    },
+    "0-68444": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "serila arvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-13.233335494995117,367.5989685058594,-20.583066940307617,0,0,3.434783458709717]
+    },
+    "0-68447": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "serila arvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-299.8645324707031,-30.606367111206055,25.1793212890625,0,0,0.7347835898399353]
+    },
+    "0-68451": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [120.35299682617188,409.4440002441406,-4.275000095367432,0,0,5.883504867553711]
+    },
+    "0-68452": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_empty",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-356.5410461425781,-105.50093078613281,-70.84590911865234,0,0,6.08318567276001]
+    },
+    "0-68453": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_empty",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-402.82763671875,-46.10923767089844,-70.84590911865234,0,0,5.783185958862305]
+    },
+    "0-68454": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-388.8251037597656,-81.5514144897461,-6.8459014892578125,0,0,6.183186054229736]
+    },
+    "0-68455": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_fclothes3",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 15,
+      "DATA": [-152.1739959716797,413.5270080566406,-79.40299987792969,0,0,0.11519172787666321]
+    },
+    "0-68457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_iron_ladle",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [52.43428039550781,205.7050323486328,-74.40580749511719,0,0,1.600000262260437]
+    },
+    "0-68458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [90.11418914794922,9.875776290893555,-36.82232666015625,0,0,5.883185863494873]
+    },
+    "0-68459": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [99.55374145507812,73.96086120605469,-36.49378967285156,0,0,0.5]
+    },
+    "0-68460": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [90.02658081054688,9.194551467895508,-34.97246551513672,0,0,2.3999998569488525]
+    },
+    "0-68461": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [121.84264373779297,79.04810333251953,-35.45875930786133,0,0,0.7000000476837158]
+    },
+    "0-68462": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [87.67904663085938,-7.647647380828857,-37.7888069152832,0,0,6.08318567276001]
+    },
+    "0-68463": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [97.46620178222656,56.37464904785156,-37.811161041259766,0,0,0.20000000298023224]
+    },
+    "0-68464": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [93.6458969116211,26.67142105102539,-37.0304069519043,0,0,0.2999999225139618]
+    },
+    "0-68465": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [96.09203338623047,90.34262084960938,-37.0304069519043,0,0,6.183185577392578]
+    },
+    "0-68466": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [94.66699981689453,71.28600311279297,-35.84035873413086,0,6.126105785369873,5.784020900726318]
+    },
+    "0-68467": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [85.87508392333984,13.753988265991211,-32.97031021118164,5.683186054229736,0,0.9000000357627869]
+    },
+    "0-68470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [70.84915161132812,-123.0787353515625,-87.92637634277344,0,0,3.383185863494873]
+    },
+    "0-68471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [103.64555358886719,-105.95980834960938,-67.2094955444336,0,0,1.6000001430511475]
+    },
+    "0-68472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_04",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [127.87810516357422,56.76974105834961,-21.48526954650879,0,0,0.7000000476837158]
+    },
+    "0-68473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [128.90255737304688,45.17920684814453,-22.885713577270508,0,0,0.8000003695487976]
+    },
+    "0-68474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [119.0000228881836,30.290557861328125,-23.041019439697266,0,0,0.1000002846121788]
+    },
+    "0-68475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_07_64",
+      "DATA": [120.4264144897461,8.269991874694824,-21.069046020507812,0,0,0]
+    },
+    "0-68476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_64",
+      "DATA": [-168.46560668945312,104.19245147705078,-17.61089324951172,0,0,5.983185768127441]
+    },
+    "0-68477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-343.5339660644531,420.3702087402344,-64.8743667602539,0,0,5.783185958862305]
+    },
+    "0-68478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-287.1925048828125,424.41949462890625,-62.272377014160156,0,0,0.5]
+    },
+    "0-68479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_fclothes3",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-190.97413635253906,-108.12841796875,-82.05152130126953,6.230825424194336,0.06981316953897476,3.199188470840454]
+    },
+    "0-68480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-223.09225463867188,433.31243896484375,-71.42461395263672,0.20000000298023224,0,4.483186721801758]
+    },
+    "0-68481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-246.34140014648438,416.8310241699219,-76.47235870361328,0.40000006556510925,6.183185577392578,5.083186149597168]
+    },
+    "0-68482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-233.11598205566406,442.11529541015625,-71.42461395263672,0.20000000298023224,0,4.783186435699463]
+    },
+    "0-68483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-170.23300170898438,104.21800231933594,-67.20899963378906,0,0,1.6004669666290283]
+    },
+    "0-68484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [123.48849487304688,382.77362060546875,-69.94477844238281,0,0,3]
+    },
+    "0-68485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [77.64590454101562,417.483642578125,-69.94477844238281,0,0,1.5999997854232788]
+    },
+    "0-68486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_pos",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [15.294777870178223,422.8382568359375,-81.86119079589844,4.71238899230957,1.485398292541504,2.8707962036132812]
+    },
+    "0-68487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-73.375,410.78399658203125,-94.94219207763672,6.277949333190918,6.243042469024658,0]
+    },
+    "0-68488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-70.44813537597656,411.5845947265625,-71.02079772949219,6.277949333190918,6.243042469024658,3.1000003814697266]
+    },
+    "0-68489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_5",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-75.2468490600586,413.0690002441406,-83.29197692871094,6.277949333190918,6.243042469024658,3.4000003337860107]
+    },
+    "0-68490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-407.9212646484375,77.91047668457031,-78.56562042236328,0,0,2.3000001907348633]
+    },
+    "0-68491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_saltrice_10",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-422.99847412109375,28.457597732543945,-79.94061279296875,0,0,0.4000000059604645]
+    },
+    "0-68494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_04_128",
+      "DATA": [45.21865463256836,-7.795751094818115,148.92503356933594,0,0,0.8999997973442078]
+    },
+    "0-68495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_10_128",
+      "ANAM": "serila arvel",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-168.06484985351562,413.7033386230469,-28.59630012512207,0,0,5.983185768127441]
+    },
+    "0-68514": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_02",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-121.13619232177734,-103.90737915039062,-92.17776489257812,0,0,0]
+    },
+    "0-68515": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_cup",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-108.01292419433594,-95.13408660888672,-88.07585906982422,0,0,0]
+    },
+    "0-68516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-100.25796508789062,-96.76416015625,-86.64250183105469,0,0,0]
+    },
+    "0-68517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_10_off",
+      "ANAM": "serila arvel",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-99.72066497802734,-113.62503814697266,-83.85128021240234,0,0,5.683186054229736]
+    },
+    "0-68521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_fishing_pole",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-108.17337036132812,116.83423614501953,-35.350345611572266,0.000000014901161193847657,0.19999989867210388,4.083187580108643]
+    },
+    "0-68522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_fishing_pole",
+      "ANAM": "serila arvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-361.5707092285156,248.62440490722656,-39.5891227722168,0.000000014901161193847657,0.19999989867210388,5.4831862449646]
+    },
+    "0-68439": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_01",
+      "DATA": [-143.9600372314453,162.92738342285156,0,0,0,1.5707963705062866]
+    },
+    "0-68442": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_firepit",
+      "DATA": [57.94872283935547,213.1818084716797,-27.121675491333008,0,0,3.299999713897705]
+    },
+    "0-68445": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [-160.8249969482422,-142.732177734375,-7.268089771270752,0.3001966178417206,0.4991641640663147,4.082324981689453]
+    },
+    "0-68446": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [-432.16357421875,89.2088623046875,-0.9720001220703125,5.8311448097229,5.883504867553711,0.10000001639127731]
+    },
+    "0-68448": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [142.02813720703125,315.05841064453125,-36.15625762939453,0.30000001192092896,0.40000036358833313,1.4000000953674316]
+    },
+    "0-68449": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [-164.57386779785156,433.928466796875,-33.371551513671875,5.683186054229736,5.983185291290283,0]
+    },
+    "0-68450": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [104.90718078613281,32.43037796020508,-71.33972930908203,0,0,4.800000190734863]
+    },
+    "0-68456": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_cauldron_01",
+      "DATA": [54.04800033569336,212.78436279296875,-51.310359954833984,0,0,0.5]
+    },
+    "0-68492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-336.15875244140625,198.51475524902344,-78.1613998413086,1.399999976158142,5.583186149597168,5.683186054229736]
+    },
+    "0-68493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-350.3137512207031,139.07310485839844,-67.82652282714844,0,0,0]
+    },
+    "0-68496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [-38.81658935546875,77.59322357177734,152.90126037597656,0,0,2.5999984741210938]
+    },
+    "0-68497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [21.079370498657227,73.43285369873047,146.29251098632812,0,0,6.283182144165039]
+    },
+    "0-68498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [75.90034484863281,72.22343444824219,166.33692932128906,0,0,2.699998378753662]
+    },
+    "0-68499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [6.375481605529785,80.0754623413086,189.3170623779297,0.20000001788139343,0,4.7831854820251465]
+    },
+    "0-68500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [75.11216735839844,76.10823822021484,121.89904022216797,0.700000524520874,5.983185768127441,2.783186197280884]
+    },
+    "0-68501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [15.839719772338867,68.26110076904297,103.89679718017578,5.583187103271484,6.08318567276001,5.6831841468811035]
+    },
+    "0-68502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-46.40282440185547,78.26947021484375,110.18684387207031,0.5000009536743164,0.3999999761581421,0.7831851840019226]
+    },
+    "0-68503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-206.0983123779297,74.48464965820312,116.23789978027344,6.183185577392578,5.683186054229736,1.5]
+    },
+    "0-68504": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [-264.7919921875,89.61616516113281,189.3170623779297,0.20000001788139343,0,1.6000001430511475]
+    },
+    "0-68505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [-210.8899688720703,85.17950439453125,157.56727600097656,0,0,0.1168118491768837]
+    },
+    "0-68506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-267.29248046875,92.13065338134766,106.01447296142578,0.1999998390674591,5.983185768127441,1.5]
+    },
+    "0-68507": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [-278.9104309082031,83.10011291503906,146.01463317871094,0,0,3.0999972820281982]
+    },
+    "0-68508": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-320.0158996582031,78.3579330444336,114.39869689941406,5.783185958862305,5.983185768127441,1.5]
+    },
+    "0-68509": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [-315.6982116699219,87.92109680175781,155.55247497558594,0,0,0.1168118491768837]
+    },
+    "0-68511": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [-4.53179407119751,-34.081302642822266,137.77223205566406,0,0.09999943524599075,4.283185958862305]
+    },
+    "0-68512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_crate_open_01",
+      "DATA": [-110.3544692993164,-103.9040756225586,-67.62223815917969,0,0,0]
+    },
+    "0-68513": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_crate_lid_01",
+      "DATA": [-102.85162353515625,-108.1658706665039,-34.063541412353516,0,0,4.483187198638916]
+    },
+    "0-68518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [51.29826354980469,-4.301126480102539,-76.95079803466797,0,0,1.3999994993209839]
+    },
+    "0-68519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [56.16062927246094,74.81182098388672,-76.95079803466797,0,0,4.983185768127441]
+    },
+    "0-68520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-103.22468566894531,-106.9364013671875,-11.326233863830566,0,0,0.49999991059303284]
+    },
+    "0-287938": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-760.5930786132812,-288.1151428222656,-15.93463134765625,0,0,5.783185958862305]
+    },
+    "0-398440": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "serila arvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-339.6492614746094,4.085669040679932,2.219320058822632,6.08318567276001,6.08318567276001,0.7000001072883606]
+    },
+    "0-398441": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "serila arvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-333.4703369140625,9.035326957702637,-59.17108917236328,6.08318567276001,6.08318567276001,1.4000002145767212]
+    },
+    "0-398442": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "serila arvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-62.10038757324219,385.0987243652344,-43.75436019897461,6.183185577392578,6.08318567276001,0.40000012516975403]
+    },
+    "0-68510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_04_128",
+      "DATA": [-40.92811965942383,-48.253902435302734,132.88999938964844,0,0,1.2007864713668823]
+    }
+  }
+}

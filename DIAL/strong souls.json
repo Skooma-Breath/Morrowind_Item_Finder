@@ -1,0 +1,150 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "8449103592593211322": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "15641302621155128511",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llunela hleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have brought me the soulgems. The power in these souls will strengthen your stronghold's foundations and help the tower grow.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_Stronghold",
+          "__TV": 50
+        }
+      ]
+    },
+    "15641302621155128511": {
+      "flag": 0,
+      "PNAM": "8449103592593211322",
+      "NNAM": "19389260531509322592",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llunela hleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I gave you two soulgems. Fill them with the souls of Storm Atronachs, Golden Saints, or Winged Twilights. Perhaps someone around here knows where you can find such strong souls.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_Stronghold",
+          "__TV": 20
+        }
+      ]
+    },
+    "19389260531509322592": {
+      "flag": 0,
+      "PNAM": "15641302621155128511",
+      "NNAM": "18008298771511527415",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llunela hleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here, take these grand soulgems. Fill them with the souls of a suitable Daedra. The best souls to use are Storm Atronachs, but more powerful Daedra such as Winged Twilights and Golden Saints will work as well.",
+      "BNAM": "Journal HT_Stronghold 20\r\nPlayer->AddItem \"misc_soulgem_grand\" 2",
+      "SCVR": null
+    },
+    "18008298771511527415": {
+      "flag": 0,
+      "PNAM": "19389260531509322592",
+      "NNAM": "2020323255203312480",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The souls of a summoned creature will work just as well. Just summon a storm atronach, cast soul trap on it, and dispatch it. Do this twice while carrying a powerful soul gem and give the gems to Llunela Hleran.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2020323255203312480": {
+      "flag": 0,
+      "PNAM": "18008298771511527415",
+      "NNAM": "64530785235572323",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The souls of a summoned creature will work just as well. Just summon a storm atronach, cast soul trap on it, and dispatch it. Do this twice while carrying a powerful soul gem and give the gems to Llunela Hleran.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "64530785235572323": {
+      "flag": 0,
+      "PNAM": "2020323255203312480",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora, Telvanni Council House",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you cannot find anything suitable, why not just summon a Storm Atronach or two? Surely you can do that, %PCName.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

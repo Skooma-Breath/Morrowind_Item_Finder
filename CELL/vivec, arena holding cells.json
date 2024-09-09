@@ -1,0 +1,595 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Vivec, Arena Holding Cells",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [56,50,44,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-242575": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator wander",
+      "DATA": [743.6065673828125,187.733154296875,139.4119873046875,0,0,3.341592311859131]
+    },
+    "0-242576": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator wander",
+      "DATA": [987.8037719726562,8.059306144714355,132.68167114257812,0,0,5.141592502593994]
+    },
+    "0-242593": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-64,128,-128,0,0,4.71238899230957]
+    },
+    "0-242610": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [1060.3773193359375,129.25173950195312,343.2464294433594,0,0,3.1999993324279785]
+    },
+    "0-242611": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [1070.1248779296875,640.9901123046875,343.1551818847656,0,0,0]
+    },
+    "0-242617": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "key_vivec_arena_cell",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [757.405029296875,299.0303649902344,183.45570373535156,0,0,5.4831862449646]
+    },
+    "0-242618": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [676.7579345703125,255.40187072753906,279.4360046386719,0,0,4.299999713897705]
+    },
+    "0-242619": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [677.1010131835938,224.97300720214844,278.385986328125,0,0,3.2829642295837402]
+    },
+    "0-242620": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [672.6021728515625,198.03797912597656,269.1059875488281,0,0,0]
+    },
+    "0-242621": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [678.8843994140625,188.64329528808594,269.1059875488281,0,0,5.966371536254883]
+    },
+    "0-242577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_corner_01",
+      "DATA": [0,0,0,0,0,3.1415927410125732]
+    },
+    "0-242578": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_stairslong_01",
+      "DATA": [384,0,256,0,0,3.1415927410125732]
+    },
+    "0-242579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [1280,767.999755859375,256,0,0,1.5707963705062866]
+    },
+    "0-242582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [1280,0,256,0,0,1.5707963705062866]
+    },
+    "0-242583": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [1280,256,256,0,0,1.5707963705062866]
+    },
+    "0-242584": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [768,767.999755859375,256,0,0,4.71238899230957]
+    },
+    "0-242586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [1280,511.999755859375,256,0,0,1.5707963705062866]
+    },
+    "0-242587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [768,511.999755859375,256,0,0,4.71238899230957]
+    },
+    "0-242588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_3way_01",
+      "DATA": [1024,767.999755859375,256,0,0,1.5707963705062866]
+    },
+    "0-242589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_4way_01",
+      "DATA": [1024,256,256,0,0,0]
+    },
+    "0-242590": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_4way_01",
+      "DATA": [1024,511.999755859375,256,0,0,0]
+    },
+    "0-242592": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [0,128,-128,0,0,4.71238899230957]
+    },
+    "0-242595": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [896.0000610351562,512,128,0,0,3.1415927410125732]
+    },
+    "0-242597": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [896,768,128,0,0,3.1415927410125732]
+    },
+    "0-242599": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [1152,767.9998779296875,128,0,0,6.283185005187988]
+    },
+    "0-242601": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [1152,511.9998779296875,128,0,0,6.283185005187988]
+    },
+    "0-242603": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [1152,255.99998474121094,128,0,0,6.283185005187988]
+    },
+    "0-242605": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [1151.9998779296875,-0.000026702880859375,128,0,0,6.28318452835083]
+    },
+    "0-242606": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [731.3593139648438,291.8763122558594,164.42425537109375,0,0,5.197787761688232]
+    },
+    "0-242607": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [775.3494262695312,294.6603088378906,155.744873046875,0,0,0]
+    },
+    "0-242608": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_shelf_01",
+      "DATA": [671.5377807617188,220.73826599121094,241.5349578857422,0,0,4.71238899230957]
+    },
+    "0-242614": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_lightpost_01",
+      "DATA": [1095.017822265625,640.65625,320,0,0,3.1415927410125732]
+    },
+    "0-242616": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_lightpost_01",
+      "DATA": [1093.5482177734375,129.0997314453125,320,0,0,3.1415927410125732]
+    },
+    "0-242622": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 0.9200000166893005,
+      "DATA": [768.5864868164062,126.10469055175781,126.27496337890625,0,0,4.71238899230957]
+    },
+    "0-242623": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "DATA": [1024,-96,352,0,0,0]
+    },
+    "0-242624": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "DATA": [1024,864,352,0,0,3.1415927410125732]
+    },
+    "0-281853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_jaildoor_01",
+      "FLTV": 100,
+      "KNAM": "key_vivec_arena_cell",
+      "DATA": [1152,320,128,0,0,1.5707963705062866]
+    },
+    "0-281854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_jaildoor_01",
+      "FLTV": 100,
+      "KNAM": "key_vivec_arena_cell",
+      "DATA": [1152,576,128,0,0,1.5707963705062866]
+    },
+    "0-281855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_jaildoor_01",
+      "FLTV": 100,
+      "KNAM": "key_vivec_arena_cell",
+      "DATA": [1152,832,128,0,0,1.5707963705062866]
+    },
+    "0-281856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_jaildoor_01",
+      "FLTV": 100,
+      "KNAM": "key_vivec_arena_cell",
+      "DATA": [896,704,128,0,0,4.71238899230957]
+    },
+    "0-281857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_jaildoor_01",
+      "FLTV": 100,
+      "KNAM": "key_vivec_arena_cell",
+      "DATA": [896,448,128,0,0,4.71238899230957]
+    },
+    "0-281858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [1867.92333984375,397.9009094238281,269.6637878417969,0,0,0]
+    },
+    "0-335497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [1334.2174072265625,59.50740051269531,147.7238311767578,0,0,0]
+    },
+    "0-335498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [717.0868530273438,476.6567077636719,147.7238311767578,0,0,0]
+    },
+    "0-335499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [737.95947265625,813.85986328125,147.7238311767578,0,0,0]
+    },
+    "0-335500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [1325.66357421875,814.6826782226562,147.7238311767578,0,0,0]
+    },
+    "0-335501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [1326.4923095703125,564.8544921875,147.7238311767578,0,0,0]
+    },
+    "0-335502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [1336.563720703125,305.7605285644531,147.7238311767578,0,0,0]
+    },
+    "0-335503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [-15.913079261779785,-48.48843002319336,-0.7067115306854248,0,0,5.333186149597168]
+    },
+    "0-335504": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_corner_01",
+      "DATA": [768,256,256,0,0,4.71238899230957]
+    },
+    "0-335505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_3way_01",
+      "DATA": [768,0,256,0,0,4.71238899230957]
+    },
+    "0-335506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_3way_01",
+      "DATA": [1024,0,256,0,0,4.71238899230957]
+    },
+    "0-281852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_jaildoor_01",
+      "FLTV": 100,
+      "KNAM": "key_vivec_arena_cell",
+      "DATA": [1152,64,128,0,0,1.5707963705062866]
+    },
+    "0-406541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1330.1561279296875,195.7661895751953,145.79183959960938,0,0,0.8146025538444519]
+    },
+    "0-406542": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1337.5780029296875,15.846601486206055,145.79183959960938,0,0,5.297787666320801]
+    },
+    "0-406543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1287.01220703125,571.6370849609375,145.79185485839844,0,0,5.497788906097412]
+    },
+    "0-406544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1329.322265625,712.7840576171875,145.7918701171875,0,0,0.8146025538444519]
+    },
+    "0-406545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [714.8203125,773.9721069335938,145.79183959960938,0,0,4.214602947235107]
+    },
+    "0-406546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [750.19775390625,449.4468994140625,145.7918701171875,0,0,2.5146024227142334]
+    },
+    "0-406547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [783.982666015625,311.0328063964844,204.2802276611328,0,0,4.383185863494873]
+    },
+    "0-406548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [778.3683471679688,278.7785339355469,197.17799377441406,0,0,5.483824253082275]
+    },
+    "0-406549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [761.5044555664062,278.49749755859375,189.20974731445312,0,0,0]
+    },
+    "0-406550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "XSCL": 1.380000114440918,
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [756.9058227539062,298.49688720703125,183.4485321044922,0,0,5.883185863494873]
+    },
+    "0-406551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_lightpost_01",
+      "DATA": [944.67529296875,382.7006530761719,320,0,0,0]
+    },
+    "0-406552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [977.2409057617188,382.7182922363281,343.2464294433594,0,0,0]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Orc",
+  "CNAM": "Guard",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_orc_m_head_02",
+  "KNAM": "b_n_orc_m_hair_03",
+  "MODL": null,
+  "FNAM": "Yambul gro-Bogrol",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [65,65,65,10,0,0,0,10]
+    }
+  ]
+}

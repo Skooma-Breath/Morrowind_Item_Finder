@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Savant Service",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Crazy-Legs Arantamo",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 16392
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 3,
+      "name": "random_book_dunmer"
+    },
+    {
+      "count": 3,
+      "name": "random_book_imperial_dunmer"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "gold": 300
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

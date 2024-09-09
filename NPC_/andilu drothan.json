@@ -1,0 +1,117 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Alchemist Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_14",
+  "MODL": null,
+  "FNAM": "Andilu Drothan",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": -5,
+      "name": "ingred_trama_root_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_sload_soap_01"
+    },
+    {
+      "count": -4,
+      "name": "ingred_scrap_metal_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_heather_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_gold_kanet_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_comberry_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_muck_01"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_poison_s"
+    },
+    {
+      "count": 3,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": 1,
+      "name": "p_light_b"
+    },
+    {
+      "count": 1,
+      "name": "p_disease_resistance_b"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_common_s"
+    }
+  ],
+  "NPCS": [
+    "heavy burden touch",
+    "strong feather",
+    "ulms juicedaw's feather",
+    "saintly word",
+    "summon ancestral ghost",
+    "calm creature",
+    "calm humanoid",
+    "mark",
+    "recall",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "dispel",
+    "detect_creature",
+    "Swimmer's_Blessing"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 62,
+    "magicka": 144,
+    "fatigue": 178,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [49,72,47,48,60,34,46,50],
+    "skills": [22,6,6,6,22,11,6,6,11,46,24,46,14,46,50,14,46,30,6,6,6,11,16,11,10,22,22]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,10,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\bear_black_larger.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 1,
+    "attributes": [50,50,50,50,15,50,50,50],
+    "health": 50,
+    "magicka": 50,
+    "fatigue": 50,
+    "soul_strength": 50,
+    "combat_skill": 50,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [1,5],
+      [1,5],
+      [1,5]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_bear_black",
+  "FNAM": "Grizzly Bear",
+  "SCRI": null,
+  "XSCL": 1.5000001192092896,
+  "NPCO": null,
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

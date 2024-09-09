@@ -1,0 +1,640 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1321040,1061158912]
+  },
+  "NAME": "Balmora, Rithleen's House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,65,65,0],
+    "sunlight": [80,40,20,0],
+    "fog_color": [80,40,20,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-67649": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "rithleen",
+      "DATA": [61.55431365966797,177.01715087890625,11.91403579711914,0,0,2.1000003814697266]
+    },
+    "0-57430": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_loaddoor_01",
+      "DATA": [0,-128,128,0,0,1.5707963705062866]
+    },
+    "0-57431": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_10",
+      "CNAM": {
+        "faction_id": "Blades",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [215.5738067626953,273.4286193847656,36.64136505126953,0,0,0]
+    },
+    "0-57433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_06_64",
+      "ANAM": "rithleen",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [306.5539855957031,153.0500030517578,74.79199981689453,0,0,0]
+    },
+    "0-57434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [276.28826904296875,171.72328186035156,64.41844940185547,0,0,0]
+    },
+    "0-57435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [307.6811218261719,173.84197998046875,79.74031829833984,0,0,4.3831868171691895]
+    },
+    "0-57439": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [186.5030059814453,24.20800018310547,65.5479965209961,0.13962633907794952,1.5707963705062866,4.326671123504639]
+    },
+    "0-57440": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [219.51202392578125,26.02292251586914,77.95462799072266,0,0,4.083186626434326]
+    },
+    "0-57441": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [229.8040771484375,13.839242935180664,77.95462799072266,0,0,4.083186626434326]
+    },
+    "0-57442": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_08_64",
+      "DATA": [218.3779754638672,-1.6011109352111816,80.73500061035156,0,0,4.082324981689453]
+    },
+    "0-57443": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [205.03883361816406,-20.42159652709961,68.46249389648438,0,0,0.6831872463226318]
+    },
+    "0-57444": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [248.09288024902344,-2.0749576091766357,68.46249389648438,0,0,0.6831872463226318]
+    },
+    "0-57447": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-40.581886291503906,237.0786895751953,98.81627655029297,0,0,0.4581882357597351]
+    },
+    "0-57448": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-58.79190444946289,257.4239807128906,135.33132934570312,0,0,4.46637487411499]
+    },
+    "0-57449": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-56.08993148803711,211.42965698242188,135.83721923828125,0,0,0.8081881999969482]
+    },
+    "0-57450": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-52.107688903808594,303.6061096191406,135.27926635742188,0,0,0.18318819999694824]
+    },
+    "0-57451": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-43.752872467041016,313.2803955078125,135.27926635742188,0,0,0.30818817019462585]
+    },
+    "0-57452": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-53.209285736083984,213.54428100585938,91.05148315429688,0,0,5.466373443603516]
+    },
+    "0-57453": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-44.138492584228516,264.3148498535156,46.30713653564453,0,0,0.18318819999694824]
+    },
+    "0-57454": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-54.5947151184082,179.20420837402344,143.4656219482422,0,0,0.18318819999694824]
+    },
+    "0-57455": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-47.92350769042969,269.7530822753906,135.33132934570312,0,0,0.18318819999694824]
+    },
+    "0-57456": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-49.832664489746094,297.387451171875,46.25896453857422,0,0,1.3831888437271118]
+    },
+    "0-57457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-54.23521423339844,165.73944091796875,91.05148315429688,0,0,0.18318819999694824]
+    },
+    "0-57458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-37.59602737426758,179.0113983154297,91.05148315429688,0,0,0.18318819999694824]
+    },
+    "0-57459": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-54.846744537353516,295.3155822753906,99.39217376708984,0,0,0.18318819999694824]
+    },
+    "0-57460": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_platter",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-50.233253479003906,196.78256225585938,50.729393005371094,0,0,4.766373157501221]
+    },
+    "0-57461": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-50.69121170043945,206.88577270507812,50.59418487548828,0,0,0.18318772315979004]
+    },
+    "0-57462": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Redware_Cup",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-46.00956344604492,179.347900390625,52.84923553466797,0,0,5.866373062133789]
+    },
+    "0-57463": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Redware_Cup",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-55.11661148071289,189.93161010742188,52.84923553466797,0,0,0.18318772315979004]
+    },
+    "0-57464": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-61.06356430053711,212.0743865966797,21.543006896972656,0,0,4.708187103271484]
+    },
+    "0-57465": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-54.01624298095703,281.2611999511719,21.595199584960938,0,0,4.833187103271484]
+    },
+    "0-57466": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [17.734907150268555,326.819091796875,23.39877700805664,0,0,0.20000000298023224]
+    },
+    "0-57467": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [17.734907150268555,326.819091796875,11.878740310668945,0,0,0]
+    },
+    "0-57468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-57.67958450317383,113.73489379882812,40.17424011230469,0,0,5.383186340332031]
+    },
+    "0-57469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-68.8163833618164,63.792972564697266,40.17427062988281,0,0,0.8000000715255737]
+    },
+    "0-57470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [285.5427551269531,272.78179931640625,63.75004196166992,0,0,0]
+    },
+    "0-57425": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_corner",
+      "DATA": [256,0,128,0,0,4.71238899230957]
+    },
+    "0-57426": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_corner",
+      "DATA": [0,256,128,0,0,1.5707963705062866]
+    },
+    "0-57427": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_corner",
+      "DATA": [256,256,128,0,0,3.1415927410125732]
+    },
+    "0-57428": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_door1",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-57429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb_load",
+      "DATA": [0,-128,128,0,0,1.5707963705062866]
+    },
+    "0-57432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [294.64056396484375,168.77462768554688,35.947059631347656,0,0,0]
+    },
+    "0-57436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [285.9930419921875,-2.3678910732269287,37.853816986083984,0,0,1.6000010967254639]
+    },
+    "0-57437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [136.61163330078125,27.10647201538086,37.853816986083984,0,0,4.783186912536621]
+    },
+    "0-57438": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_01",
+      "DATA": [208.61703491210938,9.193035125732422,32.744346618652344,0,0,4.083186626434326]
+    },
+    "0-57445": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.100000023841858,
+      "DATA": [168.16429138183594,23.839380264282227,2.697530508041382,0,0,0]
+    },
+    "0-57446": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [-51.126075744628906,235.73056030273438,80.68638610839844,0,0,1.5831888914108276]
+    },
+    "0-290502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-363.6725769042969,-73.49241638183594,85.1879653930664,0,0,4.71238899230957]
+    },
+    "0-311094": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_06",
+      "DATA": [11.669524192810059,290.8061828613281,140.6811065673828,0,0,0.8249995708465576]
+    },
+    "0-311095": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-49.367576599121094,279.83245849609375,11.878740310668945,0,0,4.683187007904053]
+    },
+    "0-311096": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-53.42692565917969,209.3907470703125,11.878793716430664,0,0,4.758187294006348]
+    },
+    "0-311097": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-52.54916763305664,192.9342041015625,91.05148315429688,0,0,0.18318819999694824]
+    },
+    "0-311098": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-46.02818298339844,263.639892578125,98.6968765258789,0,0,0.18318819999694824]
+    },
+    "0-311099": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-57.95341110229492,286.6704406738281,135.27926635742188,0,0,0.18318819999694824]
+    },
+    "0-311100": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-42.411617279052734,294.1094055175781,135.27926635742188,0,0,0.8831881880760193]
+    },
+    "0-311101": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-47.925880432128906,237.87437438964844,135.83721923828125,0,0,0.18318819999694824]
+    },
+    "0-311103": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_mclothes3",
+      "ANAM": "rithleen",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 15,
+      "DATA": [84.61599731445312,274.7850036621094,18.854000091552734,0,0,1.5254178047180176]
+    },
+    "0-311104": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 0.9700000286102295,
+      "DATA": [362.37841796875,18.077524185180664,208.87277221679688,0,0,4.708183288574219]
+    },
+    "0-378856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [82.30891418457031,-78.17578125,212.9033660888672,0,0,3.9269909858703613]
+    },
+    "0-378857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [80.21720886230469,-75.30779266357422,232.20848083496094,0,0,0]
+    },
+    "0-483342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bookskill_block2",
+      "ANAM": "rithleen",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [225.6453399658203,275.7498779296875,60.233585357666016,0,0,1.2000001668930054]
+    }
+  }
+}

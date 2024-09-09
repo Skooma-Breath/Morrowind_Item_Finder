@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_f_head_05",
+  "KNAM": "b_n_dark elf_f_hair_02",
+  "MODL": null,
+  "FNAM": "Dratha",
+  "SCRI": "TelvanniCouncilor",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "glass stormblade"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_t"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "sc_blackstorm"
+    },
+    {
+      "count": 1,
+      "name": "sc_manarape"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_s"
+    }
+  ],
+  "NPCS": [
+    "Dratha_Spite"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 31,
+    "health": 193,
+    "magicka": 200,
+    "fatigue": 319,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [70,100,100,100,83,76,67,40],
+    "skills": [8,8,45,45,8,13,8,8,13,80,90,80,65,80,85,28,28,80,8,8,8,13,55,50,8,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,0]
+    }
+  ]
+}

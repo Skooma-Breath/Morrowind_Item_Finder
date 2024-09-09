@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_04",
+  "KNAM": "b_n_dark elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Ibarnadad Assirnarari",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "absorb health [ranged]",
+    "resist poison",
+    "resist shock",
+    "vigor",
+    "enrichment"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 90,
+    "magicka": 164,
+    "fatigue": 229,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [62,82,53,67,60,47,50,40],
+    "skills": [27,6,6,6,42,11,6,6,11,38,63,17,17,17,22,38,53,17,42,6,6,32,16,11,15,27,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

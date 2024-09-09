@@ -1,0 +1,237 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "127152164169027149": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "590012767721920831",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "codus callonus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard about your duel with Salyn Sarethi. Don't be ashamed. The Buoyant Armigers are going to accuse the Legions of all sorts of things no matter what we do.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Courtesy",
+          "__TV": 110
+        }
+      ]
+    },
+    "590012767721920831": {
+      "flag": 0,
+      "PNAM": "127152164169027149",
+      "NNAM": "164839426662520933",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "codus callonus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard how easily you beat Salyn Sarethi. I'll be sure and mention that the next time I hear a Buoyant Armiger insulting the Legions.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Courtesy",
+          "__TV": 100
+        }
+      ]
+    },
+    "164839426662520933": {
+      "flag": 0,
+      "PNAM": "590012767721920831",
+      "NNAM": "8871169302538713302",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "codus callonus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I already gave you my copy. Use it well.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "redBookRiddles",
+          "__TV": 1
+        }
+      ]
+    },
+    "8871169302538713302": {
+      "flag": 0,
+      "PNAM": "164839426662520933",
+      "NNAM": "454555511745417906",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "codus callonus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ha! I've always wanted to see someone beat Salyn Sarethi at his own game. Tell you what, I'll give you my copy for free.",
+      "BNAM": "Set redBookRiddles to 1\r\nPlayer->AddItem \"bk_RedBookOfRiddles\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "454555511745417906": {
+      "flag": 0,
+      "PNAM": "8871169302538713302",
+      "NNAM": "2541829011215425826",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "codus callonus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, then, would you like to buy something?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2541829011215425826": {
+      "flag": 0,
+      "PNAM": "454555511745417906",
+      "NNAM": "3137212769203353130",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "codus callonus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I have a copy... Why do you ask?",
+      "BNAM": "Choice \"I must have a duel of wits with Salyn Sarethi.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Courtesy",
+          "__TV": 10
+        }
+      ]
+    },
+    "3137212769203353130": {
+      "flag": 0,
+      "PNAM": "2541829011215425826",
+      "NNAM": "30654139202106129354",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Did you find the book useful?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Courtesy",
+          "__TV": 100
+        }
+      ]
+    },
+    "30654139202106129354": {
+      "flag": 0,
+      "PNAM": "3137212769203353130",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I believe a former Champion in the Legions, Codus Callonus, has a copy. His bookstore is in Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

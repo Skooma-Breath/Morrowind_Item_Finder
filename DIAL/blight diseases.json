@@ -1,0 +1,104 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "70601556299415606": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14300321961402922404",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Blight diseases resist common herbal and magical treatments, and are of two kinds: wasting diseases which attack one or more of an organism's systems, and abnormal growth diseases, which distort the organism's functions and structures. Natives avoid exposure to the Blight, and wear special protective garments when traveling in Blight-prone regions.",
+      "BNAM": ";scout; savant;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "14300321961402922404": {
+      "flag": 0,
+      "PNAM": "70601556299415606",
+      "NNAM": "15999581383288923",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You get blight diseases by fighting with diseased creatures. Normal creatures that get caught in blight storms can turn into ugly monsters.",
+      "BNAM": ";scout; savant;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "15999581383288923": {
+      "flag": 0,
+      "PNAM": "14300321961402922404",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Blight diseases can't be cured by cure common disease spells or potions. You need special cure blight disease potions or spells.",
+      "BNAM": ";scout; savant;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

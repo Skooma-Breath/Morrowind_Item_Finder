@@ -1,0 +1,4427 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1627714415913516768": {
+      "flag": 0,
+      "PNAM": "311882790128006716",
+      "NNAM": "3230111137262605603",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi hears you broke our agreement. Habasi does not want to speak with you now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3230111137262605603": {
+      "flag": 0,
+      "PNAM": "1627714415913516768",
+      "NNAM": "1566418242350324181",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It was quite a journey, wasn't it?",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; CHOICE 2;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        }
+      ]
+    },
+    "1566418242350324181": {
+      "flag": 0,
+      "PNAM": "3230111137262605603",
+      "NNAM": "1985028150171727364",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, then. I will wait here for now.",
+      "BNAM": "; Falura Llervu;\r\nAiWander 0 0 0 40 30 20 0 0 0 0 0 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 45
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        }
+      ]
+    },
+    "1985028150171727364": {
+      "flag": 0,
+      "PNAM": "1566418242350324181",
+      "NNAM": "13254119051640113484",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, %PCName. Now you and I will travel together. When we have arrived in the ashkhan's yurt at Zainab camp, we will speak further about my new bridegroom.",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; CHOICE 5\r\nAiFollowCell Player \"Zainab Camp, Ashkhan's Yurt\" 0 -33 366 -252 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "13254119051640113484": {
+      "flag": 0,
+      "PNAM": "1985028150171727364",
+      "NNAM": "35796573207898805",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you ready now for me to accompany you to Zainab camp?",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; followNow = 0; \r\nChoice, \"Yes, please accompany me to Zainab camp.\" 5, \"No, you should wait here for now.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 0
+        }
+      ]
+    },
+    "35796573207898805": {
+      "flag": 0,
+      "PNAM": "13254119051640113484",
+      "NNAM": "2382831711380321030",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, then. I will wait here for now.",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; CHOICE 4;\r\nAiWander 0 0 0 40 30 20 0 0 0 0 0 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2382831711380321030": {
+      "flag": 0,
+      "PNAM": "35796573207898805",
+      "NNAM": "3226218431914823096",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, %PCName. Now you and I will travel together. When we have arrived in the ashkhan's yurt at Zainab camp, we will speak further about my new bridegroom.",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; CHOICE 3; \r\nAiFollowCell Player \"Zainab Camp, Ashkhan's Yurt\" 0 -33 366 -252 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "3226218431914823096": {
+      "flag": 0,
+      "PNAM": "2382831711380321030",
+      "NNAM": "6609142221955829827",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We travel together to Zainab camp. When we arrive there, we will speak further about my new bridegroom. Do you wish me to continue accompanying you?",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; followNow = 1;\r\nChoice, \"Yes, please continue with me to Zainab camp.\" 3, \"No, you should wait here for now.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "6609142221955829827": {
+      "flag": 0,
+      "PNAM": "3226218431914823096",
+      "NNAM": "354021163010821605",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, %PCName. Now you and I will travel together. When we have arrived in the ashkhan's yurt at Zainab camp, we will speak further about my new bridegroom.",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; CHOICE 1; \r\nAiFollowCell Player \"Zainab Camp, Ashkhan's Yurt\" 0 -33 366 -252 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "354021163010821605": {
+      "flag": 0,
+      "PNAM": "6609142221955829827",
+      "NNAM": "1536914300137817921",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, then. I will wait here for now. When you are ready, come to me, and I will travel together with you to Zainab camp to meet my new bridegroom.",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; CHOICE 2\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1536914300137817921": {
+      "flag": 0,
+      "PNAM": "354021163010821605",
+      "NNAM": "2691292701868521581",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "But, first, didn't you have some presents for me?",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; CHOICE 1;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2691292701868521581": {
+      "flag": 0,
+      "PNAM": "1536914300137817921",
+      "NNAM": "27780318791387024597",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falura llervu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are we ready to travel together to Zainab camp? Do not worry if we must cross water, for I am an excellent swimmer. But take care to protect me from wild beasts and bandits, for I have not learned any of the arts of war. I do know a few spells, but they the spells of a household slave, and will probably be of little use if we are in danger. So. Shall we go now?",
+      "BNAM": "; Falura Llervu; Journal \"B3_ZainabBride\" >= 45; Journal \"B3_ZainabBride\" < 47 ; \r\nChoice, \"Yes, please accompany me to Zainab camp.\" 1, \"No, you should wait here for now.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        }
+      ]
+    },
+    "27780318791387024597": {
+      "flag": 0,
+      "PNAM": "2691292701868521581",
+      "NNAM": "1183240911993821101",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps some day, yes. For example, I would greatly wish to see the Ashlands and their peoples with my own eyes. But at present, my duties to the Morag Tong do not permit me to travel.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 20
+        }
+      ]
+    },
+    "1183240911993821101": {
+      "flag": 0,
+      "PNAM": "27780318791387024597",
+      "NNAM": "11390266152058014181",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, then. I will wait here for now.",
+      "BNAM": "AiWander 128 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "11390266152058014181": {
+      "flag": 0,
+      "PNAM": "1183240911993821101",
+      "NNAM": "23461218033190417363",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. I will follow you to Jobasha's Rare Books, and we will speak further there.",
+      "BNAM": ";troublesome thugs do NOT attack;\r\nAiFollowCell, Player, \"Vivec, Jobasha's Rare Books\", 0, 42, -120, -138 0\r\nJournal, \"A1_7HuleeyaInformant\", 18\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 15
+        }
+      ]
+    },
+    "23461218033190417363": {
+      "flag": 0,
+      "PNAM": "11390266152058014181",
+      "NNAM": "2010323127278002946",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. I will follow you to Jobasha's Rare Books, and we will speak further there.",
+      "BNAM": ";troublesome thugs attack;\r\nAiFollowCell, Player, \"Vivec, Jobasha's Rare Books\", 0, 42, -120, -138 0\r\nJournal, \"A1_7HuleeyaInformant\", 18\r\n\"Favel Gobor\"->ModFight 40\r\n\"Urven Davor\"->ModFight 40\r\n\"Ethys Savil\"->ModFight 40\r\n\"Favel Gobor\"->StartCombat Player\r\n\"Urven Davor\"->StartCombat Player\r\n\"Ethys Savil\"->StartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2010323127278002946": {
+      "flag": 0,
+      "PNAM": "23461218033190417363",
+      "NNAM": "178631673225958934",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Will you travel together with me to Jobasha's Rare Books? We leave the door to the Foreign Quarter Waistworks, turn right, west, continue down the hall and across the atrium on the same level, then follow the opposite corridor west on the other side of the atrium all the way to Jobasha's door.",
+      "BNAM": "Choice, \"Yes, please follow me to Jobasha's Rare Books.\", 1, \"No, you should wait here for now.\", 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "urven davor",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ethys savil",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "favel gobor",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 1
+        }
+      ]
+    },
+    "178631673225958934": {
+      "flag": 0,
+      "PNAM": "2010323127278002946",
+      "NNAM": "3323316951368928779",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Will you travel together with me to Jobasha's Rare Books? We leave the door to the Foreign Quarter Waistworks, turn right, west, continue down the hall and across the atrium on the same level, then follow the opposite corridor west on the other side of the atrium all the way to Jobasha's door. I must warn you: unless these troublesome fools are persuaded to behave like civilized beings, there may be fighting and killing if we try to travel together.",
+      "BNAM": "Choice, \"Yes, please follow me to Jobasha's Rare Books.\", 1, \"No, you should wait here for now.\", 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 1
+        }
+      ]
+    },
+    "3323316951368928779": {
+      "flag": 0,
+      "PNAM": "178631673225958934",
+      "NNAM": "12984269792024714940",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "itermerel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have no interest in seeing the rest of Vvardenfell, but I appreciate your offer.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_EscortScholar2",
+          "__TV": 70
+        }
+      ]
+    },
+    "12984269792024714940": {
+      "flag": 0,
+      "PNAM": "3323316951368928779",
+      "NNAM": "3148917781602626876",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "itermerel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lead the way to the Halfway Tavern in Pelagiad, %PCName.",
+      "BNAM": "AiFollowCell Player \"Pelagiad, Halfway Tavern\" 0 240 -250 0 0\r\nJournal MG_EscortScholar2 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3148917781602626876": {
+      "flag": 0,
+      "PNAM": "12984269792024714940",
+      "NNAM": "1439323809325864819",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "itermerel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait for you here.",
+      "BNAM": "AiWander 0 0 0 60 40 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1439323809325864819": {
+      "flag": 0,
+      "PNAM": "3148917781602626876",
+      "NNAM": "3064612252858131527",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "itermerel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "3064612252858131527": {
+      "flag": 0,
+      "PNAM": "1439323809325864819",
+      "NNAM": "29503274223246327451",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "itermerel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    },
+    "29503274223246327451": {
+      "flag": 0,
+      "PNAM": "3064612252858131527",
+      "NNAM": "1623231102222405384",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tenyeminwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Now I can return to Summerset Isle. I've had enough of these Telvanni.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_EscortScholar1",
+          "__TV": 80
+        }
+      ]
+    },
+    "1623231102222405384": {
+      "flag": 0,
+      "PNAM": "29503274223246327451",
+      "NNAM": "74518841203442282",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tenyeminwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for taking me to the Elf-Skerring. I was keeping these scrolls just in case something unfortunate happened. Since I have arrived safely, I feel you deserve them.",
+      "BNAM": "Journal MG_EscortScholar1 80\r\nRemoveItem sc_summonflameatronach 1\r\nRemoveItem sc_summonfrostatronach 1\r\nPlayer->AddItem sc_summonflameatronach 1\r\nPlayer->AddItem sc_summonfrostatronach 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_EscortScholar1",
+          "__TV": 70
+        }
+      ]
+    },
+    "74518841203442282": {
+      "flag": 0,
+      "PNAM": "1623231102222405384",
+      "NNAM": "25012416194811829",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tenyeminwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Take me to the Elf-Skerring at the Telvanni docks, %PCName.",
+      "BNAM": "AiFollow Player 0 142145 37470 205 0\r\nJournal MG_EscortScholar1 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "25012416194811829": {
+      "flag": 0,
+      "PNAM": "74518841203442282",
+      "NNAM": "9107208102074010578",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tenyeminwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait for you here. Please hurry, %PCName. I do not feel safe here in Sadrith Mora.",
+      "BNAM": "AiWander 128 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "9107208102074010578": {
+      "flag": 0,
+      "PNAM": "25012416194811829",
+      "NNAM": "1651129701143646435",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tenyeminwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "1651129701143646435": {
+      "flag": 0,
+      "PNAM": "9107208102074010578",
+      "NNAM": "183023550110328347",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tenyeminwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    },
+    "183023550110328347": {
+      "flag": 0,
+      "PNAM": "1651129701143646435",
+      "NNAM": "8439249722771914374",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for helping me in my pilgrimage to the Koal Cave. I will stay here awhile and travel back to Ald'ruhn with another pilgrim.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 70
+        }
+      ]
+    },
+    "8439249722771914374": {
+      "flag": 0,
+      "PNAM": "183023550110328347",
+      "NNAM": "1348515950573018551",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take me to the Koal Cave, %PCName.",
+      "BNAM": "AiFollow Player 0 0 0 0 0\r\nJournal HR_KoalCave 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1348515950573018551": {
+      "flag": 0,
+      "PNAM": "8439249722771914374",
+      "NNAM": "4093251013160023960",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Whatever you say. I will wait here.",
+      "BNAM": "AiWander 128 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "4093251013160023960": {
+      "flag": 0,
+      "PNAM": "1348515950573018551",
+      "NNAM": "23911266152119914918",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 10
+        }
+      ]
+    },
+    "23911266152119914918": {
+      "flag": 0,
+      "PNAM": "4093251013160023960",
+      "NNAM": "3035517853861815618",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you to the Koal Cave?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 10
+        }
+      ]
+    },
+    "3035517853861815618": {
+      "flag": 0,
+      "PNAM": "23911266152119914918",
+      "NNAM": "2042024395235434948",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varvur sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, but I must stay here in Sarethi Manor until I am feeling better.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_RescueSarethi",
+          "__TV": 70
+        }
+      ]
+    },
+    "2042024395235434948": {
+      "flag": 0,
+      "PNAM": "3035517853861815618",
+      "NNAM": "47893024350906253",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varvur sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take me to my father in Sarethi Manor.",
+      "BNAM": "AiFollow Player 0 0 0 0 0\r\nJournal HR_RescueSarethi 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "47893024350906253": {
+      "flag": 0,
+      "PNAM": "2042024395235434948",
+      "NNAM": "3225931509322028529",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varvur sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll wait right here.",
+      "BNAM": "AiWander 0 6 0 40 40 100 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3225931509322028529": {
+      "flag": 0,
+      "PNAM": "47893024350906253",
+      "NNAM": "31126280372782626968",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varvur sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "31126280372782626968": {
+      "flag": 0,
+      "PNAM": "3225931509322028529",
+      "NNAM": "18972989517597347",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varvur sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall we travel back to my father, Athyn Sarethi?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": null
+    },
+    "18972989517597347": {
+      "flag": 0,
+      "PNAM": "31126280372782626968",
+      "NNAM": "6691265682082915941",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teres arothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for guiding me back to Novor Drethan.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DissaplaMine",
+          "__TV": 70
+        }
+      ]
+    },
+    "6691265682082915941": {
+      "flag": 0,
+      "PNAM": "18972989517597347",
+      "NNAM": "285625330315418394",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teres arothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Guide me back to Novor Drethan so he knows I'm safe.",
+      "BNAM": ";AiFollow Player 0 2380 -56480 1487 0\r\nAiFollow Player 0 0 0 0 0\r\nJournal FG_DissaplaMine 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "285625330315418394": {
+      "flag": 0,
+      "PNAM": "6691265682082915941",
+      "NNAM": "20471149702765414293",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teres arothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait for you here.",
+      "BNAM": "AiWander 128 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "20471149702765414293": {
+      "flag": 0,
+      "PNAM": "285625330315418394",
+      "NNAM": "303056792971023918",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teres arothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "303056792971023918": {
+      "flag": 0,
+      "PNAM": "20471149702765414293",
+      "NNAM": "6456284481728923111",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teres arothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you ready to guide me back to Novor Drethan?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": null
+    },
+    "6456284481728923111": {
+      "flag": 0,
+      "PNAM": "303056792971023918",
+      "NNAM": "9473587057001458",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sondaale of shimmerene",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName, but I can make my own way from here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Telasero",
+          "__TV": 70
+        }
+      ]
+    },
+    "9473587057001458": {
+      "flag": 0,
+      "PNAM": "6456284481728923111",
+      "NNAM": "3186080982378213358",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sondaale of shimmerene",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get me out of here.",
+      "BNAM": ";AiFollow Player 0 76432 -52880 1385 0\r\nAiFollow Player 0 0 0 0 0\r\nJournal FG_Telasero 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3186080982378213358": {
+      "flag": 0,
+      "PNAM": "9473587057001458",
+      "NNAM": "317879906115849179",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sondaale of shimmerene",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait here until you think it is safe.",
+      "BNAM": "AiWander 128 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "317879906115849179": {
+      "flag": 0,
+      "PNAM": "3186080982378213358",
+      "NNAM": "9087203292266728231",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sondaale of shimmerene",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "9087203292266728231": {
+      "flag": 0,
+      "PNAM": "317879906115849179",
+      "NNAM": "9509103641617322860",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sondaale of shimmerene",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Can you guide me back outside?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": null
+    },
+    "9509103641617322860": {
+      "flag": 0,
+      "PNAM": "9087203292266728231",
+      "NNAM": "2686832383110910524",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarvyn faren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Not right now, I need to sell my goods here in Pelagiad. Thanks to you, everyone will know the name Tarvyn Faren as a trader who can reach his customers even with all the troubles for House Hlaalu.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EscortMerchant",
+          "__TV": 70
+        }
+      ]
+    },
+    "2686832383110910524": {
+      "flag": 0,
+      "PNAM": "9509103641617322860",
+      "NNAM": "2643027222215926988",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarvyn faren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take me to the Halfway Tavern in Pelagiad.",
+      "BNAM": "Journal HH_EscortMerchant 50\r\nAiFollow Player 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2643027222215926988": {
+      "flag": 0,
+      "PNAM": "2686832383110910524",
+      "NNAM": "219122411367810847",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarvyn faren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay. I will stay here.",
+      "BNAM": "AiWander 0 0 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "219122411367810847": {
+      "flag": 0,
+      "PNAM": "2643027222215926988",
+      "NNAM": "9012220871253825033",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarvyn faren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "9012220871253825033": {
+      "flag": 0,
+      "PNAM": "219122411367810847",
+      "NNAM": "3715320742321919715",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarvyn faren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Should I keep following you to the Halfway Tavern in Pelagiad?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    },
+    "3715320742321919715": {
+      "flag": 0,
+      "PNAM": "9012220871253825033",
+      "NNAM": "2043112900154498985",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vedelea othril",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "I will not leave unless the Telvanni necromancer is dead. Find Milyn Faram and kill him before he does something terrible.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "milyn faram",
+          "__TV": 0
+        }
+      ]
+    },
+    "2043112900154498985": {
+      "flag": 0,
+      "PNAM": "3715320742321919715",
+      "NNAM": "2984768891227327165",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vedelea othril",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "No, but thank you. I must stay here to help secure Odirniran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Odirniran",
+          "__TV": 70
+        }
+      ]
+    },
+    "2984768891227327165": {
+      "flag": 0,
+      "PNAM": "2043112900154498985",
+      "NNAM": "23233264252354326619",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vedelea othril",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Take me to my sister, Remasa Othril.",
+      "BNAM": "Journal HH_Odirniran 50\r\n;follow forever... distance check in script ends it\r\nAiFollow Player 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "23233264252354326619": {
+      "flag": 0,
+      "PNAM": "2984768891227327165",
+      "NNAM": "238811564256368047",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vedelea othril",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Whatever you say. I will stay here until it's safe.",
+      "BNAM": "AiWander 0 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "238811564256368047": {
+      "flag": 0,
+      "PNAM": "23233264252354326619",
+      "NNAM": "23300242451191923190",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vedelea othril",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "23300242451191923190": {
+      "flag": 0,
+      "PNAM": "238811564256368047",
+      "NNAM": "114010849325979619",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vedelea othril",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Shall we travel together to Remasa Othril? She must still be here in Odirniran.",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    },
+    "114010849325979619": {
+      "flag": 0,
+      "PNAM": "23300242451191923190",
+      "NNAM": "1098584716415213",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mathis dalobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Not right now, I have alot of work to do here. But thanks for getting me out of that tomb.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 70
+        }
+      ]
+    },
+    "1098584716415213": {
+      "flag": 0,
+      "PNAM": "114010849325979619",
+      "NNAM": "2153913622318016588",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mathis dalobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take me to the Maar Gan shrine.",
+      "BNAM": "AiFollow Player 0 0 0 0 0\r\nJournal HR_FindDalobar 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2153913622318016588": {
+      "flag": 0,
+      "PNAM": "1098584716415213",
+      "NNAM": "7552258662719223130",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mathis dalobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay. I'll stay right here.",
+      "BNAM": "AiWander 0 0 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "7552258662719223130": {
+      "flag": 0,
+      "PNAM": "2153913622318016588",
+      "NNAM": "362019832423011140",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mathis dalobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "362019832423011140": {
+      "flag": 0,
+      "PNAM": "7552258662719223130",
+      "NNAM": "1296970001038322361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mathis dalobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Can we travel together to Maar Gan?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": null
+    },
+    "1296970001038322361": {
+      "flag": 0,
+      "PNAM": "362019832423011140",
+      "NNAM": "31929212771069814158",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dandsa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I can find my own way back to Gnaar Mok. It's not a long swim once I've had a chance to rest a bit.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Damsel",
+          "__TV": 70
+        }
+      ]
+    },
+    "31929212771069814158": {
+      "flag": 0,
+      "PNAM": "1296970001038322361",
+      "NNAM": "18867793580671089",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dandsa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get me outside this cave, %PCName.",
+      "BNAM": "Journal IL_Damsel 50\r\nAiFollow Player 0 -52384 23184 16 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "18867793580671089": {
+      "flag": 0,
+      "PNAM": "31929212771069814158",
+      "NNAM": "272392803327388159",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dandsa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay. I'll stay right here until you come and get me.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "272392803327388159": {
+      "flag": 0,
+      "PNAM": "18867793580671089",
+      "NNAM": "20630731799031343",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dandsa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "20630731799031343": {
+      "flag": 0,
+      "PNAM": "272392803327388159",
+      "NNAM": "329142301511915266",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dandsa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you back outside this cave?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": null
+    },
+    "329142301511915266": {
+      "flag": 0,
+      "PNAM": "20630731799031343",
+      "NNAM": "91475302620620366",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No, but thank you. I will rest here and continue my pilgrimage when I can.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescuePilgrim",
+          "__TV": 70
+        }
+      ]
+    },
+    "91475302620620366": {
+      "flag": 0,
+      "PNAM": "329142301511915266",
+      "NNAM": "478057122101314892",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lead me to the Ald Velothi Outpost.",
+      "BNAM": "Journal IL_RescuePilgrim 50\r\n;AiFollow Player 0 -84592 124240 1306 0\r\nAiFollowCell, Player, \"Ald Velothi, Outpost\", 0, 775, -539, -99, 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescuePilgrim",
+          "__TV": 40
+        }
+      ]
+    },
+    "478057122101314892": {
+      "flag": 0,
+      "PNAM": "91475302620620366",
+      "NNAM": "31048145453256523695",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lead me to the Ald Velothi Outpost.",
+      "BNAM": "Journal IL_RescuePilgrim 50\r\n;AiFollow Player 0 -84592 124240 1306 0\r\nAiFollowCell, Player, \"Ald Velothi, Outpost\", 0, 775, -539, -99, 0 \r\n;below makes them attack if they're still around and you haven't paid the ransom\r\n\"abassel asserbassalit\"->SetFight 100\r\n\"rawia ashirbibi\"->SetFight 100\r\n\"kund assarnibani\"->SetFight 100\r\n\"abassel asserbassalit\"->StartCombat Player\r\n\"rawia ashirbibi\"->StartCombat Player\r\n\"kund assarnibani\"->StartCombat Player",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "31048145453256523695": {
+      "flag": 0,
+      "PNAM": "478057122101314892",
+      "NNAM": "8358278053261011575",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay. I'll stay right here until you come and get me.",
+      "BNAM": "AiWander 0 0 0 40 20 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "8358278053261011575": {
+      "flag": 0,
+      "PNAM": "31048145453256523695",
+      "NNAM": "18988219601446514284",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "18988219601446514284": {
+      "flag": 0,
+      "PNAM": "8358278053261011575",
+      "NNAM": "5140669844524802",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "abassel asserbassalit",
+          "__TV": 1
+        }
+      ]
+    },
+    "5140669844524802": {
+      "flag": 0,
+      "PNAM": "18988219601446514284",
+      "NNAM": "18759323652624525743",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescuePilgrim",
+          "__TV": 40
+        }
+      ]
+    },
+    "18759323652624525743": {
+      "flag": 0,
+      "PNAM": "5140669844524802",
+      "NNAM": "252421912230514163",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you? Abassel will try and kill me if I leave.",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    },
+    "252421912230514163": {
+      "flag": 0,
+      "PNAM": "18759323652624525743",
+      "NNAM": "11773104651570218359",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saprius entius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm staying here until Frald the White says it's safe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_ProtectEntius",
+          "__TV": 70
+        }
+      ]
+    },
+    "11773104651570218359": {
+      "flag": 0,
+      "PNAM": "252421912230514163",
+      "NNAM": "243218961920130935",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saprius entius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll follow you to Frald the White. Try and avoid the guards.",
+      "BNAM": "Journal IL_ProtectEntius 50\r\nAiFollowCell Player \"Ebonheart, Hawkmoth Legion Garrison\" 0 1040 2544 -288 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "243218961920130935": {
+      "flag": 0,
+      "PNAM": "11773104651570218359",
+      "NNAM": "10220982869522556",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saprius entius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll stay here until you think it's safe.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "10220982869522556": {
+      "flag": 0,
+      "PNAM": "243218961920130935",
+      "NNAM": "105082617822640163",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saprius entius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "105082617822640163": {
+      "flag": 0,
+      "PNAM": "10220982869522556",
+      "NNAM": "1258920092236577165",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saprius entius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to follow you back to Ebonheart?",
+      "BNAM": "Choice \"Follow me\" 1 \"Wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 0
+        }
+      ]
+    },
+    "1258920092236577165": {
+      "flag": 0,
+      "PNAM": "105082617822640163",
+      "NNAM": "3250722142527710766",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps, but not today. I must travel with Sterdecan until he passes me on to another. If all goes well, I will see my homeland again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TwinLamps3",
+          "__TV": 70
+        }
+      ]
+    },
+    "3250722142527710766": {
+      "flag": 0,
+      "PNAM": "1258920092236577165",
+      "NNAM": "16891238512691666",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will follow you. I must get to Sterdecan's Farm.",
+      "BNAM": "Journal HH_TwinLamps3 50\r\nAiFollow Player 0 34770 -38050 680 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16891238512691666": {
+      "flag": 0,
+      "PNAM": "3250722142527710766",
+      "NNAM": "682614364110283712",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will stay here until you tell me it is safe to go on.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "682614364110283712": {
+      "flag": 0,
+      "PNAM": "16891238512691666",
+      "NNAM": "1246856681164115499",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "1246856681164115499": {
+      "flag": 0,
+      "PNAM": "682614364110283712",
+      "NNAM": "7453196859731347",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall I follow you now?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    },
+    "7453196859731347": {
+      "flag": 0,
+      "PNAM": "1246856681164115499",
+      "NNAM": "21225215522144511604",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nevrasa dralor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Let's keep going.",
+      "BNAM": "\"Nevrasa Dralor\"->AiFollow Player 0,14879,-34134,925,0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21225215522144511604": {
+      "flag": 0,
+      "PNAM": "7453196859731347",
+      "NNAM": "14794179231106114941",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nevrasa dralor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll wait here then.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14794179231106114941": {
+      "flag": 0,
+      "PNAM": "21225215522144511604",
+      "NNAM": "87311827950332871",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nevrasa dralor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Should I continue to follow you to the Fields of Kummu?",
+      "BNAM": "Choice \"No, wait here.\" 1 \"Yes, let's keep going.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_WanderingPilgrim",
+          "__TV": 30
+        }
+      ]
+    },
+    "87311827950332871": {
+      "flag": 0,
+      "PNAM": "14794179231106114941",
+      "NNAM": "23051347573027433",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Rabinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Rabinna will follow.",
+      "BNAM": "\"Rabinna\"->AiFollowCell  Player \"Ebonheart, Argonian Mission\" 0 22 19 5 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 112
+        }
+      ]
+    },
+    "23051347573027433": {
+      "flag": 0,
+      "PNAM": "87311827950332871",
+      "NNAM": "1221315136394013378",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Rabinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Rabinna will follow.",
+      "BNAM": "\"Rabinna\"->AiFollowCell  Player \"Ebonheart, Argonian Mission\" 0 22 19 5 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 95
+        }
+      ]
+    },
+    "1221315136394013378": {
+      "flag": 0,
+      "PNAM": "23051347573027433",
+      "NNAM": "461884422941920145",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Rabinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "461884422941920145": {
+      "flag": 0,
+      "PNAM": "1221315136394013378",
+      "NNAM": "16666233901946831342",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Rabinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lead me where you will.",
+      "BNAM": "Choice \"Wait here.\" 1 \"Follow me.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 112
+        }
+      ]
+    },
+    "16666233901946831342": {
+      "flag": 0,
+      "PNAM": "461884422941920145",
+      "NNAM": "14658326922789722315",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Rabinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lead me where you will.",
+      "BNAM": "Choice \"Wait here.\" 1 \"Follow me.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 95
+        }
+      ]
+    },
+    "14658326922789722315": {
+      "flag": 0,
+      "PNAM": "16666233901946831342",
+      "NNAM": "63751901886132503",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "malexa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Please. Let's find my husband.",
+      "BNAM": "\"Malexa\"->AiFollow Player 0, -57520,125104,1124, 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_CultistVictim",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "63751901886132503": {
+      "flag": 0,
+      "PNAM": "14658326922789722315",
+      "NNAM": "133827980219148669",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "malexa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll wait here for you. But hurry!",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_CultistVictim",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "133827980219148669": {
+      "flag": 0,
+      "PNAM": "63751901886132503",
+      "NNAM": "2660818383257230121",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "malexa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I must find my beloved Sason.",
+      "BNAM": "Choice \"Wait here. I'll return for you.\" 1 \"Let's get moving.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_CultistVictim",
+          "__TV": 50
+        }
+      ]
+    },
+    "2660818383257230121": {
+      "flag": 0,
+      "PNAM": "133827980219148669",
+      "NNAM": "2574524558130411159",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Please, we've got to get to that place. Please hurry.",
+      "BNAM": "AiFollow Player 0,35350,-37899,-673,0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2574524558130411159": {
+      "flag": 0,
+      "PNAM": "2660818383257230121",
+      "NNAM": "13347299732378215248",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, powerful one. I, the poor slave, will wait here for you.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "13347299732378215248": {
+      "flag": 0,
+      "PNAM": "2574524558130411159",
+      "NNAM": "7546294012327227086",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall we continue on? I must get to freedom.",
+      "BNAM": "Choice \"No. Wait here.\" 1 \"Yes, let's get moving.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_FakeSlave",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_FakeSlave",
+          "__TV": 45
+        }
+      ]
+    },
+    "7546294012327227086": {
+      "flag": 0,
+      "PNAM": "13347299732378215248",
+      "NNAM": "178312907675010500",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teris raledran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Let's be on our way.",
+      "BNAM": "\"Teris Raledran\"->AiFollow Player 0,0,0,0,0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "178312907675010500": {
+      "flag": 0,
+      "PNAM": "7546294012327227086",
+      "NNAM": "12809295372320820842",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teris raledran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you think it's wise. I'll wait here for you.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "12809295372320820842": {
+      "flag": 0,
+      "PNAM": "178312907675010500",
+      "NNAM": "16809297531399320127",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teris raledran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall we continue on?",
+      "BNAM": "Choice \"You should wait here.\" 1 \"Yes, let's go.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_RichTrader",
+          "__TV": 80
+        }
+      ]
+    },
+    "16809297531399320127": {
+      "flag": 0,
+      "PNAM": "12809295372320820842",
+      "NNAM": "254096044339517071",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teris raledran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall we continue on?",
+      "BNAM": "Choice \"You should wait here.\" 1 \"Yes, let's go.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_RichTrader",
+          "__TV": 20
+        }
+      ]
+    },
+    "254096044339517071": {
+      "flag": 0,
+      "PNAM": "16809297531399320127",
+      "NNAM": "1167022926628917554",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. I have duties I must attend to, and then I must find a way to reach my father. Until then, please deliver my locket to my father, Arethan Mandas.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_RansomMandas",
+          "__TV": 70
+        }
+      ]
+    },
+    "1167022926628917554": {
+      "flag": 0,
+      "PNAM": "254096044339517071",
+      "NNAM": "9598138081850730297",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. We will try and escape. Take me outside this tower, %PCName.",
+      "BNAM": "Journal HR_RansomMandas 50\r\nAiFollow Player 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "9598138081850730297": {
+      "flag": 0,
+      "PNAM": "1167022926628917554",
+      "NNAM": "5256231592833727221",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait for you here.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "5256231592833727221": {
+      "flag": 0,
+      "PNAM": "9598138081850730297",
+      "NNAM": "24127252215345590",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here?",
+      "BNAM": "Choice \"No, keep folllowing me.\" 1 \"Yes, wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "24127252215345590": {
+      "flag": 0,
+      "PNAM": "5256231592833727221",
+      "NNAM": "83678322445122562",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall we try and escape?",
+      "BNAM": "Choice \"Yes, folllow me.\" 1 \"No, wait here.\" 2",
+      "SCVR": null
+    },
+    "83678322445122562": {
+      "flag": 0,
+      "PNAM": "24127252215345590",
+      "NNAM": "7564184892099431787",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nartise arobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for rescuing me. I will take a ship back to Ald'ruhn. I am sure my father, Miner Arobar, will reward you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_ArobarKidnap",
+          "__TV": 70
+        }
+      ]
+    },
+    "7564184892099431787": {
+      "flag": 0,
+      "PNAM": "83678322445122562",
+      "NNAM": "16721250622073629515",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nartise arobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take me to the Telvanni docks, %PCName. Once I'm near a ship out of here, I'll feel alot safer.",
+      "BNAM": "Journal HR_ArobarKidnap 50\r\nAiFollow Player 0 142145 37470 205 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16721250622073629515": {
+      "flag": 0,
+      "PNAM": "7564184892099431787",
+      "NNAM": "2004991511984523450",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nartise arobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I shall wait for you here.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2004991511984523450": {
+      "flag": 0,
+      "PNAM": "16721250622073629515",
+      "NNAM": "23359297413114422156",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nartise arobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We must get to the Telvanni docks. Only then will I feel safe.",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "23359297413114422156": {
+      "flag": 0,
+      "PNAM": "2004991511984523450",
+      "NNAM": "15458161542176411478",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nartise arobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, get me out of here. My father, Miner Arobar, will reward you.",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    },
+    "15458161542176411478": {
+      "flag": 0,
+      "PNAM": "23359297413114422156",
+      "NNAM": "18048274422048718606",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "j_saddha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name is safe now. %Name thanks %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TwinLamps1",
+          "__TV": 70
+        }
+      ]
+    },
+    "18048274422048718606": {
+      "flag": 0,
+      "PNAM": "15458161542176411478",
+      "NNAM": "10928310201780424000",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "j_saddha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name follows %PCName. Watch out for the slavehunters.",
+      "BNAM": "Journal HH_TwinLamps1 50\r\nAiFollow Player 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "10928310201780424000": {
+      "flag": 0,
+      "PNAM": "18048274422048718606",
+      "NNAM": "2207218177182389231",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "j_saddha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name waits for %PCName.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2207218177182389231": {
+      "flag": 0,
+      "PNAM": "10928310201780424000",
+      "NNAM": "1047323760231364115",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "j_saddha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are there slavehunters near? Should %Name wait?",
+      "BNAM": "Choice \"No, keep following me.\" 1 \"Yes, wait here a moment.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "1047323760231364115": {
+      "flag": 0,
+      "PNAM": "2207218177182389231",
+      "NNAM": "59272914791898546",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "j_saddha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If slavehunters are there, they see %Name and kill %Name. You sure you want %Name to follow %PCName?",
+      "BNAM": "Choice \"Yes, follow me.\" 1 \"No, not yet.\" 2",
+      "SCVR": null
+    },
+    "59272914791898546": {
+      "flag": 0,
+      "PNAM": "1047323760231364115",
+      "NNAM": "155892467090174998",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am here at the Mabrigash camp. We have no reason to travel together.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 30
+        }
+      ]
+    },
+    "155892467090174998": {
+      "flag": 0,
+      "PNAM": "59272914791898546",
+      "NNAM": "3028275243231930558",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I shall follow you to the Mabrigash camp.",
+      "BNAM": "AiFollow Player 0 85344 -3536 640 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3028275243231930558": {
+      "flag": 0,
+      "PNAM": "155892467090174998",
+      "NNAM": "1231114153109727918",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait here. But do not test my patience.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1231114153109727918": {
+      "flag": 0,
+      "PNAM": "3028275243231930558",
+      "NNAM": "1748425214119776640",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, we travel to the Mabrigash camp.",
+      "BNAM": "Choice \"Keep following.\" 1 \"Wait here a moment.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "1748425214119776640": {
+      "flag": 0,
+      "PNAM": "1231114153109727918",
+      "NNAM": "17887102541567525512",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We should resume our travels?",
+      "BNAM": "Choice \"Yes, follow me.\" 1 \"No, nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 25
+        }
+      ]
+    },
+    "10200169763196329114": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "18372162080003293",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urvel dulni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Really? Excellent! I mean...I wouldn't want to get in the way. You understand. I'll guard your back from here.",
+      "BNAM": "\"urvel dulni\"->AIWander 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "18372162080003293": {
+      "flag": 0,
+      "PNAM": "10200169763196329114",
+      "NNAM": "2091021750732311715",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urvel dulni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh...if you insist. I mean, if you're completely sure....",
+      "BNAM": "\"urvel dulni\"->AIFollow Player 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2091021750732311715": {
+      "flag": 0,
+      "PNAM": "18372162080003293",
+      "NNAM": "1627714415913516768",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urvel dulni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to stay with you? I'd be willing to wait here. I m-mean, it's up to you.",
+      "BNAM": "Choice \"Stay with me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_ShrineDead",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_ShrineDead",
+          "__TV": 100
+        }
+      ]
+    },
+    "311145106599129747": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "851395041425131174",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I better stay here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Smugglers",
+          "__TV": 100
+        }
+      ]
+    },
+    "851395041425131174": {
+      "flag": 0,
+      "PNAM": "311145106599129747",
+      "NNAM": "32657478285029329",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Not a bright choice, if you ask me.",
+      "BNAM": "AiWander 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "artoriachosen",
+          "__TV": 1
+        }
+      ]
+    },
+    "32657478285029329": {
+      "flag": 0,
+      "PNAM": "851395041425131174",
+      "NNAM": "2702731522608629266",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good plan.",
+      "BNAM": "AiFollow Player 0 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "artoriachosen",
+          "__TV": 1
+        }
+      ]
+    },
+    "2702731522608629266": {
+      "flag": 0,
+      "PNAM": "32657478285029329",
+      "NNAM": "26239323941534219976",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want that we keep going together? Probably a good idea.",
+      "BNAM": "Choice \"Yes, we should.\" 1 \"No. Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Smugglers",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "artoriachosen",
+          "__TV": 1
+        }
+      ]
+    },
+    "26239323941534219976": {
+      "flag": 0,
+      "PNAM": "2702731522608629266",
+      "NNAM": "2164101872666029089",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is best if I remain here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Smugglers",
+          "__TV": 100
+        }
+      ]
+    },
+    "2164101872666029089": {
+      "flag": 0,
+      "PNAM": "26239323941534219976",
+      "NNAM": "27540163621719911279",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you insist.",
+      "BNAM": "AiWander 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "luciuschosen",
+          "__TV": 1
+        }
+      ]
+    },
+    "27540163621719911279": {
+      "flag": 0,
+      "PNAM": "2164101872666029089",
+      "NNAM": "311882790128006716",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent.",
+      "BNAM": "AiFollow Player 0 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "luciuschosen",
+          "__TV": 1
+        }
+      ]
+    },
+    "311882790128006716": {
+      "flag": 0,
+      "PNAM": "27540163621719911279",
+      "NNAM": "1627714415913516768",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We should continue to travel together, should we not?",
+      "BNAM": "Choice \"Yes, we should.\" 1 \"No. Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Smugglers",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "luciuschosen",
+          "__TV": 1
+        }
+      ]
+    },
+    "17887102541567525512": {
+      "flag": 0,
+      "PNAM": "1748425214119776640",
+      "NNAM": "1269411373317084",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mirisa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am already safe and sound here at the shrine, %PCClass, but thank you for your concern.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Missionary",
+          "__TV": 100
+        }
+      ]
+    },
+    "1269411373317084": {
+      "flag": 0,
+      "PNAM": "17887102541567525512",
+      "NNAM": "16110247942360124941",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mirisa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's go, %PCName!  You lead on, and I'll follow you back to the Imperial Cult Shrine at Fort Frostmoth!",
+      "BNAM": "AiFollow Player 0 0 0 0 0\r\nJournal BM_Missionary 60",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16110247942360124941": {
+      "flag": 0,
+      "PNAM": "1269411373317084",
+      "NNAM": "101781612376816312",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mirisa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right, %PCName.  I'll wait right here.",
+      "BNAM": "AiWander 0 0 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "101781612376816312": {
+      "flag": 0,
+      "PNAM": "16110247942360124941",
+      "NNAM": "6045309411483418683",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mirisa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want me to wait here, %PCName?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "6045309411483418683": {
+      "flag": 0,
+      "PNAM": "101781612376816312",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mirisa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Will you escort me back to the Imperial Cult Shrine at Fort Frostmoth?",
+      "BNAM": "Choice \"Follow me.\" 1 \"Wait here.\" 2",
+      "SCVR": null
+    }
+  }
+}

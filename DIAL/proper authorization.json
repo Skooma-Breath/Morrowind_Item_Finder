@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "30608182281366221362": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "24745743588027036",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "grand inquisitor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is a very curious tale indeed. I've never heard of such a thing. But go ahead, as long as you're here. I'll give you my key, but you'll need to get the cell key from the desk in the prison.",
+      "BNAM": "RemoveItem key_ministry_sectors 1\r\nPlayer->AddItem key_ministry_sectors 1\r\nJournal A2_4_MiloPrisonSafe 100\r\nStartScript PrisonSafe",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "indoril helmet",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "indoril cuirass",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "indoril pauldron left",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "indoril pauldron right",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "A",
+          "details": "RX",
+          "operator": "0",
+          "identifier": "Argonian",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "A",
+          "details": "RX",
+          "operator": "0",
+          "identifier": "Khajiit",
+          "__TV": 1
+        }
+      ]
+    },
+    "24745743588027036": {
+      "flag": 0,
+      "PNAM": "30608182281366221362",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "grand inquisitor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Am I supposed to believe such a tale? GUARDS! SEIZE HIM!",
+      "BNAM": "SetDisposition 0\r\nSetFight 100\r\nGoodbye",
+      "SCVR": null
+    }
+  }
+}

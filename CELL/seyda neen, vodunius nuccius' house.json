@@ -1,0 +1,696 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Seyda Neen, Vodunius Nuccius' House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,60,60,0],
+    "sunlight": [80,60,20,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-119741": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_door_01",
+      "DATA": [48,-240,-16,0,0,3.1415927410125732]
+    },
+    "0-119744": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01",
+      "DATA": [42.70899963378906,-39.24700164794922,85.90599822998047,0,0,0]
+    },
+    "0-119748": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_cupboard_wood_bowls",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [21.647640228271484,127.86788940429688,1.47660231590271,0,0,0]
+    },
+    "0-119750": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [0.4377877712249756,122.43375396728516,45.48735046386719,0,0,0.10000000149011612]
+    },
+    "0-119751": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 1.340000033378601,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-162.56903076171875,-80.7572250366211,-134.85438537597656,0,0,4.412389278411865]
+    },
+    "0-119752": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.4000000953674316,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-118.31948852539062,-31.762619018554688,-132.91639709472656,0,0,4.899999141693115]
+    },
+    "0-119753": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.4100000858306885,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-170.38433837890625,-208.0540008544922,-115.65850830078125,0,0,5.683186054229736]
+    },
+    "0-119754": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "XSCL": 1.1299999952316284,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-95.70600891113281,-211.43028259277344,-117.76914978027344,0,0,2.6561944484710693]
+    },
+    "0-119755": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "XSCL": 1.3200000524520874,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-135.7372283935547,-209.4616241455078,-110.21007537841797,0,0.30000001192092896,3.1415927410125732]
+    },
+    "0-119759": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-2.62648868560791,89.40206146240234,-109.81317138671875,0,0,0]
+    },
+    "0-119760": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-23.94179916381836,103.1386947631836,-60.912113189697266,0,0,6.08318567276001]
+    },
+    "0-119761": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-22.17233657836914,82.57006072998047,-71.2420883178711,0,0,0]
+    },
+    "0-119762": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [187.90028381347656,-202.22625732421875,-109.81317138671875,0,0,0]
+    },
+    "0-119763": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [170.76210021972656,-13.56627082824707,-55.08974838256836,0,0,0.30000001192092896]
+    },
+    "0-119764": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [129.12738037109375,31.15761375427246,-69.93380737304688,0,0,0]
+    },
+    "0-119768": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [143.89198303222656,5.314085006713867,-64.84578704833984,0,0,0]
+    },
+    "0-119769": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_02_64",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [159.25184631347656,63.4428596496582,-54.61293411254883,0,0,5.883185863494873]
+    },
+    "0-119770": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl_01",
+      "XSCL": 1.3300000429153442,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [171.15682983398438,38.12969207763672,-67.9442367553711,0,0,5.783185958862305]
+    },
+    "0-119771": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [154.7295379638672,-5.720707893371582,-71.4168701171875,0,0,5.983185768127441]
+    },
+    "0-119774": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-169.70651245117188,-158.3822784423828,-119.63821411132812,0,0,0.9999998807907104]
+    },
+    "0-119775": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2600001096725464,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-141.4822998046875,79.12834167480469,-85.77416229248047,0,0,1.5707963705062866]
+    },
+    "0-119739": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_house_01",
+      "DATA": [48,-96,112,0,0,0]
+    },
+    "0-119742": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [-122.78662872314453,-262.09466552734375,12.920564651489258,0,0,3.1415927410125732]
+    },
+    "0-119745": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_table_01",
+      "DATA": [154.38177490234375,32.31432342529297,-104.21726989746094,0,0,4.71238899230957]
+    },
+    "0-119746": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [95.015380859375,29.568540573120117,-124.119873046875,0,0,4.71238899230957]
+    },
+    "0-119747": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [215.54432678222656,40.4365234375,-124.119873046875,0,0,4.71238899230957]
+    },
+    "0-119772": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "XSCL": 0.7200000286102295,
+      "DATA": [292.7932434082031,-58.012847900390625,-16.518625259399414,0,0,1.5707963705062866]
+    },
+    "0-119740": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_doorf_01",
+      "DATA": [32,-256,-32,0,0,0]
+    },
+    "0-321510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bed_03",
+      "ANAM": "vodunius nuccius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-143.44107055664062,9.001847267150879,-113.0243148803711,0,0,4.71238899230957]
+    },
+    "0-321511": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [182.7513427734375,0.22667145729064941,-58.68589782714844,0,0,5.583186149597168]
+    },
+    "0-321512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [129.55563354492188,48.943904876708984,-70.46884155273438,0,0,6.08318567276001]
+    },
+    "0-321513": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [131.48785400390625,13.928688049316406,-70.90830993652344,0,0,0]
+    },
+    "0-321514": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [125.02530670166016,9.103845596313477,-70.75047302246094,0,0,0.10000000149011612]
+    },
+    "0-321515": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_broom_01",
+      "XSCL": 1.25,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-49.04594802856445,115.77318572998047,-77.0621566772461,0.20000000298023224,0,0]
+    },
+    "0-321516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-71.21844482421875,80.00515747070312,-124.0213394165039,0,0,4.083186149597168]
+    },
+    "0-321517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Wood_Bowl_05",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [5.291598320007324,102.85368347167969,-71.99866485595703,0,0,0.6000000238418579]
+    },
+    "0-321518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "XSCL": 1.690000057220459,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1.1046706438064575,77.40620422363281,-77.6065673828125,0,0,1.600000262260437]
+    },
+    "0-321519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "XSCL": 0.7700000405311584,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-8.385550498962402,75.03971862792969,-74.66915130615234,0,0,4.099999904632568]
+    },
+    "0-321520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [2.7428665161132812,79.515625,-74.17901611328125,0,0,0.6000000238418579]
+    },
+    "0-321521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "XSCL": 1.5100001096725464,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-3.6982665061950684,102.73101043701172,-68.91773986816406,6.08318567276001,5.783185958862305,0]
+    },
+    "0-321522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-10.29775619506836,116.93486785888672,45.48735046386719,0,0,0.10000000149011612]
+    },
+    "0-321523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_07",
+      "XSCL": 1.0500000715255737,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [47.699588775634766,125.32613372802734,39.663047790527344,5.1831865310668945,0,1.100000023841858]
+    },
+    "0-321524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_07",
+      "XSCL": 1.0500000715255737,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [19.922019958496094,125.32613372802734,39.663047790527344,5.1831865310668945,0,5.583186149597168]
+    },
+    "0-321525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_01",
+      "DATA": [154.09068298339844,121.96587371826172,81.44503784179688,0,0,3.1415927410125732]
+    },
+    "0-321526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_crate_lid_01",
+      "DATA": [48.42793273925781,90.92566680908203,-111.37271118164062,0,5.212388515472412,0]
+    },
+    "0-321527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [249.0546112060547,-200.3878936767578,-108.44236755371094,0,0,0]
+    },
+    "0-321528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Com_Planter",
+      "XSCL": 0.6500000357627869,
+      "DATA": [185.00201416015625,-202.0899200439453,-66.46572875976562,0,0,0]
+    },
+    "0-321529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_fern_04",
+      "XSCL": 0.5800000429153442,
+      "DATA": [184.3098907470703,-202.60130310058594,-43.6919059753418,0,0,5.883185863494873]
+    },
+    "0-321530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_11",
+      "DATA": [252.66000366210938,-208.47999572753906,-58.24599838256836,0,0,0.7993608117103577]
+    },
+    "0-321531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_03",
+      "DATA": [291.5582580566406,37.45606994628906,80.40760040283203,0,0,4.71238899230957]
+    },
+    "0-321532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_03",
+      "DATA": [-109.99544525146484,121.89395141601562,80.40760040283203,0,0,3.1415927410125732]
+    },
+    "0-321533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_03",
+      "DATA": [291.5582580566406,-154.4413604736328,80.40760040283203,0,0,4.71238899230957]
+    },
+    "0-321534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_03",
+      "DATA": [189.5336151123047,-245.7968292236328,80.40760040283203,0,0,0]
+    },
+    "0-321535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_03",
+      "DATA": [-205.8568878173828,-150.1749267578125,80.40760040283203,0,0,1.5707963705062866]
+    },
+    "0-321536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_03",
+      "DATA": [-205.8568878173828,32.15813064575195,80.40760040283203,0,0,1.5707963705062866]
+    },
+    "0-321537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.1400001049041748,
+      "DATA": [105.41510009765625,-60.72374725341797,-142.59210205078125,0,0,0]
+    },
+    "0-321540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [-130.78445434570312,-166.0098876953125,-127.73888397216797,0,0,5.883185863494873]
+    },
+    "0-321541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_05_64",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-130.10842895507812,-167.52536010742188,-102.50791931152344,0,0,0]
+    },
+    "0-322121": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-83.79867553710938,-447.8602294921875,-59.08001708984375,0,0,4.883186340332031]
+    },
+    "0-119756": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "XSCL": 1.28000009059906,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [121.76100158691406,-206.43099975585938,-96.68800354003906,0,0,2.069960594177246]
+    },
+    "0-330432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [-190.96669006347656,-227.35865783691406,-112.86990356445312,0,0,0]
+    },
+    "0-330433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [-193.08493041992188,113.78926086425781,-143.33871459960938,0,0,0]
+    },
+    "0-330434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [267.8084411621094,103.36431884765625,-107.73640441894531,0,0,0]
+    },
+    "0-330435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [263.714111328125,-240.82574462890625,-157.95140075683594,0,0,0]
+    },
+    "0-330436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_12_Off",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [287.9311828613281,-83.8697738647461,2.433856725692749,0,0,3.2831854820251465]
+    },
+    "0-330437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_12_Off",
+      "ANAM": "vodunius nuccius",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [287.755615234375,-31.33373260498047,2.433856725692749,0,0,2.4831857681274414]
+    },
+    "0-119773": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_silverwa",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "vodunius nuccius",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 20,
+      "DATA": [288.0069885253906,-57.47600173950195,0.02199999988079071,0,0,1.5707963705062866]
+    }
+  }
+}

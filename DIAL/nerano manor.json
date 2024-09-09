@@ -1,0 +1,414 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1627714415913516768": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "16858177242171622480",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi hears you broke our agreement. Habasi does not want to speak with you now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16858177242171622480": {
+      "flag": 0,
+      "PNAM": "1627714415913516768",
+      "NNAM": "1936012923220825898",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sovor trandel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's where I work. For a small consideration, I might...hey! Where's my key? I had it here a minute ago....",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_neranomanor",
+          "__TV": 0
+        }
+      ]
+    },
+    "1936012923220825898": {
+      "flag": 0,
+      "PNAM": "16858177242171622480",
+      "NNAM": "3701102661900723915",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi has the key. You know this. Why ask Habasi more about the key?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_ManorKey",
+          "__TV": 100
+        }
+      ]
+    },
+    "3701102661900723915": {
+      "flag": 0,
+      "PNAM": "1936012923220825898",
+      "NNAM": "3093310665295110916",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi likes this key, yes, but Habasi hears that Ondres Nerano is dead. This makes Habasi's job very hard and Habasi does not want to pay you.",
+      "BNAM": "Journal TG_ManorKey 100\r\nPlayer->RemoveItem key_neranomanor 1\r\nAddItem key_neranomanor 1\r\nModPCFacRep 5 \"Thieves Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "ondres nerano",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_neranomanor",
+          "__TV": 0
+        }
+      ]
+    },
+    "3093310665295110916": {
+      "flag": 0,
+      "PNAM": "3701102661900723915",
+      "NNAM": "24830105101884724425",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, Habasi likes this key very much. Habasi pays you well for this key.",
+      "BNAM": "Journal TG_ManorKey 100\r\nPlayer->RemoveItem key_neranomanor 1\r\nAddItem key_neranomanor 1\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_neranomanor",
+          "__TV": 0
+        }
+      ]
+    },
+    "24830105101884724425": {
+      "flag": 0,
+      "PNAM": "3093310665295110916",
+      "NNAM": "8710119412041621762",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi sees no key. Bring the key to Habasi.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "8710119412041621762": {
+      "flag": 0,
+      "PNAM": "24830105101884724425",
+      "NNAM": "10450111472907632720",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi is no patient clan mother. Bring the key to Habasi.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "10450111472907632720": {
+      "flag": 0,
+      "PNAM": "8710119412041621762",
+      "NNAM": "1929258294129219",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You... gave the key back to Ondres Nerano? Habasi asks why did you do this thing? You must get the key back from Ondres Nerano.",
+      "BNAM": "Choice \"I have an extra key. Here.\" 1 \"Okay.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_ManorKey",
+          "__TV": 70
+        }
+      ]
+    },
+    "1929258294129219": {
+      "flag": 0,
+      "PNAM": "10450111472907632720",
+      "NNAM": "22041254742844331183",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "You have a key for Habasi?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No, nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_ManorKey",
+          "__TV": 10
+        }
+      ]
+    },
+    "22041254742844331183": {
+      "flag": 0,
+      "PNAM": "1929258294129219",
+      "NNAM": "31884107962239918089",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Habasi wants the key to Nerano Manor. Downstairs Manors are rarely locked, but Habasi wants to go upstairs secretly. Who has the key? Ondres Nerano has a key. Habasi thinks Nerano's servant, Sovor Trandel at the Council Club, has a key.",
+      "BNAM": "Journal TG_ManorKey 10",
+      "SCVR": null
+    },
+    "31884107962239918089": {
+      "flag": 0,
+      "PNAM": "22041254742844331183",
+      "NNAM": "2113329412389429573",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sovor trandel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just don't tell Ondres Nerano where you got the key.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_ManorKey",
+          "__TV": 50
+        }
+      ]
+    },
+    "2113329412389429573": {
+      "flag": 0,
+      "PNAM": "31884107962239918089",
+      "NNAM": "1282555263116622708",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sovor trandel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's where I work. For a small consideration, I might tell you a bit more.",
+      "BNAM": "Journal TG_ManorKey 30",
+      "SCVR": null
+    },
+    "1282555263116622708": {
+      "flag": 0,
+      "PNAM": "2113329412389429573",
+      "NNAM": "86132453257011435",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sovor trandel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's where I work.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "86132453257011435": {
+      "flag": 0,
+      "PNAM": "1282555263116622708",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is Nerano Manor. Can I do something for you? Why are you here anyway?",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

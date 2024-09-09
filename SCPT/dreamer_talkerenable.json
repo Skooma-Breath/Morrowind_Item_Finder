@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 66,
+    "local_var_size": 12
+  },
+  "SCTX": "begin dreamer_talkerEnable\r\n\r\nshort test\r\nShort NoLore\r\n\r\nSet test to GetJournalIndex A2_2_6thHouse\r\n\r\nif ( GetDisabled == 0 )\r\n\tReturn\r\nendif\r\n\r\nif ( test == 50 )\r\n\tEnable\r\n\tReturn\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "test",
+    "NoLore"
+  ],
+  "SCDT": [5,1,115,1,0,21,32,88,205,16,32,100,13,65,50,95,50,95,54,116,104,72,111,117,115,101,0,6,1,1,9,32,88,220,16,32,61,61,32,48,36,1,9,1,6,1,2,10,32,115,1,0,32,61,61,32,53,48,218,16,36,1,9,1,1,1]
+}

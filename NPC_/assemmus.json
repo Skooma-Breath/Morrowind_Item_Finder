@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Scout",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_22",
+  "MODL": null,
+  "FNAM": "Assemmus",
+  "SCRI": "ErabenimsunKill",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel katana"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_e"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 90,
+    "magicka": 94,
+    "fatigue": 204,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [51,47,37,58,71,58,34,40],
+    "skills": [44,14,44,14,14,49,14,14,49,6,16,21,6,6,11,6,21,21,6,36,6,26,16,26,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

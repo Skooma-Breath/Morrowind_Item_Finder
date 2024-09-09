@@ -1,0 +1,70 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Steam_Centurions.NIF",
+  "FLAG": 2120,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 18,
+    "attributes": [75,75,75,75,12,75,75,75],
+    "health": 280,
+    "magicka": 60,
+    "fatigue": 700,
+    "soul_strength": 0,
+    "combat_skill": 70,
+    "magic_skill": 100,
+    "stealth_skill": 40,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 0,
+    "alarm": 60,
+    "flags": 0
+  },
+  "CNAM": "centurion_steam",
+  "FNAM": "Steam Guardian",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ingred_scrap_metal_01"
+    },
+    {
+      "count": 1,
+      "name": "random_scrap_metal"
+    },
+    {
+      "count": 1,
+      "name": "key_Mudan_Dragon"
+    }
+  ],
+  "NPCS": [
+    "resist frost_75",
+    "resist poison_75",
+    "resist shock_75",
+    "resist fire_75"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "position": [826,-899,33]
+    },
+    {
+      "position": [-535,-854,33]
+    },
+    {
+      "position": [-560,-248,33]
+    },
+    {
+      "position": [826,-251,33]
+    }
+  ]
+}

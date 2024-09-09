@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Wolf_white.NIF",
+  "FLAG": 74,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [110,50,50,60,60,50,50,50],
+    "health": 200,
+    "magicka": 50,
+    "fatigue": 200,
+    "soul_strength": 50,
+    "combat_skill": 50,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 10,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_wolf_grey",
+  "FNAM": "Snow Wolf",
+  "SCRI": null,
+  "XSCL": 1.4000000953674316,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "ingred_snowwolf_pelt_unique"
+    }
+  ],
+  "NPCS": [
+    "snowshield",
+    "frostbite",
+    "weakness fire_50"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [10,20,20,30,20,0,0,0]
+    }
+  ]
+}

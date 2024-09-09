@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\MineScrib.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 1,
+    "attributes": [20,30,0,20,13,30,30,30],
+    "health": 8,
+    "magicka": 12,
+    "fatigue": 300,
+    "soul_strength": 10,
+    "combat_skill": 30,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,2],
+      [1,2],
+      [1,2]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 50,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": null,
+  "FNAM": "Scrib",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_scrib_jelly"
+    }
+  ],
+  "NPCS": [
+    "scrib_paralysis"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

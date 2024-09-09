@@ -1,0 +1,262 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2681832241930516940": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "234241585221691752",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "korst wind-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have completed the Ritual of the Gifts!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Stones",
+          "__TV": 80
+        }
+      ]
+    },
+    "234241585221691752": {
+      "flag": 0,
+      "PNAM": "2681832241930516940",
+      "NNAM": "100445432127576055",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "korst wind-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are to perform the Ritual of the Gifts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Stones",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Stones",
+          "__TV": 80
+        }
+      ]
+    },
+    "100445432127576055": {
+      "flag": 0,
+      "PNAM": "234241585221691752",
+      "NNAM": "20339131302250813382",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "korst wind-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Heart-Fang wishes for you to do this, does he? Then I will assist you. There is a ritual that must be completed. On Solstheim, you will find six Standing Stones, each representing one of the six gifts of the All-Maker. At each of these Stones, a ritual must be completed. Once the Ritual of the Gifts is complete, the Oneness should be restored.",
+      "BNAM": "Journal BM_Stones 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Stones",
+          "__TV": 30
+        }
+      ]
+    },
+    "20339131302250813382": {
+      "flag": 0,
+      "PNAM": "100445432127576055",
+      "NNAM": "32392142562214631127",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The power is restored. The Oneness of the lands is in balance.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Stones",
+          "__TV": 100
+        }
+      ]
+    },
+    "32392142562214631127": {
+      "flag": 0,
+      "PNAM": "20339131302250813382",
+      "NNAM": "2590175251454860",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.",
+      "BNAM": "player->AddItem BM_Mace_Aevar_UNI 1\r\nJournal BM_Stones 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Stones",
+          "__TV": 80
+        }
+      ]
+    },
+    "2590175251454860": {
+      "flag": 0,
+      "PNAM": "32392142562214631127",
+      "NNAM": "1536026533232929528",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wind-Eye has told you of the Ritual of the Gifts, has he not? Go to it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Stones",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Stones",
+          "__TV": 80
+        }
+      ]
+    },
+    "1536026533232929528": {
+      "flag": 0,
+      "PNAM": "2590175251454860",
+      "NNAM": "39331493327414043",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wind-Eye will tell you more.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Stones",
+          "__TV": 30
+        }
+      ]
+    },
+    "39331493327414043": {
+      "flag": 0,
+      "PNAM": "1536026533232929528",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is right that you do this, as it is your people who have caused the damage. Speak with Korst Wind-Eye, in the Shaman's Hut. He will give you further instructions.",
+      "BNAM": "Journal BM_Stones 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Stones",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

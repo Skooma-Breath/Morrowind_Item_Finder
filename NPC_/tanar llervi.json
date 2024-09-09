@@ -1,0 +1,144 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Enchanter Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_dark elf_f_head_06",
+  "KNAM": "b_n_dark elf_f_hair_02",
+  "MODL": null,
+  "FNAM": "Tanar Llervi",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 70671
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": -2,
+      "name": "sc_ondusisunhinging"
+    },
+    {
+      "count": -2,
+      "name": "sc_fphyggisgemfeeder"
+    },
+    {
+      "count": -2,
+      "name": "sc_divineintervention"
+    },
+    {
+      "count": -2,
+      "name": "sc_corruptarcanix"
+    },
+    {
+      "count": 5,
+      "name": "sc_balefulsuffering"
+    },
+    {
+      "count": 10,
+      "name": "sc_elementalburstfrost"
+    },
+    {
+      "count": -5,
+      "name": "sc_elevramssty"
+    },
+    {
+      "count": -6,
+      "name": "sc_firstbarrier"
+    },
+    {
+      "count": -5,
+      "name": "sc_secondbarrier"
+    },
+    {
+      "count": -1,
+      "name": "sc_thirdbarrier"
+    },
+    {
+      "count": -5,
+      "name": "sc_healing"
+    },
+    {
+      "count": -1,
+      "name": "sc_mark"
+    },
+    {
+      "count": -1,
+      "name": "sc_leaguestep"
+    },
+    {
+      "count": -2,
+      "name": "sc_drathiswinterguest"
+    },
+    {
+      "count": -2,
+      "name": "sc_taldamsscorcher"
+    },
+    {
+      "count": -5,
+      "name": "sc_reynosbeastfinder"
+    },
+    {
+      "count": -1,
+      "name": "sc_reynosfins"
+    },
+    {
+      "count": -6,
+      "name": "random_scroll_all"
+    }
+  ],
+  "NPCS": [
+    "wearying touch",
+    "shockbloom",
+    "poisonbloom",
+    "lightning bolt",
+    "lightning storm",
+    "demoralizing touch",
+    "rally beast",
+    "rallying touch",
+    "rally creature",
+    "rally humanoid"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 60,
+    "magicka": 132,
+    "fatigue": 185,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 800,
+    "attributes": [51,66,55,45,60,34,45,40],
+    "skills": [6,6,6,6,36,11,6,6,11,44,54,29,29,29,34,29,44,44,6,6,6,11,16,11,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,10,0]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "9124216623008227045": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "24958107202895421525",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been kicked out of the Guild, %PCName. Better make amends, or no one's going to talk to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "24958107202895421525": {
+      "flag": 0,
+      "PNAM": "9124216623008227045",
+      "NNAM": "141097491317022",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "You already gave me the Devil Tanto.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_LootAldruhnMG",
+          "__TV": 100
+        }
+      ]
+    },
+    "141097491317022": {
+      "flag": 0,
+      "PNAM": "24958107202895421525",
+      "NNAM": "28856310618014347",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is just what I wanted. You can keep anything else you found.",
+      "BNAM": "Journal TG_LootAldruhnMG 100\r\nPlayer->RemoveItem Devil_Tanto_TGAMG 1\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10\r\nStartScript TG_LootMG2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "28856310618014347": {
+      "flag": 0,
+      "PNAM": "141097491317022",
+      "NNAM": "377377382008329747",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well what's keeping you? You're not going to let some apprentice get in the way, are you?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "377377382008329747": {
+      "flag": 0,
+      "PNAM": "28856310618014347",
+      "NNAM": "1915621505869127485",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Damn. Seems like the Mages Guild always knows when we're planning something. Did you get the Devil Tanto?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1915621505869127485": {
+      "flag": 0,
+      "PNAM": "377377382008329747",
+      "NNAM": "2185528502307216796",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Good. I guess the Mages Guild didn't know about our plans this time. So did you get the Devil Tanto?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2185528502307216796": {
+      "flag": 0,
+      "PNAM": "1915621505869127485",
+      "NNAM": "274911854222974960",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Did you run into any trouble?",
+      "BNAM": "Choice \"Yes, there was a guard\" 3 \"No\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "devil_tanto_tgamg",
+          "__TV": 1
+        }
+      ]
+    },
+    "274911854222974960": {
+      "flag": 0,
+      "PNAM": "2185528502307216796",
+      "NNAM": "2013624711243725845",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Like I said, my source in the Mages Guild says they'll all be gone for a while. Go in there and take whatever you want, but be sure to bring me Anareren's Devil Tanto.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_LootAldruhnMG",
+          "__TV": 10
+        }
+      ]
+    },
+    "2013624711243725845": {
+      "flag": 0,
+      "PNAM": "274911854222974960",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Like I said, my source in the Mages Guild says they'll all be gone for a while. Go in there and take whatever you want, but be sure to bring me Anareren's Devil Tanto.",
+      "BNAM": "Journal TG_LootAldruhnMG 10\r\nStartScript TG_LootMG\r\n\"chest_small_02_anararen\"->AddItem \"devil_tanto_tgamg\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TG_LootAldruhnMG",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

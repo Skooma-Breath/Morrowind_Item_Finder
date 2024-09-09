@@ -1,0 +1,218 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "664324572244712651": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "159522145792925173",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Movis Darys is dead, %PCName. There is no more to discuss.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "movis darys",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_DB_Darys",
+          "__TV": 100
+        }
+      ]
+    },
+    "159522145792925173": {
+      "flag": 0,
+      "PNAM": "664324572244712651",
+      "NNAM": "161785176720129674",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Movis Darys has agreed to join the Morag Tong. He will be our eyes and ears in the Dark Brotherhood.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_DB_Darys",
+          "__TV": 100
+        }
+      ]
+    },
+    "161785176720129674": {
+      "flag": 0,
+      "PNAM": "159522145792925173",
+      "NNAM": "63262514227233924",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Movis Darys is dead. It is unfortunate, but if he wouldn't join us... In any case, I shall pay you as if this was a Writ. Take these 1000 drakes with my gratitude.",
+      "BNAM": "Journal MT_DB_Darys 110\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "movis darys",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_DB_Darys",
+          "__TV": 10
+        }
+      ]
+    },
+    "63262514227233924": {
+      "flag": 0,
+      "PNAM": "161785176720129674",
+      "NNAM": "5098199821627518502",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Movis Darys has agreed to join us. Good. I shall pay you as if you had executed a Writ on Movis Darys. Take these 1000 drakes.",
+      "BNAM": "Journal MT_DB_Darys 100\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_DB_Darys",
+          "__TV": 50
+        }
+      ]
+    },
+    "5098199821627518502": {
+      "flag": 0,
+      "PNAM": "63262514227233924",
+      "NNAM": "1552421146617024192",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Movis Darys is already dead? Did you know he was a member of the Dark Brotherhood? Well, perhaps next time you should not be so hasty in your judgements. As long as his execution was honorable, I am not displeased.",
+      "BNAM": "Journal MT_DB_Darys 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "movis darys",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_DB_Darys",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_S_Fleetness",
+          "__TV": 100
+        }
+      ]
+    },
+    "1552421146617024192": {
+      "flag": 0,
+      "PNAM": "5098199821627518502",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Movis Darys is in the Mages Guild in Ald'ruhn. He is posing as a student in the Imperial school there. Speak with him and if you cannot convince him to join our cause, end his life. He is not like the others in the Dark Brotherhood. If you must kill him, make sure his death is honorable.",
+      "BNAM": "Journal MT_DB_Darys 10",
+      "SCVR": [
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_S_Fleetness",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

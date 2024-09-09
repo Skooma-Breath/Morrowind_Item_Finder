@@ -1,0 +1,133 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "958632226159030153": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1527113110315733904",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lirielle stoine",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am Lirielle. How may I help you?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1527113110315733904": {
+      "flag": 0,
+      "PNAM": "958632226159030153",
+      "NNAM": "4414165402714325797",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald-ruhn, The Rat In The Pot",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She's around somewhere. Usually behind the bar.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "lirielle stoine",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "4414165402714325797": {
+      "flag": 0,
+      "PNAM": "1527113110315733904",
+      "NNAM": "17551289772280419436",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald-ruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I believe she works at The Rat in the Pot here in town.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "17551289772280419436": {
+      "flag": 0,
+      "PNAM": "4414165402714325797",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, her. Go collect that debt from her. Find her in Ald'ruhn, at The Rat in the Pot.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_DebtStoine",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

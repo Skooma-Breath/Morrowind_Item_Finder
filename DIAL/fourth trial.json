@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "7498322952864617715": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "23482305962378510414",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have fulfilled the Fourth Trial of the prophecy of the Seven Visions. You are Hortator of all three Great Houses, Redoran, Hlaalu, and Telvanni. So I greet you, %PCName, Hortator and Nerevarine.",
+      "BNAM": ";Sul-Matuul; Journal \"B8_All_Hortator\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        }
+      ]
+    },
+    "23482305962378510414": {
+      "flag": 0,
+      "PNAM": "7498322952864617715",
+      "NNAM": "6287125583265526398",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Fourth Trial is to join the three Great Houses of Vvardenfell under one Hortator. You must be named Hortator in turn by House Redoran, House Hlaalu, and House Telvanni. I know little of the ways of the Great Houses. But first I would try the Redoran, for they are warriors, hard-willed, but straightforward. Then I'd try the Hlaalu, for though they are weak and spoiled, they are cunning and crafty. Save the Telvanni for last. Anyone who is not afraid of a 2000-year-old wizard is a fool.",
+      "BNAM": ";Sul-Matuul;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B1_UnifyUrshilaku",
+          "__TV": 1
+        }
+      ]
+    },
+    "6287125583265526398": {
+      "flag": 0,
+      "PNAM": "23482305962378510414",
+      "NNAM": "28758149961788717676",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are Hortator of all three Great Houses, Redoran, Hlaalu, and Telvanni. You have fulfilled that part of the prophecy. You have fulfilled the Fourth Trial of the Seven Visions.",
+      "BNAM": ";Nibani Maesa; Journal \"B5_RedoranHort\" >= 50; \"B6_HlaaluHort\" >= 50; \"B7_TelvanniHort\" >= 50; \r\nJournal \"B8_All_Hortator\" 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B5_RedoranHort",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B6_HlaaluHort",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B7_TelvanniHort",
+          "__TV": 50
+        }
+      ]
+    },
+    "28758149961788717676": {
+      "flag": 0,
+      "PNAM": "6287125583265526398",
+      "NNAM": "1855530296200537147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Fourth Trial is: 'A stranger's voice unites the Houses./Three Halls call him Hortator.' When you have been named 'Hortator' by each of the three Great Houses of Vvardenfell, come to me for further guidance, for you will have passed the Fourth Trial.",
+      "BNAM": ";Nibani Maesa ;Journal \"A2_6_Incarnate\" >= 50; \r\nJournal \"A2_6_Incarnate\" 60\r\naddtopic \"Telvanni Hortator\"\r\naddtopic \"Redoran Hortator\"\r\naddtopic \"Hlaalu Hortator\"\r\naddtopic \"Redoran councilors\"\r\naddtopic \"Hlaalu councilors\"\r\naddtopic \"Telvanni councilors\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "1855530296200537147": {
+      "flag": 0,
+      "PNAM": "28758149961788717676",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A \"Hortator\" is a war-leader chosen when Dunmer great houses must put aside their normal feuds to unite against a common enemy. This has not happened since the Empire invaded our land.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    }
+  }
+}

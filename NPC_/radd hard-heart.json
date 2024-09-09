@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Imperial Legion",
+  "BNAM": "B_N_Nord_M_Head_06",
+  "KNAM": "B_N_Nord_M_Hair07",
+  "MODL": null,
+  "FNAM": "Radd Hard-Heart",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "common_ring_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "templar_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 178,
+    "magicka": 82,
+    "fatigue": 289,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,41,51,50,67,88,38,40],
+    "skills": [41,18,51,46,66,61,66,61,18,6,6,6,6,6,6,6,6,6,6,6,6,29,44,6,10,6,29]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Knight",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Duke Vedam Dren",
+  "SCRI": "vedamDrenScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "shockbite mace"
+    },
+    {
+      "count": 1,
+      "name": "ebony_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "ebony_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "ebony_boots"
+    },
+    {
+      "count": 1,
+      "name": "ebony_greaves"
+    },
+    {
+      "count": 1,
+      "name": "ebony_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "ebony_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "ebony_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bk_stronghold_c_hlaalu"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 23,
+    "disposition": 50,
+    "reputation": 20,
+    "rank": 9,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,10]
+    }
+  ]
+}

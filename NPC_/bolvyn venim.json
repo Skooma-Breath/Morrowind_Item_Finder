@@ -1,0 +1,101 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Crusader",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Bolvyn Venim",
+  "SCRI": "bolvynScript",
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "daedric dai-katana"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "ebony_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "ebony_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "ebony_boots"
+    },
+    {
+      "count": 1,
+      "name": "ebony_greaves"
+    },
+    {
+      "count": 1,
+      "name": "ebony_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "ebony_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "ebony_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "key_venimmanor"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 181,
+    "magicka": 122,
+    "fatigue": 318,
+    "disposition": 20,
+    "reputation": 20,
+    "rank": 9,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,61,66,80,71,72,41,40],
+    "skills": [64,48,48,64,64,60,21,21,26,7,59,7,7,7,12,34,34,7,7,7,7,12,17,12,7,7,34]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,10]
+    }
+  ]
+}

@@ -1,0 +1,796 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [2368282,1061997773]
+  },
+  "NAME": "Skaal Village, Bronrod the Roarer's House",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,45,0],
+    "sunlight": [80,60,20,0],
+    "fog_color": [26,35,36,0],
+    "fog_density": 0.800000011920929
+  },
+  "FRMR": {
+    "2-32651": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bronrod_the_roarer",
+      "DATA": [160.68479919433594,-24.66289710998535,-233.44781494140625,0,0,4.583187103271484]
+    },
+    "2-18982": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_door",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-264.801025390625,-20.414112091064453,-141.61940002441406,0,0,1.5850290060043335]
+    },
+    "2-18983": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "XSCL": 1.0500000715255737,
+      "DATA": [-9.093098640441895,-331.955078125,47.67718505859375,0,0,4.71238899230957]
+    },
+    "2-18984": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_doorjam",
+      "DATA": [-267.4355163574219,1.191556692123413,-121.0396728515625,0,0,1.5561941862106323]
+    },
+    "2-18985": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [1.4097968339920044,-308.0758361816406,-223.3753662109375,0,0,6.197786331176758]
+    },
+    "2-18986": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-22.193260192871094,311.23590087890625,-98.3296127319336,0,0,1.685397982597351]
+    },
+    "2-18987": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-554.1632080078125,-235.5428009033203,319.9915771484375,0,0,0]
+    },
+    "2-18988": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_cauldron_02",
+      "XSCL": 0.8800000548362732,
+      "DATA": [-52.416534423828125,-233.74537658691406,-210.9615020751953,0,0,0.602211594581604]
+    },
+    "2-18989": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "XSCL": 0.7800000309944153,
+      "DATA": [24.879226684570312,307.8621826171875,-177.1702117919922,0,0,6.268584728240967]
+    },
+    "2-18991": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [-29.95851707458496,230.34596252441406,45.5462646484375,0,0,1.0853980779647827]
+    },
+    "2-18992": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Rope_06",
+      "XSCL": 0.6200000047683716,
+      "DATA": [227.2969512939453,-87.16634368896484,44.9853401184082,0,0,1.5707963705062866]
+    },
+    "2-18993": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_05",
+      "XSCL": 0.6700000166893005,
+      "DATA": [-247.8451690673828,-145.49850463867188,41.99549102783203,0.20000000298023224,0.20000000298023224,1.5853980779647827]
+    },
+    "2-18994": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-36.14735794067383,-237.46917724609375,10.218679428100586,0,5.4831862449646,1.0853980779647827]
+    },
+    "2-18995": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-50.57854080200195,211.0802001953125,-19.4732666015625,0,5.283185958862305,1.0853980779647827]
+    },
+    "2-18996": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-109.30990600585938,-236.89883422851562,16.2469539642334,1.1831867694854736,0.2168123424053192,2.885396957397461]
+    },
+    "2-18997": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-50.056358337402344,218.10328674316406,26.6566162109375,0,0,2.8853979110717773]
+    },
+    "2-18998": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-67.37947082519531,-231.42135620117188,79.96269226074219,0,0,4.668583869934082]
+    },
+    "2-18999": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-105.42225646972656,-233.8702392578125,60.785892486572266,0,0,0.18539771437644958]
+    },
+    "2-19001": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_04_64",
+      "XSCL": 0.9800000190734863,
+      "DATA": [241.4400634765625,112.74957275390625,-160.42349243164062,0,0,4.5685834884643555]
+    },
+    "2-19002": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-285.0003356933594,-113.86915588378906,-127.82261657714844,0,0,0.9853980541229248]
+    },
+    "2-19003": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-31.671031951904297,-230.93609619140625,57.80155944824219,0,0,2.8853979110717773]
+    },
+    "2-19004": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [152.7608642578125,275.2262878417969,-218.42950439453125,0,0,1.0853980779647827]
+    },
+    "2-19005": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [212.31044006347656,-106.07174682617188,-213.86326599121094,0,0,4.985396862030029]
+    },
+    "2-19006": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-230.32423400878906,-144.64166259765625,-165.88987731933594,0,0,2.6853978633880615]
+    },
+    "2-19007": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-258.54925537109375,283.0030212402344,-218.25601196289062,0,0,3.668583393096924]
+    },
+    "2-19008": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_broom_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-237.35096740722656,324.8248291015625,-185.43653869628906,0.30000001192092896,0.10000001639127731,1.5685828924179077]
+    },
+    "2-19009": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-247.1190643310547,-150.73367309570312,13.320996284484863,0,0,3.0685834884643555]
+    },
+    "2-19010": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "XSCL": 1.0500000715255737,
+      "DATA": [-199.81764221191406,-149.38746643066406,-15.587268829345703,1.1831867694854736,0.6168123483657837,0.8853973150253296]
+    },
+    "2-19011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2400000095367432,
+      "DATA": [-202.17794799804688,-142.81594848632812,30.77060890197754,0,0,6.168582439422607]
+    },
+    "2-19012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_cupboard_clothes",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [244.67587280273438,107.97879028320312,-208.9381561279297,0,0,1.5853981971740723]
+    },
+    "2-19014": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_128",
+      "DATA": [-66.5018310546875,-3.7165207862854004,-20.161645889282227,0,0,1.0853980779647827]
+    },
+    "2-19015": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [-217.6441192626953,-170.15426635742188,-206.0221710205078,0,0,4.773007392883301]
+    },
+    "2-19016": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [-148.49891662597656,-180.9918212890625,-213.02371215820312,0,0,4.785396575927734]
+    },
+    "2-19017": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-166.18096923828125,229.74771118164062,-217.31289672851562,0,0,1.302209734916687]
+    },
+    "2-19018": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-234.17648315429688,-233.5497589111328,-165.7847137451172,0,0,3.385396957397461]
+    },
+    "2-19019": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-223.11378479003906,-110.45728302001953,-169.2435302734375,0,0,5.185395240783691]
+    },
+    "2-19020": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-126.35737609863281,277.4938049316406,-217.31289672851562,0,0,3.10221004486084]
+    },
+    "2-19021": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [140.78819274902344,-199.45468139648438,-223.41519165039062,0,0,1.485396385192871]
+    },
+    "2-19022": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-191.6221923828125,-306.7371826171875,-217.522216796875,0,0,3.4022090435028076]
+    },
+    "2-19023": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-222.4249725341797,-202.0184326171875,-159.16818237304688,0,0,2.6853978633880615]
+    },
+    "2-19024": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-208.00820922851562,-246.3739471435547,-171.5139923095703,0,0,2.6853978633880615]
+    },
+    "2-19025": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-1.1353766918182373,-281.7546691894531,-226.36517333984375,0,0,3.685396432876587]
+    },
+    "2-19026": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_rat_meat_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [5.064416408538818,-279.1213073730469,-225.22483825683594,0,0,4.785395622253418]
+    },
+    "2-19027": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-195.48770141601562,-162.70877075195312,-171.19178771972656,0,0,2.6853978633880615]
+    },
+    "2-19028": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_rat_meat_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-7.612668037414551,-278.3380432128906,-224.35736083984375,0,0,3.685396432876587]
+    },
+    "2-19029": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_rat_meat_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-2.5281920433044434,-287.1398010253906,-225.05784606933594,0,0,0.20221157371997833]
+    },
+    "2-19030": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Nordic01_Robe",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-10.27052116394043,309.398681640625,-167.74221801757812,0,0,0.6853978633880615]
+    },
+    "2-19031": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Nordic01_shirt",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-8.46615219116211,313.26055908203125,-162.8296356201172,0,0,0.9853980541229248]
+    },
+    "2-19032": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Nordic01_shoes",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [52.82083511352539,298.987060546875,-235.25184631347656,0,0,0.08539818972349167]
+    },
+    "2-19033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Wool01_pants",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [17.059680938720703,306.460693359375,-204.12086486816406,0,0,6.168582916259766]
+    },
+    "2-19034": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Wool02_shirt",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [40.20051956176758,311.56103515625,-168.67979431152344,0,0,0.08539771288633347]
+    },
+    "2-19035": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM huntsman axe",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [24.580833435058594,305.16461181640625,-131.5724334716797,0,0,1.285398244857788]
+    },
+    "2-19036": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_longhouse_small",
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "2-19038": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 0.64000004529953,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [158.94680786132812,159.0469970703125,2.8717002868652344,0,0,5.783185958862305]
+    },
+    "2-19039": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [158.82211303710938,158.25857543945312,-21.94472885131836,0,0,3.483187675476074]
+    },
+    "2-19040": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [157.65187072753906,155.47723388671875,-21.51679801940918,0,0,5.783185958862305]
+    },
+    "2-19041": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [143.96731567382812,160.702392578125,-19.499645233154297,0,0,3.983187198638916]
+    },
+    "2-19042": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [141.60690307617188,158.82260131835938,-19.071712493896484,0,0,0]
+    },
+    "2-19043": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 0.64000004529953,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [144.45474243164062,161.33453369140625,5.316783905029297,0,0,0]
+    },
+    "2-19044": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [123.324462890625,157.54055786132812,-20.19379425048828,0,0,3.983187198638916]
+    },
+    "2-19045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [120.96405029296875,155.6607666015625,-19.7658634185791,0,0,0]
+    },
+    "2-19046": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 0.64000004529953,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [123.81190490722656,158.17269897460938,4.622635841369629,0,0,0]
+    },
+    "2-19047": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [76.73773956298828,309.66522216796875,-125.15319061279297,0,0,0.9853980541229248]
+    },
+    "2-19048": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_128",
+      "DATA": [12.973149299621582,167.0482635498047,-13.30117130279541,0,0,1.0853980779647827]
+    },
+    "2-19049": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_100",
+      "XSCL": 0.940000057220459,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 100,
+      "DATA": [72.30818176269531,-181.90982055664062,35.691558837890625,0,0,1.600000262260437]
+    },
+    "2-19050": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_emerald_01",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [98.72781372070312,-176.5685577392578,36.41951370239258,0,0,0]
+    },
+    "2-19051": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_gems",
+      "XSCL": 0.5700000524520874,
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [120.46228790283203,-177.65284729003906,39.324127197265625,0,0,0]
+    },
+    "2-25809": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.9300000667572021,
+      "DATA": [-6.697257995605469,157.27020263671875,-230.406494140625,0,0,1.399999976158142]
+    },
+    "2-25810": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.2200000286102295,
+      "DATA": [167.28485107421875,102.65149688720703,-232.8223419189453,0,0,0.20000001788139343]
+    },
+    "2-25811": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.9500000476837158,
+      "DATA": [-7.618826866149902,-88.82799530029297,-230.406494140625,0,0,0]
+    },
+    "2-25812": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 0.9700000286102295,
+      "DATA": [139.99266052246094,-182.14846801757812,-218.76429748535156,0.012217304669320583,0,3.0831856727600098]
+    },
+    "2-25813": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.4100000858306885,
+      "DATA": [95.00065612792969,345.9817810058594,-55.7935905456543,1.5707963705062866,0,0]
+    },
+    "2-25814": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [56.00847244262695,360.9067687988281,7.2264323234558105,1.6000001430511475,0,6.26858377456665]
+    },
+    "2-25815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [144.4265594482422,360.9067687988281,7.2264323234558105,1.6000001430511475,0,6.26858377456665]
+    },
+    "2-25816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-158.82589721679688,360.9067687988281,7.2264323234558105,1.6000001430511475,0,6.26858377456665]
+    },
+    "2-25817": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.4100000858306885,
+      "DATA": [-119.83368682861328,345.9817810058594,-55.7935905456543,1.5707963705062866,0,0]
+    },
+    "2-25818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-70.40779876708984,360.9067687988281,7.2264323234558105,1.6000001430511475,0,6.26858377456665]
+    },
+    "2-32652": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bm_chest_skaal_potions",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 70,
+      "DATA": [216.97410583496094,261.451416015625,-220.9873504638672,0,0,0.7000000476837158]
+    },
+    "2-32809": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_01_v_potion_p_03",
+      "ANAM": "bronrod_the_roarer",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [220.86216735839844,271.049560546875,-187.99351501464844,0,0,0.30000001192092896]
+    }
+  }
+}

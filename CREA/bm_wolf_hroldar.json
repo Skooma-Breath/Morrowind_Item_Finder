@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Wolf_Black.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 5,
+    "attributes": [100,50,50,50,40,50,50,50],
+    "health": 60,
+    "magicka": 50,
+    "fatigue": 400,
+    "soul_strength": 50,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [5,20],
+      [5,20],
+      [5,20]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 50,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_wolf_grey",
+  "FNAM": "Wolf",
+  "SCRI": "ColonyWolf_Hroldar",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ingred_wolf_pelt"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

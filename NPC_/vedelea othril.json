@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Thief",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_f_head_10",
+  "KNAM": "b_n_dark elf_f_hair_11",
+  "MODL": null,
+  "FNAM": "Vedelea Othril",
+  "SCRI": "vedeleaFollow",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 150,
+    "magicka": 106,
+    "fatigue": 197,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [54,53,36,72,78,35,50,40],
+    "skills": [6,6,6,6,6,11,6,6,75,6,16,6,6,6,11,6,6,6,47,47,47,52,57,37,32,32,32]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

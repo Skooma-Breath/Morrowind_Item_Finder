@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "278797579233024208": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1860927287954315624",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I don't know what else to call it. You should probably have a smith look at it, though.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Blade",
+          "__TV": 50
+        }
+      ]
+    },
+    "1860927287954315624": {
+      "flag": 0,
+      "PNAM": "278797579233024208",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Smith",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm...an odd construction to be sure. Let me see.... As I thought. These two pieces aren't supposed to be attached. Looks like a regular Dwemer shield with this other piece attached. Hope you didn't pay too much for that shield, friend. It's nothing special as far as I can see. The other piece is interesting, though. Dwemer in origin, but unlike anything I've seen before.",
+      "BNAM": "player->RemoveItem \"dwemer_shield_battle_unique\" 1\r\nplayer->AddItem \"dwemer_shield\" 1\r\nplayer->AddItem \"BLADEPIECE_03\" 1\r\nJournal TR_Blade 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Blade",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "dwemer_shield_battle_unique",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

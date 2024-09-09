@@ -1,0 +1,107 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Threvul Serethi",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02_tt"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": -5,
+      "name": "ingred_corprus_weepings_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bittergreen_petals_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_wickwheat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scuttle_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scrib_jelly_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_netch_leather_01"
+    },
+    {
+      "count": -10,
+      "name": "food_kwama_egg_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_hound_meat_01"
+    }
+  ],
+  "NPCS": [
+    "great feather",
+    "strong reflect",
+    "powerwell",
+    "veloth's grace",
+    "vivec's mercy",
+    "seryn's gift",
+    "seryn's blessing",
+    "rilm's cure",
+    "restore strength",
+    "restore endurance",
+    "restore luck",
+    "restore speed",
+    "energy leech",
+    "righteousness",
+    "holy word",
+    "shield of the armiger",
+    "stamina"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 64,
+    "magicka": 94,
+    "fatigue": 198,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [48,47,59,47,61,44,50,40],
+    "skills": [6,6,6,6,21,11,6,6,11,14,24,44,29,14,49,44,29,29,6,6,6,26,16,11,10,36,36]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "6770277233235420412": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "552232711132246371",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mistress Dratha will be pleased to be able to study the Blood.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_Rimintil",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "60",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampBlood2",
+          "__TV": 100
+        }
+      ]
+    },
+    "552232711132246371": {
+      "flag": 0,
+      "PNAM": "6770277233235420412",
+      "NNAM": "5155151192949414183",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already have the Blood, vampire? An interesting coincidence. Mistress Dratha will be pleased to have it in her possession. As a reward for your effort, I have something your kind might be able to use. During an enchanting experiment, I created this Jinksword. It is strong and sharp, but the enchantment did not go as planned. I believe one of your ilk might find it valuable, though, as you seem to have a natural resistance to the spell in question.",
+      "BNAM": "Journal VA_VampBlood2 100\r\nPlayer->RemoveItem \"p_quarrablood_UNIQUE\" 1\r\nAddItem \"p_quarrablood_UNIQUE\" 1\r\nPlayer->AddItem \"dwe_jinksword_curse_Unique\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_Rimintil",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "60",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_quarrablood_UNIQUE",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampBlood2",
+          "__TV": 0
+        }
+      ]
+    },
+    "5155151192949414183": {
+      "flag": 0,
+      "PNAM": "552232711132246371",
+      "NNAM": "10824318302476431338",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Blood. Well done, vampire. Perhaps your kind can be trained after all. As a reward for your effort, I have something your kind might be able to use. During an enchanting experiment, I created this Jinksword. It is strong and sharp, but the enchantment did not go as planned. I believe one of your ilk might find it valuable, though, as you seem to have a natural resistance to the spell in question.",
+      "BNAM": "Journal VA_VampBlood2 100\r\nPlayer->RemoveItem \"p_quarrablood_UNIQUE\" 1\r\nAddItem \"p_quarrablood_UNIQUE\" 1\r\nPlayer->AddItem \"dwe_jinksword_curse_Unique\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_Rimintil",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "60",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_quarrablood_UNIQUE",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampBlood2",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "VA_VampBlood2",
+          "__TV": 15
+        }
+      ]
+    },
+    "10824318302476431338": {
+      "flag": 0,
+      "PNAM": "5155151192949414183",
+      "NNAM": "118625034156105492",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mistress Dratha believes that the study of the Blood of the Quarra Ancients could lead to a greater understanding of the abilities your kind possesses. It is important for her to obtain it. If her information is correct, the potion will be found close to Volrina Quarra, in her clan's lair in Druscashti. If it is not, only your kind might know where it resides now. Return it to me, vampire.",
+      "BNAM": "Journal VA_VampBlood2 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "VA_VampBlood2",
+          "__TV": 15
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "60",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "p_quarrablood_UNIQUE",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampBlood",
+          "__TV": 50
+        }
+      ]
+    },
+    "118625034156105492": {
+      "flag": 0,
+      "PNAM": "10824318302476431338",
+      "NNAM": "1675511975201230755",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mistress Dratha believes that the study of the Blood of the Quarra Ancients could lead to a greater understanding of the abilities your kind possesses. It is important for her to obtain it. If her information is correct, the potion will be found close to Volrina Quarra, in her clan's lair in Druscashti. If it is not, only your kind might know where it resides now. Return it to me, vampire.",
+      "BNAM": "Journal VA_VampBlood2 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "VA_VampBlood2",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "60",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "p_quarrablood_UNIQUE",
+          "__TV": 0
+        }
+      ]
+    },
+    "1675511975201230755": {
+      "flag": 0,
+      "PNAM": "118625034156105492",
+      "NNAM": "16806197471213730780",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raxle berne",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have found it? You surprise me, clanless one. As I promised, you may use the services here at Galom Daeus freely. Do not overstay your welcome.",
+      "BNAM": "Journal \"VA_VampBlood\" 50\r\nPlayer->RemoveItem \"p_quarrablood_UNIQUE\" 1\r\nAddItem \"p_quarrablood_UNIQUE\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_quarrablood_UNIQUE",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampBlood",
+          "__TV": 20
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "VA_VampBlood",
+          "__TV": 50
+        }
+      ]
+    },
+    "16806197471213730780": {
+      "flag": 0,
+      "PNAM": "1675511975201230755",
+      "NNAM": "1911122170187685658",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raxle berne",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes...it will make me more powerful. And the Quarra will die.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampBlood",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "60",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "VampClan",
+          "__TV": 2
+        }
+      ]
+    },
+    "1911122170187685658": {
+      "flag": 0,
+      "PNAM": "16806197471213730780",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raxle berne",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You will find it near Volrina Quarra, I would imagine. If you don't die first. Look for her in the Quarra lair in Druscashti.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampBlood",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "VA_VampBlood",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

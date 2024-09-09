@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_21",
+  "MODL": null,
+  "FNAM": "Gothren",
+  "SCRI": "TelvanniCouncilor",
+  "AIDT": {
+    "greet": 30,
+    "fight": 40,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "daedric dagger"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "sc_hellfire"
+    },
+    {
+      "count": 9,
+      "name": "p_restore_magicka_e"
+    },
+    {
+      "count": 3,
+      "name": "p_restore_health_q"
+    },
+    {
+      "count": 4,
+      "name": "p_restore_fatigue_q"
+    }
+  ],
+  "NPCS": [
+    "Gothren_gout"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 26,
+    "health": 272,
+    "magicka": 200,
+    "fatigue": 313,
+    "disposition": 50,
+    "reputation": 20,
+    "rank": 9,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [65,100,100,100,78,80,52,40],
+    "skills": [8,8,40,40,8,12,8,8,12,72,82,72,82,72,78,25,25,80,8,8,8,12,50,45,8,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,0]
+    }
+  ]
+}

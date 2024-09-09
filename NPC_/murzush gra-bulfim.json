@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Orc",
+  "CNAM": "Warrior",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_orc_f_head_03",
+  "KNAM": "b_n_orc_f_hair02",
+  "MODL": null,
+  "FNAM": "Murzush gra-Bulfim",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 70,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "orcish_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "orcish_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "steel_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "l_m_wpn_melee_long blade"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

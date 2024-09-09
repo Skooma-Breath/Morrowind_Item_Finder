@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 169,
+    "local_var_size": 17
+  },
+  "SCTX": "Begin passageScript \r\nshort button \r\nshort messageOn \r\n; this part gives you your choice on activating the door \r\nif ( OnActivate == 1 ) \r\nMessageBox \"Do you wish to crawl through this space?\" \"Yes\" \"No\" \r\nset messageOn to 1 \r\nendif \r\nif ( messageOn == 1 ) \r\nset button to GetButtonPressed \r\n;resets the variable so you can use the door multiple times \r\nif ( button >= 0 ) \r\nset messageOn to 0 \r\nendif \r\n;should send you through the door normally \r\nif ( button == 0 ) \r\nActivate \r\n; should just reset the script, allowing you to do it again \r\nelseif ( button == 1 ) \r\nset button to 0 \r\nreturn \r\nendif \r\nendif \r\nEnd passageScript\r\n",
+  "SCVR": [
+    "button",
+    "messageOn"
+  ],
+  "SCDT": [6,1,2,9,32,88,24,16,32,61,61,32,49,0,16,40,0,68,111,32,121,111,117,32,119,105,115,104,32,116,111,32,99,114,97,119,108,32,116,104,114,111,117,103,104,32,116,104,105,115,32,115,112,97,99,101,63,0,2,4,89,101,115,0,3,78,111,0,5,1,115,2,0,2,32,49,9,1,6,1,10,9,32,115,2,0,32,61,61,32,49,5,1,115,1,0,5,32,88,30,16,0,6,1,1,9,32,115,1,0,32,62,61,32,48,5,1,115,2,0,2,32,48,9,1,6,1,1,9,32,115,1,0,32,61,61,32,48,23,16,8,1,2,9,32,115,1,0,32,61,61,32,49,5,1,115,1,0,2,32,48,36,1,9,1,9,1,1,1]
+}

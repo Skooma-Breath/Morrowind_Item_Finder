@@ -1,0 +1,1901 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "666621861193830533": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2264682861129110351",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Glass Helm, hand-crafted by yours truly. I'm sure you'll find it satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_helm 1\r\nset glassHelm to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassHelm",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "2264682861129110351": {
+      "flag": 0,
+      "PNAM": "666621861193830533",
+      "NNAM": "13101257941154819175",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Glass Helm isn't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassHelm",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "13101257941154819175": {
+      "flag": 0,
+      "PNAM": "2264682861129110351",
+      "NNAM": "2231824352527531097",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Glass Boots, hand-crafted by yours truly. I'm sure you'll find them satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_boots 1\r\nset glassBoots to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassBoots",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "2231824352527531097": {
+      "flag": 0,
+      "PNAM": "13101257941154819175",
+      "NNAM": "2978320194277857827",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Glass Boots aren't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassBoots",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "2978320194277857827": {
+      "flag": 0,
+      "PNAM": "2231824352527531097",
+      "NNAM": "16707149141226811026",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Glass Greaves, hand-crafted by yours truly. I'm sure you'll find them satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_greaves 1\r\nset glassGreaves to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassGreaves",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "16707149141226811026": {
+      "flag": 0,
+      "PNAM": "2978320194277857827",
+      "NNAM": "1650816019646527390",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Glass Greaves aren't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassGreaves",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "1650816019646527390": {
+      "flag": 0,
+      "PNAM": "16707149141226811026",
+      "NNAM": "16983252343019610279",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Right Glass Bracer, hand-crafted by yours truly. I'm sure you'll find it satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_bracer_right 1\r\nset glassRightBracer to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassRightBracer",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "16983252343019610279": {
+      "flag": 0,
+      "PNAM": "1650816019646527390",
+      "NNAM": "1512912880287577409",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Right Glass Bracer isn't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassRightBracer",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "1512912880287577409": {
+      "flag": 0,
+      "PNAM": "16983252343019610279",
+      "NNAM": "288340171169631519",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Left Glass Bracer, hand-crafted by yours truly. I'm sure you'll find it satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_bracer_left 1\r\nset glassLeftBracer to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassLeftBracer",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "288340171169631519": {
+      "flag": 0,
+      "PNAM": "1512912880287577409",
+      "NNAM": "18087218262806111082",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Left Glass Bracer isn't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassLeftBracer",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "18087218262806111082": {
+      "flag": 0,
+      "PNAM": "288340171169631519",
+      "NNAM": "99965410227518366",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Right Glass Pauldron, hand-crafted by yours truly. I'm sure you'll find it satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_pauldron_right 1\r\nset glassRightPauldron to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassRightPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "99965410227518366": {
+      "flag": 0,
+      "PNAM": "18087218262806111082",
+      "NNAM": "3392195451690027188",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Right Glass Pauldron isn't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassRightPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "3392195451690027188": {
+      "flag": 0,
+      "PNAM": "99965410227518366",
+      "NNAM": "7187178337907242",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Left Glass Pauldron, hand-crafted by yours truly. I'm sure you'll find it satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_pauldron_left 1\r\nset glassLeftPauldron to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassLeftPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "7187178337907242": {
+      "flag": 0,
+      "PNAM": "3392195451690027188",
+      "NNAM": "808199001589014249",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Left Glass Pauldron isn't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassLeftPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "808199001589014249": {
+      "flag": 0,
+      "PNAM": "7187178337907242",
+      "NNAM": "11659105722636924045",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your Custom Glass Cuirass, hand-crafted by yours truly. I'm sure you'll find it satisfactory, and come back if there's anything else you'd like made.",
+      "BNAM": "player->additem glass_cuirass 1\r\nset glassCuirass to 0\r\nset localdayspassed to 0\r\nset busy to 0\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassCuirass",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "11659105722636924045": {
+      "flag": 0,
+      "PNAM": "808199001589014249",
+      "NNAM": "2461033342313817073",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your Custom Glass Cuirass isn't ready yet. Be patient.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "glassCuirass",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "2461033342313817073": {
+      "flag": 0,
+      "PNAM": "11659105722636924045",
+      "NNAM": "5032171272106410420",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right. But if you change your mind, come talk to me.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 9
+        }
+      ]
+    },
+    "5032171272106410420": {
+      "flag": 0,
+      "PNAM": "2461033342313817073",
+      "NNAM": "13175173731638914710",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom  Glass Helm ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 12\r\nplayer->removeitem gold_001 8400\r\nset glassHelm to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 12
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 8400
+        }
+      ]
+    },
+    "13175173731638914710": {
+      "flag": 0,
+      "PNAM": "5032171272106410420",
+      "NNAM": "864892692881628212",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for a Custom Glass Helm, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 8400
+        }
+      ]
+    },
+    "864892692881628212": {
+      "flag": 0,
+      "PNAM": "13175173731638914710",
+      "NNAM": "205215272493817787",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 12
+        }
+      ]
+    },
+    "205215272493817787": {
+      "flag": 0,
+      "PNAM": "864892692881628212",
+      "NNAM": "119003138498018181",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom  Glass Boots ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 9\r\nplayer->removeitem gold_001 5600\r\nset glassBoots to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 9
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 5600
+        }
+      ]
+    },
+    "119003138498018181": {
+      "flag": 0,
+      "PNAM": "205215272493817787",
+      "NNAM": "230241527388733144",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for Custom Glass Boots, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 5600
+        }
+      ]
+    },
+    "230241527388733144": {
+      "flag": 0,
+      "PNAM": "119003138498018181",
+      "NNAM": "1438414700171912619",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 9
+        }
+      ]
+    },
+    "1438414700171912619": {
+      "flag": 0,
+      "PNAM": "230241527388733144",
+      "NNAM": "212102539663792331",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom  Glass Greaves ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 18\r\nplayer->removeitem gold_001 12300\r\nset glassGreaves to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 18
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 12300
+        }
+      ]
+    },
+    "212102539663792331": {
+      "flag": 0,
+      "PNAM": "1438414700171912619",
+      "NNAM": "1842195252549565",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for Custom Glass Greaves, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 12300
+        }
+      ]
+    },
+    "1842195252549565": {
+      "flag": 0,
+      "PNAM": "212102539663792331",
+      "NNAM": "2408867402300527012",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 18
+        }
+      ]
+    },
+    "2408867402300527012": {
+      "flag": 0,
+      "PNAM": "1842195252549565",
+      "NNAM": "82478671272695701",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom Right Glass Bracer ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 12\r\nplayer->removeitem gold_001 5600\r\nset glassRightBracer to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 12
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 5600
+        }
+      ]
+    },
+    "82478671272695701": {
+      "flag": 0,
+      "PNAM": "2408867402300527012",
+      "NNAM": "3136016792225513801",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for a Custom Right Glass Bracer, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 5600
+        }
+      ]
+    },
+    "3136016792225513801": {
+      "flag": 0,
+      "PNAM": "82478671272695701",
+      "NNAM": "1813529624646932500",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 12
+        }
+      ]
+    },
+    "1813529624646932500": {
+      "flag": 0,
+      "PNAM": "3136016792225513801",
+      "NNAM": "1972318305795818948",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom Left Glass Bracer ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 12\r\nplayer->removeitem gold_001 5600\r\nset glassLeftBracer to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 12
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 5600
+        }
+      ]
+    },
+    "1972318305795818948": {
+      "flag": 0,
+      "PNAM": "1813529624646932500",
+      "NNAM": "41083058893907931",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for a Custom Left Glass Bracer, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 5600
+        }
+      ]
+    },
+    "41083058893907931": {
+      "flag": 0,
+      "PNAM": "1972318305795818948",
+      "NNAM": "315761357447467520",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 12
+        }
+      ]
+    },
+    "315761357447467520": {
+      "flag": 0,
+      "PNAM": "41083058893907931",
+      "NNAM": "1207197222669917411",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom Right Glass Pauldron ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 21\r\nplayer->removeitem gold_001 13400\r\nset glassRightPauldron to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 21
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 13400
+        }
+      ]
+    },
+    "1207197222669917411": {
+      "flag": 0,
+      "PNAM": "315761357447467520",
+      "NNAM": "56722576308123520",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for a Custom Right Glass Pauldron, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 13400
+        }
+      ]
+    },
+    "56722576308123520": {
+      "flag": 0,
+      "PNAM": "1207197222669917411",
+      "NNAM": "215313058391932630",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 21
+        }
+      ]
+    },
+    "215313058391932630": {
+      "flag": 0,
+      "PNAM": "56722576308123520",
+      "NNAM": "5088271341176220025",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom Left Glass Pauldron ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 21\r\nplayer->removeitem gold_001 13400\r\nset glassLeftPauldron to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 21
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 13400
+        }
+      ]
+    },
+    "5088271341176220025": {
+      "flag": 0,
+      "PNAM": "215313058391932630",
+      "NNAM": "5728290661897227924",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for a Custom Left Glass Pauldron, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 13400
+        }
+      ]
+    },
+    "5728290661897227924": {
+      "flag": 0,
+      "PNAM": "5088271341176220025",
+      "NNAM": "233076179273064723",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 21
+        }
+      ]
+    },
+    "233076179273064723": {
+      "flag": 0,
+      "PNAM": "5728290661897227924",
+      "NNAM": "795346712425010063",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Come back in 24 hours, and I will have your Custom Glass Cuirass ready for you.",
+      "BNAM": "player->removeitem ingred_raw_glass_01 30\r\nplayer->removeitem gold_001 19600\r\nset glassCuirass to 1\r\nset localdayspassed to 0\r\nset busy to 1\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 30
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 19600
+        }
+      ]
+    },
+    "795346712425010063": {
+      "flag": 0,
+      "PNAM": "233076179273064723",
+      "NNAM": "2376517475274199323",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. You don't have the gold for a Custom Glass Cuirass, and I'm not going to offer any discounts. Come back when you have the gold.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 19600
+        }
+      ]
+    },
+    "2376517475274199323": {
+      "flag": 0,
+      "PNAM": "795346712425010063",
+      "NNAM": "2170328821208208576",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices. I can't make armor without the necessary materials. Come back when you have the glass we need.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_01",
+          "__TV": 30
+        }
+      ]
+    },
+    "2170328821208208576": {
+      "flag": 0,
+      "PNAM": "2376517475274199323",
+      "NNAM": "263468789105227174",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm already busy with a project for you. Just be patient.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "busy",
+          "__TV": 1
+        }
+      ]
+    },
+    "263468789105227174": {
+      "flag": 0,
+      "PNAM": "2170328821208208576",
+      "NNAM": "1753110833182108840",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You supply the raw glass and pay for my work, and I provide you with custom glass armor. You've got my list of armor requirements and prices. Which piece of armor were you interested in?",
+      "BNAM": "Choice \"Glass Cuirass\" 1 \"Left Glass Pauldron\" 2 \"Right Glass Pauldron\" 3 \"Left Glass Bracer\" 4 \"Right Glass Bracer\" 5 \"Glass Greaves\" 6 \"Glass Boots\" 7 \"Glass Helm\" 8 \"Nothing right now.\" 9",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Armor_Crafter",
+          "__TV": 1
+        }
+      ]
+    },
+    "1753110833182108840": {
+      "flag": 0,
+      "PNAM": "263468789105227174",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bols indalen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You supply the raw glass and pay for my work, and I provide you with custom glass armor. Here. I've had a list of armor requirements and prices printed up. Look it over, and if you're interested, and you have the raw glass and the gold, speak to me again, we'll write up an order, and you'll have your new armor a day later.",
+      "BNAM": "player->additem bk_custom_armor 1\r\nJournal MS_Armor_Crafter 1\r\ngoodbye",
+      "SCVR": null
+    }
+  }
+}

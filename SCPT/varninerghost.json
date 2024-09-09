@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 332,
+    "local_var_size": 19
+  },
+  "SCTX": "begin VarninerGhost\r\n\r\nshort disOnce\r\nshort enableOnce\r\n;start disabled; place on Variner's ghost\r\n\r\nif ( GetJournalIndex MS_Blackdart < 1 )\r\n\tif ( getdisabled == 0 )\r\n\t\tdisable\r\n\t\treturn\r\n\r\n\tendif\r\nendif\r\n\r\n\r\nif ( GetJournalIndex MS_BlackDart >= 1 )\r\n\tif  ( getdisabled == 1)\r\n\t\tif ( enableOnce == 0 )\r\n\t\t\tif ( GetJournalIndex MS_BlackDart < 25 )\r\n\t\t\tenable\r\n\t\t\tset enableOnce to 1\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\tif ( GetJournalIndex MS_BlackDart >= 1 )\r\n\t\tif ( GetJournalIndex MS_BlackDart < 25 )\r\n\t\t\tJournal MS_BlackDart_B 1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\nif  (disOnce == 0 )\r\n\tif ( GetJournalIndex MS_Blackdart >= 25 )\r\n\t\tif ( CellChanged == 1 )\r\n\t\t\tif ( GetDisabled == 0 )\r\n\t\t\t\tdisable\r\n\t\t\t\t\tset disOnce to 1\r\n\t\t\tendif\r\n\t\tEndif\r\n\tEndif\r\nEndif\r\n\r\n\r\nEnd VarninerGhost",
+  "SCVR": [
+    "disOnce",
+    "enableOnce"
+  ],
+  "SCDT": [6,1,4,23,32,88,205,16,32,100,12,77,83,95,66,108,97,99,107,100,97,114,116,32,60,32,49,6,1,2,9,32,88,220,16,32,61,61,32,48,219,16,36,1,9,1,9,1,6,1,8,24,32,88,205,16,32,100,12,77,83,95,66,108,97,99,107,68,97,114,116,32,62,61,32,49,6,1,6,9,32,88,220,16,32,61,61,32,49,6,1,4,9,32,115,2,0,32,61,61,32,48,6,1,2,24,32,88,205,16,32,100,12,77,83,95,66,108,97,99,107,68,97,114,116,32,60,32,50,53,218,16,5,1,115,2,0,2,32,49,9,1,9,1,9,1,9,1,6,1,5,9,32,88,240,16,32,61,61,32,49,6,1,3,24,32,88,205,16,32,100,12,77,83,95,66,108,97,99,107,68,97,114,116,32,62,61,32,49,6,1,1,24,32,88,205,16,32,100,12,77,83,95,66,108,97,99,107,68,97,114,116,32,60,32,50,53,204,16,14,77,83,95,66,108,97,99,107,68,97,114,116,95,66,1,0,255,255,9,1,9,1,9,1,6,1,8,9,32,115,1,0,32,61,61,32,48,6,1,6,25,32,88,205,16,32,100,12,77,83,95,66,108,97,99,107,100,97,114,116,32,62,61,32,50,53,6,1,4,9,32,88,31,16,32,61,61,32,49,6,1,2,9,32,88,220,16,32,61,61,32,48,219,16,5,1,115,1,0,2,32,49,9,1,9,1,9,1,9,1,1,1]
+}

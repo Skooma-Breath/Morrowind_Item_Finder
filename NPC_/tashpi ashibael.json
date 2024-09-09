@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_10",
+  "KNAM": "b_n_dark elf_f_hair_12",
+  "MODL": null,
+  "FNAM": "Tashpi Ashibael",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_r"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 25,
+      "name": "random gold"
+    },
+    {
+      "count": 4,
+      "name": "p_restore_health_s"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_blight_s"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_poison_s"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Smith",
+  "ANAM": "",
+  "BNAM": "b_n_wood elf_m_head_04",
+  "KNAM": "b_n_wood elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Meldor",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "trollbone_cuirass"
+    },
+    {
+      "count": -20,
+      "name": "repair_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 67,
+    "magicka": 86,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 1500,
+    "attributes": [53,43,33,58,60,45,42,40],
+    "skills": [41,41,26,26,41,26,26,12,12,5,5,5,5,5,5,5,10,34,5,15,10,29,5,20,30,5,34]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

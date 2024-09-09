@@ -1,0 +1,72 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Caravaner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_13",
+  "MODL": null,
+  "FNAM": "Seldus Nerendus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron club"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [-22370.8515625,100115.140625,2520.13232421875,0,0,0],
+      "DNAM": null
+    },
+    {
+      "destination": [-17640.619140625,54698.7578125,2866.861328125,0,0,1.5707963705062866],
+      "DNAM": null
+    },
+    {
+      "destination": [-86780.328125,89454.15625,1125.2220458984375,0,0,0],
+      "DNAM": null
+    }
+  ],
+  "NPDT": {
+    "level": 3,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Dark Elf",
+  "CNAM": "Noble",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_04",
+  "KNAM": "b_n_dark elf_m_hair_23",
+  "MODL": null,
+  "FNAM": "Varvur Sarethi",
+  "SCRI": "varvurSarethiScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 180,
+    "magicka": 106,
+    "fatigue": 188,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [50,53,39,54,90,45,58,50],
+    "skills": [32,15,15,15,15,20,15,15,75,6,16,6,6,6,11,23,6,6,38,23,23,28,48,11,38,38,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

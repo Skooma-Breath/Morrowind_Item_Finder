@@ -1,0 +1,330 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1759319873180023076": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2571820389189875788",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've broken the rules of House Hlaalu, sweetie. It brings tears to my eyes when I think about your disloyalty. Maybe you can make amends and make everything better.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2571820389189875788": {
+      "flag": 0,
+      "PNAM": "1759319873180023076",
+      "NNAM": "14243148571489025504",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I like your style, dumpling.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 100
+        }
+      ]
+    },
+    "14243148571489025504": {
+      "flag": 0,
+      "PNAM": "2571820389189875788",
+      "NNAM": "17831157013069028708",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh? Velfred the Outlaw is dead? Excellent work, dumpling. Please accept my gift of 500 drakes.",
+      "BNAM": "Journal HH_NordSmugglers 100\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "velfred",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 10
+        }
+      ]
+    },
+    "17831157013069028708": {
+      "flag": 0,
+      "PNAM": "14243148571489025504",
+      "NNAM": "203181940198337651",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm so glad you convinced him to pay us respects, dumpling. Please accept this gift of 1000 drakes.",
+      "BNAM": "Journal HH_NordSmugglers 100\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 50
+        }
+      ]
+    },
+    "203181940198337651": {
+      "flag": 0,
+      "PNAM": "17831157013069028708",
+      "NNAM": "5178192682610232576",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He's been a very naughty boy, smuggling ebony without paying House Hlaalu the proper respect. I'm sure you can turn your sweet charms on him and make him respect House Hlaalu. And if he won't listen, you know what to do. He usually docks at Hla Oad.",
+      "BNAM": "Journal HH_NordSmugglers 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 100
+        }
+      ]
+    },
+    "5178192682610232576": {
+      "flag": 0,
+      "PNAM": "203181940198337651",
+      "NNAM": "102031039827888901",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Nord",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He met with an accident. Serves him right, too.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "velfred",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "102031039827888901": {
+      "flag": 0,
+      "PNAM": "5178192682610232576",
+      "NNAM": "15638674614888245",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Redguard",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Last I heard, someone snuck aboard the Grytewake and killed him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "velfred",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "15638674614888245": {
+      "flag": 0,
+      "PNAM": "102031039827888901",
+      "NNAM": "1432466453019829922",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Grytewake sometimes docks southwest of here. It's hard to see from a distance, just follow the coast.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "1432466453019829922": {
+      "flag": 0,
+      "PNAM": "15638674614888245",
+      "NNAM": "31994174562267025910",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "His ship is the Grytewake.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "31994174562267025910": {
+      "flag": 0,
+      "PNAM": "1432466453019829922",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He's been here once or twice. Why do you want to know?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

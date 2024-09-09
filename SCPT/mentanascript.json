@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 66,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin mentanaScript\r\n\r\n\tIf ( GetJournalIndex \"DA_MolagBal\" < 10 )\r\n\t\treturn\r\n\tendif\r\n\r\n\tIf ( OnDeath == 1 )\r\n\t\t\tJournal \"DA_MolagBal\", 20\r\n\tendif\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [6,1,1,23,32,88,205,16,32,100,11,68,65,95,77,111,108,97,103,66,97,108,32,60,32,49,48,36,1,9,1,6,1,1,9,32,88,240,16,32,61,61,32,49,204,16,11,68,65,95,77,111,108,97,103,66,97,108,20,0,255,255,9,1,1,1]
+}

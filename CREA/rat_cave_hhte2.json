@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Rust rat.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 4,
+    "attributes": [25,25,0,30,8,70,100,75],
+    "health": 45,
+    "magicka": 10,
+    "fatigue": 400,
+    "soul_strength": 10,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [4,12],
+      [4,12],
+      [4,12]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 85,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "Rat",
+  "FNAM": "Blighted Game Rat",
+  "SCRI": "diseaseBlackHeart",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "random_rat_meat"
+    }
+  ],
+  "NPCS": [
+    "black-heart blight"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,0,0,0,0,0]
+    }
+  ]
+}

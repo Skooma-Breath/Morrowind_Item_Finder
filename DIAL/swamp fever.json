@@ -1,0 +1,341 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1359525574962610836": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "11997270112005726078",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lette",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I feel much better, thank you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_CuringTouch",
+          "__TV": 50
+        }
+      ]
+    },
+    "11997270112005726078": {
+      "flag": 0,
+      "PNAM": "1359525574962610836",
+      "NNAM": "111118603121259303",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lette",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, please leave me then. I need some fresh air.",
+      "BNAM": "ModDisposition -5\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "111118603121259303": {
+      "flag": 0,
+      "PNAM": "11997270112005726078",
+      "NNAM": "85213313220447225",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lette",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You... you will? Oh, you're from the Temple, aren't you? Well, go ahead.",
+      "BNAM": "Choice \"I shall use a spell.\", 3, \"I offer you this potion.\", 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "85213313220447225": {
+      "flag": 0,
+      "PNAM": "111118603121259303",
+      "NNAM": "23906250812430230531",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lette",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fine. Go ahead.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "23906250812430230531": {
+      "flag": 0,
+      "PNAM": "85213313220447225",
+      "NNAM": "29708285761553222144",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lette",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I cannot thank you enough. <drinks>",
+      "BNAM": "; script takes care of the journal entry mod\r\nPlayer->RemoveItem \"p_cure_common_s\" 1\r\nRemoveSpell \"swamp fever\"\r\nmoddisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "p_cure_common_s",
+          "__TV": 1
+        }
+      ]
+    },
+    "29708285761553222144": {
+      "flag": 0,
+      "PNAM": "23906250812430230531",
+      "NNAM": "13029138127908160",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lette",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh? Where is this potion? You'll have to give it to me for me to drink it.",
+      "BNAM": "moddisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "13029138127908160": {
+      "flag": 0,
+      "PNAM": "29708285761553222144",
+      "NNAM": "2525316789115706534",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lette",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "It's awful. I hope it will go away soon. There are no temples here and none of the wandering priests are anywhere to be found. Do you seek to heal me?",
+      "BNAM": "Choice \"No.\" 1 \"Yes. I'd like to try.\" 2",
+      "SCVR": null
+    },
+    "2525316789115706534": {
+      "flag": 0,
+      "PNAM": "13029138127908160",
+      "NNAM": "498125622585132334",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharer rotheloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The symptoms include high body temperature and delirium, but there are no easily visible signs. It can be cured with a standard potion of cure disease, or you may attempt to cure it with a spell.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "498125622585132334": {
+      "flag": 0,
+      "PNAM": "2525316789115706534",
+      "NNAM": "1967823882987210230",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Wise Woman Service",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    },
+    "1967823882987210230": {
+      "flag": 0,
+      "PNAM": "498125622585132334",
+      "NNAM": "2280420963161812106",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "maela kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    },
+    "2280420963161812106": {
+      "flag": 0,
+      "PNAM": "1967823882987210230",
+      "NNAM": "35191203013893329",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    },
+    "35191203013893329": {
+      "flag": 0,
+      "PNAM": "2280420963161812106",
+      "NNAM": "16706918308612129",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tendris vedran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    },
+    "16706918308612129": {
+      "flag": 0,
+      "PNAM": "35191203013893329",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ygfa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    }
+  }
+}

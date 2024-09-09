@@ -1,0 +1,147 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1123312651276024537": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "25600147066227241",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dremora_ttpc",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I accept this sword. Thank you, %PCName. You have the grace of courtesy. You should read the inscription on the shrine to complete your pilgrimage.",
+      "BNAM": "Journal TT_PuzzleCanal 50\r\nPlayer->RemoveItem \"silver longsword\" 1\r\n\"com_chest_02_puzzlecana\"->AddItem \"silver longsword\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "25600147066227241": {
+      "flag": 0,
+      "PNAM": "1123312651276024537",
+      "NNAM": "177882818415072153",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dremora_ttpc",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps you should read the shrine again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "177882818415072153": {
+      "flag": 0,
+      "PNAM": "25600147066227241",
+      "NNAM": "298815949633225620",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dremora_ttpc",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you see. I am unarmed. But you are brave and gallant. <sigh> Will you give me your longsword so that I may stand a chance against your might?",
+      "BNAM": "Choice \"Yes, take it.\" 1 \"No, nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "silver longsword",
+          "__TV": 0
+        }
+      ]
+    },
+    "298815949633225620": {
+      "flag": 0,
+      "PNAM": "177882818415072153",
+      "NNAM": "1967785902196119714",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dremora_ttpc",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I remember you, %PCName. You have already given me a silver longsword.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_PuzzleCanal",
+          "__TV": 50
+        }
+      ]
+    },
+    "1967785902196119714": {
+      "flag": 0,
+      "PNAM": "298815949633225620",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dremora_ttpc",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I can only accept plain silver longswords. I didn't make the rules.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Breton",
+  "CNAM": "Healer Service",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_breton_f_head_04",
+  "KNAM": "b_n_breton_f_hair_01",
+  "MODL": null,
+  "FNAM": "Amarie Charien",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    }
+  ],
+  "NPCS": [
+    "tranasa's spelltrap",
+    "absorb fatigue [ranged]",
+    "crimson despair",
+    "frostguard",
+    "shockguard",
+    "poisonguard",
+    "daedric willpower",
+    "daedric fatigue",
+    "cure common disease",
+    "flameguard",
+    "mother's kiss",
+    "balyna's antidote",
+    "balyna's perfect balm",
+    "heal companion",
+    "Cure Blight_Self"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 61,
+    "magicka": 118,
+    "fatigue": 200,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [40,59,86,39,55,35,64,40],
+    "skills": [6,6,6,6,23,6,6,6,6,15,15,52,37,25,57,57,37,32,6,6,6,23,6,6,10,38,38]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

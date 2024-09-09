@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 102,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin ajiraReports\r\n\r\nshort doOnce\r\n\r\nif ( doOnce > 1 )\r\n\tReturn\r\nendif\r\n\r\nif ( doOnce == 1 )\r\n\tif ( GetJournalIndex MG_StolenReport > 0 ) \r\n\t\tSet doOnce to 2\r\n\t\tEnable\r\n\tendif\r\n\tReturn\r\nendif\r\n\r\nif ( doOnce == 0 )\r\n\tSet doOnce to 1\r\n\tDisable\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,1,8,32,115,1,0,32,62,32,49,36,1,9,1,6,1,5,9,32,115,1,0,32,61,61,32,49,6,1,2,26,32,88,205,16,32,100,15,77,71,95,83,116,111,108,101,110,82,101,112,111,114,116,32,62,32,48,5,1,115,1,0,2,32,50,218,16,9,1,36,1,9,1,6,1,2,9,32,115,1,0,32,61,61,32,48,5,1,115,1,0,2,32,49,219,16,9,1,1,1]
+}

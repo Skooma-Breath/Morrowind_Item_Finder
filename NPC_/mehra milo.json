@@ -1,0 +1,47 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 27,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_03",
+  "MODL": null,
+  "FNAM": "Mehra Milo",
+  "SCRI": "MehraMiloScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_02_a"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

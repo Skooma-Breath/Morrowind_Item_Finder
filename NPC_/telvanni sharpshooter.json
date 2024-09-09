@@ -1,0 +1,103 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 12,
+  "RNAM": "Dark Elf",
+  "CNAM": "Guard",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Telvanni Sharpshooter",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 15,
+      "name": "ebony arrow"
+    },
+    {
+      "count": 1,
+      "name": "bonemold long bow"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_tshield_telvanniguard"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_armun-an_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_armun-an_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_armun-an_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "cephalopod_helm"
+    }
+  ],
+  "NPCS": [
+    "deadly poison [ranged]",
+    "weakness to blight disease",
+    "weakness to corprus disease",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "daedric bite"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 18,
+    "health": 171,
+    "magicka": 164,
+    "fatigue": 279,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [62,82,62,91,69,64,45,40],
+    "skills": [20,20,60,20,20,25,20,20,50,47,57,7,7,7,12,32,7,7,32,47,32,12,17,52,7,32,7]
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

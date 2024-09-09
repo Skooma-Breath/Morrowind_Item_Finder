@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Pawnbroker",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_dark elf_m_head_04",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Ather Belden",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 14071
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 81,
+    "magicka": 126,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [53,63,36,55,68,45,48,50],
+    "skills": [23,6,6,6,23,11,6,6,43,6,16,6,6,6,11,6,6,23,47,47,32,20,25,20,10,47,32]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

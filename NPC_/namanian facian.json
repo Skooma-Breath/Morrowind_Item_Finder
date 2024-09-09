@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Nightblade Service",
+  "ANAM": "Morag Tong",
+  "BNAM": "b_n_imperial_m_head_02",
+  "KNAM": "b_n_imperial_m_hair_03",
+  "MODL": null,
+  "FNAM": "Namanian Facian",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "steel dart"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_b"
+    },
+    {
+      "count": 1,
+      "name": "morag_tong_helm"
+    },
+    {
+      "count": 15,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "great feather",
+    "fire shield",
+    "wild levitate",
+    "dire noise",
+    "reflect",
+    "wild spelldrinker",
+    "slowfall",
+    "lightning shield",
+    "frost shield",
+    "silence",
+    "hide",
+    "erelvam's wild sty",
+    "paralysis",
+    "tevral's hawkshaw",
+    "ondusi's open door",
+    "potent poison"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 63,
+    "magicka": 94,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [46,47,56,43,61,44,58,40],
+    "skills": [6,6,6,6,11,16,6,6,6,14,29,44,44,14,44,14,14,29,21,36,6,26,36,21,10,16,11]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

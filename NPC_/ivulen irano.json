@@ -1,0 +1,88 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Guard",
+  "ANAM": "Royal Guard",
+  "BNAM": "b_n_dark elf_m_head_12",
+  "KNAM": "b_n_dark elf_m_hair_21",
+  "MODL": null,
+  "FNAM": "Ivulen Irano",
+  "SCRI": "karrodfightstopScript",
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "adamantium_claymore"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_boots"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_greaves"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_Helmet"
+    },
+    {
+      "count": 5,
+      "name": "p_restore_health_e"
+    }
+  ],
+  "NPCS": [
+    "Royal_Blood",
+    "Royal_Resistance"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 40,
+    "health": 295,
+    "magicka": 166,
+    "fatigue": 400,
+    "disposition": 40,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,83,100,100,93,100,53,40],
+    "skills": [94,78,78,94,94,98,33,33,38,9,79,9,9,9,14,54,54,9,9,9,9,14,19,14,9,9,54]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

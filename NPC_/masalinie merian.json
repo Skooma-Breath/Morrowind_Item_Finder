@@ -1,0 +1,90 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Breton",
+  "CNAM": "Guild Guide",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_breton_f_head_05",
+  "KNAM": "b_n_breton_f_hair_05",
+  "MODL": null,
+  "FNAM": "Masalinie Merian",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    }
+  ],
+  "NPCS": [
+    "bound dagger",
+    "bound longsword",
+    "bound mace",
+    "bound battle-axe",
+    "bound spear",
+    "bound longbow",
+    "summon least bonewalker",
+    "reflect",
+    "soul trap",
+    "weak spelldrinker",
+    "poet's whim",
+    "great resist common disease",
+    "variable resist corpus disease",
+    "great resist fire",
+    "flameguard"
+  ],
+  "DODT": [
+    {
+      "destination": [2597.46728515625,-511.1544189453125,-265.328125,0,0,4.71238899230957],
+      "DNAM": "Ald-ruhn, Guild of Mages"
+    },
+    {
+      "destination": [4.562033176422119,1393.78759765625,-388.1092224121094,0,0,3.1415927410125732],
+      "DNAM": "Vivec, Guild of Mages"
+    },
+    {
+      "destination": [-30.27954864501953,212.14183044433594,158.23793029785156,0,0,0.7853983044624329],
+      "DNAM": "Sadrith Mora, Wolverine Hall: Mage's Guild"
+    },
+    {
+      "destination": [519.826904296875,334.84185791015625,489.20904541015625,0,0,1.5707963705062866],
+      "DNAM": "Caldera, Guild of Mages"
+    }
+  ],
+  "NPDT": {
+    "level": 12,
+    "health": 79,
+    "magicka": 158,
+    "fatigue": 212,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [41,79,86,48,55,37,64,40],
+    "skills": [6,6,6,6,6,6,6,6,6,36,17,22,22,46,62,62,22,36,26,41,6,6,26,6,41,41,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

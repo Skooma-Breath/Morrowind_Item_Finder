@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Miner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Stlennius Vibato",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel vipermauler"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_r"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    },
+    {
+      "count": 200,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "key_calderaslaves_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

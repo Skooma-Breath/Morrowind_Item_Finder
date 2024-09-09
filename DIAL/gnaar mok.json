@@ -1,0 +1,294 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "9082116230579699": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "779308981197010833",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drulene falen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gnaar Mok is an island fishing village south along the coast. Here. Let me mark it on your map. Legion patrols pass here on their way to Gnaar Mok. They head west for the coast. The ruins of Andasreth, an old Dunmer stronghold, are out to the west. Very large building, hard to miss. The troopers just follow the coast south to Gnaar Mok, I believe. I've never been that way myself.",
+      "BNAM": "ShowMap \"Gnaar Mok\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 1
+        }
+      ]
+    },
+    "779308981197010833": {
+      "flag": 0,
+      "PNAM": "9082116230579699",
+      "NNAM": "23364179081614145",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raesa pullia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Follow the coast, wading around headlands when necessary. Pass a shipwreck. When the coast levels out and turns from barren rock to green swamp, you're in the Bitter Coast region. Keep south, with the water on your left, until you see Gnaar Mok, an island just off the coast. There's a crude plank bridge through some rocks to the island itself. It's a rough place, popular with adventurers, smugglers, and outlaws, but maybe someone in Gnaar Mok can tell you how to find the Ilunibi sea caverns.",
+      "BNAM": "ShowMap \"Gnaar Mok\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "23364179081614145": {
+      "flag": 0,
+      "PNAM": "779308981197010833",
+      "NNAM": "1083425663308630799",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raesa pullia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gnaar Mok is an island fishing village on the Bitter Coast, roughly west of Caldera and Ald'ruhn. Here. Let me mark it on your map. There is no marked route to Gnaar Mok from Ald'ruhn. It's no easy trip. Our patrols take the Balmora road. At the Gnisis-Balmora-Ald'ruhn signpost, go south, then immediately west on a side road to Drulene Falen's cottage. Then head crosscountry west to the coast, with the old Dunmer stronghold at Andasreth as a landmark. When you hit the coast, turn south.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 1
+        }
+      ]
+    },
+    "1083425663308630799": {
+      "flag": 0,
+      "PNAM": "23364179081614145",
+      "NNAM": "1107836491078019511",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnaar Mok",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thankfully those breeding netch have been taken care of. Everyone seems a bit better now.",
+      "BNAM": "ShowMap \"Gnaar Mok\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "netch_betty_ilgn",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "netch_bull_ilgn",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "1107836491078019511": {
+      "flag": 0,
+      "PNAM": "1083425663308630799",
+      "NNAM": "11376221831362626253",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnaar Mok",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Everyone's worried about those two breeding netch that have been attacking.",
+      "BNAM": "ShowMap \"Gnaar Mok\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "11376221831362626253": {
+      "flag": 0,
+      "PNAM": "1107836491078019511",
+      "NNAM": "286192853745128337",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gnaar Mok is a tiny island fishing village in the Bitter Coast region of western Vvardenfell.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Gnaar Mok\"",
+      "SCVR": null
+    },
+    "286192853745128337": {
+      "flag": 0,
+      "PNAM": "11376221831362626253",
+      "NNAM": "286932325942225530",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gnaar Mok is a tiny island fishing village in the Bitter Coast region of western Vvardenfell.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Gnaar Mok\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "286932325942225530": {
+      "flag": 0,
+      "PNAM": "286192853745128337",
+      "NNAM": "3158123819007462",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Seyda Neen",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gnaar Mok is a tiny island fishing village in the Bitter Coast region of western Vvardenfell.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Gnaar Mok\"",
+      "SCVR": null
+    },
+    "3158123819007462": {
+      "flag": 0,
+      "PNAM": "286932325942225530",
+      "NNAM": "132582276931748526",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gnaar Mok is a tiny island fishing village in the Bitter Coast region of western Vvardenfell.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Gnaar Mok\"",
+      "SCVR": null
+    },
+    "132582276931748526": {
+      "flag": 0,
+      "PNAM": "3158123819007462",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gnaar Mok is a tiny island fishing village in the Bitter Coast region of western Vvardenfell.",
+      "BNAM": "ShowMap \"Gnaar Mok\"",
+      "SCVR": null
+    }
+  }
+}

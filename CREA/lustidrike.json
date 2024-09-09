@@ -1,0 +1,52 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Scamp_Fetch.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 8,
+    "attributes": [40,20,100,40,6,20,20,20],
+    "health": 75,
+    "magicka": 100,
+    "fatigue": 400,
+    "soul_strength": 100,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,25],
+      [1,25],
+      [1,25]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 50,
+    "fight": 30,
+    "flee": 10,
+    "alarm": 90,
+    "flags": 10485760
+  },
+  "CNAM": "scamp",
+  "FNAM": "Lustidrike",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": [
+    "resist fire_50",
+    "resist poison_75",
+    "resist frost_50",
+    "resist shock_50",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [0,0,0,0,0,0,0,0]
+    }
+  ]
+}

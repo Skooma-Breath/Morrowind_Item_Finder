@@ -1,0 +1,239 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1152123141125916332": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14103132243013728405",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14103132243013728405": {
+      "flag": 0,
+      "PNAM": "1152123141125916332",
+      "NNAM": "2599357752391912393",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Ajira thanks you again for bringing her the samples.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_BCShrooms",
+          "__TV": 100
+        }
+      ]
+    },
+    "2599357752391912393": {
+      "flag": 0,
+      "PNAM": "14103132243013728405",
+      "NNAM": "443498832435823519",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, these are all good samples. Now Ajira can write the report and be a Journeyman of the Mages Guild. Ajira has made potions for you to take in return. Ajira is no great alchemist yet, but Ajira thinks you can use these.",
+      "BNAM": "Journal MG_BCShrooms 100\r\nPlayer->RemoveItem \"ingred_bc_bungler's_bane\" 1\r\nPlayer->RemoveItem \"ingred_bc_hypha_facia\" 1\r\nPlayer->RemoveItem \"ingred_coprinus_01\" 1\r\nPlayer->RemoveItem \"ingred_russula_01\" 1\r\nPlayer->AddItem \"p_restore_health_c\" 4\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ingred_bc_hypha_facia",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ingred_coprinus_01",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ingred_russula_01",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ingred_bc_bungler's_bane",
+          "__TV": 0
+        }
+      ]
+    },
+    "443498832435823519": {
+      "flag": 0,
+      "PNAM": "2599357752391912393",
+      "NNAM": "2529516170625112058",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Where are these samples? Ajira does not see all four samples.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2529516170625112058": {
+      "flag": 0,
+      "PNAM": "443498832435823519",
+      "NNAM": "52027510518312690",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Please hurry, %PCName. Ajira wants to be Journeyman very soon.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "52027510518312690": {
+      "flag": 0,
+      "PNAM": "2529516170625112058",
+      "NNAM": "20728261851736471",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Do you have samples of all the mushrooms? Luminous Russula, Violet Coprinus, Bungler's Bane, and Hypha Facia?",
+      "BNAM": "Choice \"Yes, here they are.\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_BCShrooms",
+          "__TV": 10
+        }
+      ]
+    },
+    "20728261851736471": {
+      "flag": 0,
+      "PNAM": "52027510518312690",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "To finish Ajira's report, Ajira needs samples of Luminous Russula, Violet Coprinus, Bungler's Bane, and Hypha Facia. Ajira knows you can find all these on the Bitter Coast. The easiest way is go south along the River Odai until you see a wooden bridge across the river. Get out of the river there and find a path west over the hills.",
+      "BNAM": "Journal MG_BCShrooms 10",
+      "SCVR": null
+    }
+  }
+}

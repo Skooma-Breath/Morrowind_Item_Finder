@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Netch_Betty.NIF",
+  "FLAG": 40,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [50,50,30,50,80,50,50,50],
+    "health": 113,
+    "magicka": 75,
+    "fatigue": 500,
+    "soul_strength": 75,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 80,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": null,
+  "FNAM": "Betty Netch",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_netch_leather"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 2000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

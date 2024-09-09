@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 224,
+    "local_var_size": 10
+  },
+  "SCTX": "Begin jeannedoorScript\r\n\r\nshort greetonce\r\n\r\nif ( greetonce == -1 )\r\n\tif ( OnActivate == 1 )\r\n\t\tActivate\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex EB_Bone < 20 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex EB_Bone >= 40 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex EB_Bone == 30 )\r\n\treturn\r\nendif\r\n\r\nif ( greetonce == -1 )\r\n\treturn\r\nendif\r\n\r\nif ( OnActivate == 1 )\r\n\tif ( jeanne->GetDetected Player == 1 )\r\n\t\tJournal EB_Bone 50\r\n\t\tjeanne->ForceGreeting\r\n\tendif\r\n\tActivate\r\n\tset greetonce to -1\r\nendif\r\n\r\n\r\nEnd jeannedoorScript",
+  "SCVR": [
+    "greetonce"
+  ],
+  "SCDT": [6,1,3,10,32,115,1,0,32,61,61,32,45,49,6,1,1,9,32,88,24,16,32,61,61,32,49,23,16,9,1,9,1,6,1,1,19,32,88,205,16,32,100,7,69,66,95,66,111,110,101,32,60,32,50,48,36,1,9,1,6,1,1,20,32,88,205,16,32,100,7,69,66,95,66,111,110,101,32,62,61,32,52,48,36,1,9,1,6,1,1,20,32,88,205,16,32,100,7,69,66,95,66,111,110,101,32,61,61,32,51,48,36,1,9,1,6,1,1,10,32,115,1,0,32,61,61,32,45,49,36,1,9,1,6,1,6,9,32,88,24,16,32,61,61,32,49,12,1,6,106,101,97,110,110,101,6,1,2,18,32,88,78,17,32,114,6,80,108,97,121,101,114,32,61,61,32,49,204,16,7,69,66,95,66,111,110,101,50,0,255,255,12,1,6,106,101,97,110,110,101,232,16,9,1,23,16,5,1,115,1,0,7,32,45,49,32,49,32,42,9,1,1,1]
+}

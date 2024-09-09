@@ -1,0 +1,854 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "24960322633058729095": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "270532496010814599",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent work, %PCRank. Now, you'll have to decide whether you want Stalhrim weapons or Stalhrim armor.",
+      "BNAM": "set \"Carnius Magius\".PCHasStalhrim to 1\r\nplayer->removeitem \"ingred_raw_stalhrim_01\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_Stalhrim_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "Stalhrimgiven",
+          "__TV": 1
+        }
+      ]
+    },
+    "270532496010814599": {
+      "flag": 0,
+      "PNAM": "24960322633058729095",
+      "NNAM": "2905423486037004",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent work, %PCRank. Once you've given me enough, we can discuss your acquiring Stalhrim weapons and Stalhrim armor.",
+      "BNAM": "set \"Carnius Magius\".PCHasStalhrim to 1\r\nplayer->removeitem \"ingred_raw_stalhrim_01\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_Stalhrim_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "Stalhrimgiven",
+          "__TV": 0
+        }
+      ]
+    },
+    "2905423486037004": {
+      "flag": 0,
+      "PNAM": "270532496010814599",
+      "NNAM": "2282422603075131729",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, where is it? Don't waste my time, %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2282422603075131729": {
+      "flag": 0,
+      "PNAM": "2905423486037004",
+      "NNAM": "3213517364154376468",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right. Just be sure you bring it to me as soon as you have it. I'd hate to think that you're holding out on me, %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3213517364154376468": {
+      "flag": 0,
+      "PNAM": "2282422603075131729",
+      "NNAM": "2677411163373231969",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have a piece for me?",
+      "BNAM": "Choice : \"Yes, here's one.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8a",
+          "__TV": 50
+        }
+      ]
+    },
+    "2677411163373231969": {
+      "flag": 0,
+      "PNAM": "3213517364154376468",
+      "NNAM": "2923928293248557471",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Now that you've completed your task, I'll just relieve you of this. In the future, I suggest you bring me any Stalhrim you find. In exchange for doing this work for me, I will do a great deal for you. You bring me more Stalhrim, and in exchange, I will have weapons and armor crafted from it for you... I told you great things would come from allying yourself with me, didn't I?",
+      "BNAM": "player->removeitem \"ingred_raw_stalhrim_01\" 1\r\nplayer->additem \"gold_001\" 3000\r\nJournal CO_8a 50\r\nModPCFacRep 12 \"East Empire Company\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8a",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_Stalhrim_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "2923928293248557471": {
+      "flag": 0,
+      "PNAM": "2677411163373231969",
+      "NNAM": "3149821282532121977",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bring me a piece of it from the mine, %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8a",
+          "__TV": 30
+        }
+      ]
+    },
+    "3149821282532121977": {
+      "flag": 0,
+      "PNAM": "2923928293248557471",
+      "NNAM": "919918461102110231",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They're all dead? Good. With them out of the way, there's no one else to reveal just how valuable the Stalhrim is. You currently possess the only tool on this island capable of cutting into Stalhrim. There are a few more like it, but none here have them. So you will acquire pieces of Stalhrim for me, starting now. Bring me at least one piece from the block in the mine, %PCRank.",
+      "BNAM": "Journal CO_8a 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8a",
+          "__TV": 20
+        }
+      ]
+    },
+    "919918461102110231": {
+      "flag": 0,
+      "PNAM": "3149821282532121977",
+      "NNAM": "30158186984095955",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Find those Nords and kill them. They're the only ones who understand the true importance of the Stalhrim.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8a",
+          "__TV": 10
+        }
+      ]
+    },
+    "30158186984095955": {
+      "flag": 0,
+      "PNAM": "919918461102110231",
+      "NNAM": "1126922898306423231",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's Nordic, whether the fools at Raven Rock know it or not. And it's immensely valuable - worth more than the rest of that whole stinking mine. Know that this, THIS is the reason I took this ridiculous position in the first place; I want that ice, and I want all of it. Since Graring is already dead, there's no one to stop you from taking it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "graring",
+          "__TV": 1
+        }
+      ]
+    },
+    "1126922898306423231": {
+      "flag": 0,
+      "PNAM": "30158186984095955",
+      "NNAM": "31580105842381012513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's Nordic, whether the fools at Raven Rock know it or not. And it's immensely valuable - worth more than the rest of that whole stinking mine. Know that this, THIS is the reason I took this ridiculous position in the first place; I want that ice, and I want all of it. That means you're going to eliminate the only people who know anything about it. Go to the north, just south of where the Harstad river meets the Ilsid, and find the three Nords there. Kill them, and get the pick axe I know they have.",
+      "BNAM": "Journal CO_8a 10\r\nStartScript ColonyNordAxe",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "31580105842381012513": {
+      "flag": 0,
+      "PNAM": "1126922898306423231",
+      "NNAM": "181459415254915849",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Stale what? I assure you I have no idea what you're talking about, %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "181459415254915849": {
+      "flag": 0,
+      "PNAM": "31580105842381012513",
+      "NNAM": "17457546157029387",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "From the information Graring gave you, it's clearly far more useful to us as armor and weapons than as chunks of ice. And it'll be tougher for Carnius to take away, too. Make sure that if you find any more of it, you take it to Graring.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8",
+          "__TV": 60
+        }
+      ]
+    },
+    "17457546157029387": {
+      "flag": 0,
+      "PNAM": "181459415254915849",
+      "NNAM": "5008273181096230475",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get some of it to Graring, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_8",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "5008273181096230475": {
+      "flag": 0,
+      "PNAM": "17457546157029387",
+      "NNAM": "2066918330920214020",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've heard Carnius mention the word before; I just never knew what he was talking about. He has heard about the burial cavern, of course, and is expressing an unusual amount of interest in it. Get it before Carnius can, and take it back to Graring.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "2066918330920214020": {
+      "flag": 0,
+      "PNAM": "5008273181096230475",
+      "NNAM": "1536517000274814875",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hidar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Though the Skaal shun its use, Stalhrim weapons are very effective. For that reason, I do not feel it is wrong to use it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_8",
+          "__TV": 50
+        }
+      ]
+    },
+    "1536517000274814875": {
+      "flag": 0,
+      "PNAM": "2066918330920214020",
+      "NNAM": "23467183481320924466",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aenar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is sacred, but it is useful. It can be made to craft Stalhrim armor, if one has the tools and knows the proper techniques.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_8",
+          "__TV": 50
+        }
+      ]
+    },
+    "23467183481320924466": {
+      "flag": 0,
+      "PNAM": "1536517000274814875",
+      "NNAM": "1011530623524630653",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "graring",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have some with you? Talk to Aenar if you wish to have armor crafted; Hidar will forge weapons for you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_8",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "aenar",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "hidar",
+          "__TV": 0
+        }
+      ]
+    },
+    "1011530623524630653": {
+      "flag": 0,
+      "PNAM": "23467183481320924466",
+      "NNAM": "20279543186431377",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "graring",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have some of it? I shall not take it from you; that you were willing to bring it is proof enough. Now that I now you can be trusted, you may come to us at any time, and we will construct for you armor and weapons. Speak to Aenar and Hidar; they will do these things for you with my blessing.",
+      "BNAM": "Journal CO_8 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_Stalhrim_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "aenar",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "hidar",
+          "__TV": 0
+        }
+      ]
+    },
+    "20279543186431377": {
+      "flag": 0,
+      "PNAM": "1011530623524630653",
+      "NNAM": "19980283012905216357",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "graring",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bring me some of it, so that I may know you can be trusted. Then, we shall speak more of it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_8",
+          "__TV": 30
+        }
+      ]
+    },
+    "19980283012905216357": {
+      "flag": 0,
+      "PNAM": "20279543186431377",
+      "NNAM": "20491359422657064",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "graring",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are not the first to seek it. Outsiders like this woman have been here before; always demanding, always offering payment that is useless to us. But they get nothing. The Skaal give them nothing because they call it sacred; we give them nothing because we know they would misuse it.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "20491359422657064": {
+      "flag": 0,
+      "PNAM": "19980283012905216357",
+      "NNAM": "636826752824332726",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Raven Rock",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Is that the stuff we found in the mine? Weird, huh? It looks just like ice, but we couldn't put a dent in it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_8a",
+          "__TV": 10
+        }
+      ]
+    },
+    "636826752824332726": {
+      "flag": 0,
+      "PNAM": "20491359422657064",
+      "NNAM": "1702824556150167478",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Raven Rock",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Is that the stuff we found in the mine? Weird, huh? It looks just like ice, but we couldn't put a dent in it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_8",
+          "__TV": 10
+        }
+      ]
+    },
+    "1702824556150167478": {
+      "flag": 0,
+      "PNAM": "636826752824332726",
+      "NNAM": "1492976812926509",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Solstheim, Thirsk",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's of no concern to you. There are some things, some sacred things, that are best left as they are.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1492976812926509": {
+      "flag": 0,
+      "PNAM": "1702824556150167478",
+      "NNAM": "11703135369074201",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You speak of something ancient and sacred. I would never work with such a material!",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "11703135369074201": {
+      "flag": 0,
+      "PNAM": "1492976812926509",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Solstheim",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, I don't know what you're talking about.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_f_head_08",
+  "KNAM": "b_n_dark elf_f_hair_15",
+  "MODL": null,
+  "FNAM": "Mehra Drora",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": -10,
+      "name": "ingred_netch_leather_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_stoneflower_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_fire_petal_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_hackle-lo_leaf_01"
+    },
+    {
+      "count": -1,
+      "name": "ingred_ghoul_heart_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bloat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_dreugh_wax_01"
+    },
+    {
+      "count": 2,
+      "name": "p_fortify_health_c"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_poison_s"
+    },
+    {
+      "count": 2,
+      "name": "p_disease_resistance_c"
+    },
+    {
+      "count": -2,
+      "name": "p_restore_fatigue_c"
+    },
+    {
+      "count": -5,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": -5,
+      "name": "p_restore_health_b"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "blood gift",
+    "powerwell",
+    "vivec's mercy",
+    "almsivi intervention",
+    "almalexia's grace",
+    "righteousness",
+    "holy touch",
+    "light",
+    "shield of the armiger",
+    "wisdom",
+    "iron will"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 60,
+    "magicka": 96,
+    "fatigue": 193,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [51,48,61,47,60,34,55,40],
+    "skills": [6,6,6,6,36,11,6,6,11,14,39,44,14,29,49,44,29,44,6,6,6,26,16,11,10,21,6]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

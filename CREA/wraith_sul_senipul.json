@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AncestorGhost.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 10,
+    "attributes": [50,50,50,50,30,50,50,50],
+    "health": 200,
+    "magicka": 400,
+    "fatigue": 400,
+    "soul_strength": 100,
+    "combat_skill": 60,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [3,10],
+      [3,10],
+      [3,10]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10629680
+  },
+  "CNAM": "ancestor_ghost",
+  "FNAM": "Wraith of Sul-Senipul",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "bonebiter_bow_unique"
+    },
+    {
+      "count": 1,
+      "name": "random_ectoplasm"
+    }
+  ],
+  "NPCS": [
+    "immune to normal weapons",
+    "brown rot",
+    "Ghost Curse",
+    "grave curse: strength",
+    "grave curse: fatigue",
+    "immune to frost",
+    "immune to poison",
+    "immune to shock"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,0,0,0,0,0]
+    }
+  ]
+}

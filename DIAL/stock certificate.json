@@ -1,0 +1,2560 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "15809103031786529451": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "155630831701219889",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Only current employees can receive stock benefits. That description doesn't apply to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "155630831701219889": {
+      "flag": 0,
+      "PNAM": "15809103031786529451",
+      "NNAM": "1207114290251335215",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've already exchanged your certificate, %PCRank. You don't get a second one.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonyStock",
+          "__TV": 2
+        }
+      ]
+    },
+    "1207114290251335215": {
+      "flag": 0,
+      "PNAM": "155630831701219889",
+      "NNAM": "262933214458728289",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't toy with me. You don't even have it with you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 0
+        }
+      ]
+    },
+    "262933214458728289": {
+      "flag": 0,
+      "PNAM": "1207114290251335215",
+      "NNAM": "531154221167531588",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 500\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_12a",
+          "__TV": 50
+        }
+      ]
+    },
+    "531154221167531588": {
+      "flag": 0,
+      "PNAM": "262933214458728289",
+      "NNAM": "8980144031153110399",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 10000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_12",
+          "__TV": 110
+        }
+      ]
+    },
+    "8980144031153110399": {
+      "flag": 0,
+      "PNAM": "531154221167531588",
+      "NNAM": "2260316344462028294",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 2000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_11",
+          "__TV": 60
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "2260316344462028294": {
+      "flag": 0,
+      "PNAM": "8980144031153110399",
+      "NNAM": "2514417803198568837",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 12000\r\nJournal CO_Stock 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_11",
+          "__TV": 60
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "2514417803198568837": {
+      "flag": 0,
+      "PNAM": "2260316344462028294",
+      "NNAM": "261182275074120199",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 4000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 100
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "261182275074120199": {
+      "flag": 0,
+      "PNAM": "2514417803198568837",
+      "NNAM": "31932164357968613",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 9000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 100
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "31932164357968613": {
+      "flag": 0,
+      "PNAM": "261182275074120199",
+      "NNAM": "31703103065605188",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 5000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_9a",
+          "__TV": 90
+        }
+      ]
+    },
+    "31703103065605188": {
+      "flag": 0,
+      "PNAM": "31932164357968613",
+      "NNAM": "336923041555623965",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 7000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_9",
+          "__TV": 60
+        }
+      ]
+    },
+    "336923041555623965": {
+      "flag": 0,
+      "PNAM": "31703103065605188",
+      "NNAM": "2076646254443754",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 6000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8a",
+          "__TV": 50
+        }
+      ]
+    },
+    "2076646254443754": {
+      "flag": 0,
+      "PNAM": "336923041555623965",
+      "NNAM": "812913100129357033",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 5500\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8",
+          "__TV": 60
+        }
+      ]
+    },
+    "812913100129357033": {
+      "flag": 0,
+      "PNAM": "2076646254443754",
+      "NNAM": "249021750121127609",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 4100\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_7",
+          "__TV": 100
+        }
+      ]
+    },
+    "249021750121127609": {
+      "flag": 0,
+      "PNAM": "812913100129357033",
+      "NNAM": "264791464361734106",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 3100\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_6a",
+          "__TV": 60
+        }
+      ]
+    },
+    "264791464361734106": {
+      "flag": 0,
+      "PNAM": "249021750121127609",
+      "NNAM": "1489623920326144128",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 3100\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_6",
+          "__TV": 80
+        }
+      ]
+    },
+    "1489623920326144128": {
+      "flag": 0,
+      "PNAM": "264791464361734106",
+      "NNAM": "142125582464916265",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 1600\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_4",
+          "__TV": 60
+        }
+      ]
+    },
+    "142125582464916265": {
+      "flag": 0,
+      "PNAM": "1489623920326144128",
+      "NNAM": "167306645482326687",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 1100\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3",
+          "__TV": 70
+        }
+      ]
+    },
+    "167306645482326687": {
+      "flag": 0,
+      "PNAM": "142125582464916265",
+      "NNAM": "23267207942374919794",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 600\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_2",
+          "__TV": 90
+        }
+      ]
+    },
+    "23267207942374919794": {
+      "flag": 0,
+      "PNAM": "167306645482326687",
+      "NNAM": "1730430912120872817",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Here you are.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 100\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_1",
+          "__TV": 50
+        }
+      ]
+    },
+    "1730430912120872817": {
+      "flag": 0,
+      "PNAM": "23267207942374919794",
+      "NNAM": "184651570757044517",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Right now, your certificate is worth 500 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_12a",
+          "__TV": 50
+        }
+      ]
+    },
+    "184651570757044517": {
+      "flag": 0,
+      "PNAM": "1730430912120872817",
+      "NNAM": "1945624094420525029",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Right now, your certificate is worth 10000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_12",
+          "__TV": 110
+        }
+      ]
+    },
+    "1945624094420525029": {
+      "flag": 0,
+      "PNAM": "184651570757044517",
+      "NNAM": "16174619842924316",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your certificate is currently worth 2000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_11",
+          "__TV": 60
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "16174619842924316": {
+      "flag": 0,
+      "PNAM": "1945624094420525029",
+      "NNAM": "3068813557830053",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your certificate is currently worth 12000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_11",
+          "__TV": 60
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "3068813557830053": {
+      "flag": 0,
+      "PNAM": "16174619842924316",
+      "NNAM": "1153430791891223237",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Based on current value, your certificate is worth 9000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "1153430791891223237": {
+      "flag": 0,
+      "PNAM": "3068813557830053",
+      "NNAM": "237333518181018124",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Based on current value, your certificate is worth 9000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "237333518181018124": {
+      "flag": 0,
+      "PNAM": "1153430791891223237",
+      "NNAM": "19739283752098215310",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Based on current value, your certificate is worth 4000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "19739283752098215310": {
+      "flag": 0,
+      "PNAM": "237333518181018124",
+      "NNAM": "28286109911970016002",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At present, your certificate is worth 5000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_9a",
+          "__TV": 90
+        }
+      ]
+    },
+    "28286109911970016002": {
+      "flag": 0,
+      "PNAM": "19739283752098215310",
+      "NNAM": "83353086931391189",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At present, your certificate is worth 7000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_9",
+          "__TV": 60
+        }
+      ]
+    },
+    "83353086931391189": {
+      "flag": 0,
+      "PNAM": "28286109911970016002",
+      "NNAM": "109412653271564590",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At this time, your certificate is worth 6000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8a",
+          "__TV": 50
+        }
+      ]
+    },
+    "109412653271564590": {
+      "flag": 0,
+      "PNAM": "83353086931391189",
+      "NNAM": "878911624202313558",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At this time, your certificate is worth 5500 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8",
+          "__TV": 60
+        }
+      ]
+    },
+    "878911624202313558": {
+      "flag": 0,
+      "PNAM": "109412653271564590",
+      "NNAM": "263575821285217654",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your certificate is currently worth 4100 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_7",
+          "__TV": 100
+        }
+      ]
+    },
+    "263575821285217654": {
+      "flag": 0,
+      "PNAM": "878911624202313558",
+      "NNAM": "1613214650203397312",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At the moment, your certificate is worth 3100 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_6a",
+          "__TV": 60
+        }
+      ]
+    },
+    "1613214650203397312": {
+      "flag": 0,
+      "PNAM": "263575821285217654",
+      "NNAM": "10609476821048413",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At the moment, your certificate is worth 3100 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_6",
+          "__TV": 80
+        }
+      ]
+    },
+    "10609476821048413": {
+      "flag": 0,
+      "PNAM": "1613214650203397312",
+      "NNAM": "17425220936216570",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's see.... it would appear the certificate is currently worth 2100 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_5",
+          "__TV": 70
+        }
+      ]
+    },
+    "17425220936216570": {
+      "flag": 0,
+      "PNAM": "10609476821048413",
+      "NNAM": "191821900253016222",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Right now, your certificate is worth 1600 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_4",
+          "__TV": 60
+        }
+      ]
+    },
+    "191821900253016222": {
+      "flag": 0,
+      "PNAM": "17425220936216570",
+      "NNAM": "2140432516241989438",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At present, your certificate is worth 1100 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3",
+          "__TV": 70
+        }
+      ]
+    },
+    "2140432516241989438": {
+      "flag": 0,
+      "PNAM": "191821900253016222",
+      "NNAM": "2716667783211913524",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At this time, your certificate is worth 600 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_2",
+          "__TV": 90
+        }
+      ]
+    },
+    "2716667783211913524": {
+      "flag": 0,
+      "PNAM": "2140432516241989438",
+      "NNAM": "25034218181885211",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At the moment, your certificate is worth 100 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_1",
+          "__TV": 50
+        }
+      ]
+    },
+    "25034218181885211": {
+      "flag": 0,
+      "PNAM": "2716667783211913524",
+      "NNAM": "5637141661331522167",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "5637141661331522167": {
+      "flag": 0,
+      "PNAM": "25034218181885211",
+      "NNAM": "263261158930515852",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes? Do you wish to turn in your certificate?",
+      "BNAM": "Choice: \"Check value\" 2 \"Turn in certificate\" 1 \"Nevermind.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonyStock",
+          "__TV": 1
+        }
+      ]
+    },
+    "263261158930515852": {
+      "flag": 0,
+      "PNAM": "5637141661331522167",
+      "NNAM": "22692151271352827070",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's a way to offset the cost of establishing and developing the colony. Each employee is issued a certificate that has a value based on how well the colony is performing. If you decide you'd like to exchange it for money, it can be arranged. See me if you're interested in doing so.",
+      "BNAM": "set ColonyStock to 1",
+      "SCVR": null
+    },
+    "22692151271352827070": {
+      "flag": 0,
+      "PNAM": "263261158930515852",
+      "NNAM": "2101613772071230600",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've already turned in your certificate.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonyStock",
+          "__TV": 2
+        }
+      ]
+    },
+    "2101613772071230600": {
+      "flag": 0,
+      "PNAM": "22692151271352827070",
+      "NNAM": "71064951032330875",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, well, you'll have to actually have the certificate in your posession for me to exchange it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        }
+      ]
+    },
+    "71064951032330875": {
+      "flag": 0,
+      "PNAM": "2101613772071230600",
+      "NNAM": "425832763154031795",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I'll just take the certificate, and this is yours.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 5000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 60
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "425832763154031795": {
+      "flag": 0,
+      "PNAM": "71064951032330875",
+      "NNAM": "981817290191779041",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I'll just take the certificate, and this is yours.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 9000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13",
+          "__TV": 70
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "981817290191779041": {
+      "flag": 0,
+      "PNAM": "425832763154031795",
+      "NNAM": "12810323751981828747",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I'll just take the certificate, and this is yours.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 500\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "12810323751981828747": {
+      "flag": 0,
+      "PNAM": "981817290191779041",
+      "NNAM": "932286382965338",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I'll just take the certificate, and this is yours.",
+      "BNAM": "player->removeitem \"bk_bm_stockcert\" 1\r\nplayer->additem \"gold_001\" 10000\r\nset ColonyStock to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_BM_Stockcert",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13",
+          "__TV": 60
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "932286382965338": {
+      "flag": 0,
+      "PNAM": "12810323751981828747",
+      "NNAM": "146321306870994143",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "According to recent documents, your certificate is worth 5000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 60
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "146321306870994143": {
+      "flag": 0,
+      "PNAM": "932286382965338",
+      "NNAM": "2189047439133126",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "According to recent documents, your certificate is worth 9000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13",
+          "__TV": 70
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "2189047439133126": {
+      "flag": 0,
+      "PNAM": "146321306870994143",
+      "NNAM": "4645237691073231295",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "According to recent documents, your certificate is worth 500 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "4645237691073231295": {
+      "flag": 0,
+      "PNAM": "2189047439133126",
+      "NNAM": "1133521889251161513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "According to recent documents, your certificate is worth 10000 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13",
+          "__TV": 60
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "1133521889251161513": {
+      "flag": 0,
+      "PNAM": "4645237691073231295",
+      "NNAM": "2304213722098810832",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "2304213722098810832": {
+      "flag": 0,
+      "PNAM": "1133521889251161513",
+      "NNAM": "15859310892244830074",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, well. Given the absence of Carnius, I suppose I could process the appropriate paperwork. Would you like to exchange your certificate now?",
+      "BNAM": "Choice:  \"Check value\" 5 \"Turn in certificate\" 4 \"Nevermind.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_13a",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "15859310892244830074": {
+      "flag": 0,
+      "PNAM": "2304213722098810832",
+      "NNAM": "302261996315917917",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, well. Given the absence of Carnius, I suppose I could process the appropriate paperwork. Would you like to exchange your certificate now?",
+      "BNAM": "Choice: \"Check value\" 5 \"Turn in certificate\" 4 \"Nevermind.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_13",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "302261996315917917": {
+      "flag": 0,
+      "PNAM": "15859310892244830074",
+      "NNAM": "46529115280773827",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "East Empire Company",
+      "SNAM": null,
+      "NAME": "Ah. Yes, well, Carnius handles stock certificates, being the local Factor and all.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "CO_13",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "46529115280773827": {
+      "flag": 0,
+      "PNAM": "302261996315917917",
+      "NNAM": "2798616623261320300",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Constans Atrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "East Empire Company",
+      "SNAM": null,
+      "NAME": "Ah. Yes, well, Carnius handles stock certificates, being the local Factor and all.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "CO_13a",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 2
+        }
+      ]
+    },
+    "2798616623261320300": {
+      "flag": 0,
+      "PNAM": "46529115280773827",
+      "NNAM": "159489356292321038",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Didn't you already exchange it? You're not going to get another one, you know.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonyStock",
+          "__TV": 2
+        }
+      ]
+    },
+    "159489356292321038": {
+      "flag": 0,
+      "PNAM": "2798616623261320300",
+      "NNAM": "1853728644312343192",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. Carnius would've been the one to deal with it, but he's not really in a position to do that, now is he? I imagine Constans Atrius can take care of it. Check with him at the fort.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_13",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Constans Atrius",
+          "__TV": 0
+        }
+      ]
+    },
+    "1853728644312343192": {
+      "flag": 0,
+      "PNAM": "159489356292321038",
+      "NNAM": "4670228121711331300",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. Carnius would've been the one to deal with it, but he's not really in a position to do that, now is he? And Constans is dead as well, so I guess there's nothing that can be done with it. Pity.... perhaps you could have it framed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_13",
+          "__TV": 60
+        }
+      ]
+    },
+    "4670228121711331300": {
+      "flag": 0,
+      "PNAM": "1853728644312343192",
+      "NNAM": "2169521913320828491",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You'll have to take it to Carnius if you want to exchange it. He's the only one with the power to do that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Carnius Magius",
+          "__TV": 0
+        }
+      ]
+    },
+    "2169521913320828491": {
+      "flag": 0,
+      "PNAM": "4670228121711331300",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Carnius was the only one with the power to redeem those certificates. I'm afraid it's useless without him.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

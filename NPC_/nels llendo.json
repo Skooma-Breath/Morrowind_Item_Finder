@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Thief Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_09",
+  "KNAM": "b_n_dark elf_m_hair_17",
+  "MODL": null,
+  "FNAM": "Nels Llendo",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel flameblade"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_cuirass"
+    },
+    {
+      "count": 100,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 6,
+    "health": 66,
+    "magicka": 96,
+    "fatigue": 190,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [49,48,34,64,71,43,36,40],
+    "skills": [6,6,6,6,6,10,6,6,25,6,16,6,6,6,10,6,6,6,45,45,42,44,52,32,28,28,28]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

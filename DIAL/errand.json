@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "92501845924729422": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2369241622602432340",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, yes. You've completed the errand, and I'm quite satisfied.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 15
+        }
+      ]
+    },
+    "2369241622602432340": {
+      "flag": 0,
+      "PNAM": "92501845924729422",
+      "NNAM": "16293234062747712419",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very good. I'll just take that skull from you. Perfect for what I have in mind. Thank you. Now. As I promised. I'll answer your questions on the Nerevarine cult. Go ahead.",
+      "BNAM": "Player->RemoveItem, \"misc_skull_llevule\", 1\r\nJournal, \"A1_4_MuzgobInformant\", 15\r\nPlayer->ModReputation 1\r\nmoddisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_Skull_Llevule",
+          "__TV": 1
+        }
+      ]
+    },
+    "16293234062747712419": {
+      "flag": 0,
+      "PNAM": "2369241622602432340",
+      "NNAM": "288918185757411443",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "When you've completed the errand, then we can discuss the information Caius wants.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "misc_Skull_Llevule",
+          "__TV": 0
+        }
+      ]
+    },
+    "288918185757411443": {
+      "flag": 0,
+      "PNAM": "16293234062747712419",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The errand, then, is very simple. I need the skull of Llevule Andrano. You'll find it in Andrano Ancestral Tomb. But take care not to upset the natives. The Dunmer have some peculiar primitive prejudices against necromancy, and take grave objection to unauthorized tomb visits.",
+      "BNAM": "Journal, \"A1_4_MuzgobInformant\", 10\r\naddtopic necromancers",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

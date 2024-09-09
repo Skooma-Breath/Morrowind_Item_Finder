@@ -1,0 +1,1440 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2845710623916928470": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "45972471020234242",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have equipped Wraithguard and lived to tell about it. Congratulations.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 50; wraithguardEquipped =1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "wraithguardEquipped",
+          "__TV": 1
+        }
+      ]
+    },
+    "45972471020234242": {
+      "flag": 0,
+      "PNAM": "2845710623916928470",
+      "NNAM": "1334831192170672138",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I won't even consider this procedure until you are in perfect health. Come back to me when you're completely healed.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 50; PC Health < 200\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "07",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 100
+        }
+      ]
+    },
+    "1334831192170672138": {
+      "flag": 0,
+      "PNAM": "45972471020234242",
+      "NNAM": "30217118852444410281",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Even if you were in perfect health, and if you fortified your health as much as possible, there is a good chance that you would be killed the first time you equipped Wraithguard. I would not risk it in your condition.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 50; PC Health < 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 200
+        }
+      ]
+    },
+    "30217118852444410281": {
+      "flag": 0,
+      "PNAM": "1334831192170672138",
+      "NNAM": "324665435678532435",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you are in perfect health, and you have fortified your health as much as possible, there is a good chance you will survive the first time you equip Wraithguard. And thereafter, Wraithguard will work as designed.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 50; PC Health >= 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 200
+        }
+      ]
+    },
+    "324665435678532435": {
+      "flag": 0,
+      "PNAM": "30217118852444410281",
+      "NNAM": "27361183731171819737",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you are in perfect health, and you have fortified your health as much as possible, there is a very good chance you will survive the first time you equip Wraithguard. And thereafter, Wraithguard will work as designed.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 50; PC Health >= 220",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 220
+        }
+      ]
+    },
+    "27361183731171819737": {
+      "flag": 0,
+      "PNAM": "324665435678532435",
+      "NNAM": "28099256531717215469",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you are in perfect health, and you have fortified your health as much as possible, I am confident you will survive the first time you equip Wraithguard. And thereafter, Wraithguard will work as designed.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 50; PC Health >= 230",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 230
+        }
+      ]
+    },
+    "28099256531717215469": {
+      "flag": 0,
+      "PNAM": "27361183731171819737",
+      "NNAM": "19483327353095112999",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Whenever you are ready, come back, and I'll perform the necessary procedures.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; CHOICE 2;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "19483327353095112999": {
+      "flag": 0,
+      "PNAM": "28099256531717215469",
+      "NNAM": "146715092567610044",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. [Yagrum Bagarn takes the unique Dwemer artifact, and performs a series of manipulations. He then returns it.] Now, the first time you equip Wraithguard, you will experience a terrible shock. If you are in perfect health, I am confident you will survive. But you may want to fortify your health as much as possible beforehand, just in case. Afterwards, Wraithguard should be working as designed, and everything will be fine.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health >= 230; CHOICE 1; \r\nplayer->removeitem \"misc_wraithguard_no_equip\" 1\r\nplayer->additem \"Wraithguard_jury_rig\" 1\r\nJournal CX_BackPath 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 230
+        }
+      ]
+    },
+    "146715092567610044": {
+      "flag": 0,
+      "PNAM": "19483327353095112999",
+      "NNAM": "24014121971005721154",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've studied Kagrenac's Planbook and Journals. I know what to do. The artifact simply must be harmonized with your personal magicka signature. However, the process is dangerous. You will certainly be injured. I am certain, however, that you will survive the process. Are you ready for me to activate Wraithguard and harmonize it to your magicka signature?",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health >= 230;\r\nChoice \"Please activate Wraithguard.\" 1 \"Not right now. I'd like to prepare myself.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 230
+        }
+      ]
+    },
+    "24014121971005721154": {
+      "flag": 0,
+      "PNAM": "146715092567610044",
+      "NNAM": "1302815713280699658",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. [Yagrum Bagarn takes the unique Dwemer artifact, and performs a series of manipulations. He then returns it.] Now, the first time you equip Wraithguard, you will experience a terrible shock. If you are in perfect health, and you have fortified your health as much as possible, I believe you will survive. But you MUST fortify your health as much as possible beforehand. Afterwards, Wraithguard should be working as designed, and everything will be fine.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health >= 220; CHOICE 1; \r\nplayer->removeitem \"misc_wraithguard_no_equip\" 1\r\nplayer->additem \"Wraithguard_jury_rig\" 1\r\nJournal CX_BackPath 55",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 220
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1302815713280699658": {
+      "flag": 0,
+      "PNAM": "24014121971005721154",
+      "NNAM": "1110225700824911657",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've studied Kagrenac's Planbook and Journals. I know what to do. The artifact simply must be harmonized with your personal magicka signature. However, the process is dangerous. You will certainly be injured. I am not sure you will survive the process. There is no risk now, while I harmonize the artifact with your magicka, but when you first equip Wraithguard, you should fortify your health as much as possible. Are you ready for me to activate Wraithguard and harmonize it to your magicka signature?",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health >= 220\r\nChoice \"Please activate Wraithguard\" 1 \"Not right now. I'd like to prepare myself.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 220
+        }
+      ]
+    },
+    "1110225700824911657": {
+      "flag": 0,
+      "PNAM": "1302815713280699658",
+      "NNAM": "31123226972147412041",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. [Yagrum Bagarn takes the unique Dwemer artifact, and performs a series of manipulations. He then returns it.] Now, the first time you equip Wraithguard, you will experience a terrible shock. If you are in perfect health, and you have fortified your health as much as possible, there is a good chance you will survive. But the risk is great, and you MUST fortify your health as much as possible beforehand. Afterwards, Wraithguard should be working as designed, and everything will be fine.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health >= 200; CHOICE 1; \r\nplayer->removeitem \"misc_wraithguard_no_equip\" 1\r\nplayer->additem \"Wraithguard_jury_rig\" 1\r\nJournal CX_BackPath 60",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 200
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "31123226972147412041": {
+      "flag": 0,
+      "PNAM": "1110225700824911657",
+      "NNAM": "112352034470979734",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've studied Kagrenac's Planbook and Journals. I know what to do. The artifact must be harmonized with your personal magicka signature. However, the process is dangerous. You will certainly be injured. You may be killed. There is no risk now, while I harmonize the artifact with your magicka, but when you first equip Wraithguard, you MUST fortify your health as much as possible, to improve your chances of survival. Are you ready for me to activate Wraithguard and harmonize it to your magicka signature?",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health >= 200\r\nChoice \"Please activate Wraithguard.\" 1 \"Not right now. I'd like to prepare myself.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 220
+        }
+      ]
+    },
+    "112352034470979734": {
+      "flag": 0,
+      "PNAM": "31123226972147412041",
+      "NNAM": "1178226943322409071",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. [Yagrum Bagarn takes the unique Dwemer artifact, and performs a series of manipulations. He then returns it.] Now, the first time you equip Wraithguard, you will experience a terrible shock. If you are in perfect health, and you have fortified your health as much as possible, there is a slight chance you will survive. If you survived, Wraithguard would work as designed. If you eat right, exercise, and improve your health, when you are MUCH healthier, then you MIGHT risk equipping Wraithguard.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health < 200; CHOICE 1; \r\nplayer->removeitem \"misc_wraithguard_no_equip\" 1\r\nplayer->additem \"Wraithguard_jury_rig\" 1\r\nJournal CX_BackPath 65",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 200
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1178226943322409071": {
+      "flag": 0,
+      "PNAM": "112352034470979734",
+      "NNAM": "1372531018226522665",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've studied Kagrenac's Planbook and Journals. I know what to do. The artifact simply must be harmonized with your personal magicka signature. However, the process is dangerous, and I think equipping Wraithguard would kill you. There is no risk now, while I harmonize the artifact with your magicka, but when you first equip Wraithguard, you would be badly injured, and probably killed. Are you ready for me to activate Wraithguard and harmonize it to your magicka signature?",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item = misc_wraithguard_no_equip; PC Health < 200\r\nChoice \"Please activate Wraithguard.\" 1 \"Not right now. I'd like to prepare myself.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "64",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 200
+        }
+      ]
+    },
+    "1372531018226522665": {
+      "flag": 0,
+      "PNAM": "1178226943322409071",
+      "NNAM": "1933917492483724592",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm ready, but you don't have the unique Dwemer artifact.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed >= 1; item != misc_wraithguard_no_equip;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 0
+        }
+      ]
+    },
+    "1933917492483724592": {
+      "flag": 0,
+      "PNAM": "1372531018226522665",
+      "NNAM": "24468292803119319792",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Patience! These things take time!",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 25; dayspassed < 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "24468292803119319792": {
+      "flag": 0,
+      "PNAM": "1933917492483724592",
+      "NNAM": "261302534280554131",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found Kagrenac's Journals and Kagrenac's Planbook! Good. I'll take them and study them. It shouldn't take long. Give me a day, then come back, and I think I can restore Wraithguard's mythopoeic enchantments.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 1;  item = Kagrenac's Planbook; item = Kagrenac's Journals; ; item = misc_wraithguard_no_equip; \r\nJournal CX_BackPath 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_kagrenac'sjournal_excl",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_kagrenac'splans_excl",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "261302534280554131": {
+      "flag": 0,
+      "PNAM": "24468292803119319792",
+      "NNAM": "19308297451500115388",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found Kagrenac's Journals and Kagrenac's Planbook. But where is the unique Dwemer artifact?",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 1;  item = Kagrenac's Planbook; item = Kagrenac's Journals; ; item != misc_wraithguard_no_equip",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_kagrenac'sjournal_excl",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_kagrenac'splans_excl",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 0
+        }
+      ]
+    },
+    "19308297451500115388": {
+      "flag": 0,
+      "PNAM": "261302534280554131",
+      "NNAM": "678691301388722624",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must find Kagrenac's Planbook and Kagrenac's Journals and bring them to me before I can attempt to restore the mythopoeic enchantments on Wraithguard.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 1;  item != Kagrenac's Planbook; item != Kagrenac's Journals",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_kagrenac'sjournal_excl",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_kagrenac'splans_excl",
+          "__TV": 0
+        }
+      ]
+    },
+    "678691301388722624": {
+      "flag": 0,
+      "PNAM": "19308297451500115388",
+      "NNAM": "11608262112405915076",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good! Very good! You have found Kagrenac's Journals! Now you must also find Kagrenac's Planbook and bring them to me before I can attempt to restore the mythopoeic enchantments on Wraithguard.",
+      "BNAM": ";Yagrum Bagarn; Journal CX_BackPath >= 1;  item != Kagrenac's Planbook; item = Kagrenac's Journals",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_kagrenac'splans_excl",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_kagrenac'sjournal_excl",
+          "__TV": 1
+        }
+      ]
+    },
+    "11608262112405915076": {
+      "flag": 0,
+      "PNAM": "678691301388722624",
+      "NNAM": "29696248251241315591",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good! Very good! You have found Kagrenac's Planbook! Now you must also find Kagrenac's Journals and bring them to me before I can attempt to restore the mythopoeic enchantments on Wraithguard.",
+      "BNAM": ";Yagrum Bagarn; ; Journal CX_BackPath >= 1; item = Kagrenac's Planbook; item != Kagrenac's Journals",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CX_BackPath",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_kagrenac'splans_excl",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_kagrenac'sjournal_excl",
+          "__TV": 0
+        }
+      ]
+    },
+    "29696248251241315591": {
+      "flag": 0,
+      "PNAM": "11608262112405915076",
+      "NNAM": "1246726461338024716",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "[Reads 'Vivec's Plan' and 'Dagoth Ur's Plans'.] I see. Dagoth Ur's use of the enchantments on the Heart of Lorkhan presents a great danger. And you need this artifact -- Wraithguard -- to destroy those enchantments, and Dagoth Ur. This is a good cause. If you can find Kagrenac's Planbook and Kagrenac's Journals and bring them to me, I will do my best to restore Wraithguard to its proper functions.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; CHOICE 5; \r\nJournal CX_BackPath 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "1246726461338024716": {
+      "flag": 0,
+      "PNAM": "29696248251241315591",
+      "NNAM": "23299862174328418",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see. I thought I had heard of you. But I had not realized that all these good deeds you describe were your handiwork. Yes. I am satisfied of your motivations and character. I believe I can trust you. If you can find Kagrenac's Planbook and Kagrenac's Journals and bring them to me, I will do my best to restore Wraithguard to its proper functions.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; PC Reputation >= 100; CHOICE 4; \r\nJournal CX_BackPath 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 30
+        }
+      ]
+    },
+    "23299862174328418": {
+      "flag": 0,
+      "PNAM": "1246726461338024716",
+      "NNAM": "76283258947049393",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well. Perhaps your reputation is not all that it might be. But I like you, and I trust my instincts. If you can find Kagrenac's Planbook and Kagrenac's Journals and bring them to me, I will do my best to restore Wraithguard to its proper functions.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; CHOICE 4; \r\nJournal CX_BackPath 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 20
+        }
+      ]
+    },
+    "76283258947049393": {
+      "flag": 0,
+      "PNAM": "23299862174328418",
+      "NNAM": "2887796473754183",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. Your reputation is not so great that I would risk putting such a powerful device in your hands without a very compelling reason.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; CHOICE 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2887796473754183": {
+      "flag": 0,
+      "PNAM": "76283258947049393",
+      "NNAM": "67772165342107496",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is not a matter of personal gain. This is a matter of right and wrong, and the risk of potential harm... and the question of your motivations and character.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; CHOICE 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "67772165342107496": {
+      "flag": 0,
+      "PNAM": "2887796473754183",
+      "NNAM": "522617362283137940",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not sure. Let me see. [Examines the artifact.] No. I don't think so. Not without Kagrenac's Planbook and Kagrenac's Journals. But, if the originals still exist, and I could study them, then, yes, perhaps I could restore the artifact. Whether I should or would, on the other hand, that is a different matter.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; item = Vivecs_Plan; item = Dagoth_Urs_Plans; CHOICE 2; \r\nChoice \"Offer payment or service.\" 3 \"Plead on the basis of my reputation.\" 4 \"Show him 'Vivec's Plan' and 'Dagoth Ur's Plans'.\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_vivecs_plan",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_Dagoth_Urs_Plans",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "522617362283137940": {
+      "flag": 0,
+      "PNAM": "67772165342107496",
+      "NNAM": "2724721000246001129",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not sure. Let me see. [Examines the artifact.] No. I don't think so. Not without Kagrenac's Planbook and Kagrenac's Journals. But, if the originals still exist, and I could study them, then, yes, perhaps I could restore the artifact. Whether I should or would, on the other hand, that is a different matter.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; CHOICE 2; \r\nChoice \"Offer payment or service.\" 3 \"Plead on the basis of my reputation.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2724721000246001129": {
+      "flag": 0,
+      "PNAM": "522617362283137940",
+      "NNAM": "724727630200344225",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It probably is very dangerous. You couldn't have known, but you took a great risk handling it.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; CHOICE 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "724727630200344225": {
+      "flag": 0,
+      "PNAM": "2724721000246001129",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yagrum bagarn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not sure I can explain. In his search for the secrets of immortality, Kagrenac sought to control supernatural forces that you might call 'divine'. This artifact -- called 'Wraithguard -- was one of the tools that he created for this purpose. Some believed his tampering with such forces was profane, and terribly dangerous. You know the Dwemer disappeared? His use of these tools may have been responsible.",
+      "BNAM": ";Yagrum Bagarn; item = misc_wraithguard_no_equip; \r\nChoice \"Sounds dangerous to me. Thank you.\" 1 \"I don't think this artifact is working. Can you restore the artifact?\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

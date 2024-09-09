@@ -1,0 +1,262 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "6182187442282824457": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "910887013066421075",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is no more to say about this matter.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "DA_Mephala",
+          "__TV": 57
+        }
+      ]
+    },
+    "910887013066421075": {
+      "flag": 0,
+      "PNAM": "6182187442282824457",
+      "NNAM": "2029520333370719468",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've killed him in a way other than was described? That was unwise. Mephala is not pleased. Leave here.",
+      "BNAM": "Journal DA_Mephala 57\r\nModDisposition -20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "DA_Mephala",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "balyn omavel",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "DA_Mephala",
+          "__TV": 57
+        }
+      ]
+    },
+    "2029520333370719468": {
+      "flag": 0,
+      "PNAM": "910887013066421075",
+      "NNAM": "167835806235413657",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well done. Mephala wishes to speak to you directly. This is a great honor for you. Approach her altar.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "DA_Mephala",
+          "__TV": 50
+        }
+      ]
+    },
+    "167835806235413657": {
+      "flag": 0,
+      "PNAM": "2029520333370719468",
+      "NNAM": "27538310523058411201",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Unfortunately, you were seen going into the house of Balyn Omavel. Mephala is not pleased. No matter. I will find someone more competent to complete this task. Goodbye.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "DA_Mephala",
+          "__TV": 55
+        }
+      ]
+    },
+    "27538310523058411201": {
+      "flag": 0,
+      "PNAM": "167835806235413657",
+      "NNAM": "640110986418626260",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been given your task, %PCName. You should complete it before Mephala is angered.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "DA_Mephala",
+          "__TV": 40
+        }
+      ]
+    },
+    "640110986418626260": {
+      "flag": 0,
+      "PNAM": "27538310523058411201",
+      "NNAM": "1228230000377717685",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. There is a member of our brotherhood living in Balmora, Balyn Omavel. He has been...freelancing, if you will. This is unacceptable, and he must be removed. Unfortunately, his brother is a rather important member of our brotherhood, so it would be difficult to bring it to the attention of the others. Use this poison in his food. It acts swiftly, as should you.",
+      "BNAM": "RemoveItem \"ingred_treated_bittergreen_uniq\" 5\r\nPlayer->AddItem \"ingred_treated_bittergreen_uniq\" 5\r\nJournal \"DA_Mephala\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1228230000377717685": {
+      "flag": 0,
+      "PNAM": "640110986418626260",
+      "NNAM": "1053123401240582096",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I understand. I trust you will speak to no one about this. Mephala would be most displeased, and her reach is great.",
+      "BNAM": "Journal \"DA_Mephala\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1053123401240582096": {
+      "flag": 0,
+      "PNAM": "1228230000377717685",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "taros dral",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The great Daedra Mephala has given me information that must be acted on. If you would be willing to work with me, I'm certain Mephala would be grateful.",
+      "BNAM": "Journal \"DA_Mephala\" 10\r\nChoice \"I would like to help.\" 1 \"I do not wish to become involved.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "DA_Mephala",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

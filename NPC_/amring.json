@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Acrobat",
+  "ANAM": "",
+  "BNAM": "b_n_wood elf_m_head_01",
+  "KNAM": "b_n_wood elf_m_hair_04",
+  "MODL": null,
+  "FNAM": "Amring",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 30,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "health": 0,
+    "magicka": 20,
+    "fatigue": 187,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [32,41,51,43,43,61,31,40],
+    "skills": [5,5,5,5,5,5,5,16,31,5,5,16,5,5,5,5,10,31,6,42,36,26,6,46,6,16,16]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Mage",
+  "ANAM": "",
+  "BNAM": "b_n_high elf_m_head_04",
+  "KNAM": "b_n_high elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Carecalmo",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_amulet_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "sanguinebeltmartialcraft"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "l_b_amulets"
+    },
+    {
+      "count": 1,
+      "name": "l_m_potion"
+    }
+  ],
+  "NPCS": [
+    "crushing burden",
+    "wizard rend",
+    "reflect",
+    "shockbite",
+    "potent poison",
+    "frost bolt",
+    "five fingers of pain",
+    "flamebolt"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 22,
+    "health": 168,
+    "magicka": 2000,
+    "fatigue": 263,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [52,97,100,58,71,53,71,40],
+    "skills": [7,7,7,7,7,7,7,7,7,58,73,68,68,53,63,63,58,48,7,7,7,7,37,7,7,7,65]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

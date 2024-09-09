@@ -1,0 +1,23 @@
+{
+  "deleted": false,
+  "MEDT": {
+    "school": 2,
+    "base_cost": 8,
+    "flags": 1536,
+    "rgb": [198,65,57],
+    "speed_mult": 1,
+    "size_mult": 1,
+    "size_cap": 50
+  },
+  "ITEX": "s\\Tx_S_Dmg_Health.tga",
+  "PTEX": "vfx_alpha_bolt01.tga",
+  "BSND": null,
+  "CSND": null,
+  "HSND": null,
+  "ASND": null,
+  "CVFX": "VFX_DestructCast",
+  "BVFX": "VFX_DestructBolt",
+  "HVFX": "VFX_DestructHit",
+  "AVFX": "VFX_DestructArea",
+  "DESC": "This effect lowers the value of a victim's health. Any derived attributes are recalculated. Health does not return to its original value at the end of the spell's duration; it restores normally, or may be restored with a restore health spell or potion. The magnitude is the units of health lost each second of duration.\r\n"
+}

@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Farmer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_21",
+  "MODL": null,
+  "FNAM": "Llovyn Andus",
+  "SCRI": "llovynAndusScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 20,
+    "flee": 40,
+    "alarm": 20,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 2,
+      "name": "ingred_saltrice_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

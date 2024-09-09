@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Smith",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_10",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Ralen Tilvur",
+  "SCRI": "ralenTilvurScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 80,
+    "alarm": 100,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": -50,
+      "name": "chitin arrow"
+    },
+    {
+      "count": -20,
+      "name": "chitin throwing star"
+    },
+    {
+      "count": 1,
+      "name": "iron warhammer"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_hh"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": -10,
+      "name": "repair_journeyman_01"
+    },
+    {
+      "count": -10,
+      "name": "repair_prongs"
+    },
+    {
+      "count": -10,
+      "name": "hammer_repair"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 400
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

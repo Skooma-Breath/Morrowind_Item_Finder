@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 60,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin SadriDoor\r\n\r\nif ( GetJournalIndex \"MS_Thief\" = 40 )\r\n\tif ( OnActivate == 1 )\r\n\t\tJournal MS_Thief 50\t\t\t;updates journal when trapdoor is activated\r\n\t\tActivate\r\n\tendif\r\nendif\r\n\r\nEnd SadriDoor",
+  "SCVR": null,
+  "SCDT": [6,1,4,20,32,88,205,16,32,100,8,77,83,95,84,104,105,101,102,32,61,32,52,48,6,1,2,9,32,88,24,16,32,61,61,32,49,204,16,8,77,83,95,84,104,105,101,102,50,0,255,255,23,16,9,1,9,1,1,1]
+}

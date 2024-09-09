@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 208,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin IcicleScript\r\n\r\nif ( GetDisabled == 0 )\r\n\tif ( PCWerewolf == 0 )\r\n\t\tDisable\r\n\telseif ( GetJournalIndex BM_SkaalAttack >= 30 )\r\n\t\tif ( GetJournalIndex BM_WildHunt < 100 )\r\n\t\t\tDisable\r\n\t\tendif\r\n\tendif\r\nelseif ( GetDisabled == 1 )\r\n\tif ( PCWerewolf == 1 )\r\n\t\tif ( GetJournalIndex BM_SkaalAttack < 30 )\r\n\t\t\tEnable\r\n\t\telseif ( GetJournalIndex BM_WildHunt >= 100 )\r\n\t\t\tEnable\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\n\r\nEnd IcicleScript\r\n",
+  "SCVR": null,
+  "SCDT": [6,1,7,9,32,88,220,16,32,61,61,32,48,6,1,1,18,32,71,10,80,67,87,101,114,101,119,111,108,102,32,61,61,32,48,219,16,8,1,3,27,32,88,205,16,32,100,14,66,77,95,83,107,97,97,108,65,116,116,97,99,107,32,62,61,32,51,48,6,1,1,24,32,88,205,16,32,100,11,66,77,95,87,105,108,100,72,117,110,116,32,60,32,49,48,48,219,16,9,1,9,1,8,1,7,9,32,88,220,16,32,61,61,32,49,6,1,5,18,32,71,10,80,67,87,101,114,101,119,111,108,102,32,61,61,32,49,6,1,1,26,32,88,205,16,32,100,14,66,77,95,83,107,97,97,108,65,116,116,97,99,107,32,60,32,51,48,218,16,8,1,1,25,32,88,205,16,32,100,11,66,77,95,87,105,108,100,72,117,110,116,32,62,61,32,49,48,48,218,16,9,1,9,1,9,1,1,1]
+}

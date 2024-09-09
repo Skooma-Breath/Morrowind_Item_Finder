@@ -1,0 +1,346 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "9634118372773615656": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "131538025407411938",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kolfinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have brought me Pinetear!  You have my eternal thanks, %PCName.  I have been compensated for my husband's murder, as is our custom.  As a token of my gratitude, I welcome you into my family and home. Rest in my bed whenever you feel weary, and take this key.  It will unlock my husband's chest, there in the corner.  Everything it contains is now yours.",
+      "BNAM": "Journal BM_Retribution 100\r\nplayer->removeitem \"ingred_emerald_pinetear\" 1\r\n\"kolfinna\"->additem \"ingred_emerald_pinetear\" 1\r\n\"kolfinna\"->removeitem \"key_gustav_chest\" 1 \r\nPlayer->AddItem \"key_gustav_chest\" 1\r\nmoddisposition 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Retribution",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ingred_emerald_pinetear",
+          "__TV": 1
+        }
+      ]
+    },
+    "131538025407411938": {
+      "flag": 0,
+      "PNAM": "9634118372773615656",
+      "NNAM": "317088242943423486",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sigvatr the strong",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes! Yes, I killed him!  He would have slit my throat!  Or so I thought.  But what if I was wrong?  What if I murdered Gustav in cold blood?  My friend...oh my friend!  Here, take the gem! Give it to Kolfinna, and may it ease her pain.  My suffering, my guilt, will never end!",
+      "BNAM": "\"sigvatr the strong\"->removeitem \"ingred_emerald_pinetear\" 1 \r\nPlayer->AddItem \"ingred_emerald_pinetear\" 1\r\nJournal \"BM_Retribution\" 50\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Retribution",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "5",
+          "identifier": "ingred_emerald_pinetear",
+          "__TV": 0
+        }
+      ]
+    },
+    "317088242943423486": {
+      "flag": 0,
+      "PNAM": "131538025407411938",
+      "NNAM": "1011923862110321634",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sigvatr the strong",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gustav and I argued.  We drank too much.  It was something foolish...petty. But then he reached for his blade. I saw him! I was defending myself!  Kolfinna will have no wergild, for I only did what was necessary.  I thought Gustav was my friend, but when I saw the knife....   Go now!  I will speak no more of this!",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Retribution",
+          "__TV": 10
+        }
+      ]
+    },
+    "1011923862110321634": {
+      "flag": 0,
+      "PNAM": "317088242943423486",
+      "NNAM": "187952496459064857",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kolfinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you're going to help me, please hurry.  I won't be able to rest until my husband's life has been compensated for.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Retribution",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Retribution",
+          "__TV": 100
+        }
+      ]
+    },
+    "187952496459064857": {
+      "flag": 0,
+      "PNAM": "1011923862110321634",
+      "NNAM": "7783138021837624430",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kolfinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I see.  So be it, then.  My husband lies dead, and I shall live the rest of my life poor and alone.  Maybe some day I will have the wergild that is my right, if someone is brave enough to claim it.  Good day,  %PCName.",
+      "BNAM": "Journal \"BM_Retribution\" 20\r\nModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "7783138021837624430": {
+      "flag": 0,
+      "PNAM": "187952496459064857",
+      "NNAM": "81324022650926818",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kolfinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "May Mara smile on you, %PCName.  Sigvatr the Strong is known to hunt near a formation of standing stones called the Altar of Thrond.  It is northwest of here, and just west of the Harstrad River.  But be careful! Sigvatr wields a powerful magic hammer called Rammekald.  It can freeze a foe where he stands.  It...it is the weapon that killed my sweet Gustav.  Go now, and when you have Pinetear, bring it to me.",
+      "BNAM": "Journal \"BM_Retribution\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "81324022650926818": {
+      "flag": 0,
+      "PNAM": "7783138021837624430",
+      "NNAM": "11245268202398215569",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kolfinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wergild is the traditional Nord rite of retribution.  When a life is taken, that life must be accounted for.  My Gustav is irreplaceable, but there must be compensation for his murder.   I do not wish Sigvatr dead.  I only want his family heirloom, the gem Pinetear.  Pinetear is rather small, and not very valuable, but it means much to Sigvatr.  If I were to gain possession of Pinetear,  it would serve as fitting payment for Gustav's death.  Will you help me extract wergild from Sigvatr the Strong?",
+      "BNAM": "Journal \"BM_Retribution\" 10\r\nChoice \"You will have your retribution, Kolfinna. I will bring you the gem Pinetear.\" 1 \"I'm sorry, Kolfinna, but no.  Your family matter does not concern me.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "BM_Retribution",
+          "__TV": 20
+        }
+      ]
+    },
+    "11245268202398215569": {
+      "flag": 0,
+      "PNAM": "81324022650926818",
+      "NNAM": "1752417610938032402",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sigvatr the strong",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Kolfinna will get nothing from me, understand?  I did what I had to do. She wasn't there, and neither were you.  I...I had no choice.  Now leave me be!",
+      "BNAM": "Journal \"BM_Retribution\" 40\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Retribution",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ingred_emerald_pinetear",
+          "__TV": 0
+        }
+      ]
+    },
+    "1752417610938032402": {
+      "flag": 0,
+      "PNAM": "11245268202398215569",
+      "NNAM": "1453428141004211904",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kolfinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks to you, the right of wergild has been paid.  Pinetear is mine, and Gustav's spirit will rest well now, knowing that I have received compensation for his death.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Retribution",
+          "__TV": 100
+        }
+      ]
+    },
+    "1453428141004211904": {
+      "flag": 0,
+      "PNAM": "1752417610938032402",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sigvatr the strong",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Kolfinna will get nothing from me, understand?  I did what I had to do. She wasn't there, and neither were you.  I...I had no choice.  Now leave me be!",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Retribution",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ingred_emerald_pinetear",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "27050156118185519": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "15762241253205011873",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from House Redoran. Make amends and perhaps we can speak again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "15762241253205011873": {
+      "flag": 0,
+      "PNAM": "27050156118185519",
+      "NNAM": "20542384186359985",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "He is a good man and was a close friend of my father. You will find no better sponsor in all of House Redoran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_GuardSarethi",
+          "__TV": 100
+        }
+      ]
+    },
+    "20542384186359985": {
+      "flag": 0,
+      "PNAM": "15762241253205011873",
+      "NNAM": "845780002835527282",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "I hope Athyn is okay. He and my father were close friends, and the Sarethi family has had enough trouble recently. Guard duties pays in drakes, %PCName. It's not much, but perhaps you can put it to good use.",
+      "BNAM": "Journal HR_GuardSarethi 100\r\nPlayer->AddItem Gold_001 200\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 20\r\n\"gragus lleran\"->disable\r\n\"arsyn salas\"->disable",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_GuardSarethi",
+          "__TV": 50
+        }
+      ]
+    },
+    "845780002835527282": {
+      "flag": 0,
+      "PNAM": "20542384186359985",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Quickly. Go to Sarethi Manor. From here it is the second door to your right after you get back to Skar. Stay there until Athyn Sarethi gives you other orders or until more guards arrive.",
+      "BNAM": "Journal HR_GuardSarethi 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_GuardGuarHerds",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

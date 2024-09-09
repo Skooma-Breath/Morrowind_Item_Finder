@@ -1,0 +1,180 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1678212291273917501": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "31458209292949325837",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for the note. Tsiya will miss him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_SkoomaCorpse",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_SkoomaCorpse",
+          "__TV": 30
+        }
+      ]
+    },
+    "31458209292949325837": {
+      "flag": 0,
+      "PNAM": "1678212291273917501",
+      "NNAM": "8172272613189828252",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, this. Well, this was really for a friend...never mind. Thank you for returning it. Tsiya can't imagine you care whose it is. In fact, take this. It was supposed to be Ernil's when he brought Tsiya these things.",
+      "BNAM": "AddTopic \"Skooma Pipe\"\r\nJournal \"MV_SkoomaCorpse\" 20\r\nRemoveItem \"Gold_001\" 50\r\nAddItem \"Apparatus_A_Spipe_Tsiya\" 1\r\nPlayer->RemoveItem \"Apparatus_A_Spipe_Tsiya\" 1\r\nPlayer->AddItem \"Gold_001\" 50\r\nRemoveItem \"Ingred_Moon_Sugar_01\" 10\r\nPlayer->AddItem \"Ingred_Moon_Sugar_01\" 10\r\nAddItem \"bk_notefromernil\" 1\r\nPlayer->RemoveItem \"bk_notefromernil\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "apparatus_a_spipe_tsiya",
+          "__TV": 1
+        }
+      ]
+    },
+    "8172272613189828252": {
+      "flag": 0,
+      "PNAM": "31458209292949325837",
+      "NNAM": "2186131443169943633",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, well, it's a shame you didn't pick up that skooma pipe. No need to skooma-coat what it was. Tsiya was looking forward to getting her pipe. Well, thanks for the information.",
+      "BNAM": "AddTopic \"Skooma Pipe\"\r\nPlayer->RemoveItem \"bk_notefromernil\" 1\r\nJournal \"MV_SkoomaCorpse\" 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "apparatus_a_spipe_tsiya",
+          "__TV": 0
+        }
+      ]
+    },
+    "2186131443169943633": {
+      "flag": 0,
+      "PNAM": "8172272613189828252",
+      "NNAM": "25959573123342439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nothing? Well, thanks for the news, anyway.",
+      "BNAM": "Journal \"MV_SkoomaCorpse\" 30\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "25959573123342439": {
+      "flag": 0,
+      "PNAM": "2186131443169943633",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got a note from Ernil for Tsiya? That's odd...Tsiya was expecting him here any day now. He's dead? Oh, no. Ernil was a good man, and always dealt fairly. Tsiya doesn't suppose you found anything he might have been delivering to Tsiya did you?",
+      "BNAM": "Journal \"MV_SkoomaCorpse\" 10\r\nChoice \"Yes, there was something on the body that might have belonged to you.\" 1 \"No, I didn't find anything.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_SkoomaCorpse",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

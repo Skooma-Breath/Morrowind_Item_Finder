@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Warrior",
+  "ANAM": "Skaal",
+  "BNAM": "B_N_Nord_M_Head_08",
+  "KNAM": "b_n_nord_m_hair01",
+  "MODL": null,
+  "FNAM": "Skaal Hunter",
+  "SCRI": "hunter3Script",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM bear boots"
+    },
+    {
+      "count": 1,
+      "name": "BM bear greaves"
+    },
+    {
+      "count": 1,
+      "name": "BM bear cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bm_random_nordhuntweap"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhunthelm"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntLGaunt"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntLPauldron"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntRGaunt"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntRPauldron"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntshield"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 50,
+    "health": 394,
+    "magicka": 138,
+    "fatigue": 379,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,69,79,100,100,100,59,40],
+    "skills": [100,94,100,100,100,100,100,98,100,10,10,10,10,10,10,10,10,10,10,10,10,100,10,64,10,10,10]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

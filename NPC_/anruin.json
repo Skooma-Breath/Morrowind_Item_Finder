@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Smith",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_wood elf_m_head_05",
+  "KNAM": "b_n_wood elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Anruin",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02_tt"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": -10,
+      "name": "repair_journeyman_01"
+    },
+    {
+      "count": -10,
+      "name": "hammer_repair"
+    },
+    {
+      "count": 4,
+      "name": "repair_master_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 138,
+    "magicka": 100,
+    "fatigue": 245,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 800,
+    "attributes": [78,50,40,73,79,54,47,40],
+    "skills": [53,53,38,38,53,38,38,17,17,6,6,6,6,6,6,6,11,42,6,16,11,37,6,21,10,6,42]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

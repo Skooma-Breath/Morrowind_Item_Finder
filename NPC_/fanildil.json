@@ -1,0 +1,80 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_high elf_m_head_03",
+  "KNAM": "b_n_high elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Fanildil",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    }
+  ],
+  "NPCS": [
+    "great burden of sin",
+    "crushing burden touch",
+    "weary",
+    "tinur's hoptoad",
+    "strong levitate",
+    "alad's caliginy",
+    "invisibility",
+    "hide",
+    "far silence",
+    "dire noise",
+    "reflect",
+    "weak spelldrinker",
+    "absorb personality",
+    "absorb willpower",
+    "blood gift",
+    "charisma",
+    "powerwell",
+    "iron will",
+    "poet's whim",
+    "great resist common disease",
+    "great resist fire",
+    "great resist frost",
+    "great resist magicka",
+    "rapid regenerate",
+    "dispel",
+    "shadow weave"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "health": 94,
+    "magicka": 132,
+    "fatigue": 253,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [50,66,98,56,58,49,76,40],
+    "skills": [6,6,6,6,30,6,6,6,6,29,29,62,48,24,58,58,52,42,6,6,6,30,6,6,10,45,45]
+  },
+  "AI_": [
+    {
+      "distance": 100,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,10,5,5,0,0,0,0]
+    }
+  ]
+}

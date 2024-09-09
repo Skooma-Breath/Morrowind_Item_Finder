@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 63,
+    "local_var_size": 6
+  },
+  "SCTX": "begin MoveAndTurn\r\n\r\nfloat timer\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\nmove y, 200\r\nset timer to timer + GetSecondsPassed\r\n\r\n;do about face after 5 seconds\r\nif ( timer > 5 )\r\n\trotate z, 180\r\nendif\r\n\r\nEnd\r\n\r\n",
+  "SCVR": [
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,16,89,0,0,72,67,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,1,8,32,102,1,0,32,62,32,53,7,16,90,0,0,52,67,9,1,1,1]
+}

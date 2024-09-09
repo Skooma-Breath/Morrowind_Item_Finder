@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Monk Service",
+  "ANAM": "Morag Tong",
+  "BNAM": "b_n_dark elf_m_head_15",
+  "KNAM": "b_n_dark elf_m_hair_25",
+  "MODL": null,
+  "FNAM": "Goren Andarys",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver staff of war"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    }
+  ],
+  "NPCS": [
+    "balyna's soothing balm",
+    "Ogrul's_Quick_Again"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 19,
+    "health": 136,
+    "magicka": 108,
+    "fatigue": 284,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [78,54,60,95,100,51,41,40],
+    "skills": [33,7,7,7,33,12,7,7,53,7,17,7,7,7,12,33,7,48,21,62,62,52,31,52,10,21,62]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

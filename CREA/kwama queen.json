@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Kwama Queen.NIF",
+  "FLAG": 10,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 6,
+    "attributes": [50,50,50,50,5,50,50,50],
+    "health": 68,
+    "magicka": 30,
+    "fatigue": 1000,
+    "soul_strength": 30,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [6,18],
+      [6,18],
+      [6,18]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Kwama Queen",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "random_kwama egg"
+    },
+    {
+      "count": 3,
+      "name": "random_kwama_cuttle"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

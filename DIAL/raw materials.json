@@ -1,0 +1,296 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "85572479156276788": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "244242601612171461",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "volrina quarra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is no need to speak further about this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampAmulet",
+          "__TV": 30
+        }
+      ]
+    },
+    "244242601612171461": {
+      "flag": 0,
+      "PNAM": "85572479156276788",
+      "NNAM": "20583187613273223117",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "volrina quarra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have found them all? You surprise me, New Meat. I expected much less of you. You shall be rewarded, though. Take this amulet; it is one of my unsuccessful attempts. However, it will allow you to return to Druscashti at will. And, since you have been less incompetent than I imagined, I will have future rewards for you, if you are able to rid this world of enough of the other vampire clans that stain it.",
+      "BNAM": "Player->RemoveItem \"extravagant_amulet_01\" 5\r\nPlayer->RemoveItem \"ingred_void_salts_01\" 2\r\nPlayer->RemoveItem \"ingred_daedras_heart_01\" 1\r\nPlayer->RemoveItem \"ingred_vampire_dust_01\" 1\r\nPlayer->RemoveItem \"misc_skull10\" 1\r\nPlayer->AddItem \"amulet_quarra\" 1\r\nJournal \"VA_VampAmulet\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "extravagant_amulet_01",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_void_salts_01",
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_daedras_heart_01",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_vampire_dust_01",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_skull10",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampAmulet",
+          "__TV": 20
+        }
+      ]
+    },
+    "20583187613273223117": {
+      "flag": 0,
+      "PNAM": "244242601612171461",
+      "NNAM": "2025445662945327499",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "volrina quarra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have found them all? You surprise me, New Meat. I expected much less of you. You shall be rewarded, though. Take this amulet; it is one of my unsuccessful attempts. However, it will allow you to return to Druscashti at will. And, since you have been less incompetent than I imagined, I will have future rewards for you, if you are able to rid this world of enough of the other vampire clans that stain it.",
+      "BNAM": "Player->RemoveItem \"extravagant_amulet_01\" 5\r\nPlayer->RemoveItem \"ingred_void_salts_01\" 2\r\nPlayer->RemoveItem \"ingred_daedras_heart_01\" 1\r\nPlayer->RemoveItem \"ingred_vampire_dust_01\" 1\r\nPlayer->RemoveItem \"misc_skull00\" 1\r\nPlayer->AddItem \"amulet_quarra\" 1\r\nJournal \"VA_VampAmulet\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "extravagant_amulet_01",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_void_salts_01",
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_daedras_heart_01",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_vampire_dust_01",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_skull00",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampAmulet",
+          "__TV": 20
+        }
+      ]
+    },
+    "2025445662945327499": {
+      "flag": 0,
+      "PNAM": "20583187613273223117",
+      "NNAM": "2113224195815625230",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "volrina quarra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Return to me when you have all of the ingredients I need, waste of my blood.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampAmulet",
+          "__TV": 20
+        }
+      ]
+    },
+    "2113224195815625230": {
+      "flag": 0,
+      "PNAM": "2025445662945327499",
+      "NNAM": "3220021953679228145",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "volrina quarra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As I expected. I will have one of my competent minions complete my task. Leave my sight.",
+      "BNAM": "Journal \"VA_VampAmulet\" 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3220021953679228145": {
+      "flag": 0,
+      "PNAM": "2113224195815625230",
+      "NNAM": "1040515641492015484",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "volrina quarra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fine, then. Here is what you must retrieve for me: five extravagant sapphire amulets, two portions of void salts, the heart of a daedra, some ectoplasm, a skull of a man or a mer, and some vampire dust. Now go, so that you might find your end more quickly.",
+      "BNAM": "Journal \"VA_VampAmulet\" 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1040515641492015484": {
+      "flag": 0,
+      "PNAM": "3220021953679228145",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "volrina quarra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There are a number of them, some not easy to obtain. It could take you many days to find what I need, and you will likely die in the attempt. Do you feel yourself up for the task, Fresh Blood?",
+      "BNAM": "Journal \"VA_VampAmulet\" 10\r\nChoice \"I will do as you ask.\" 1 \"No, I have no interest in this.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "VA_VampAmulet",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

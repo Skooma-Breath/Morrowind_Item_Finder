@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 81,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin MarkTRStartScript\r\n\r\nshort doOnce\r\n\r\n;MessageBox \"THE STARTUP SCRIPT SHOULD BE RUNNING!!!!!!!!!!\"\r\n\r\n\r\nstartscript dbAttackScript\r\n\r\nif ( doOnce == 0 )\r\n\t\"Shrine Cleanse\"->Disable\r\n\tset doOnce to 1\r\nendif\r\n\r\nstopScript MarkTRStartScript\r\n\r\nEnd MarkTRStartScript",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [27,16,14,100,98,65,116,116,97,99,107,83,99,114,105,112,116,6,1,2,9,32,115,1,0,32,61,61,32,48,12,1,14,83,104,114,105,110,101,32,67,108,101,97,110,115,101,219,16,5,1,115,1,0,2,32,49,9,1,28,16,17,77,97,114,107,84,82,83,116,97,114,116,83,99,114,105,112,116,1,1]
+}

@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_high elf_m_head_04",
+  "KNAM": "b_n_high elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Angoril",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "templar skirt obj"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer right"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer left"
+    },
+    {
+      "count": 1,
+      "name": "templar boots"
+    },
+    {
+      "count": 1,
+      "name": "templar_greaves"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "templar_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "key_standard_01_pel_fort_prison"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 97,
+    "magicka": 110,
+    "fatigue": 215,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [60,55,45,48,41,62,44,40],
+    "skills": [29,14,29,29,44,44,44,44,14,16,16,11,11,11,6,6,16,6,6,6,6,21,36,6,10,6,21]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "22177255061131127667": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "20296190472462631138",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Telvanni is one of the three Dunmer Great Houses on Vvardenfell. Their nobles are thousand-year-old wizards. Telvanni are supposed to hate politics, foreigners, and just about everything else, but the Vvardenfell Telvanni are apparently more ambitious and adventurous than most. I don't know much about them, but they do hire Western mercenaries, and some even rise to higher ranks. Talk to Telvanni councilors if you want to be become a Telvanni retainer.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 14
+        }
+      ]
+    },
+    "20296190472462631138": {
+      "flag": 0,
+      "PNAM": "22177255061131127667",
+      "NNAM": "208473319161721731",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The khans of the Great Houses are called 'councilors.' The khans of House Telvanni meet in a very strange place, I'm told. They call it 'Sadrith Mora,' which means 'forest of the mushrooms' in our tongue. I have heard the Telvanni live in giant mushrooms. I'm sure it is a very bad place. But you must go and find their councilors and persuade them to name you Hortator.",
+      "BNAM": ";Sul-Matuul; Journal \"A2-6_Incarnate\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "208473319161721731": {
+      "flag": 0,
+      "PNAM": "20296190472462631138",
+      "NNAM": "149583057249028990",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Thanks to you, things will be much more peaceful for the Mages Guild here on Vvardenfell. Perhaps there's hope for the Empire after all.",
+      "BNAM": "Journal MG_KillTelvanni 100",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_KillTelvanni",
+          "__TV": 100
+        }
+      ]
+    },
+    "149583057249028990": {
+      "flag": 0,
+      "PNAM": "208473319161721731",
+      "NNAM": "25623103982660214250",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Ah, so all the Telvanni Councilors are dead? That is good news indeed, %PCRank. I've feared for my life working here on this island with all those Telvanni around. Now that they're gone, I don't need this amulet or this staff. They're yours now, %PCRank.",
+      "BNAM": "Journal MG_KillTelvanni 100\r\nRemoveItem necromancers_amulet_uniq 1\r\nPlayer->AddItem necromancers_amulet_uniq 1\r\nRemoveItem ebony_staff_trebonius 1\r\nPlayer->AddItem ebony_staff_trebonius 1\r\nModPCFacRep 20 \"Mages Guild\"\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "aryon",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "dratha",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "gothren",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "neloth",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "therana",
+          "__TV": 0
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_KillTelvanni",
+          "__TV": 10
+        }
+      ]
+    },
+    "25623103982660214250": {
+      "flag": 0,
+      "PNAM": "149583057249028990",
+      "NNAM": "260122322925243696",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "It's not a difficult task for a %PCRank. Just find all the Telvanni Councilors: Master Aryon, Mistress Dratha, Master Gothren, Master Neloth, and Mistress Therana. Then kill them all. Simple, really.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_KillTelvanni",
+          "__TV": 10
+        }
+      ]
+    },
+    "260122322925243696": {
+      "flag": 0,
+      "PNAM": "25623103982660214250",
+      "NNAM": "1372630516203504528",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Yes, House Telvanni simply does not get along well with the Mages Guild. I do not think that we can resolve this conflict peacefully. Therefore, I request that you kill the Councilors of House Telvanni: Master Aryon, Mistress Dratha, Master Gothren, Master Neloth, and Mistress Therana.",
+      "BNAM": "Journal MG_KillTelvanni 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Dwarves",
+          "__TV": 100
+        }
+      ]
+    },
+    "1372630516203504528": {
+      "flag": 0,
+      "PNAM": "260122322925243696",
+      "NNAM": "1879277768809430",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You belong to House Telvanni, do you not? Where do your true loyalties lie? House Telvanni opposes our every effort at modernizing the way magic is practiced here in Vvardenfell.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1879277768809430": {
+      "flag": 0,
+      "PNAM": "1372630516203504528",
+      "NNAM": "3150519672119583740",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They are the enemy, %PCRank. They oppose everything the Mages Guild stands for.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "3150519672119583740": {
+      "flag": 0,
+      "PNAM": "1879277768809430",
+      "NNAM": "31682165302830223632",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's a funny sort of house, with all those glowing blue crystals all over it. Did I ever tell you about when I was a little girl? I always liked going to the house. That's where everyone keeps their toys. Are you listening to me? You'd better be. Yes, that's better. No need to do that. I'd offer you something, but I'm all out of kwama eggs.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "31682165302830223632": {
+      "flag": 0,
+      "PNAM": "3150519672119583740",
+      "NNAM": "58706134123472745",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Telvanni is one of the three Dunmer Great Houses with holdings on Vvardenfell. The Telvanni wizard-lords have traditionally isolated themselves, pursuing wisdom and mastery in solitude. But certain ambitious wizards-lords, their retainers, and clients have entered whole-heartily into the competition to control and exploit Vvardenfell's land and resources, building towers and bases all along the eastern coast. The Telvanni think that wisdom confers power, and power confers right.",
+      "BNAM": ";noble; savant; bard; bookseller;",
+      "SCVR": null
+    },
+    "58706134123472745": {
+      "flag": 0,
+      "PNAM": "31682165302830223632",
+      "NNAM": "30138170812589112567",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": 1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am Master Aryon. I have heard of you, %PCName. Might you want to join House Telvanni? No one here will stop you from looking into any line of inquiry, nor do we force you to share your secrets like those in the Mages Guild.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "30138170812589112567": {
+      "flag": 0,
+      "PNAM": "58706134123472745",
+      "NNAM": "1433551521727325746",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": 1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am Mistress %Name, one of the Councilors of House Telvanni. If you want to learn about House Telvanni, speak with my Mouth in the Telvanni Council House in Sadrith Mora.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1433551521727325746": {
+      "flag": 0,
+      "PNAM": "30138170812589112567",
+      "NNAM": "2059275391891629231",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am Master %Name, one of the Councilors of House Telvanni. If you want to learn about House Telvanni, speak with my Mouth in the Telvanni Council House in Sadrith Mora.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2059275391891629231": {
+      "flag": 0,
+      "PNAM": "1433551521727325746",
+      "NNAM": "220613116545212842",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Telvanni is one of the Great Houses. We value talent, knowledge, and initiative. Perhaps you would like to join House Telvanni?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "220613116545212842": {
+      "flag": 0,
+      "PNAM": "2059275391891629231",
+      "NNAM": "27724258861367611014",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Telvanni is one of the Great Houses. We value talent, knowledge, and initiative. Perhaps you would like to join House Telvanni?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "27724258861367611014": {
+      "flag": 0,
+      "PNAM": "220613116545212842",
+      "NNAM": "32579729133721148",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We don't care about politics. We don't care what other think. We just want to be left alone. And our wizard-lords and their mercenaries make sure no one bothers us.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "32579729133721148": {
+      "flag": 0,
+      "PNAM": "27724258861367611014",
+      "NNAM": "30261230653266426853",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We live comfortably. Our wizard-lords keep us secure, and otherwise leave us alone. All we want is to be left in peace to do as we wish.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "30261230653266426853": {
+      "flag": 0,
+      "PNAM": "32579729133721148",
+      "NNAM": "136721834510224857",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Telvanni is one of the three Dunmer Great Houses with holdings on Vvardenfell. The Telvanni wizard-lords have traditionally isolated themselves, pursuing wisdom and mastery in solitude. But certain ambitious wizards-lords, their retainers, and clients have entered whole-heartily into the competition to control and exploit Vvardenfell's land and resources, building towers and bases all along the eastern coast. The Telvanni think that wisdom confers power, and power confers right.",
+      "BNAM": ";noble; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "8",
+          "details": "FX",
+          "operator": "0",
+          "identifier": "Telvanni",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "136721834510224857": {
+      "flag": 0,
+      "PNAM": "30261230653266426853",
+      "NNAM": "4802266721863511496",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Noble",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Telvanni think that wisdom confers power, and power confers right.",
+      "BNAM": ";noble; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "4802266721863511496": {
+      "flag": 0,
+      "PNAM": "136721834510224857",
+      "NNAM": "3064830113189626130",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Noble",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Telvanni wizard-lords have traditionally isolated themselves, pursuing wisdom and mastery in solitude. But certain ambitious wizards-lords have joined the competition to control and exploit Vvardenfell's land and resources, building towers and bases all along the eastern coast.",
+      "BNAM": ";noble; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "3064830113189626130": {
+      "flag": 0,
+      "PNAM": "4802266721863511496",
+      "NNAM": "564307531046217252",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Noble",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Telvanni is one of the three Dunmer Great Houses with holdings on Vvardenfell.",
+      "BNAM": ";noble; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "564307531046217252": {
+      "flag": 0,
+      "PNAM": "3064830113189626130",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": "Vivec, Guild of Mages",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Trebonius asked you to kill the Telvanni Council? I wouldn't even try to do that if I were you. Even if you were successful, there's no telling how the Telvanni would respond.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_KillTelvanni",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

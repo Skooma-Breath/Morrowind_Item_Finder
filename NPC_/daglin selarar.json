@@ -1,0 +1,43 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Nord",
+  "CNAM": "Barbarian",
+  "ANAM": "Fighters Guild",
+  "BNAM": "b_n_nord_m_head_03",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Daglin Selarar",
+  "SCRI": "prisonerScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

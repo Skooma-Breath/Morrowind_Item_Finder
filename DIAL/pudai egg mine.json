@@ -1,0 +1,215 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "293001017149137691": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2528627182202951019",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild. Until you make amends, I can't talk to you about this contract.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2528627182202951019": {
+      "flag": 0,
+      "PNAM": "293001017149137691",
+      "NNAM": "30688139953226211452",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already brought me the Eggs of Gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_FindPudai",
+          "__TV": 100
+        }
+      ]
+    },
+    "30688139953226211452": {
+      "flag": 0,
+      "PNAM": "2528627182202951019",
+      "NNAM": "12205192293042811012",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well! These are the Eggs of Gold. I'll tell you I honestly didn't believe they existed. Good work, %PCRank. Our client, a Telvanni, is paying us well. Take these 10,000 septims.",
+      "BNAM": "Journal FG_FindPudai 100\r\nPlayer->RemoveItem misc_uniq_egg_of_gold 7\r\nAddItem misc_uniq_egg_of_gold 7\r\nPlayer->AddItem Gold_001 10000\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_uniq_egg_of_gold",
+          "__TV": 7
+        }
+      ]
+    },
+    "12205192293042811012": {
+      "flag": 0,
+      "PNAM": "30688139953226211452",
+      "NNAM": "34220103282832382",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, where are they? I don't see them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "34220103282832382": {
+      "flag": 0,
+      "PNAM": "12205192293042811012",
+      "NNAM": "237330738136519753",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, keep looking. Who knows if the place really exists?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "237330738136519753": {
+      "flag": 0,
+      "PNAM": "34220103282832382",
+      "NNAM": "268591172097622974",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So have you found the Eggs of Gold?",
+      "BNAM": "Choice \"Yes, here they are\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_FindPudai",
+          "__TV": 10
+        }
+      ]
+    },
+    "268591172097622974": {
+      "flag": 0,
+      "PNAM": "237330738136519753",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No one knows exactly where the Pudai Egg Mine is. I believe it is somewhere on or near the island of Sheogorad north of here. It is said that there are seven eggs of gold there. If you find Pudai and these eggs, bring them to me. I wouldn't worry too much if you can't find it. No one else has, but it's the only contract I've got right now.",
+      "BNAM": "Journal FG_FindPudai 10",
+      "SCVR": null
+    }
+  }
+}

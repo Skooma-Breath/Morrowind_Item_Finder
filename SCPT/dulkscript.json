@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 192,
+    "local_var_size": 45
+  },
+  "SCTX": "Begin dulkScript\r\n\r\nshort doOnce\r\nshort playerwolf\r\nshort AllowWerewolfForceGreeting\r\n\r\nif ( GetJournalIndex BM_FrostGiant2 == 10 )\r\n\tif ( doOnce == 0 )\r\n\t\tif ( GetDistance Player <= 512 )\r\n\t\t\tif ( Player->IsWerewolf == 1 )\r\n\t\t\t\tForceGreeting\r\n\t\t\t\tset doOnce to 1\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nelseif ( GetJournalIndex BM_FrostGiant2 == 70 )\r\n\tif ( doOnce == 1 )\r\n\t\tif ( GetDistance Player <= 512 )\r\n\t\t\t;if ( Player->IsWerewolf == 1 )\r\n\t\t\t\tForceGreeting\r\n\t\t\t\tset doOnce to 2\r\n\t\t\t;endif\r\n\t\tendif\r\n\tendif\t\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nEnd dulkScript",
+  "SCVR": [
+    "doOnce",
+    "playerwolf",
+    "AllowWerewolfForceGreeting"
+  ],
+  "SCDT": [6,1,8,27,32,88,205,16,32,100,14,66,77,95,70,114,111,115,116,71,105,97,110,116,50,32,61,61,32,49,48,6,1,6,9,32,115,1,0,32,61,61,32,48,6,1,4,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,53,49,50,12,1,6,112,108,97,121,101,114,6,1,2,9,32,88,181,17,32,61,61,32,49,232,16,5,1,115,1,0,2,32,49,9,1,9,1,9,1,8,1,6,27,32,88,205,16,32,100,14,66,77,95,70,114,111,115,116,71,105,97,110,116,50,32,61,61,32,55,48,6,1,4,9,32,115,1,0,32,61,61,32,49,6,1,2,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,53,49,50,232,16,5,1,115,1,0,2,32,50,9,1,9,1,9,1,1,1]
+}

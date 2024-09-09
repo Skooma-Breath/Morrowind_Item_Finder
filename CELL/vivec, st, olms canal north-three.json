@@ -1,0 +1,675 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1516077,1061158912]
+  },
+  "NAME": "Vivec, St. Olms Canal North-Three",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [61,40,20,0],
+    "fog_color": [45,34,23,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-159863": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hroa",
+      "DATA": [206.70973205566406,-286.3897705078125,-108.84356689453125,0,0,0]
+    },
+    "0-159906": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-64,64,-128,0,0,4.71238899230957]
+    },
+    "0-159861": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_04",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [282.038818359375,-95.79188537597656,-96.2785873413086,0,0,4.71238899230957]
+    },
+    "0-159862": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [281.6000061035156,-27.017601013183594,-69.16990661621094,0,0,4.71238899230957]
+    },
+    "0-159870": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_drawers_02_empty",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-46.56999969482422,-255.40899658203125,-78.11499786376953,0,0,4.71238899230957]
+    },
+    "0-159871": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-31.007999420166016,-370.0920104980469,-63.84700012207031,0,0,6.065019130706787]
+    },
+    "0-159872": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-53.259517669677734,-138.39454650878906,-94.62916564941406,0,0,0]
+    },
+    "0-159873": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [197.45187377929688,-551.5689086914062,-94.62916564941406,0,0,0]
+    },
+    "0-159874": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [299.0111999511719,-619.1767578125,-63.84725570678711,0,0,6.0641584396362305]
+    },
+    "0-159875": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [197.9691925048828,-495.3108215332031,-93.34112548828125,0,0,0]
+    },
+    "0-159876": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_empty",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [221.4864044189453,-611.1608276367188,-95.99998474121094,0,0,5.983185768127441]
+    },
+    "0-159877": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_random_pos",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [220.1902618408203,-620.2296752929688,-31.999980926513672,0,0,0.20000000298023224]
+    },
+    "0-159878": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "XSCL": 1.4200000762939453,
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [335.41937255859375,-445.35223388671875,-88.74931335449219,0,0,0]
+    },
+    "0-159879": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.4200000762939453,
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [308.78265380859375,-500.7373046875,-109.91024780273438,6.08318567276001,6.183185577392578,4.583186149597168]
+    },
+    "0-159880": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.4200000762939453,
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [305.4979248046875,-386.1055908203125,-121.45545196533203,0,0,4.912388801574707]
+    },
+    "0-159881": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.4200000762939453,
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [304.5084228515625,-478.7052917480469,-121.04121398925781,0,0,4.783185958862305]
+    },
+    "0-159882": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.4200000762939453,
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [301.89154052734375,-392.21826171875,-104.24923706054688,0,0,4.783185958862305]
+    },
+    "0-159883": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_06",
+      "ANAM": "hroa",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-33.65314865112305,-308.6585693359375,-2.4394359588623047,0,0,0]
+    },
+    "0-159884": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [-46.377281188964844,-2.71329927444458,79.0192642211914,0,0,0.7000000476837158]
+    },
+    "0-159887": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [302.1205139160156,-620.9517211914062,-25.988292694091797,0,0,5.58318567276001]
+    },
+    "0-159888": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [192.55007934570312,-554.3171997070312,-42.22936248779297,0,0,0.6000000238418579]
+    },
+    "0-159889": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [221.5983428955078,-619.5499877929688,6.958803176879883,0,0,0.4999999701976776]
+    },
+    "0-159890": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [65.49253845214844,-330.4395446777344,-69.92645263671875,0,0,6.08318567276001]
+    },
+    "0-159891": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [69.82011413574219,-347.9041748046875,-69.51216888427734,0,0,2.4495561122894287]
+    },
+    "0-159892": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [73.43746948242188,-363.4813537597656,-70.471923828125,0,0,6.08330774307251]
+    },
+    "0-159893": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [71.84664916992188,-368.205322265625,-70.38594055175781,0,0,6.08318567276001]
+    },
+    "0-159894": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [122.46306610107422,-300.8507995605469,-70.07828521728516,0,0,1.6000003814697266]
+    },
+    "0-159895": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [104.471923828125,-301.0972595214844,-69.53885650634766,0,0,1.0663706064224243]
+    },
+    "0-159896": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [88.4800033569336,-301.08099365234375,-70.5457534790039,0,0,1.6004669666290283]
+    },
+    "0-159897": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [84.24131774902344,-298.4582824707031,-70.37931060791016,0,0,1.6000003814697266]
+    },
+    "0-159898": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [87.4370346069336,-315.46478271484375,-65.24966430664062,0,0,2.7831857204437256]
+    },
+    "0-159899": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [95.4970932006836,-353.51837158203125,-65.24966430664062,0,0,0]
+    },
+    "0-159900": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [138.07339477539062,-359.4400939941406,-55.54899978637695,0,0,0.9000000357627869]
+    },
+    "0-159901": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "XSCL": 0.7500000596046448,
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [103.67342376708984,-372.10992431640625,-67.63008880615234,0,4.71238899230957,0.049556732177734375]
+    },
+    "0-159902": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-47.5889778137207,-245.39451599121094,-14.79306411743164,0,0,0.5000000596046448]
+    },
+    "0-159903": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-59.04555892944336,-259.35601806640625,-14.664894104003906,0,0,0]
+    },
+    "0-159858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [256,-64,0,0,0,0]
+    },
+    "0-159859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [0,-320,0,0,0,3.1415927410125732]
+    },
+    "0-159860": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [256,-576,0,0,0,3.1415927410125732]
+    },
+    "0-159864": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [286.3401794433594,-217.21282958984375,-109.10758972167969,0,0,0]
+    },
+    "0-159865": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_01",
+      "DATA": [105.42088317871094,-337.2511901855469,-99.15203857421875,0,0,5.045129299163818]
+    },
+    "0-159866": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [101.49275970458984,-265.4364013671875,-108.27615356445312,0,0,4.076547145843506]
+    },
+    "0-159867": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [24.1023006439209,-355.9662780761719,-108.2761459350586,0,0,1.2159271240234375]
+    },
+    "0-159868": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [154.5043182373047,-4.110586643218994,-109.92646026611328,0,0,0]
+    },
+    "0-159869": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-51.242759704589844,-1.9383236169815063,99.19862365722656,0,0,0.8146012425422668]
+    },
+    "0-159904": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_01",
+      "DATA": [256,-320,0,0,0,3.1415927410125732]
+    },
+    "0-159905": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_01",
+      "DATA": [0,-64,0,0,0,0]
+    },
+    "0-159907": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [0,64,-128,0,0,4.71238899230957]
+    },
+    "0-159908": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [128,448,0,0,0,0]
+    },
+    "0-337495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_01",
+      "XSCL": 1.290000081062317,
+      "DATA": [123.06082153320312,-201.4402313232422,-130.99151611328125,0,0,1.5499998331069946]
+    },
+    "0-337496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "DATA": [351.7129211425781,-547.0573120117188,91.90731048583984,0,0,4.71238899230957]
+    },
+    "0-337497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "DATA": [-94.71502685546875,-72.7137451171875,91.90731048583984,0,0,1.5707963705062866]
+    },
+    "0-337498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "DATA": [232.89328002929688,31.800710678100586,91.90731048583984,0,0,3.1415927410125732]
+    },
+    "0-337499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "DATA": [351.7129211425781,-326.7773132324219,91.90731048583984,0,0,4.71238899230957]
+    },
+    "0-337500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "hroa",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-35.6884651184082,-249.10064697265625,-14.79306411743164,0,0,0]
+    },
+    "0-424258": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "DATA": [30.84039878845215,-418.07928466796875,91.90731048583984,0,0,0]
+    },
+    "0-424259": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "DATA": [-94.71502685546875,-296.36151123046875,91.90731048583984,0,0,1.5707963705062866]
+    },
+    "0-424260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "DATA": [351.7129211425781,-107.56056213378906,91.90731048583984,0,0,4.71238899230957]
+    },
+    "0-424261": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_64",
+      "DATA": [107.59740447998047,-337.906005859375,-51.10512924194336,0,0,2.256194591522217]
+    },
+    "0-424262": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [205.3525848388672,-9.244644165039062,-110.52381134033203,0,0,0]
+    },
+    "0-424263": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_ivory_64",
+      "ANAM": "hroa",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [210.37490844726562,-5.506399154663086,-84.06208038330078,0,0,0]
+    },
+    "0-424264": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_010",
+      "ANAM": "hroa",
+      "INTV": 0,
+      "NAM9": 10,
+      "DATA": [204.6690216064453,-5.68424129486084,-93.03565216064453,0,0,1.4000000953674316]
+    },
+    "0-424265": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "hroa",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [203.3011474609375,-16.612985610961914,-93.06169128417969,0,0,4.883185863494873]
+    },
+    "0-424266": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "hroa",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [198.80520629882812,-9.67636489868164,-93.06169128417969,0,0,0]
+    },
+    "0-424267": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "hroa",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [209.10275268554688,-10.722164154052734,-93.0383071899414,0,0,0.699999988079071]
+    },
+    "0-424268": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "hroa",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [204.02981567382812,-11.009394645690918,-93.0383071899414,0,0,0]
+    }
+  }
+}

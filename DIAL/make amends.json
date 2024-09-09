@@ -1,0 +1,1440 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "19987832851214774": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "32516213342529012875",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No, you have shown that you have no honor at all.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpThievesGuild",
+          "__TV": 5
+        }
+      ]
+    },
+    "32516213342529012875": {
+      "flag": 0,
+      "PNAM": "19987832851214774",
+      "NNAM": "1934296102242532319",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alright, but you've been warned before, %PCName.",
+      "BNAM": "Player->RemoveItem Gold_001 10000\r\nPCClearExpelled\r\nSet ExpThievesGuild to ExpThievesGuild + 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpThievesGuild",
+          "__TV": 2
+        }
+      ]
+    },
+    "1934296102242532319": {
+      "flag": 0,
+      "PNAM": "32516213342529012875",
+      "NNAM": "231882382698622131",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, now we're on the level. You've been warned before. Don't attack a brother thief. Don't steal from members of the Guild. There's plenty of marks out there to steal from.",
+      "BNAM": "Player->RemoveItem Gold_001 5000\r\nPCClearExpelled\r\nSet ExpThievesGuild to ExpThievesGuild + 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpThievesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "231882382698622131": {
+      "flag": 0,
+      "PNAM": "1934296102242532319",
+      "NNAM": "13558325493119217288",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, now we're on the level. Be more careful about who you're dealing with from now on.",
+      "BNAM": "Player->RemoveItem Gold_001 1000\r\nPCClearExpelled\r\nSet ExpThievesGuild to ExpThievesGuild + 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "13558325493119217288": {
+      "flag": 0,
+      "PNAM": "231882382698622131",
+      "NNAM": "21319213902505423217",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Come back when you are ready to pay.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21319213902505423217": {
+      "flag": 0,
+      "PNAM": "13558325493119217288",
+      "NNAM": "15582267831029918182",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken the honor among thieves. You've shown nothing but disrespect for the Thieves Guild, so it is not surprising that you come here with less than 10,000 septims. Come back when you're serious.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 10000
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpThievesGuild",
+          "__TV": 2
+        }
+      ]
+    },
+    "15582267831029918182": {
+      "flag": 0,
+      "PNAM": "21319213902505423217",
+      "NNAM": "3805109504882185",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken the honor among thieves. Are you sure you really want to be in the Thieves Guild? For this many offenses, you must pay 10,000 septims to make amends.",
+      "BNAM": "Choice \"Pay it\" 1 \"Nevermind\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpThievesGuild",
+          "__TV": 2
+        }
+      ]
+    },
+    "3805109504882185": {
+      "flag": 0,
+      "PNAM": "15582267831029918182",
+      "NNAM": "2547910443323663622",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken the honor among thieves again. And you don't have enough gold to make amends. Come back with at least 5000 septims and we'll talk.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 5000
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpThievesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "2547910443323663622": {
+      "flag": 0,
+      "PNAM": "3805109504882185",
+      "NNAM": "6033183602306931632",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken the honor among thieves. You don't seem to learn your lesson. You must pay 5000 septims to make amends.",
+      "BNAM": "Choice \"Pay it\" 1 \"Nevermind\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpThievesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "6033183602306931632": {
+      "flag": 0,
+      "PNAM": "2547910443323663622",
+      "NNAM": "25008450318337230",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken the honor among thieves. You must make amends, but you are not prepared. Come back with at least 1000 septims and we'll talk.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "25008450318337230": {
+      "flag": 0,
+      "PNAM": "6033183602306931632",
+      "NNAM": "271324816566017278",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken the honor among thieves. You must make amends. As this was your first offense, you must pay 1000 septims for crimes against your fellow thieves.",
+      "BNAM": "Choice \"Pay it\" 1 \"Nevermind\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "271324816566017278": {
+      "flag": 0,
+      "PNAM": "25008450318337230",
+      "NNAM": "927732543108374428",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You should speak with one of the Stewards: Sugar-Lips Habasi, Aengoth the Jeweler, Big Helende, or Gentleman Jim Stacey.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "927732543108374428": {
+      "flag": 0,
+      "PNAM": "271324816566017278",
+      "NNAM": "2041273931338914783",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will personally revoke the writ. You are reinstated in the %Faction as %PCName, the %PCRank. I do not need to remind you the consequences of failing a second time.",
+      "BNAM": "PCClearExpelled\r\nSet ExpMoragTong to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2041273931338914783": {
+      "flag": 0,
+      "PNAM": "927732543108374428",
+      "NNAM": "137014233828513376",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You were unwise to have contacted me.",
+      "BNAM": "moddisposition -50\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "137014233828513376": {
+      "flag": 0,
+      "PNAM": "2041273931338914783",
+      "NNAM": "103529874438814500",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your actions of late have not gone unnoticed. There is currently a writ against you. I can have it rescinded, but I must have your word that this was an isolated incident and nothing of the sort will ever happen again. Do I have your word?",
+      "BNAM": "Choice \"Yes, Master. You have my word.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "103529874438814500": {
+      "flag": 0,
+      "PNAM": "137014233828513376",
+      "NNAM": "80805255194823102",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You should speak with one of the Masters of the Morag Tong. They may allow you to clear your name.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "80805255194823102": {
+      "flag": 0,
+      "PNAM": "103529874438814500",
+      "NNAM": "22733183511497630614",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, any day now the Mages Guild will review all those expelled from the ranks. If your case comes up, I will put in a good word for you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 20
+        }
+      ]
+    },
+    "22733183511497630614": {
+      "flag": 0,
+      "PNAM": "80805255194823102",
+      "NNAM": "3104294602319818203",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It has been a few days since your unfortunate behavior began. But I still believe you will soon be a member in good standing once more. Perhaps in another week.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 10
+        }
+      ]
+    },
+    "3104294602319818203": {
+      "flag": 0,
+      "PNAM": "22733183511497630614",
+      "NNAM": "27343371632434578",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, of course, %PCName. We value your membership as much as any %PCRank. Reflect on your failures. Time heals all things. In a week or two you will be a %PCRank in good standing. I am certain of it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "27343371632434578": {
+      "flag": 0,
+      "PNAM": "3104294602319818203",
+      "NNAM": "295059502199987659",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, yes, there was some trouble with you and a member of the Guild... You might want to speak with Archmage Trebonius in Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "295059502199987659": {
+      "flag": 0,
+      "PNAM": "27343371632434578",
+      "NNAM": "1663413204985113408",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I will use this gold to patch up your reputation, %PCName. You are now a member of House Hlaalu in good standing.",
+      "BNAM": "Player->RemoveItem Gold_001 500\r\nPCClearExpelled",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1663413204985113408": {
+      "flag": 0,
+      "PNAM": "295059502199987659",
+      "NNAM": "8062202352124210914",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you take me for a fool? You don't have 500 gold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "8062202352124210914": {
+      "flag": 0,
+      "PNAM": "1663413204985113408",
+      "NNAM": "407127062734219045",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll be here when you change your mind.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "407127062734219045": {
+      "flag": 0,
+      "PNAM": "8062202352124210914",
+      "NNAM": "3242232213108514040",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you've been expelled. I might could have you reinstated for a small consideration... Say 500 gold?",
+      "BNAM": "Choice \"Pay 500 gold.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3242232213108514040": {
+      "flag": 0,
+      "PNAM": "407127062734219045",
+      "NNAM": "217853089931466267",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Uncle Crassius will take care of everything. You're back in good standing.",
+      "BNAM": "Player->RemoveItem Gold_001 500\r\nPCClearExpelled",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "217853089931466267": {
+      "flag": 0,
+      "PNAM": "3242232213108514040",
+      "NNAM": "109151125391286498",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You know I'd love to, but you just don't have 500 gold. I wish I could give you a discount, but there's nothing I can do.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "109151125391286498": {
+      "flag": 0,
+      "PNAM": "217853089931466267",
+      "NNAM": "11998138891212818356",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let me know if you change your mind, pudding.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "11998138891212818356": {
+      "flag": 0,
+      "PNAM": "109151125391286498",
+      "NNAM": "1771225051122512165",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you've been expelled, sweetie, but a small consideration of 500 gold will make everything all better.",
+      "BNAM": "Choice \"Pay 500 gold.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1771225051122512165": {
+      "flag": 0,
+      "PNAM": "11998138891212818356",
+      "NNAM": "3259423527185311303",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Hlaalu",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with Crassius Curio or Nileno Dorvayn. They have enough influence to clear your name.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3259423527185311303": {
+      "flag": 0,
+      "PNAM": "1771225051122512165",
+      "NNAM": "657519974970431696",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken our rules. What makes you think anyone can trust you?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ExpRedoran",
+          "__TV": 1
+        }
+      ]
+    },
+    "657519974970431696": {
+      "flag": 0,
+      "PNAM": "3259423527185311303",
+      "NNAM": "1809225353236338266",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You broke our rules, but this is forgivable. Once. If you break our rules again, even my influence will not allow you to regain your rank in House Redoran.",
+      "BNAM": "PCClearExpelled\r\nSet ExpRedoran to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1809225353236338266": {
+      "flag": 0,
+      "PNAM": "657519974970431696",
+      "NNAM": "75531922138218073",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken our rules. Nothing you say or do will let you join House Redoran again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ExpRedoran",
+          "__TV": 1
+        }
+      ]
+    },
+    "75531922138218073": {
+      "flag": 0,
+      "PNAM": "1809225353236338266",
+      "NNAM": "2948626824892725700",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you have broken the rules of House Redoran. I will forgive this one time, but if you break our rules again, you will be an enemy of House Redoran.",
+      "BNAM": "PCClearExpelled\r\nSet ExpRedoran to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2948626824892725700": {
+      "flag": 0,
+      "PNAM": "75531922138218073",
+      "NNAM": "32497265161072522680",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Redoran",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with Neminda or Athyn Sarethi. They can clear your name.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "32497265161072522680": {
+      "flag": 0,
+      "PNAM": "2948626824892725700",
+      "NNAM": "31357159722355624329",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Of course, I understand. No need to explain, %PCRank. You will be reinstated in House Telvanni at your current rank.",
+      "BNAM": "PCClearExpelled",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "therana",
+          "__TV": 0
+        }
+      ]
+    },
+    "31357159722355624329": {
+      "flag": 0,
+      "PNAM": "32497265161072522680",
+      "NNAM": "191153171265434993",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with a Mouth or one of the Councilors.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "therana",
+          "__TV": 0
+        }
+      ]
+    },
+    "191153171265434993": {
+      "flag": 0,
+      "PNAM": "31357159722355624329",
+      "NNAM": "2478234083220022543",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have broken our rules twice. How can we trust you? No, you may not make amends, %PCName. You are not of the fellowship.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ExpTemple",
+          "__TV": 1
+        }
+      ]
+    },
+    "2478234083220022543": {
+      "flag": 0,
+      "PNAM": "191153171265434993",
+      "NNAM": "1192018350245643829",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Temple welcomes everyone into its fellowship, but not all are able to complete their journey. You broke our rules, but you have great potential, and I will forgive you this once offense. But nothing like this must ever occur again. If it does, the Temple will have no use for your potential.",
+      "BNAM": "PCClearExpelled\r\nSet ExpTemple to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1192018350245643829": {
+      "flag": 0,
+      "PNAM": "2478234083220022543",
+      "NNAM": "21952133663269727933",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must speak with a Master of the Temple to clear your name.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "21952133663269727933": {
+      "flag": 0,
+      "PNAM": "1192018350245643829",
+      "NNAM": "169214992578629842",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alright. You'll have your old rank in the Fighters Guild in just a moment... But if you screw up again, there's nothing I can do for you.",
+      "BNAM": "PCClearExpelled\r\nSet ExpFightersGuild to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "169214992578629842": {
+      "flag": 0,
+      "PNAM": "21952133663269727933",
+      "NNAM": "17796307692827726707",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fine, then. We don't need any %PCRace like you in the Fighters Guild.",
+      "BNAM": "ModDisposition -5\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "17796307692827726707": {
+      "flag": 0,
+      "PNAM": "169214992578629842",
+      "NNAM": "1102299932260711640",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? You screwed up twice, %PCName. It's too late to make amends now. Get out of my sight or you'll be sorry.",
+      "BNAM": "ModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ExpFightersGuild",
+          "__TV": 1
+        }
+      ]
+    },
+    "1102299932260711640": {
+      "flag": 0,
+      "PNAM": "17796307692827726707",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's right. You've been expelled. If you apologize for your actions, I'll give you one more chance.",
+      "BNAM": "Choice \"I am sorry for what I did...\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

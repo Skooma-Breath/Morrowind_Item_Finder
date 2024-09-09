@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Dark Elf",
+  "CNAM": "Agent",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Athyn Sarethi",
+  "SCRI": "athynSarethiScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "dwarven shortsword"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    },
+    {
+      "count": 1,
+      "name": "key_sarethimanor_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 18,
+    "health": 128,
+    "magicka": 118,
+    "fatigue": 261,
+    "disposition": 50,
+    "reputation": 18,
+    "rank": 8,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [71,59,44,96,82,50,74,40],
+    "skills": [32,7,7,7,7,12,7,7,12,7,17,7,32,32,12,7,7,32,20,60,60,66,70,25,10,60,20]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,60,100,10,0,0,0,0]
+    }
+  ]
+}

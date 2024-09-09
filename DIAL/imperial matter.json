@@ -1,0 +1,286 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "403914234323723754": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "16080269222141625811",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's simple, really. I want you to kill the man responsible for the moon sugar poisonings. Jeleen, our Cult priest, was the most recent victim, and he actually caught a glimpse of the culprit. It was a man wearing, oddly enough, a unique white Colovian fur helm. Bring me this white helm, and I'll know the deed is done. Now, go speak with Jeleen at the Cult shrine here in Frostmoth before you depart. He may have some more information.",
+      "BNAM": "Journal BM_MoonSugar 30\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16080269222141625811": {
+      "flag": 0,
+      "PNAM": "403914234323723754",
+      "NNAM": "2667220210291301738",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see. Well, if you change your mind, come talk to me. This issue isn't going to resolve itself, and I hardly have the resources to deal with it effectively. Good day, %PCClass.",
+      "BNAM": "Journal BM_MoonSugar 20\r\nModPCFacRep -5 \"Imperial Legion\"\r\nModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2667220210291301738": {
+      "flag": 0,
+      "PNAM": "16080269222141625811",
+      "NNAM": "180032662991810439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. You are a credit to the Imperial Legion, %PCName. I hereby order you to kill the man responsible for the moon sugar poisonings. Jeleen, our Cult priest, was the most recent victim, and he actually caught a glimpse of the culprit. It was a man wearing, oddly enough, a unique white Colovian fur helm. Bring me this white helm, and I'll know justice has been served. Be sure to question Jeleen at the Cult shrine before you depart. He may have some more information.",
+      "BNAM": "Journal BM_MoonSugar 30\r\nModDisposition 10\r\nModPCFacRep 5 \"Imperial Legion\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "180032662991810439": {
+      "flag": 0,
+      "PNAM": "2667220210291301738",
+      "NNAM": "4874121011997725324",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, then. I hope you will put any personal matters to rest as quickly as you're able, and then return to accept this mission. You are a member of the Imperial Legion, %PCName, and our first duty is to the Empire. I know thinngs seem a bit lax around here, and some of the other guards aren't as motivated as they should be. I expected better from you. Good day.",
+      "BNAM": "Journal BM_MoonSugar 20\r\nModPCFacRep -10 \"Imperial Legion\"\r\nModDisposition -15\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "4874121011997725324": {
+      "flag": 0,
+      "PNAM": "180032662991810439",
+      "NNAM": "713718083160817343",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If it were just the locals the Empire couldn't be bothered. But now one of our own has been affected! Last week our Cult priest was stricken with moon sugar euphoria after drinking some wine. I don't have the manpower to deal with this problem, but my superiors are getting impatient. He wants the culprit dead. I know you're not a member of the Imperial Legion, but I'd like to hire you to help in the investigation. I'll make it worth your while. Are you interested?",
+      "BNAM": "Choice \"I'll help you Severia.  Just tell me what you need done.\" 1 \"No thanks, Severia.  This is an Imperial matter, and I've got other business to attend to.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_MoonSugar",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_MoonSugar",
+          "__TV": 30
+        }
+      ]
+    },
+    "713718083160817343": {
+      "flag": 0,
+      "PNAM": "4874121011997725324",
+      "NNAM": "93772688968416664",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If it were just the locals the Empire couldn't be bothered. But now one of our own has been affected! Last week our Cult priest was stricken with moon sugar euphoria after drinking some wine. I don't have the manpower to deal with this problem, but my superiors are getting impatient. They want the culprit dead. I need to call upon you, as a loyal member of the Imperial Legion, to bring this poisoner to justice. What say you? Will you serve me, and the Empire?",
+      "BNAM": "Choice \"I would be honored to serve the Empire.  What must I do, Severia?\" 3 \"I can't help you right now, Severia. I have other pressing matters to attend to.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_MoonSugar",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_MoonSugar",
+          "__TV": 30
+        }
+      ]
+    },
+    "93772688968416664": {
+      "flag": 0,
+      "PNAM": "713718083160817343",
+      "NNAM": "22865119751549021299",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The matter is still under investigation, and I suggest you get a move on.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_MoonSugar",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_MoonSugar",
+          "__TV": 100
+        }
+      ]
+    },
+    "22865119751549021299": {
+      "flag": 0,
+      "PNAM": "93772688968416664",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "severia gratius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That matter has been put to rest, thanks to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_MoonSugar",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

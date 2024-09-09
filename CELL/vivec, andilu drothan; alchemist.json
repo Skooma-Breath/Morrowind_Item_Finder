@@ -1,0 +1,965 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Vivec, Andilu Drothan: Alchemist",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,75,75,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-218504": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "andilu drothan",
+      "DATA": [-215.42042541503906,163.54835510253906,-101.51074981689453,0,0,2.549555540084839]
+    },
+    "0-218511": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-64,-128,-128,0,0,4.71238899230957]
+    },
+    "0-218516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_j_calcinator_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-107.5162582397461,132.0713653564453,-69.9259033203125,0,0,2.229203701019287]
+    },
+    "0-218518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_j_retort_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-114.67335510253906,199.58335876464844,-69.82767486572266,0,0,1.0853981971740723]
+    },
+    "0-218519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_j_alembic_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-136.5932159423828,123.81883239746094,-70.30714416503906,0,0,4.5269904136657715]
+    },
+    "0-218520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_a_mortar_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-82.67436981201172,312.20172119140625,-31.438976287841797,0,0,0]
+    },
+    "0-218521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_ingredie",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [8.432000160217285,313.6059875488281,-24.933000564575195,0,0,0.09948376566171646]
+    },
+    "0-218522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_ingredie",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-45.23699951171875,314.4540100097656,-24.933000564575195,0,0,0]
+    },
+    "0-218523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_ingred10",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-17.834999084472656,314.13299560546875,18.135000228881836,0,0,0]
+    },
+    "0-218524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_ingred10",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-71.8290023803711,313.60198974609375,18.135000228881836,0,0,0]
+    },
+    "0-218525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_02_128",
+      "ANAM": "andilu drothan",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-119.04222106933594,84.49394226074219,-41.132999420166016,0,0,1.4853981733322144]
+    },
+    "0-218526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_07_128",
+      "ANAM": "andilu drothan",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-309.6610412597656,231.75003051757812,89.53449249267578,0,0,0]
+    },
+    "0-218527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_r_bed_02",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-225.15771484375,-202.10552978515625,-76.01637268066406,0,0,4.783185958862305]
+    },
+    "0-218528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [-301.54571533203125,-286.17974853515625,1.710479736328125,0,0,0]
+    },
+    "0-218529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_04",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-109.37959289550781,173.95938110351562,-70.05848693847656,0,0,0.30000001192092896]
+    },
+    "0-218530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_03",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-86.61831665039062,306.51617431640625,-71.33861541748047,0,0,5.808186054229736]
+    },
+    "0-218531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_02",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-67.77555084228516,317.17156982421875,-72.28203582763672,0,0,1.283185362815857]
+    },
+    "0-218532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-55.06877136230469,306.5133972167969,-72.67381286621094,0,0,0]
+    },
+    "0-218533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_03",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-15.80173110961914,306.3572082519531,-71.98731231689453,0,0,0]
+    },
+    "0-218534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_03",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-12.325883865356445,322.3612976074219,-71.98731231689453,0,0,3.2831854820251465]
+    },
+    "0-218535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-43.82530212402344,317.4261474609375,-72.64952850341797,0,0,0]
+    },
+    "0-218536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-33.56422805786133,308.0159912109375,-72.64952850341797,0,0,5.183185577392578]
+    },
+    "0-218537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [23.60576057434082,316.6211853027344,-72.6038818359375,0,0,0]
+    },
+    "0-218538": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [6.104655742645264,310.9378662109375,-73.1990737915039,0,0,0]
+    },
+    "0-218539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_skooma_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-271.94757080078125,287.4859619140625,19.605846405029297,0,0,5.4977874755859375]
+    },
+    "0-218542": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-241.03713989257812,307.0603332519531,21.423311233520508,0,0,0.17323170602321625]
+    },
+    "0-218543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-280.860107421875,271.6099548339844,20.584880828857422,0,0,5.4977874755859375]
+    },
+    "0-218544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-288.0177917480469,254.62318420410156,20.584880828857422,0,0,3.197787046432495]
+    },
+    "0-218545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-263.60888671875,285.3541259765625,-21.7613525390625,0,0,5.4977874755859375]
+    },
+    "0-218546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-275.43316650390625,271.514404296875,-21.761348724365234,0,0,5.4977874755859375]
+    },
+    "0-218547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-291.7659912109375,261.3098449707031,-21.761356353759766,0,0,5.347786903381348]
+    },
+    "0-218548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-304.27862548828125,248.7254180908203,-21.7613525390625,0,0,5.4977874755859375]
+    },
+    "0-218549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_cyro_brandy_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-312.00921630859375,236.2924346923828,-23.312265396118164,0,0,5.4977874755859375]
+    },
+    "0-218550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_cyro_brandy_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-311.6068115234375,224.7512969970703,-23.3122615814209,0,0,5.4977874755859375]
+    },
+    "0-218551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_comberry_wine_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-305.4056701660156,247.14453125,21.87689208984375,0,0,5.4977874755859375]
+    },
+    "0-218552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_comberry_wine_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-314.3519592285156,232.47207641601562,21.87689208984375,0,0,5.4977874755859375]
+    },
+    "0-218553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_t_bug_musk_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-323.83447265625,234.11390686035156,-24.42796516418457,0,0,5.4977874755859375]
+    },
+    "0-218556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Wood_Bowl_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-300.0692138671875,0.3998689651489258,-70.1440658569336,0,0,0]
+    },
+    "0-218557": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-305.2154235839844,0.026115670800209045,-68.5234146118164,0,5.897787094116211,0.30000001192092896]
+    },
+    "0-218558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_02",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-316.5133056640625,14.937064170837402,-66.30125427246094,0,0,0]
+    },
+    "0-218559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-293.57501220703125,18.412450790405273,-56.80931854248047,0,0,0]
+    },
+    "0-218560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_04_64",
+      "DATA": [-313.6516418457031,37.28925704956055,-53.797786712646484,0,0,0]
+    },
+    "0-218561": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-256.64495849609375,283.82940673828125,-69.35460662841797,0,0,0.2668145000934601]
+    },
+    "0-218562": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-305.51885986328125,234.2261962890625,-75.73719787597656,0,0,0]
+    },
+    "0-218563": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-235.13714599609375,304.41156005859375,-115.57335662841797,0,0,5.58318567276001]
+    },
+    "0-218564": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-0.5826644897460938,313.6014709472656,-96.68548583984375,0,0,3.1750004291534424]
+    },
+    "0-218505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_01",
+      "DATA": [0,0,0,0,0,3.1415927410125732]
+    },
+    "0-218506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [-256,-256,0,0,0,3.1415927410125732]
+    },
+    "0-218507": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_02",
+      "DATA": [-256,0,0,0,0,3.1415927410125732]
+    },
+    "0-218508": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [0,256,0,0,0,6.2831854820251465]
+    },
+    "0-218509": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-256,256,0,0,0,4.71238899230957]
+    },
+    "0-218510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [0,-128,-128,0,0,1.5707963705062866]
+    },
+    "0-218512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [-271.04144287109375,272.2243957519531,-37.42221450805664,0,0,5.4977874755859375]
+    },
+    "0-218513": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [-34.674373626708984,312.20172119140625,-34.69007873535156,0,0,0]
+    },
+    "0-218554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [-298.8725280761719,16.7088623046875,-100.2551040649414,0,0,0]
+    },
+    "0-218555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-299.1873779296875,-6.778791904449463,-91.57579803466797,0,0,3.2831857204437256]
+    },
+    "0-281827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fortify_health_c",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-293.4438781738281,260.2547302246094,-58.975406646728516,0,0,4.883185386657715]
+    },
+    "0-281828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fortify_fatigue_c",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-275.62860107421875,269.9889221191406,-58.975399017333984,0,0,0]
+    },
+    "0-281829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fortify_magicka_c",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-95.63042449951172,163.46282958984375,-53.72517776489258,0,0,0.30000001192092896]
+    },
+    "0-281830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_fatigue_c",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-153.21664428710938,101.98336029052734,-53.72600173950195,0,0,0.30000001192092896]
+    },
+    "0-281831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [400.813232421875,182.68878173828125,-89.48208618164062,0,0,0]
+    },
+    "0-218514": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_04",
+      "DATA": [-121.35283660888672,147.4781494140625,-98.95099639892578,0,0,5.012388706207275]
+    },
+    "0-218517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_j_mortar_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-92.31095886230469,181.81822204589844,-69.95800018310547,0,0,4.88323450088501]
+    },
+    "0-330898": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_07",
+      "XSCL": 1.3700001239776611,
+      "DATA": [-119.52204895019531,124.52938842773438,-130.5013427734375,0,0,0.00000095367431640625]
+    },
+    "0-330899": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-233.5957794189453,305.003662109375,-69.35460662841797,0,0,5.800000190734863]
+    },
+    "0-330900": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-257.0785217285156,287.5184020996094,-115.57335662841797,0,0,0]
+    },
+    "0-330901": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1.2110635042190552,311.09576416015625,-105.9495620727539,0,0,0.02500000037252903]
+    },
+    "0-330902": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-235.9188232421875,307.66082763671875,-32.36948013305664,0,0,5.433185577392578]
+    },
+    "0-330903": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-249.4464569091797,294.0475158691406,-32.36948013305664,0,0,5.808185577392578]
+    },
+    "0-330904": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_fire_salts_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-249.62344360351562,293.1062927246094,-32.943138122558594,0,0,0]
+    },
+    "0-330905": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_heather_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-235.91648864746094,305.8122863769531,-32.39178466796875,0,0,0]
+    },
+    "0-330906": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-263.46820068359375,279.1319885253906,20.584880828857422,0,0,5.331417083740234]
+    },
+    "0-330907": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_03",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-96.37642669677734,318.30963134765625,-71.33861541748047,0,0,0]
+    },
+    "0-330908": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_flask_03",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-82.02265930175781,320.71331787109375,-71.33861541748047,0,0,5.533185958862305]
+    },
+    "0-330909": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_ingred",
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-136.20799255371094,320.4429931640625,-71.3489990234375,0,0,0.4747295379638672]
+    },
+    "0-330911": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.090000033378601,
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [63.96171569824219,313.7701110839844,-102.82513427734375,0,0,3.383186101913452]
+    },
+    "0-330913": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-291.3359069824219,251.88192749023438,-101.29718017578125,0,0,2.3500001430511475]
+    },
+    "0-330914": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-289.92169189453125,249.72003173828125,-111.36017608642578,0,0,5.483185768127441]
+    },
+    "0-330915": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-67.85738372802734,309.5998229980469,-97.13069915771484,0,0,3.200000286102295]
+    },
+    "0-330916": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-68.54822540283203,307.11053466796875,-106.04095458984375,0,0,0.05000000074505806]
+    },
+    "0-330917": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.090000033378601,
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-143.7137451171875,280.9216613769531,-102.82513427734375,0,0,2.7081856727600098]
+    },
+    "0-330918": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.1299999952316284,
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-218.96217346191406,265.5910339355469,-101.71847534179688,0,0,3.458185911178589]
+    },
+    "0-335478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-253.7093963623047,-352.44189453125,92.39197540283203,0,0,0]
+    },
+    "0-335479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-351.74334716796875,148.25035095214844,92.39197540283203,0,0,1.5707963705062866]
+    },
+    "0-335480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [96.89485168457031,36.86613845825195,92.39197540283203,0,0,4.71238899230957]
+    },
+    "0-335481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-351.74334716796875,-16.776248931884766,92.39197540283203,0,0,1.5707963705062866]
+    },
+    "0-335482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [96.89485168457031,215.74806213378906,92.39197540283203,0,0,4.71238899230957]
+    },
+    "0-338689": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_01_v_potion_al_02",
+      "XSCL": 1.3300000429153442,
+      "ANAM": "andilu drothan",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [-310.0880126953125,89.14600372314453,-104.11000061035156,0,0,1.6004669666290283]
+    },
+    "0-406370": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "andilu drothan",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-231.8497772216797,-274.47235107421875,-68.07614135742188,0.40000084042549133,0,1.600000023841858]
+    },
+    "0-406371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-351.74334716796875,-189.48829650878906,92.39197540283203,0,0,1.5707963705062866]
+    },
+    "0-406372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-157.97962951660156,-189.512451171875,92.39197540283203,0,0,4.71238899230957]
+    },
+    "0-330910": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_food",
+      "ANAM": "ordinator wander",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-183.6567840576172,293.1416015625,-86.36426544189453,0,0,6.033185958862305]
+    }
+  }
+}

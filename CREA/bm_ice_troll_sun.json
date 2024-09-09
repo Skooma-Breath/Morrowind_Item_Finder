@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\ice troll.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 1,
+    "attributes": [110,30,70,90,40,100,50,90],
+    "health": 700,
+    "magicka": 50,
+    "fatigue": 900,
+    "soul_strength": 100,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 100,
+    "attacks": [
+      [40,95],
+      [40,95],
+      [40,95]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Lightkeeper Grahl",
+  "SCRI": "fireregenScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ingred_eyeball_unique"
+    }
+  ],
+  "NPCS": [
+    "bm_fireregen"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

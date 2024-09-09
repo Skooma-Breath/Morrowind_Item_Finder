@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 131,
+    "local_var_size": 19
+  },
+  "SCTX": "Begin manisVirmScript\r\n\r\nshort test\r\nshort doOnce\r\nshort nolore\r\n\r\nSet test to GetJournalIndex TG_LootAldruhnMG\r\n\r\nif ( test == 0 )\r\n\tif ( GetDisabled == 0 )\r\n\t\tDisable\r\n\tendif\r\n\tReturn\r\nendif\r\n\r\nif ( test >= 100 )\r\n\tif ( GetDisabled == 0 )\r\n\t\tDisable\r\n\tendif\r\n\tReturn\r\nendif\r\n\r\nif ( doOnce == 1 )\r\n\tReturn\r\nendif\r\n\r\nEnable\r\nForceGreeting\r\nSet doOnce to 1\r\n\r\nEnd",
+  "SCVR": [
+    "test",
+    "doOnce",
+    "nolore"
+  ],
+  "SCDT": [5,1,115,1,0,24,32,88,205,16,32,100,16,84,71,95,76,111,111,116,65,108,100,114,117,104,110,77,71,0,6,1,4,9,32,115,1,0,32,61,61,32,48,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,36,1,9,1,6,1,4,11,32,115,1,0,32,62,61,32,49,48,48,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,36,1,9,1,6,1,1,9,32,115,2,0,32,61,61,32,49,36,1,9,1,218,16,232,16,5,1,115,2,0,2,32,49,1,1]
+}

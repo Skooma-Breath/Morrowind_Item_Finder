@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 20,
+    "attributes": [70,80,75,60,50,70,50,50],
+    "health": 185,
+    "magicka": 500,
+    "fatigue": 400,
+    "soul_strength": 300,
+    "combat_skill": 75,
+    "magic_skill": 90,
+    "stealth_skill": 40,
+    "attacks": [
+      [1,5],
+      [1,5],
+      [1,5]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Skeleton War-Wizard",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver staff of war"
+    },
+    {
+      "count": 1,
+      "name": "ring_vampiric_unique"
+    },
+    {
+      "count": 4,
+      "name": "random_bonemeal"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "immune to frost",
+    "resist shock_50"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,0,0,0,0,0]
+    }
+  ]
+}

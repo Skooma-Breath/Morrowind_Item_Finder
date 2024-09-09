@@ -1,0 +1,280 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "29849179521312713522": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1985462302872217981",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinyaramen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, that ring bears the seal of my great family. Where did you get it? Never mind. I'm sure it was taken off one of my ancestors killed by your kind.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "extravagant_ring_aund_uni",
+          "__TV": 0
+        }
+      ]
+    },
+    "1985462302872217981": {
+      "flag": 0,
+      "PNAM": "29849179521312713522",
+      "NNAM": "2806096322446914728",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dhaunayne aundae",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Any Altmer who has met one of my kin should recognize the seal on that ring.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampChild",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "VA_VampChild",
+          "__TV": 120
+        }
+      ]
+    },
+    "2806096322446914728": {
+      "flag": 0,
+      "PNAM": "1985462302872217981",
+      "NNAM": "2044011974223826608",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "iniel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm...yes. I believe I've seen it before, or at least one similar. I think it was when I was in the Gateway Inn last week, talking to another Altmer. Hard to be certain, though. It was a long night of drinking. I'm sure you would understand.",
+      "BNAM": "Journal \"VA_VampChild\" 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "extravagant_ring_aund_uni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampChild",
+          "__TV": 30
+        }
+      ]
+    },
+    "2044011974223826608": {
+      "flag": 0,
+      "PNAM": "2806096322446914728",
+      "NNAM": "174063592164725394",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tusamircil",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Suit yourself.",
+      "BNAM": "Journal \"VA_VampChild\" 65",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "extravagant_ring_aund_uni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampChild",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "174063592164725394": {
+      "flag": 0,
+      "PNAM": "2044011974223826608",
+      "NNAM": "276876021965916192",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tusamircil",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here you go. Don't know where you'd find him, though. He wandered in here last week and said he'd be back soon. Who knows, though? Could be months before he returns. Better you find him yourself.",
+      "BNAM": "Journal \"VA_VampChild\" 66\r\nplayer->additem \"p_sinyaramen_unique\" 1\r\nremoveitem \"p_sinyaramen_unique\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "extravagant_ring_aund_uni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampChild",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "276876021965916192": {
+      "flag": 0,
+      "PNAM": "174063592164725394",
+      "NNAM": "1318722250291721515",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tusamircil",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sure you don't want that potion?",
+      "BNAM": "Choice \"Yes, I suppose I do.\" 1 \"No. I don't need it.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "extravagant_ring_aund_uni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "VA_VampChild",
+          "__TV": 65
+        }
+      ]
+    },
+    "1318722250291721515": {
+      "flag": 0,
+      "PNAM": "276876021965916192",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tusamircil",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I've seen a ring like that before. Sinyaramen wears it. Don't expect that he'll speak with you, though. He has little use for your kind. Although...he ordered a potion from me last week. If you deliver it to him for me, he might be willing to talk to you.",
+      "BNAM": "Journal \"VA_VampChild\" 60\r\nChoice \"I'll take it to him.\" 1 \"I'll get him to speak to me.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "extravagant_ring_aund_uni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "VA_VampChild",
+          "__TV": 30
+        }
+      ]
+    }
+  }
+}

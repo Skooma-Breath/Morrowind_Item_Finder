@@ -1,0 +1,1082 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "221871318223644313": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "147431309264213729",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "viras guls",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you have found more women who will move to Indarys Manor. Our settlement will grow and prosper.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 250
+        }
+      ]
+    },
+    "147431309264213729": {
+      "flag": 0,
+      "PNAM": "221871318223644313",
+      "NNAM": "2111252811831131090",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "viras guls",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have found women who will move here to Indarys Manor. I will tell the others.",
+      "BNAM": "Journal HR_Stronghold 250\r\nStartScript StrongholdWifeTeleport",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "agreedWife",
+          "__TV": 1
+        }
+      ]
+    },
+    "2111252811831131090": {
+      "flag": 0,
+      "PNAM": "147431309264213729",
+      "NNAM": "30938196722141314331",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "viras guls",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have found women who will move here to Indarys Manor. I will tell the others.",
+      "BNAM": "Journal HR_Stronghold 250\r\nStartScript StrongholdWifeTeleport",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "30938196722141314331": {
+      "flag": 0,
+      "PNAM": "2111252811831131090",
+      "NNAM": "310641147515768251",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "viras guls",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am sure there are many single women in Ald'ruhn who would move here. You could ask there. If you cannot find any wives, you could buy slaves in Tel Aruhn and bring them here. Many would prefer marriage over slavery.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 200
+        }
+      ]
+    },
+    "310641147515768251": {
+      "flag": 0,
+      "PNAM": "30938196722141314331",
+      "NNAM": "18781187801375026990",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Indarys Manor, Manor Services",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you were right. These men need wives. Have you seen how they dress? Perhaps I will stay here a few days.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "18781187801375026990": {
+      "flag": 0,
+      "PNAM": "310641147515768251",
+      "NNAM": "2210139511171132635",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No, I'm sorry, but I just don't understand at all. You'll have to find someone else to be your friend's wife. If that's what you wanted.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "agreedWife",
+          "__TV": 2
+        }
+      ]
+    },
+    "2210139511171132635": {
+      "flag": 0,
+      "PNAM": "18781187801375026990",
+      "NNAM": "11617186981117310441",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have some things to do here in town, but I will come visit Indarys Manor as soon as I can.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "agreedWife",
+          "__TV": 1
+        }
+      ]
+    },
+    "11617186981117310441": {
+      "flag": 0,
+      "PNAM": "2210139511171132635",
+      "NNAM": "3101724920537421943",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay. I agree. Just let me take care of a few things here in town, and I'll pay a visit to Indarys Manor.",
+      "BNAM": "Set agreedWife to 1\r\nJournal HR_Stronghold 232",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3101724920537421943": {
+      "flag": 0,
+      "PNAM": "11617186981117310441",
+      "NNAM": "17992260512256100",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry, but I'm confused. I don't think I will ever understand what you're asking.",
+      "BNAM": "Set agreedWife to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "17992260512256100": {
+      "flag": 0,
+      "PNAM": "3101724920537421943",
+      "NNAM": "2120265051479525199",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wait. If I understand you, you're saying that this \"Indarys Manor\" has a dozen eligible men. And there are only a few women there. And you want me to move there to find a husband, right?",
+      "BNAM": "Choice \"That's right.\" 1 \"Well, um, not exactly.\" 2",
+      "SCVR": null
+    },
+    "2120265051479525199": {
+      "flag": 0,
+      "PNAM": "17992260512256100",
+      "NNAM": "50602217210958681",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I understand what you're asking, and I'm not offended. But I'm not sure I should leave Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "50602217210958681": {
+      "flag": 0,
+      "PNAM": "2120265051479525199",
+      "NNAM": "2912240981922779",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fathusa girethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? Why would I leave here with a complete stranger to marry a man I've never met?",
+      "BNAM": "ModDisposition -10",
+      "SCVR": null
+    },
+    "2912240981922779": {
+      "flag": 0,
+      "PNAM": "50602217210958681",
+      "NNAM": "24758244462871611733",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Assimusa Samsi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am glad to be here in Indarys Manor with so many men to choose from.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "24758244462871611733": {
+      "flag": 0,
+      "PNAM": "2912240981922779",
+      "NNAM": "232015580523917758",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Heniele Milielle",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I may find a husband here, or I may return to High Rock. Who can say?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "232015580523917758": {
+      "flag": 0,
+      "PNAM": "24758244462871611733",
+      "NNAM": "1961610636106719297",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryni orethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Indarys Manor, Raram's House",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I have no chosen my husband yet, but I think I will settle down here at Indarys Manor.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1961610636106719297": {
+      "flag": 0,
+      "PNAM": "232015580523917758",
+      "NNAM": "20973202501185130745",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryni orethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've convinced me, %PCName. I'm moving to Indarys Manor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "agreedWife",
+          "__TV": 1
+        }
+      ]
+    },
+    "20973202501185130745": {
+      "flag": 0,
+      "PNAM": "1961610636106719297",
+      "NNAM": "177111201573998935",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryni orethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay. I might as well try looking around Indarys Manor. There certainly aren't any real men around here.",
+      "BNAM": "Set agreedWife to 1\r\nJournal HR_Stronghold 231",
+      "SCVR": null
+    },
+    "177111201573998935": {
+      "flag": 0,
+      "PNAM": "20973202501185130745",
+      "NNAM": "2067815269881825739",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryni orethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I must admit I'm interested in you offer. But not quite interested enough to accept.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2067815269881825739": {
+      "flag": 0,
+      "PNAM": "177111201573998935",
+      "NNAM": "1923299531093310929",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryni orethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you think I'd marry just anyone?",
+      "BNAM": "ModDisposition -10",
+      "SCVR": null
+    },
+    "1923299531093310929": {
+      "flag": 0,
+      "PNAM": "2067815269881825739",
+      "NNAM": "30192316601831029850",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galyn arvel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will send the next slaves we get to your manor. I am sure they will be happier as wives than slaves.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HR_Stronghold",
+          "__TV": 245
+        }
+      ]
+    },
+    "30192316601831029850": {
+      "flag": 0,
+      "PNAM": "1923299531093310929",
+      "NNAM": "1481725891423014868",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galyn arvel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want us to send some of the slaves we get to your manor? Hm. That might work, though I doubt your men want to marry Khajiit or Argonians. I will send you the next suitable slaves that pass through here, but it is up to you to protect them.",
+      "BNAM": "Journal HR_Stronghold 245\r\n\"Assimusa Samsi\"->Enable\r\n\"Heniele Milielle\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1481725891423014868": {
+      "flag": 0,
+      "PNAM": "30192316601831029850",
+      "NNAM": "6792127312668827434",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galyn arvel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know anyone around here you could ask. Try Ald'ruhn instead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "6792127312668827434": {
+      "flag": 0,
+      "PNAM": "1481725891423014868",
+      "NNAM": "143436503739124",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galyn arvel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I know. You're the lord of Indarys Manor. You said you needed wives there? Why are you asking me? I'm not looking for a husband.",
+      "BNAM": "Choice \"The Twin Lamps light the way to freedom. Send your slaves to Indarys Manor.\" 1 \"I'm sorry. I will ask someone else.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TwinLamps1",
+          "__TV": 5
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "143436503739124": {
+      "flag": 0,
+      "PNAM": "6792127312668827434",
+      "NNAM": "311222780364814661",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am spoken for, but if you have the idea I think you have, you should speak with Galyn Arvel in Ald Velothi.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TwinLamps1",
+          "__TV": 5
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 250
+        }
+      ]
+    },
+    "311222780364814661": {
+      "flag": 0,
+      "PNAM": "143436503739124",
+      "NNAM": "2807467109238591",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I will send the slaves to you as soon as I find them. I will keep my word, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "2807467109238591": {
+      "flag": 0,
+      "PNAM": "311222780364814661",
+      "NNAM": "3042531900274769065",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Agreed. As soon as I find two suitable slaves, I will have them sent to your manor.",
+      "BNAM": "Journal HR_Stronghold 240\r\nPlayer->RemoveItem Gold_001 2000\r\nAddItem Gold_001 2000\r\n\"Assimusa Samsi\"->Enable\r\n\"Heniele Milielle\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        }
+      ]
+    },
+    "3042531900274769065": {
+      "flag": 0,
+      "PNAM": "2807467109238591",
+      "NNAM": "2828926231710230491",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I appreciate the business, %PCName, but you simply do not have 2000 drakes. Come back when you're ready to do business.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2828926231710230491": {
+      "flag": 0,
+      "PNAM": "3042531900274769065",
+      "NNAM": "27183200312475624358",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good luck finding someone to live out there. If you change your mind, I will be here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "27183200312475624358": {
+      "flag": 0,
+      "PNAM": "2828926231710230491",
+      "NNAM": "2666317143818529773",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not have any slaves right now that would be suitable as wives... But for 2000 drakes, I could purchase two and send them to your manor. Is this acceptable?",
+      "BNAM": "Choice \"Yes, here are 2000 drakes.\" 1 \"No, nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "2666317143818529773": {
+      "flag": 0,
+      "PNAM": "27183200312475624358",
+      "NNAM": "327662066245632418",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As I said, I will ask my girls, but I cannot promise anything.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HR_Stronghold",
+          "__TV": 242
+        }
+      ]
+    },
+    "327662066245632418": {
+      "flag": 0,
+      "PNAM": "2666317143818529773",
+      "NNAM": "7885192822690826810",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hm. That is an interesting offer. I will ask my girls. Perhaps some of the older ones are ready to settle down somewhere. I will ask them, but that is all I can promise.",
+      "BNAM": "Journal HR_Stronghold 242\r\n\"Assimusa Samsi\"->Enable\r\n\"Heniele Milielle\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "7885192822690826810": {
+      "flag": 0,
+      "PNAM": "327662066245632418",
+      "NNAM": "136282838142828199",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How about a drink, then?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "136282838142828199": {
+      "flag": 0,
+      "PNAM": "7885192822690826810",
+      "NNAM": "2443724778234377811",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am sorry if you have the wrong impression. My girls are dancers, nothing more.",
+      "BNAM": "Choice \"No, not for me, I need women to go to Indarys Manor.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "2443724778234377811": {
+      "flag": 0,
+      "PNAM": "136282838142828199",
+      "NNAM": "21485112361681511775",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": 0,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald-ruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you asked Aryni Orethi? Many have, but she has refused them all.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "21485112361681511775": {
+      "flag": 0,
+      "PNAM": "2443724778234377811",
+      "NNAM": "888623240246203469",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": 1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald-ruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Try asking Fathusa Girethi at the Ald Skar Inn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "888623240246203469": {
+      "flag": 0,
+      "PNAM": "21485112361681511775",
+      "NNAM": "19938277321719113847",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Suran",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There's only one place in town for that, %PCName, Desele's House of Earthly Delights.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    },
+    "19938277321719113847": {
+      "flag": 0,
+      "PNAM": "888623240246203469",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Tel Aruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Savile Imayn is the only one here who might be able to find you a wife. She runs the slave market on the northwest side of the tower.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_Stronghold",
+          "__TV": 240
+        }
+      ]
+    }
+  }
+}

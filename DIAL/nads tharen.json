@@ -1,0 +1,638 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "5904184632895410547": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1420596081618418073",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, %PCName. Make amends and speak with me again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1420596081618418073": {
+      "flag": 0,
+      "PNAM": "5904184632895410547",
+      "NNAM": "24802279512844221153",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "I wish Nads Tharen hadn't died getting us this key. Everyone hopes never to see a fellow thief dead, but it happens.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 100
+        }
+      ]
+    },
+    "24802279512844221153": {
+      "flag": 0,
+      "PNAM": "1420596081618418073",
+      "NNAM": "14769165933097114287",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is the right key. This buys us some time in our war with the Camonna Tong. I'm glad you killed Arvama Rathri. She was probably working for the Camonna Tong. Here's a little something for you.",
+      "BNAM": "Journal TG_BrotherThief 110\r\nPlayer->RemoveItem key_tgbt 1\r\n\"stacey\"->AddItem key_tgbt 1\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "arvama rathri",
+          "__TV": 1
+        }
+      ]
+    },
+    "14769165933097114287": {
+      "flag": 0,
+      "PNAM": "24802279512844221153",
+      "NNAM": "1336715068761718783",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is the right key. This buys us some time in our war with the Camonna Tong. Keep an eye on Arvama Rathri. I believe she may be working for the Camonna Tong herself. And here's a little something for you.",
+      "BNAM": "Journal TG_BrotherThief 100\r\nPlayer->RemoveItem key_tgbt 1\r\n\"stacey\"->AddItem key_tgbt 1\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1336715068761718783": {
+      "flag": 0,
+      "PNAM": "14769165933097114287",
+      "NNAM": "31276280801395514726",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not sure you understand who's in charge here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "31276280801395514726": {
+      "flag": 0,
+      "PNAM": "1336715068761718783",
+      "NNAM": "12107131721719930511",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "So you avenged Nads Tharen and got the key.",
+      "BNAM": "Choice \"Give him the key\" 1 \"Keep the key\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_tgbt",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "arvama rathri",
+          "__TV": 1
+        }
+      ]
+    },
+    "12107131721719930511": {
+      "flag": 0,
+      "PNAM": "31276280801395514726",
+      "NNAM": "31667156871863411129",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "So you found Nads Tharen and got the key.",
+      "BNAM": "Choice \"Give him the key\" 1 \"Keep the key\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_tgbt",
+          "__TV": 1
+        }
+      ]
+    },
+    "31667156871863411129": {
+      "flag": 0,
+      "PNAM": "12107131721719930511",
+      "NNAM": "17869180592380911743",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "He used to hang out at the Elven Nations Cornerclub here in Vivec's Hlaalu Compound. He was supposed deliver a key to me. Find out what happened to him. If he's dead, as I fear, find his key and bring it to me.",
+      "BNAM": "Journal TG_BrotherThief 10",
+      "SCVR": null
+    },
+    "17869180592380911743": {
+      "flag": 0,
+      "PNAM": "31667156871863411129",
+      "NNAM": "192027211210518254",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadela andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So that's settled then.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 100
+        }
+      ]
+    },
+    "192027211210518254": {
+      "flag": 0,
+      "PNAM": "17869180592380911743",
+      "NNAM": "253796133187821347",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadela andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alright, I'll tell you just one thing. I saw Nads Tharen talking with Arvama Rathri the last day he was here. Haven't seen him in a while, though. Check over in St. Delyn canton, South Side canalworks. That's where he lives.",
+      "BNAM": "Journal TG_BrotherThief 25",
+      "SCVR": null
+    },
+    "253796133187821347": {
+      "flag": 0,
+      "PNAM": "192027211210518254",
+      "NNAM": "15319306012741831961",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadela andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I really couldn't say.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "15319306012741831961": {
+      "flag": 0,
+      "PNAM": "253796133187821347",
+      "NNAM": "1123727137234813433",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sovali uvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I guess that's settled then.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 100
+        }
+      ]
+    },
+    "1123727137234813433": {
+      "flag": 0,
+      "PNAM": "15319306012741831961",
+      "NNAM": "2546723342882214978",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sovali uvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Arvama Rathri spoke with him the last time he was in here. You might check his residence, but I don't know where he lives. Ask Gadela. She knows her customers well, although she is reticent to speak of them.",
+      "BNAM": "Journal TG_BrotherThief 20",
+      "SCVR": null
+    },
+    "2546723342882214978": {
+      "flag": 0,
+      "PNAM": "1123727137234813433",
+      "NNAM": "321931813509429274",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sovali uvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ask Arvama. She spoke with him",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "321931813509429274": {
+      "flag": 0,
+      "PNAM": "2546723342882214978",
+      "NNAM": "3196716354340931582",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arvama rathri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You look like a smart %PCRace. Too smart to be asking me about that again. Let his death be a lesson to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 100
+        }
+      ]
+    },
+    "3196716354340931582": {
+      "flag": 0,
+      "PNAM": "321931813509429274",
+      "NNAM": "3196850732776221912",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arvama rathri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Didn't think so. Get out of here, before I get angry.",
+      "BNAM": "ModDisposition -25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "key_tgbt",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 50
+        }
+      ]
+    },
+    "3196850732776221912": {
+      "flag": 0,
+      "PNAM": "3196716354340931582",
+      "NNAM": "30297151332589826552",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arvama rathri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps I did. But you won't live to tell anyone.",
+      "BNAM": "StartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "key_tgbt",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 50
+        }
+      ]
+    },
+    "30297151332589826552": {
+      "flag": 0,
+      "PNAM": "3196850732776221912",
+      "NNAM": "28269125151195326275",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arvama rathri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So he's dead. What does that have to do with me?",
+      "BNAM": "Choice \"I believe you killed him.\" 1 \"Nothing.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "key_tgbt",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 50
+        }
+      ]
+    },
+    "28269125151195326275": {
+      "flag": 0,
+      "PNAM": "30297151332589826552",
+      "NNAM": "8202149042713212257",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arvama rathri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What are you suggesting?",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherThief",
+          "__TV": 50
+        }
+      ]
+    },
+    "8202149042713212257": {
+      "flag": 0,
+      "PNAM": "28269125151195326275",
+      "NNAM": "29049145971170113668",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arvama rathri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I saw him from time to time, but I never spoke with him.",
+      "BNAM": "Journal TG_BrotherThief 50",
+      "SCVR": null
+    },
+    "29049145971170113668": {
+      "flag": 0,
+      "PNAM": "8202149042713212257",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, Elven Nations Cornerclub",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I haven't seen him for a few weeks. He used to come here every day.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,728 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "634827443204810172": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1709420591376330367",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You belong to us already, %PCRank %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritOran",
+          "__TV": 100
+        }
+      ]
+    },
+    "1709420591376330367": {
+      "flag": 0,
+      "PNAM": "634827443204810172",
+      "NNAM": "825911412645628441",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Feruren Oran is dead? Then welcome %PCName, to the Morag Tong. Any Master of the Morag Tong can tell you what writs are available and weather you are a candidate for advancement. When you have proven yourself, I will have special duties for you.",
+      "BNAM": "Journal MT_WritOran 100\r\nStartScript TopicsWebspinner",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "feruren oran",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritOran",
+          "__TV": 10
+        }
+      ]
+    },
+    "825911412645628441": {
+      "flag": 0,
+      "PNAM": "1709420591376330367",
+      "NNAM": "205646955323927419",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given you the authority to act in the name of the Morag Tong. You are charged with the honorable execution of Feruren Oran. Succeed and join us. Fail and die.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritOran",
+          "__TV": 10
+        }
+      ]
+    },
+    "205646955323927419": {
+      "flag": 0,
+      "PNAM": "825911412645628441",
+      "NNAM": "115679232096729505",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will let you join as a probationer. To gain full membership, you must pass a test. Here is a writ for the honorable execution of Feruren Oran. You can find him in the Elven Nations Cornerclub, which is in the Hlaalu Plaza. Slay him honorably and report to me.",
+      "BNAM": "Journal MT_WritOran 10\r\n\"Feruren Oran\"->Enable\r\nPlayer->AddItem writ_oran 1\r\nPCJoinFaction \"Morag Tong\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "115679232096729505": {
+      "flag": 0,
+      "PNAM": "205646955323927419",
+      "NNAM": "11868113203021324799",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Morag Tong executes writs and performs special duties as the ruling houses direct. Guild members never harm or steal from any brother or sister - regardless of rank. Never betray our secrets or our identities. If you break any of these rules, you must immediately speak with a Master to regain your good standing or you may be targeted for execution. Do you feel you can succeed within these guidelines?",
+      "BNAM": "choice \"Yes. I wish to bring honor to the Guild.\" 1 \"No. I don't want any part of this.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "11868113203021324799": {
+      "flag": 0,
+      "PNAM": "115679232096729505",
+      "NNAM": "23163320921639027638",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You were unwise to have contacted me.",
+      "BNAM": "ModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "23163320921639027638": {
+      "flag": 0,
+      "PNAM": "11868113203021324799",
+      "NNAM": "1020270021195132426",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Morag Tong has been watching you, and we are pleased. One of your exceptional talent cannot go unmastered. Join us.",
+      "BNAM": "Choice \"Yes, I will join.\" 1 \"What do you stand for?\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1020270021195132426": {
+      "flag": 0,
+      "PNAM": "23163320921639027638",
+      "NNAM": "1377788052495522935",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your skills are weak and your discipline is untempered. Still, you have found me, so perhaps I will let you ask again when you have something to offer.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1377788052495522935": {
+      "flag": 0,
+      "PNAM": "1020270021195132426",
+      "NNAM": "1672228472121934760",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "movis darys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will speak with Eno Hlaalu if you let me live. Your move, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_DB_Darys",
+          "__TV": 50
+        }
+      ]
+    },
+    "1672228472121934760": {
+      "flag": 0,
+      "PNAM": "1377788052495522935",
+      "NNAM": "287139661462023013",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "movis darys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you know, then it is over... I swore an oath to the Dark Brotherhood, but I have learned that their ways not as honorable as the Morag Tong. All I can promise is that I will speak with Eno Hlaalu. If that is enough, report to him. If not, I will test your skill. Take this belt as a sign of my good faith.",
+      "BNAM": "Journal MT_DB_Darys 50\r\nRemoveItem \"sanguinebeltdenial\" 1\r\nPlayer->AddItem \"sanguinebeltdenial\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "287139661462023013": {
+      "flag": 0,
+      "PNAM": "1672228472121934760",
+      "NNAM": "275917676943623769",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "movis darys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Had me worried there. Must be a mistake, eh?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "275917676943623769": {
+      "flag": 0,
+      "PNAM": "287139661462023013",
+      "NNAM": "24705735860428828",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "movis darys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Morag Tong? But I'm just a simple peasant. What do I know about killing and all that?",
+      "BNAM": "Choice \"We know who you are. If you do not join, I will give you an honorable death.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_DB_Darys",
+          "__TV": 10
+        }
+      ]
+    },
+    "24705735860428828": {
+      "flag": 0,
+      "PNAM": "275917676943623769",
+      "NNAM": "25680321111445128264",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": "Vivec, Arena Hidden Area",
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You are already one of us, brother %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "25680321111445128264": {
+      "flag": 0,
+      "PNAM": "24705735860428828",
+      "NNAM": "176203207021511884",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": "Vivec, Arena Hidden Area",
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You are already one of us, sister %PCName.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "176203207021511884": {
+      "flag": 0,
+      "PNAM": "25680321111445128264",
+      "NNAM": "2799159172401615208",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": "Vivec, Arena Hidden Area",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you have found our headquarters. This speaks well of you. Perhaps you should speak with Grandmaster Eno Hlaalu.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2799159172401615208": {
+      "flag": 0,
+      "PNAM": "176203207021511884",
+      "NNAM": "6058107993067310164",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you may be worthy. Your first test is to find Grandmaster Eno Hlaalu. By tradition he lives in the secret tunnels under the Arena here in Vivec. Only the Grandmaster can allow foreigners like us to join.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 50
+        }
+      ]
+    },
+    "6058107993067310164": {
+      "flag": 0,
+      "PNAM": "2799159172401615208",
+      "NNAM": "1158419943357823083",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps, but I do not believe you are ready.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1158419943357823083": {
+      "flag": 0,
+      "PNAM": "6058107993067310164",
+      "NNAM": "835710542790813512",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By tradition, the Grandmaster of the Morag Tong lives in the Arena Canton here in Vivec.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "835710542790813512": {
+      "flag": 0,
+      "PNAM": "1158419943357823083",
+      "NNAM": "1844510294212178407",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Agent",
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard the Morag Tong stays in secret tunnels somewhere under the Arena, but I do not know how one might join.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1844510294212178407": {
+      "flag": 0,
+      "PNAM": "835710542790813512",
+      "NNAM": "182625339176210112",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Assassin",
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Grandmaster Eno Hlaalu may be found in the Arena Canton here in Vivec.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "182625339176210112": {
+      "flag": 0,
+      "PNAM": "1844510294212178407",
+      "NNAM": "1299818518383812323",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I believe the current Grandmaster is Eno Hlaalu. I have heard rumors that the Morag Tong has a base somewhere under the Arena here in Vivec.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1299818518383812323": {
+      "flag": 0,
+      "PNAM": "182625339176210112",
+      "NNAM": "870227794202657527",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant Service",
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I believe the current Grandmaster is Eno Hlaalu. I have heard rumors that the Morag Tong has a base somewhere under the Arena here in Vivec.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "870227794202657527": {
+      "flag": 0,
+      "PNAM": "1299818518383812323",
+      "NNAM": "1023111355124622548",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ordinator wander",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, Arena Canalworks",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you seek the Morag Tong you should look in the storage area here in the Canalworks.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "2",
+          "identifier": null,
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "43",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1023111355124622548": {
+      "flag": 0,
+      "PNAM": "870227794202657527",
+      "NNAM": "246652254123626288",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ordinator wander",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, Arena Canalworks",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here in Morrowind, members of the Morag Tong follow an honorable and traditional profession. I do see them from time to time at this post.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "246652254123626288": {
+      "flag": 0,
+      "PNAM": "1023111355124622548",
+      "NNAM": "20248233211637824614",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, Arena",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see them from time to time, but I do not know where to find them.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "20248233211637824614": {
+      "flag": 0,
+      "PNAM": "246652254123626288",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you wish to join us, you must seek out Eno Hlaalu, the Grandmaster of the Morag Tong in Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

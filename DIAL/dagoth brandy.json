@@ -1,0 +1,117 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2558428123181963399": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "260026297523526316",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dagoth endus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Whenever you're ready, then? You're the challenger, and I am your host. So honor demands that you deliver the first blow.",
+      "BNAM": ";Dagoth Endus [mages, summoning]; Journal \"C2_Sunder\" >= 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C2_Sunder",
+          "__TV": 1
+        }
+      ]
+    },
+    "260026297523526316": {
+      "flag": 0,
+      "PNAM": "2558428123181963399",
+      "NNAM": "1077130385364227457",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dagoth endus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No? Pity. But then, a pity to waste it on a coward like you. I'm done talking. I await you first blow, challenger.",
+      "BNAM": ";Dagoth Endus [mages, summoning]; CHOICE 2;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1077130385364227457": {
+      "flag": 0,
+      "PNAM": "260026297523526316",
+      "NNAM": "1365141253254118128",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dagoth endus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then I drink to your health. Bottoms up....",
+      "BNAM": ";Dagoth Endus [mages, summoning]; CHOICE 1; \r\nplayer->additem \"potion_Ancient_brandy\" 1\r\nJournal \"C2_Sunder\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1365141253254118128": {
+      "flag": 0,
+      "PNAM": "1077130385364227457",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dagoth endus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is a rare nectar beyond compare, distilled ages before your ancestor's ancestors. And a fitting toast to our challenge. Would you like to sample it?",
+      "BNAM": ";Dagoth Endus [mages, summoning]; \r\nChoice \"Yes, give me some.\" 1 \"No, thank you.\" 2",
+      "SCVR": null
+    }
+  }
+}

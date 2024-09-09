@@ -1,0 +1,70 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_06",
+  "KNAM": "b_n_dark elf_m_hair_06",
+  "MODL": null,
+  "FNAM": "Tirer Belvayn",
+  "SCRI": "BILL_MT_WritBelvayn",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 80,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver staff of war"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02_t"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "l_b_rings"
+    }
+  ],
+  "NPCS": [
+    "weary",
+    "bound longbow",
+    "summon greater bonewalker",
+    "summon least bonewalker",
+    "commanding touch",
+    "reflect",
+    "weak spelldrinker",
+    "summon skeletal minion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "health": 172,
+    "magicka": 176,
+    "fatigue": 264,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [56,88,81,58,68,69,44,40],
+    "skills": [7,7,31,31,42,12,7,7,12,59,69,59,44,59,64,20,20,20,7,7,7,12,7,36,7,7,7]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

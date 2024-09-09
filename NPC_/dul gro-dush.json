@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Warrior",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_orc_m_head_02",
+  "KNAM": "b_n_orc_m_hair_03",
+  "MODL": null,
+  "FNAM": "Dul gro-Dush",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "health": 71,
+    "magicka": 16,
+    "fatigue": 199,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [68,33,36,53,32,42,70,40],
+    "skills": [46,31,46,46,21,36,26,21,36,5,5,5,7,5,5,5,5,5,5,5,5,7,5,19,5,5,7]
+  },
+  "AI_": [
+    {
+      "distance": 2000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

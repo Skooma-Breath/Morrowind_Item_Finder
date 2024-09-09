@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Assassin Service",
+  "ANAM": "Morag Tong",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_19",
+  "MODL": null,
+  "FNAM": "Lassour Zenammu",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16481
+  },
+  "NPCO": [
+    {
+      "count": -1,
+      "name": "iron spider dagger"
+    },
+    {
+      "count": -2,
+      "name": "steel spider blade"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": -15,
+      "name": "pick_apprentice_01"
+    },
+    {
+      "count": -4,
+      "name": "pick_master"
+    },
+    {
+      "count": -8,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": -15,
+      "name": "probe_apprentice_01"
+    },
+    {
+      "count": -7,
+      "name": "probe_journeyman_01"
+    },
+    {
+      "count": -3,
+      "name": "probe_master"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 92,
+    "magicka": 126,
+    "fatigue": 213,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [59,63,37,72,77,45,35,40],
+    "skills": [24,6,6,6,6,29,6,6,29,6,16,6,6,6,11,6,24,6,34,48,48,54,58,54,10,15,15]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 114,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin VarisDead\r\n\r\nshort nolore\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\tif ( getjournalindex TR09_Journalist >= 1 )\r\n\t\tJournal TR09_Journalist 80\r\n\telse\r\n\t\tJournal TR09_Journalist 90\r\n\tendif\r\nendif\r\n\r\nend VarisDead",
+  "SCVR": [
+    "nolore"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,5,9,32,88,240,16,32,61,61,32,49,6,1,1,27,32,88,205,16,32,100,15,84,82,48,57,95,74,111,117,114,110,97,108,105,115,116,32,62,61,32,49,204,16,15,84,82,48,57,95,74,111,117,114,110,97,108,105,115,116,80,0,255,255,7,1,1,204,16,15,84,82,48,57,95,74,111,117,114,110,97,108,105,115,116,90,0,255,255,9,1,9,1,1,1]
+}

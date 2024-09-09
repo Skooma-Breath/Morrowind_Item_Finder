@@ -1,0 +1,507 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Zainab Camp, Kuda's Yurt",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,75,75,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-322520": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_door_02",
+      "DATA": [29.448999404907227,514.1320190429688,-140.9459991455078,0,0,0]
+    },
+    "0-322528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-138.9685516357422,529.9654541015625,-182.33242797851562,0,0,4.8831868171691895]
+    },
+    "0-322521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "CNAM": {
+        "faction_id": "Ashlanders",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [28.244552612304688,716.1410522460938,-241.951904296875,0,0,3.141592502593994]
+    },
+    "0-322522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [218.3277130126953,410.9593200683594,-213.47885131835938,0,0,5.3831868171691895]
+    },
+    "0-322523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-86.48007202148438,326.392333984375,-236.86228942871094,0,0,0.5999999642372131]
+    },
+    "0-322524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [112.42640686035156,298.794677734375,-242.50209045410156,1.300000548362732,5.083186149597168,5.183185577392578]
+    },
+    "0-322525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-87.11940002441406,328.73876953125,-246.19174194335938,0,6.183185577392578,3.5831868648529053]
+    },
+    "0-322526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [77.7350082397461,285.8280334472656,-220.43882751464844,0,0,2.8999998569488525]
+    },
+    "0-322527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-151.9845428466797,514.7432861328125,-186.1709747314453,0,0,3.983187675476074]
+    },
+    "0-322529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-158.2257537841797,512.179443359375,-185.4163055419922,0,6.083185195922852,5.4831862449646]
+    },
+    "0-322530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_ingred",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-150.44400024414062,431.67401123046875,-208.6790008544922,0,0,0.7993608117103577]
+    },
+    "0-322531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-131.0511016845703,381.7367248535156,-193.46905517578125,0,0,4.399999141693115]
+    },
+    "0-322532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [159.14158630371094,341.7760314941406,-226.1915283203125,0,0,2.783186435699463]
+    },
+    "0-322533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [241.7471160888672,467.6335754394531,-218.99307250976562,0,0,1.7000013589859009]
+    },
+    "0-322534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [241.5118865966797,469.30108642578125,-231.6107177734375,0,0,2.0000009536743164]
+    },
+    "0-322535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [239.5163116455078,470.93341064453125,-243.9545440673828,0,0,4.799998760223389]
+    },
+    "0-322536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [249.5012969970703,551.27490234375,-232.45094299316406,0,0,4.800000190734863]
+    },
+    "0-322537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [249.62098693847656,548.2230224609375,-245.12625122070312,0,0,1.9000006914138794]
+    },
+    "0-322538": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_02",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [28.942811965942383,512.7215576171875,-217.03614807128906,5.983185768127441,1.0000001192092896,2.9831860065460205]
+    },
+    "0-322539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-133.4557647705078,506.95269775390625,-187.47279357910156,0,0,4.583187103271484]
+    },
+    "0-322540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Wood_Bowl_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-68.75407409667969,735.3436279296875,-246.78515625,0,0,4.8831868171691895]
+    },
+    "0-322541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-87.66136169433594,328.322509765625,-224.24038696289062,0,0,3.483185052871704]
+    },
+    "0-322542": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-29.743471145629883,296.592529296875,-233.8282470703125,0,0,2.1999998092651367]
+    },
+    "0-322543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_basket_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-148.1048126220703,643.33935546875,-213.4149169921875,0,0,3.5831875801086426]
+    },
+    "0-322544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-141.93736267089844,598.78271484375,-179.86773681640625,0,0,0.5]
+    },
+    "0-322545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-138.73556518554688,567.24951171875,-188.53744506835938,0,0,0]
+    },
+    "0-322546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-168.43463134765625,581.0634765625,-185.7341766357422,0,0,0]
+    },
+    "0-322547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_01_64",
+      "DATA": [-159.6002197265625,540.7030029296875,-170.26780700683594,0,0,4.8831868171691895]
+    },
+    "0-322548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_07",
+      "DATA": [-74.29878234863281,711.7806396484375,-232.9566650390625,0,0,0]
+    },
+    "0-322549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Wood_Bowl_01",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-178.47262573242188,522.301025390625,-184.83016967773438,0,0,4.8831868171691895]
+    },
+    "0-322550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [234.2841033935547,610.49267578125,-227.4223175048828,0,0,5.983185768127441]
+    },
+    "0-322551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "sakulerib",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [197.3260040283203,360.88055419921875,-213.80355834960938,0,0,5.883186340332031]
+    },
+    "0-322552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_ashl_lantern_01",
+      "DATA": [25.061019897460938,414.21337890625,-79.03225708007812,0,0,0.7000000476837158]
+    },
+    "0-322553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_02",
+      "DATA": [29.44896125793457,514.1327514648438,-140.94647216796875,0,0,0]
+    },
+    "0-322554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_firepit",
+      "DATA": [33.085601806640625,520.1727294921875,-189.4578857421875,0,0,0]
+    },
+    "0-322555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-148.6839141845703,643.71826171875,-232.0878448486328,0,0,0.8000003695487976]
+    },
+    "0-322556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [-153.55355834960938,554.5419921875,-219.15370178222656,0,0,4.783186912536621]
+    },
+    "0-322557": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_ashl_bugbowl_01",
+      "DATA": [-117.85224914550781,686.2110595703125,-216.58091735839844,2.000000238418579,0.6000005006790161,4.883185386657715]
+    },
+    "0-322558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_cauldron_01",
+      "DATA": [21.872709274291992,512.8394775390625,-208.63128662109375,0,0,5.883185386657715]
+    },
+    "0-322559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_ashl_bugbowl_03",
+      "DATA": [-151.72962951660156,552.22802734375,-246.7857666015625,6.2831854820251465,0,1.4000000953674316]
+    },
+    "0-322560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-168.86105346679688,484.8956604003906,-232.76280212402344,0,0,0.40000036358833313]
+    },
+    "0-322561": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_16",
+      "DATA": [135.46762084960938,315.2898864746094,-148.11570739746094,0,0,0]
+    },
+    "0-322562": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_07",
+      "DATA": [-86.27398681640625,318.8331604003906,-148.92335510253906,0,0,0]
+    },
+    "0-322563": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_09",
+      "DATA": [228.30149841308594,518.5391845703125,-163.0128631591797,0,0,3.1415927410125732]
+    },
+    "0-322564": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_09",
+      "DATA": [-171.6695098876953,516.6943969726562,-163.01547241210938,0,0,6.2831854820251465]
+    },
+    "0-322565": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_09",
+      "DATA": [25.69472885131836,710.4129638671875,-163.0128631591797,0,0,1.5707963705062866]
+    },
+    "0-322566": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [166.2807159423828,867.7190551757812,-258.53582763671875,0,0,2.2831857204437256]
+    },
+    "0-434468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "sakulerib",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [-135.17897033691406,540.3687744140625,-188.60804748535156,0,0,0]
+    },
+    "0-434469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "sakulerib",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-126.6168212890625,540.9729614257812,-187.48341369628906,0,0,5.583186149597168]
+    }
+  }
+}

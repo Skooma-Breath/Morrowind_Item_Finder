@@ -1,0 +1,179 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2894723582136028300": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "30183198372594919477",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You may have heard that he is a murderer. I have known Nine-Toes for many years. I do not believe he could be the real murderer. Why not see for yourself? From my house go down the steps to your right. His house is the first on your left.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "HH_Retaliation",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_Retaliation",
+          "__TV": 100
+        }
+      ]
+    },
+    "30183198372594919477": {
+      "flag": 0,
+      "PNAM": "2894723582136028300",
+      "NNAM": "2656437593039216886",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "To get to Hunter Nine-Toes, leave my door facing south. Go right, down the steps, then turn left and head south, looking for his door on your left.",
+      "BNAM": ";Caius Cosades; Journal A1_1_FindSpymaster >= 14\r\nJournal blades_nine_toes2 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 14
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "blades_nine_toes2",
+          "__TV": 1
+        }
+      ]
+    },
+    "2656437593039216886": {
+      "flag": 0,
+      "PNAM": "30183198372594919477",
+      "NNAM": "32675258632609228156",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nine_toes",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I am Nine-Toes.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "32675258632609228156": {
+      "flag": 0,
+      "PNAM": "2656437593039216886",
+      "NNAM": "17562211124617985",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Argonian",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am sure he is not the murderer.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "HH_Retaliation",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_Retaliation",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "17562211124617985": {
+      "flag": 0,
+      "PNAM": "32675258632609228156",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "His house is in the middle row east of the river Odai.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

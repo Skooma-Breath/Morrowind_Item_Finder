@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 11,
+  "RNAM": "Dark Elf",
+  "CNAM": "Wise Woman Service",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_f_head_05",
+  "KNAM": "b_n_dark elf_f_hair_09",
+  "MODL": null,
+  "FNAM": "Sonummu Zabamat",
+  "SCRI": "sonummuNoLore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 10496000
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "firebite war axe"
+    },
+    {
+      "count": 1,
+      "name": "expensive_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_01_z"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_01_z"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    },
+    {
+      "count": -1,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": -1,
+      "name": "p_disease_resistance_s"
+    },
+    {
+      "count": -2,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": -2,
+      "name": "p_restore_fatigue_s"
+    }
+  ],
+  "NPCS": [
+    "rapid regenerate",
+    "purge magic",
+    "torpor",
+    "fourth barrier",
+    "divine aid",
+    "restore agility",
+    "restore intelligence",
+    "restore personality",
+    "cure poison",
+    "demoralizing touch",
+    "detect enchantment"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "health": 266,
+    "magicka": 25,
+    "fatigue": 325,
+    "disposition": 50,
+    "reputation": 25,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [100,50,85,68,40,72,85,40],
+    "skills": [68,52,78,25,78,25,78,25,68,8,8,8,20,8,8,40,8,8,8,8,40,20,8,40,10,8,52]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

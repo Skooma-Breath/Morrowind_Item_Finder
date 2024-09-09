@@ -1,0 +1,616 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "48559331434528926": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "218692149495794048",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have done me a great service, %PCName.  I finally have the full set.  Aren't they beautiful?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_EstateSale",
+          "__TV": 70
+        }
+      ]
+    },
+    "218692149495794048": {
+      "flag": 0,
+      "PNAM": "48559331434528926",
+      "NNAM": "17524192531849014250",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent!  Here's what I can tell you.  Arnsa Thendas has recently been widowed.  Her husband, Sandas, was a local nobleman, but amassed quite a bit of debt during his waning years.  His death has left the widow with quite a financial burden.  As such, she may be willing to part with the dagger for money.  If you can find another way to get it from her, by all means take advantage of it.  I will compensate you adequately, I promise you.",
+      "BNAM": "Journal MS_EstateSale 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "17524192531849014250": {
+      "flag": 0,
+      "PNAM": "218692149495794048",
+      "NNAM": "1624527493102516439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's....disappointing.  Perhaps I can try some other method to acquire the dagger, then.  Ah, well.  I appreciate you listening to the story, at any rate.",
+      "BNAM": "Journal MS_EstateSale 90",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1624527493102516439": {
+      "flag": 0,
+      "PNAM": "17524192531849014250",
+      "NNAM": "1944028779412524154",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fantastic!  I don't need to know the details of how you got it.  In fact, I'd rather not know.  Here is your payment; I think you'll find it's a bit more than the dagger is actually worth.  I do appreciate what you've done for me.",
+      "BNAM": "player->removeitem \"silver dagger_droth_unique\" 1\r\nplayer->additem \"gold_001\" 800\r\nmoddisposition 20\r\nJournal MS_EstateSale 70\r\nStartScript DrothPost",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "silver dagger_droth_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "1944028779412524154": {
+      "flag": 0,
+      "PNAM": "1624527493102516439",
+      "NNAM": "1346147121435427780",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, where is it?  I do appreciate a good sense of humor, but this is not a subject I'm inclined to joke about.  Please bring me the dagger as soon as you have it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "silver dagger_droth_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "1346147121435427780": {
+      "flag": 0,
+      "PNAM": "1944028779412524154",
+      "NNAM": "8845319642464032097",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  What can you possibly want it for, especially knowing how important it is to me?  Please reconsider this course of action.",
+      "BNAM": "moddisposition -20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "8845319642464032097": {
+      "flag": 0,
+      "PNAM": "1346147121435427780",
+      "NNAM": "30557132192023217677",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You did WHAT?  What could you possibly have been thinking?  This makes a mess of everything.  Why not just stab me in the back with it, instead?  That'd have been less painful for me.  Get out of my sight.",
+      "BNAM": "Journal MS_EstateSale 60\r\nmoddisposition -40\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "silver dagger_droth_unique",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "Droth_var",
+          "__TV": 1
+        }
+      ]
+    },
+    "30557132192023217677": {
+      "flag": 0,
+      "PNAM": "8845319642464032097",
+      "NNAM": "16450114842995430902",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very funny.  I see that you've got it there.  Now let's stop these shenanigans.  Just hand it over.",
+      "BNAM": "Choice: \"Here's the the dagger.\" 3 \"I'm keeping the dagger.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "silver dagger_droth_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "16450114842995430902": {
+      "flag": 0,
+      "PNAM": "30557132192023217677",
+      "NNAM": "58612572397432227",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "PLEASE don't joke like that, %PCName. I couldn't bear the thought of that beautiful dagger sitting in some dusty shop someplace.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "58612572397432227": {
+      "flag": 0,
+      "PNAM": "16450114842995430902",
+      "NNAM": "2580326396803122628",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wonderful!  I know that she had been planning an Estate Sale to auction off some of her husbands' things.  He died a short while ago, and left her with some rather large debts.  The Thendas manor is here in the Residential District... perhaps the Droth Dagger is still there.  A shame about her death, really.  I will, however, pay you should you be able to get it for me.",
+      "BNAM": "Journal MS_EstateSale 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "2580326396803122628": {
+      "flag": 0,
+      "PNAM": "58612572397432227",
+      "NNAM": "2388145121444024191",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, let me know when you have it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "2388145121444024191": {
+      "flag": 0,
+      "PNAM": "2580326396803122628",
+      "NNAM": "1356822394660930084",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, %PCName?  Have you managed to acquire the dagger?",
+      "BNAM": "Choice: \"Here's the dagger.\" 3 \"I'm keeping the dagger.\" 4 \"I sold the dagger.\" 5 \"I haven't got the dagger yet.\" 7",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_EstateSale",
+          "__TV": 20
+        }
+      ]
+    },
+    "1356822394660930084": {
+      "flag": 0,
+      "PNAM": "2388145121444024191",
+      "NNAM": "396017539366711941",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just come back here once you've gotten it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_EstateSale",
+          "__TV": 20
+        }
+      ]
+    },
+    "396017539366711941": {
+      "flag": 0,
+      "PNAM": "1356822394660930084",
+      "NNAM": "28087323991298431366",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's one of several made by artisans during the 2nd Age.  They were crafted for a group of Dunmer nobles, each bearing a mark of the owner.  Of course, it takes a trained eye to distinguish one from a normal dagger...  I've acquired all but the Droth Dagger, and have recently been made aware that the widow Arnsa Thendas is in possession of one.  Would you be wiling to help me retrieve it?",
+      "BNAM": "Choice \"Yes, I'll help.\" 1 \"I'm sorry, but I'd rather not get involved.\" 2",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Arnsa Thendas",
+          "__TV": 0
+        }
+      ]
+    },
+    "28087323991298431366": {
+      "flag": 0,
+      "PNAM": "396017539366711941",
+      "NNAM": "15458228431919924557",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Geon Auline",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's one of several made by artisans towards the end of the Second Age.  They were crafted for a group of Dunmer nobles, each bearing a mark of the owner.  Of course, it takes a trained eye to distinguish one from a normal dagger...  I've acquired all but the Droth Dagger, and have recently been made aware that the widow Arnsa Thendas was in possession of one, shortly before her untimely death.  Can you help me find out what happened to it?",
+      "BNAM": "Choice \"Yes, I'll help.\" 6 \"I'm sorry, but I'd rather not get involved.\" 2",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Arnsa Thendas",
+          "__TV": 1
+        }
+      ]
+    },
+    "15458228431919924557": {
+      "flag": 0,
+      "PNAM": "28087323991298431366",
+      "NNAM": "7397271541473914529",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Arnsa Thendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's not up for discussion anymore, %PCRace. I'm sorry.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_EstateSale",
+          "__TV": 70
+        }
+      ]
+    },
+    "7397271541473914529": {
+      "flag": 0,
+      "PNAM": "15458228431919924557",
+      "NNAM": "2507616805120864199",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Arnsa Thendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's yours now. Do with it what you will.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_EstateSale",
+          "__TV": 50
+        }
+      ]
+    },
+    "2507616805120864199": {
+      "flag": 0,
+      "PNAM": "7397271541473914529",
+      "NNAM": "194271541311322110",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Arnsa Thendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's yours now. Do with it what you will.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_EstateSale",
+          "__TV": 40
+        }
+      ]
+    },
+    "194271541311322110": {
+      "flag": 0,
+      "PNAM": "2507616805120864199",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Arnsa Thendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's a horrid-looking thing. I don't know where Sandas got it, and I don't want to know. I'm hoping that someone buys it in the Estate Sale.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "MS_EstateSale",
+          "__TV": 30
+        }
+      ]
+    }
+  }
+}

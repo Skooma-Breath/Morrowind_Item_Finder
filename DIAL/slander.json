@@ -1,0 +1,675 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1398821163861526653": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "343022925183914544",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "meril hlaano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I said I was sorry already. Just leave me alone.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HlaanoSlanders",
+          "__TV": 50
+        }
+      ]
+    },
+    "343022925183914544": {
+      "flag": 0,
+      "PNAM": "1398821163861526653",
+      "NNAM": "24947188951810428436",
+      "DATA": {
+        "value": 75,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "meril hlaano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, okay. I, Meril Hlaano, withdraw the statements I made against House Redoran. There. I said it. Happy?",
+      "BNAM": "Journal HR_HlaanoSlanders 50",
+      "SCVR": null
+    },
+    "24947188951810428436": {
+      "flag": 0,
+      "PNAM": "343022925183914544",
+      "NNAM": "994280566571240",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "meril hlaano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't make me mad, %PCName, or I'll say what I think of you, too.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "994280566571240": {
+      "flag": 0,
+      "PNAM": "24947188951810428436",
+      "NNAM": "11620320892692418139",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "meril hlaano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Make me.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "11620320892692418139": {
+      "flag": 0,
+      "PNAM": "994280566571240",
+      "NNAM": "1635836611303026771",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The matter is closed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HlaanoSlanders",
+          "__TV": 100
+        }
+      ]
+    },
+    "1635836611303026771": {
+      "flag": 0,
+      "PNAM": "11620320892692418139",
+      "NNAM": "12197115281836728675",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By killing Meril Hlaano, you have certainly prevented him from continuing his slanders, but this action has cost House Redoran much honor. But I must not blame you as you are an outlander and you cannot understand such things.",
+      "BNAM": "Journal HR_HlaanoSlanders 100\r\nModDisposition -15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "meril hlaano",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HlaanoSlanders",
+          "__TV": 10
+        }
+      ]
+    },
+    "12197115281836728675": {
+      "flag": 0,
+      "PNAM": "1635836611303026771",
+      "NNAM": "155052801931297952",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Meril Hlaano has withdrawn his slanderous statements against our House. Please accept this shield as a reward.",
+      "BNAM": "Journal HR_HlaanoSlanders 100\r\nPlayer->AddItem \"holy_shield\" 1\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HlaanoSlanders",
+          "__TV": 50
+        }
+      ]
+    },
+    "155052801931297952": {
+      "flag": 0,
+      "PNAM": "12197115281836728675",
+      "NNAM": "2146310886277721543",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You can find Meril Hlaano at the Eight Plates in Balmora. Speak with him and make him withdraw the slander.",
+      "BNAM": "Journal HR_HlaanoSlanders 10",
+      "SCVR": null
+    },
+    "2146310886277721543": {
+      "flag": 0,
+      "PNAM": "155052801931297952",
+      "NNAM": "181328359263694524",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I *said* I withdrew my statements. What else do you want?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HonorChallenge",
+          "__TV": 80
+        }
+      ]
+    },
+    "181328359263694524": {
+      "flag": 0,
+      "PNAM": "2146310886277721543",
+      "NNAM": "12092319042069429268",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alright, we'll duel right here, right now. When you're ready, %PCName.",
+      "BNAM": "Journal HR_HonorChallenge 50\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "12092319042069429268": {
+      "flag": 0,
+      "PNAM": "181328359263694524",
+      "NNAM": "1937149461134930686",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So it's true what they say about Redorans and about Bolvyn Venim.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1937149461134930686": {
+      "flag": 0,
+      "PNAM": "12092319042069429268",
+      "NNAM": "1194632962615118789",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Slander? I told the truth about Bolvyn Venim. I guess you Redorans are too dumb to know what the truth is. If you want a duel over this, you got one.",
+      "BNAM": "Choice \"Challenge him to a duel.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HonorChallenge",
+          "__TV": 10
+        }
+      ]
+    },
+    "1194632962615118789": {
+      "flag": 0,
+      "PNAM": "1937149461134930686",
+      "NNAM": "950317873019828685",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have cost House Redoran honor by murdering Ondres Nerano, but we cannot change the past.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HonorChallenge",
+          "__TV": 200
+        }
+      ]
+    },
+    "950317873019828685": {
+      "flag": 0,
+      "PNAM": "1194632962615118789",
+      "NNAM": "21964327787444276",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "The honor of House Redoran has been defended.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HonorChallenge",
+          "__TV": 100
+        }
+      ]
+    },
+    "21964327787444276": {
+      "flag": 0,
+      "PNAM": "950317873019828685",
+      "NNAM": "11911311711573818698",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have murdered Ondres Nerano. You should have challenged him to a duel or provoked him. House Redoran will lose honor over this.",
+      "BNAM": "Journal HR_HonorChallenge 200\r\nModDisposition -20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "duelOndresNerano",
+          "__TV": 2
+        }
+      ]
+    },
+    "11911311711573818698": {
+      "flag": 0,
+      "PNAM": "21964327787444276",
+      "NNAM": "600369532483928811",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "You have defeated Ondres Nerano in a duel and defended the honor of your House.",
+      "BNAM": "Journal HR_HonorChallenge 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HonorChallenge",
+          "__TV": 70
+        }
+      ]
+    },
+    "600369532483928811": {
+      "flag": 0,
+      "PNAM": "11911311711573818698",
+      "NNAM": "312892593055916967",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "The slander is being spread by Ondres Nerano. Track him down, and demand that he withdraw his slander. If he refuses, challenge him to a duel, but do not shame House Redoran by murdering him.",
+      "BNAM": "Journal HR_HonorChallenge 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_ClearSarethi",
+          "__TV": 100
+        }
+      ]
+    },
+    "312892593055916967": {
+      "flag": 0,
+      "PNAM": "600369532483928811",
+      "NNAM": "5955146221090326843",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, but maybe you can join the Imperial Legion again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "5955146221090326843": {
+      "flag": 0,
+      "PNAM": "312892593055916967",
+      "NNAM": "878817419318133681",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already silenced Suryn Athones' slanders.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_FalseOrdinator",
+          "__TV": 100
+        }
+      ]
+    },
+    "878817419318133681": {
+      "flag": 0,
+      "PNAM": "5955146221090326843",
+      "NNAM": "181646371379631072",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've already killed Suryn Athones? How did you get involved with him? No, nevermind, clearly it's not important. Suryn has been silenced and that is that.",
+      "BNAM": "Journal IL_FalseOrdinator 100\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "suryn athones",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IL_FalseOrdinator",
+          "__TV": 0
+        }
+      ]
+    },
+    "181646371379631072": {
+      "flag": 0,
+      "PNAM": "878817419318133681",
+      "NNAM": "31271189752450227846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you found Suryn Athones and silenced him. Good. We want good relations with the Ordinators, but we can't tolerate slanders on our character.",
+      "BNAM": "Journal IL_FalseOrdinator 100\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "suryn athones",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_FalseOrdinator",
+          "__TV": 10
+        }
+      ]
+    },
+    "31271189752450227846": {
+      "flag": 0,
+      "PNAM": "181646371379631072",
+      "NNAM": "5177267951377612659",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The slanders are being spread by Suryn Athones, an Ordinator at the Justice Offices in Vivec. Find him and silence his lying mouth with blood.",
+      "BNAM": "Journal IL_FalseOrdinator 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_TraitorWarrior",
+          "__TV": 100
+        }
+      ]
+    },
+    "5177267951377612659": {
+      "flag": 0,
+      "PNAM": "31271189752450227846",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "suryn athones",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I spoke nothing but the truth. The Legion is just a mob of blunt-eared apes playing at being soldiers. Is it just your cowardice? Or the incompetence of your so-called Knights? Or is it just the way you smell?",
+      "BNAM": "ModDisposition -10",
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Breton",
+  "CNAM": "Thief Service",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_breton_f_head_04",
+  "KNAM": "b_n_breton_f_hair_05",
+  "MODL": null,
+  "FNAM": "Muriel Sette",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16480
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_04_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": -4,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": 30,
+      "name": "random gold"
+    },
+    {
+      "count": -4,
+      "name": "probe_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 71,
+    "magicka": 126,
+    "fatigue": 197,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 50,
+    "attributes": [44,63,56,62,68,35,50,40],
+    "skills": [6,6,6,6,6,6,6,6,23,6,6,11,11,16,16,16,11,6,47,47,47,47,47,32,10,32,32]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

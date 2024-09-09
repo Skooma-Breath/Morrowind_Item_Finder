@@ -1,0 +1,49 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Khajiit",
+  "CNAM": "Thief",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_m_head_02",
+  "KNAM": "b_n_khajiit_m_hair01",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Jo'Thri-Dar",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "health": 58,
+    "magicka": 22,
+    "fatigue": 177,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [35,45,42,48,57,52,44,40],
+    "skills": [5,5,5,5,5,5,5,5,23,5,5,5,5,5,5,5,5,5,40,40,50,40,40,20,20,20,24]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

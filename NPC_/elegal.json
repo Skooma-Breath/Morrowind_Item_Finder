@@ -1,0 +1,91 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "B_N_Wood Elf_M_Head_06",
+  "KNAM": "b_n_wood elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Elegal",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": -30,
+      "name": "steel arrow"
+    },
+    {
+      "count": -20,
+      "name": "silver arrow"
+    },
+    {
+      "count": -40,
+      "name": "iron arrow"
+    },
+    {
+      "count": -15,
+      "name": "silver dart"
+    },
+    {
+      "count": -15,
+      "name": "silver throwing star"
+    },
+    {
+      "count": -25,
+      "name": "iron throwing knife"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "almalexia's grace",
+    "divine intervention",
+    "soul trap",
+    "telekinesis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 89,
+    "magicka": 108,
+    "fatigue": 200,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [54,54,44,67,63,35,70,40],
+    "skills": [34,15,15,15,34,15,15,15,15,6,6,6,6,6,39,6,11,26,39,49,29,16,6,21,20,39,24]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

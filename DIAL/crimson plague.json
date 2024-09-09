@@ -1,0 +1,327 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "135513988223406533": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3027331034519626179",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I cannot thank you enough.  This city will never truly know what a service you have done it; you've prevented \r\r\na horrible outbreak that would have ended up affecting us all.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 170
+        }
+      ]
+    },
+    "3027331034519626179": {
+      "flag": 0,
+      "PNAM": "135513988223406533",
+      "NNAM": "14133195110784359",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "With Gedna Relvel dead, perhaps we've stemmed the tide of this outbreak, before it's spread too far. I'll have the guards on the lookout for any more rats; there shouldn't be many left now. Mournhold owes you quite a debt, %PCName, whether it knows it or not. I cannot offer you much in the way of payment, but I can grant you the power to heal. I hope you will not often find cause to use it.",
+      "BNAM": "player->addspell \"grace of almsivi\"\r\nJournal MS_CrimsonPlague 170",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 150
+        }
+      ]
+    },
+    "14133195110784359": {
+      "flag": 0,
+      "PNAM": "3027331034519626179",
+      "NNAM": "109143081214726421",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not sure I understand how Gedna Relvel can be the cause of this. I'll look into the matter. In the meantime, get down there and see what else you can find out.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 120
+        }
+      ]
+    },
+    "109143081214726421": {
+      "flag": 0,
+      "PNAM": "14133195110784359",
+      "NNAM": "144941240536816574",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Now that you've cured Shunari, perhaps she'll be willing to give you information to help us solve this puzzle.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 110
+        }
+      ]
+    },
+    "144941240536816574": {
+      "flag": 0,
+      "PNAM": "109143081214726421",
+      "NNAM": "225542643201918473",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm guessing Shunari knows something. Clearly she's come in to contact with the disease herself. You must help Shunari, %PCName, and then perhaps she'll give us some clue as to what's really behind all this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 105
+        }
+      ]
+    },
+    "225542643201918473": {
+      "flag": 0,
+      "PNAM": "144941240536816574",
+      "NNAM": "10691193312191525008",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Any information will be useful, regardless of the source. There must be an explanation for this sudden outbreak.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 80
+        }
+      ]
+    },
+    "10691193312191525008": {
+      "flag": 0,
+      "PNAM": "225542643201918473",
+      "NNAM": "44799280127697394",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'd look into this myself, but I need to remain here in case more victims come in for treatment. I imagine that reasoning is becoming all too familiar to you, yes? Perhaps you could check it out for me?  I'd start by checking the sewers and tombs beneath here, if I were you.  The rats seem to be coming from there, and up through the Temple's basement. It must be something they're coming into contact with...",
+      "BNAM": "Journal MS_CrimsonPlague 80",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "44799280127697394": {
+      "flag": 0,
+      "PNAM": "10691193312191525008",
+      "NNAM": "209603160625825850",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I had to do quite a bit of research to find any useful information.  It seems the disease was stamped out during the Second Age, but now it's re-surfaced.  I'm not sure how or why, but I know something must be done about it.  It spreads easily, and acts quickly.  Now that you're one of the few people aware of what's really going on, I'm going to enlist your help in learning more about this re-appearance of the Crimson Plague.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": null
+    },
+    "209603160625825850": {
+      "flag": 0,
+      "PNAM": "44799280127697394",
+      "NNAM": "1639197471620123637",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gedna Relvel is gone? Then perhaps others will not get sick from disease like Shunari. %PCName has done a good thing.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 150
+        }
+      ]
+    },
+    "1639197471620123637": {
+      "flag": 0,
+      "PNAM": "209603160625825850",
+      "NNAM": "19608107942459924839",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%PCName must kill Gedna Relvel, and make bad disease go away!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 120
+        }
+      ]
+    },
+    "19608107942459924839": {
+      "flag": 0,
+      "PNAM": "1639197471620123637",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bad disease it must be, for it makes poor Shunari feel weak, and hurts her poor head. But %PCName has made Shunari feel much better, so Shunari will not dwell on how %PCName allowed disease to spread by opening forbidden tomb. And now brave %PCName will go find and kill Gedna Relvel!",
+      "BNAM": "Journal MS_CrimsonPlague 120",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 110
+        }
+      ]
+    }
+  }
+}

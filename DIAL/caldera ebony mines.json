@@ -1,0 +1,482 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "697385751627413134": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2639124211311913208",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have my support, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_CalderaDisrupt",
+          "__TV": 100
+        }
+      ]
+    },
+    "2639124211311913208": {
+      "flag": 0,
+      "PNAM": "697385751627413134",
+      "NNAM": "406619611149120229",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Killing Odral Helvi and Stlennius Vibato will certainly shut down the ebony mines, but I wish you had chosen a more subtle route. There are political problems with... Well, with issues I am sure you do not need a lecture on. I will support you as a Councilman of House Redoran.",
+      "BNAM": "Journal HR_CalderaDisrupt 100\r\nModPCFacRep 10 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "odral helvi",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "stlennius vibato",
+          "__TV": 1
+        }
+      ]
+    },
+    "406619611149120229": {
+      "flag": 0,
+      "PNAM": "2639124211311913208",
+      "NNAM": "1506815143110037420",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, killing the head slave Dahleena will make the Hlaalu's mining more difficult. Good slaves are so hard to find these days... I expect the Hlaalu will not resume mining for at least a month. You have earned my support on the Council, and I want you to have these fine boots made from the blood of Red Mountain.",
+      "BNAM": "Journal HR_CalderaDisrupt 100\r\nModPCFacRep 10 \"Redoran\"\r\nModDisposition 20\r\nPlayer->AddItem Ebony_Boots 1\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dahleena",
+          "__TV": 1
+        }
+      ]
+    },
+    "1506815143110037420": {
+      "flag": 0,
+      "PNAM": "406619611149120229",
+      "NNAM": "3119125152216225678",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have freed the head slave Dahleena? Interesting choice. Good slaves are so hard to find these days... I expect the Hlaalu will not resume mining for at least a month. You have earned my support on the Council, and I want you to keep these fine boots made from the blood of Red Mountain.",
+      "BNAM": "Journal HR_CalderaDisrupt 100\r\nModPCFacRep 10 \"Redoran\"\r\nModDisposition 20\r\nPlayer->AddItem Ebony_Boots 1\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_CalderaDisrupt",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_CalderaCorrupt",
+          "__TV": 100
+        }
+      ]
+    },
+    "3119125152216225678": {
+      "flag": 0,
+      "PNAM": "1506815143110037420",
+      "NNAM": "240069588124013849",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As I said, find a way to halt the mining. The Empire has taken enough of Red Mountain's blood. The ebony belongs to the Dunmer.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_CalderaDisrupt",
+          "__TV": 10
+        }
+      ]
+    },
+    "240069588124013849": {
+      "flag": 0,
+      "PNAM": "3119125152216225678",
+      "NNAM": "2700957082518931132",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good, yes, very good. This book shows that the Hlaalu are taking more ebony than they report to the Empire. Now that I have this evidence, I want the Caldera mines shut down. Return there and find a way to halt the mining. If the Hlaalu complain to the Duke or the Empire, we can show them these books to justify our actions.",
+      "BNAM": "Journal HR_CalderaCorrupt 100\r\nJournal HR_CalderaDisrupt 10\r\nPlayer->RemoveItem \"bk_CalderaRecordBook2\" 1\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2700957082518931132": {
+      "flag": 0,
+      "PNAM": "240069588124013849",
+      "NNAM": "4314108323063113900",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What use is it to you? If you're thinking of bringing it to a guard, they'd probably put you in jail rather than go against the Empire and House Hlaalu.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "4314108323063113900": {
+      "flag": 0,
+      "PNAM": "2700957082518931132",
+      "NNAM": "1068221912308416567",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 5
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Ah, I see you found the evidence I was looking for.",
+      "BNAM": "Choice \"Give him the record book.\" 1 \"Keep the record book.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_CalderaRecordBook2",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_CalderaCorrupt",
+          "__TV": 10
+        }
+      ]
+    },
+    "1068221912308416567": {
+      "flag": 0,
+      "PNAM": "4314108323063113900",
+      "NNAM": "34119639678313906",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garisa llethri",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "First I want you to find evidence that there is corruption at the mines. Since the mines are run by the dishonorable House Hlaalu and the Empire, I am sure there is corruption. Do not take any other actions until you have delivered the evidence of corruption to me.",
+      "BNAM": "Journal HR_CalderaCorrupt 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Shurinbaal",
+          "__TV": 100
+        }
+      ]
+    },
+    "34119639678313906": {
+      "flag": 0,
+      "PNAM": "1068221912308416567",
+      "NNAM": "15839273953247718242",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Caldera Mine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name lives here. %Name works here.",
+      "BNAM": ";Caldera;",
+      "SCVR": null
+    },
+    "15839273953247718242": {
+      "flag": 0,
+      "PNAM": "34119639678313906",
+      "NNAM": "3614114532609917037",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Caldera Mine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome to the famous ebony mines of Caldera. What are you in for?",
+      "BNAM": ";Caldera;",
+      "SCVR": null
+    },
+    "3614114532609917037": {
+      "flag": 0,
+      "PNAM": "15839273953247718242",
+      "NNAM": "19815313942751812619",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "olumba gro-boglar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Caldera",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Caldera ebony mines are southwest of the village of Caldera. There's an office, a bunkhouse, and guard tower over near the mine entrance. They work the mines by slave labor. That would never be allowed back West, but here, in Morrowind, slavery is still legal. I think it is a disgrace. But who cares what I think? Head west from town, then swing around again south into the bowl of the mine through a gap in the ridge. Or head straight southwest over the ridge -- but it is too steep a climb for most.",
+      "BNAM": ";Caldera;",
+      "SCVR": null
+    },
+    "19815313942751812619": {
+      "flag": 0,
+      "PNAM": "3614114532609917037",
+      "NNAM": "1075292581314830",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Caldera",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Caldera ebony mines are southwest of the village of Caldera. Did you know slaves work the mines here? No, perhaps not. Nothing to see here in town. Nothing to offend the eye. What is not seen, does not offend, yes? But perhaps %Name should not speak about this in public. And who would listen, anyway? What is done matters, not what is said.",
+      "BNAM": ";Caldera;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "1075292581314830": {
+      "flag": 0,
+      "PNAM": "19815313942751812619",
+      "NNAM": "10287309621206803",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Argonian",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Caldera",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Caldera ebony mines are southwest of the village of Caldera. There's an office, a bunkhouse, and guard tower over near the mine entrance. They work the mines by slave labor. That would never be allowed back West, but here, in Morrowind, slavery is still legal. I think it is a disgrace. But who cares what I think?",
+      "BNAM": ";Caldera;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "10287309621206803": {
+      "flag": 0,
+      "PNAM": "1075292581314830",
+      "NNAM": "50642333173479357",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Caldera",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Caldera ebony mines are southwest of the village of Caldera. There's an office, a bunkhouse, and guard tower over near the mine entrance. If you're thinking of taking a look while you're here, head straight west from town, then swing around south into the bowl of the mine through a gap in the mountains. Otherwise, you can try climbing straight over the ridge -- but it is too steep a climb for most.",
+      "BNAM": ";Caldera;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "50642333173479357": {
+      "flag": 0,
+      "PNAM": "10287309621206803",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They're southwest of the town of Caldera, I believe. Check around when you're in Caldera. They'll give you better directions.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

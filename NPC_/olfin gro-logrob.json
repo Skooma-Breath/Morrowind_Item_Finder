@@ -1,0 +1,79 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Orc",
+  "CNAM": "Warrior",
+  "ANAM": "Fighters Guild",
+  "BNAM": "b_n_orc_m_head_03",
+  "KNAM": "b_n_orc_m_hair_04",
+  "MODL": null,
+  "FNAM": "Olfin gro-Logrob",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver claymore"
+    },
+    {
+      "count": 1,
+      "name": "iron_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "iron_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "imperial boots"
+    },
+    {
+      "count": 1,
+      "name": "iron_greaves"
+    },
+    {
+      "count": 1,
+      "name": "iron_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "iron_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "nordic_iron_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "nordic_iron_helm"
+    },
+    {
+      "count": 25,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

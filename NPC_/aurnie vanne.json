@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Breton",
+  "CNAM": "Monk Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_breton_f_head_02",
+  "KNAM": "b_n_breton_f_hair_04",
+  "MODL": null,
+  "FNAM": "Aurnie Vanne",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_h"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    },
+    {
+      "count": 10,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "balyna's antidote",
+    "cure poison",
+    "seryn's gift",
+    "rest of st. merris",
+    "great heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 78,
+    "magicka": 114,
+    "fatigue": 216,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [49,57,70,62,69,35,45,40],
+    "skills": [24,6,6,6,24,6,6,6,39,6,6,11,11,16,16,34,11,39,15,48,48,34,15,34,10,15,48]
+  },
+  "AI_": [
+    {
+      "distance": 30,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

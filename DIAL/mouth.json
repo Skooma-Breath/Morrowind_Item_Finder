@@ -1,0 +1,617 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "13505292251785214139": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2773691233123032421",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am your Mouth. Just tell me how you want me to vote in the Council or if you want me to do chores for you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 100
+        }
+      ]
+    },
+    "2773691233123032421": {
+      "flag": 0,
+      "PNAM": "13505292251785214139",
+      "NNAM": "30012123941681426245",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I said I'd be your Mouth, and I will.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 50
+        }
+      ]
+    },
+    "30012123941681426245": {
+      "flag": 0,
+      "PNAM": "2773691233123032421",
+      "NNAM": "1489528613257577600",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've waited for years to be someone's Mouth. I won't disappoint you. I'll go to the Council Hall right away. If you want me to do any chores for you, just let me know.",
+      "BNAM": "Journal HT_RecruitEddie 50\r\nPlayer->RemoveItem \"Silver Staff of Peace\" 1\r\nAddItem \"Silver Staff of Peace\" 1\r\nRaiseRank\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1489528613257577600": {
+      "flag": 0,
+      "PNAM": "30012123941681426245",
+      "NNAM": "1588528929105317599",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's okay. I've been waiting to be a Mouth for years.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1588528929105317599": {
+      "flag": 0,
+      "PNAM": "1489528613257577600",
+      "NNAM": "116874561303526186",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If I'm your Mouth, you'll be my patron. You'll need to give me a Silver Staff of Peace.",
+      "BNAM": "Choice \"Give him a Silver Staff of Peace.\" 1 \"Not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "silver staff of peace",
+          "__TV": 0
+        }
+      ]
+    },
+    "116874561303526186": {
+      "flag": 0,
+      "PNAM": "1588528929105317599",
+      "NNAM": "1902777671926311181",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If I'm your Mouth, you'll be my patron. You'll need to give me a Silver Staff of Peace.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1902777671926311181": {
+      "flag": 0,
+      "PNAM": "116874561303526186",
+      "NNAM": "32232176972854918728",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I've waited a few years. I can wait a few more.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "32232176972854918728": {
+      "flag": 0,
+      "PNAM": "1902777671926311181",
+      "NNAM": "5367212781752710133",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edd theman",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You want me to be your Mouth?",
+      "BNAM": "Choice \"Yes.\" 3 \"No.\" 4",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 10
+        }
+      ]
+    },
+    "5367212781752710133": {
+      "flag": 0,
+      "PNAM": "32232176972854918728",
+      "NNAM": "258695568698630613",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have a Mouth to be your voice in the Council.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 100
+        }
+      ]
+    },
+    "258695568698630613": {
+      "flag": 0,
+      "PNAM": "5367212781752710133",
+      "NNAM": "246161228433932280",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have found a Mouth to represent you on the Council. As your protege, Fast Eddie will do chores for you. I am pleased to see my own protege rise so quickly to the rank of %NextPCRank in House Telvanni. Please accept this glove. It was one of my first successful enchantments.",
+      "BNAM": "Journal HT_RecruitEddie 100\r\nPlayer->AddItem AryonGloveRight 1\r\nModPCFacRep 5 \"Telvanni\"\r\nPCRaiseRank \"Telvanni\"\r\nModDisposition 15\r\n\"Edd Theman\"->PositionCell -305 -295 360 50 \"Sadrith Mora, Telvanni Council House\"\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 50
+        }
+      ]
+    },
+    "246161228433932280": {
+      "flag": 0,
+      "PNAM": "258695568698630613",
+      "NNAM": "110911103735626668",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 5
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "I have heard of a promising Telvanni in Balmora who might agree to be your Mouth, but I do not know more than this. Ask the other Telvanni if they know of someone who would agree to be your Mouth.",
+      "BNAM": "Journal HT_RecruitEddie 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_Shishi",
+          "__TV": 100
+        }
+      ]
+    },
+    "110911103735626668": {
+      "flag": 0,
+      "PNAM": "246161228433932280",
+      "NNAM": "136435496179877345",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "While other Councilors would insist that you stay in the Telvanni Council Hall day and night awaiting my decisions, I understand the insignificance of the daily business of the Council.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "136435496179877345": {
+      "flag": 0,
+      "PNAM": "110911103735626668",
+      "NNAM": "1163919051684115261",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Each Mouth represents his or her patron, who is one of the older and more respected members of the Council. The Mouths receive messengers from their patrons and cast their patron's votes in the Council.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1163919051684115261": {
+      "flag": 0,
+      "PNAM": "136435496179877345",
+      "NNAM": "22066205071817629754",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "enar releth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "If you are looking for a mouth of your own, you might ask Fast Eddie in Balmora.",
+      "BNAM": "Journal HT_RecruitEddie 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 100
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 10
+        }
+      ]
+    },
+    "22066205071817629754": {
+      "flag": 0,
+      "PNAM": "1163919051684115261",
+      "NNAM": "261354555601414922",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is a Telvanni in Balmora who is ready for the rank of Mouth, but the other Councilors believe that he is not trustworthy. His calls himself Fast Eddie.",
+      "BNAM": "Journal HT_RecruitEddie 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 100
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 10
+        }
+      ]
+    },
+    "261354555601414922": {
+      "flag": 0,
+      "PNAM": "22066205071817629754",
+      "NNAM": "6094141332621129897",
+      "DATA": {
+        "value": 0,
+        "rank": 5,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora, Telvanni Council House",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am not a Mouth for anyone. I oversee the construction of strongholds and bases for House Telvanni. If you have business with House Telvanni, speak with one of the Mouths in the Telvanni Council House.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "6094141332621129897": {
+      "flag": 0,
+      "PNAM": "261354555601414922",
+      "NNAM": "2842226587811411462",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora, Telvanni Council House",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am a Mouth in House Telvanni. I speak the words of my patron here in the Telvanni Council",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2842226587811411462": {
+      "flag": 0,
+      "PNAM": "6094141332621129897",
+      "NNAM": "573921062895019982",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora, Telvanni Council House",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Telvanni Mouths are in the main Council House.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "573921062895019982": {
+      "flag": 0,
+      "PNAM": "2842226587811411462",
+      "NNAM": "1341256932533132561",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mouth? What about your mouth?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 100
+        }
+      ]
+    },
+    "1341256932533132561": {
+      "flag": 0,
+      "PNAM": "573921062895019982",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Isn't Fast Eddie near that rank?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

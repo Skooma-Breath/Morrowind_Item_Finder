@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_21",
+  "MODL": null,
+  "FNAM": "Rathal Barus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 1024
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    }
+  ],
+  "NPCS": [
+    "demoralize beast",
+    "rally beast",
+    "demoralize creature",
+    "demoralize humanoid",
+    "rally creature",
+    "rally humanoid",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "almalexia's grace",
+    "divine intervention",
+    "mark",
+    "recall",
+    "telekinesis",
+    "detect_creature"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 88,
+    "magicka": 106,
+    "fatigue": 206,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 100,
+    "attributes": [60,53,43,58,61,45,48,40],
+    "skills": [27,10,10,10,27,15,10,10,15,6,16,6,6,6,43,6,6,30,38,38,6,5,16,11,15,38,23]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

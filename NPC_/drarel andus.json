@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Thief",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Drarel Andus",
+  "SCRI": "drarelAndusScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 100,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel sparkblade"
+    },
+    {
+      "count": 1,
+      "name": "thief_ring"
+    },
+    {
+      "count": 1,
+      "name": "third barrier belt"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "disposition": 0,
+    "reputation": 12,
+    "rank": 5,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,10,0,0]
+    }
+  ]
+}

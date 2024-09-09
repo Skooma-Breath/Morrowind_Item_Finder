@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Daedroth.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 12,
+    "attributes": [75,75,80,75,14,75,50,50],
+    "health": 200,
+    "magicka": 195,
+    "fatigue": 600,
+    "soul_strength": 195,
+    "combat_skill": 75,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [12,36],
+      [12,36],
+      [12,36]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "daedroth",
+  "FNAM": "Daedroth",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_daedra_heart"
+    }
+  ],
+  "NPCS": [
+    "regenerate",
+    "third barrier",
+    "poisonbloom",
+    "shockbloom",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,20,50,0,0,0,0,0]
+    }
+  ]
+}

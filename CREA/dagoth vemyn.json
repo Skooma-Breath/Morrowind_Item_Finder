@@ -1,0 +1,66 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AshVampire.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 3,
+    "level": 30,
+    "attributes": [100,60,80,80,4,100,80,80],
+    "health": 300,
+    "magicka": 360,
+    "fatigue": 900,
+    "soul_strength": 360,
+    "combat_skill": 100,
+    "magic_skill": 80,
+    "stealth_skill": 80,
+    "attacks": [
+      [9,20],
+      [20,50],
+      [15,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "dagoth endus",
+  "FNAM": "Dagoth Vemyn",
+  "SCRI": "ashvampire",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "sunder"
+    },
+    {
+      "count": 1,
+      "name": "artifact_amulet of heartheal"
+    },
+    {
+      "count": 1,
+      "name": "amulet of 6th house"
+    },
+    {
+      "count": 1,
+      "name": "ingred_ash_salts_01"
+    }
+  ],
+  "NPCS": [
+    "hand of vemyn",
+    "wrath of vemyn"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

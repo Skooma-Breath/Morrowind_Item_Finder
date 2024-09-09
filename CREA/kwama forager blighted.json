@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Kwama Forager.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 6,
+    "attributes": [50,50,20,50,5,50,50,50],
+    "health": 45,
+    "magicka": 100,
+    "fatigue": 400,
+    "soul_strength": 15,
+    "combat_skill": 70,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [6,18],
+      [6,18],
+      [6,18]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 85,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "kwama forager",
+  "FNAM": "Kwama Forager",
+  "SCRI": "diseaseAshChancre",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "random_kwama_cuttle"
+    }
+  ],
+  "NPCS": [
+    "ash-chancre"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,30,30,0,0,0,0,0]
+    }
+  ]
+}

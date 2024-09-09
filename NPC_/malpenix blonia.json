@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Trader Service",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_02",
+  "MODL": null,
+  "FNAM": "Malpenix Blonia",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "key_malpenixblonia_01"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "divine intervention",
+    "soul trap",
+    "telekinesis",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 112,
+    "magicka": 116,
+    "fatigue": 214,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 899,
+    "attributes": [68,58,48,51,55,47,84,40],
+    "skills": [36,17,17,17,42,27,17,17,17,6,6,6,6,6,41,6,6,26,41,41,26,11,6,6,10,51,31]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,10,0,0,0]
+    }
+  ]
+}

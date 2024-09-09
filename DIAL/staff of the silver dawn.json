@@ -1,0 +1,425 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3014221814844930858": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14900108892200726968",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arielle phiencel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I no longer have a Staff of the Silver Dawn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SilverDawn",
+          "__TV": 100
+        }
+      ]
+    },
+    "14900108892200726968": {
+      "flag": 0,
+      "PNAM": "3014221814844930858",
+      "NNAM": "2269785181847612796",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arielle phiencel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I already sold you the Staff of the Silver Dawn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SilverDawn",
+          "__TV": 50
+        }
+      ]
+    },
+    "2269785181847612796": {
+      "flag": 0,
+      "PNAM": "14900108892200726968",
+      "NNAM": "53243859633031386",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arielle phiencel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here. Take it. Come see me if you're ever looking for another enchanted item.",
+      "BNAM": "Journal HT_SilverDawn 50\r\nPlayer->RemoveItem Gold_001 300\r\nAddItem Gold_001 300\r\nPlayer->AddItem \"silver_staff_dawn_uniq\" 1\r\nRemoveItem \"silver_staff_dawn_uniq\" 1\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 300
+        }
+      ]
+    },
+    "53243859633031386": {
+      "flag": 0,
+      "PNAM": "2269785181847612796",
+      "NNAM": "2721111286380525163",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arielle phiencel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry, but you do not have 300 drakes.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2721111286380525163": {
+      "flag": 0,
+      "PNAM": "53243859633031386",
+      "NNAM": "22122235832069916495",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arielle phiencel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, your loss. I'm sure it's worth more than that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "22122235832069916495": {
+      "flag": 0,
+      "PNAM": "2721111286380525163",
+      "NNAM": "1053881362062210014",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arielle phiencel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I have a Staff of the Silver Dawn. I don't use it very often. I prefer daggers, myself. I'll sell it to you for 300 drakes.",
+      "BNAM": "Choice \"Give her 300 drakes.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 300
+        }
+      ]
+    },
+    "1053881362062210014": {
+      "flag": 0,
+      "PNAM": "22122235832069916495",
+      "NNAM": "26865306851011112403",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. I hope Master Neloth will be pleased with it. I have this old dagger I no longer use. And I can teach you to blind your enemies as the staff does.",
+      "BNAM": "Journal HT_SilverDawn 100\r\nPlayer->RemoveItem \"silver_staff_dawn_uniq\" 1\r\nPlayer->AddItem \"Glass Jinkblade\" 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 10\r\nChoice \"Teach me to blind my enemies.\" 3 \"Nevermind.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "26865306851011112403": {
+      "flag": 0,
+      "PNAM": "1053881362062210014",
+      "NNAM": "1343019900777228544",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Master Neloth will want the Staff of the Silver Dawn soon, %PCName. You should give it to me before Master Neloth becomes less cooperative.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1343019900777228544": {
+      "flag": 0,
+      "PNAM": "26865306851011112403",
+      "NNAM": "14609166082516018278",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, of course. [Arara teaches you to blind your enemies.] Now, if you'll excuse me...",
+      "BNAM": "Player->AddSpell \"Blind\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "14609166082516018278": {
+      "flag": 0,
+      "PNAM": "1343019900777228544",
+      "NNAM": "2078644499423237",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. If you want more chores, speak with the other Mouths.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2078644499423237": {
+      "flag": 0,
+      "PNAM": "14609166082516018278",
+      "NNAM": "2350369409077802",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already gave me the Staff of the Silver Dawn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SilverDawn",
+          "__TV": 100
+        }
+      ]
+    },
+    "2350369409077802": {
+      "flag": 0,
+      "PNAM": "2078644499423237",
+      "NNAM": "2924124023160222167",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Is that the Staff of the Silver Dawn?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "silver_staff_dawn_uniq",
+          "__TV": 0
+        }
+      ]
+    },
+    "2924124023160222167": {
+      "flag": 0,
+      "PNAM": "2350369409077802",
+      "NNAM": "980825976575721993",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "I believe someone in the Mages Guild here is Sadrith Mora has this staff. Master Neloth wants the staff, and I cannot leave my duties here long enough to fetch it for him. Go to Wolverine Hall, get the staff, and bring it back to me.",
+      "BNAM": "Journal HT_SilverDawn 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SloadSoap",
+          "__TV": 100
+        }
+      ]
+    },
+    "980825976575721993": {
+      "flag": 0,
+      "PNAM": "2924124023160222167",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": "Sadrith Mora, Wolverine Hall: Mage's Guild",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, Arielle has a staff like that.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

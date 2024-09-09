@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 231,
+    "local_var_size": 20
+  },
+  "SCTX": "Begin PlagueRock3\r\n\r\nshort doonce\r\nfloat timer\r\nshort active\r\n\r\n\r\nif ( GetJournalIndex MS_CrimsonPlague >= 130 )\r\n\tif ( MenuMode != 1 )\r\n\t\tif ( doonce == 0 )\r\n\t\t\tif ( GetStandingPC == 1 )\r\n\t\t\t\tset active to 1\r\n\t\t\t\tset doonce to 1\r\n\t\t\t\tset timer to 0\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nIf ( active == 1 )\r\n\t\r\n\r\n\tif ( timer < 3 )\r\n\t\tmove z, -10\r\n\t\tset timer to ( timer + GetSecondsPassed )\r\n\telse\t\t\r\n\t\tset active to 2\r\n\t\tSetPos Z, -620\r\n\t\tset PlagueRock to 1\r\n\t\tPlaySound3D \"Disarm Trap\"\r\n\t\tJournal MS_CrimsonPlague 140\r\n\tendif\r\nendif\r\nEnd PlagueRock3",
+  "SCVR": [
+    "doonce",
+    "active",
+    "timer"
+  ],
+  "SCDT": [6,1,9,30,32,88,205,16,32,100,16,77,83,95,67,114,105,109,115,111,110,80,108,97,103,117,101,32,62,61,32,49,51,48,6,1,7,9,32,88,32,16,32,33,61,32,49,6,1,5,9,32,115,1,0,32,61,61,32,48,6,1,3,9,32,88,19,17,32,61,61,32,49,5,1,115,2,0,2,32,49,5,1,115,1,0,2,32,49,5,1,102,1,0,2,32,48,9,1,9,1,9,1,9,1,6,1,10,9,32,115,2,0,32,61,61,32,49,6,1,2,8,32,102,1,0,32,60,32,51,6,16,90,0,0,32,193,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,7,1,5,5,1,115,2,0,2,32,50,11,16,90,0,0,27,196,5,1,71,10,80,108,97,103,117,101,82,111,99,107,2,32,49,44,17,11,68,105,115,97,114,109,32,84,114,97,112,204,16,16,77,83,95,67,114,105,109,115,111,110,80,108,97,103,117,101,140,0,255,255,9,1,9,1,1,1]
+}

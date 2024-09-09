@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 29,
+  "RNAM": "Argonian",
+  "CNAM": "Hunter",
+  "ANAM": "",
+  "BNAM": "B_V_Argonian_F_Head_01",
+  "KNAM": "b_n_argonian_f_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Vampire",
+  "SCRI": "Vampire_Quarra",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron tanto"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "random gold_lev_05"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

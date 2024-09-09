@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mage Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_02",
+  "MODL": null,
+  "FNAM": "Uleni Heleran",
+  "SCRI": "UleniDead",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 34816
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_a"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 30,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "feather",
+    "second barrier",
+    "third barrier",
+    "vivec's kiss",
+    "water walking",
+    "fire barrier",
+    "frost barrier",
+    "shock barrier",
+    "summon greater bonewalker",
+    "summon skeletal minion",
+    "summon frost atronach",
+    "drain blood",
+    "sleep",
+    "frenzying touch",
+    "frenzy beast"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 58,
+    "magicka": 120,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [46,60,64,45,58,34,48,40],
+    "skills": [6,6,6,6,6,11,6,6,11,29,54,44,44,45,49,44,29,29,6,6,6,11,31,11,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

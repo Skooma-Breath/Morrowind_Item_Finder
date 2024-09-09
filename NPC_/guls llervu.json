@@ -1,0 +1,98 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest Service",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_13",
+  "MODL": null,
+  "FNAM": "Guls Llervu",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_r"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scuttle_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scathecraw_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_saltrice_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_resin_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kagouti_hide_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_corkbulb_root_01"
+    }
+  ],
+  "NPCS": [
+    "panacea",
+    "vivec's feast",
+    "vivec's mercy",
+    "vivec's tears",
+    "veloth's grace",
+    "rilm's cure",
+    "seryn's gift",
+    "almsivi intervention",
+    "mark",
+    "recall",
+    "almalexia's grace",
+    "rallying touch",
+    "charisma",
+    "nimbleness",
+    "fortitude",
+    "Troll Strength",
+    "Quicksilver",
+    "divine aid",
+    "blood gift",
+    "powerwell"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 77,
+    "magicka": 106,
+    "fatigue": 223,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [56,53,72,50,64,45,48,40],
+    "skills": [6,6,6,6,39,11,6,6,11,15,44,48,15,34,54,48,34,48,6,6,6,29,16,11,10,24,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "82066228252682449": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "5038160252747222583",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llovyn andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Now, why did you have to go and do a thing like that? When did Corky ever hurt you?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "guar_llovyn_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "5038160252747222583": {
+      "flag": 0,
+      "PNAM": "82066228252682449",
+      "NNAM": "6866171142138823382",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llovyn andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He's your now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "corkyFollow",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_RentCollector",
+          "__TV": 10
+        }
+      ]
+    },
+    "6866171142138823382": {
+      "flag": 0,
+      "PNAM": "5038160252747222583",
+      "NNAM": "72333715197826989",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llovyn andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Corky? Sure. Hey, Corky! This %PCRace here is your new owner! Say hello, Corky!",
+      "BNAM": "\"guar_llovyn_unique\"->AiFollow Player 0 0 0 0 0\r\nSet corkyFollow to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "guar_llovyn_unique",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_RentCollector",
+          "__TV": 10
+        }
+      ]
+    },
+    "72333715197826989": {
+      "flag": 0,
+      "PNAM": "6866171142138823382",
+      "NNAM": "1152220974292963699",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gudling the rascal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The guar is the dominant domesticated herd animal of Morrowind, useful as a pack animal and for its meat and hides.",
+      "BNAM": ";hunter",
+      "SCVR": null
+    },
+    "1152220974292963699": {
+      "flag": 0,
+      "PNAM": "72333715197826989",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Briring",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The guar is the dominant domesticated herd animal of Morrowind, useful as a pack animal and for its meat and hides.",
+      "BNAM": ";barbarian",
+      "SCVR": null
+    }
+  }
+}

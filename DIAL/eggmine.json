@@ -1,0 +1,704 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "283462747889115515": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "858424895866212212",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, but maybe you can join the Imperial Legion again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "858424895866212212": {
+      "flag": 0,
+      "PNAM": "283462747889115515",
+      "NNAM": "315361691150317028",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The kwama queen is dead, and there's nothing you can do about it now. Sometimes a kwama colony can recover from losing its queen, and sometimes not. We'll have to wait and see.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "kwama queen_gnisis",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 100
+        }
+      ]
+    },
+    "315361691150317028": {
+      "flag": 0,
+      "PNAM": "858424895866212212",
+      "NNAM": "2921118939086233",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The kwama queen has been cured. Now some of the miners can return to work.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 100
+        }
+      ]
+    },
+    "2921118939086233": {
+      "flag": 0,
+      "PNAM": "315361691150317028",
+      "NNAM": "30851325871572318753",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The kwama queen is dead? Usually they don't die from the Blight so quickly. What will the town do now?",
+      "BNAM": "Journal IL_GnisisBlight 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "kwama queen_gnisis",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 0
+        }
+      ]
+    },
+    "30851325871572318753": {
+      "flag": 0,
+      "PNAM": "2921118939086233",
+      "NNAM": "7303132632473122520",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You killed the kwama queen? Why did you do that? This is an egg-mining town. It was the only industry here. What a typical Gnisis mess this is.",
+      "BNAM": "ModDisposition -20\r\nJournal IL_GnisisBlight 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "kwama queen_gnisis",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 0
+        }
+      ]
+    },
+    "7303132632473122520": {
+      "flag": 0,
+      "PNAM": "30851325871572318753",
+      "NNAM": "182467701648219357",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Now the miners can go back to work. We'll still have to put guards in the lower parts of the eggmine, but at least the villagers can get their eggs. Take these 100 drakes as a reward.",
+      "BNAM": "Journal IL_GnisisBlight 100\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10\r\nplayer->additem, gold_001, 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 50
+        }
+      ]
+    },
+    "182467701648219357": {
+      "flag": 0,
+      "PNAM": "7303132632473122520",
+      "NNAM": "319172085131721040",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not sure I believe you. You better go back down in the mines and make sure.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "319172085131721040": {
+      "flag": 0,
+      "PNAM": "182467701648219357",
+      "NNAM": "2274233642686924931",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, what are you waiting for? You have your orders.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2274233642686924931": {
+      "flag": 0,
+      "PNAM": "319172085131721040",
+      "NNAM": "2157213177221565784",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So has the kwama queen been cured?",
+      "BNAM": "Choice \"Yes, sir.\" 1 \"No, sir.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 10
+        }
+      ]
+    },
+    "2157213177221565784": {
+      "flag": 0,
+      "PNAM": "2274233642686924931",
+      "NNAM": "84148041264816424",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The eggmine was closed recently because of the risk of spreading the blight, but the miners here need the eggmine to support their families. Find the blighted kwama queen and cure her. Either cast a cure blight spell on her, or speak with Hetman Abelmawia who has scrolls of cure blight.",
+      "BNAM": "Journal IL_GnisisBlight 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_WidowLand",
+          "__TV": 100
+        }
+      ]
+    },
+    "84148041264816424": {
+      "flag": 0,
+      "PNAM": "2157213177221565784",
+      "NNAM": "242357371371129",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vatollia apo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I already gave you the key, now get lost before they see us talking.",
+      "BNAM": "moddisposition -1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "state",
+          "__TV": 1
+        }
+      ]
+    },
+    "242357371371129": {
+      "flag": 0,
+      "PNAM": "84148041264816424",
+      "NNAM": "100731452942808465",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vatollia apo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, you have a miner's pick. I'll let you in so you can work. They're still working on the north side I think. Anyway, here's the key.",
+      "BNAM": "player->additem, \"key_gnisis_eggmine\", 1\r\nremoveitem, \"key_gnisis_eggmine\", 1\r\nset state to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "state",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "miner's pick",
+          "__TV": 1
+        }
+      ]
+    },
+    "100731452942808465": {
+      "flag": 0,
+      "PNAM": "242357371371129",
+      "NNAM": "1726018107211329572",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vatollia apo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "Since you're in the Legion, here's the key. Be careful.",
+      "BNAM": "player->additem, \"key_gnisis_eggmine\", 1\r\nremoveitem, \"key_gnisis_eggmine\", 1\r\nset state to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "state",
+          "__TV": 0
+        }
+      ]
+    },
+    "1726018107211329572": {
+      "flag": 0,
+      "PNAM": "100731452942808465",
+      "NNAM": "2798112707103412868",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vatollia apo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not supposed to let anyone in. But, you're not so bad. Here, take the key, but don't tell Darius I gave it to you.",
+      "BNAM": "player->additem, \"key_gnisis_eggmine\", 1\r\nremoveitem, \"key_gnisis_eggmine\", 1\r\nset state to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "state",
+          "__TV": 0
+        }
+      ]
+    },
+    "2798112707103412868": {
+      "flag": 0,
+      "PNAM": "1726018107211329572",
+      "NNAM": "2164817197323514562",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vatollia apo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's locked and yes, I have the key. If I liked you more, maybe I'd let you in.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2164817197323514562": {
+      "flag": 0,
+      "PNAM": "2798112707103412868",
+      "NNAM": "22309283892847315000",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vatollia apo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's locked. Yes, I have the key. No you can't have it. I don't care who you are. Darius says no one goes in but the workers.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "22309283892847315000": {
+      "flag": 0,
+      "PNAM": "2164817197323514562",
+      "NNAM": "2640017668176376199",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hey, you're the one who cured the Queen, right? The entire town is thankful.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2640017668176376199": {
+      "flag": 0,
+      "PNAM": "22309283892847315000",
+      "NNAM": "86935143102841393",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hey, you're the one who cured the Queen, right? The entire town is thankful.",
+      "BNAM": "moddisposition 10\r\n;only get this disp raise below 60",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "86935143102841393": {
+      "flag": 0,
+      "PNAM": "2640017668176376199",
+      "NNAM": "445429046262157992",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis, Underground Stream",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's above this cavern.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "445429046262157992": {
+      "flag": 0,
+      "PNAM": "86935143102841393",
+      "NNAM": "2200024487283532241",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis, Lower Eggmine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you're in the lower part of it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2200024487283532241": {
+      "flag": 0,
+      "PNAM": "445429046262157992",
+      "NNAM": "37997802202538316",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis, Eggmine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's where you are.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "37997802202538316": {
+      "flag": 0,
+      "PNAM": "2200024487283532241",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's up on the hill, on the east side of town. Careful in there, the kwama queen has been blighted. They're only letting miners in.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Barbarian",
+  "ANAM": "",
+  "BNAM": "b_n_nord_m_head_03",
+  "KNAM": "b_n_nord_m_hair04",
+  "MODL": null,
+  "FNAM": "Botrir",
+  "SCRI": "botrirScript",
+  "AIDT": {
+    "greet": 70,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "fur_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "fur_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "fur_boots"
+    }
+  ],
+  "NPCS": [
+    "hearth heal",
+    "free action",
+    "balyna's antidote",
+    "cure poison",
+    "seryn's gift",
+    "resist fire",
+    "resist cold",
+    "resist common disease",
+    "resist frost",
+    "resist magicka",
+    "rest of st. merris",
+    "great heal companion",
+    "troll's blood",
+    "veloth's grace",
+    "restore strength"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 112,
+    "magicka": 76,
+    "fatigue": 249,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [92,38,51,62,56,44,56,40],
+    "skills": [45,30,55,16,55,16,70,16,45,6,6,6,6,6,6,25,6,40,6,6,25,25,6,25,6,6,45]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 9,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 408,
+    "local_var_size": 74
+  },
+  "SCTX": "begin BILL_synette_jeline\r\n; if player is spotted, then give muscle the high-sign to take position\r\n; if player takes bait, then attack\r\n\r\n; script location: should be placed on \"synette jeline\" (NPC)\r\n\r\nshort testDist\r\nshort testLOS\r\nshort doneHighSign\r\nshort testBait\r\nshort doneBait\r\nshort OnPCHitMe\r\n\r\nshort bow\r\nshort blade\r\nshort count\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\n; *********** AI augmentation **********\r\n;if ( count == 0 )\r\n;\tset testDist to GetDistance, Player\r\n;\tif ( testDist < 400 )\r\n;\t\t; melee distance\r\n;\t\tSetMarksman, 55\r\n;\t\tSetShortblade, 60 \r\n;\tendif\r\n;\tif ( testDist > 400 )\r\n;\t\t; missile distance\r\n;\t\tSetMarksman, 60\r\n;\t\tSetShortblade, 55\r\n;\tendif\r\n;endif \r\n;set count to ( count + 1 )\r\n;if ( count > 3 )\r\n;\tset count to 0\r\n;endif\r\n; *********** AI augmentation **********\r\n\r\nif ( doneHighSign == 1 )\r\n\t;set testDist to ( GetDistance, player )\r\n\t;if ( testDist < 1200 )\r\n\t\t; if within sighting distance\r\n\t\t\t; set  testLOS to ( GetLOS, player )\r\n\t\t\t; if ( testLOS == 1 )\r\n\t\t\t\t; and if she spots the player\r\n\t\t\t\t\"tavynu tedran\"->AITravel, -95568.648, 113477.344, 548.457, 0\r\n\t\t\t\tset doneHighSign to 2\r\n\t\t\t; endif\r\n\t\tendif\r\nendif\r\n\r\nif ( doneBait == 0 )\r\n\t;set testBait to \"expensive_ring_01_BILL\"->GetDistance, player\r\n\t\t;if ( testBait < 200 )\r\n\t\tif ( player->GetItemCount \"expensive_ring_01_BILL\" > 0 )\r\n\t\t\tPlayer->Say \"Vo\\Misc\\bill_nogooddeed.wav\", \"No good deed goes unpunished, Outlander.\"\r\n     \t\tStartCombat player\r\n\t\t\tSetFight 100\r\n     \t\t\"tavynu tedran\"->StartCombat Player\r\n\t\t\t\"tavynu tedran\"->SetFight 100\r\n     \t\tset doneBait to 1\r\n\t\tendif\r\nendif\r\n\r\nif ( doneBait == 1 )\r\n\tif ( doneHighSign == 2 )\r\n\t\tif ( GetJournalIndex MV_LostRing >= 20 )\r\n\t\t\tif ( OnPCHitMe == 1 )\r\n\t\t\t\tJournal MV_LostRing 40\r\n\t\t\t\tset doneBait to -1\r\n\t\t\t\tset doneHighSign to -1\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nend BILL_synette_jeline",
+  "SCVR": [
+    "testDist",
+    "testLOS",
+    "doneHighSign",
+    "testBait",
+    "doneBait",
+    "OnPCHitMe",
+    "bow",
+    "blade",
+    "count"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,2,9,32,115,3,0,32,61,61,32,49,12,1,13,116,97,118,121,110,117,32,116,101,100,114,97,110,248,16,83,168,186,199,172,162,221,71,63,29,9,68,1,5,1,115,3,0,2,32,50,9,1,9,1,6,1,8,9,32,115,5,0,32,61,61,32,48,12,1,6,112,108,97,121,101,114,6,1,6,33,32,88,253,16,32,111,22,101,120,112,101,110,115,105,118,101,95,114,105,110,103,95,48,49,95,66,73,76,76,32,62,32,48,12,1,6,112,108,97,121,101,114,27,17,27,86,111,92,77,105,115,99,92,98,105,108,108,95,110,111,103,111,111,100,100,101,101,100,46,119,97,118,40,0,78,111,32,103,111,111,100,32,100,101,101,100,32,103,111,101,115,32,117,110,112,117,110,105,115,104,101,100,44,32,79,117,116,108,97,110,100,101,114,46,25,16,6,112,108,97,121,101,114,0,17,0,0,200,66,12,1,13,116,97,118,121,110,117,32,116,101,100,114,97,110,25,16,6,80,108,97,121,101,114,12,1,13,116,97,118,121,110,117,32,116,101,100,114,97,110,0,17,0,0,200,66,5,1,115,5,0,2,32,49,9,1,9,1,6,1,9,9,32,115,5,0,32,61,61,32,49,6,1,7,9,32,115,3,0,32,61,61,32,50,6,1,5,24,32,88,205,16,32,100,11,77,86,95,76,111,115,116,82,105,110,103,32,62,61,32,50,48,6,1,3,9,32,115,6,0,32,61,61,32,49,204,16,11,77,86,95,76,111,115,116,82,105,110,103,40,0,255,255,5,1,115,5,0,7,32,45,49,32,49,32,42,5,1,115,3,0,7,32,45,49,32,49,32,42,9,1,9,1,9,1,9,1,1,1]
+}

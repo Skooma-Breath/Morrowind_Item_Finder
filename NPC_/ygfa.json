@@ -1,0 +1,108 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Healer Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_nord_f_head_04",
+  "KNAM": "b_n_nord_f_hair_05",
+  "MODL": null,
+  "FNAM": "Ygfa",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ash_yam_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bittergreen_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_chokeweed_01"
+    },
+    {
+      "count": -4,
+      "name": "ingred_guar_hide_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_health_c"
+    },
+    {
+      "count": -1,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": -1,
+      "name": "p_cure_paralyzation_s"
+    },
+    {
+      "count": -1,
+      "name": "p_cure_poison_s"
+    },
+    {
+      "count": -1,
+      "name": "p_cure_blight_s"
+    }
+  ],
+  "NPCS": [
+    "flameguard",
+    "frostguard",
+    "shockguard",
+    "poisonguard",
+    "balyna's antidote",
+    "balyna's efficacious balm",
+    "blessed touch",
+    "restore endurance",
+    "restore intelligence",
+    "restore luck",
+    "restore speed",
+    "restore strength",
+    "righteousness",
+    "rilm's cure"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 69,
+    "magicka": 74,
+    "fatigue": 218,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 175,
+    "attributes": [58,37,79,37,51,44,50,40],
+    "skills": [6,6,16,11,31,11,16,11,6,14,14,44,29,14,44,44,29,29,6,6,6,21,6,6,10,36,36]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

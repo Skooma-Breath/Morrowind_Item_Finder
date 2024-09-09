@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Daedroth.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 20,
+    "attributes": [50,50,50,50,14,50,50,50],
+    "health": 350,
+    "magicka": 250,
+    "fatigue": 500,
+    "soul_strength": 350,
+    "combat_skill": 75,
+    "magic_skill": 95,
+    "stealth_skill": 50,
+    "attacks": [
+      [20,50],
+      [20,50],
+      [20,50]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "daedroth",
+  "FNAM": "Menta Na",
+  "SCRI": "mentanaScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_daedra_heart"
+    },
+    {
+      "count": 1,
+      "name": "random_daedra_skin"
+    },
+    {
+      "count": 1,
+      "name": "random_daedric_weapon"
+    },
+    {
+      "count": 1,
+      "name": "l_m_rings"
+    }
+  ],
+  "NPCS": [
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,20,50,0,0,0,0,0]
+    }
+  ]
+}

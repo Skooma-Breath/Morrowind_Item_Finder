@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Khajiit",
+  "CNAM": "Monk Service",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_khajiit_f_head_02",
+  "KNAM": "b_n_khajiit_f_hair03",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ahnassi",
+  "SCRI": "ahnassiScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_03"
+    },
+    {
+      "count": 30,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 106,
+    "magicka": 23,
+    "fatigue": 236,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,47,60,62,69,55,35,40],
+    "skills": [24,6,6,6,24,6,6,6,44,6,6,6,6,6,6,24,6,39,15,48,58,34,15,28,10,10,48]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [80,20,10,10,0,0,0,0]
+    }
+  ]
+}

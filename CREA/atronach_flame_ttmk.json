@@ -1,0 +1,56 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Atronach_Fire.NIF",
+  "FLAG": 74,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 7,
+    "attributes": [50,50,70,50,32,50,50,50],
+    "health": 100,
+    "magicka": 105,
+    "fatigue": 600,
+    "soul_strength": 105,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [7,21],
+      [7,21],
+      [7,21]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 30,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "atronach_flame",
+  "FNAM": "Flame Atronach",
+  "SCRI": "atronachMountKand",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_fire_salts"
+    }
+  ],
+  "NPCS": [
+    "firebloom",
+    "immune to fire",
+    "weakness frost_60",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

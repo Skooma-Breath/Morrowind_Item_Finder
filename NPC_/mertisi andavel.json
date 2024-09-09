@@ -1,0 +1,90 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Nightblade Service",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_09",
+  "KNAM": "b_n_dark elf_m_hair_22",
+  "MODL": null,
+  "FNAM": "Mertisi Andavel",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02_tt"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    }
+  ],
+  "NPCS": [
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "strong reflect",
+    "wild spelldrinker",
+    "concealment",
+    "black hand",
+    "alad's caliginy",
+    "absorb fatigue",
+    "dire noise",
+    "emasculate",
+    "poisonbloom",
+    "poison_powerful",
+    "reflect"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 74,
+    "magicka": 100,
+    "fatigue": 218,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [49,50,64,60,77,45,43,40],
+    "skills": [6,6,6,6,6,11,6,6,11,15,44,48,48,15,54,15,15,34,24,39,6,29,49,29,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

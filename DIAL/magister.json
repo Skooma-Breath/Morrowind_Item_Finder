@@ -1,0 +1,360 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "36163026617241160": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "148659523103917485",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You are the new Archmagister of House Telvanni.",
+      "BNAM": "Journal HT_Archmagister 100",
+      "SCVR": null
+    },
+    "148659523103917485": {
+      "flag": 0,
+      "PNAM": "36163026617241160",
+      "NNAM": "14108226602918829242",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You have the support of the other Councilors, and Gothren is dead. Congratulations, Archmagister %PCName.",
+      "BNAM": "PCRaiseRank\r\nModPCFacRep 10 \"Telvanni\"\r\nPlayer->ModReputation 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "gothren",
+          "__TV": 0
+        }
+      ]
+    },
+    "14108226602918829242": {
+      "flag": 0,
+      "PNAM": "148659523103917485",
+      "NNAM": "15288236602867123314",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Once you have disposed of Archmagister Gothren, speak with me again.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "15288236602867123314": {
+      "flag": 0,
+      "PNAM": "14108226602918829242",
+      "NNAM": "27297279481221126977",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take your time.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "27297279481221126977": {
+      "flag": 0,
+      "PNAM": "15288236602867123314",
+      "NNAM": "97781470879530159",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, then. You are now raised to the rank of Master, and so you shall remain forever.",
+      "BNAM": "PCRaiseRank",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "97781470879530159": {
+      "flag": 0,
+      "PNAM": "27297279481221126977",
+      "NNAM": "29113209461956825528",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I must admit I am surprised. I thought you would surely claim the title for yourself. You understand that if you choose the title of Master now, you can NEVER advance further in House Telvanni? You can never again make a claim for Archmagister?",
+      "BNAM": "Choice \"I understand. I shall remain a Master, and never seek advancement in House Telvanni again.\" 5 \"Let me think about this.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "29113209461956825528": {
+      "flag": 0,
+      "PNAM": "97781470879530159",
+      "NNAM": "271657617423732024",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. I have long waited to see who the next Archmagister would be. I can think of no better qualified candidates. You have my support and that of the surviving councilors. Now you must dispose of Archmagister Gothren. You will find him in his tower in Tel Aruhn.",
+      "BNAM": "Journal HT_Archmagister 10\r\nPCRaiseRank\r\nPCRaiseRank\r\nModPCFacRep 10 \"Telvanni\"\r\nModDisposition 10\r\nPlayer->ModReputation 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "271657617423732024": {
+      "flag": 0,
+      "PNAM": "29113209461956825528",
+      "NNAM": "1486930267545827349",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take your time.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1486930267545827349": {
+      "flag": 0,
+      "PNAM": "271657617423732024",
+      "NNAM": "90982837642815098",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are now the Magister of House Telvanni. Defeat Gothren and you shall be the Archmagister.",
+      "BNAM": "PCRaiseRank",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "90982837642815098": {
+      "flag": 0,
+      "PNAM": "1486930267545827349",
+      "NNAM": "6003260711229824663",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You have foresworn the title of Magister... But perhaps you have changed your mind. Will you fight Archmagister Gothren and claim the title as your own?",
+      "BNAM": "Choice \"I have decided to fight Gothren.\" 4 \"No, not yet.\" 3",
+      "SCVR": null
+    },
+    "6003260711229824663": {
+      "flag": 0,
+      "PNAM": "90982837642815098",
+      "NNAM": "28413373290119565",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You have been named Hortator of House Telvanni, so you already have the support of the surviving Councilors. No one is more deserving to be the new Archmagister than you. Congratulations, Archmagister.",
+      "BNAM": "PCRaiseRank\r\nPCRaiseRank\r\nPCRaiseRank\r\nModPCFacRep 20 \"Telvanni\"\r\nPlayer->ModReputation 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B7_TelvanniHort",
+          "__TV": 50
+        }
+      ]
+    },
+    "28413373290119565": {
+      "flag": 0,
+      "PNAM": "6003260711229824663",
+      "NNAM": "161989636323058544",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Since Gothren's untimely death, none of the Councilors have tried to take his title for themselves. I doubt anyone would challenge your claim to be the new Archmagister of House Telvanni. Congratulations, Archmagister.",
+      "BNAM": "PCRaiseRank\r\nPCRaiseRank\r\nPCRaiseRank\r\nModPCFacRep 20 \"Telvanni\"\r\nPlayer->ModReputation 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "gothren",
+          "__TV": 0
+        }
+      ]
+    },
+    "161989636323058544": {
+      "flag": 0,
+      "PNAM": "28413373290119565",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "I can grant you the rank of Master now. That will give you an equal place on the Telvanni Council. But if you aspire to a higher claim, I can also grant you the title of Magister. By accepting the title of Magister, you are announcing that you deserve the title of Archmagister more than Gothren who currently holds that rank. Which will it be?",
+      "BNAM": "Choice \"Grant me the title of Master. I have no plans of fighting Gothren.\" 1 \"I will topple Gothren from his tower. Proclaim me Magister.\" 2 \"I need to think about this.\" 3",
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Fabricant.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 2,
+    "attributes": [50,50,30,50,28,50,50,50],
+    "health": 300,
+    "magicka": 10,
+    "fatigue": 400,
+    "soul_strength": 10,
+    "combat_skill": 100,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [50,50],
+      [50,50],
+      [50,50]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "fabricant_verminous",
+  "FNAM": "Verminous Fabricant",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "verminous_fabricant_elixir"
+    }
+  ],
+  "NPCS": [
+    "resist paralysis_100",
+    "weakness shock_25",
+    "resist magicka_50",
+    "immune to poison"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "position": [4348.81005859375,4591.3798828125,12496.0498046875]
+    }
+  ]
+}

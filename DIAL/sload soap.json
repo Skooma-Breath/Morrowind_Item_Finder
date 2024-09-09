@@ -1,0 +1,291 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1089419139468523483": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1309268552924313700",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have all the sload soap I need right now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SloadSoap",
+          "__TV": 100
+        }
+      ]
+    },
+    "1309268552924313700": {
+      "flag": 0,
+      "PNAM": "1089419139468523483",
+      "NNAM": "14932325001243732367",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps these will put Master Neloth in a better mood. He is old, you see, and has trouble moving about. I use the soap along with some roobrush and bonemeal to make an ointment for his joints.",
+      "BNAM": "Journal HT_SloadSoap 100\r\nPlayer->RemoveItem Ingred_Sload_Soap_01 5\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 5\r\n\"neloth\"->ModDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14932325001243732367": {
+      "flag": 0,
+      "PNAM": "1309268552924313700",
+      "NNAM": "62624835749723184",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not appreciate tricks, %PCName. Either bring me the sload soap, or...",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "62624835749723184": {
+      "flag": 0,
+      "PNAM": "14932325001243732367",
+      "NNAM": "32755123952473623075",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Master Neloth is venerable and patient, but he will not wait forever.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "32755123952473623075": {
+      "flag": 0,
+      "PNAM": "62624835749723184",
+      "NNAM": "863329847562016635",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have the five portions of sload soap?",
+      "BNAM": "Choice \"Yes, here they are.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SloadSoap",
+          "__TV": 10
+        }
+      ]
+    },
+    "863329847562016635": {
+      "flag": 0,
+      "PNAM": "32755123952473623075",
+      "NNAM": "19201147942582331399",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Yes, Master Neloth needs five portions of sload soap to help with his research. Here are 500 drakes. You can keep what is left after you purchase the sload soap.",
+      "BNAM": "Journal HT_SloadSoap 10\r\nPlayer->AddItem Gold_001 500",
+      "SCVR": null
+    },
+    "19201147942582331399": {
+      "flag": 0,
+      "PNAM": "863329847562016635",
+      "NNAM": "14503193922248011539",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sload soap? Anis Seloth might have some. Her shop is on the north side of town, next to Fara's Hole in the Wall.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "B",
+          "details": "LX",
+          "operator": "0",
+          "identifier": "Sadrith Mora, Anis Seloth: Alchemist",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SloadSoap",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_SloadSoap",
+          "__TV": 100
+        }
+      ]
+    },
+    "14503193922248011539": {
+      "flag": 0,
+      "PNAM": "19201147942582331399",
+      "NNAM": "1791995783062230207",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tendris vedran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sload soap is a waxy substance made from the immature non-sentient forms of the sload.",
+      "BNAM": ";alchemist",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "1791995783062230207": {
+      "flag": 0,
+      "PNAM": "14503193922248011539",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "anarenen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sload soap is a waxy substance made from the immature non-sentient forms of the sload.",
+      "BNAM": ";alchemist",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

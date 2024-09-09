@@ -1,0 +1,177 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2019810294325217961": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "174222919029913354",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Baro Egnatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I can't believe you killed him....",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_5",
+          "__TV": 60
+        }
+      ]
+    },
+    "174222919029913354": {
+      "flag": 0,
+      "PNAM": "2019810294325217961",
+      "NNAM": "985420205993718521",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Baro Egnatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How did you.... but where...  so it's true? He's dead? You don't mean to tell me that you....  I mean, you didn't.... you didn't KILL him, did you? Okay, listen. Maybe I made a bit of a mistake, all right? How about I just take the ship and deliver the ore, and we won't have any sort of problem at all. Just... just don't hurt me. Look, I'm going now, see?",
+      "BNAM": "Journal CO_5 60",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "saberout",
+          "__TV": 1
+        }
+      ]
+    },
+    "985420205993718521": {
+      "flag": 0,
+      "PNAM": "174222919029913354",
+      "NNAM": "1023226931703424",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Baro Egnatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What, you're going to try and tell me you have it? Sure, it's easy to talk. A guy like Elberoth, though. He wouldn't just SAY he had his saber. He'd SHOW you he had it. And a guy looking at Elberoth holding his saber? He'd understand things pretty good, or he'd be REAL sorry.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "steel saber_elberoth",
+          "__TV": 1
+        }
+      ]
+    },
+    "1023226931703424": {
+      "flag": 0,
+      "PNAM": "985420205993718521",
+      "NNAM": "52462184226361685",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Baro Egnatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aye, I'd recognize his sword anywhere, if I saw it. What's it to you?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_5",
+          "__TV": 10
+        }
+      ]
+    },
+    "52462184226361685": {
+      "flag": 0,
+      "PNAM": "1023226931703424",
+      "NNAM": "197510945204731610",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Apronia Alfena",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I already gave it to you, %PCName. What, did you lose it? It's not like it was worth much. At least, not to anyone but Elberoth, and he certainly won't be needing it again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_5",
+          "__TV": 50
+        }
+      ]
+    },
+    "197510945204731610": {
+      "flag": 0,
+      "PNAM": "52462184226361685",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Apronia Alfena",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It certainly came in handy. Now that I think of it, though, I don't really have much of a use for it. Here, you take it. Not like it's worth much of anything, but odds are you'd be more likely to use it than I ever will.",
+      "BNAM": "removeitem \"steel saber_elberoth\" 1\r\nplayer->additem \"steel saber_elberoth\" 1\r\nJournal CO_5 50",
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 135,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin bardoor4Script\r\n\r\n\r\nif ( OnActivate == 1 )\r\n\tif ( GetJournalIndex TR_Assassins == 85 )\r\n\t\tPlaySound \"LockedDoor\"\r\n\t\tMessageBox \"This door has been magically sealed, and is impossible to open.\"\r\n\telse\r\n\t\tActivate\r\n\tendif\r\nendif\r\n\t\t\r\n\r\nend bardoor4Script",
+  "SCVR": null,
+  "SCDT": [6,1,6,9,32,88,24,16,32,61,61,32,49,6,1,2,25,32,88,205,16,32,100,12,84,82,95,65,115,115,97,115,115,105,110,115,32,61,61,32,56,53,2,16,10,76,111,99,107,101,100,68,111,111,114,0,16,63,0,84,104,105,115,32,100,111,111,114,32,104,97,115,32,98,101,101,110,32,109,97,103,105,99,97,108,108,121,32,115,101,97,108,101,100,44,32,97,110,100,32,105,115,32,105,109,112,111,115,115,105,98,108,101,32,116,111,32,111,112,101,110,46,0,0,7,1,1,23,16,9,1,9,1,1,1]
+}

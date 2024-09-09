@@ -1,0 +1,80 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Alchemist",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_M_Head_11",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Uncle Sweetshare",
+  "SCRI": "GrandfatherFrostScript",
+  "AIDT": {
+    "greet": 100,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 40,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "wooden staff"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "fur_colovian_helm_white"
+    },
+    {
+      "count": 5,
+      "name": "ingred_moon_sugar_01"
+    },
+    {
+      "count": 1,
+      "name": "sc_unclesweetshare"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_g_mortar_01"
+    }
+  ],
+  "NPCS": [
+    "dire weary",
+    "strong fire shield",
+    "strong frost shield",
+    "second barrier",
+    "strong shock shield",
+    "strong reflect",
+    "strong spelldrinker",
+    "wild spelldrinker",
+    "absorb speed [ranged]",
+    "absorb strength [ranged]"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 144,
+    "magicka": 200,
+    "fatigue": 299,
+    "disposition": 90,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [81,100,98,56,74,64,52,50],
+    "skills": [39,7,17,12,49,12,17,12,7,71,24,71,24,71,71,24,71,20,7,7,7,90,7,7,7,39,39]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

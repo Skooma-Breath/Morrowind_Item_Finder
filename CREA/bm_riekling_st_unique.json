@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "MODL": "r\\IceMinion.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 20,
+    "attributes": [100,50,50,100,50,50,50,50],
+    "health": 300,
+    "magicka": 50,
+    "fatigue": 900,
+    "soul_strength": 50,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [1,5],
+      [1,5],
+      [1,5]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_riekling",
+  "FNAM": "Riekling",
+  "SCRI": "treesriekScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_Ice minion_Shield1"
+    },
+    {
+      "count": 1,
+      "name": "BM_Seeds_UNIQUE"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "BM_spriggan_st_UNIQUE"
+      },
+      "CNDT": null
+    }
+  ]
+}

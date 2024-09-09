@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 91,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin racistSafe\r\n\r\nshort doOnce\r\n\r\n; makes racists stop threatening Huleeya\r\n; Main quest A1_7HuleeyaInformant\r\n\r\nif ( doOnce = 0 )\r\n\tif ( GetJournalIndex A1_7HuleeyaInformant == 15 )\r\n\t\tif ( GetHealth > 0 )\r\n\t\t\tStopCombat\r\n\t\t\tSetFight 10\r\n\t\t\tSetDisposition 60\r\n\t\t\tset doOnce to 1\t\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,8,8,32,115,1,0,32,61,32,48,6,1,6,33,32,88,205,16,32,100,20,65,49,95,55,72,117,108,101,101,121,97,73,110,102,111,114,109,97,110,116,32,61,61,32,49,53,6,1,4,8,32,88,140,16,32,62,32,48,26,16,0,17,0,0,32,65,153,16,0,0,112,66,5,1,115,1,0,2,32,49,9,1,9,1,9,1,1,1]
+}

@@ -1,0 +1,215 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "210836392522520572": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "281154378687221331",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard you were expelled, %PCName. You need to make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "281154378687221331": {
+      "flag": 0,
+      "PNAM": "210836392522520572",
+      "NNAM": "10084316391314629090",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dagoth Tanis is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_DagothTanis",
+          "__TV": 100
+        }
+      ]
+    },
+    "10084316391314629090": {
+      "flag": 0,
+      "PNAM": "281154378687221331",
+      "NNAM": "2937221880291901628",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. It is a shame that Irer Nervion died, but Dagoth Tanis is dead, and you have returned his ancestor ring. Do you have an ancestor ring of your own? Although you are an outlander, I will give you one of my own family's ancestor rings. May Almalexia show you and your ancestors mercy.",
+      "BNAM": "Player->RemoveItem Expensive_Ring_01_HRDT 1\r\nPlayer->AddItem \"Ancestor's Ring\" 1\r\nJournal HR_DagothTanis 100\r\nModPCFacRep 10 \"Redoran\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "Expensive_Ring_01_HRDT",
+          "__TV": 0
+        }
+      ]
+    },
+    "2937221880291901628": {
+      "flag": 0,
+      "PNAM": "10084316391314629090",
+      "NNAM": "15502229270685413",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not see his ancestor's ring. Are you sure you did not misplace it?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "15502229270685413": {
+      "flag": 0,
+      "PNAM": "2937221880291901628",
+      "NNAM": "30217207392335810237",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is a shame. I suppose we will never know what happened to him. Still, Dagoth Tanis is dead, and that is a cause for celebration.",
+      "BNAM": "Journal HR_DagothTanis 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "30217207392335810237": {
+      "flag": 0,
+      "PNAM": "15502229270685413",
+      "NNAM": "1494729842903330463",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have slain Dagoth Tanis? Did you find Irer Nervion? Or do you have his ancestor ring?",
+      "BNAM": "Choice \"Dagoth Tanis is dead and I have the ring.\" 1 \"Dagoth Tanis is dead, but I did not find the ring.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dagoth tanis",
+          "__TV": 1
+        }
+      ]
+    },
+    "1494729842903330463": {
+      "flag": 0,
+      "PNAM": "30217207392335810237",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The stronghold of Falasmaryon is just northeast of Maar Gan, across the Foyada Bani-Dad. You can get into the Foyada east of Maar Gan. Go there and slay Dagoth Tanis. We sent the Buoyant Armiger, Irer Nervion, to Falasmaryon, but he has not returned. If he is dead, bring back his ancestor ring, so that I can return it to his family.",
+      "BNAM": "ShowMap \"Falasmaryon\"\r\nJournal HR_DagothTanis 10",
+      "SCVR": null
+    }
+  }
+}

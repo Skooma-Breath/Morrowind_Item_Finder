@@ -1,0 +1,49 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Dagothr.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 3,
+    "level": 35,
+    "attributes": [100,100,100,100,80,100,100,100],
+    "health": 300,
+    "magicka": 300,
+    "fatigue": 500,
+    "soul_strength": 0,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 100,
+    "attacks": [
+      [50,75],
+      [25,100],
+      [60,60]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 40,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Dagoth Ur",
+  "SCRI": "DagothUrCreature1",
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": [
+    "wrath of dagoth",
+    "Vivec_Abilities"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,30,20,0,0,0,0,0]
+    }
+  ]
+}

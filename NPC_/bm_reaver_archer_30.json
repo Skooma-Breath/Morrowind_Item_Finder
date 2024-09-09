@@ -1,0 +1,83 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Archer",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_M_Head_12",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Reaver",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "cruel frostarrow"
+    },
+    {
+      "count": 1,
+      "name": "steel longbow"
+    },
+    {
+      "count": 1,
+      "name": "steel shortsword"
+    },
+    {
+      "count": 1,
+      "name": "fur_boots"
+    },
+    {
+      "count": 1,
+      "name": "fur_greaves"
+    },
+    {
+      "count": 1,
+      "name": "fur_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bm_random_reaver_helm"
+    },
+    {
+      "count": 1,
+      "name": "bm_random_healthpotions"
+    }
+  ],
+  "NPCS": [
+    "strong resist fire",
+    "strong resist frost",
+    "strong resist magicka",
+    "strong resist poison",
+    "cure common disease victim"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "health": 237,
+    "magicka": 106,
+    "fatigue": 357,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,53,72,100,95,85,47,40],
+    "skills": [78,27,74,32,37,70,37,68,78,8,8,8,8,8,8,44,8,1,8,44,8,59,8,80,8,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

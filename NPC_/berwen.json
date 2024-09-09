@@ -1,0 +1,83 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Wood Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_wood elf_f_head_01",
+  "KNAM": "b_n_wood elf_f_hair_01",
+  "MODL": null,
+  "FNAM": "Berwen",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 14239
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel staff"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    }
+  ],
+  "NPCS": [
+    "demoralize beast",
+    "rally beast",
+    "demoralize creature",
+    "demoralize humanoid",
+    "rally creature",
+    "rally humanoid",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "divine intervention",
+    "mark",
+    "recall",
+    "telekinesis",
+    "detect_creature",
+    "detect_key",
+    "immune to fire",
+    "immune to poison"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 64,
+    "magicka": 102,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 600,
+    "attributes": [49,51,41,65,60,34,55,40],
+    "skills": [30,14,14,14,30,14,14,14,14,6,6,6,6,6,37,6,11,35,37,47,11,5,6,21,20,37,22]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,10,0,0,0]
+    }
+  ]
+}

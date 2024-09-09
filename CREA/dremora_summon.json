@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Dremora.NIF",
+  "FLAG": 13,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 9,
+    "attributes": [55,50,70,50,50,50,50,50],
+    "health": 160,
+    "magicka": 100,
+    "fatigue": 400,
+    "soul_strength": 100,
+    "combat_skill": 80,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [9,27],
+      [9,27],
+      [9,27]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 50,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "dremora",
+  "FNAM": "Dremora",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_daedra_heart"
+    },
+    {
+      "count": 1,
+      "name": "random excellent melee weapon"
+    }
+  ],
+  "NPCS": [
+    "second barrier",
+    "reflect_20",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "440713500277001374": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "701528240255274606",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "geilir the mumbling",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right then.  If you have a change of heart, let me know.  I barely escaped from the draugrs the first time I rescued Oddfrid from Kolbjorn Barrow.  I'm not sure I want to risk my life again, no matter how much I enjoy Oddfrid's company.  Leave me now, %PCClass.  As you can see, I have a lot of cleaning up to do.",
+      "BNAM": "Journal BM_SadSeer 20\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "701528240255274606": {
+      "flag": 0,
+      "PNAM": "440713500277001374",
+      "NNAM": "49258192596714542",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "geilir the mumbling",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent.  Of course, I knew you were going to help me.  I am a seer after all.  Now, Kolbjorn Barrow lies to the southeast of here, near the coast.  I need you to enter the barrow, find Oddfrid, and return her to me.  Do be careful, %PCClass.  The draugrs are fast, vicious and entirely without remorse.  Go now.  I will eagerly await your return.",
+      "BNAM": "Journal BM_SadSeer 30\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "49258192596714542": {
+      "flag": 0,
+      "PNAM": "701528240255274606",
+      "NNAM": "14622183191923031526",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "geilir the mumbling",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent.  Of course, I knew you were going to help me.  I am a seer after all.  Now, Kolbjorn Barrow lies to the southeast of here, near the coast.  I need you to enter the barrow, find Oddfrid, and return her to me.  Do be careful, %PCClass.  The draugrs are fast, vicious and entirely without remorse.  Go now.  I will eagerly await your return.",
+      "BNAM": "Journal BM_SadSeer 35\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "14622183191923031526": {
+      "flag": 0,
+      "PNAM": "49258192596714542",
+      "NNAM": "1690423295912415616",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "geilir the mumbling",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My entire family was lost at sea a few months ago, and now I am all alone. My only companion is Oddfrid White-Lip.  She talks to me.  She tells me things, tells me the future.  I rescued her from Kolbjorn Barrow many months ago.  But she's been kidnapped by a draugr who lives in Kolbjorn! %PCClass, will you go to the barrow and rescue Oddfrid White-Lip?  If you do, then Oddfrid will help me reveal your future!",
+      "BNAM": "Journal BM_SadSeer 10\r\nChoice \"Sorry, but no.\" 1 \"I'll rescue Oddfrid for you, Geilir.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_SadSeer",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_CursedCaptain",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_SadSeer",
+          "__TV": 40
+        }
+      ]
+    },
+    "1690423295912415616": {
+      "flag": 0,
+      "PNAM": "14622183191923031526",
+      "NNAM": "2692228918321730200",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "geilir the mumbling",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "With my family gone, I am all alone, except for Oddfrid White-Lip.  She talks to me.  She tells me the future.  But she's been kidnapped by a draugr who lives in Kolbjorn! %PCClass, will you go to the barrow and rescue Oddfrid White-Lip?  If you do, then Oddfrid will help me reveal your future!  And, as a show of good faith, I'll also reverse Thormoor's curse!",
+      "BNAM": "Journal BM_SadSeer 10\r\nChoice \"Sorry, but no.\" 1 \"I'll rescue Oddfrid for you, Geilir.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_SadSeer",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_CursedCaptain",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_SadSeer",
+          "__TV": 40
+        }
+      ]
+    },
+    "2692228918321730200": {
+      "flag": 0,
+      "PNAM": "1690423295912415616",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "geilir the mumbling",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oddfrid White-Lip is with me once again, thanks to you, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_SadSeer",
+          "__TV": 40
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Rust rat.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 2,
+    "attributes": [25,25,56,30,8,70,100,75],
+    "health": 23,
+    "magicka": 10,
+    "fatigue": 300,
+    "soul_strength": 10,
+    "combat_skill": 30,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,6],
+      [1,6],
+      [1,6]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "Rat",
+  "FNAM": "Telvanni Sewer Rat",
+  "SCRI": "eb_pestScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_rat_meat"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,0,0,0,0,0]
+    }
+  ]
+}

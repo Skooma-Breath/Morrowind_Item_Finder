@@ -1,0 +1,792 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "219716448172803785": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1849223053741517954",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for all your hard work, Champion of Clutter.  My collection has never looked livelier.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 50
+        }
+      ]
+    },
+    "1849223053741517954": {
+      "flag": 0,
+      "PNAM": "219716448172803785",
+      "NNAM": "2762918054156128776",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Amazing! I can't believe I'm actually holding the definitive collection of Dwarven clutter in my hands. You have done well, %PCName. I hereby confer upon you the title of Champion of Clutter for all time. And here is your reward.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 50\r\nPlayer->RemoveItem \"misc_dwrv_goblet00\" 1\r\nPlayer->RemoveItem \"misc_dwrv_goblet10\" 1\r\nPlayer->RemoveItem \"misc_dwrv_bowl00\" 1\r\nPlayer->RemoveItem \"misc_dwrv_mug00\" 1\r\nPlayer->RemoveItem \"misc_dwrv_pitcher00\" 1\r\nPlayer->AddItem \"Gold_001\" 2000\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 11
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_bowl00",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_mug00",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_pitcher00",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_goblet00",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_goblet10",
+          "__TV": 1
+        }
+      ]
+    },
+    "2762918054156128776": {
+      "flag": 0,
+      "PNAM": "1849223053741517954",
+      "NNAM": "68071485488743883",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Really, Champion, you shouldn't lie like that. You raise my hopes only to dash them a second later. Go find the Dwemer table set, and don't come back until you have it.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 11
+        }
+      ]
+    },
+    "68071485488743883": {
+      "flag": 0,
+      "PNAM": "2762918054156128776",
+      "NNAM": "7535100162774119370",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, I knew it would take you time. This is a quest truly befitting the one and only Champion of Clutter!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 12
+        }
+      ]
+    },
+    "7535100162774119370": {
+      "flag": 0,
+      "PNAM": "68071485488743883",
+      "NNAM": "13852148291418117742",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you managed to find the Dwemer items yet, %PCName?",
+      "BNAM": "Choice \"Yes, here you are.\" 11 \"No, not yet.\" 12",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 40
+        }
+      ]
+    },
+    "13852148291418117742": {
+      "flag": 0,
+      "PNAM": "7535100162774119370",
+      "NNAM": "27104147583052630056",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fabulous! I have searched far and wide for a complete set of Dwemer tableware, to no avail. I am not skilled enough to search through the dwarven ruins themselves, but you can, my Champion. The complete set includes two goblets -- one slightly larger than the other -- a pitcher, a tankard, and a large bowl. Bring these to me, and I will pay you handsomely.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 40\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 9
+        }
+      ]
+    },
+    "27104147583052630056": {
+      "flag": 0,
+      "PNAM": "13852148291418117742",
+      "NNAM": "691696042860417454",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, that's truly a pity. I must hereby abolish your title of Champion of Clutter. Please leave me now.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 80\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 10
+        }
+      ]
+    },
+    "691696042860417454": {
+      "flag": 0,
+      "PNAM": "27104147583052630056",
+      "NNAM": "15496186461595510994",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My collection is almost complete, but I require one more set of extremely rare objects. Are you up to the challenge, my Champion?",
+      "BNAM": "Choice \"Yes, I am.\" 9 \"No, I'm not.\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 30
+        }
+      ]
+    },
+    "15496186461595510994": {
+      "flag": 0,
+      "PNAM": "691696042860417454",
+      "NNAM": "11274169952653532675",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent! Thank you so much, %PCName. You are truly the Champion of Clutter. Accept this as my reward. Come back again and I may have more work for you.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 30\r\nPlayer->RemoveItem \"misc_de_pot_redware_04\" 1\r\nPlayer->RemoveItem \"misc_com_silverware_fork\" 1\r\nPlayer->RemoveItem \"misc_com_silverware_knife\" 1\r\nPlayer->RemoveItem misc_com_silverware_spoon 1\r\nPlayer->RemoveItem \"misc_com_metal_plate_03\" 1\r\nPlayer->AddItem \"Gold_001\" 500\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_com_silverware_fork",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_com_silverware_knife",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_com_silverware_spoon",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_com_metal_plate_03",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_de_pot_redware_04",
+          "__TV": 1
+        }
+      ]
+    },
+    "11274169952653532675": {
+      "flag": 0,
+      "PNAM": "15496186461595510994",
+      "NNAM": "32245151052184517800",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is behavior unbecoming of the Champion of Clutter, %PCName. Please don't lie to me any further, and get the items to me as soon as you can.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "32245151052184517800": {
+      "flag": 0,
+      "PNAM": "11274169952653532675",
+      "NNAM": "1841318292286747994",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Please hurry. I simply cannot wait to sit on my bed and gaze with gratification upon my completed collections.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        }
+      ]
+    },
+    "1841318292286747994": {
+      "flag": 0,
+      "PNAM": "32245151052184517800",
+      "NNAM": "13688126821680415841",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have the items I requested, %PCName?",
+      "BNAM": "Choice \"Yes, here they are.\" 7 \"No, I don't.\" 8",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 20
+        }
+      ]
+    },
+    "13688126821680415841": {
+      "flag": 0,
+      "PNAM": "1841318292286747994",
+      "NNAM": "2942493341947127057",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wonderful! If you'll look on the shelf in the back corner, you'll notice the glaring absence of a particular redware pot. The pot is tall, with vertical lines going down its side, and is shaped much like the adjacent blue glass pot. I also require a complete set of Imperial silverware -- that's fork, knife, and spoon. Finally, I require a common metal plate. The plate is yellow in color and features a picture of the sun in the center. Find these for me, Champion, and I will reward you well.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 20\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "2942493341947127057": {
+      "flag": 0,
+      "PNAM": "13688126821680415841",
+      "NNAM": "15015308283270532678",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, that's truly a pity. I must hereby abonlish your title of Champion of Clutter. Please leave me now.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 90\r\nModDisposition -20\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "15015308283270532678": {
+      "flag": 0,
+      "PNAM": "2942493341947127057",
+      "NNAM": "4187652432496126",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My collection is looking better thanks to your efforts, but it is still incomplete. I have another task for you, if you're interested.",
+      "BNAM": "Choice \"Yes, I'm interested.\" 5 \"No thanks. Once was enough.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 10
+        }
+      ]
+    },
+    "4187652432496126": {
+      "flag": 0,
+      "PNAM": "15015308283270532678",
+      "NNAM": "304271784263553317",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh how wonderful! This is exactly what I wanted. Thank you so much, %PCName. I hereby christen you the Champion of Clutter! Take this money as a token of my appreciation. Come back again and I may have more work for you.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 10\r\nPlayer->RemoveItem \"misc_clothbolt_02\" 1\r\nPlayer->RemoveItem \"misc_imp_silverware_pitcher\" 1\r\nPlayer->AddItem \"Gold_001\" 300\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_clothbolt_02",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_imp_silverware_pitcher",
+          "__TV": 1
+        }
+      ]
+    },
+    "304271784263553317": {
+      "flag": 0,
+      "PNAM": "4187652432496126",
+      "NNAM": "1125777901054427463",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Why do you lie to me %PCName? I'm just a simple collector of clutter looking for my Champion. Come back again when you have the cloth and pitcher.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1125777901054427463": {
+      "flag": 0,
+      "PNAM": "304271784263553317",
+      "NNAM": "14002186871846929153",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, please get them to me as soon as possible. this matter is of the highest urgency. Remember, the fabric is burgundy and has a diamond pattern on the side, and the pitcher is silver.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "14002186871846929153": {
+      "flag": 0,
+      "PNAM": "1125777901054427463",
+      "NNAM": "2140267893026529544",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have the bolt of fabric and the pitcher I asked you for, %PCName?",
+      "BNAM": "Choice \"Yes, here you are.\" 3 \"No, not yet.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 1
+        }
+      ]
+    },
+    "2140267893026529544": {
+      "flag": 0,
+      "PNAM": "14002186871846929153",
+      "NNAM": "29562822124522031",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know if I'll ever fill out my collection now. I'm far too busy finding the perfect arrangement for my limeware to go out and acquire new items.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 80
+        }
+      ]
+    },
+    "29562822124522031": {
+      "flag": 0,
+      "PNAM": "2140267893026529544",
+      "NNAM": "14527600662120339",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fabulous! I require two items for my Imperial collection at the moment. The first is a bolt of Imperial rat hair fabric. It is easy to recognize by its burgundy color and diamond pattern on the side. The second is a brushed silver pitcher. Please return when you have these two items.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 1\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14527600662120339": {
+      "flag": 0,
+      "PNAM": "29562822124522031",
+      "NNAM": "15631744188042457",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, that's truly a pity. I suppose I shall have to remain my own Champion of Clutter for now.",
+      "BNAM": "Journal \"MS_ClutterCollector\" 100\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "15631744188042457": {
+      "flag": 0,
+      "PNAM": "14527600662120339",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "detritus caria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "While my shelves full of Morrowind's clutter are impressive, they are not yet definitive. I am looking to recruit a brave and stalwart adventurer to become my Champion of Clutter, venturing into the world and seeking the items I need to complete my collections. Are you interested? Of course, I will reward you well.",
+      "BNAM": "Choice \"I'd be happy to help.\" 1 \"I've got more important work than chasing after utensils.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MS_ClutterCollector",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

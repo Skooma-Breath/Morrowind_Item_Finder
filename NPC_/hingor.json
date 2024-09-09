@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Scout",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_wood elf_m_head_02",
+  "KNAM": "b_n_wood elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Hingor",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "heavy_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_studded_cuirass"
+    },
+    {
+      "count": 34,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 95,
+    "magicka": 98,
+    "fatigue": 208,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [44,49,39,74,75,51,45,40],
+    "skills": [47,15,47,15,15,47,15,15,47,6,6,23,6,6,6,6,28,23,6,48,11,33,6,38,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

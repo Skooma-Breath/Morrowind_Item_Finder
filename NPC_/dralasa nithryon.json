@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Pawnbroker",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_10",
+  "KNAM": "b_n_dark elf_f_hair_01",
+  "MODL": null,
+  "FNAM": "Dralasa Nithryon",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 14335
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron club"
+    },
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": -2,
+      "name": "hammer_repair"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "health": 50,
+    "magicka": 110,
+    "fatigue": 155,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 700,
+    "attributes": [45,55,32,46,57,32,47,50],
+    "skills": [18,5,5,5,18,10,5,5,38,5,15,5,5,5,10,5,5,18,40,40,24,17,22,17,25,40,24]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

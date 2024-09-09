@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Sphere_Centurions.NIF",
+  "FLAG": 2120,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 5,
+    "attributes": [75,25,70,75,70,75,10,50],
+    "health": 75,
+    "magicka": 70,
+    "fatigue": 800,
+    "soul_strength": 0,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "centurion_sphere",
+  "FNAM": "Centurion Sphere",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_scrap_metal"
+    }
+  ],
+  "NPCS": [
+    "shock shield"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,20,20,50,20,0,0,0]
+    }
+  ]
+}

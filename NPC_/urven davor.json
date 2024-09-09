@@ -1,0 +1,86 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Enforcer",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_09",
+  "KNAM": "b_n_dark elf_m_hair_10",
+  "MODL": null,
+  "FNAM": "Urven Davor",
+  "SCRI": "racistSafe",
+  "AIDT": {
+    "greet": 30,
+    "fight": 60,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "steel throwing knife"
+    },
+    {
+      "count": 1,
+      "name": "steel shortsword"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer right"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boiled_cuirass"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "deadly poison [ranged]",
+    "weakness to blight disease",
+    "weakness to corprus disease",
+    "weakness to common disease",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "god's frost",
+    "god's spark"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "health": 54,
+    "magicka": 86,
+    "fatigue": 181,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [43,43,36,60,66,42,33,40],
+    "skills": [18,5,5,5,5,10,5,5,23,5,43,18,5,5,10,5,5,5,24,40,12,44,50,44,24,12,12]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 1,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1120918765240257898": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2745310044221392380",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That matter has been settled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Trial",
+          "__TV": 100
+        }
+      ]
+    },
+    "2745310044221392380": {
+      "flag": 0,
+      "PNAM": "1120918765240257898",
+      "NNAM": "843615193150388469",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "To the wolves then! You have shown mercy, %PCName, allowing him to die with this honor. Perhaps you have some wisdom after all. Lead the prisoner outside that he may accept his sentence. The shamen will summon the Caenlorn to perform their function. But first, accept this token. It is unlikely, but perhaps you, too, can be more like the wolves we revere.",
+      "BNAM": "\"rigmor halfhand\"->sethello 0\r\nPlayer->AddItem \"BM Wolf Helmet_heartfang\" 1\r\n\"engar ice-mane\"->ModDisposition 40\r\n\"risi ice-mane\"->ModDisposition 40\r\nBM_wolf_caenlorn1->Enable\r\nBM_wolf_caenlorn2->Enable\r\nBM_wolf_caenlorn3->Enable\r\nJournal BM_Trial 105\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "843615193150388469": {
+      "flag": 0,
+      "PNAM": "2745310044221392380",
+      "NNAM": "1787327048204436044",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then he shall be exiled. Halfhand may never again return to the Skaal village, and he shall be dead to the Skaal forever. It is a cruel choice you have made, %PCName, but perhaps it is wise. Here, accept this token. It is unlikely, but perhaps you, too, can be more like the wolves we revere.",
+      "BNAM": "\"rigmor halfhand\"->AiWander 0 0 0 0 0 0\r\nPlayer->AddItem \"BM Wolf Helmet_heartfang\" 1\r\n\"engar ice-mane\"->ModDisposition 40\r\n\"risi ice-mane\"->ModDisposition 40\r\nJournal BM_Trial 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1787327048204436044": {
+      "flag": 0,
+      "PNAM": "843615193150388469",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharsten heart-fang",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Halfhand must be exiled permanently from the Skaal, or he must be fed to the ceremonial wolves. Which do you choose?",
+      "BNAM": "Journal BM_Trial 80\r\nChoice \"I choose exile.\" 1 \"Feed him to the wolves.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Trial",
+          "__TV": 80
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\UnDeadWolf_2.nif",
+  "FLAG": 1096,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 10,
+    "attributes": [100,50,50,50,150,50,50,50],
+    "health": 120,
+    "magicka": 50,
+    "fatigue": 400,
+    "soul_strength": 50,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [7,25],
+      [7,25],
+      [7,25]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Bonewolf",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": [
+    "regenerate [ability]",
+    "immune to paralysis"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

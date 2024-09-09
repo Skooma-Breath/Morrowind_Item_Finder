@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 138,
+    "local_var_size": 0
+  },
+  "SCTX": "begin All_Hortator\r\n\r\nif ( GetJournalIndex B5_RedoranHort >= 50 )\r\n\r\n    if ( GetJournalIndex B6_HlaaluHort >= 50 )\r\n\r\n        if ( GetJournalIndex B7_TelvanniHort >= 50 )\r\n\r\n            Journal B8_All_Hortator 50\r\n            StopScript All_Hortator\r\n\r\n        endif\r\n\r\n    endif\r\n\r\nendif\r\n\r\nend All_Hortator",
+  "SCVR": null,
+  "SCDT": [6,1,6,27,32,88,205,16,32,100,14,66,53,95,82,101,100,111,114,97,110,72,111,114,116,32,62,61,32,53,48,6,1,4,26,32,88,205,16,32,100,13,66,54,95,72,108,97,97,108,117,72,111,114,116,32,62,61,32,53,48,6,1,2,28,32,88,205,16,32,100,15,66,55,95,84,101,108,118,97,110,110,105,72,111,114,116,32,62,61,32,53,48,204,16,15,66,56,95,65,108,108,95,72,111,114,116,97,116,111,114,50,0,255,255,28,16,12,65,108,108,95,72,111,114,116,97,116,111,114,9,1,9,1,9,1,1,1]
+}

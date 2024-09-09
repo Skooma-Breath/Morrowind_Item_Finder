@@ -1,0 +1,565 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "227611842223520733": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1026122811575222913",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi hears you broke our agreement. Habasi does not want to speak with you now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1026122811575222913": {
+      "flag": 0,
+      "PNAM": "227611842223520733",
+      "NNAM": "30369157803065220973",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "There is no more to say about that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 110
+        }
+      ]
+    },
+    "30369157803065220973": {
+      "flag": 0,
+      "PNAM": "1026122811575222913",
+      "NNAM": "2909616194698711780",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Habasi wanted to help our brother escape from prison, but it seems the person who would be able to help us is dead. This is bad, %PCRank. If he tries to leave without help from the inside, they will kill him. We will have to move on to other jobs.",
+      "BNAM": "Journal TG_BrotherBragor 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "shadbak gra-burbug",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 110
+        }
+      ]
+    },
+    "2909616194698711780": {
+      "flag": 0,
+      "PNAM": "30369157803065220973",
+      "NNAM": "2691820839186609562",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "New-Shoes is free.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 100
+        }
+      ]
+    },
+    "2691820839186609562": {
+      "flag": 0,
+      "PNAM": "2909616194698711780",
+      "NNAM": "25073120681841930999",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "New-Shoes is free? Habasi knew you could do this thing. Take these 1000 drakes, less than what it would cost without your help.",
+      "BNAM": "Journal TG_BrotherBragor 100\r\nPlayer->AddItem Gold_001 1000\r\n\"New_Shoes Bragor\"->Disable\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 50
+        }
+      ]
+    },
+    "25073120681841930999": {
+      "flag": 0,
+      "PNAM": "2691820839186609562",
+      "NNAM": "11837134692712521710",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Habasi knows a way to free New-Shoes. Mebestien Ence in Pelagiad smuggles Dwemer items. Shadbak gra-Burbug takes bribes from Mebestien. Fetch a mysterious Dwemer device from Mebestien's shop and take it to Shadbak. Tell Shadbak to let New-Shoes go or you'll let everyone know Shadbak takes bribes.",
+      "BNAM": "Journal TG_BrotherBragor 10",
+      "SCVR": null
+    },
+    "11837134692712521710": {
+      "flag": 0,
+      "PNAM": "25073120681841930999",
+      "NNAM": "302335977201936792",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mebestian ence",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know nothing of him! Get out of here before I summon the authorities.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_artifact50",
+          "__TV": 1
+        }
+      ]
+    },
+    "302335977201936792": {
+      "flag": 0,
+      "PNAM": "11837134692712521710",
+      "NNAM": "2492720284228004467",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mebestian ence",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know what you're talking about. I know nothing about some thief rotting away in Fort Pelagiad.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2492720284228004467": {
+      "flag": 0,
+      "PNAM": "302335977201936792",
+      "NNAM": "363422560210256272",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "shadbak gra-burbug",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I said I'd let him go, didn't I?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 50
+        }
+      ]
+    },
+    "363422560210256272": {
+      "flag": 0,
+      "PNAM": "2492720284228004467",
+      "NNAM": "32385785175393228",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "shadbak gra-burbug",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, you got me this time. I'll let him go. But it's not over between us, %PCName. I'll remember you.",
+      "BNAM": "Journal TG_BrotherBragor 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "32385785175393228": {
+      "flag": 0,
+      "PNAM": "363422560210256272",
+      "NNAM": "1181719587167217623",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "shadbak gra-burbug",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll teach you a lesson, thief!",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1181719587167217623": {
+      "flag": 0,
+      "PNAM": "32385785175393228",
+      "NNAM": "585915009134598991",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "shadbak gra-burbug",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Because Mebestien pays me good money to keep it sec--",
+      "BNAM": "Choice \"Let New-Shoes go, and I'll forget about it.\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "585915009134598991": {
+      "flag": 0,
+      "PNAM": "1181719587167217623",
+      "NNAM": "453524494177151622",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "shadbak gra-burbug",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Where did you get that Dwemer artifact? I bet you stole it from Mebestien, thief!",
+      "BNAM": "Choice \"Yeah, I stole it.\" 2 \"How did you know Mebestien had one?\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_artifact50",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 10
+        }
+      ]
+    },
+    "453524494177151622": {
+      "flag": 0,
+      "PNAM": "585915009134598991",
+      "NNAM": "501210613186015295",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "shadbak gra-burbug",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "New-Shoes broke the law. He has to serve his time. There's nothing I can do.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 10
+        }
+      ]
+    },
+    "501210613186015295": {
+      "flag": 0,
+      "PNAM": "453524494177151622",
+      "NNAM": "292913001106999495",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "new_shoes bragor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hang on to those shoes for me, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 70
+        }
+      ]
+    },
+    "292913001106999495": {
+      "flag": 0,
+      "PNAM": "501210613186015295",
+      "NNAM": "1534193752982128744",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "new_shoes bragor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here you go. Take good care of them.",
+      "BNAM": "Journal TG_BrotherBragor 70\r\nRemoveItem exquisite_shoes_01 1\r\nPlayer->AddItem exquisite_shoes_01 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1534193752982128744": {
+      "flag": 0,
+      "PNAM": "292913001106999495",
+      "NNAM": "441513176180263268",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "new_shoes bragor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, okay then. Thanks, %PCName. I'll be out of here soon.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "441513176180263268": {
+      "flag": 0,
+      "PNAM": "1534193752982128744",
+      "NNAM": "26444112722354812735",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "new_shoes bragor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shadbak said she'd let me go as soon as the paperwork's done. I'll be sure to tell everyone what you did for me. Hey, you want these shoes? They've been nothing but trouble for me.",
+      "BNAM": "Choice \"Sure, I'll take them\" 1 \"No thanks\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BrotherBragor",
+          "__TV": 50
+        }
+      ]
+    },
+    "26444112722354812735": {
+      "flag": 0,
+      "PNAM": "441513176180263268",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "new_shoes bragor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Can you get me out of here?",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

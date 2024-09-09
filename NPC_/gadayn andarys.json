@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_15",
+  "MODL": null,
+  "FNAM": "Gadayn Andarys",
+  "SCRI": "gadaynScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_hh"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "gold": 400
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

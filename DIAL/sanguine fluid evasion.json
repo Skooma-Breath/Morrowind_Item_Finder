@@ -1,0 +1,202 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "5312097494883889": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "30194956196301748",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have returned the Ring of Sanguine Fluid Evasion.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_S_FluidEvasion",
+          "__TV": 100
+        }
+      ]
+    },
+    "30194956196301748": {
+      "flag": 0,
+      "PNAM": "5312097494883889",
+      "NNAM": "1014019669241521440",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "With this ring, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.",
+      "BNAM": "Journal MT_S_FluidEvasion 100\r\nPlayer->RemoveItem SanguineRingFluidEvasion 1\r\nPlayer->AddSpell SkillMephala_SP\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 25 \"Morag Tong\"\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "ThreadsWebspinner",
+          "__TV": 25
+        }
+      ]
+    },
+    "1014019669241521440": {
+      "flag": 0,
+      "PNAM": "30194956196301748",
+      "NNAM": "204485574230249312",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "The Threads of the Webspinner return to us one by one.",
+      "BNAM": "Journal MT_S_FluidEvasion 100\r\nPlayer->RemoveItem SanguineRingFluidEvasion 1\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "204485574230249312": {
+      "flag": 0,
+      "PNAM": "1014019669241521440",
+      "NNAM": "10939171632338118795",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Are you loyal to the Morag Tong? Sometimes I wonder.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "10939171632338118795": {
+      "flag": 0,
+      "PNAM": "204485574230249312",
+      "NNAM": "2259726112620727700",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguineringfluidevasion",
+          "__TV": 1
+        }
+      ]
+    },
+    "2259726112620727700": {
+      "flag": 0,
+      "PNAM": "10939171632338118795",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "So you have the Ring of Sanguine Fluid Evasion. Will you deliver this ring to Mephala's service?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguineringfluidevasion",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

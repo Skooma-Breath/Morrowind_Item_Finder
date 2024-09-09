@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Witchhunter",
+  "ANAM": "",
+  "BNAM": "b_n_high elf_m_head_04",
+  "KNAM": "b_n_high elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Worshipper",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron dagger"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boiled_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 6,
+    "health": 67,
+    "magicka": 39,
+    "fatigue": 187,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [38,79,37,68,47,44,44,40],
+    "skills": [21,6,6,6,21,6,6,6,6,49,19,14,14,44,24,9,49,24,6,21,6,36,6,36,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

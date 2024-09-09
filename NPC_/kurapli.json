@@ -1,0 +1,101 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_f_head_10",
+  "KNAM": "b_n_dark elf_f_hair_14",
+  "MODL": null,
+  "FNAM": "Kurapli",
+  "SCRI": "UrshilakuKill",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 145055
+  },
+  "NPCO": [
+    {
+      "count": -20,
+      "name": "chitin arrow"
+    },
+    {
+      "count": -15,
+      "name": "chitin throwing star"
+    },
+    {
+      "count": 1,
+      "name": "chitin club"
+    },
+    {
+      "count": 1,
+      "name": "common_skirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01_u"
+    },
+    {
+      "count": 1,
+      "name": "chitin_shield"
+    },
+    {
+      "count": -4,
+      "name": "random ashlander weapon"
+    },
+    {
+      "count": -4,
+      "name": "random_armor_chitin"
+    },
+    {
+      "count": 15,
+      "name": "random gold"
+    },
+    {
+      "count": -2,
+      "name": "repair_journeyman_01"
+    }
+  ],
+  "NPCS": [
+    "rally creature",
+    "rally humanoid",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "divine intervention",
+    "mark",
+    "recall",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "telekinesis",
+    "dispel",
+    "detect_creature",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 90,
+    "magicka": 116,
+    "fatigue": 213,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [64,58,48,64,65,37,74,40],
+    "skills": [36,17,17,17,36,22,17,17,22,6,16,6,6,6,46,6,6,33,41,41,6,31,16,11,10,41,26]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,10,0,0,0]
+    }
+  ]
+}

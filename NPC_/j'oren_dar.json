@@ -1,0 +1,47 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Khajiit",
+  "CNAM": "Slave",
+  "ANAM": "",
+  "BNAM": "B_N_Khajiit_M_Head_04",
+  "KNAM": "b_n_khajiit_m_hair03",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Jo'Ren-Dar",
+  "SCRI": "slaveScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_right"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

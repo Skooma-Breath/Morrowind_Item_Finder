@@ -1,0 +1,428 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3743288,1061158912]
+  },
+  "NAME": "Urshilaku Camp, Shimsun's Yurt",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [60,60,60,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [56,30,57,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-130025": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "shimsun",
+      "DATA": [103.72467803955078,132.0721435546875,-107.33523559570312,0,0,3.6999998092651367]
+    },
+    "0-129991": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_door_02",
+      "DATA": [0,0,0,0,0,0]
+    },
+    "0-130011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-28.960695266723633,164.09469604492188,-52.29741287231445,0,0,0]
+    },
+    "0-129997": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_ashl_lantern_04",
+      "XSCL": 0.8100000619888306,
+      "DATA": [-5.229778289794922,-119.79899597167969,58.40564727783203,0,0,4.012389183044434]
+    },
+    "0-130002": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "CNAM": {
+        "faction_id": "Ashlanders",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [187.2663116455078,96.09259796142578,-102.07388305664062,0,0,4.2831878662109375]
+    },
+    "0-130003": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [188.87881469726562,-103.17304992675781,-76.5278549194336,0,0,5.3831868171691895]
+    },
+    "0-130004": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [167.63824462890625,-153.77024841308594,-75.78901672363281,0,0,5.983185768127441]
+    },
+    "0-130005": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [223.13377380371094,-41.39265060424805,-92.48431396484375,0,0,1.5]
+    },
+    "0-130006": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "XSCL": 1.3600000143051147,
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [88.82525634765625,-215.69830322265625,-98.19461059570312,1.300000548362732,5.083186149597168,5.183185577392578]
+    },
+    "0-130007": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [220.6303253173828,-41.58004379272461,-104.1593246459961,0,0,4.583186626434326]
+    },
+    "0-130008": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [48.28610610961914,-228.30433654785156,-86.12602996826172,0,0,2.8999998569488525]
+    },
+    "0-130009": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-24.23764419555664,189.03216552734375,-40.68687057495117,0,0,1.100000023841858]
+    },
+    "0-130010": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-46.173583984375,174.3341064453125,-56.075721740722656,0,0,5.783185958862305]
+    },
+    "0-130012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-49.760986328125,180.04876708984375,-55.124664306640625,0,6.083185195922852,0.6000000238418579]
+    },
+    "0-130013": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [21.354000091552734,178.33900451660156,-57.59400177001953,0,0,6.099925518035889]
+    },
+    "0-130016": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_ingred",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-179.89288330078125,-82.45845794677734,-68.92183685302734,0,0,0.800000011920929]
+    },
+    "0-130017": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05",
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-160.50001525878906,-132.39561462402344,-55.683712005615234,0,0,4.399999141693115]
+    },
+    "0-130018": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "XSCL": 1.340000033378601,
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-64.97799682617188,-207.01699829101562,-87.96199798583984,0,0,3.583160877227783]
+    },
+    "0-130019": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 1.4100000858306885,
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-199.7428741455078,-12.874403953552246,-78.55770111083984,0,0,1.4000004529953003]
+    },
+    "0-130020": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 1.4100000858306885,
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-200.46038818359375,-11.3510103225708,-104.88284301757812,0,0,1.7000001668930054]
+    },
+    "0-130021": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 1.4100000858306885,
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-202.8491668701172,-10.381281852722168,-91.09496307373047,0,0,4.499999523162842]
+    },
+    "0-130022": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.4100000858306885,
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-197.90296936035156,96.7602767944336,-92.17460632324219,0,0,5.100000381469727]
+    },
+    "0-130023": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.4100000858306885,
+      "ANAM": "shimsun",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-198.6905059814453,93.80931854248047,-104.087890625,0,0,2.1999998092651367]
+    },
+    "0-129990": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_02",
+      "DATA": [0,0,0,0,0,0]
+    },
+    "0-129992": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_01",
+      "DATA": [-199.8459930419922,-1.1740000247955322,-21.34000015258789,0,0,0]
+    },
+    "0-129993": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_01",
+      "DATA": [200.27391052246094,6.9224629402160645,-23.631017684936523,0,0,3.1415927410125732]
+    },
+    "0-129994": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_01",
+      "DATA": [-7.360010623931885,195.14552307128906,-23.631000518798828,0,0,1.5533430576324463]
+    },
+    "0-129995": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_02",
+      "DATA": [-116.39171600341797,-194.79489135742188,-7.174308776855469,0,0,6.2831854820251465]
+    },
+    "0-129996": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Firepit_01",
+      "DATA": [6.042632102966309,-9.871344566345215,-115.54256439208984,0,0,0.08318843692541122]
+    },
+    "0-129998": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-78.455322265625,185.89181518554688,-93.12686920166016,0,0,1.800000548362732]
+    },
+    "0-129999": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [-7.220794677734375,182.64474487304688,-89.11866760253906,0,0,6.183185577392578]
+    },
+    "0-130000": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [65.9206314086914,-53.82310485839844,-99.31089782714844,0,0,5.083186626434326]
+    },
+    "0-130001": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_ashl_bugbowl_01",
+      "DATA": [-70.98775482177734,-21.979890823364258,-108.64523315429688,6.1831865310668945,0.09999989718198776,1.399999976158142]
+    },
+    "0-130015": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_ashl_bugbowl_03",
+      "DATA": [-166.47244262695312,159.2650604248047,-66.339111328125,4.90000057220459,2.500000476837158,1.5999997854232788]
+    },
+    "0-130024": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_12",
+      "DATA": [107.2110595703125,-196.13108825683594,-6.46999979019165,0,0,0.01745329238474369]
+    },
+    "0-321186": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-11.268454551696777,-476.6488037109375,-32.94878387451172,0,0,4.283186435699463]
+    },
+    "0-398967": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_13_64",
+      "ANAM": "shimsun",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [0.33051013946533203,206.7066650390625,-53.50114822387695,0,0,4.1831865310668945]
+    },
+    "0-398968": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bucket_Metal",
+      "ANAM": "shimsun",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [11.734743118286133,-1.4787938594818115,-75.69075012207031,0,0,1.1000001430511475]
+    },
+    "0-398969": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_minercave_grill_01",
+      "XSCL": 0.5,
+      "DATA": [12.380398750305176,-10.77199935913086,-100.33172607421875,0,0,4.899999618530273]
+    },
+    "0-398970": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [9.126228332519531,-27.026254653930664,-86.34565734863281,0,0,0]
+    },
+    "0-398971": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_iron_ladle",
+      "ANAM": "shimsun",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [18.72675895690918,-3.2210028171539307,-92.87619018554688,0,0,0]
+    }
+  }
+}

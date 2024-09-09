@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 406,
+    "local_var_size": 12
+  },
+  "SCTX": "Begin stoneBeastsScript\r\n\r\n;ACTIVATES STANDING STONE AND ENABLES/DISABLES ALL RELEVANT OBJECTS\r\n\r\nshort doOnce\r\nshort play\r\n\r\nif ( stones == 6 )\r\n\tJournal BM_Stones 80\r\n\tset stones to -1\r\nendif\r\n\r\nif ( GetJournalIndex BM_Stones < 30 )\r\n\treturn\r\nendif\r\n\r\nif ( OnActivate == 1 )\r\n\tset play to 1\r\nendif\r\n\r\nif ( play == 1 )\r\n\r\n\tif ( GetJournalIndex BM_Beasts < 10 )\r\n\t\tif ( doOnce == 0 )\r\n\t\t\tMessageBox \"Travel south. Find the Good Beast and ease its suffering.\"\r\n\t\t\tset doOnce to 1\r\n\t\t\tJournal BM_Beasts 10\r\n\t\t\tset play to 0\r\n\t\tendif\r\n\r\n\telseif ( GetJournalIndex BM_Beasts = 50 )\r\n\t\tif ( doOnce == 1 )\r\n\t\t\tset doOnce to 2\r\n\t\t\tJournal BM_Beasts 100\r\n\t\t\tJournal BM_Stones 66\r\n\t\t\tset stones to ( stones + 1 )\r\n\t\t\tAct_BM_Beast_parts->Enable\r\n\t\t\tset play to 0\r\n\t\tendif\r\n\telse\r\n\t\tset play to 0\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nEnd stoneBeastsScript",
+  "SCVR": [
+    "doOnce",
+    "play"
+  ],
+  "SCDT": [6,1,2,14,32,71,6,115,116,111,110,101,115,32,61,61,32,54,204,16,9,66,77,95,83,116,111,110,101,115,80,0,255,255,5,1,71,6,115,116,111,110,101,115,7,32,45,49,32,49,32,42,9,1,6,1,1,21,32,88,205,16,32,100,9,66,77,95,83,116,111,110,101,115,32,60,32,51,48,36,1,9,1,6,1,1,9,32,88,24,16,32,61,61,32,49,5,1,115,2,0,2,32,49,9,1,6,1,19,9,32,115,2,0,32,61,61,32,49,6,1,6,21,32,88,205,16,32,100,9,66,77,95,66,101,97,115,116,115,32,60,32,49,48,6,1,4,9,32,115,1,0,32,61,61,32,48,0,16,57,0,84,114,97,118,101,108,32,115,111,117,116,104,46,32,70,105,110,100,32,116,104,101,32,71,111,111,100,32,66,101,97,115,116,32,97,110,100,32,101,97,115,101,32,105,116,115,32,115,117,102,102,101,114,105,110,103,46,0,0,5,1,115,1,0,2,32,49,204,16,9,66,77,95,66,101,97,115,116,115,10,0,255,255,5,1,115,2,0,2,32,48,9,1,8,1,8,21,32,88,205,16,32,100,9,66,77,95,66,101,97,115,116,115,32,61,32,53,48,6,1,6,9,32,115,1,0,32,61,61,32,49,5,1,115,1,0,2,32,50,204,16,9,66,77,95,66,101,97,115,116,115,100,0,255,255,204,16,9,66,77,95,83,116,111,110,101,115,66,0,255,255,5,1,71,6,115,116,111,110,101,115,13,32,71,6,115,116,111,110,101,115,32,49,32,43,12,1,18,97,99,116,95,66,77,95,98,101,97,115,116,95,112,97,114,116,115,218,16,5,1,115,2,0,2,32,48,9,1,7,1,1,5,1,115,2,0,2,32,48,9,1,9,1,1,1]
+}

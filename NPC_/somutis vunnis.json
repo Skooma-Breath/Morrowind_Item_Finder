@@ -1,0 +1,98 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Priest Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_imperial_m_head_03",
+  "KNAM": "b_n_imperial_m_hair_05",
+  "MODL": null,
+  "FNAM": "Somutis Vunnis",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_ring_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": -5,
+      "name": "ingred_black_lichen_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ash_salts_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_dreugh_wax_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kresh_fiber_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_roobrush_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_fire_petal_01"
+    }
+  ],
+  "NPCS": [
+    "crushing burden of sin",
+    "tranasa's spelltrap",
+    "shalidor's mirror",
+    "absorb fatigue [ranged]",
+    "crimson despair",
+    "frostguard",
+    "shockguard",
+    "poisonguard",
+    "magickguard",
+    "feet of notorgo",
+    "vitality",
+    "Troll Strength",
+    "divine aid",
+    "jack of trades",
+    "fortitude",
+    "nimbleness"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 90,
+    "magicka": 114,
+    "fatigue": 234,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [62,57,82,43,59,47,71,40],
+    "skills": [6,6,6,6,47,16,6,6,6,17,38,53,17,38,53,53,38,53,6,6,6,32,6,6,16,37,11]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

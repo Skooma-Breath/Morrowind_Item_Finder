@@ -1,0 +1,613 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2116816273201314971": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "286311551328583410",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled. Join the Imperial Legion again. Then you can return Chrysamere with honor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "286311551328583410": {
+      "flag": 0,
+      "PNAM": "2116816273201314971",
+      "NNAM": "18533321852598013334",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for returning it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 100
+        }
+      ]
+    },
+    "18533321852598013334": {
+      "flag": 0,
+      "PNAM": "286311551328583410",
+      "NNAM": "251206522153139252",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well done, %PCName. I applaud you. For what you have accomplished, I will make you a %NextPCRank.",
+      "BNAM": "Journal \"IL_KnightShield\" 100\r\nPCRaiseRank \"Imperial Legion\"\r\nAddItem \"claymore_chrysamere_unique\" 1\r\nPlayer->RemoveItem \"claymore_chrysamere_unique\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "251206522153139252": {
+      "flag": 0,
+      "PNAM": "18533321852598013334",
+      "NNAM": "19908310741524224999",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is my duty to return Chrysamere to the Legions!",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "147793207175513376": {
+      "flag": 0,
+      "PNAM": "19908310741524224999",
+      "NNAM": "28657131431411516608",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will ask one more time: Give me Chrysamere, or be guilty of treason and die by my hand.",
+      "BNAM": "Choice \"Give him Chrysamere.\" 1 \"Nevermind.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "28657131431411516608": {
+      "flag": 0,
+      "PNAM": "147793207175513376",
+      "NNAM": "2027090723103015924",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you have found Chrysamere, and a fine blade it is! Return it to me and I will make you a %NextPCRank.",
+      "BNAM": "Choice \"Give him Chrysamere.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "claymore_chrysamere_unique",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 50
+        }
+      ]
+    },
+    "2027090723103015924": {
+      "flag": 0,
+      "PNAM": "28657131431411516608",
+      "NNAM": "31963175611400924827",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you not found it yet? It must be returned!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 60
+        }
+      ]
+    },
+    "31963175611400924827": {
+      "flag": 0,
+      "PNAM": "2027090723103015924",
+      "NNAM": "31919795587782922",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "Chrysamere, sometimes called the Paladin's Blade, is a sword of legend. It was in the possession of the Legion for many years, but was stolen by a treacherous Knight. Our spies have heard rumors that it is now in the possession of Draramu Hloran, a powerful sorceress near Sadrith Mora, and no friend of the Legion. Kill her and return Chrysamere to me.",
+      "BNAM": "Journal \"IL_KnightShield\" 60",
+      "SCVR": null
+    },
+    "31919795587782922": {
+      "flag": 0,
+      "PNAM": "31963175611400924827",
+      "NNAM": "1902724394776324421",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "maranique jolvanne",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is a powerful weapon, %PCRace. Designed, they say, to kill spellcasters. Now go from here.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1902724394776324421": {
+      "flag": 0,
+      "PNAM": "31919795587782922",
+      "NNAM": "244882320109814575",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "draramu hloran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You seek the Sword of the Paladins? And what makes you think you deserve it? Because you wear the Imperial crest? Bah! Take it from me then, if you dare.",
+      "BNAM": "SetFight 100\r\nGoodbye",
+      "SCVR": null
+    },
+    "19908310741524224999": {
+      "flag": 0,
+      "PNAM": "251206522153139252",
+      "NNAM": "147793207175513376",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have Chrysamere with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "claymore_chrysamere_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "244882320109814575": {
+      "flag": 0,
+      "PNAM": "1902724394776324421",
+      "NNAM": "32061131621299025489",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!",
+      "BNAM": "SetPCCrimeLevel 100000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "chrysamere",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "claymore_chrysamere_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "32061131621299025489": {
+      "flag": 0,
+      "PNAM": "244882320109814575",
+      "NNAM": "2231822277112262123",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "chrysamere",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "claymore_chrysamere_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "2231822277112262123": {
+      "flag": 0,
+      "PNAM": "32061131621299025489",
+      "NNAM": "492121693103813757",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you.  This will take a prominent place in our collection, as I'm sure it will be very popular for our visitors.",
+      "BNAM": "player->removeitem \"claymore_chrysamere_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\nset chrysamere to 2\r\n\"claymore_chrysamere_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "claymore_chrysamere_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "492121693103813757": {
+      "flag": 0,
+      "PNAM": "2231822277112262123",
+      "NNAM": "24260817624902358",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you.  This will take a prominent place in our collection, as I'm sure it will be very popular for our visitors.",
+      "BNAM": "player->removeitem \"claymore_chrysamere_unique\" 1\r\nplayer->additem \"gold_001\" 30000\r\nset chrysamere to 2\r\n\"claymore_chrysamere_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "claymore_chrysamere_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "24260817624902358": {
+      "flag": 0,
+      "PNAM": "492121693103813757",
+      "NNAM": "387671902114612479",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have Chrysamere with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "claymore_chrysamere_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "387671902114612479": {
+      "flag": 0,
+      "PNAM": "24260817624902358",
+      "NNAM": "9450231651037932278",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, please do take care of it, then.  I'd hate to see something happen to such a valuable weapon.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "9450231651037932278": {
+      "flag": 0,
+      "PNAM": "387671902114612479",
+      "NNAM": "47522309084448926",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, well.  The Paladin's Blade.  A wonderful find, to be sure.  Do you wish to part with it? I can offer you 30000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 4 \"Keep the item.\" 5 \"Donate the item\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "chrysamere",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "47522309084448926": {
+      "flag": 0,
+      "PNAM": "9450231651037932278",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, well.  The Paladin's Blade.  A wonderful find, to be sure.  Do you wish to part with it? I can offer you 30000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 4 \"Keep the item.\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "chrysamere",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

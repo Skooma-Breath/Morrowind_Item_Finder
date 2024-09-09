@@ -1,0 +1,76 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Caravaner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_15",
+  "KNAM": "b_n_dark elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Adondasi Sadalvel",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 10,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [-8681.26953125,-70133.8046875,918.2366333007812,0,0,0.38539817929267883],
+      "DNAM": null
+    },
+    {
+      "destination": [53161.16015625,-48229.4765625,984.1378784179688,0,0,3.1415927410125732],
+      "DNAM": null
+    },
+    {
+      "destination": [103448.5234375,-58400.91015625,1547.869384765625,0,0,1.2000008821487427],
+      "DNAM": null
+    },
+    {
+      "destination": [-21318.51171875,-18232.849609375,1180.838623046875,0,0,0],
+      "DNAM": null
+    }
+  ],
+  "NPDT": {
+    "level": 4,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

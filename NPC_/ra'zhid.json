@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Khajiit",
+  "CNAM": "Smuggler",
+  "ANAM": "",
+  "BNAM": "B_N_Khajiit_M_Head_04",
+  "KNAM": "b_n_khajiit_m_hair05",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ra'Zhid",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 50,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer right"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "key_ra'zhid"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

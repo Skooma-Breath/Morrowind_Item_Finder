@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1758018448169332723": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2435555341558612371",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alvela saram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Now get moving. And remember what I said. Don't shed Ordinator blood. Don't betray our trust.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 15
+        }
+      ]
+    },
+    "2435555341558612371": {
+      "flag": 0,
+      "PNAM": "1758018448169332723",
+      "NNAM": "3009666792526426372",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "alvela saram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "Some of us are sympathetic to the Dissident priests, but kill an Ordinator, and you'll lose that sympathy. You've got rank in the Temple -- maybe you can bluff your way through. Here's the key to the entrance. Now get going.",
+      "BNAM": "; Alvela Saram; Journal \"A2_4_MiloGone\" >= 10; \r\nremoveitem \"Key_Ministry_Ext\" 1\r\nplayer->additem \"Key_Ministry_Ext\" 1\r\nJournal \"A2_4_MiloGone\" 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3009666792526426372": {
+      "flag": 0,
+      "PNAM": "2435555341558612371",
+      "NNAM": "26889233861670824623",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "alvela saram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "Mehra said you would come. I'll say you subdued me with magic and stole my key. It opens all three exterior doors -- the upper back door is best. You'll need other keys for other doors inside. Search for the keys in desks; no one carries keys while on duty. Mehra is in Prison Keep in the cell on the far right. Mehra said you'd bring scrolls to get out.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 10
+        }
+      ]
+    },
+    "26889233861670824623": {
+      "flag": 0,
+      "PNAM": "3009666792526426372",
+      "NNAM": "143728122798129799",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alvela saram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Some of us are sympathetic to the Dissident priests, but kill an Ordinator, and you'll lose that sympathy. Here's the key to the entrance. Now get going.",
+      "BNAM": "; Alvela Saram; Journal \"A2_4_MiloGone\" >= 10; \r\nremoveitem \"Key_Ministry_Ext\" 1\r\nplayer->additem \"Key_Ministry_Ext\" 1\r\nJournal \"A2_4_MiloGone\" 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "143728122798129799": {
+      "flag": 0,
+      "PNAM": "26889233861670824623",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alvela saram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mehra said you would come. I'll say you subdued me with magic and stole my key. It opens all three exterior doors -- the upper back door is best. You'll need other keys for other doors inside. Search for the keys in desks; no one carries keys while on duty. Mehra is in Prison Keep in the cell on the far right. Mehra said you'd bring scrolls to get out.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

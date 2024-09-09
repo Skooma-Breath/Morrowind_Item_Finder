@@ -1,0 +1,292 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "292531804432634565": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2498952861388531122",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are now %PCName the %NextPCRank in the Fighters Guild. Work hard, follow orders, and you'll do just fine. Seek me out if you feel you are ready for advancement.",
+      "BNAM": "PCRaiseRank\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2498952861388531122": {
+      "flag": 0,
+      "PNAM": "292531804432634565",
+      "NNAM": "20537145132165415588",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your duties are to your Lords and brethren. In all ways, proceed with honor and valor. Keep a keen and watchful mind and never succumb to the craven tricks of the weak. As a member, you are permitted to use items in our equipment chest. It is traitorous to fight or thieve from other members of your guild. If you break these rules, you must speak with at least a Warder of the Guild to redeem your standing. Do you feel you can uphold these simple ideals?",
+      "BNAM": "Choice \"You bet!\" 1 \"Nope.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "20537145132165415588": {
+      "flag": 0,
+      "PNAM": "2498952861388531122",
+      "NNAM": "24869190251394419206",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Fighters Guild can forgive your actions this one time only, %PCRank %PCName. Personally, I'd like to kick your backside up around your ears, but there are some who think you might amount to something. You're back in.",
+      "BNAM": "PCClearExpelled",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "24869190251394419206": {
+      "flag": 0,
+      "PNAM": "20537145132165415588",
+      "NNAM": "9302122742326012",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm. No skin off mine.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "9302122742326012": {
+      "flag": 0,
+      "PNAM": "24869190251394419206",
+      "NNAM": "16586289352405617021",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Worthless traitor. Get out of my sight.",
+      "BNAM": "ModDisposition -15\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ExpFightersGuild",
+          "__TV": 1
+        }
+      ]
+    },
+    "16586289352405617021": {
+      "flag": 0,
+      "PNAM": "9302122742326012",
+      "NNAM": "31641126011843119037",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild. We take the Fighters Guild Charter very seriously. If you break the rules just once, we think of it as a lesson. If you clear your name, you can be a member again. Do you wish to clear your name?",
+      "BNAM": "choice \"Yes I do\" 3 \"No. Why should I?\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "31641126011843119037": {
+      "flag": 0,
+      "PNAM": "16586289352405617021",
+      "NNAM": "2739375643256517662",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are already a member of the Fighters Guild, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2739375643256517662": {
+      "flag": 0,
+      "PNAM": "31641126011843119037",
+      "NNAM": "87143819197936888",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You look like you could take care of yourself. Before I sign you up, you might want to look at the Fighters Guild Charter. Are you ready to sign up now?",
+      "BNAM": "Choice \"Sign me up\" 1 \"Read Charter\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "87143819197936888": {
+      "flag": 0,
+      "PNAM": "2739375643256517662",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Fighters Guild can't just sign up anyone. You don't meet our requirements.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

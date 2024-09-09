@@ -1,0 +1,245 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3092611814237015968": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "804738973020830453",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faves andas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already dealt with Brerama Selas, the only Redoran I was worried about. Report back to Aryon and I will handle any Redorans still here in my own time.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_Shishi",
+          "__TV": 50
+        }
+      ]
+    },
+    "804738973020830453": {
+      "flag": 0,
+      "PNAM": "3092611814237015968",
+      "NNAM": "2948081582918918336",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faves andas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you killed Brerama Selas? Excellent. I can handle the other Redorans on my own. I will tell Master Aryon that you assisted me. You might find these books of interest, %PCName. I have already studied them.",
+      "BNAM": "Journal HT_Shishi 50\r\nPlayer->AddItem BookSkill_Alteration5 1\r\nPlayer->AddItem bookskill_destruction3 1\r\nRemoveItem BookSkill_Alteration5 1\r\nRemoveItem bookskill_destruction3 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "brerama selas",
+          "__TV": 1
+        }
+      ]
+    },
+    "2948081582918918336": {
+      "flag": 0,
+      "PNAM": "804738973020830453",
+      "NNAM": "51635771838725669",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faves andas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must kill Brerama Selas. Once she is dead, I will take care of the other Redorans in my time.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "51635771838725669": {
+      "flag": 0,
+      "PNAM": "2948081582918918336",
+      "NNAM": "2273622215745215611",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already ended the Redoran siege of Shishi.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_Shishi",
+          "__TV": 100
+        }
+      ]
+    },
+    "2273622215745215611": {
+      "flag": 0,
+      "PNAM": "51635771838725669",
+      "NNAM": "4997302941717320239",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, the Faves Andas may no longer be living, but the Redorans will not have Shishi either. You have saved a potentially embarrassing situation, %PCName.",
+      "BNAM": "Journal HT_Shishi 100\r\nModPCFacRep 5 \"Telvanni\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "faves andas",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "brerama selas",
+          "__TV": 0
+        }
+      ]
+    },
+    "4997302941717320239": {
+      "flag": 0,
+      "PNAM": "2273622215745215611",
+      "NNAM": "17585208732668524324",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Faves Andes is dead? What about the Redorans in Shishi? Return to Shishi and make sure the leader of the Redorans is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "faves andas",
+          "__TV": 0
+        }
+      ]
+    },
+    "17585208732668524324": {
+      "flag": 0,
+      "PNAM": "4997302941717320239",
+      "NNAM": "1795112152256244005",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am glad to hear that Faves Andes is safe. Perhaps this will keep House Redoran from making any other unwise decisions. Vvardenfell has plenty of land for all three Great Houses. I have prepared for you a Silver Staff of War, another tradition gift of House Telvanni.",
+      "BNAM": "Journal HT_Shishi 100\r\nPlayer->AddItem \"Silver Staff of War\" 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 5\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "brerama selas",
+          "__TV": 0
+        }
+      ]
+    },
+    "1795112152256244005": {
+      "flag": 0,
+      "PNAM": "17585208732668524324",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Several Redoran have infiltrated Shishi and the Telvanni Faves Andes has gone into hiding. Shishi is a Velothi tower in middle of the Foyada Bani-Dad northwest of Maar Gan. Leave Maar Gan, go east past the silt strider, then follow the Foyada north and west. If you cannot find Faves Andes, look for a skull on a desk, which opens a door to a secret storage space.",
+      "BNAM": "Journal HT_Shishi 10\r\nStartScript ShishiOdirniranFights",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_Monopoly",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

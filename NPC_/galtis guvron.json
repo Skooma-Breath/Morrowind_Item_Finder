@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Pawnbroker",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Galtis Guvron",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 14071
+  },
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "steel dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_amulet_03"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "bk_galtisguvronsnote"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    },
+    {
+      "count": -3,
+      "name": "misc_6th_ash_statue_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 71,
+    "magicka": 120,
+    "fatigue": 180,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 600,
+    "attributes": [50,60,35,51,63,44,43,50],
+    "skills": [21,6,6,6,21,11,6,6,41,6,16,6,6,6,11,6,6,21,44,44,29,19,24,19,25,44,29]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

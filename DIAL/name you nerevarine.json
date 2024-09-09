@@ -1,0 +1,177 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "875027284251271012": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "237664615184822521",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have named you Ahemmusa Nerevarine, War Leader of the Ahemmusa, and Protector of the People. You have saved the Ahemmusa. Now we hope that you shall also fulfill the other Nerevarine prophecies.",
+      "BNAM": "; Sinnammu Mirpal; Journal \"B2_AhemmusaSafe\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 50
+        }
+      ]
+    },
+    "237664615184822521": {
+      "flag": 0,
+      "PNAM": "875027284251271012",
+      "NNAM": "212441521742418353",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have named you Ahemmusa Nerevarine, War Leader of the Ahemmusa, and Protector of the People. You have saved the Ahemmusa. Now we hope that you shall also fulfill the other Nerevarine prophecies. I can stay only briefly. Soon I must return to Ahemmusa camp and make preparations to relocate here.",
+      "BNAM": "; Sinnammu Mirpal; Journal \"B2_AhemmusaSafe\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 50
+        }
+      ]
+    },
+    "212441521742418353": {
+      "flag": 0,
+      "PNAM": "237664615184822521",
+      "NNAM": "24256244912999028668",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have made this place safe for the Ahemmusa. And so I name you Ahemmusa Nerevarine, War Leader of the Ahemmusa, and Protector of the People. I also give you the Madstone of the Ahemmusa, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Ahemmusa shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead. Now, I can stay only briefly. Soon I must return to Ahemmusa camp and make preparations to relocate here.",
+      "BNAM": "; Sinnammu Mirpal; Journal \"B2_AhemmusaSafe\" >= 40; \r\nJournal \"B2_AhemmusaSafe\" 50\r\nAiWander 512 6 0 40 30 20 0 0 0 0 0 0\r\nPlayer->AddItem \"Madstone\" 1\r\nPlayer->ModReputation 1\r\nmodDisposition 10\r\nStartScript MoveSinnammu",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 40
+        }
+      ]
+    },
+    "24256244912999028668": {
+      "flag": 0,
+      "PNAM": "212441521742418353",
+      "NNAM": "2540886782558121314",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "han-ammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. You are Erabenimsun Nerevarine, Champion of the Erabenimsun, and Protector of the People, and so shall you be known to all the Ashlander tribes.",
+      "BNAM": "; Han-Ammu; Journal \"B4_KillWarLovers\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 50
+        }
+      ]
+    },
+    "2540886782558121314": {
+      "flag": 0,
+      "PNAM": "24256244912999028668",
+      "NNAM": "14191307252088611793",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "han-ammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. I promise that, as ashkhan, I shall do my best to amend the dark reputation of the Erabenimsun. And as my first action as chief, I now name you Erabenimsun Nerevarine, Champion of the Erabenimsun, and Protector of the People. You must also go to wise woman Manirai and get from her the Seizing of the Erabenimsun, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Erabenimsun have named you Nerevarine.",
+      "BNAM": "; Han-Ammu; Journal \"B4_KillWarLovers\" >= 35\r\nJournal \"B4_KillWarLovers\" 50\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 35
+        }
+      ]
+    },
+    "14191307252088611793": {
+      "flag": 0,
+      "PNAM": "2540886782558121314",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "han-ammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am not the ashkhan. I cannot name you Nerevarine.",
+      "BNAM": "; Han-Ammu; Journal \"B4_KillWarLovers\" >= 35",
+      "SCVR": null
+    }
+  }
+}

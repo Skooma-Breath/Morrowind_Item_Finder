@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Blades",
+  "BNAM": "b_n_nord_m_head_04",
+  "KNAM": "b_n_nord_m_hair04",
+  "MODL": null,
+  "FNAM": "Sjorvar Horse-Mouth",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel battle axe"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_a"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 115,
+    "magicka": 72,
+    "fatigue": 240,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [87,36,46,51,45,56,55,40],
+    "skills": [27,10,37,32,50,50,50,47,10,6,6,6,6,6,6,6,6,6,6,6,6,23,38,6,10,6,23]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

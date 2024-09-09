@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 80,
+    "local_var_size": 18
+  },
+  "SCTX": "Begin wereeffectScript\r\nshort doonce\r\nfloat timepassed\r\n\r\nIf (MenuMode==1)\r\n\tReturn\r\nEndif\r\n\r\nSet timepassed to (timepassed + GetSecondsPassed)\r\n\r\nIf ( timepassed < 2 )\r\n\treturn\r\nelseif ( timepassed > 4 )\r\n\tsetdelete 1\r\nelseif ( timepassed >= 2 )\r\n\tdisable\r\nendif\r\n\r\nEnd wereeffectScript",
+  "SCVR": [
+    "doonce",
+    "timepassed"
+  ],
+  "SCDT": [6,1,1,7,32,88,32,16,61,61,49,36,1,9,1,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,1,8,32,102,1,0,32,60,32,50,36,1,8,1,1,8,32,102,1,0,32,62,32,52,171,17,1,0,8,1,1,9,32,102,1,0,32,62,61,32,50,219,16,9,1,1,1]
+}

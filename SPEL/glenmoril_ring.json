@@ -1,0 +1,35 @@
+{
+  "deleted": false,
+  "SPDT": {
+    "spell_type": 0,
+    "cost": 0,
+    "flags": 4
+  },
+  "FNAM": "Glenmoril Witch Teleport",
+  "ENAM": [
+    {
+      "effect_index": 40,
+      "skill_affected": -1,
+      "attribute_affected": -1,
+      "range": 1,
+      "area": 30,
+      "duration": 0,
+      "magnitude": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "effect_index": 27,
+      "skill_affected": -1,
+      "attribute_affected": -1,
+      "range": 1,
+      "area": 30,
+      "duration": 0,
+      "magnitude": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ]
+}

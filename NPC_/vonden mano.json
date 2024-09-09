@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_19",
+  "MODL": null,
+  "FNAM": "Vonden Mano",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron spear"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    },
+    {
+      "count": 1,
+      "name": "chitin helm"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 208,
+    "magicka": 110,
+    "fatigue": 300,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,55,45,67,86,88,41,40],
+    "skills": [48,21,48,48,64,68,64,64,26,7,17,7,7,7,12,7,7,7,7,7,7,39,59,12,10,7,34]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,10]
+    }
+  ]
+}

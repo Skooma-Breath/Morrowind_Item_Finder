@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 102,
+    "local_var_size": 0
+  },
+  "SCTX": "begin bulfimScript\r\n\r\nif ( GetDisabled == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex TT_Compassion > 49 )\r\n\treturn\r\nendif\r\n\r\nif ( GetSpellEffects \"Rust Chancre\" == 0 )\r\n\tJournal TT_Compassion 50\r\nendif\r\n\r\nend bulfimScript",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,220,16,32,61,61,32,49,36,1,9,1,6,1,1,25,32,88,205,16,32,100,13,84,84,95,67,111,109,112,97,115,115,105,111,110,32,62,32,52,57,36,1,9,1,6,1,1,24,32,88,33,17,32,111,12,82,117,115,116,32,67,104,97,110,99,114,101,32,61,61,32,48,204,16,13,84,84,95,67,111,109,112,97,115,115,105,111,110,50,0,255,255,9,1,1,1]
+}

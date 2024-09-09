@@ -1,0 +1,409 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 7,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Ald Velothi, Ganus Lloryn's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [70,70,70,0],
+    "sunlight": [50,30,20,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-68318": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [4.752999782562256,-123.56600189208984,1.940999984741211,6.270967960357666,0,0]
+    },
+    "0-68321": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [144.09329223632812,56.31975555419922,5.512937545776367,0,0,1.6000001430511475]
+    },
+    "0-68326": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [165.0588836669922,189.0784912109375,-44.155487060546875,0,0,5.683186054229736]
+    },
+    "0-68327": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_pos",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [181.86050415039062,-80.22373962402344,-41.94190979003906,0,0,1.7831863164901733]
+    },
+    "0-68328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_pos",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [186.0230712890625,201.41888427734375,21.215314865112305,0,0,1.7831863164901733]
+    },
+    "0-68329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [95.92113494873047,-89.9114990234375,-42.833797454833984,0,0,4.726990222930908]
+    },
+    "0-68330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [144.28904724121094,-30.4788818359375,-50.269710540771484,4.699999809265137,4.412389278411865,1.200000524520874]
+    },
+    "0-68331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [153.01052856445312,109.80831146240234,-58.511993408203125,0,0,3.0999996662139893]
+    },
+    "0-68332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [153.01052856445312,109.80831146240234,-69.65565490722656,0,0,5.983185768127441]
+    },
+    "0-68333": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [137.53538513183594,2.8562092781066895,-70.1959457397461,0,0,2.8999996185302734]
+    },
+    "0-68334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [132.4077606201172,157.5896453857422,-47.9964714050293,0.0000016167759895324707,6.283184051513672,5.683186054229736]
+    },
+    "0-68335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [116.2601089477539,170.80056762695312,-47.9964714050293,0.0000016167759895324707,6.283184051513672,5.983185768127441]
+    },
+    "0-68336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [177.6378936767578,54.247161865234375,-60.08650588989258,0,0,1.4999996423721313]
+    },
+    "0-68337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [177.52561950683594,57.200016021728516,-70.1959457397461,0,0,1.1999995708465576]
+    },
+    "0-68338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-85.87532043457031,42.278099060058594,-40.85877990722656,0,0,5.083186149597168]
+    },
+    "0-68339": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_empty",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-81.88868713378906,-39.94952392578125,-43.5916862487793,0,0,1.3999998569488525]
+    },
+    "0-68340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_empty",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-74.16500091552734,-91.75690460205078,-43.5916862487793,0,0,0.8999999165534973]
+    },
+    "0-68341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [21.363849639892578,205.25320434570312,0.7984600067138672,0,0,5.083186149597168]
+    },
+    "0-68342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [45.439857482910156,196.73851013183594,-0.5131969451904297,0,0,2.000000238418579]
+    },
+    "0-68343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [90.3945083618164,-38.497154235839844,-57.520999908447266,0,0,0.6003932356834412]
+    },
+    "0-68344": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_04",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [23.829999923706055,163.24200439453125,-12.763999938964844,0.09948376566171646,0,0]
+    },
+    "0-68345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [64.4159927368164,183.5207061767578,-13.398452758789062,4.983186721801758,0.9000000357627869,0.5]
+    },
+    "0-68346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [75.78170776367188,172.59849548339844,-11.00229263305664,0,0,0]
+    },
+    "0-68347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [68.63754272460938,168.40574645996094,-73.10221099853516,4.71238899230957,1.0853981971740723,0]
+    },
+    "0-68348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_02_128",
+      "ANAM": "ganus lloryn",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [92.17621612548828,-94.93925476074219,14.346461296081543,0,0,5.583186149597168]
+    },
+    "0-68350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03",
+      "DATA": [146.85781860351562,89.40503692626953,111.21089172363281,0,0,5.784020900726318]
+    },
+    "0-68351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_03_64",
+      "ANAM": "ganus lloryn",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-13.798914909362793,200.43873596191406,-13.417757034301758,0,0,0.6000000238418579]
+    },
+    "0-68353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_fishing_pole",
+      "ANAM": "ganus lloryn",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-93.96957397460938,3.459244966506958,-15.391077041625977,0.10000097006559372,0.2999998927116394,3.2831878662109375]
+    },
+    "0-68317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_05",
+      "DATA": [64,64,32,0,0,1.5707963705062866]
+    },
+    "0-68319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [141.11196899414062,-109.61656951904297,-11.89523983001709,0.5000004768371582,0,2.683187484741211]
+    },
+    "0-68320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [146.45420837402344,222.0762176513672,-10.647246360778809,5.783185958862305,0,5.383186340332031]
+    },
+    "0-68322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [7.277007579803467,181.36898803710938,-50.35948181152344,0,0,0]
+    },
+    "0-68323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-15.870278358459473,186.89703369140625,-54.28669357299805,4.883186340332031,0.10000048577785492,0.5991638898849487]
+    },
+    "0-68324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-76.76045989990234,98.54116821289062,-43.66765213012695,0,0,1.1000001430511475]
+    },
+    "0-68325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-55.61020278930664,181.11497497558594,5.520479679107666,4.883186340332031,5.4831862449646,5.382350444793701]
+    },
+    "0-68349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [144.6833953857422,86.31974792480469,129.5050048828125,0,0.4000004827976227,5.683186054229736]
+    },
+    "0-68352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [23.130218505859375,134.2317352294922,-59.35779571533203,0,0,0.10000000149011612]
+    },
+    "0-287933": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [413.6080627441406,62.57432556152344,58.54669189453125,0,0,0]
+    },
+    "0-465801": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Boat_Creak00",
+      "DATA": [149.61329650878906,170.852783203125,-116.03223419189453,0,0,0]
+    }
+  }
+}

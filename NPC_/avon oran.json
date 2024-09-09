@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Thief Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_09",
+  "KNAM": "b_n_dark elf_m_hair_18",
+  "MODL": null,
+  "FNAM": "Serjo Avon Oran",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 16480
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver shardblade"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_h"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_pants_01"
+    },
+    {
+      "count": -2,
+      "name": "pick_master"
+    },
+    {
+      "count": -5,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": -2,
+      "name": "probe_master"
+    },
+    {
+      "count": -5,
+      "name": "probe_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "health": 118,
+    "magicka": 128,
+    "fatigue": 248,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [67,64,42,90,93,49,48,40],
+    "skills": [6,6,6,6,6,12,6,6,35,6,16,6,6,6,12,6,6,6,58,58,58,62,68,48,10,42,42]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,10,0,0]
+    }
+  ]
+}

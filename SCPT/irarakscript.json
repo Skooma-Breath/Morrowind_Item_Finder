@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 467,
+    "local_var_size": 17
+  },
+  "SCTX": "begin irarakScript\r\n\r\nshort done\r\nshort dead\r\nshort nolore\r\n\r\nif ( OnDeath == 1 )\r\n\tif ( GetJournalIndex \"VA_VampCult\" >= 20 )\r\n\t\tJournal \"VA_VampCult\" 110\r\n\t\tset dead to -1\r\n\tendif\r\nendif\r\n\r\nif ( dead == -1 )\r\n\treturn\r\nendif\r\n\r\nif ( done == -1 )\r\n\treturn\r\nendif\r\n\r\nif ( done == 2 )\t\t\r\n\r\n\t;check for PC NO LONGER a Berne Vampire\r\n\tif ( player->GetSpell \"Vampire Aundae Specials\" != 1 )\r\n\t\t\tsetfight 90\r\n\t\t\tset done to -1\r\n\tendif\r\n\r\nendif\r\n\r\nif ( done == 1 )\t\t\r\n\r\n\t;check for PC as a Berne Vampire\r\n\tif ( player->GetSpell \"Vampire Berne Specials\" == 1 )\r\n\t\t\tsetfight 30\r\n\t\t\tset done to 2\r\n\tendif\r\nreturn\r\n\r\nendif\r\n\r\nif ( done == 0 )\r\n\tAddSpell, \"Vampire Blood Berne\"\t;this is the blood disease\r\n\tAddSpell, \"Vampire Attributes\"\r\n\tAddSpell, \"Vampire Skills\"\r\n\tAddSpell, \"Vampire Immunities\"\r\n\tAddSpell, \"Vampire Sun Damage\"\r\n\tAddSpell, \"Vampire Touch\"\r\n\tAddSpell, \"Vampire's Kiss\"\r\n\tAddSpell, \"Vampire Berne Specials\"\r\n\tModRestoration 75\r\n\r\n\tset done to 1\r\nendif\r\nend irarakScript\r\n\r\n\r\n",
+  "SCVR": [
+    "done",
+    "dead",
+    "nolore"
+  ],
+  "SCDT": [6,1,4,9,32,88,240,16,32,61,61,32,49,6,1,2,24,32,88,205,16,32,100,11,86,65,95,86,97,109,112,67,117,108,116,32,62,61,32,50,48,204,16,11,86,65,95,86,97,109,112,67,117,108,116,110,0,255,255,5,1,115,2,0,7,32,45,49,32,49,32,42,9,1,9,1,6,1,1,10,32,115,2,0,32,61,61,32,45,49,36,1,9,1,6,1,1,10,32,115,1,0,32,61,61,32,45,49,36,1,9,1,6,1,4,9,32,115,1,0,32,61,61,32,50,12,1,6,112,108,97,121,101,114,6,1,2,35,32,88,31,17,32,111,23,86,97,109,112,105,114,101,32,65,117,110,100,97,101,32,83,112,101,99,105,97,108,115,32,33,61,32,49,0,17,0,0,180,66,5,1,115,1,0,7,32,45,49,32,49,32,42,9,1,9,1,6,1,5,9,32,115,1,0,32,61,61,32,49,12,1,6,112,108,97,121,101,114,6,1,2,34,32,88,31,17,32,111,22,86,97,109,112,105,114,101,32,66,101,114,110,101,32,83,112,101,99,105,97,108,115,32,61,61,32,49,0,17,0,0,240,65,5,1,115,1,0,2,32,50,9,1,36,1,9,1,6,1,10,9,32,115,1,0,32,61,61,32,48,29,17,19,86,97,109,112,105,114,101,32,66,108,111,111,100,32,66,101,114,110,101,29,17,18,86,97,109,112,105,114,101,32,65,116,116,114,105,98,117,116,101,115,29,17,14,86,97,109,112,105,114,101,32,83,107,105,108,108,115,29,17,18,86,97,109,112,105,114,101,32,73,109,109,117,110,105,116,105,101,115,29,17,18,86,97,109,112,105,114,101,32,83,117,110,32,68,97,109,97,103,101,29,17,13,86,97,109,112,105,114,101,32,84,111,117,99,104,29,17,14,86,97,109,112,105,114,101,39,115,32,75,105,115,115,29,17,22,86,97,109,112,105,114,101,32,66,101,114,110,101,32,83,112,101,99,105,97,108,115,106,16,0,0,150,66,5,1,115,1,0,2,32,49,9,1,1,1]
+}

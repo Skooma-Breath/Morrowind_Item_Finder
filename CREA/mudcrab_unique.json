@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\CaveMudcrab.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 1,
+    "attributes": [15,15,0,15,6,15,75,50],
+    "health": 20,
+    "magicka": 5,
+    "fatigue": 400,
+    "soul_strength": 5,
+    "combat_skill": 30,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,5],
+      [1,5],
+      [1,5]
+    ],
+    "gold": 10000
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 50,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10493955
+  },
+  "CNAM": "mudcrab",
+  "FNAM": "Mudcrab",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "random_crab_meat"
+    },
+    {
+      "count": -2,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -3,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": -2,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -3,
+      "name": "potion_comberry_brandy_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,20,0,0,0,0,0]
+    }
+  ]
+}

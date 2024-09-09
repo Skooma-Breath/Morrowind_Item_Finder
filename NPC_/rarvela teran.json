@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Pawnbroker",
+  "ANAM": "Camonna Tong",
+  "BNAM": "b_n_dark elf_f_head_08",
+  "KNAM": "b_n_dark elf_f_hair_09",
+  "MODL": null,
+  "FNAM": "Rarvela Teran",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 14071
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": -2,
+      "name": "pick_apprentice_01"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    },
+    {
+      "count": -2,
+      "name": "probe_apprentice_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 70,
+    "magicka": 126,
+    "fatigue": 179,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [50,63,36,58,68,35,58,50],
+    "skills": [23,6,6,6,23,11,6,6,43,6,16,6,6,6,11,6,6,23,47,47,15,37,25,20,10,47,32]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

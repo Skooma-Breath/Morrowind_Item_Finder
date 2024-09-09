@@ -1,0 +1,625 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2075029345277211314": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2443424536883314001",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "beden giladren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. This pilgrimage has taught me a lesson in humility. I will ponder this lesson for awhile and then continue the pilgrimage.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 70
+        }
+      ]
+    },
+    "2443424536883314001": {
+      "flag": 0,
+      "PNAM": "2075029345277211314",
+      "NNAM": "31249156902947329432",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "beden giladren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I thought the Ashlanders would kill me so I told them that I was a famous noble. I knew it was wrong, but what else could I do?",
+      "BNAM": "Journal HR_FindGiladren 60",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 10
+        }
+      ]
+    },
+    "31249156902947329432": {
+      "flag": 0,
+      "PNAM": "2443424536883314001",
+      "NNAM": "1116555001993319447",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "beden giladren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I'm Beden Giladren. These ashlanders have me trapped here. Can you get me out?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1116555001993319447": {
+      "flag": 0,
+      "PNAM": "31249156902947329432",
+      "NNAM": "1070828590963220854",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The famous noble is no longer enjoying our hospitality.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 100
+        }
+      ]
+    },
+    "1070828590963220854": {
+      "flag": 0,
+      "PNAM": "1116555001993319447",
+      "NNAM": "25753238636428",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He is free to go.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 70
+        }
+      ]
+    },
+    "25753238636428": {
+      "flag": 0,
+      "PNAM": "1070828590963220854",
+      "NNAM": "276295148148942754",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Beden Giladren is free to leave and we can trade with you outlanders for food this winter.",
+      "BNAM": "Journal HR_FindGiladren 75\r\nPlayer->RemoveItem Gold_001 5000\r\nAddItem Gold_001 5000",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "276295148148942754": {
+      "flag": 0,
+      "PNAM": "25753238636428",
+      "NNAM": "21279210302246322895",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Come back when you are ready to pay the ransom.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21279210302246322895": {
+      "flag": 0,
+      "PNAM": "276295148148942754",
+      "NNAM": "1271227115311616258",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do you mean? You have not heard of the famous Redoran noble Beden Giladren?",
+      "BNAM": "Choice \"Nevermind.\" 2 \"He is not famous.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1271227115311616258": {
+      "flag": 0,
+      "PNAM": "21279210302246322895",
+      "NNAM": "25261123842098811934",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He told me that he was a famous noble of House Redoran. Perhaps you should speak with him.",
+      "BNAM": "Journal HR_FindGiladren 55",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "25261123842098811934": {
+      "flag": 0,
+      "PNAM": "1271227115311616258",
+      "NNAM": "1313229475796214858",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. He is free to leave.",
+      "BNAM": "Journal HR_FindGiladren 70\r\nPlayer->RemoveItem Gold_001 5\r\nAddItem Gold_001 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "1313229475796214858": {
+      "flag": 0,
+      "PNAM": "25261123842098811934",
+      "NNAM": "19961202701946116490",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So this \"famous noble\" is a liar and a coward. Very well, you can have him for five drakes.",
+      "BNAM": "Choice \"Nevermind.\" 2 \"Pay 5 drakes.\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 5
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 60
+        }
+      ]
+    },
+    "19961202701946116490": {
+      "flag": 0,
+      "PNAM": "1313229475796214858",
+      "NNAM": "22794228241231620251",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So this \"famous noble\" is a liar and a coward. Very well, you can have him for five drakes.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 60
+        }
+      ]
+    },
+    "22794228241231620251": {
+      "flag": 0,
+      "PNAM": "19961202701946116490",
+      "NNAM": "2017414809104011237",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you heard right. I have the famous noble Beden Giladren. I demand five thousand drakes in ransom. Will you pay?",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2 \"Who?\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 5000
+        }
+      ]
+    },
+    "2017414809104011237": {
+      "flag": 0,
+      "PNAM": "22794228241231620251",
+      "NNAM": "11290774166475888",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manat shimmabadas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you heard right. I have the famous noble Beden Giladren. I demand five thousand drakes in ransom.",
+      "BNAM": "Choice \"Nevermind.\" 2 \"Who?\" 3",
+      "SCVR": null
+    },
+    "11290774166475888": {
+      "flag": 0,
+      "PNAM": "2017414809104011237",
+      "NNAM": "1682274202920515962",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard you rescued the pilgrim. I guess the Ashlander that came here demanding ransom for a famous noble was confused.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 70
+        }
+      ]
+    },
+    "1682274202920515962": {
+      "flag": 0,
+      "PNAM": "11290774166475888",
+      "NNAM": "1120711509191134305",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, maybe. An Ashlander came here the other day demanding tribute for the esteemed noble \"Bindin Gildaran\" or somesuch. I didn't know of any Redoran noble by that name, so I just passed the report on. The Ashlander said to go west out of Maar Gan along the road towards the mountains and then head south along the mountains to get to his camp.",
+      "BNAM": "Journal HR_FindGiladren 30",
+      "SCVR": null
+    },
+    "1120711509191134305": {
+      "flag": 0,
+      "PNAM": "1682274202920515962",
+      "NNAM": "6251132076901714",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Beden Giladren is dead. You have failed House Redoran.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "beden giladren",
+          "__TV": 0
+        }
+      ]
+    },
+    "6251132076901714": {
+      "flag": 0,
+      "PNAM": "1120711509191134305",
+      "NNAM": "157197251675131892",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I wonder if Beden Giladren has finished the pilgrimages.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 100
+        }
+      ]
+    },
+    "157197251675131892": {
+      "flag": 0,
+      "PNAM": "6251132076901714",
+      "NNAM": "5005491322187239",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I heard that you rescued Beden Giladren from the Ashlander camp. I will make sure House Redoran hears of your deeds.",
+      "BNAM": "Journal HR_FindGiladren 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10\r\n\"Beden Giladren\"->Disable",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindGiladren",
+          "__TV": 70
+        }
+      ]
+    },
+    "5005491322187239": {
+      "flag": 0,
+      "PNAM": "157197251675131892",
+      "NNAM": "1734124558584232417",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Beden Giladren was on his way from Ald'ruhn to Maar Gan. I do not know what happened to him. Go to Maar Gan and see if you can find him.",
+      "BNAM": "Journal HR_FindGiladren 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindTharen",
+          "__TV": 100
+        }
+      ]
+    },
+    "1734124558584232417": {
+      "flag": 0,
+      "PNAM": "5005491322187239",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A missing pilgrim? Tralas Rendas at the shrine might know something about it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindGiladren",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

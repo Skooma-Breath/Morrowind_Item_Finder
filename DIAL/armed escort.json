@@ -1,0 +1,147 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "151172146810444407": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "298895681609520594",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hannat zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for your armed escort. I could not have escaped without your help.",
+      "BNAM": ";Hannat Zainsubani;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Hannat",
+          "__TV": 50
+        }
+      ]
+    },
+    "298895681609520594": {
+      "flag": 0,
+      "PNAM": "151172146810444407",
+      "NNAM": "2596230049258271181",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hannat zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you. I will follow you. Please guide me safely outside.",
+      "BNAM": ";Hannat Zainsubani; CHOICE 1;\r\nJournal MS_Hannat 1\r\nAiFollow Player 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2596230049258271181": {
+      "flag": 0,
+      "PNAM": "298895681609520594",
+      "NNAM": "192769906893531710",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hannat zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait for you here.",
+      "BNAM": ";Hannat Zainsubani; CHOICE 2;\r\nAiWander 0 0 0 60 30 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "192769906893531710": {
+      "flag": 0,
+      "PNAM": "2596230049258271181",
+      "NNAM": "31330138002280015493",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hannat zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall I wait for you here?",
+      "BNAM": "Choice \"No, keep folllowing me.\" 1 \"Yes, wait here.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "31330138002280015493": {
+      "flag": 0,
+      "PNAM": "192769906893531710",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hannat zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall I follow you now to the cavern entrance?",
+      "BNAM": ";Hannat Zainsubani; \r\nChoice \"Yes. Follow me.\" 1 \"No. Wait for me here.\" 2",
+      "SCVR": null
+    }
+  }
+}

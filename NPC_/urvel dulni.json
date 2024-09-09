@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_15",
+  "MODL": null,
+  "FNAM": "Urvel Dulni",
+  "SCRI": "dulniScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron club"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05_a"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    }
+  ],
+  "NPCS": [
+    "great open",
+    "strong open",
+    "wild open",
+    "ondusi's open door",
+    "shield",
+    "mark",
+    "recall",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "cure common disease",
+    "rilm's cure",
+    "variable resist common disease",
+    "variable resist fire",
+    "variable resist frost",
+    "variable resist magicka",
+    "variable resist poison",
+    "variable resist shock",
+    "regenerate",
+    "dispel",
+    "detect_creature"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 56,
+    "magicka": 92,
+    "fatigue": 187,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [47,46,54,44,100,42,44,40],
+    "skills": [5,5,5,5,34,10,5,5,100,12,36,41,12,26,46,41,26,41,5,5,5,24,15,10,5,19,5]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

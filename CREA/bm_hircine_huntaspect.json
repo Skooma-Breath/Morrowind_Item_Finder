@@ -1,0 +1,58 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\hircine.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 100,
+    "attributes": [95,100,100,115,40,100,90,100],
+    "health": 1850,
+    "magicka": 350,
+    "fatigue": 1200,
+    "soul_strength": 100,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 100,
+    "attacks": [
+      [85,120],
+      [85,120],
+      [85,120]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Hircine's Aspect of Guile",
+  "SCRI": "aspect3Script",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_hunterspear_unique"
+    },
+    {
+      "count": 1,
+      "name": "key_hircine3"
+    }
+  ],
+  "NPCS": [
+    "BM_paralyze_hirc",
+    "bm_huntresist"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

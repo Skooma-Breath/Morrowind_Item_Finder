@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_09",
+  "KNAM": "b_n_dark elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Mandur Omalen",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 50,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_01"
+    }
+  ],
+  "NPCS": [
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "dispel",
+    "detect_creature"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 118,
+    "magicka": 118,
+    "fatigue": 228,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 350,
+    "attributes": [69,59,49,63,67,47,66,40],
+    "skills": [38,17,17,17,38,22,17,17,22,6,16,6,6,6,47,6,6,27,42,42,27,11,16,11,18,42,27]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

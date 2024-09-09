@@ -1,0 +1,977 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [731978,1061158912]
+  },
+  "NAME": "Sadrith Mora, Volmyni Dral's House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [34,51,66,0],
+    "sunlight": [15,15,25,0],
+    "fog_color": [74,43,11,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-78270": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "volmyni dral",
+      "DATA": [-66.43697357177734,32.154781341552734,138.17904663085938,0,0,0.7853981852531433]
+    },
+    "0-440125": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Mossanon",
+      "DATA": [91.27478790283203,-91.92506408691406,414.3772888183594,0,0,0]
+    },
+    "0-77205": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_door_exit",
+      "DATA": [352,0,128,0,0,1.5707963705062866]
+    },
+    "0-78215": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_28",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-1.992684006690979,-211.40968322753906,431.5653076171875,0,0,6.183185577392578]
+    },
+    "0-78221": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-179.21800231933594,-198.4576416015625,469.6278991699219,0,0,0]
+    },
+    "0-78222": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-148.87611389160156,-200.08331298828125,456.1199951171875,0,0,0]
+    },
+    "0-78223": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-139.70970153808594,-174.28228759765625,454.18499755859375,0,0,0]
+    },
+    "0-78225": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_drawers_02_fcommonde",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [226.13876342773438,-83.19798278808594,442.72216796875,0,0,1.8831872940063477]
+    },
+    "0-78227": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_15_64",
+      "ANAM": "volmyni dral",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [244.6818084716797,-33.1357307434082,499.608154296875,0,0,5.1831865310668945]
+    },
+    "0-78228": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_gold_ran",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [226.5281524658203,-90.53562927246094,496.0634460449219,0,0,1.8831868171691895]
+    },
+    "0-78234": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_07_64",
+      "DATA": [22.366731643676758,120.90467071533203,200.44439697265625,0,0,4.6581854820251465]
+    },
+    "0-78235": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_08",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [8.583357810974121,103.77769470214844,189.34300231933594,0,0,4.683186054229736]
+    },
+    "0-78236": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_08",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [65.29612731933594,90.87579345703125,189.34300231933594,0,0,3.783186197280884]
+    },
+    "0-78237": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [54.79444885253906,144.09951782226562,184.33067321777344,0,0,4.683186054229736]
+    },
+    "0-78238": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [14.946860313415527,150.77305603027344,198.7857666015625,0,0,1.7000004053115845]
+    },
+    "0-78239": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_13",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [47.600746154785156,86.48040008544922,198.60467529296875,0,0,4.383186340332031]
+    },
+    "0-78240": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-0.7146831154823303,85.39933776855469,183.8828887939453,0,0,4.8831868171691895]
+    },
+    "0-78241": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [34.33463668823242,73.65548706054688,183.4434051513672,0,0,5.083186149597168]
+    },
+    "0-78242": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [28.048696517944336,72.45578002929688,183.6012420654297,0,0,5.1831865310668945]
+    },
+    "0-78243": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [84.8392333984375,87.90301513671875,184.2281494140625,0,0,0.7000000476837158]
+    },
+    "0-78244": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [89.46805572509766,130.57489013671875,182.64175415039062,0,0,0]
+    },
+    "0-78245": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [14.757356643676758,78.05023193359375,184.4179229736328,0,0,1.3000000715255737]
+    },
+    "0-78247": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [173.1751251220703,-71.78114318847656,216.8010711669922,0,0,0.3831883668899536]
+    },
+    "0-78248": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_vase",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [154.8981170654297,-91.25718688964844,276.95904541015625,0,0,1.4831874370574951]
+    },
+    "0-78249": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [106.15392303466797,-129.75277709960938,179.19224548339844,0,0,0.5831885933876038]
+    },
+    "0-78250": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [171.59373474121094,-73.24165344238281,179.19224548339844,0,0,0.3831883668899536]
+    },
+    "0-78251": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [166.63636779785156,-84.91268157958984,179.19224548339844,0,0,6.166374206542969]
+    },
+    "0-78252": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [134.9415283203125,-120.2015151977539,185.61297607421875,0,0,0.9831884503364563]
+    },
+    "0-78253": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [132.76419067382812,-109.458984375,259.5048828125,0,0,0.3831883668899536]
+    },
+    "0-78254": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [75.52606964111328,-167.6302947998047,214.84205627441406,0,0,0.3831883668899536]
+    },
+    "0-78255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_glass_peach_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [85.82233428955078,-150.7118682861328,170.60830688476562,0,0,0.3831883668899536]
+    },
+    "0-78256": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_glass_yellow_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [80.60691833496094,-160.1144256591797,260.2474670410156,0,0,5.666374206542969]
+    },
+    "0-78257": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_vase",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [171.13897705078125,-73.47218322753906,277.2347412109375,0,0,1.4831874370574951]
+    },
+    "0-78258": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [146.7572784423828,-97.31903076171875,214.84205627441406,0,0,0.3831883668899536]
+    },
+    "0-78259": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [118.98056030273438,-125.16586303710938,184.044921875,0,0,1.0831884145736694]
+    },
+    "0-78260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [100.06172943115234,-137.5540313720703,213.25086975097656,0,0,5.683186054229736]
+    },
+    "0-78261": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [99.30693054199219,-158.23524475097656,213.44065856933594,0,0,3.4831864833831787]
+    },
+    "0-78262": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [117.75856018066406,-148.0841522216797,213.44065856933594,0,0,4.283185958862305]
+    },
+    "0-78263": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [115.93115997314453,-117.12687683105469,213.99378967285156,0,0,3.9831862449645996]
+    },
+    "0-78264": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [132.0830078125,-123.78092956542969,213.99378967285156,0,0,3.9831862449645996]
+    },
+    "0-78265": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [126.2230453491211,-108.59030151367188,213.99378967285156,0,0,3.9831862449645996]
+    },
+    "0-78266": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [97.8008804321289,-129.6510009765625,275.6426696777344,0,0,3.9831862449645996]
+    },
+    "0-78267": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [120.67324829101562,-135.35484313964844,275.6426696777344,0,0,3.9831862449645996]
+    },
+    "0-78268": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [108.81946563720703,-141.69488525390625,275.6426696777344,0,0,3.9831862449645996]
+    },
+    "0-78269": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "volmyni dral",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [113.00989532470703,-122.23042297363281,275.6426696777344,0,0,3.9831862449645996]
+    },
+    "0-77204": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_01",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-78213": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_2flr_stair",
+      "DATA": [0,0,384,0,0,2.799999713897705]
+    },
+    "0-78214": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_03",
+      "DATA": [194.8594512939453,-43.59608840942383,88.63693237304688,0,0,0]
+    },
+    "0-78216": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [-283.1081848144531,-32.34954071044922,397.53692626953125,0,0,3.1831881999969482]
+    },
+    "0-78217": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [67.11558532714844,69.19984436035156,400.4026184082031,0,0,5.383186340332031]
+    },
+    "0-78218": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [7.174866199493408,-3.226055145263672,397.53692626953125,0,0,5.983185768127441]
+    },
+    "0-78219": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [-183.69224548339844,-35.274925231933594,397.53692626953125,0,0,3.08318829536438]
+    },
+    "0-78220": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [-160.0202178955078,-188.30030822753906,423.8641357421875,0,0,0.5]
+    },
+    "0-78229": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [-23.94519805908203,177.95188903808594,158.7115020751953,0,0,5.610177040100098]
+    },
+    "0-78230": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_01",
+      "DATA": [44.010902404785156,116.07122039794922,154.6256103515625,0,0,2.5831856727600098]
+    },
+    "0-78231": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [109.13241577148438,163.55226135253906,160.93260192871094,0,0,0.7269911766052246]
+    },
+    "0-78232": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [7.1274919509887695,52.05754852294922,158.7114715576172,0,0,3.3977885246276855]
+    },
+    "0-78233": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [102.46720886230469,82.44092559814453,160.93260192871094,0,0,2.3269925117492676]
+    },
+    "0-78246": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [124.72325134277344,-125.13558959960938,202.93638610839844,0,0,2.3831875324249268]
+    },
+    "0-315110": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [451.7922058105469,-313.9963684082031,472.83709716796875,0,0,2.883186101913452]
+    },
+    "0-324473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_food",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-165.9623565673828,136.3140869140625,184.65066528320312,0,0,5.383184909820557]
+    },
+    "0-324475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_food",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-186.73582458496094,89.69668579101562,169.63571166992188,0,0,0]
+    },
+    "0-324476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-196.27008056640625,49.865501403808594,150.49795532226562,0,0,2.7249999046325684]
+    },
+    "0-324477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-159.54039001464844,57.076011657714844,151.6832275390625,0,0,0.6999999284744263]
+    },
+    "0-324478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-141.47439575195312,98.4423599243164,151.6832275390625,0,0,1.75]
+    },
+    "0-324479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [265.4789733886719,11.038019180297852,416.01824951171875,0,0,5.833183288574219]
+    },
+    "0-324480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.4800000190734863,
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [204.47476196289062,-189.38575744628906,422.163330078125,0,0,4.733184814453125]
+    },
+    "0-324481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.03000009059906,
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [150.46510314941406,-188.79005432128906,414.10076904296875,0,0,5.383184432983398]
+    },
+    "0-324482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [211.39549255371094,-89.32022094726562,490.63250732421875,0,0,2.7750000953674316]
+    },
+    "0-324483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [205.02145385742188,-76.0230484008789,491.105712890625,0,0,0]
+    },
+    "0-324484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [208.66018676757812,-83.0633544921875,490.9212646484375,0,0,1.3250000476837158]
+    },
+    "0-324485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [205.54469299316406,-87.0595932006836,491.1068420410156,0,0,1.3250000476837158]
+    },
+    "0-324486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [211.58692932128906,-75.12438201904297,490.7599792480469,0,0,2.7750000953674316]
+    },
+    "0-324487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_ingred",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-231.6036376953125,-143.96450805664062,434.47283935546875,0,0,1.375]
+    },
+    "0-324488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_02_food",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-258.73822021484375,-95.4139175415039,451.1333312988281,0,0,1.3249998092651367]
+    },
+    "0-324489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 0.940000057220459,
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-222.2552032470703,-92.10989379882812,397.71270751953125,0,0,1.5]
+    },
+    "0-324490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 0.940000057220459,
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-225.00933837890625,-88.71427917480469,407.5289306640625,0,0,1.6249998807907104]
+    },
+    "0-324491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-190.3705291748047,-69.47513580322266,417.1782531738281,0,0,2.5249998569488525]
+    },
+    "0-324492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_02_128",
+      "ANAM": "volmyni dral",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-166.4761199951172,-168.1305389404297,482.2259826660156,0,0,0.6749999523162842]
+    },
+    "0-324493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_07_64",
+      "DATA": [73.85979461669922,111.71149444580078,200.44439697265625,0,0,4.683186054229736]
+    },
+    "0-324494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_05",
+      "DATA": [-92.7063980102539,58.65779113769531,613.6453247070312,0,0,5.233185291290283]
+    },
+    "0-324495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_07",
+      "XSCL": 0.7900000214576721,
+      "DATA": [152.6242218017578,-19.71471405029297,661.0386962890625,0,0,3.1000003814697266]
+    },
+    "0-324496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_03",
+      "DATA": [-216.60411071777344,36.07962417602539,522.0787353515625,0,0,0]
+    },
+    "0-324497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_07",
+      "XSCL": 0.7900000214576721,
+      "DATA": [-225.2567138671875,20.338109970092773,637.5361938476562,0,0,2.125000238418579]
+    },
+    "0-324498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_03",
+      "DATA": [136.0244598388672,-52.30936050415039,731.5997314453125,0,0,0]
+    },
+    "0-324474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_food",
+      "ANAM": "volmyni dral",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-124.76599884033203,169.67999267578125,169.63600158691406,0,0,5.408775329589844]
+    },
+    "0-442905": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "XSCL": 1.0700000524520874,
+      "DATA": [-70.25074005126953,-218.09649658203125,437.7733459472656,0,5.883185863494873,0]
+    },
+    "0-442906": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_15_64",
+      "ANAM": "volmyni dral",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [207.51058959960938,-138.31997680664062,499.608154296875,0,0,0]
+    },
+    "0-442907": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "XSCL": 1.1800000667572021,
+      "DATA": [39.329952239990234,62.08123779296875,124.78592681884766,0,0,0.4000000059604645]
+    },
+    "0-442908": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_01",
+      "DATA": [183.16893005371094,91.83037567138672,441.9297180175781,0,0,4.983186721801758]
+    },
+    "0-442909": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_128",
+      "DATA": [-9.229785919189453,-63.823753356933594,675.9257202148438,0,0,0]
+    },
+    "0-442910": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_02",
+      "DATA": [-18.89419937133789,-15.073774337768555,193.6215362548828,0.10000001639127731,0,0]
+    },
+    "0-469277": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_02",
+      "DATA": [325.25323486328125,48.119873046875,149.52850341796875,0,0,0.40000003576278687]
+    },
+    "0-480702": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [151.26316833496094,-99.2923812866211,189.00927734375,0,0,0.7853981852531433]
+    },
+    "0-480703": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_02",
+      "DATA": [16.872814178466797,59.156944274902344,194.0706329345703,6.183185577392578,0,2.299999952316284]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Clannfear_Daddy.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 11,
+    "attributes": [100,50,80,50,20,50,50,50],
+    "health": 170,
+    "magicka": 165,
+    "fatigue": 1000,
+    "soul_strength": 165,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [11,33],
+      [11,33],
+      [11,33]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "ogrim",
+  "FNAM": "Ogrim",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_daedra_heart"
+    }
+  ],
+  "NPCS": [
+    "regenerate [ability]",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,20,10,20,0,0,0,0]
+    }
+  ]
+}

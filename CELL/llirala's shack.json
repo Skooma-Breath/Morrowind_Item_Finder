@@ -1,0 +1,361 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1973790,1065353216]
+  },
+  "NAME": "Llirala's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [30,30,30,0],
+    "fog_density": 1
+  },
+  "FRMR": {
+    "0-150564": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "llirala sendas",
+      "DATA": [-12.202510833740234,70.61636352539062,-83.51309204101562,0,0,2.700000047683716]
+    },
+    "0-150557": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [185.02200317382812,-48.45600128173828,-2.506999969482422,0,0,4.71238899230957]
+    },
+    "0-150558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-118.52275085449219,72.21653747558594,-85.47622680664062,0,0,4.562389373779297]
+    },
+    "0-150559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_sanctus",
+      "ANAM": "llirala sendas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-120.80147552490234,-137.1507568359375,-69.12033081054688,0,0,3.208185911178589]
+    },
+    "0-150561": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_03_64",
+      "ANAM": "llirala sendas",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [141.94326782226562,84.2694091796875,-20.503812789916992,0,0,0]
+    },
+    "0-150562": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "llirala sendas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [129.91807556152344,122.90669250488281,-21.880630493164062,0,0,0]
+    },
+    "0-150563": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "llirala sendas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [138.09149169921875,99.9426040649414,-18.33279037475586,0,0,0]
+    },
+    "0-150556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_03",
+      "DATA": [0,0,0,0,0,0]
+    },
+    "0-150560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [138.06455993652344,87.08507537841797,-55.996917724609375,0,0,4.783186912536621]
+    },
+    "0-269205": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-143.23336791992188,-350.32806396484375,-11.48651123046875,0,0,0.09999895095825195]
+    },
+    "0-359818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-47.9369010925293,146.46795654296875,-69.2557601928711,0,0,4.208185195922852]
+    },
+    "0-359819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [92.36993408203125,96.41889953613281,-72.2579116821289,0,0,4.983185768127441]
+    },
+    "0-359820": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-10.831378936767578,139.86924743652344,-57.79252624511719,0,0,0.5000004768371582]
+    },
+    "0-359821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [97.26107025146484,-129.85508728027344,-70.00911712646484,4.15818452835083,4.033185005187988,5.733185768127441]
+    },
+    "0-359822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [85.09603881835938,142.88890075683594,-67.7765884399414,0,0,3.9831855297088623]
+    },
+    "0-359823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [18.051326751708984,114.96697998046875,-69.2557601928711,0,0,2.858185291290283]
+    },
+    "0-359824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [72.68086242675781,-82.64280700683594,131.96060180664062,0,0,0.6999994516372681]
+    },
+    "0-359825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_08_128",
+      "DATA": [69.836181640625,-83.04417419433594,112.4666519165039,0,0,6.108184814453125]
+    },
+    "0-359826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood20",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-154.33349609375,-83.72415924072266,-57.33168411254883,0,0,6.133184909820557]
+    },
+    "0-359827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-161.144287109375,-39.11933135986328,-70.87704467773438,0,0,1.7999998331069946]
+    },
+    "0-359828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-112.25474548339844,-100.17974090576172,-70.87704467773438,0,0,1.0499999523162842]
+    },
+    "0-359829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [155.1680145263672,66.10578918457031,-8.963336944580078,0,0,0.9499999284744263]
+    },
+    "0-359830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [158.39320373535156,106.37134552001953,-9.014778137207031,0,0,0.025000013411045074]
+    },
+    "0-359831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [158.16015625,86.328125,-9.014778137207031,0,0,0.30000001192092896]
+    },
+    "0-359832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [169.20538330078125,52.55228805541992,-72.46428680419922,0,0,3.1500000953674316]
+    },
+    "0-359833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ash_yam_01",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [118.74674987792969,77.98201751708984,-25.14661407470703,0,0,1.8250000476837158]
+    },
+    "0-359834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ash_yam_01",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [123.35472869873047,97.87997436523438,-24.803714752197266,0,0,1.774999976158142]
+    },
+    "0-359835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ash_yam_01",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [120.83018493652344,86.06230163574219,-25.14661407470703,0,0,1.149999976158142]
+    },
+    "0-359836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [39.1328125,144.34889221191406,-57.79252624511719,0,0,6.008185863494873]
+    },
+    "0-359837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-51.5311279296875,-139.1431427001953,-58.44877624511719,0,0,0.6250002384185791]
+    },
+    "0-359838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "llirala sendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [44.95473861694336,-135.2901611328125,-58.44877624511719,0,0,0.6250002384185791]
+    },
+    "0-441964": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-93.00224304199219,77.40419006347656,114.29745483398438,0,0,0.6999994516372681]
+    },
+    "0-441965": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-95.84691619873047,77.0028305053711,94.80351257324219,0,0,6.108184814453125]
+    },
+    "0-441966": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-160.74769592285156,152.58285522460938,48.92439651489258,0,0,0]
+    }
+  }
+}

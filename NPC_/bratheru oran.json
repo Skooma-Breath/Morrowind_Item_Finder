@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Nightblade Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_10",
+  "KNAM": "b_n_dark elf_m_hair_13",
+  "MODL": null,
+  "FNAM": "Bratheru Oran",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel spider blade"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 40,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "paralysis",
+    "hide",
+    "sotha's grace",
+    "crying eye",
+    "ondusi's open door",
+    "night-eye",
+    "earwig",
+    "shadow form",
+    "feather"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 63,
+    "magicka": 94,
+    "fatigue": 199,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [46,47,56,53,71,44,38,40],
+    "skills": [6,6,6,6,6,11,6,6,11,14,39,44,44,14,49,14,14,29,21,36,6,26,46,26,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

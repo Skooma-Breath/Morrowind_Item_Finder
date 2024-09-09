@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 65,
+    "local_var_size": 5
+  },
+  "SCTX": "begin vamppapersScript\r\n\r\nshort done\r\n\r\nif ( done == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( onactivate == 1 )\r\n\r\n\tJournal MS_VampireCure 10\r\n\tset done to 1\r\n\tactivate\r\n\r\nendif\r\n\r\nend",
+  "SCVR": [
+    "done"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,49,36,1,9,1,6,1,3,9,32,88,24,16,32,61,61,32,49,204,16,14,77,83,95,86,97,109,112,105,114,101,67,117,114,101,10,0,255,255,5,1,115,1,0,2,32,49,23,16,9,1,1,1]
+}

@@ -1,0 +1,348 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "293362909430451391": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1987530856903725209",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So, %PCName. Are you looking for orders? Or did you have a question about the Blade Trainers?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 14
+        }
+      ]
+    },
+    "1987530856903725209": {
+      "flag": 0,
+      "PNAM": "293362909430451391",
+      "NNAM": "2770528437160922231",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Welcome to the service, Novice %PCName. Now you belong to the Blades. We're the Emperor's eyes and ears in the provinces. You can use my bed if you need to rest, but leave my personal stuff alone unless I say otherwise. If you like, you can improve your modest skills with our Blades Trainers now. Or if you're in a hurry. I can give you orders right away. But don't forget to visit the Blades Trainers.",
+      "BNAM": "Journal, \"A1_1_FindSpymaster\", 14\r\nPCJoinFaction \"Blades\"\r\nmodDisposition 10\r\n\"Rithleen\"->modDisposition 20\r\n\"Tyermaillin\"->modDisposition 20\r\n\"Nine_Toes\"->modDisposition 20\r\n\"Surane Leoriane\"->modDisposition 20\r\n\"Gildan\"->modDisposition 20\r\n\"Sjorvar Horse-Mouth\"->modDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "2770528437160922231": {
+      "flag": 0,
+      "PNAM": "1987530856903725209",
+      "NNAM": "196929754891015386",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fine. Then get out of here, and come back when you are ready.",
+      "BNAM": "Journal, \"A1_1_FindSpymaster\", 12\r\nModDisposition, -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "196929754891015386": {
+      "flag": 0,
+      "PNAM": "2770528437160922231",
+      "NNAM": "43741759216181215",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you ready to join the Blades and follow my orders, as the Emperor commands?",
+      "BNAM": "Choice, \"Yes\", 3, \"No\", 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 12
+        }
+      ]
+    },
+    "43741759216181215": {
+      "flag": 0,
+      "PNAM": "196929754891015386",
+      "NNAM": "99237612474718017",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. Very interesting. So. It says here the Emperor wants me to make you a Novice in the Blades. And that means you'll be following my orders. Are you ready to follow my orders, %PCName?",
+      "BNAM": "Player->RemoveItem, \"bk_A1_1_CaiusPackage\", 1\r\nChoice, \"Yes\", 3, \"No\", 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "99237612474718017": {
+      "flag": 0,
+      "PNAM": "43741759216181215",
+      "NNAM": "1622410256110484714",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then we have nothing to talk about... until you're ready to give me the package. Goodbye.",
+      "BNAM": "Journal, \"A1_1_FindSpymaster\", 11\r\nModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "1622410256110484714": {
+      "flag": 0,
+      "PNAM": "99237612474718017",
+      "NNAM": "15425327421904220202",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. Are you ready to give me the package?",
+      "BNAM": "Choice, \"Yes\", 1, \"No\", 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_a1_1_caiuspackage",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 11
+        }
+      ]
+    },
+    "15425327421904220202": {
+      "flag": 0,
+      "PNAM": "1622410256110484714",
+      "NNAM": "26751152351377319357",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. You say your name is %PCName, and you've been told to report to me and deliver a package. But... let me see if I have this right... you don't HAVE the package? So... come back to me when you HAVE the package. Simple, right? I'm not speaking too quickly for you, I hope. Goodbye.",
+      "BNAM": "ModDisposition, -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_a1_1_caiuspackage",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "26751152351377319357": {
+      "flag": 0,
+      "PNAM": "15425327421904220202",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. You say your name is %PCName, and you've been told to report to me and deliver a package. Perhaps you'll let me look at it?",
+      "BNAM": "Choice, \"Yes\", 1, \"No\", 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

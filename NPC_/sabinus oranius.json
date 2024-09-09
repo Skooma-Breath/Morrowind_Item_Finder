@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Commoner",
+  "ANAM": "East Empire Company",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_03",
+  "MODL": null,
+  "FNAM": "Sabinus Oranius",
+  "SCRI": "SabinusScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 50,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_Wool01_shirt"
+    },
+    {
+      "count": 1,
+      "name": "BM_Wool01_shoes"
+    },
+    {
+      "count": 1,
+      "name": "BM_Wool01_pants"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

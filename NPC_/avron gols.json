@@ -1,0 +1,104 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Scout",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_18",
+  "MODL": null,
+  "FNAM": "Avron Gols",
+  "SCRI": "strongholdServices",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_cuirass"
+    }
+  ],
+  "NPCS": [
+    "burden touch",
+    "feather",
+    "fire barrier",
+    "frost barrier",
+    "jump",
+    "strong levitate",
+    "levitate",
+    "great open",
+    "strong open",
+    "wild open",
+    "shield",
+    "first barrier",
+    "second barrier",
+    "shock barrier"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 153,
+    "magicka": 108,
+    "fatigue": 264,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [63,54,64,69,65,68,48,40],
+    "skills": [50,13,50,13,13,54,13,13,54,6,16,28,6,6,11,6,28,28,6,43,6,33,16,33,15,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Shalk.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [30,30,40,30,20,30,30,30],
+    "health": 80,
+    "magicka": 30,
+    "fatigue": 400,
+    "soul_strength": 30,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "shalk",
+  "FNAM": "Blighted Shalk",
+  "SCRI": "diseaseAshWoe",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ingred_shalk_resin_01"
+    },
+    {
+      "count": 1,
+      "name": "random_shalk_resin"
+    }
+  ],
+  "NPCS": [
+    "ash woe blight",
+    "immune to fire",
+    "weakness frost_60",
+    "shalk_firebite"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,30,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Thief",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_wood elf_m_head_04",
+  "KNAM": "b_n_wood elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Celegorn",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 70,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel jinkblade"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 67,
+    "magicka": 106,
+    "fatigue": 197,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [44,53,36,82,78,35,50,40],
+    "skills": [6,6,6,6,6,6,6,6,23,6,6,6,6,6,6,6,11,6,47,57,52,57,47,47,32,32,32]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

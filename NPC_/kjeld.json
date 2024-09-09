@@ -1,0 +1,99 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Smith",
+  "ANAM": "Clan Quarra",
+  "BNAM": "b_v_nord_m_head_01",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Kjeld",
+  "SCRI": "Vampire_Quarra",
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "fur_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "fur_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "fur_boots"
+    },
+    {
+      "count": 1,
+      "name": "fur_greaves"
+    },
+    {
+      "count": 1,
+      "name": "fur_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "l_m_wpn_melee_blunt"
+    },
+    {
+      "count": -10,
+      "name": "repair_journeyman_01"
+    },
+    {
+      "count": -10,
+      "name": "repair_master_01"
+    }
+  ],
+  "NPCS": [
+    "weakening touch",
+    "deadly poison [ranged]",
+    "weakness to blight disease",
+    "weakness to corprus disease",
+    "weakness to common disease",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "wrath of uthol",
+    "god's spark",
+    "poison_powerful"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 166,
+    "magicka": 86,
+    "fatigue": 287,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 950,
+    "attributes": [95,43,63,59,53,70,37,40],
+    "skills": [53,38,48,58,63,58,27,22,17,6,42,6,6,6,6,27,27,6,6,6,6,6,6,6,10,6,27]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

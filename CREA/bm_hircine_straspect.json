@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Hircine_Bear_larger.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 100,
+    "attributes": [120,100,100,100,20,100,90,100],
+    "health": 2000,
+    "magicka": 350,
+    "fatigue": 1200,
+    "soul_strength": 100,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 100,
+    "attacks": [
+      [100,140],
+      [100,140],
+      [100,140]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Hircine's Aspect of Strength",
+  "SCRI": "aspect1Script",
+  "XSCL": 2,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "bm_amulstr1"
+    },
+    {
+      "count": 1,
+      "name": "key_hircine3"
+    }
+  ],
+  "NPCS": [
+    "bm_strresist"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

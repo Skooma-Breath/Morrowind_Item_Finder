@@ -1,0 +1,484 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "960712326231912442": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "312172411613036584",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with Llerar Mandas. He is the father of Arethan Mandas.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "312172411613036584": {
+      "flag": 0,
+      "PNAM": "960712326231912442",
+      "NNAM": "303623957312006576",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llerar mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My granddaughter is dead, and you are to blame.",
+      "BNAM": "ModDisposition -20\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "delyna mandas",
+          "__TV": 1
+        }
+      ]
+    },
+    "303623957312006576": {
+      "flag": 0,
+      "PNAM": "312172411613036584",
+      "NNAM": "313123618118671746",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llerar mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I can't prove anything, but I believe you are responsible for my son's death. I have nothing to say to you.",
+      "BNAM": "ModDisposition -20\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "arethan mandas",
+          "__TV": 1
+        }
+      ]
+    },
+    "313123618118671746": {
+      "flag": 0,
+      "PNAM": "303623957312006576",
+      "NNAM": "1563230434265494961",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llerar mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for bringing my son back to his senses.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 110
+        }
+      ]
+    },
+    "1563230434265494961": {
+      "flag": 0,
+      "PNAM": "313123618118671746",
+      "NNAM": "3630250442125712494",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llerar mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I heard my son had gone mad. I fear his madness was caused when his daughter, Delyna Mandas, was captured.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 10
+        }
+      ]
+    },
+    "3630250442125712494": {
+      "flag": 0,
+      "PNAM": "1563230434265494961",
+      "NNAM": "3204228298582620934",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know that my father was mad... but I can't forgive you for killing him. Please leave.",
+      "BNAM": "AiWander 0 0 0 60 30 10 0 0 0 0 0 0\r\nSet doOnce to 1\r\nModDisposition -75\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "arethan mandas",
+          "__TV": 0
+        }
+      ]
+    },
+    "3204228298582620934": {
+      "flag": 0,
+      "PNAM": "3630250442125712494",
+      "NNAM": "13995244992596128827",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for delivering the locket to my father.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 110
+        }
+      ]
+    },
+    "13995244992596128827": {
+      "flag": 0,
+      "PNAM": "3204228298582620934",
+      "NNAM": "430315279577012399",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take the locket to him so that he will know that I am safe. Since our manor was destroyed by Corprus monsters, I do not know where my father is staying. His old friend Athyn Sarethi in Ald'ruhn should know.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_RansomMandas",
+          "__TV": 90
+        }
+      ]
+    },
+    "430315279577012399": {
+      "flag": 0,
+      "PNAM": "13995244992596128827",
+      "NNAM": "1926246191801826861",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I want you to take my locket to him. Let him know that I am safe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_RansomMandas",
+          "__TV": 70
+        }
+      ]
+    },
+    "1926246191801826861": {
+      "flag": 0,
+      "PNAM": "430315279577012399",
+      "NNAM": "18449137651122414208",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delyna mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard my father went mad with grief when I was captured. I did not know how bad things were. I will see him as soon as I can. If we travel together away from here, I will give you a locket to deliver to him.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "18449137651122414208": {
+      "flag": 0,
+      "PNAM": "1926246191801826861",
+      "NNAM": "13446218752116128453",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Arethan Mandas no longer troubles the travelers to Maar Gan. I will visit him when I can. Perhaps Delyna and some of his friends can keep him from Sheogorath's grasp.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 110
+        }
+      ]
+    },
+    "13446218752116128453": {
+      "flag": 0,
+      "PNAM": "18449137651122414208",
+      "NNAM": "59169665234742575",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Arethan Mandas no longer troubles the travelers to Maar Gan.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 100
+        }
+      ]
+    },
+    "59169665234742575": {
+      "flag": 0,
+      "PNAM": "13446218752116128453",
+      "NNAM": "14485278413252712632",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "From what you say, perhaps Arethan has not totally regained his senses, but his guards have stopped demanding tribute from travelers. I did not believe it could be done. I am proud of you this day, %PCName.",
+      "BNAM": "Journal HR_MadMilk 110\r\nModPCFacRep 10 \"Redoran\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 70
+        }
+      ]
+    },
+    "14485278413252712632": {
+      "flag": 0,
+      "PNAM": "59169665234742575",
+      "NNAM": "111953247520498920",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Mad Lord is no more. While I would rather not see an old friend die, he was probably beyond the aid of even the best Temple healers. I cannot fault you for not finding a way to cure him.",
+      "BNAM": "Journal HR_MadMilk 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "arethan mandas",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MadMilk",
+          "__TV": 10
+        }
+      ]
+    },
+    "111953247520498920": {
+      "flag": 0,
+      "PNAM": "14485278413252712632",
+      "NNAM": "2852529902886128917",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I would prefer that Arethan Mandas be cured of his madness, rather than killed. You might want to go to Ebonheart and speak with Llerar Mandas, Arethan's father.",
+      "BNAM": "Journal HR_MadMilk 10\r\nShowMap \"Maar Gan\"\r\nShowMap \"Ebonheart\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Shurinbaal",
+          "__TV": 100
+        }
+      ]
+    },
+    "2852529902886128917": {
+      "flag": 0,
+      "PNAM": "111953247520498920",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You can find him in the cavern of Milk. On the Ald'ruhn-Caldera Road, west of Ald'ruhn, two crossroads marked by signposts are very close to one another. To reach Milk, head west from the 'Gnisis' sign on the westmost signpost, and watch right for a north-branching path to Milk. The Mad Lord has a few loyal followers and some outlaws have joined his \"estate.\" They will protect Arethan Mandas with their lives.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Shurinbaal",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

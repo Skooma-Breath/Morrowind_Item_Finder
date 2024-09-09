@@ -1,0 +1,343 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 1,
+    "grid": [2631730,0]
+  },
+  "NAME": "Sotha Sil, Dome of Serlyn",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [0,0,0,0],
+    "sunlight": [78,78,78,0],
+    "fog_color": [50,40,40,0],
+    "fog_density": 0
+  },
+  "FRMR": {
+    "1-11648": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "door_sotha_load",
+      "DATA": [4352,4256,12576,0,0,0]
+    },
+    "1-14119": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "door_sotha_mach_door2",
+      "DATA": [4352,5992,12480,0,0,4.71238899230957]
+    },
+    "1-11655": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_mach_door1",
+      "DATA": [4352,5120,12480,0,0,4.712388515472412]
+    },
+    "1-11656": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_powertubes",
+      "DATA": [4352,5120,12480,0,0,0]
+    },
+    "1-11669": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_monster1",
+      "XSCL": 0.5,
+      "DATA": [4641.69140625,5090.96435546875,12600,4.71238899230957,4.912389278411865,4.7123894691467285]
+    },
+    "1-11670": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_monster2",
+      "XSCL": 0.5,
+      "DATA": [4642.1162109375,5140.27490234375,12600,4.71238899230957,4.412389755249023,4.7123894691467285]
+    },
+    "1-14124": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_mach_door2",
+      "DATA": [4352,5112,12480,0,0,1.570796251296997]
+    },
+    "1-11651": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_mon_mach",
+      "DATA": [4352,5120,12480,0,0,4.71238899230957]
+    },
+    "1-25551": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_red10",
+      "DATA": [4650,5150.00146484375,12616,0,0,0]
+    },
+    "1-25552": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_red00",
+      "DATA": [4648,5082.49267578125,12616,0,0,0]
+    },
+    "1-25553": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_green00",
+      "DATA": [4648,5082.4931640625,12616,0,0,0]
+    },
+    "1-25554": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_green10",
+      "DATA": [4650.001953125,5150.001953125,12616,0,0,0]
+    },
+    "1-25555": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_steam00",
+      "DATA": [4484,4806,12028,0,0,1.5707963705062866]
+    },
+    "1-25556": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_steam00",
+      "DATA": [4228,4810,12028,0,0,0]
+    },
+    "1-25685": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_steam10",
+      "DATA": [4106.60205078125,5361.9736328125,12079.7861328125,0,0,0]
+    },
+    "1-25686": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_steam10",
+      "DATA": [4577.94384765625,5379.57958984375,12079.7861328125,0,0,0]
+    },
+    "1-25687": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_collide",
+      "DATA": [4352,5120,12481,0,0,4.71238899230957]
+    },
+    "1-11650": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_dome00",
+      "DATA": [4352,5120,12480,0,0,0]
+    },
+    "1-11652": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pillars01",
+      "DATA": [4352,5120,12672,0,0,0]
+    },
+    "1-11657": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear03",
+      "XSCL": 2,
+      "DATA": [5120,5112,13304,0,2.356194496154785,0]
+    },
+    "1-11658": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear00",
+      "DATA": [4888,5816,12976,4.71238899230957,0.7853981852531433,0]
+    },
+    "1-11659": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear00",
+      "DATA": [3816,5824,12976,1.5707963705062866,3.9269909858703613,1.5707963705062866]
+    },
+    "1-11660": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear01",
+      "DATA": [4032,5984,12704,1.5707963705062866,0.38539808988571167,0]
+    },
+    "1-11661": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear02",
+      "DATA": [4352,4840,12848,5.083186626434326,0.10000013560056686,4.983186721801758]
+    },
+    "1-11662": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear00",
+      "DATA": [4248,5360,12920,0.9999995231628418,0.38318759202957153,1.2000001668930054]
+    },
+    "1-11663": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear01",
+      "DATA": [4136,4896,12688,4.8831868171691895,3.899998664855957,1.2000001668930054]
+    },
+    "1-11664": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear02",
+      "DATA": [4680,4368,13160,5.383186340332031,2.799999475479126,3.599998950958252]
+    },
+    "1-11665": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear03",
+      "DATA": [4016,4224,12672,4.783186912536621,3.4999988079071045,1.6000001430511475]
+    },
+    "1-11667": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_gear03",
+      "XSCL": 0.5,
+      "DATA": [4120,5144,12888,0.4000000059604645,1.2000001668930054,0]
+    },
+    "1-11671": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [4224,4000,12608,0,0,4.71238899230957]
+    },
+    "1-14120": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_sparks_hi",
+      "DATA": [4032,5120,13568,0,0,0]
+    },
+    "1-14121": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_sparks_hi",
+      "DATA": [4352,5440,13568,0,0,0]
+    },
+    "1-14122": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_sparks_hi",
+      "DATA": [4672,5120,13568,0,0,0]
+    },
+    "1-14123": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_sparks_hi",
+      "DATA": [4352,4800,13568,0,0,0]
+    },
+    "1-14125": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_doorjam00",
+      "DATA": [4352,4224,12480,0,0,0]
+    },
+    "1-21655": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ghostgate glow",
+      "DATA": [4742.1044921875,5117.9853515625,12647.0234375,0,0,0]
+    },
+    "1-21656": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [4621.66015625,4406.7109375,12917.8671875,0,0,0]
+    },
+    "1-21657": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [4043.847412109375,5897.27685546875,12737.7861328125,0,0,0]
+    },
+    "1-21658": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [4121.91162109375,4910.13330078125,12795.9267578125,0,0,0]
+    },
+    "1-24750": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Amb",
+      "DATA": [4983.19091796875,5066.43115234375,12704.8662109375,0,0,0]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Pilgrim",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Fedris Tharen",
+  "SCRI": "fedrisTharenScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "chitin dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 2,
+      "name": "ingred_dreugh_wax_01"
+    },
+    {
+      "count": 10,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "powerwell",
+    "poet's whim",
+    "great resist common disease",
+    "variable resist corprus disease",
+    "great resist fire",
+    "great resist frost",
+    "great resist magicka",
+    "strong resist magicka",
+    "greater resist poison",
+    "magickguard",
+    "strong resist poison",
+    "great resist shock",
+    "stamina",
+    "cure common disease victim",
+    "chills"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "health": 57,
+    "magicka": 84,
+    "fatigue": 172,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [42,42,33,44,53,53,45,40],
+    "skills": [17,5,32,5,5,10,5,5,10,5,15,5,17,5,10,32,17,5,11,11,11,16,33,43,38,38,23]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

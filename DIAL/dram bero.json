@@ -1,0 +1,653 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "872311178318002136": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2032820648136712722",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've broken the rules of House Hlaalu, sweetie. It brings tears to my eyes when I think about your disloyalty. Maybe you can make amends and make everything better.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2032820648136712722": {
+      "flag": 0,
+      "PNAM": "872311178318002136",
+      "NNAM": "2959732268271477482",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's unfortunate that you weren't able to win his support, pudding. I was so certain he'd fall for you the way I did. Well, nevermind. There is always other business.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 200
+        }
+      ]
+    },
+    "2959732268271477482": {
+      "flag": 0,
+      "PNAM": "2032820648136712722",
+      "NNAM": "11267200122771531096",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dram Bero will support you on the Council, but he doesn't care about you like I do.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 100
+        }
+      ]
+    },
+    "11267200122771531096": {
+      "flag": 0,
+      "PNAM": "2959732268271477482",
+      "NNAM": "2835521620569211294",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard that Dram Bero has pledged to support you. This will help your advancement to Councilman, dumpling.",
+      "BNAM": "Journal HH_BeroSupport 100\r\nModPCFacRep 10 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 70
+        }
+      ]
+    },
+    "2835521620569211294": {
+      "flag": 0,
+      "PNAM": "11267200122771531096",
+      "NNAM": "2300314513237558541",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you've already gotten his support for Hlaalu Hortator, it shouldn't be too hard to get his support on the council. Just turn your charms on him once more, pudding. He'll yield.",
+      "BNAM": "Journal HH_BeroSupport 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DestroyTelUvirith",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B6_BeroHort",
+          "__TV": 50
+        }
+      ]
+    },
+    "2300314513237558541": {
+      "flag": 0,
+      "PNAM": "2835521620569211294",
+      "NNAM": "943081962865525060",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am sure he will support you if you can find him and state your case. Alas, Dram Bero is very secretive and no one seems to know where he lives. Ask around Vivec, dumpling, perhaps someone can tell you.",
+      "BNAM": "Journal HH_BeroSupport 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DestroyTelUvirith",
+          "__TV": 100
+        }
+      ]
+    },
+    "943081962865525060": {
+      "flag": 0,
+      "PNAM": "2300314513237558541",
+      "NNAM": "8102273092244318883",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you found Dram Bero? And he gave you his support? Good. Find out who else you need to be the Hlaalu Hortator.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B6_BeroHort",
+          "__TV": 50
+        }
+      ]
+    },
+    "8102273092244318883": {
+      "flag": 0,
+      "PNAM": "943081962865525060",
+      "NNAM": "871010716296612609",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dram Bero is very secretive. He lives somewhere here in Vivec.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "871010716296612609": {
+      "flag": 0,
+      "PNAM": "8102273092244318883",
+      "NNAM": "15402246002199812679",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I think he lives somewhere in Vivec.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "15402246002199812679": {
+      "flag": 0,
+      "PNAM": "871010716296612609",
+      "NNAM": "1813922082128093188",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "garding",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dram is my boss. You want to talk business, talk to him.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1813922082128093188": {
+      "flag": 0,
+      "PNAM": "15402246002199812679",
+      "NNAM": "32138219081616928494",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "32138219081616928494": {
+      "flag": 0,
+      "PNAM": "1813922082128093188",
+      "NNAM": "1542715496162924427",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "The Writ on Dram Bero has been executed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBero",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "1542715496162924427": {
+      "flag": 0,
+      "PNAM": "32138219081616928494",
+      "NNAM": "23913138142331823134",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have already found Dram Bero? And he died by your own hand? Perhaps word of his death has not yet spread to our Telvanni client... But the Writ has been executed, so you must take the payment, %PCRank.",
+      "BNAM": "Journal MT_WritBero 100\r\nPlayer->AddItem Gold_001 3000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dram bero",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritBero",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "23913138142331823134": {
+      "flag": 0,
+      "PNAM": "1542715496162924427",
+      "NNAM": "6659162051087621462",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You found and honorably executed Dram Bero, %PCRank. Your work is excellent as always.",
+      "BNAM": "Journal MT_WritBero 100\r\nPlayer->AddItem Gold_001 3000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBero",
+          "__TV": 80
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "6659162051087621462": {
+      "flag": 0,
+      "PNAM": "23913138142331823134",
+      "NNAM": "805117524545417897",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_bero",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBero",
+          "__TV": 10
+        }
+      ]
+    },
+    "805117524545417897": {
+      "flag": 0,
+      "PNAM": "6659162051087621462",
+      "NNAM": "778188862443512121",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_bero",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBero",
+          "__TV": 10
+        }
+      ]
+    },
+    "778188862443512121": {
+      "flag": 0,
+      "PNAM": "805117524545417897",
+      "NNAM": "31602119482723012884",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Dram Bero is a very secretive man who lives somewhere in Vivec City. Take this Writ and show him that he cannot hide from the Morag Tong.",
+      "BNAM": "Journal MT_WritBero 10\r\nPlayer->AddItem \"writ_bero\" 1",
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritNavil",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBemis",
+          "__TV": 50
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBrilnosu",
+          "__TV": 100
+        }
+      ]
+    },
+    "31602119482723012884": {
+      "flag": 0,
+      "PNAM": "778188862443512121",
+      "NNAM": "2839274162795723843",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, St. Olms",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know where he lives, but I've seen him on the top of St. Olms before.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "B",
+          "details": "LX",
+          "operator": "0",
+          "identifier": "Vivec, St. Olms Haunted Manor",
+          "__TV": 0
+        }
+      ]
+    },
+    "2839274162795723843": {
+      "flag": 0,
+      "PNAM": "31602119482723012884",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've seen him in the St. Olms Canton.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "B",
+          "details": "LX",
+          "operator": "0",
+          "identifier": "Vivec, St. Olms Haunted Manor",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

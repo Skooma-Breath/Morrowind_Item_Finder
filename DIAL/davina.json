@@ -1,0 +1,185 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "82913059060309922": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1763912569203847298",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already purchased Davina. I hope you are satisfied with her work.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "davinaBought",
+          "__TV": 1
+        }
+      ]
+    },
+    "1763912569203847298": {
+      "flag": 0,
+      "PNAM": "82913059060309922",
+      "NNAM": "100781054114564566",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I just heard that Davina met with a small accident while waiting for sale. I'm afraid she is no longer available.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "davina",
+          "__TV": 0
+        }
+      ]
+    },
+    "100781054114564566": {
+      "flag": 0,
+      "PNAM": "1763912569203847298",
+      "NNAM": "16212155803018311111",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Davina is now yours. I will have her brought forth from the slavepit. She should be waiting just inside.",
+      "BNAM": "Set davinaBought to 1\r\nPlayer->RemoveItem Gold_001 1000\r\nAddItem Gold_001 1000\r\n\"Davina\"->PositionCell 1030 -2660 180 180 \"Tel Aruhn, Underground\"\r\nSet \"Davina\".slaveStatus to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "16212155803018311111": {
+      "flag": 0,
+      "PNAM": "100781054114564566",
+      "NNAM": "1138218748223143540",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry but you don't have enough gold to afford my fine slaves.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1138218748223143540": {
+      "flag": 0,
+      "PNAM": "16212155803018311111",
+      "NNAM": "536523139115938165",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Come back when you change your mind.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "536523139115938165": {
+      "flag": 0,
+      "PNAM": "1138218748223143540",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Redguards make fine servants. Especially Redguard women. They are just as hardy as the men, but less rebellious. She is 1000 drakes just like the others.",
+      "BNAM": "Choice \"Buy the slave.\" 1 \"Nevermind.\" 2",
+      "SCVR": null
+    }
+  }
+}

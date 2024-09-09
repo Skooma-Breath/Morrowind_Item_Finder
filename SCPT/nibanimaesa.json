@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 116,
+    "local_var_size": 34
+  },
+  "SCTX": "Begin NibaniMaesa\r\n\r\nshort currentDay\r\nshort localdaysPassed\r\nShort NoLore\t;blocks discussion of general topics\r\n\t\t\r\nif ( OnDeath == 1 )\r\n\tJournal B1_UrshilakuKill 1\r\n\tJournal B8_Failed_Nerevarine 1\r\nendif\r\n\r\nif ( currentDay != Day )\r\n\tset currentDay to Day\r\n\tset localdaysPassed to localdaysPassed + 1\r\nendif\r\n\r\n;Old Version (for reference -- month thing makes no sense so sayeth Doug)\r\n\r\n;short eventDay\r\n;short eventMonth\r\n;short oneDayPassed\r\n\r\n;if (oneDayPassed == 0)\r\n;\tset oneDayPassed to 1\r\n;\tset eventDay to Day\r\n;\tset eventMonth to Month\r\n;endif\r\n\r\n;if (oneDayPassed == 1)\r\n;\tif (Month != eventMonth)\r\n;\t\tset oneDayPassed to 2\r\n;\tendif\r\n;\r\n;\tif (Day != eventDay)\r\n;\t\tset oneDayPassed to 2\r\n;\tendif\r\n;endif\r\n\r\nEnd",
+  "SCVR": [
+    "currentDay",
+    "localdaysPassed",
+    "NoLore"
+  ],
+  "SCDT": [6,1,2,9,32,88,240,16,32,61,61,32,49,204,16,16,66,49,95,85,114,115,104,105,108,97,107,117,75,105,108,108,1,0,255,255,204,16,20,66,56,95,70,97,105,108,101,100,95,78,101,114,101,118,97,114,105,110,101,1,0,255,255,9,1,6,1,2,15,32,115,1,0,32,33,61,32,71,4,68,97,121,0,0,5,1,115,1,0,8,32,71,4,68,97,121,0,0,5,1,115,2,0,8,32,115,2,0,32,49,32,43,9,1,1,1]
+}

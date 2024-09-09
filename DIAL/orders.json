@@ -1,0 +1,5341 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "31262260993138022234": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "8476195742479519095",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You broke the rules. The rules are simple. Break the rules, and you're out of the Blades. Forever.",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "8476195742479519095": {
+      "flag": 0,
+      "PNAM": "31262260993138022234",
+      "NNAM": "8226213591024718494",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Mehra Milo in Vivec. But Mehra Milo is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_10_MehraMilo",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "mehra milo",
+          "__TV": 1
+        }
+      ]
+    },
+    "8226213591024718494": {
+      "flag": 0,
+      "PNAM": "8476195742479519095",
+      "NNAM": "256041812384511341",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You know what to do. Get Mehra Milo to help you find the lost prophecies. Then take those lost prophecies to Nibani Maesa. From that point, you'll have to follow her directions, and follow the prophecies. Good luck.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 1
+        }
+      ]
+    },
+    "256041812384511341": {
+      "flag": 0,
+      "PNAM": "8226213591024718494",
+      "NNAM": "80032404587920907",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Continue pursuing the Nerevarine prophecies, as the Emperor commands. First, go to the Hall of Wisdom and Justice, and get Mehra Milo to help you find the lost prophecies. She's being watched; if something has gone wrong, find her private quarters; she'll leave you a message there under the code word 'amaya.' Then take the lost prophecies to Nibani Maesa. From that point, you'll have to follow her directions, and follow the prophecies. Good luck.",
+      "BNAM": "Journal \"A2_4_MiloGone\" 1\r\nPCRaiseRank\r\n\"bk_notetoamaya\"->enable\r\n\"Mehra Milo\"->modDisposition 20\r\n\"Mehra Milo\"->PositionCell, -680, -363, 88, 270, \"Ministry of Truth, Holding Cells\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 50
+        }
+      ]
+    },
+    "80032404587920907": {
+      "flag": 0,
+      "PNAM": "256041812384511341",
+      "NNAM": "134044660806428478",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Tel Fyr and get that corprus disease cured. Then hurry back. I think I know how to get the lost prophecies Nibani Maesa asked for.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 1
+        }
+      ]
+    },
+    "134044660806428478": {
+      "flag": 0,
+      "PNAM": "80032404587920907",
+      "NNAM": "1774027995387524122",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Divayth Fyr at Tel Fyr. But Divayth Fyr is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "divayth fyr",
+          "__TV": 1
+        }
+      ]
+    },
+    "1774027995387524122": {
+      "flag": 0,
+      "PNAM": "134044660806428478",
+      "NNAM": "1302330988311795704",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here. Take this Dwemer artifact and 1000 drakes, and go to Tel Fyr. Divayth Fyr will like the Dwemer artifact. A gift may sweeten his disposition. The gold is for expenses. And here're a couple of Levitation potions. I hear you'll need them in Telvanni towers, because wizards don't use stairs. So get moving, and get that corprus disease cured. Then hurry back. I think I know how to get the lost prophecies Nibani Maesa asked for.",
+      "BNAM": ";Caius; 1; Journal A2_2_6thHouse >= 50; \r\nJournal \"A2_3_CorprusCure\" 1\r\nmoddisposition 10\r\nPCRaiseRank\r\nPlayer->AddItem misc_dwrv_artifact50 1\r\nPlayer->AddItem, \"Gold_001\", 1000\r\nPlayer->AddItem, \"P_Levitation_Q\", 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1302330988311795704": {
+      "flag": 0,
+      "PNAM": "1774027995387524122",
+      "NNAM": "2620214463062927750",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I canvassed my informants for possible treatments, just in case you contracted the disease during your mission. I learned from Fast Eddie that your best chance of getting cured is Divayth Fyr, an ancient Telvanni wizard who runs a Corprusarium for victims of the disease.",
+      "BNAM": ";Caius; 1; Journal A2_2_6thHouse >= 50;\r\nChoice \"Continue\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2620214463062927750": {
+      "flag": 0,
+      "PNAM": "1302330988311795704",
+      "NNAM": "1157411248134886970",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "With Dagoth Gares dead, the Sixth House shrine is no longer a threat. You've more than earned a promotion to the rank of Traveler. I'm very worried that you have corprus disease. But I have some good news in that department.",
+      "BNAM": ";Caius; Journal A2_2_6thHouse >= 50; \r\nChoice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        }
+      ]
+    },
+    "1157411248134886970": {
+      "flag": 0,
+      "PNAM": "2620214463062927750",
+      "NNAM": "317466845234924361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your orders were to find that Sixth House base near Gnaar Mok, kill the Sixth House priest Dagoth Gares, and bring me a full report on the Sixth House base. Don't come back until you've completed the mission.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 5
+        }
+      ]
+    },
+    "317466845234924361": {
+      "flag": 0,
+      "PNAM": "1157411248134886970",
+      "NNAM": "1457411711895630236",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Raesa Pullia at Buckmoth Fort. But Raesa Pullia is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "raesa pullia",
+          "__TV": 1
+        }
+      ]
+    },
+    "1457411711895630236": {
+      "flag": 0,
+      "PNAM": "317466845234924361",
+      "NNAM": "44223006522931235",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's your mission. Fort Buckmoth sent a patrol to Gnaar Mok, hunting smugglers with Sixth House connections. They found a Sixth House base, a Sixth House shrine, and a Sixth House priest named Dagoth Gares. Speak to Champion Raesa Pullia at Fort Buckmoth; she'll tell you about the patrol and the Sixth House base. Your orders: find that Sixth House base, kill Dagoth Gares, and bring me a full report on the Sixth House base.",
+      "BNAM": "Journal \"A2_2_6thHouse\" 5\r\nPlayer->AddItem Gold_001 400\r\n\"dagoth gares\"->enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "44223006522931235": {
+      "flag": 0,
+      "PNAM": "1457411711895630236",
+      "NNAM": "148482385536758819",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. Maybe you're still not ready. But I have to give you the mission anyway. You'll just have to be careful. Before you head out, make sure you outfit yourself with healing potions, new gear, a little training, whatever you think you need most. Remember! If you get in trouble, back off, rest up, and go back fresh. Don't take any chances. I think this will be a tough one.",
+      "BNAM": "Choice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "148482385536758819": {
+      "flag": 0,
+      "PNAM": "44223006522931235",
+      "NNAM": "16743230223029527310",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. Maybe you're still not ready. Why don't you go back out and do some freelance work. And put everything you earn back into training and equipment. Come back to me when you're ready, and I'll give you your next mission.",
+      "BNAM": "Journal \"A2_2_6thHouse\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "16743230223029527310": {
+      "flag": 0,
+      "PNAM": "148482385536758819",
+      "NNAM": "20963322832865117216",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. I'm going to give you the mission. Before you head out, make sure you outfit yourself with healing potions, new gear, a little training, whatever you think you need most. And if you get in trouble, back off, rest up, and go back fresh. Don't take any chances. I think this will be a tough one.",
+      "BNAM": "Choice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "20963322832865117216": {
+      "flag": 0,
+      "PNAM": "16743230223029527310",
+      "NNAM": "324762905050632661",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good to see you back. I trust you've worked on your skills and your outfit. As I said before, I have a very tough assignment for you. Do you think you're ready?",
+      "BNAM": "Choice \" I'm ready.\" 4 \" I'm willing, but cautious.\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 1
+        }
+      ]
+    },
+    "324762905050632661": {
+      "flag": 0,
+      "PNAM": "20963322832865117216",
+      "NNAM": "2259272482394510942",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm cautious too. So I recommend you take time to improve your skills. Do a few jobs for the guilds, cash in some loot, and upgrade your equipment. Here're 400 drakes that might come in handy. And when you're ready, come back to me, and I'll give you your next mission.",
+      "BNAM": "Journal \"A2_2_6thHouse\" 1\r\nPlayer->AddItem Gold_001 400",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "2259272482394510942": {
+      "flag": 0,
+      "PNAM": "324762905050632661",
+      "NNAM": "5309111512283917301",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Cautious is smart. I'm going to give you the mission. But I'm going to give you 400 drakes. Before you head out, make sure you outfit yourself with healing potions, new gear, a little training, whatever you think you need most. And if you get in trouble, back off, rest up, and go back fresh. Don't take any chances. I think this will be a tough one.",
+      "BNAM": "Choice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "5309111512283917301": {
+      "flag": 0,
+      "PNAM": "2259272482394510942",
+      "NNAM": "4770290302917730510",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. Don't get over-confident. But it so happens that I agree -- you're ready. But just in case I'm going to give you 400 drakes. Before you head out, make sure you outfit yourself with healing potions, new gear, a little training, whatever you think you need most. And remember: if you get in trouble, back off, rest up, and go back fresh. Don't get cocky. I think this will be a tough one.",
+      "BNAM": "Choice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "4770290302917730510": {
+      "flag": 0,
+      "PNAM": "5309111512283917301",
+      "NNAM": "91563777669810271",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've spoken with Sul-Matuul and Nibani Maesa, and, from what they say, it sounds like you could really be the Nerevarine. That's just incredible. But I'll have to get used to the idea. Let me try to get word to Mehra Milo. Maybe she can find out whether the Dissident Priests have any lost prophecies. But in the meantime, I have a very tough assignment for you. Do you think you're ready?",
+      "BNAM": "Choice \" I'm ready for anything.\" 1 \" I'm willing, but cautious.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        }
+      ]
+    },
+    "91563777669810271": {
+      "flag": 0,
+      "PNAM": "4770290302917730510",
+      "NNAM": "23637233682388825458",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As I said, go to Urshilaku camp to speak with Sul-Matuul and Nibani Maesa. Tell them your story, and have them test you against the Nerevarine prophecies. As heads of the Nerevarine cult, they should be able to judge whether you might be the Nerevarine. When you've spoken with them, report back to me.",
+      "BNAM": ";Caius Cosades",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        }
+      ]
+    },
+    "23637233682388825458": {
+      "flag": 0,
+      "PNAM": "91563777669810271",
+      "NNAM": "3040061042687429190",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Nibani Maesa at Urshilaku camp. But Nibani Maesa is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "nibani maesa",
+          "__TV": 1
+        }
+      ]
+    },
+    "3040061042687429190": {
+      "flag": 0,
+      "PNAM": "23637233682388825458",
+      "NNAM": "25246150001870514559",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Sul-Matuul at Urshilaku camp. But Sul-Matuul is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sul-matuul",
+          "__TV": 1
+        }
+      ]
+    },
+    "25246150001870514559": {
+      "flag": 0,
+      "PNAM": "3040061042687429190",
+      "NNAM": "331214954264130237",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. Zainsubani says Sul-Matuul and Nibani Maesa at Urshilaku camp are the heads of the Nerevarine cult. So I'm sending you to speak with them. Tell them your story, and have them test you against the Nerevarine prophecies. As heads of the Nerevarine cult, they can best judge whether you satisfy the prophecies. When you've spoken with them, report back to me. Here's 200 drakes for expenses. And pick up essential supplies at Fort Moonmoth.",
+      "BNAM": ";Caius Cosades\r\nPCRaiseRank\r\nJournal \"A2_1_MeetSulMatuul\" 1\r\nplayer->additem gold_001 200\r\nplayer->additem bk_A1_1_PackageDecoded 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "331214954264130237": {
+      "flag": 0,
+      "PNAM": "25246150001870514559",
+      "NNAM": "202712574298283049",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you'll see in the decoded message, the Emperor and his counselors say you have the 'appearance' of satisfying the conditions of the prophecy. Do you REALLY satisfy the prophecy? Are you REALLY the prophesied Nerevarine? At first, I thought we were just supposed to create a persuasive impostor. Now I don't know what to think. But I am sure of one thing. This is not just primitive superstition, and we will treat it seriously, just as his Majesty commands.",
+      "BNAM": "Choice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "202712574298283049": {
+      "flag": 0,
+      "PNAM": "331214954264130237",
+      "NNAM": "328115204363039",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Emperor and his advisors think you have the appearance of meeting the conditions of the Nerevarine prophecies. That's why you were pulled out of prison on his Majesty's authority and sent to me. So you could satisfy the conditions of the Nerevarine prophecies and become the Nerevarine. Here. This is a decoded copy of the coded package you gave me when you arrived. Read it later. It should explain everything.",
+      "BNAM": "Choice \"Continue\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "328115204363039": {
+      "flag": 0,
+      "PNAM": "202712574298283049",
+      "NNAM": "449310751594217271",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks for your report. But keep Zainsubani's notes on the Ashlanders. You'll need them. I'm promoting you, and sending you to the Urshilaku camp to speak with Sul-Matuul and Nibani Maesa. But before you go, I think it may be time to tell you what's going on.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        }
+      ]
+    },
+    "449310751594217271": {
+      "flag": 0,
+      "PNAM": "328115204363039",
+      "NNAM": "2919124893811226563",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Did you speak with Hassour Zainsubani yet? Make sure you've gotten everything you can about the Ashlanders and the Nerevarine cult. Then report back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "2919124893811226563": {
+      "flag": 0,
+      "PNAM": "449310751594217271",
+      "NNAM": "1417518546209156116",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not ready for you yet. I told you. Go out and brush up your skills, or do some freelance work to support your cover story. Or go shopping. Or do some sightseeing. Just leave me alone and let me think.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 50
+        }
+      ]
+    },
+    "1417518546209156116": {
+      "flag": 0,
+      "PNAM": "2919124893811226563",
+      "NNAM": "443826593117014513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Hassour Zainsubani in Ald'ruhn. But Hassour Zainsubani is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "hassour zainsubani",
+          "__TV": 1
+        }
+      ]
+    },
+    "443826593117014513": {
+      "flag": 0,
+      "PNAM": "1417518546209156116",
+      "NNAM": "1629619842882527404",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We need an Ashlander informant. I have heard of a fellow in Ald'ruhn named Hassour Zainsubani, an Ashlander who left the Wastes to become a wealthy trader. They say the Ashlanders like to give and receive presents. Take these 100 drakes. Find out what Zainsubani likes, and get him a gift. Then give him the gift, and see if he will tell you about the Ashlanders and the Nerevarine cult. Then report back to me.",
+      "BNAM": "Journal, \"A1_11_ZainsubaniInformant\", 1\r\nplayer->additem gold_001 100",
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 50
+        }
+      ]
+    },
+    "1629619842882527404": {
+      "flag": 0,
+      "PNAM": "443826593117014513",
+      "NNAM": "22853104932524110221",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If Mehra Milo says I must have a copy of 'Progress of Truth,' then I must have one. Go get a copy and bring it back to me. Buy a copy if you can. The 200 drakes I gave you for expenses should cover it. Now get moving.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_progressoftruth",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_10_MehraMilo",
+          "__TV": 50
+        }
+      ]
+    },
+    "22853104932524110221": {
+      "flag": 0,
+      "PNAM": "1629619842882527404",
+      "NNAM": "275376449799317721",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Did you speak with Mehra Milo yet? Make sure you've gotten everything she can tell me about the Sixth House cult and the Nerevarine cult. Then report back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_10_MehraMilo",
+          "__TV": 50
+        }
+      ]
+    },
+    "275376449799317721": {
+      "flag": 0,
+      "PNAM": "22853104932524110221",
+      "NNAM": "197219382651621066",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Where are the notes Huleeya gave you? Whatever you did with them, get them and bring them to me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_A1_7_HuleeyaInformant",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 50
+        }
+      ]
+    },
+    "197219382651621066": {
+      "flag": 0,
+      "PNAM": "275376449799317721",
+      "NNAM": "67952379338665913",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Did you speak with Huleeya yet? Make sure you've gotten everything he can tell me about the Sixth House cult and the Nerevarine cult. Then report back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 50
+        }
+      ]
+    },
+    "67952379338665913": {
+      "flag": 0,
+      "PNAM": "197219382651621066",
+      "NNAM": "7182300462392120168",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Did you speak with Addhiranirr yet? Make sure you've gotten everything she can tell me about the Sixth House cult and the Nerevarine cult. Then report back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_6_AddhiranirrInformant",
+          "__TV": 45
+        }
+      ]
+    },
+    "13405161733617114": {
+      "flag": 0,
+      "PNAM": "7182300462392120168",
+      "NNAM": "18776315443231526622",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have your report, and I'll make copies of your notes from Huleeya and the 'Progress of Truth.' Give me time to read and digest all this. In the meantime, I'm promoting you to Journeyman. You're doing good work. And here are 200 drakes. Go out and treat yourself to a new pair of shoes. And go do some jobs for the guilds, or other freelance work, just to keep your cover story current. Or get some training. Then, when you're fit and rested, come back, and I'll have new orders for you.",
+      "BNAM": "Journal \"A1_V_VivecInformants\" 50\r\nmoddisposition 10\r\nPCRaiseRank\r\nplayer->additem gold_001 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A1_6_AddhiranirrInformant",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_10_MehraMilo",
+          "__TV": 50
+        }
+      ]
+    },
+    "18776315443231526622": {
+      "flag": 0,
+      "PNAM": "13405161733617114",
+      "NNAM": "2452072631834729659",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Did you speak with Addhiranirr yet? Make sure you've gotten everything she can tell me about the Sixth House cult and the Nerevarine cult. Then report back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_6_AddhiranirrInformant",
+          "__TV": 60
+        }
+      ]
+    },
+    "2452072631834729659": {
+      "flag": 0,
+      "PNAM": "18776315443231526622",
+      "NNAM": "6007273451569331766",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Like I said, I want you to interview three informants in Vivec City concerning the Nerevarine and the Sixth House. First, I want you to speak with Addhiranirr, a Khajiit Thieves Guild operative. Second, I want you to speak with Huleeya, an Argonian in the Morag Tong. Finally, I want you to speak with Mehra Milo, a Temple priestess. I gave you the details on paper. Go read them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_V_VivecInformants",
+          "__TV": 1
+        }
+      ]
+    },
+    "6007273451569331766": {
+      "flag": 0,
+      "PNAM": "2452072631834729659",
+      "NNAM": "1089811670451623715",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Mehra Milo in Vivec. But Mehra Milo is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 25
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "mehra milo",
+          "__TV": 1
+        }
+      ]
+    },
+    "1089811670451623715": {
+      "flag": 0,
+      "PNAM": "6007273451569331766",
+      "NNAM": "24470218281440529355",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Huleeya in Vivec. But Huleeya is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 25
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "huleeya",
+          "__TV": 1
+        }
+      ]
+    },
+    "24470218281440529355": {
+      "flag": 0,
+      "PNAM": "1089811670451623715",
+      "NNAM": "140525241648531121",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was going to send you to speak with Addhiranirr in Vivec. But Addhiranirr is DEAD! And you were responsible! Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 25
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "addhiranirr",
+          "__TV": 1
+        }
+      ]
+    },
+    "140525241648531121": {
+      "flag": 0,
+      "PNAM": "24470218281440529355",
+      "NNAM": "7418104811174331576",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've thought it over, and I want you to interview three informants in Vivec City concerning the Nerevarine and the Sixth House. First, I want you to speak with Addhiranirr, a Khajiit Thieves Guild operative. Second, I want you to speak with Huleeya, an Argonian in the Morag Tong. Finally, I want you to speak with Mehra Milo, a Temple priestess. Here. I've written the details down, so you won't forget. And here are 200 drakes. For bribes and other expenses.",
+      "BNAM": "Player->AddItem, \"Gold_001\", 200\r\nPlayer->AddItem, \"bk_A1_V_VivecInformants\", 1\r\nJournal, \"A1_V_VivecInformants\", 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 25
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "7418104811174331576": {
+      "flag": 0,
+      "PNAM": "140525241648531121",
+      "NNAM": "32044174201413710180",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm not ready for you yet. And you're not at the level of performance I'm looking for yet. So, as I said, take some time to polish your skills and flesh out your cover story with a little freelance adventuring. Then, when you've gotten some exercise and loot, come back, and I'll have some new orders for you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 25
+        },
+        {
+          "index": "4",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "32044174201413710180": {
+      "flag": 0,
+      "PNAM": "7418104811174331576",
+      "NNAM": "2581185871472231536",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "WHAT?! You KILLED Sharn gra-Muzgob? Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sharn gra-muzgob",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "2581185871472231536": {
+      "flag": 0,
+      "PNAM": "32044174201413710180",
+      "NNAM": "1769827919139593749",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "And these are Sharn's notes on the Nerevarine cult? Excellent. I'm promoting you to Blades Apprentice, %PCName. Now give me some time to think how this fits in with the Emperor's plans for you. And I'd like to see you at a higher level of conditioning before I send you out again. So take some time to polish your skills and enhance your cover story with a little freelance adventuring. Then, when you're at the level of performance I want to see, I'll have new orders ready for you.",
+      "BNAM": "Player->RemoveItem, \"bk_A1_4_SharnsNotes\", 1\r\nModDisposition, 10\r\nJournal, \"A1_4_MuzgobInformant\", 25\r\nPCRaiseRank",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_a1_4_sharnsnotes",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 20
+        }
+      ]
+    },
+    "1769827919139593749": {
+      "flag": 0,
+      "PNAM": "2581185871472231536",
+      "NNAM": "297749082693230546",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, dear. Sharn gave you notes on the Nerevarine cult. But you can't GIVE them to me. Because you don't HAVE them. Well? What are you waiting for? Go get the notes. Bring them to me. Fly like the wind.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "5",
+          "identifier": "bk_a1_4_sharnsnotes",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 20
+        }
+      ]
+    },
+    "297749082693230546": {
+      "flag": 0,
+      "PNAM": "1769827919139593749",
+      "NNAM": "1786930145923411366",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "And these are Sharn's notes on the Nerevarine cult? Excellent. I'm promoting you to Blades Apprentice, %PCName.  I'd like some time to think how this fits in with the Emperor's plans for you. So if you'd like to get in a little freelance adventuring, go ahead. But whenever you're ready, I'll have new orders for you.",
+      "BNAM": "Player->RemoveItem, \"bk_A1_4_SharnsNotes\", 1\r\nModDisposition, 10\r\nJournal, \"A1_4_MuzgobInformant\", 30\r\nPCRaiseRank",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_a1_4_sharnsnotes",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 20
+        }
+      ]
+    },
+    "1786930145923411366": {
+      "flag": 0,
+      "PNAM": "297749082693230546",
+      "NNAM": "23588256493054024115",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get the information from Sharn gra-Muzgob at the Balmora Mages Guild like I asked you, and report back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "23588256493054024115": {
+      "flag": 0,
+      "PNAM": "1786930145923411366",
+      "NNAM": "28516243641708915967",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've glanced at Hasphat Antabolis' notes. They cover the Sixth House admirably, but not the Nerevarine cult. Hop on over to the Balmora Mages Guild. It's right next to the Balmora Fighters Guild. Get Sharn gra-Muzgob to tell you what she knows about the Nerevarine. She'll have some silly errand for you. Do what she asks. And report back when she's given you the information.",
+      "BNAM": "Journal, \"A1_4_MuzgobInformant\", 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 20
+        }
+      ]
+    },
+    "28516243641708915967": {
+      "flag": 0,
+      "PNAM": "23588256493054024115",
+      "NNAM": "2094519401100125494",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "WHAT?! You KILLED Hasphat Antabolis? Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "hasphat antabolis",
+          "__TV": 1
+        }
+      ]
+    },
+    "2094519401100125494": {
+      "flag": 0,
+      "PNAM": "28516243641708915967",
+      "NNAM": "2012622432489029727",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. You say Hasphat Antabolis gave you notes to give to me? But you don't actuallly HAVE the notes? Perhaps... I hesitate to suggest it... you might go get the notes and bring them to me?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 15
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "5",
+          "identifier": "bk_a1_2_antabolistocosades",
+          "__TV": 0
+        }
+      ]
+    },
+    "2012622432489029727": {
+      "flag": 0,
+      "PNAM": "2094519401100125494",
+      "NNAM": "1490057142559718427",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These notes are from Hasphat Antabolis? Excellent. I trust he didn't work you too hard for them. I'll look them over in more detail later, but now, I have some new orders for you.",
+      "BNAM": "Player->RemoveItem, \"bk_A1_2_AntabolisToCosades\", 1\r\nJournal, \"A1_2_AntabolisInformant\", 20\r\nmoddisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_a1_2_antabolistocosades",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 15
+        }
+      ]
+    },
+    "1490057142559718427": {
+      "flag": 0,
+      "PNAM": "2012622432489029727",
+      "NNAM": "1211138301695024876",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get the information about the Nerevarine secret cult and the Sixth House secret cult from Hasphat Antabolis, like I told you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "1211138301695024876": {
+      "flag": 0,
+      "PNAM": "1490057142559718427",
+      "NNAM": "14520215453172227671",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're ready for your orders? Good. I want you to talk to Hasphat Antabolis at the Balmora Fighters Guild... WHAT?! You KILLED Hasphat Antabolis? Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! \r\n\r\n[This path to your destiny is blocked.]",
+      "BNAM": "SetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 18
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "hasphat antabolis",
+          "__TV": 1
+        }
+      ]
+    },
+    "14520215453172227671": {
+      "flag": 0,
+      "PNAM": "1211138301695024876",
+      "NNAM": "16539151961972116834",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By the way... Hasphat is a student of Morrowind history. Take the chance to get a little education. And I have a few history books in here. Help yourself. You're welcome to them. No point in being part of history if you're too ignorant to understand it.",
+      "BNAM": "Journal, \"A1_2_AntabolisInformant\", 1\r\nStartScript Sleepers",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 18
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16539151961972116834": {
+      "flag": 0,
+      "PNAM": "14520215453172227671",
+      "NNAM": "2064717508185713751",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ready for orders? Good. Go talk to Hasphat Antabolis at the Balmora Fighters Guild. Ask him what he knows about the Nerevarine secret cult and the Sixth House secret cult. You'll have to do him a favor first. Probably an ugly favor. But do it. Then get the information from Antabolis and report back to me.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 18
+        }
+      ]
+    },
+    "2064717508185713751": {
+      "flag": 0,
+      "PNAM": "16539151961972116834",
+      "NNAM": "17112260851298720525",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well... one look at you, and anyone can see you're an experienced adventurer. That can be your cover identity. Around here, freelance adventurers are thick as fleas on a guar. You'll want to keep active in that line, just to avoid unwanted attention. So. I have orders for you, whenever you're ready.",
+      "BNAM": "Journal, \"A1_1_FindSpymaster\", 22",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 14
+        }
+      ]
+    },
+    "17112260851298720525": {
+      "flag": 0,
+      "PNAM": "2064717508185713751",
+      "NNAM": "2090431221919117613",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Like I said, pilgrim. Go get yourself some decent gear. And you need a cover identity -- 'freelance adventurer'. Join the Fighters Guild, or Mages Guild, or Imperial cult, or Imperial legion, advance in the ranks, gain skill and experience. Or go out on your own, look for freelance work, or trouble. Then, when you're ready, come back, and I'll have orders for you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 18
+        }
+      ]
+    },
+    "2090431221919117613": {
+      "flag": 0,
+      "PNAM": "17112260851298720525",
+      "NNAM": "24348136862388510457",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First thing, pilgrim. You're new. And you look it. Here's 200 drakes. Go get yourself a decent weapon. Or armor. Or a spell. And second thing... you need a cover identity. Around here, 'freelance adventurer' is a common profession. Sign on with the Fighters Guild, or Mages Guild, or Imperial cult, or Imperial legion, advance in the ranks, gain skill and experience. Or go out on your own, look for freelance work, or trouble. Then, when you're ready, come back, and I'll have orders for you.",
+      "BNAM": "Journal, \"A1_1_FindSpymaster\", 18\r\nplayer->additem gold_001 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 14
+        }
+      ]
+    },
+    "24348136862388510457": {
+      "flag": 0,
+      "PNAM": "2090431221919117613",
+      "NNAM": "1506122032762213967",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps I wasn't sufficiently clear. First, we will take care of the \"Report to Caius Cosades\" business. Because until you have properly reported to me, and meekly agreed to follow my orders, then you won't be getting any orders from me. Is there any part of that you don't understand? Am I going too fast for you?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_1_FindSpymaster",
+          "__TV": 12
+        }
+      ]
+    },
+    "1506122032762213967": {
+      "flag": 0,
+      "PNAM": "24348136862388510457",
+      "NNAM": "12062700090844276",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What are you talking about? Nobody gave me any orders. Not that I know about.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "12062700090844276": {
+      "flag": 0,
+      "PNAM": "1506122032762213967",
+      "NNAM": "142514973160017662",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild for breaking the rules. You'll have to make amends before I give you any orders.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "142514973160017662": {
+      "flag": 0,
+      "PNAM": "12062700090844276",
+      "NNAM": "2947815097119619743",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want to join the Fighters Guild?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "2947815097119619743": {
+      "flag": 0,
+      "PNAM": "142514973160017662",
+      "NNAM": "142614532669015006",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "What do you want, %PCRank?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_SilenceMagistrate",
+          "__TV": 100
+        }
+      ]
+    },
+    "142614532669015006": {
+      "flag": 0,
+      "PNAM": "2947815097119619743",
+      "NNAM": "4078646376514284",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't have any orders for you. Talk to Sjoring Hard-Heart the Guildmaster. If he doesn't have any orders for you, check with Eydis Fire-Eye in Balmora or Hrundi in Sadrith Mora. I guess you could ask the old guildmaster in Ald'ruhn too.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_SilenceMagistrate",
+          "__TV": 100
+        }
+      ]
+    },
+    "4078646376514284": {
+      "flag": 0,
+      "PNAM": "142614532669015006",
+      "NNAM": "213878862155329909",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "One of the magistrates has been giving the Fighters Guild trouble. I don't want the Fighters Guild to have any more trouble from Rufinus Alleius.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_SilenceTaxgirl",
+          "__TV": 100
+        }
+      ]
+    },
+    "213878862155329909": {
+      "flag": 0,
+      "PNAM": "4078646376514284",
+      "NNAM": "2952330407119326936",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I have a bounty contracted worth 500 gold for Adraria Vandacia.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 100
+        }
+      ]
+    },
+    "2952330407119326936": {
+      "flag": 0,
+      "PNAM": "213878862155329909",
+      "NNAM": "34839143274604922",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have orders for anyone under the rank of Protector. Check what you need for advancement and come back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 100
+        }
+      ]
+    },
+    "34839143274604922": {
+      "flag": 0,
+      "PNAM": "2952330407119326936",
+      "NNAM": "5257862417724508",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Suvryn Doves says that Lirielle Stoine in Ald'ruhn owes him 2000 septims. Get Lirielle's debt money and bring it back to me. You get to keep half of it yourself.",
+      "BNAM": "Journal FG_DebtStoine 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KhajiitBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "5257862417724508": {
+      "flag": 0,
+      "PNAM": "34839143274604922",
+      "NNAM": "10745111182190324722",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I got a bounty on a Khajiit. Name's Dro'Sakhar.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_TongueToad",
+          "__TV": 100
+        }
+      ]
+    },
+    "10745111182190324722": {
+      "flag": 0,
+      "PNAM": "5257862417724508",
+      "NNAM": "1937259083260119688",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "There's an Argonian that can't keep its mouth shut. Go shut Tongue-Toad's mouth.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtOrc",
+          "__TV": 100
+        }
+      ]
+    },
+    "1937259083260119688": {
+      "flag": 0,
+      "PNAM": "10745111182190324722",
+      "NNAM": "1191528235155573474",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Nar gro-Shagramph said he'd deliver a ring to Ranes Ienith, but he hasn't delivered. Go talk to Ranes Ienith and bring the Juicedaw Feather Ring to me.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1191528235155573474": {
+      "flag": 0,
+      "PNAM": "1937259083260119688",
+      "NNAM": "7649231411580718429",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "What can I do for you, Guildmaster?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_HungerLoose",
+          "__TV": 100
+        }
+      ]
+    },
+    "7649231411580718429": {
+      "flag": 0,
+      "PNAM": "1191528235155573474",
+      "NNAM": "2659576601744128536",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have any more orders for you, %PCName. Try asking the Guild Stewards at Vivec City, Sadrith Mora, or Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_HungerLoose",
+          "__TV": 100
+        }
+      ]
+    },
+    "2659576601744128536": {
+      "flag": 0,
+      "PNAM": "7649231411580718429",
+      "NNAM": "302195394851030199",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "There is a dangerous creature loose in the Sarano Tomb.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_VerethiGang",
+          "__TV": 100
+        }
+      ]
+    },
+    "302195394851030199": {
+      "flag": 0,
+      "PNAM": "2659576601744128536",
+      "NNAM": "24775283151789129157",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "A distinguished client has placed a contract on the Verethi Gang.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_AlofsFarm",
+          "__TV": 100
+        }
+      ]
+    },
+    "24775283151789129157": {
+      "flag": 0,
+      "PNAM": "302195394851030199",
+      "NNAM": "250831784289567444",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Alof the Easterner has seen Orc outlaws near his farm. I have a contract from Duke Dren himself to investigate the Orcs at a Daedric ruin.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_OrcBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "250831784289567444": {
+      "flag": 0,
+      "PNAM": "24775283151789129157",
+      "NNAM": "21189208202122430882",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have orders for anyone under the rank of Protector. Find out what you need for advancement. The Guild Stewards at Vivec City, Sadrith Mora, or Ald'ruhn might have some work for you in the meantime.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_OrcBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "21189208202122430882": {
+      "flag": 0,
+      "PNAM": "250831784289567444",
+      "NNAM": "584514766536817770",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I have a bounty contract for the Orc Dura gra-Bol.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 100
+        }
+      ]
+    },
+    "584514766536817770": {
+      "flag": 0,
+      "PNAM": "21189208202122430882",
+      "NNAM": "2292341144983871",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Helaviane Desele owes one of our clients 200 septims. Deliver Desele's debt money to me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Sottilde",
+          "__TV": 100
+        }
+      ]
+    },
+    "2292341144983871": {
+      "flag": 0,
+      "PNAM": "584514766536817770",
+      "NNAM": "26982206593134019391",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Helaviane Desele owes one of our clients 200 septims. Deliver Desele's debt money to me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Egg_Poachers",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BitterBribe",
+          "__TV": 100
+        }
+      ]
+    },
+    "26982206593134019391": {
+      "flag": 0,
+      "PNAM": "2292341144983871",
+      "NNAM": "78553157274318817",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I need someone to return a code book that belongs to our client.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Telvanni_agents",
+          "__TV": 100
+        }
+      ]
+    },
+    "78553157274318817": {
+      "flag": 0,
+      "PNAM": "26982206593134019391",
+      "NNAM": "152062574112057155",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "We have a contract from the Caldera Mining Company to kill four Telvanni agents responsible for trouble at the Caldera Mine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Egg_Poachers",
+          "__TV": 100
+        }
+      ]
+    },
+    "152062574112057155": {
+      "flag": 0,
+      "PNAM": "78553157274318817",
+      "NNAM": "31266152841557531935",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "A local egg mine has problems with egg poachers. And you're going to solve those problems.",
+      "BNAM": "AddTopic \"Shulk Egg Mine\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_RatHunt",
+          "__TV": 105
+        }
+      ]
+    },
+    "31266152841557531935": {
+      "flag": 0,
+      "PNAM": "152062574112057155",
+      "NNAM": "9988260523078626060",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I have a very simple contract to end an infestation of cave rats. You might be able to handle it.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "9988260523078626060": {
+      "flag": 0,
+      "PNAM": "31266152841557531935",
+      "NNAM": "2923068152139912626",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I told you there'd be no more orders from me. Go talk to someone else about it. Maybe that old fool Mercius in Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_Telasero",
+          "__TV": 110
+        }
+      ]
+    },
+    "2923068152139912626": {
+      "flag": 0,
+      "PNAM": "9988260523078626060",
+      "NNAM": "11906265392885522295",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank %PCName?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_FindPudai",
+          "__TV": 100
+        }
+      ]
+    },
+    "11906265392885522295": {
+      "flag": 0,
+      "PNAM": "2923068152139912626",
+      "NNAM": "3617247152366524760",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have any more work for you, %PCName. You might want to speak with Percius in Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_FindPudai",
+          "__TV": 100
+        }
+      ]
+    },
+    "3617247152366524760": {
+      "flag": 0,
+      "PNAM": "11906265392885522295",
+      "NNAM": "871376142414512800",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "We've been hired to find the Pudai Egg Mine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_EngaerBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "871376142414512800": {
+      "flag": 0,
+      "PNAM": "3617247152366524760",
+      "NNAM": "1108430345143335845",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I have a contract for 2000 septims for anyone who can bring Engaer to justice.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Telasero",
+          "__TV": 100
+        }
+      ]
+    },
+    "1108430345143335845": {
+      "flag": 0,
+      "PNAM": "871376142414512800",
+      "NNAM": "306351896729163759",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I have a contract to assist another Imperial researcher. I need someone to escort Sondaale of Shimmerene.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DuniraiSupply",
+          "__TV": 100
+        }
+      ]
+    },
+    "306351896729163759": {
+      "flag": 0,
+      "PNAM": "1108430345143335845",
+      "NNAM": "2054123091537628361",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have any work for anyone below the rank of Protector. You might want to check with the Guild Stewards in Ald'ruhn, Balmora, and Vivec City.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DuniraiSupply",
+          "__TV": 100
+        }
+      ]
+    },
+    "2054123091537628361": {
+      "flag": 0,
+      "PNAM": "306351896729163759",
+      "NNAM": "480026671175027775",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I need someone to get a load of sujamma to the Dunirai Caverns.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_TenimBounty",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_CorprusStalker",
+          "__TV": 100
+        }
+      ]
+    },
+    "480026671175027775": {
+      "flag": 0,
+      "PNAM": "2054123091537628361",
+      "NNAM": "93724100175335103",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "There's a creature loose in Berwen the Trader's shop in Tel Mora. There's 200 septims for whoever takes care of this Corprus Stalker. There's also a contract for an outlaw nearby. Another 200 septims for whoever brings Rels Tenim to justice.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DissaplaMine",
+          "__TV": 100
+        }
+      ]
+    },
+    "93724100175335103": {
+      "flag": 0,
+      "PNAM": "480026671175027775",
+      "NNAM": "2626719821055415482",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Novor Drethan has hired us to help him take care of some problems at the Dissapla Mine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Nchurdamz",
+          "__TV": 100
+        }
+      ]
+    },
+    "2626719821055415482": {
+      "flag": 0,
+      "PNAM": "93724100175335103",
+      "NNAM": "1592316598446865",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Normally I wouldn't give any orders to someone as inexperienced as you. But if you feel up to it, Larienna Macrina wants us to provide some assistance with her expedition in the Dwemer ruins of Nchurdamz.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "1592316598446865": {
+      "flag": 0,
+      "PNAM": "2626719821055415482",
+      "NNAM": "12086118183258213153",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Larienna Macrina wants us to provide some assistance with her expedition in the Dwemer ruins of Nchurdamz.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "12086118183258213153": {
+      "flag": 0,
+      "PNAM": "1592316598446865",
+      "NNAM": "11400304301303320456",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You've already done more than I could have hoped for.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "11400304301303320456": {
+      "flag": 0,
+      "PNAM": "12086118183258213153",
+      "NNAM": "10238289422125820051",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You've already done more than I could have hoped for.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillHardHeart",
+          "__TV": 100
+        }
+      ]
+    },
+    "10238289422125820051": {
+      "flag": 0,
+      "PNAM": "11400304301303320456",
+      "NNAM": "1684411597677626113",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "There is one more thing you must do, %PCName. Once you have done this, I will name you Guildmaster. You must kill Sjoring Hard-Heart.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillCronies",
+          "__TV": 100
+        }
+      ]
+    },
+    "1684411597677626113": {
+      "flag": 0,
+      "PNAM": "10238289422125820051",
+      "NNAM": "28588310542639430523",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "The only way to save the Fighters Guild from the corruption of the Camonna Tong is to get rid of Sjoring Hard-Heart and those loyal to him. I heard Eydis Fire-Eye was no longer one of his chief supporters, but Lorbumol gro-Aglakh still needs to be dealt with.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BitterBribe",
+          "__TV": 100
+        }
+      ]
+    },
+    "28588310542639430523": {
+      "flag": 0,
+      "PNAM": "1684411597677626113",
+      "NNAM": "1875411721122089040",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "The only way to save the Fighters Guild from the corruption of the Camonna Tong is to get rid of Sjoring Hard-Heart and those loyal to him. If you kill his chief supporters, Eydis Fire-Eye and Lorbumol gro-Aglakh, I'll put my own life on the line and support you as the new Guildmaster.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 100
+        }
+      ]
+    },
+    "1875411721122089040": {
+      "flag": 0,
+      "PNAM": "28588310542639430523",
+      "NNAM": "31736303682969428548",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Come back a talk to me when you're a Guardian in the Fighters Guild. I've been impressed with your work so far, %PCName. I'll tell you more when I can. You might want to check with Hrundi in Sadrith Mora. He's a good man, and you can trust him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 100
+        }
+      ]
+    },
+    "31736303682969428548": {
+      "flag": 0,
+      "PNAM": "1875411721122089040",
+      "NNAM": "27476264621113224297",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I have a small task for you. The Empire charges the Fighters Guild with keeping the forts and mines supplied. Would you be willing to take a load of flin to the Elith-Pal Mine?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_SuranBandits",
+          "__TV": 100
+        }
+      ]
+    },
+    "27476264621113224297": {
+      "flag": 0,
+      "PNAM": "31736303682969428548",
+      "NNAM": "32664295793242122409",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Serjo Avon Oran of Suran has given us a contract. He's been having problems with bandits in Suran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_BeneranBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "32664295793242122409": {
+      "flag": 0,
+      "PNAM": "27476264621113224297",
+      "NNAM": "6986172382590219429",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "The Fighters Guild often enacts justice when there is no one else who can do so. I just received a contract straight from Cyrodiil. I need someone to find the murderer and outlaw Nerer Beneran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Vas",
+          "__TV": 100
+        }
+      ]
+    },
+    "6986172382590219429": {
+      "flag": 0,
+      "PNAM": "32664295793242122409",
+      "NNAM": "509077162812228948",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 3
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Sometimes we get a contract from one of the locals and sometimes they're a bit strange. Ulyne Henim, a young Buoyant Armiger, has hired us to provide some extra muscle to clean out a den of Necromancers known as Vas.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "509077162812228948": {
+      "flag": 0,
+      "PNAM": "6986172382590219429",
+      "NNAM": "726618815414722443",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have much work for anyone under the rank of Swordsman. These Redorans are honorable enough, and they keep things pretty quiet around here. If you ever need any advice or have any questions about the orders you get, come talk to me. I used to be the Guildmaster. There's a few things I might tell a promising %PCRank. Seek Eydis Fire-Eye in Balmora to get your feet wet or Hrundi in Sadrith Mora if you're up for some challenges. You may also speak with Lorbumol gro-Uglakh in Vivec for your orders.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "726618815414722443": {
+      "flag": 0,
+      "PNAM": "509077162812228948",
+      "NNAM": "1925031993149376817",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You did quite a job on the local heads of the Thieves Guild. Now it's time to take care of the Master Thief in Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_BigBosses",
+          "__TV": 100
+        }
+      ]
+    },
+    "1925031993149376817": {
+      "flag": 0,
+      "PNAM": "726618815414722443",
+      "NNAM": "14084242313055710359",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just kill the Thieves Guild bosses like I told you. Then we can talk about the future of the Fighters Guild.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillBosses",
+          "__TV": 10
+        }
+      ]
+    },
+    "14084242313055710359": {
+      "flag": 0,
+      "PNAM": "1925031993149376817",
+      "NNAM": "29657168112870911070",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I've watched your progress in the Fighters Guild, %PCName. You'll make a fine Guildmaster someday. But with all the unrest in Cyrodiil city, we need allies to make sure there's still a Fighter's Guild here for you. I need you to kill the Thieves Guild bosses.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "29657168112870911070": {
+      "flag": 0,
+      "PNAM": "14084242313055710359",
+      "NNAM": "25826122612459431407",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Until you earn a better rank, you'll take your orders from my Champion, Lorbumol gro-Aglakh.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "25826122612459431407": {
+      "flag": 0,
+      "PNAM": "29657168112870911070",
+      "NNAM": "702925862885917713",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": "Vivec, Arena",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Lorbumol.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "702925862885917713": {
+      "flag": 0,
+      "PNAM": "25826122612459431407",
+      "NNAM": "233008926309531981",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Guild Steward here in Balmora is Eydis Fire-Eye.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "hasphat antabolis",
+          "__TV": 1
+        }
+      ]
+    },
+    "233008926309531981": {
+      "flag": 0,
+      "PNAM": "702925862885917713",
+      "NNAM": "19895150701681715408",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Orders? You want to talk with Hrundi.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "19895150701681715408": {
+      "flag": 0,
+      "PNAM": "233008926309531981",
+      "NNAM": "4786211471979416427",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": "Ald-ruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want orders? Talk to Percius.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "4786211471979416427": {
+      "flag": 0,
+      "PNAM": "19895150701681715408",
+      "NNAM": "2838217597128377916",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled, %PCName. You should review our rules and then join the Imperial Legion again..",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2838217597128377916": {
+      "flag": 0,
+      "PNAM": "4786211471979416427",
+      "NNAM": "3242166992746921040",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You look like you can handle a sword. Want to join the Imperial Legion?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "3242166992746921040": {
+      "flag": 0,
+      "PNAM": "2838217597128377916",
+      "NNAM": "1668115217884521023",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't have any orders for you. Move along.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1668115217884521023": {
+      "flag": 0,
+      "PNAM": "3242166992746921040",
+      "NNAM": "121111175044661847",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "What can I do for a %PCRank? I am at your service.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "121111175044661847": {
+      "flag": 0,
+      "PNAM": "1668115217884521023",
+      "NNAM": "19651266562534313346",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "The Emperor Uriel Septim VII wants the plans for the Anumidium.",
+      "BNAM": ";the journal entry here is set so that you never get this quest. It has been commented out for now.",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Blueprints",
+          "__TV": 1
+        }
+      ]
+    },
+    "19651266562534313346": {
+      "flag": 0,
+      "PNAM": "121111175044661847",
+      "NNAM": "27675235816582962",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "I don't have any more orders for you. Check with the Knight Protectors in each of the Forts, and, when you're ready, check with the Knight of the Imperial Dragon, Varus Vatinius in Ebonheart.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_TalosTreason",
+          "__TV": 100
+        }
+      ]
+    },
+    "27675235816582962": {
+      "flag": 0,
+      "PNAM": "19651266562534313346",
+      "NNAM": "1678614083236592942",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "I suspect there is something going on with some of my troopers. Informants have told me of a conspiracy brewing involving the Talos Cult, but I have not yet been able to find any proof of this. Investigate this, %PCName, and bring me any information you find.",
+      "BNAM": "Journal \"IL_TalosTreason\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueRagash",
+          "__TV": 100
+        }
+      ]
+    },
+    "1678614083236592942": {
+      "flag": 0,
+      "PNAM": "27675235816582962",
+      "NNAM": "29517184731986316333",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You need further advancement. Talk to me again when you've earned the rank of Champion.",
+      "BNAM": ";should never get this, took out rank requirement for talos quest, todd 1/15/02",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueRagash",
+          "__TV": 100
+        }
+      ]
+    },
+    "29517184731986316333": {
+      "flag": 0,
+      "PNAM": "1678614083236592942",
+      "NNAM": "1025128183103418982",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Find out what happened to Ragash gra-Shuzgub.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescuePilgrim",
+          "__TV": 100
+        }
+      ]
+    },
+    "1025128183103418982": {
+      "flag": 0,
+      "PNAM": "29517184731986316333",
+      "NNAM": "1557214595312296170",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Find out what happened to Ragash gra-Shuzgub.",
+      "BNAM": ";this one skips the madura rescue if you already did it on your own.",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "MaduraRescued",
+          "__TV": 0
+        }
+      ]
+    },
+    "1557214595312296170": {
+      "flag": 0,
+      "PNAM": "1025128183103418982",
+      "NNAM": "26152322701389323290",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Ald Velothi and rescue the pilgrim Madura Seran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "IL_RescuePilgrim",
+          "__TV": 0
+        }
+      ]
+    },
+    "26152322701389323290": {
+      "flag": 0,
+      "PNAM": "1557214595312296170",
+      "NNAM": "2389017779176722125",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I need a %PCRank to find Madura Seran, who is missing.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "MaduraRescued",
+          "__TV": 0
+        }
+      ]
+    },
+    "2389017779176722125": {
+      "flag": 0,
+      "PNAM": "26152322701389323290",
+      "NNAM": "305665175172718838",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Cure the Kwama Queen in the Gnisis Eggmine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GnisisBlight",
+          "__TV": 1
+        }
+      ]
+    },
+    "305665175172718838": {
+      "flag": 0,
+      "PNAM": "2389017779176722125",
+      "NNAM": "498385191267819249",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've proven yourself so far. Perhaps you can help with the Gnisis Eggmine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_WidowLand",
+          "__TV": 100
+        }
+      ]
+    },
+    "498385191267819249": {
+      "flag": 0,
+      "PNAM": "305665175172718838",
+      "NNAM": "230291976152377711",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Forget about the land deed. Kill Lugrub gro-Ogdun to avenge the death of Mansilamat Vabdas.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_WidowLand",
+          "__TV": 70
+        }
+      ]
+    },
+    "230291976152377711": {
+      "flag": 0,
+      "PNAM": "498385191267819249",
+      "NNAM": "22702227993256012156",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go get the Widow Vabdas' land deed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_WidowLand",
+          "__TV": 1
+        }
+      ]
+    },
+    "22702227993256012156": {
+      "flag": 0,
+      "PNAM": "230291976152377711",
+      "NNAM": "1987232117493827067",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "Yes, let's see if you truly are loyal to our cause here in Morrowind. There's a little issue of a land deed here in Gnisis I need you to take care of.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1987232117493827067": {
+      "flag": 0,
+      "PNAM": "22702227993256012156",
+      "NNAM": "27821265832707210124",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "I have no more orders for you. If you still wish for further advancement, you must defeat me in an honorable duel to become the Knight of the Imperial Dragon.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 100
+        }
+      ]
+    },
+    "27821265832707210124": {
+      "flag": 0,
+      "PNAM": "1987232117493827067",
+      "NNAM": "46195571632512808",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "Only a Knight of the Garland can take the next step. You have not made enough advancement.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 100
+        }
+      ]
+    },
+    "46195571632512808": {
+      "flag": 0,
+      "PNAM": "27821265832707210124",
+      "NNAM": "5931126441779123649",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "You have returned the Lord's Mail. Now you must find the Paladin's Blade, Chrysamere.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 50
+        }
+      ]
+    },
+    "5931126441779123649": {
+      "flag": 0,
+      "PNAM": "46195571632512808",
+      "NNAM": "2270732140518419427",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "If you wish to become a Knight of the Garland of the Order of Ebonheart, I will need you to return two of the Order's possessions that have been stolen. The first is the Lord's Mail. Find it, and return it to me.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2270732140518419427": {
+      "flag": 0,
+      "PNAM": "5931126441779123649",
+      "NNAM": "2584955311486720318",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have no orders for anyone who is not a Knight Protector. Check with Frald the White here in Ebonheart.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2584955311486720318": {
+      "flag": 0,
+      "PNAM": "2270732140518419427",
+      "NNAM": "31167212471997124948",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "Now why would a %PCRank be visiting me?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_ProtectEntius",
+          "__TV": 100
+        }
+      ]
+    },
+    "31167212471997124948": {
+      "flag": 0,
+      "PNAM": "2584955311486720318",
+      "NNAM": "660142602132520457",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have no more orders for you. Check with the Knight Protectors of each of the Legion forts, and check with Varus Vatinius, the Knight of the Imperial Dragon here in Ebonheart.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_ProtectEntius",
+          "__TV": 100
+        }
+      ]
+    },
+    "660142602132520457": {
+      "flag": 0,
+      "PNAM": "31167212471997124948",
+      "NNAM": "808013340104769413",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Before I give you these orders, you must pay for your crimes. I don't want you being followed or watched for what I must ask you to do.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "43",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 200
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_FalseOrdinator",
+          "__TV": 100
+        }
+      ]
+    },
+    "808013340104769413": {
+      "flag": 0,
+      "PNAM": "660142602132520457",
+      "NNAM": "225842098680413262",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Saprius Entius is dead, I have no more orders for you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "saprius entius",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_FalseOrdinator",
+          "__TV": 100
+        }
+      ]
+    },
+    "225842098680413262": {
+      "flag": 0,
+      "PNAM": "808013340104769413",
+      "NNAM": "553146531389521006",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A member of our Order is a murderer. Find Saprius Entius before the Ordinators do.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_FalseOrdinator",
+          "__TV": 100
+        }
+      ]
+    },
+    "553146531389521006": {
+      "flag": 0,
+      "PNAM": "225842098680413262",
+      "NNAM": "2879632621168346178",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "An Ordinator is spreading lies about the Order of Ebonheart. Stop Suryn Athones' slanders.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_TraitorWarrior",
+          "__TV": 100
+        }
+      ]
+    },
+    "2879632621168346178": {
+      "flag": 0,
+      "PNAM": "553146531389521006",
+      "NNAM": "1823194792772528580",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Find the traitor Honthjolf.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Courtesy",
+          "__TV": 100
+        }
+      ]
+    },
+    "1823194792772528580": {
+      "flag": 0,
+      "PNAM": "2879632621168346178",
+      "NNAM": "28557223491360129227",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Buoyant Armigers claim we have no courtesy.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "28557223491360129227": {
+      "flag": 0,
+      "PNAM": "1823194792772528580",
+      "NNAM": "114346397110836750",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "I am at your service, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Necromancer",
+          "__TV": 100
+        }
+      ]
+    },
+    "114346397110836750": {
+      "flag": 0,
+      "PNAM": "28557223491360129227",
+      "NNAM": "3032620026114675",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have no more orders to give you. Speak with the Knight Protectors in the other Legion forts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Necromancer",
+          "__TV": 100
+        }
+      ]
+    },
+    "3032620026114675": {
+      "flag": 0,
+      "PNAM": "114346397110836750",
+      "NNAM": "18923251071090112554",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There's a necromancer up near Dagon Fel who calls himself Sorkvild the Raven.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_GiantNetch",
+          "__TV": 100
+        }
+      ]
+    },
+    "18923251071090112554": {
+      "flag": 0,
+      "PNAM": "3032620026114675",
+      "NNAM": "24509276992956511023",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Gnaar Mok and kill the pair of breeding netch that threaten the town.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Damsel",
+          "__TV": 100
+        }
+      ]
+    },
+    "24509276992956511023": {
+      "flag": 0,
+      "PNAM": "18923251071090112554",
+      "NNAM": "233647502054425429",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Abernanit and rescue the Imperial citizen Dandsa.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 100
+        }
+      ]
+    },
+    "233647502054425429": {
+      "flag": 0,
+      "PNAM": "24509276992956511023",
+      "NNAM": "2620213349353829635",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need a %PCRank to rescue the hermit Jocien Ancois.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_ScrapMetal",
+          "__TV": 100
+        }
+      ]
+    },
+    "2620213349353829635": {
+      "flag": 0,
+      "PNAM": "233647502054425429",
+      "NNAM": "2980832791150510933",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Buoyant Armigers have challenged us to a hunt. Go kill a Dwemer Centurion and bring me the scrap metal.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2980832791150510933": {
+      "flag": 0,
+      "PNAM": "2620213349353829635",
+      "NNAM": "117191885045914425",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "What can I do for a %PCRank?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_MaidenToken",
+          "__TV": 100
+        }
+      ]
+    },
+    "117191885045914425": {
+      "flag": 0,
+      "PNAM": "2980832791150510933",
+      "NNAM": "1785517126180158140",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have no more orders for you. Check with the Knight Protectors in the other Legion forts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_MaidenToken",
+          "__TV": 100
+        }
+      ]
+    },
+    "1785517126180158140": {
+      "flag": 0,
+      "PNAM": "117191885045914425",
+      "NNAM": "128416598284649403",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need you to bring me a maiden's token.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueKnight",
+          "__TV": 100
+        }
+      ]
+    },
+    "128416598284649403": {
+      "flag": 0,
+      "PNAM": "1785517126180158140",
+      "NNAM": "1726624419989024778",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need you to rescue a Knight of the Order of Ebonheart, Joncis Dalomax.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Smuggler",
+          "__TV": 100
+        }
+      ]
+    },
+    "1726624419989024778": {
+      "flag": 0,
+      "PNAM": "128416598284649403",
+      "NNAM": "255104849150502170",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dwemer artifacts are being smuggled through Ald'Ruhn. I believe Drinar Varyon is responsible.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "255104849150502170": {
+      "flag": 0,
+      "PNAM": "1726624419989024778",
+      "NNAM": "14776268311511532191",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "angoril",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "Things have been very quiet here. Sorry, no pressing business. Check with the Knight Protectors of the other Legion forts.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "14776268311511532191": {
+      "flag": 0,
+      "PNAM": "255104849150502170",
+      "NNAM": "243872450548217434",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Ebonheart",
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "But you are the Knight of the Imperial Dragon! You don't need to take orders.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "243872450548217434": {
+      "flag": 0,
+      "PNAM": "14776268311511532191",
+      "NNAM": "3463236541192520475",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Ebonheart",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Varus Vatinius in the Grand Council Chambers or Frald the White at the Hawkmoth Legion Garrison.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3463236541192520475": {
+      "flag": 0,
+      "PNAM": "243872450548217434",
+      "NNAM": "1012418668314518534",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Darius. He's in the Madach Tradehouse.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "B",
+          "details": "LX",
+          "operator": "0",
+          "identifier": "Gnisis, Madach Tradehouse",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1012418668314518534": {
+      "flag": 0,
+      "PNAM": "3463236541192520475",
+      "NNAM": "36602314956051470",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Moonmoth Legion Fort",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Radd Hard-Heart.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "radd hard-heart",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "36602314956051470": {
+      "flag": 0,
+      "PNAM": "1012418668314518534",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Buckmoth Legion Fort",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Imsin the Dreamer.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "imsin the dreamer",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "7182300462392120168": {
+      "flag": 0,
+      "PNAM": "67952379338665913",
+      "NNAM": "13405161733617114",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have your report, and I'll make copies of your notes from Huleeya and the 'Progress of Truth.' Give me time to read and digest all this. In the meantime, I'm promoting you to Journeyman. You're doing good work. And here are 200 drakes. Go out and treat yourself to a new pair of shoes. And go do some jobs for the guilds, or other freelance work, just to keep your cover story current. Or get some training. Then, when you're fit and rested, come back, and I'll have new orders for you.",
+      "BNAM": "Journal \"A1_V_VivecInformants\" 50\r\nmoddisposition 10\r\nPCRaiseRank\r\nplayer->additem gold_001 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A1_6_AddhiranirrInformant",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_10_MehraMilo",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

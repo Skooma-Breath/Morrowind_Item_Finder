@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Redguard",
+  "CNAM": "Trader",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_redguard_m_head_05",
+  "KNAM": "b_n_redguard_m_hair_00",
+  "MODL": null,
+  "FNAM": "Jon Hawker",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "Zenithar's_Warning"
+    },
+    {
+      "count": 1,
+      "name": "Zenithar's_Wiles"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    }
+  ],
+  "NPCS": [
+    "rally humanoid",
+    "reflect",
+    "weak spelldrinker",
+    "spell absorption",
+    "dispel"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 230,
+    "magicka": 136,
+    "fatigue": 316,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [91,68,68,93,74,64,83,40],
+    "skills": [51,19,24,24,56,34,24,19,24,7,7,7,7,7,54,7,7,39,54,54,7,39,12,7,54,100,39]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

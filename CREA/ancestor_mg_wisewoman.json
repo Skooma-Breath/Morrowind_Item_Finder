@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AncestorGhost.NIF",
+  "FLAG": 1096,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 8,
+    "attributes": [100,50,30,80,18,20,90,20],
+    "health": 220,
+    "magicka": 280,
+    "fatigue": 400,
+    "soul_strength": 280,
+    "combat_skill": 60,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,10],
+      [1,10],
+      [1,10]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "ancestor_ghost",
+  "FNAM": "Kanit Ashurnisammis",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 10,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

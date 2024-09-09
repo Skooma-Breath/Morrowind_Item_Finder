@@ -1,0 +1,398 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1087028490327310249": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2831727880757962",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus2",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Not today, I'm afraid.  I still need to get around to repairing my other bots.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_BattleBots1",
+          "__TV": 60
+        }
+      ]
+    },
+    "2831727880757962": {
+      "flag": 0,
+      "PNAM": "1087028490327310249",
+      "NNAM": "7546307851172928459",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wow, you've got some guts, %PCRace. All right. Let's watch the fight.",
+      "BNAM": "set ignatius_flaccus.PCBotBet to 1000\r\nPlayer->RemoveItem Gold_001 1000\r\nset ignatius_flaccus.FightStart to 1\r\nGoodBye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "7546307851172928459": {
+      "flag": 0,
+      "PNAM": "2831727880757962",
+      "NNAM": "20388122182535229651",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. It looks like you don't have enough money to bet. Nonetheless, we can still enjoy the fight.",
+      "BNAM": "Journal \"MS_BattleBots1\" 60\r\nset ignatius_flaccus.FightStart to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "20388122182535229651": {
+      "flag": 0,
+      "PNAM": "7546307851172928459",
+      "NNAM": "81182783615356846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I like your style, %PCRace. A nice, hefty bet. All right, let's watch the fight.",
+      "BNAM": "set ignatius_flaccus.PCBotBet to 250\r\nPlayer->RemoveItem Gold_001 250\r\nset ignatius_flaccus.FightStart to 1\r\nGoodBye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 250
+        }
+      ]
+    },
+    "81182783615356846": {
+      "flag": 0,
+      "PNAM": "20388122182535229651",
+      "NNAM": "2067022270107619326",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. It looks like you don't have enough money to bet.  Nonetheless, we can still enjoy the fight.",
+      "BNAM": "Journal \"MS_BattleBots1\" 60\r\nset ignatius_flaccus.FightStart to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "2067022270107619326": {
+      "flag": 0,
+      "PNAM": "81182783615356846",
+      "NNAM": "41117870297054898",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Playing it safe I see. All right, let's watch the fight.",
+      "BNAM": "set ignatius_flaccus.PCBotBet to 50\r\nPlayer->RemoveItem Gold_001 50\r\nset ignatius_flaccus.FightStart to 1\r\nGoodBye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 50
+        }
+      ]
+    },
+    "41117870297054898": {
+      "flag": 0,
+      "PNAM": "2067022270107619326",
+      "NNAM": "139322904269881383",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. It looks like you don't have enough money to bet. Nonetheless, we can still enjoy the fight.",
+      "BNAM": "Journal \"MS_BattleBots1\" 60\r\nset ignatius_flaccus.FightStart to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "139322904269881383": {
+      "flag": 0,
+      "PNAM": "41117870297054898",
+      "NNAM": "1924130161803530107",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Strength over speed, huh? Well, I'll take that bet. Now how much would you like to wager?",
+      "BNAM": "set ignatius_flaccus.BotBetOn to 2\r\nChoice \"50 septims.\" 5 \"250 septims.\" 6 \"1000 septims.\" 7",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "1924130161803530107": {
+      "flag": 0,
+      "PNAM": "139322904269881383",
+      "NNAM": "818122406966925399",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speed over strength, huh?  Well, I'll take that bet. How much would you like to wager?",
+      "BNAM": "set ignatius_flaccus.BotBetOn to 1\r\nChoice \"50 septims.\" 5 \"250 septims.\" 6 \"1000 septims.\" 7",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "818122406966925399": {
+      "flag": 0,
+      "PNAM": "1924130161803530107",
+      "NNAM": "2787025319301892573",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Great, which bot will you bet on? The sphere bot is faster, but the steam centurion is stronger.",
+      "BNAM": "Choice \"I'll take the sphere bot.\" 3 \"I'll take the steam centurion.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2787025319301892573": {
+      "flag": 0,
+      "PNAM": "818122406966925399",
+      "NNAM": "182162439343607829",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, that's too bad. Well, the fight is starting. Let's watch.",
+      "BNAM": "Journal \"MS_BattleBots1\" 90\r\nset ignatius_flaccus.FightStart to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "182162439343607829": {
+      "flag": 0,
+      "PNAM": "2787025319301892573",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ignatius_flaccus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, a wager. A bet. I'll double the money you put down if your bot wins. Would you like to place a bet?",
+      "BNAM": "Choice \"Yes, I would.\" 1 \"No, thank you.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_BattleBots1",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MS_BattleBots1",
+          "__TV": 60
+        }
+      ]
+    }
+  }
+}

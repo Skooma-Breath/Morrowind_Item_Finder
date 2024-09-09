@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 12,
+  "RNAM": "Dark Elf",
+  "CNAM": "Dreamers",
+  "ANAM": "Sixth House",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_19",
+  "MODL": null,
+  "FNAM": "Dreamer",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 50,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron club"
+    },
+    {
+      "count": 1,
+      "name": "ingred_6th_corprusmeat_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 45,
+    "magicka": 20,
+    "fatigue": 178,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [42,41,51,44,42,41,41,40],
+    "skills": [16,5,5,5,31,10,5,5,21,5,15,5,5,5,10,5,5,5,16,32,16,36,42,36,6,6,16]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

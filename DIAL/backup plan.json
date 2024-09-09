@@ -1,0 +1,134 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "172042257069021685": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "6465252431173924268",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadayn andarys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, there's a reason it's a backup plan, you know.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Unrequited",
+          "__TV": 70
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "EB_Unrequited",
+          "__TV": 80
+        }
+      ]
+    },
+    "6465252431173924268": {
+      "flag": 0,
+      "PNAM": "172042257069021685",
+      "NNAM": "197939062929113412",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadayn andarys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Her cousin, you say? Well, I suppose this was a pretty ridiculous scam. And...if her cousin has half of Eraldil's beauty, she'd still be twice as beautiful as any other woman I've met. Perhaps I'll look her up some time, friend. Thank you for your help.",
+      "BNAM": "Journal \"EB_Unrequited\" 80\r\nStartScript glathelScript",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "197939062929113412": {
+      "flag": 0,
+      "PNAM": "6465252431173924268",
+      "NNAM": "172327200121925816",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadayn andarys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I appreciate the help, friend. Just tell her it's an apology from Gadayn. She should accept it then. Then, once she drinks it, she'll fall into my arms in no time!",
+      "BNAM": "Journal \"EB_Unrequited\" 70\r\nPlayer->AddItem \"p_lovepotion_unique\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "172327200121925816": {
+      "flag": 0,
+      "PNAM": "197939062929113412",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadayn andarys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I figured there was the slight chance she wouldn't be interested in me right away, so I had an alchemist mix up a special potion for me. For anyone else, it will seem a normal health potion, but if Eraldil drinks it, she'll find herself incredibly attracted to me. Perhaps you'll deliver it to her for me?",
+      "BNAM": "Journal \"EB_Unrequited\" 60\r\nChoice \"I'll deliver the potion for you.\" 1 \"Perhaps you might speak to her cousin, instead.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "EB_Unrequited",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

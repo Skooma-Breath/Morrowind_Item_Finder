@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Savant Service",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_17",
+  "MODL": null,
+  "FNAM": "Berela Andrano",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16392
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "expensive_amulet_03"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    },
+    {
+      "count": 3,
+      "name": "random_book_imperial_dunmer"
+    },
+    {
+      "count": 3,
+      "name": "random_book_dunmer"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "gold": 150
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Thief",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_M_Head_06",
+  "KNAM": "b_n_nord_m_hair04",
+  "MODL": null,
+  "FNAM": "Viciously clawed dead smuggler",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_03_b"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "l_n_lockpicks"
+    },
+    {
+      "count": 1,
+      "name": "l_n_probe"
+    },
+    {
+      "count": 1,
+      "name": "l_n_amulet"
+    },
+    {
+      "count": 1,
+      "name": "l_m_wpn_missle_arrow"
+    },
+    {
+      "count": 1,
+      "name": "l_n_wpn_missle_bow"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 0,
+    "magicka": 60,
+    "fatigue": 180,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [50,30,40,40,50,50,30,40],
+    "skills": [5,5,15,10,15,10,15,10,15,5,5,5,5,5,5,5,5,5,35,35,35,35,35,20,20,20,20]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

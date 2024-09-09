@@ -1,0 +1,261 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "22196257592020926573": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "250662577148408456",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild. Until you make amends, I can't talk to you about this contract.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "250662577148408456": {
+      "flag": 0,
+      "PNAM": "22196257592020926573",
+      "NNAM": "12272317842355814908",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Last I heard, she was trying to get permission to study in the city of Sotha Sil.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Telasero",
+          "__TV": 100
+        }
+      ]
+    },
+    "12272317842355814908": {
+      "flag": 0,
+      "PNAM": "250662577148408456",
+      "NNAM": "2557986482773411276",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sondaale of Shimmerene is dead? How do you know? Well, that's a shame. I don't have any more work for you, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_Telasero",
+          "__TV": 0
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sondaale of shimmerene",
+          "__TV": 1
+        }
+      ]
+    },
+    "2557986482773411276": {
+      "flag": 0,
+      "PNAM": "12272317842355814908",
+      "NNAM": "1928280813149921891",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There's no more to say about your pathetic efforts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_Telasero",
+          "__TV": 110
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sondaale of shimmerene",
+          "__TV": 1
+        }
+      ]
+    },
+    "1928280813149921891": {
+      "flag": 0,
+      "PNAM": "2557986482773411276",
+      "NNAM": "19680231976348865",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard Sondaale of Shimmerene was dead. You idiot! You won't be getting any more contracts from me.",
+      "BNAM": "Journal FG_Telasero 110\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sondaale of shimmerene",
+          "__TV": 1
+        }
+      ]
+    },
+    "19680231976348865": {
+      "flag": 0,
+      "PNAM": "1928280813149921891",
+      "NNAM": "260512049306974389",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good work, %PCName. Here's the 500 septims for this contract.",
+      "BNAM": "Journal FG_Telasero 100\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10\r\nPlayer->AddItem Gold_001 500",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Telasero",
+          "__TV": 70
+        }
+      ]
+    },
+    "260512049306974389": {
+      "flag": 0,
+      "PNAM": "19680231976348865",
+      "NNAM": "130541660653534768",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get moving, %PCRank. I need you to escort Sondaale through Telasero.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Telasero",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_Telasero",
+          "__TV": 30
+        }
+      ]
+    },
+    "130541660653534768": {
+      "flag": 0,
+      "PNAM": "260512049306974389",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Telasero, which is between Suran and the Silt Strider port near Molag Mar. Speak with Sondaale of Shimmerene and escort her through Telasero. She lacks the field experience of Larienna Macrina, so she will likely need more protection.",
+      "BNAM": "Journal FG_Telasero 10\r\n\"sondaale of shimmerene\"->Enable\r\nShowMap Telasero",
+      "SCVR": null
+    }
+  }
+}

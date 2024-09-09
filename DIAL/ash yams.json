@@ -1,0 +1,207 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1648513801401415620": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "20678115821225727170",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No thank you. I already have some.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_AurielBow",
+          "__TV": 100
+        }
+      ]
+    },
+    "20678115821225727170": {
+      "flag": 0,
+      "PNAM": "1648513801401415620",
+      "NNAM": "14190191401857128286",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here, take these old things and leave me alone.",
+      "BNAM": "Journal HT_AurielBow 100\r\nPlayer->RemoveItem ebony_bow_auriel 1\r\nAddItem ebony_bow_auriel 1\r\nPlayer->AddItem Daedric_Cuirass_HTAB 1\r\nPlayer->AddItem Daedric_Greaves_HTAB 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14190191401857128286": {
+      "flag": 0,
+      "PNAM": "20678115821225727170",
+      "NNAM": "17970190830628951",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's pretend I paid you to go away. Here, take this sack of drakes and take that horrible stench with you.",
+      "BNAM": "Player->RemoveItem ebony_bow_auriel 1\r\nAddItem ebony_bow_auriel 1\r\nPlayer->AddItem Gold_001 11111\r\nJournal HT_AurielBow 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "17970190830628951": {
+      "flag": 0,
+      "PNAM": "14190191401857128286",
+      "NNAM": "29925260163065619395",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, dear. This bow smells like ash yams. This isn't any good to me at all. I hate ash yams. If I gave you a little present would you go away and promise never to bring me any ash yams ever again?",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "29925260163065619395": {
+      "flag": 0,
+      "PNAM": "17970190830628951",
+      "NNAM": "2480723834968212158",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then I will have to clear out that horrible ash yam smell myself.",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nSetDisposition 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2480723834968212158": {
+      "flag": 0,
+      "PNAM": "29925260163065619395",
+      "NNAM": "169215412511425645",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I *smell* ash yams but I don't *see* ash yams. Are you lying to me?! I don't like people who lie to me... But if you give me the bow, I might let you go.",
+      "BNAM": "Choice \"Give her Auriel's bow.\" 3 \"Keep Auriel's bow.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ebony_bow_auriel",
+          "__TV": 0
+        }
+      ]
+    },
+    "169215412511425645": {
+      "flag": 0,
+      "PNAM": "2480723834968212158",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ash yams have the strongest smell in Ghostgate near Ralyn Othravel.",
+      "BNAM": "Journal HT_AurielBow 10",
+      "SCVR": null
+    }
+  }
+}

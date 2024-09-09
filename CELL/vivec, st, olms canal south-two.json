@@ -1,0 +1,580 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1516077,1061158912]
+  },
+  "NAME": "Vivec, St. Olms Canal South-Two",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [61,40,20,0],
+    "fog_color": [45,34,23,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-159974": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dro'sakhar",
+      "DATA": [-79.56370544433594,-98.63920593261719,-124.36650848388672,0,0,6.28318452835083]
+    },
+    "0-159995": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-64,192,-128,0,0,4.71238899230957]
+    },
+    "0-159960": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_28",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [67.96247863769531,-217.9617156982422,-87.41018676757812,0,0,0]
+    },
+    "0-159965": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_food",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [169.65733337402344,-74.46311950683594,-96,0,0,6.183185577392578]
+    },
+    "0-159966": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_empty",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [111.66693115234375,-15.921675682067871,-96,0,0,0.7999999523162842]
+    },
+    "0-159967": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-173.1552734375,-232.31784057617188,-95.99996948242188,0,0,0.5853981375694275]
+    },
+    "0-159968": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-127.87203216552734,-240.5873260498047,-31.999969482421875,0,0,6.183185577392578]
+    },
+    "0-159969": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-89.50232696533203,-232.38394165039062,-95.99996948242188,0,0,6.08318567276001]
+    },
+    "0-159970": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood20",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-135.91197204589844,-172.05638122558594,-94.62918853759766,0,0,0]
+    },
+    "0-159971": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood20",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [183.30404663085938,105.29398345947266,-94.62921142578125,0,0,4.683186054229736]
+    },
+    "0-159972": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [157.8535919189453,122.32906341552734,-28.288461685180664,0,0,3.483185052871704]
+    },
+    "0-159973": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [130.849853515625,126.77970123291016,-94.62921142578125,0,0,3.483185052871704]
+    },
+    "0-159976": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "dro'sakhar",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [108.5020751953125,-1.2245616912841797,-28.83799934387207,0,0,0]
+    },
+    "0-159977": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_06",
+      "DATA": [-83.91236877441406,-235.5172882080078,-43.102840423583984,0,0,2.9831864833831787]
+    },
+    "0-159978": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-161.39144897460938,98.57596588134766,-64.3899917602539,0,0,1]
+    },
+    "0-159979": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-149.28274536132812,106.67707824707031,-65.2066650390625,0,0,4.083184719085693]
+    },
+    "0-159980": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-175.23439025878906,87.8494873046875,-64.92503356933594,0,0,3.983185291290283]
+    },
+    "0-159981": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-173.25958251953125,121.1848373413086,-48.97200393676758,0,0,1]
+    },
+    "0-159982": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-184.6497802734375,106.25162506103516,-59.87559127807617,0,0,0]
+    },
+    "0-159983": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [91.27261352539062,79.5432357788086,-123.62107849121094,1.6000003814697266,1.6831879615783691,3.2831850051879883]
+    },
+    "0-159984": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [31.4611873626709,-170.4392547607422,-123.49662017822266,1.6000005006790161,5.383185863494873,0]
+    },
+    "0-159985": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-135.40402221679688,-176.35023498535156,-42.32411193847656,0,0,0.5999998450279236]
+    },
+    "0-159986": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [162.66053771972656,47.722328186035156,-39.63824462890625,0,0,4.883185386657715]
+    },
+    "0-159987": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "XSCL": 1.25,
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-210.94090270996094,-253.3404083251953,-32.2913818359375,6.183185577392578,0.30000001192092896,2.799999475479126]
+    },
+    "0-159988": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [116.00652313232422,66.92665100097656,-115.31241607666016,0,5.983185768127441,4.9977874755859375]
+    },
+    "0-159989": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [87.73960876464844,35.75012969970703,-121.04121398925781,0,0,5.383184432983398]
+    },
+    "0-159990": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-127.60399627685547,-236.8459930419922,6.959000110626221,0,0,3.9828412532806396]
+    },
+    "0-159991": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [8.191112518310547,-298.67608642578125,-26.01310920715332,1.5707963705062866,4.71238899230957,0]
+    },
+    "0-159992": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "XSCL": 0.7500000596046448,
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-19.52948760986328,-297.2386779785156,-17.61203956604004,0,0,5.983185768127441]
+    },
+    "0-159993": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [71.46900177001953,-68.25,-50.92399978637695,0,0,5.712388515472412]
+    },
+    "0-159994": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "dro'sakhar",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [56.894569396972656,-57.82429504394531,-61.20133972167969,0,0,0]
+    },
+    "0-159957": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_room_01",
+      "DATA": [0,-64,0,0,0,1.5707963705062866]
+    },
+    "0-159958": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [66.69938659667969,-114.9025650024414,2.851318359375,0,0,0]
+    },
+    "0-159959": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [167.45457458496094,-134.72817993164062,2.851318359375,0,0,0.5]
+    },
+    "0-159961": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [50.541351318359375,-67.13961791992188,-96.97296142578125,0,0,5.883185863494873]
+    },
+    "0-159962": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_02",
+      "DATA": [-172.2135009765625,110.74629974365234,-96.9365234375,0,0,0]
+    },
+    "0-159963": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [-152.10598754882812,67.96870422363281,-108.27618408203125,0,0,0]
+    },
+    "0-159996": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [0,192,-128,0,0,4.71238899230957]
+    },
+    "0-159997": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [0,576,0,0,0,3.1415927410125732]
+    },
+    "0-405579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_025",
+      "DATA": [55.33823013305664,-79.66571044921875,-68.14463806152344,0,0,2.40000057220459]
+    },
+    "0-424306": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_02",
+      "DATA": [56.831783294677734,-155.0829620361328,-131.7238311767578,0,0,6.08318567276001]
+    },
+    "0-424307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "DATA": [140.6053009033203,-219.1470184326172,-80.64788818359375,0,0.4000000059604645,6.183185577392578]
+    },
+    "0-424308": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_practice_mat",
+      "XSCL": 0.7200000286102295,
+      "DATA": [-145.41165161132812,-51.02667236328125,-127.87293243408203,0,0,4.71238899230957]
+    },
+    "0-424309": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Practice_Dummy",
+      "DATA": [-193.02735900878906,-54.08488082885742,-58.691707611083984,0,0,4.71238899230957]
+    },
+    "0-424310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "DATA": [-159.12728881835938,-47.27091979980469,-29.6968994140625,4.8123908042907715,6.183184623718262,4.612388610839844]
+    },
+    "0-424311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "DATA": [-157.8439178466797,-62.011409759521484,-14.016432762145996,4.41239070892334,0.19999894499778748,4.312388896942139]
+    },
+    "0-424312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "DATA": [34.072513580322266,-56.87126159667969,-66.04110717773438,6.2831854820251465,3.1415927410125732,5.4977874755859375]
+    },
+    "0-424313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_08_128",
+      "XSCL": 1.090000033378601,
+      "DATA": [-159.9341583251953,93.41271209716797,82.12031555175781,0,0,0]
+    },
+    "0-424314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_77",
+      "DATA": [84.2711410522461,-238.26431274414062,63.471710205078125,0,0,0]
+    },
+    "0-424315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-155.4613800048828,93.30931091308594,101.71702575683594,0,0,3.6831860542297363]
+    },
+    "0-424316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_empty",
+      "ANAM": "dro'sakhar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [166.52859497070312,38.58985900878906,-96,0,0,1.9000002145767212]
+    },
+    "0-424317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [221.80462646484375,-145.57260131835938,94.1178970336914,0,0,4.71238899230957]
+    },
+    "0-424318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "probe_bent",
+      "ANAM": "dro'sakhar",
+      "INTV": 5,
+      "NAM9": 1,
+      "DATA": [3.8374712467193604,-293.8838806152344,-30.62965965270996,0,0,1.5000009536743164]
+    },
+    "0-424319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "probe_apprentice_01",
+      "ANAM": "dro'sakhar",
+      "INTV": 25,
+      "NAM9": 1,
+      "DATA": [-34.163787841796875,-297.80889892578125,-30.391986846923828,0,0,4.799999237060547]
+    },
+    "0-424320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [68.53345489501953,-286.4432373046875,94.1178970336914,0,0,0]
+    },
+    "0-424321": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-221.1894073486328,-172.1130828857422,94.1178970336914,0,0,1.5707963705062866]
+    },
+    "0-424322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [221.80462646484375,32.387691497802734,94.1178970336914,0,0,4.71238899230957]
+    },
+    "0-424323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-221.1894073486328,54.37930679321289,94.1178970336914,0,0,1.5707963705062866]
+    }
+  }
+}

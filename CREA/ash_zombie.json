@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AshZombie.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 3,
+    "level": 8,
+    "attributes": [100,20,60,20,25,20,90,20],
+    "health": 90,
+    "magicka": 100,
+    "fatigue": 400,
+    "soul_strength": 100,
+    "combat_skill": 80,
+    "magic_skill": 60,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,20],
+      [1,20],
+      [1,20]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 100,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": null,
+  "FNAM": "Ash Zombie",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "spiked club"
+    },
+    {
+      "count": 2,
+      "name": "random_ash_salts"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,30,30,20,20,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "97479321293336398": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "22085548745848909",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's good that you dealt with her before she could spread her pestilence across our city.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 170
+        }
+      ]
+    },
+    "22085548745848909": {
+      "flag": 0,
+      "PNAM": "97479321293336398",
+      "NNAM": "1352109022775416257",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The old sorceress' plans have been thwarted.  She won't trouble us again, thanks to you, %PCName. And with the spread of the disease on the decline, I think I can finally take a break from work. There isn't much I can offer you, %PCName, but I shall grant you some small amount of healing power. I hope that you will not often find occasion to use it.",
+      "BNAM": "player->addspell \"grace of almsivi\"\r\nJournal MS_CrimsonPlague 170",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 150
+        }
+      ]
+    },
+    "1352109022775416257": {
+      "flag": 0,
+      "PNAM": "22085548745848909",
+      "NNAM": "2443018671281705114",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've heard enough about her to be scared.  A powerful sorceress, condemned for studying and practicing forbidden magics.  I knew she was laid to rest somewhere under Mournhold many years ago, but I don't think anyone knew she had the power to cheat death itself!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 80
+        }
+      ]
+    },
+    "2443018671281705114": {
+      "flag": 0,
+      "PNAM": "1352109022775416257",
+      "NNAM": "1286566482956031220",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Gedna Relvel is dead this time, yes? And there is no more treasure to be found? Then Shunari has no reason to stay. %PCName should go tell Nerile Andaren that lich is gone. Shunari will not forget what %PCName has done, though her path may not cross %PCName's again. Farewell.",
+      "BNAM": "Journal MS_CrimsonPlague 160\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 150
+        }
+      ]
+    },
+    "1286566482956031220": {
+      "flag": 0,
+      "PNAM": "2443018671281705114",
+      "NNAM": "2927739391859813349",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shunari has not seen anyone leave the tomb since %PCName arrived last.  Shunari thinks Gedna Relvel must still be in there. Shunari also thinks %PCName should be looking for her, rather than out here talking.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 130
+        }
+      ]
+    },
+    "2927739391859813349": {
+      "flag": 0,
+      "PNAM": "1286566482956031220",
+      "NNAM": "226671492878046162",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shunari is scared once she catches bad disease, and wants only to get away from evil lich. So Shunari does not see how secret passage in tomb works. But Shunari will tell %PCName what she has seen of it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 120
+        }
+      ]
+    },
+    "226671492878046162": {
+      "flag": 0,
+      "PNAM": "2927739391859813349",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shunari has said that she watched %PCName open tomb. Shunari has often wondered what treasure lays in tomb, but door is too heavy. Shunari cannot open it. So when %PCName leaves, Shunari goes in for a look. She finds corpse in coffin, but corpse gets up and attacks! Poor Shunari can do nothing to fight it. It says it is Gedna Relvel, and has come to spread Crimson Plague to all of Mournhold. Even though Shunari feels ill, she comes to find %PCName for help!",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

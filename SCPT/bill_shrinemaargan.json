@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 435,
+    "local_var_size": 33
+  },
+  "SCTX": "begin BILL_shrineMaarGan\r\n; activator behaveour. special behaveour for TT_MaarGan quest\r\n; basically spews a message\r\n\r\n; script location: should be placed on ac_maar_gan_magic_rock\r\n\r\n;no longer used. See \"shrineMaarGan\"\r\n\r\n; variables\r\nshort testDist\r\nshort questTest\r\nshort deadTest \r\nshort doit\r\n\r\n; bug out if in menumode\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\n; bug out if player cant touch it\r\nset testDist to GetDistance, Player\r\nif ( testDist > 300 )\r\n\treturn\r\nendif\r\n\r\nif ( OnActivate == 1 )\r\n\tMessageBox \"Your mind reels with a voice: 'Here Mehrunes Dagon held this rock high above the Dunmer. Vivec taunted Mehrines Dagon so that Dagon threw the rock at Vivec instead of at the Dunmer.'\"\r\n\tset questTest to ( GetJournalIndex, \"TT_MaarGan\" )\r\n\tif ( questTest = 50 )\r\n\t\tPlayer->Journal \"TT_MaarGan\" 60\r\n\t\tset doit to 1\r\n\tendif\r\n\tset deadTest to ( GetDeadCount, \"dremora_ttmg\" )\r\n\tif ( deadTest == 1 )\r\n\t\tset doit to 1\r\n\tendif\r\nendif\r\n\r\nif ( doit == 1 )\r\n\tCast \"shrine_maargan_sp\", Player\r\n\tset doit to 0\r\nendif\r\n\r\n\r\nend BILL_shrineMaarGan",
+  "SCVR": [
+    "testDist",
+    "questTest",
+    "deadTest",
+    "doit"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,5,1,115,1,0,15,32,88,1,16,44,32,114,6,80,108,97,121,101,114,0,6,1,1,10,32,115,1,0,32,62,32,51,48,48,36,1,9,1,6,1,10,9,32,88,24,16,32,61,61,32,49,0,16,182,0,89,111,117,114,32,109,105,110,100,32,114,101,101,108,115,32,119,105,116,104,32,97,32,118,111,105,99,101,58,32,39,72,101,114,101,32,77,101,104,114,117,110,101,115,32,68,97,103,111,110,32,104,101,108,100,32,116,104,105,115,32,114,111,99,107,32,104,105,103,104,32,97,98,111,118,101,32,116,104,101,32,68,117,110,109,101,114,46,32,86,105,118,101,99,32,116,97,117,110,116,101,100,32,77,101,104,114,105,110,101,115,32,68,97,103,111,110,32,115,111,32,116,104,97,116,32,68,97,103,111,110,32,116,104,114,101,119,32,116,104,101,32,114,111,99,107,32,97,116,32,86,105,118,101,99,32,105,110,115,116,101,97,100,32,111,102,32,97,116,32,116,104,101,32,68,117,110,109,101,114,46,39,0,0,5,1,115,2,0,19,32,88,205,16,44,32,100,10,84,84,95,77,97,97,114,71,97,110,0,6,1,2,9,32,115,2,0,32,61,32,53,48,12,1,6,112,108,97,121,101,114,204,16,10,84,84,95,77,97,97,114,71,97,110,60,0,255,255,5,1,115,4,0,2,32,49,9,1,5,1,115,3,0,21,32,88,254,16,44,32,111,12,100,114,101,109,111,114,97,95,116,116,109,103,0,6,1,1,9,32,115,3,0,32,61,61,32,49,5,1,115,4,0,2,32,49,9,1,9,1,6,1,2,9,32,115,4,0,32,61,61,32,49,35,17,17,115,104,114,105,110,101,95,109,97,97,114,103,97,110,95,115,112,6,80,108,97,121,101,114,5,1,115,4,0,2,32,48,9,1,1,1]
+}

@@ -1,0 +1,79 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Khajiit",
+  "CNAM": "Thief",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_f_head_02",
+  "KNAM": "b_n_khajiit_f_hair01",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Shunari Eye-Fly",
+  "SCRI": "Shunari_Plague",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    }
+  ],
+  "NPCS": [
+    "crimson_plague"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 35,
+    "health": 211,
+    "magicka": 188,
+    "fatigue": 308,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [91,94,57,100,100,60,81,40],
+    "skills": [8,8,8,8,8,8,8,8,54,8,8,8,8,8,8,8,8,8,91,91,100,91,91,71,71,71,76]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 146,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin bookPilgrimsPath\r\n\r\nif ( GetJournalIndex TT_PilgrimsPath >= 100 )\r\n\tReturn\r\nendif\r\n\r\nif ( OnActivate == 1 )\r\n\tJournal TT_PilgrimsPath 100\r\n\tShowMap \"Gnisis\"\r\n\tShowMap \"Vivec\"\r\n\tShowMap \"Ghostgate\"\r\n\tShowMap \"Koal Cave Entrance\"\r\n\tShowMap \"Fields of Kummu\"\r\n\tActivate\r\nendif\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [6,1,1,29,32,88,205,16,32,100,15,84,84,95,80,105,108,103,114,105,109,115,80,97,116,104,32,62,61,32,49,48,48,36,1,9,1,6,1,7,9,32,88,24,16,32,61,61,32,49,204,16,15,84,84,95,80,105,108,103,114,105,109,115,80,97,116,104,100,0,255,255,82,17,6,71,110,105,115,105,115,82,17,5,86,105,118,101,99,82,17,9,71,104,111,115,116,103,97,116,101,82,17,18,75,111,97,108,32,67,97,118,101,32,69,110,116,114,97,110,99,101,82,17,15,70,105,101,108,100,115,32,111,102,32,75,117,109,109,117,23,16,9,1,1,1]
+}

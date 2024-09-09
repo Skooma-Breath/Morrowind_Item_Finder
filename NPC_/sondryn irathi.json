@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Scout",
+  "ANAM": "Fighters Guild",
+  "BNAM": "b_n_dark elf_f_head_07",
+  "KNAM": "b_n_dark elf_f_hair_05",
+  "MODL": null,
+  "FNAM": "Sondryn Irathi",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel sparksword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "dragonscale_cuirass"
+    },
+    {
+      "count": 40,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 85,
+    "magicka": 94,
+    "fatigue": 194,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [51,47,37,58,71,48,44,40],
+    "skills": [44,14,44,14,14,49,14,14,49,6,16,21,6,6,11,6,21,21,6,36,6,26,16,26,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

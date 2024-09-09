@@ -1,0 +1,261 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "22344219741010228833": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "29244102862295226906",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "29244102862295226906": {
+      "flag": 0,
+      "PNAM": "22344219741010228833",
+      "NNAM": "91455312159821334",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have executed this Writ already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritYasalmibaal",
+          "__TV": 100
+        }
+      ]
+    },
+    "91455312159821334": {
+      "flag": 0,
+      "PNAM": "29244102862295226906",
+      "NNAM": "185655039131626073",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Odaishah Yasalmibaal is dead by your hand!? I had not yet given you the proper contract... It is not healthy for you to anticipate the Morag Tong. Still, the credit is yours by law and tradition.",
+      "BNAM": "Journal MT_WritYasalmibaal 100\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "odaishah yasalmibaal",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritYasalmibaal",
+          "__TV": 0
+        }
+      ]
+    },
+    "185655039131626073": {
+      "flag": 0,
+      "PNAM": "91455312159821334",
+      "NNAM": "11860236751078012199",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hear that Odaishah Yasalmibaal is dead. Good. Here is your payment for this Writ.",
+      "BNAM": "Journal MT_WritYasalmibaal 110\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritYasalmibaal",
+          "__TV": 90
+        }
+      ]
+    },
+    "11860236751078012199": {
+      "flag": 0,
+      "PNAM": "185655039131626073",
+      "NNAM": "3437256922383926087",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hear that Odaishah Yasalmibaal is dead. Good. Here is your payment for this Writ.",
+      "BNAM": "Journal MT_WritYasalmibaal 100\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritYasalmibaal",
+          "__TV": 80
+        }
+      ]
+    },
+    "3437256922383926087": {
+      "flag": 0,
+      "PNAM": "11860236751078012199",
+      "NNAM": "118018732272413197",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_yasalmibaal",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritYasalmibaal",
+          "__TV": 10
+        }
+      ]
+    },
+    "118018732272413197": {
+      "flag": 0,
+      "PNAM": "3437256922383926087",
+      "NNAM": "29811176652328127737",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_yasalmibaal",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritYasalmibaal",
+          "__TV": 10
+        }
+      ]
+    },
+    "29811176652328127737": {
+      "flag": 0,
+      "PNAM": "118018732272413197",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "An honorable Writ has been issued by a noble of House Telvanni for the Ashlander Odaishah Yasalmibaal. It will more trouble tracking him down that killing him. Take a boat from Sadrith Mora to Tel Aruhn. Swim southwest until you reach the coast. Odaishah has built his yurt right on the coast near the end of a small peninsula.",
+      "BNAM": "Journal MT_WritYasalmibaal 10\r\nPlayer->AddItem \"writ_yasalmibaal\" 1",
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,670 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1456224538238555412": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2693016410435916237",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No, no, no. It wouldn't be as funny as the first time. Unless there was some clever variation. And... If I could stick someone ELSE with the responsibility for it.... Let me think about it.",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 35;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 35
+        }
+      ]
+    },
+    "2693016410435916237": {
+      "flag": 0,
+      "PNAM": "1456224538238555412",
+      "NNAM": "46547322305774795",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! That squeeze-butt Angaredhel is taking it pretty hard, eh? That clown had me brought up before the magistrate when I first came here for not having my Hospitality Papers. But I suppose you're right. The joke is losing its freshness. And I don't want to get anyone hurt. Go tell Angaredhel that the Gateway haunting will end. But do me a favor, will you? Give him these 'Ghost-Free Papers' from me?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_sadrith_expert",
+          "__TV": 1
+        }
+      ]
+    },
+    "46547322305774795": {
+      "flag": 0,
+      "PNAM": "2693016410435916237",
+      "NNAM": "81583622859120604",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! That squeeze-butt Angaredhel is taking it pretty hard, eh? That clown had me brought up before the magistrate when I first came here for not having my Hospitality Papers. But I suppose you're right. The joke is losing its freshness. And I don't want to get anyone hurt. Go tell Angaredhel that the Gateway haunting will end. But do me a favor, will you? Give him these 'Ghost-Free Papers' from me?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 15
+        }
+      ]
+    },
+    "81583622859120604": {
+      "flag": 0,
+      "PNAM": "46547322305774795",
+      "NNAM": "8450120222510961",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Fighters Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_sadrith_expert",
+          "__TV": 1
+        }
+      ]
+    },
+    "8450120222510961": {
+      "flag": 0,
+      "PNAM": "81583622859120604",
+      "NNAM": "5282133811297817924",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Fighters Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 15
+        }
+      ]
+    },
+    "5282133811297817924": {
+      "flag": 0,
+      "PNAM": "8450120222510961",
+      "NNAM": "908521882275713035",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial legion, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_sadrith_expert",
+          "__TV": 1
+        }
+      ]
+    },
+    "908521882275713035": {
+      "flag": 0,
+      "PNAM": "5282133811297817924",
+      "NNAM": "4924132562060415208",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial legion, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 15
+        }
+      ]
+    },
+    "4924132562060415208": {
+      "flag": 0,
+      "PNAM": "908521882275713035",
+      "NNAM": "2868329128261209589",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Cult",
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial cult, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_sadrith_expert",
+          "__TV": 1
+        }
+      ]
+    },
+    "2868329128261209589": {
+      "flag": 0,
+      "PNAM": "4924132562060415208",
+      "NNAM": "388917341240124806",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Cult",
+      "SNAM": null,
+      "NAME": "So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial cult, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 15
+        }
+      ]
+    },
+    "388917341240124806": {
+      "flag": 0,
+      "PNAM": "2868329128261209589",
+      "NNAM": "20679170461445328008",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "So, %PCRank %PCName. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a fellow member of the Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_sadrith_expert",
+          "__TV": 1
+        }
+      ]
+    },
+    "20679170461445328008": {
+      "flag": 0,
+      "PNAM": "388917341240124806",
+      "NNAM": "2576831474302609630",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "So, %PCRank %PCName. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a fellow member of the Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\n\"Gateway_haunt\"->disable \r\nplayer->additem \"bk_Uleni's_Papers\" 1\r\nJournal \"town_Sadrith\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 15
+        }
+      ]
+    },
+    "2576831474302609630": {
+      "flag": 0,
+      "PNAM": "20679170461445328008",
+      "NNAM": "17710292952002912391",
+      "DATA": {
+        "value": 20,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. Arara Uvulas thinks a Conjuration expert is behind the Gateway haunting, and someone told you that I'm a Conjuration expert. Well, who cares what Arara Uvulas thinks. And maybe I AM a Conjuration expert, but what does that prove? Nothing.",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 15; \r\nJournal \"town_Sadrith\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 15
+        }
+      ]
+    },
+    "17710292952002912391": {
+      "flag": 0,
+      "PNAM": "2576831474302609630",
+      "NNAM": "220207212153138530",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uleni heleran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh. That. Just ghosts. I suppose. No. I don't know anything about it. Nothing at all.",
+      "BNAM": ";Uleni Heleran; Journal \"town_Sadrith\" >= 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 1
+        }
+      ]
+    },
+    "220207212153138530": {
+      "flag": 0,
+      "PNAM": "17710292952002912391",
+      "NNAM": "21050220211288029122",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I inspected the manifestations in the South Turret bed chamber of the Gateway Inn. I examined the site thoroughly, but I found no evidence of a restless spirit or ancestral influences. The ghost itself is trivial, and easily banished, but I don't know why it reappears, or how to stop the reappearances. I can't be sure, but my experience and intuition tells me that a Conjuration expert is involved. By that, I mean a mage skilled at summoning ghosts. That's all I can tell you.",
+      "BNAM": ";Arara Uvulas; Journal \"town_Sadrith\" < 50; \r\nJournal \"town_Sadrith\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "town_Sadrith",
+          "__TV": 50
+        }
+      ]
+    },
+    "21050220211288029122": {
+      "flag": 0,
+      "PNAM": "220207212153138530",
+      "NNAM": "28528161891890919905",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "angaredhel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The ghost is in the South Turret bed chamber if you want look for yourself. Head upstairs, then keep heading south and up stairs to the room. It isn't hard to drive it away, but it always comes back. Mage-Mistress Arara Uvulas, Master Neloth's Mouth, inspected the room, but couldn't say why it reappears or how to stop it. Go talk to her if you like; she's always at the Telvanni Council House. She thinks it may be some mischievous sorcerer. If that's true, find out who is responsible, and make it stop!",
+      "BNAM": ";Angaredhel; Journal \"town_Sadrith\" >= 5; Journal \"town_Sadrith\" < 35; NOT DEAD Uleni Heleran;\r\nJournal \"town_Sadrith\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "town_Sadrith",
+          "__TV": 35
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "uleni heleran",
+          "__TV": 0
+        }
+      ]
+    },
+    "28528161891890919905": {
+      "flag": 0,
+      "PNAM": "21050220211288029122",
+      "NNAM": "133661835320351425",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Angaredhel mentioned your handling of the Gateway haunting affair. It was quite an embarrassment for our house, and we are grateful.",
+      "BNAM": ";Sadrith Mora: Telvanni; Journal \"town_Sadrith\" >= 65;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 50
+        }
+      ]
+    },
+    "133661835320351425": {
+      "flag": 0,
+      "PNAM": "28528161891890919905",
+      "NNAM": "1391630205109826304",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Angaredhel mentioned your handling of the Gateway haunting affair. It was quite an embarrassment for our house, and we are grateful.",
+      "BNAM": ";Sadrith Mora: Telvanni; Journal \"town_Sadrith\" >= 65; \r\nmodDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 50
+        }
+      ]
+    },
+    "1391630205109826304": {
+      "flag": 0,
+      "PNAM": "133661835320351425",
+      "NNAM": "11505284042402119848",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora, Wolverine Hall",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By the way, we heard how you handled that business with Uleni Heleran and the Gateway haunting. We all like Uleni very much, and we're glad you kept her name out if it when you spoke with Angaredhel.",
+      "BNAM": ";Sadrith Mora; Wolverine Hall; NOT Uleni Heleran; Journal \"town_Sadrith\" >= 50; Journal \"town_Sadrith\" < 65;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "uleni heleran",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "uleni heleran",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "town_Sadrith",
+          "__TV": 65
+        }
+      ]
+    },
+    "11505284042402119848": {
+      "flag": 0,
+      "PNAM": "1391630205109826304",
+      "NNAM": "2424974441626213490",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora, Wolverine Hall",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By the way, we heard how you handled that business with Uleni Heleran and the Gateway haunting. We all like Uleni very much, and we're glad you kept her name out if it when you spoke with Angaredhel.",
+      "BNAM": ";Sadrith Mora; Wolverine Hall; NOT Uleni Heleran; Journal \"town_Sadrith\" >= 50; Journal \"town_Sadrith\" < 65;\r\nmodDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "uleni heleran",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "uleni heleran",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Sadrith",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "town_Sadrith",
+          "__TV": 65
+        }
+      ]
+    },
+    "2424974441626213490": {
+      "flag": 0,
+      "PNAM": "11505284042402119848",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora, Gateway Inn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've heard about it? I saw it myself. Open the South Turret bed chamber door and there it is. Another fellow went in an attacked it. He wasn't badly hurt, and it wasn't hard to drive it away. But a couple hours later, someone else went up there and it was back. And it KEEPS coming back, no matter what you do. Neloth's Mouth, Arara Uvulas the mage, looked at it, but he doesn't know what's happening. The Gateway can't rent the room, and Angaredhel is very upset.",
+      "BNAM": ";Sadrith Mora, Gateway Inn; NOT DEAD Uleni Heleran;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "uleni heleran",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

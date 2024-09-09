@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Publican",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_07",
+  "KNAM": "b_n_dark elf_f_hair_05",
+  "MODL": null,
+  "FNAM": "Manse Andus",
+  "SCRI": "Pub_Maargan_Andus",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8208
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": -10,
+      "name": "random_food"
+    },
+    {
+      "count": -6,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": -6,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -6,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": -6,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -3,
+      "name": "potion_cyro_brandy_01"
+    },
+    {
+      "count": -3,
+      "name": "Potion_Cyro_Whiskey_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 66,
+    "magicka": 120,
+    "fatigue": 176,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [48,60,35,56,57,37,63,40],
+    "skills": [21,6,21,6,21,11,6,21,11,6,16,6,6,6,11,6,6,6,44,44,14,49,24,19,20,44,29]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

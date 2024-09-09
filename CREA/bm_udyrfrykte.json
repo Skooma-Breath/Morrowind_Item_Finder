@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "MODL": "r\\udyrfrykte.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 11,
+    "attributes": [150,50,80,60,65,100,50,50],
+    "health": 1000,
+    "magicka": 250,
+    "fatigue": 1000,
+    "soul_strength": 250,
+    "combat_skill": 100,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,50],
+      [5,50],
+      [5,50]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "The Udyrfrykte",
+  "SCRI": "UdyrfrykteDead",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM nord leg"
+    },
+    {
+      "count": 1,
+      "name": "ingred_udyrfrykte_heart"
+    }
+  ],
+  "NPCS": [
+    "immune to fire",
+    "immune to frost",
+    "immune to poison",
+    "immune to shock",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,30,30,0,0,0,0,0]
+    }
+  ]
+}

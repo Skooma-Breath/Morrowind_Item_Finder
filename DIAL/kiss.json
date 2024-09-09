@@ -1,0 +1,96 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "19700265441214810192": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2521766932062316625",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nels llendo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahhhh...yes. Though it is Nels Llendo they call thief, it is you, %PCName, who has stolen my heart. Your kiss is worth more gold than I might find in a Duke's treasury. I must take my leave of you now, dear lady, but I take my lodging at the Halfway Tavern in Pelagiad. Perhaps you will visit Nels Llendo there some time. I'm certain I will be able to be of some service to you then. Until that time, good bye.",
+      "BNAM": "journal \"MV_3_Charming\" 120\r\nModDisposition 30\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2521766932062316625": {
+      "flag": 0,
+      "PNAM": "19700265441214810192",
+      "NNAM": "209412776195423851",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nels llendo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No? Ah well, perhaps it was too much to hope for a simple man such as Nels Llendo. But, if you ever change your mind, you know where to find me. Good day, madam.",
+      "BNAM": "journal \"MV_3_Charming\" 130\r\nModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "209412776195423851": {
+      "flag": 0,
+      "PNAM": "2521766932062316625",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nels llendo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, all I desire is a single kiss from beautiful lady such as yourself. Will you not grant Nels Llendo so simple a boon?",
+      "BNAM": "Choice \"What harm could one kiss do?\" 1 \"I'd sooner kiss a guar.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_3_Charming",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

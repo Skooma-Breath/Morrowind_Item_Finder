@@ -1,0 +1,150 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "817314171107463": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "309961482111576904",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urshamusa rapli",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I saw the white guar in my visions. It must be found.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MS_WhiteGuar",
+          "__TV": 40
+        }
+      ]
+    },
+    "309961482111576904": {
+      "flag": 0,
+      "PNAM": "817314171107463",
+      "NNAM": "3188417923451722673",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urshamusa rapli",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have seen it? Did you not follow it? You must follow the white guar.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_WhiteGuar",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MS_WhiteGuar",
+          "__TV": 60
+        }
+      ]
+    },
+    "3188417923451722673": {
+      "flag": 0,
+      "PNAM": "309961482111576904",
+      "NNAM": "2840286572377417556",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urshamusa rapli",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have seen your journey in a vision. Although you did not follow the white guar, it seems the gods have led you to where you were needed. In my vision, I saw you were led to the corpse of Ashamanu. She was a healer many, many years ago. She gave her own life to save the lives of others. It is said that she will give her life again and again, so that our people may live through her sacrifice. You have witnessed a miracle, my child; you now hold the Amulet of Ashamanu.",
+      "BNAM": "\"Ashamanu\"->Disable\r\n\"Guar_White_UNIQUE\"->Disable\r\nJournal \"MS_WhiteGuar\" 70",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_WhiteGuar",
+          "__TV": 65
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "amulet of ashamanu (unique)",
+          "__TV": 0
+        }
+      ]
+    },
+    "2840286572377417556": {
+      "flag": 0,
+      "PNAM": "3188417923451722673",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urshamusa rapli",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have seen your journey in a vision. I know what the white guar led you to, and I know who she was. In my vision, I saw you were led to the corpse of Ashamanu. She was a healer many, many years ago. She gave her own life to save the lives of others. It is said that she will give her life again and again, so that others may live through her sacrifice. You have witnessed a miracle, my child; you now hold the Amulet of Ashamanu.",
+      "BNAM": "\"Ashamanu\"->Disable\r\n\"Guar_White_UNIQUE\"->Disable\r\nJournal \"MS_WhiteGuar\" 70",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_WhiteGuar",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "amulet of ashamanu (unique)",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

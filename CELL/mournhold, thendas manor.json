@@ -1,0 +1,857 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3223332,1056964608]
+  },
+  "NAME": "Mournhold, Thendas Manor",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [86,66,58,0],
+    "sunlight": [26,23,21,0],
+    "fog_color": [36,47,49,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "1-8837": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Arnsa Thendas",
+      "DATA": [54.72218322753906,429.7872619628906,-98.02142333984375,0,0,4.766371726989746]
+    },
+    "1-8838": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_01",
+      "XSCL": 1.0200001001358032,
+      "DATA": [-0.2196332812309265,-143.8558807373047,0,0,0,3.1415927410125732]
+    },
+    "1-8839": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_thendas1",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 80,
+      "KNAM": "key_thendas",
+      "DATA": [303.35150146484375,317.4961853027344,-106.08723449707031,0,0,0.3999999761581421]
+    },
+    "1-8840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_thendas2",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "KNAM": "key_thendas",
+      "DATA": [316.7731628417969,230.5771026611328,-101.08733367919922,0,0,1.5707963705062866]
+    },
+    "1-8841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "1-8842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,0,0,0,0,4.71238899230957]
+    },
+    "1-8843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,0,0,0,0,0]
+    },
+    "1-8844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,511.99993896484375,0,0,0,3.1415927410125732]
+    },
+    "1-8845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,512,0,0,0,1.5707963705062866]
+    },
+    "1-8847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_01",
+      "DATA": [0,-128,0,0,0,0]
+    },
+    "1-8849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [256,256,0,0,0,1.5707963705062866]
+    },
+    "1-8854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_center_01",
+      "DATA": [0,256,0,0,0,0]
+    },
+    "1-16234": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [0,512,0,0,0,0]
+    },
+    "1-16235": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [-256,256,0,0,0,4.71238899230957]
+    },
+    "1-16236": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_r_bed_01",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-273.05755615234375,497.1960144042969,-97.0592041015625,0,0,4.8831868171691895]
+    },
+    "1-16237": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_01",
+      "XSCL": 1.4100000858306885,
+      "DATA": [83.15111541748047,198.60397338867188,-130.53326416015625,0,0,5.383186340332031]
+    },
+    "1-16238": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 0.9800000190734863,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-257.20849609375,566.1176147460938,-71.23355102539062,0,0,4.933187484741211]
+    },
+    "1-16239": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.7100000381469727,
+      "DATA": [-165.14697265625,559.6011352539062,-107.4505615234375,0,0,0.3999999761581421]
+    },
+    "1-16240": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [-176.46766662597656,568.212158203125,-68.43917083740234,0,0,3.6269922256469727]
+    },
+    "1-16241": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [-271.05242919921875,354.5317077636719,-127.45003509521484,0,0,2.9831881523132324]
+    },
+    "1-16242": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_08",
+      "DATA": [49.8818244934082,218.75755310058594,-99.15025329589844,0,0,1.1000001430511475]
+    },
+    "1-16244": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [131.26513671875,168.5725555419922,-83.89659118652344,0,0,2.000000238418579]
+    },
+    "1-16245": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [39.93973159790039,255.1707000732422,-56.445308685302734,0,0,2.10007381439209]
+    },
+    "1-16246": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [64.8703842163086,233.95130920410156,-64.34739685058594,0,0,1.3250001668930054]
+    },
+    "1-16247": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [41.921512603759766,208.23121643066406,-51.918636322021484,0,0,5.426990509033203]
+    },
+    "1-16248": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [64.68378448486328,204.49305725097656,-64.34062194824219,0,0,1.875000238418579]
+    },
+    "1-16249": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [-301.88983154296875,284.575439453125,5.978764533996582,0,0,2.2750000953674316]
+    },
+    "1-16250": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-362.07757568359375,257.2619323730469,65.85696411132812,0,0,1.7000001668930054]
+    },
+    "1-16251": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_fcloth01",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-2.404010772705078,574.8377685546875,-48.22414779663086,0,0,6.2831854820251465]
+    },
+    "1-16252": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_drawers_01_fcloth",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [274.4912414550781,542.4842529296875,-79.32962036132812,0,0,0.6000000238418579]
+    },
+    "1-16253": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [-180.5478057861328,344.83819580078125,-127.44999694824219,0,0,2.9831881523132324]
+    },
+    "1-16254": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [279.39703369140625,405.23699951171875,-126.99003601074219,0,0,2.883188247680664]
+    },
+    "1-16255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [364.70135498046875,261.4153747558594,72.65072631835938,0,0,4.699999809265137]
+    },
+    "1-16256": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-231.2897186279297,619.4738159179688,70.68505096435547,0,0,3.1000003814697266]
+    },
+    "1-16257": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-365.3608093261719,471.7058410644531,70.0514907836914,0,0,1.6000006198883057]
+    },
+    "1-16258": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [-156.44313049316406,-17.47121810913086,-124.3100814819336,0,0,1.4831883907318115]
+    },
+    "1-16259": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_07",
+      "DATA": [-144.6107940673828,485.4205017089844,-127.9160385131836,0,0,0]
+    },
+    "1-16260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "DATA": [205.86251831054688,480.8000793457031,-129.12655639648438,0,0,0.20000000298023224]
+    },
+    "1-16261": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_07",
+      "DATA": [-241.92153930664062,220.6776885986328,-127.9160385131836,0,0,4.583186149597168]
+    },
+    "1-16262": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "DATA": [264.8668518066406,-21.876371383666992,-46.94132614135742,0,0,5.583186149597168]
+    },
+    "1-16263": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_ingred10",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [222.6490936279297,-57.376590728759766,-93.07926177978516,0,0,2.0999996662139893]
+    },
+    "1-16264": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_silverwa",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [312.1357421875,12.460705757141113,-45.04218673706055,0,0,2.3000004291534424]
+    },
+    "1-16265": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "XSCL": 0.8800000548362732,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [272.6631774902344,-25.650739669799805,-49.77322006225586,0,0,3.4123895168304443]
+    },
+    "1-16266": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_white_01",
+      "XSCL": 0.7400000095367432,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [284.5784606933594,-8.989838600158691,7.5743207931518555,0,0,4.9831862449646]
+    },
+    "1-16267": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_05",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [316.43829345703125,33.85822677612305,5.5329694747924805,0,0,4.9831862449646]
+    },
+    "1-16268": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "XSCL": 1.190000057220459,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [258.2352294921875,-25.432558059692383,-1.0513488054275513,0,0,0.6999998688697815]
+    },
+    "1-16269": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [237.5743865966797,-50.958740234375,-45.32822799682617,0,0,5.6506147384643555]
+    },
+    "1-16270": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [242.88307189941406,-41.682010650634766,14.92701244354248,0,0,1.4000003337860107]
+    },
+    "1-16271": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_02",
+      "XSCL": 0.8300000429153442,
+      "DATA": [229.28253173828125,332.5440368652344,-91.17948913574219,0,0,0]
+    },
+    "1-16272": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.8500000238418579,
+      "DATA": [232.99542236328125,332.7961730957031,-130.92088317871094,0,0,0]
+    },
+    "1-16273": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_frontierconquestaccommodat",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-216.46495056152344,-83.04895782470703,-8.64010238647461,4.71238899230957,1.5707963705062866,0]
+    },
+    "1-16274": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_02",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-205.6324920654297,-76.06877136230469,-28.14327621459961,0,0,0]
+    },
+    "1-16275": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_varietiesoffaithintheempire",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-222.89842224121094,-81.38123321533203,-9.64004135131836,4.71238899230957,1.5707963705062866,6.2831854820251465]
+    },
+    "1-16276": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AedraAndDaedra",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-229.07667541503906,-82.04114532470703,-11.14016342163086,0,4.71238899230957,1.5707963705062866]
+    },
+    "1-16277": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AnnotatedAnuad",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-234.6073760986328,-81.93701934814453,-11.14004135131836,6.2831854820251465,4.71238899230957,1.5707963705062866]
+    },
+    "1-16278": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AncestorsAndTheDunmer",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-240.34677124023438,-80.08045959472656,-9.64004135131836,4.71238899230957,1.5707963705062866,6.2831854820251465]
+    },
+    "1-16279": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_truenoblescode",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-247.08033752441406,-81.54761505126953,-9.64004135131836,0,1.5707963705062866,1.5707963705062866]
+    },
+    "1-16280": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_02",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-257.8287658691406,-72.94915008544922,-28.14327621459961,0,0,0]
+    },
+    "1-16281": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_shelf_01",
+      "DATA": [-230.8673858642578,-85.78190612792969,-17.4963321685791,0,0,3.1415927410125732]
+    },
+    "1-16282": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "ANAM": "briras tyravel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-185.59373474121094,-20.80879020690918,-83.84889221191406,0,0,0.17499884963035583]
+    },
+    "1-16283": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-220.9706268310547,-59.548274993896484,-92.67005157470703,0,0,0.6749993562698364]
+    },
+    "1-16284": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-253.68026733398438,-25.31231117248535,-92.6700439453125,0,0,4.924998760223389]
+    },
+    "1-16285": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-187.08059692382812,23.518688201904297,-101.84529876708984,0,0,1.1668134927749634]
+    },
+    "1-16286": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "XSCL": 1.340000033378601,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-292.28350830078125,44.09282684326172,-83.86962127685547,0,0,4.008186340332031]
+    },
+    "1-16287": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "XSCL": 1.340000033378601,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-288.955810546875,53.256561279296875,-100.10484313964844,0,0,0.17499923706054688]
+    },
+    "1-16288": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "XSCL": 1.340000033378601,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-289.453857421875,40.86561965942383,-116.12550354003906,0,0,3.8081865310668945]
+    },
+    "1-16289": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.8500000238418579,
+      "DATA": [-252.29124450683594,290.22601318359375,-124.83524322509766,0,0,0]
+    },
+    "1-16290": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_03",
+      "DATA": [-247.4238739013672,284.3514099121094,-77.48553466796875,0,0,0]
+    },
+    "1-16291": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.6600000262260437,
+      "DATA": [-291.3740539550781,251.78012084960938,-124.94561004638672,0,0,5.783185958862305]
+    },
+    "1-16292": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_04",
+      "XSCL": 0.8100000619888306,
+      "DATA": [-292.0608825683594,247.5252227783203,-87.86591339111328,0,0,5.783185958862305]
+    },
+    "1-16293": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.7000000476837158,
+      "DATA": [-202.1731414794922,297.20562744140625,-124.83525085449219,0,0,0]
+    },
+    "1-16294": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_sedge_02",
+      "DATA": [-200.82180786132812,297.27117919921875,-80.38929748535156,0,0,0]
+    },
+    "1-16295": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.5,
+      "DATA": [261.7759704589844,552.7758178710938,-30.776321411132812,0,0,0]
+    },
+    "1-16296": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_plant_01",
+      "DATA": [260.1732482910156,552.3095703125,0.5928832292556763,0,0,0]
+    },
+    "1-16297": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [293.28985595703125,444.31414794921875,7.932975769042969,0,0,2.2750000953674316]
+    },
+    "1-16298": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_ingred10",
+      "XSCL": 0.7700000405311584,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [295.640869140625,531.3405151367188,-25.808271408081055,0,0,1.1999998092651367]
+    },
+    "1-16300": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_03",
+      "DATA": [-115.00172424316406,-44.15612030029297,-82.1976547241211,0,0,0]
+    },
+    "1-16301": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.8500000238418579,
+      "DATA": [-119.86909484863281,-38.281517028808594,-129.54736328125,0,0,0]
+    },
+    "1-16302": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_03",
+      "DATA": [130.2466278076172,-31.578632354736328,-85.0125732421875,0,0,4.883185863494873]
+    },
+    "1-16303": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.8500000238418579,
+      "DATA": [123.63021087646484,-35.37669372558594,-132.36228942871094,0,0,4.883185863494873]
+    },
+    "1-16304": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "XSCL": 1.350000023841858,
+      "ANAM": "Arnsa Thendas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-313.2123107910156,-19.312503814697266,-78.56571197509766,0,0,0.6749993562698364]
+    },
+    "1-24586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "imperial shield",
+      "DATA": [351.9018249511719,79.2484359741211,-97.12275695800781,0,1.1000001430511475,1.500001072883606]
+    },
+    "1-24587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "imperial helmet armor",
+      "DATA": [317.5823059082031,32.40523147583008,-91.67054748535156,0,0,2.1999998092651367]
+    },
+    "1-24588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "imperial boots",
+      "DATA": [323.1266784667969,92.06299591064453,-127.57067108154297,0,0,5.283185958862305]
+    },
+    "1-24589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "imperial broadsword",
+      "DATA": [295.54522705078125,-1.0432939529418945,-97.93084716796875,0,0,0.30000001192092896]
+    },
+    "1-25334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [544.9020385742188,137.8753204345703,-48,0,0,1.5707963705062866]
+    },
+    "1-25335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [128.46676635742188,125.18118286132812,111.72820281982422,0,0,4.71238899230957]
+    },
+    "1-25336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-127.071533203125,382.9862365722656,113.28620147705078,0,0,4.71238899230957]
+    }
+  }
+}

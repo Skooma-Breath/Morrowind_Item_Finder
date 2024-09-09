@@ -1,0 +1,418 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1515584,1061158912]
+  },
+  "NAME": "Urshilaku Camp, Ahasour's Yurt",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,50,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [64,32,23,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-130187": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ahasour",
+      "DATA": [168.8912811279297,502.8424377441406,-274.2203674316406,0,0,4.783186912536621]
+    },
+    "0-130188": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "senipu",
+      "DATA": [57.539981842041016,661.5709228515625,-274.3901062011719,0,0,3.3000001907348633]
+    },
+    "0-130155": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_door_02",
+      "DATA": [11.876999855041504,506.2850036621094,-165.48800659179688,0,0,0]
+    },
+    "0-130170": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [150.9488067626953,665.632568359375,-216.69821166992188,0,0,2.799999475479126]
+    },
+    "0-130175": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [163.75234985351562,602.250244140625,-218.03004455566406,0,0,2.799999475479126]
+    },
+    "0-130160": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "CNAM": {
+        "faction_id": "Ashlanders",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-188.9282989501953,552.9112548828125,-267.56170654296875,0,0,4.983187675476074]
+    },
+    "0-130161": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-178.06932067871094,428.7657775878906,-242.0156707763672,0,0,4.2123894691467285]
+    },
+    "0-130162": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-166.63037109375,366.0123291015625,-241.27682495117188,0,0,1.9000004529953003]
+    },
+    "0-130163": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [94.85406494140625,290.94683837890625,-266.1312255859375,1.300000548362732,5.083186149597168,5.183185577392578]
+    },
+    "0-130164": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [60.162662506103516,277.9801940917969,-251.6138458251953,0,0,2.8999998569488525]
+    },
+    "0-130166": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [107.93904113769531,640.9948120117188,-220.23870849609375,4.483185768127441,6.082472324371338,1.4998276233673096]
+    },
+    "0-130167": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "XSCL": 1.3900001049041748,
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-53.826881408691406,294.6844177246094,-247.9178009033203,0,0,3.583160877227783]
+    },
+    "0-130168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-116.68580627441406,327.00946044921875,-257.66241455078125,0,0,3.700000524520874]
+    },
+    "0-130169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-113.91168212890625,325.7318420410156,-269.57568359375,0,0,0.7999997735023499]
+    },
+    "0-130171": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [180.67132568359375,595.003662109375,-221.69354248046875,0,0,3.6999993324279785]
+    },
+    "0-130172": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [182.0544891357422,595.1483764648438,-221.12997436523438,0.20000000298023224,6.282472133636475,3.399827480316162]
+    },
+    "0-130173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "CNAM": {
+        "faction_id": "Ashlanders",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-51.85715103149414,695.4547729492188,-267.56170654296875,0,0,2.883187770843506]
+    },
+    "0-130174": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [196.2461700439453,425.67987060546875,-233.65760803222656,0,0,1.1999999284744263]
+    },
+    "0-130176": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [176.8353271484375,624.19775390625,-207.4270477294922,0,0,3.699998140335083]
+    },
+    "0-130177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [178.10218811035156,368.6955871582031,-231.6943817138672,0,0,4.6831865310668945]
+    },
+    "0-130178": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09_64",
+      "DATA": [149.058349609375,629.4133911132812,-204.5159149169922,0,0,1.5000001192092896]
+    },
+    "0-130185": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_ashl_lantern_01",
+      "XSCL": 0.7700000405311584,
+      "DATA": [7.4437408447265625,394.9783935546875,-102.1518783569336,0,0,0.7853981852531433]
+    },
+    "0-130186": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_ashl_lantern_02",
+      "XSCL": 0.7800000309944153,
+      "DATA": [-83.74874114990234,598.9829711914062,-105.2540054321289,0,0,0]
+    },
+    "0-130154": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_02",
+      "DATA": [11.876748085021973,506.284423828125,-165.48805236816406,0,0,0]
+    },
+    "0-130156": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Firepit_01",
+      "DATA": [7.405941963195801,509.9472351074219,-282.8999328613281,0,0,0]
+    },
+    "0-130157": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [130.75616455078125,691.303466796875,-257.77459716796875,0,0,2.8000001907348633]
+    },
+    "0-130158": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [151.30447387695312,623.6954345703125,-254.60662841796875,0,0,0.9005159139633179]
+    },
+    "0-130159": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [211.79373168945312,579.5797119140625,-264.7987060546875,0,0,6.08318567276001]
+    },
+    "0-130179": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_ashl_bugbowl",
+      "DATA": [143.79405212402344,623.6775512695312,-269.7935485839844,0,0,1.1000003814697266]
+    },
+    "0-130180": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_ashl_bugbowl",
+      "DATA": [-147.6263885498047,663.0935668945312,-233.79734802246094,5.183186054229736,2.3000001907348633,1.900001049041748]
+    },
+    "0-130181": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_06",
+      "DATA": [-105.76428985595703,310.81689453125,-174.90863037109375,0,0,0]
+    },
+    "0-130182": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_15",
+      "DATA": [116.76459503173828,309.0006408691406,-171.94485473632812,0,0,0]
+    },
+    "0-130183": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_09",
+      "DATA": [-188.9247589111328,506.8893737792969,-188.25149536132812,0,0,6.2831854820251465]
+    },
+    "0-130184": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_09",
+      "DATA": [211.97120666503906,511.2478332519531,-188.8043975830078,0,0,3.1415927410125732]
+    },
+    "0-130189": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_ashl_tent_banner_09",
+      "DATA": [6.021999835968018,701.9949951171875,-188.25100708007812,0,0,1.5707963705062866]
+    },
+    "0-321190": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-319.3733215332031,228.83236694335938,-197.83770751953125,0,0,5.283186435699463]
+    },
+    "0-130165": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "ahasour",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [115.31099700927734,654.1900024414062,-221.52191162109375,0,0,6.2831854820251465]
+    },
+    "0-398946": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [15.386920928955078,499.67987060546875,-262.61834716796875,2.8000001907348633,3.6999998092651367,4.583188533782959]
+    },
+    "0-398947": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-9.257379531860352,499.0197448730469,-269.30853271484375,6.183185577392578,0,3.1000001430511475]
+    },
+    "0-398948": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [11.215950012207031,514.2620849609375,-262.2043762207031,6.183186054229736,2.6999995708465576,5.1831865310668945]
+    },
+    "0-398949": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [2.636383056640625,501.8285827636719,-267.7900695800781,0.10000001639127731,0,0]
+    },
+    "0-398950": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64",
+      "DATA": [2.034264087677002,518.0430297851562,-260.5282897949219,0,0,0]
+    }
+  }
+}

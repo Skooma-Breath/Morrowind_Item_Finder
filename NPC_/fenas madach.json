@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Breton",
+  "CNAM": "Thief",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_breton_m_head_03",
+  "KNAM": "b_n_breton_m_hair_02",
+  "MODL": null,
+  "FNAM": "Fenas Madach",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 1136
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": -7,
+      "name": "pick_apprentice_01"
+    },
+    {
+      "count": -5,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": 1,
+      "name": "misc_com_bottle_05"
+    },
+    {
+      "count": 1,
+      "name": "key_madach_room"
+    },
+    {
+      "count": -200,
+      "name": "Gold_001"
+    },
+    {
+      "count": -5,
+      "name": "probe_journeyman_01"
+    },
+    {
+      "count": -7,
+      "name": "probe_apprentice_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 62,
+    "magicka": 120,
+    "fatigue": 196,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [51,60,55,56,53,34,47,40],
+    "skills": [6,6,6,6,6,6,6,6,21,6,6,11,11,16,16,16,11,6,39,39,39,39,39,24,24,24,24]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

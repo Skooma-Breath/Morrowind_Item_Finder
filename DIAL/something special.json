@@ -1,0 +1,847 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "104481231387131116": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "204186042278416672",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Falura Llervu is yours now. do with her as you will.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 600; CHOICE 6;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 40
+        }
+      ]
+    },
+    "204186042278416672": {
+      "flag": 0,
+      "PNAM": "104481231387131116",
+      "NNAM": "15517172812159024624",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sweet Alma. I hope I don't encounter another trader as sharp as you, or I'll end up paying YOU for my goods. But I'll accept your offer, and thank you for your custom. Now, here's the key to her cage. I've removed her slave bracers. When you're ready, you should speak to Falura Llervu, give her the presents -- the exquisite clothes and Telvanni Bug Musk -- and explain to her that she is to follow you back to Zainab camp to meet her future husband, Ashkhan Kaushad.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 600; CHOICE 6; \r\nplayer->AddItem \"Key_SavileCageKey\" 1\r\naddtopic \"Falura Llervu\"\r\nplayer->removeitem \"gold_001\" 600\r\nadditem \"gold_001\" 600\r\nJournal \"B3_ZainabBride\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 600
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "15517172812159024624": {
+      "flag": 0,
+      "PNAM": "204186042278416672",
+      "NNAM": "2491289151521720320",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You drive a hard bargain. But I like to see a happy customer. I'll accept your offer, and thank you for your custom. Now, here's the key to her cage. I've removed her slave bracers. When you're ready, you should speak to Falura Llervu and explain to her that she is to follow you back to Zainab camp to meet her future husband, Ashkhan Kaushad.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 800; CHOICE 5; \r\nplayer->AddItem \"Key_SavileCageKey\" 1\r\naddtopic \"Falura Llervu\"\r\nplayer->removeitem \"gold_001\" 800\r\nadditem \"gold_001\" 800\r\nJournal \"B3_ZainabBride\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 800
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "2491289151521720320": {
+      "flag": 0,
+      "PNAM": "15517172812159024624",
+      "NNAM": "13343197331608628177",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. Yes. I believe that is a fair price. Thank you for your custom, and come back soon. Now, here's the key to her cage. I've removed her slave bracers. When you're ready, you should speak to Falura Llervu, give her the presents -- the exquisite clothes and Telvanni Bug Musk -- and explain to her that she is to follow you back to Zainab camp to meet her future husband, Ashkhan Kaushad.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 1000; CHOICE 4; \r\nplayer->AddItem \"Key_SavileCageKey\" 1\r\naddtopic \"Falura Llervu\"\r\nplayer->removeitem \"gold_001\" 1000\r\nadditem \"gold_001\" 1000\r\nJournal \"B3_ZainabBride\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "13343197331608628177": {
+      "flag": 0,
+      "PNAM": "2491289151521720320",
+      "NNAM": "2649923720198211995",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Of course, of course. But don't take too long. I'm sure I could sell her for twice the price to another client.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; CHOICE 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2649923720198211995": {
+      "flag": 0,
+      "PNAM": "13343197331608628177",
+      "NNAM": "3109297432254624828",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well.... Since I like you, I'll take 1100 drakes. Thank you for your custom, and come back soon. Now, here's the key to her cage. I've removed her slave bracers. When you're ready, you should speak to Falura Llervu, give her the presents -- the exquisite clothes and Telvanni Bug Musk -- and explain to her that she is to follow you back to Zainab camp to meet her future husband, Ashkhan Kaushad.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 1200; CHOICE 2; \r\nplayer->AddItem \"Key_SavileCageKey\" 1\r\nplayer->removeitem \"gold_001\" 1100\r\nadditem \"gold_001\" 1100\r\naddtopic \"Falura Llervu\"\r\nJournal \"B3_ZainabBride\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1200
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "3109297432254624828": {
+      "flag": 0,
+      "PNAM": "2649923720198211995",
+      "NNAM": "2577918821384810419",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very good. Thank you for your custom, and come back soon. Now, here's the key to her cage. I've removed her slave bracers. When you're ready, you should speak to Falura Llervu, give her the presents -- the exquisite clothes and Telvanni Bug Musk -- and explain to her that she is to follow you back to Zainab camp to meet her future husband, Ashkhan Kaushad.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 1200; CHOICE 2; \r\nplayer->AddItem \"Key_SavileCageKey\" 1\r\nplayer->removeitem \"gold_001\" 1200\r\nadditem \"gold_001\" 1200\r\naddtopic \"Falura Llervu\"\r\nJournal \"B3_ZainabBride\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1200
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2577918821384810419": {
+      "flag": 0,
+      "PNAM": "3109297432254624828",
+      "NNAM": "23488311441865222646",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sure it won't take you long to raise the funds. We'll be here, waiting, until you return.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; CHOICE 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "23488311441865222646": {
+      "flag": 0,
+      "PNAM": "2577918821384810419",
+      "NNAM": "61482966266706458",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Telvanni Bug Musk? Excellent. No, don't give it to me. You'll give it to her when you have bought her. Now. Let me tell you my price. For this superb specimen, skillfully coached to play her part in your little scheme, I am pleased to accept from you the modest sum of 1200 drakes. And I only offer you this special price out of my friendship for Sonummu Zabamat.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 600; PC Mercantile >= 80; \r\nChoice \"Let me consider your offer\" 3 \"I'll give you 600 drakes\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 600
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "35",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 80
+        }
+      ]
+    },
+    "61482966266706458": {
+      "flag": 0,
+      "PNAM": "23488311441865222646",
+      "NNAM": "6143165652095425846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Telvanni Bug Musk? Excellent. No, don't give it to me. You'll give it to her when you have bought her. Now. Let me tell you my price. For this superb specimen, skillfully coached to play her part in your little scheme, I am pleased to accept from you the modest sum of 1200 drakes. And I only offer you this special price out of my friendship for Sonummu Zabamat.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 800; PC Mercantile >= 60;\r\nChoice \"Let me consider your offer\" 3 \"I'll give you 800 drakes\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 800
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "35",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 60
+        }
+      ]
+    },
+    "6143165652095425846": {
+      "flag": 0,
+      "PNAM": "61482966266706458",
+      "NNAM": "726713543322634580",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Telvanni Bug Musk? Excellent. No, don't give it to me. You'll give it to her when you have bought her. Now. Let me tell you my price. For this superb specimen, skillfully coached to play her part in your little scheme, I am pleased to accept from you the modest sum of 1200 drakes. And I only offer you this special price out of my friendship for Sonummu Zabamat.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 1200; PC Mercantile >= 40;  \r\nChoice \"Let me consider your offer\" 3 \"I'll give you 1000 drakes\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1200
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "35",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 40
+        }
+      ]
+    },
+    "726713543322634580": {
+      "flag": 0,
+      "PNAM": "6143165652095425846",
+      "NNAM": "2820723446314879775",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Telvanni Bug Musk? Excellent. No, don't give it to me. You'll give it to her when you have bought her. Now. Let me tell you my price. For this superb specimen, skillfully coached to play her part in your little scheme, I am pleased to accept from you the modest sum of 1200 drakes. And I only offer you this special price out of my friendship for Sonummu Zabamat.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 1200; \r\nChoice \"I'll buy her for 1200 drakes.\" 2 \"Will you take 1100 drakes?\" 7 \"Let me consider your offer\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1200
+        }
+      ]
+    },
+    "2820723446314879775": {
+      "flag": 0,
+      "PNAM": "726713543322634580",
+      "NNAM": "1676112532884610181",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Telvanni Bug Musk? Excellent. No, don't give it to me. You'll give it to her when you have bought her. Now. Let me tell you my price. For this superb specimen, skillfully coached to play her part in your little scheme, I am pleased to accept from you the modest sum of 1200 drakes. And I only offer you this special price out of my friendship for Sonummu Zabamat.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_0001\" >= 1200; \r\nChoice \"I'll buy her for 1200 drakes.\" 2 \"Let me consider your offer\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1200
+        }
+      ]
+    },
+    "1676112532884610181": {
+      "flag": 0,
+      "PNAM": "2820723446314879775",
+      "NNAM": "208061514417349254",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Telvanni Bug Musk? Excellent. No, don't give it to me. You'll give it to her when you have bought her. Now. Let me tell you my price. For this superb specimen, skillfully coached to play her part in your little scheme, I am pleased to accept from you the modest sum of 1200 drakes. And I only offer you this special price out of my friendship for Sonummu Zabamat.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35; item \"Potion_T_Bug_musk_01\" >= 1; item \"gold_001\" < 1200; \r\nChoice \"I don't have that much. \"1 \"Let me consider your offer\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "potion_t_bug_musk_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 1200
+        }
+      ]
+    },
+    "208061514417349254": {
+      "flag": 0,
+      "PNAM": "1676112532884610181",
+      "NNAM": "2835389051537227090",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. This will not work unless we do it my way. You cannot change my mind on this. When you have brought me the Telvanni Bug Musk perfume I asked you for, then Falura Llervu will be ready, and then, and only then, we will discuss her price.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 35;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 35
+        }
+      ]
+    },
+    "2835389051537227090": {
+      "flag": 0,
+      "PNAM": "208061514417349254",
+      "NNAM": "145446561201129080",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. These clothes are perfect. Hold onto them. You'll give them to her when you've bought her. But I need a little more time to coach Falura Llervu to play the part of a high-born Telvanni lady. I know just the thing we need! Go get a bottle of Telvanni Bug musk perfume! Try Bildren Areleth the Apothecary here in Tel Aruhn or Jolda the Apothecary in Tel Mora. That will make Falura Llervu completely irresistible! Go! Hurry!",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 30; item \"exquisite_shirt_01\" >= 1; item \"exquisite_skirt_01\" >= 1; item \"exquisite_shoes_01\" >= 1; \r\nJournal \"B3_ZainabBride\" 35",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "exquisite_shirt_01",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "exquisite_skirt_01",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "exquisite_shoes_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "145446561201129080": {
+      "flag": 0,
+      "PNAM": "2835389051537227090",
+      "NNAM": "17711726492724879",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. This will not work unless we do it my way. You cannot change my mind on this. When you have an exquisite shirt, an exquisite skirt, and exquisite shoes to dress Falura Llervu in, then we will discuss her price.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 30
+        }
+      ]
+    },
+    "17711726492724879": {
+      "flag": 0,
+      "PNAM": "145446561201129080",
+      "NNAM": "1568529021376323888",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You need a slave to pose as a high-born Telvanni lady? Sweet Alma, that Sonummu Zabamat and her cunning plans.... I do have the slave you want, Falura Llervu, a pretty Dunmer girl. But first you must get an exquisite shirt, an exquisite skirt, and exquisite shoes, to dress her in. Go get these exquisite clothes and bring them to me, and then we will discuss a price for her.",
+      "BNAM": "; Savile Imayn ; Journal \"B3_ZainabBride\" >= 25; \r\nJournal \"B3_ZainabBride\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 25
+        }
+      ]
+    },
+    "1568529021376323888": {
+      "flag": 0,
+      "PNAM": "17711726492724879",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry, but all we have at the moment are standard household slaves. Would you like me to tell you about them?",
+      "BNAM": "; Savile Imayn ;",
+      "SCVR": null
+    }
+  }
+}

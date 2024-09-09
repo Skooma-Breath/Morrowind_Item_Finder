@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_m_head_03",
+  "KNAM": "b_n_imperial_m_hair_04",
+  "MODL": null,
+  "FNAM": "Vasesius Viciulus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 30,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    }
+  ],
+  "NPCS": [
+    "divine intervention",
+    "mark",
+    "recall",
+    "detect_creature",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 130,
+    "magicka": 124,
+    "fatigue": 229,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 1000,
+    "attributes": [72,62,52,57,60,48,91,40],
+    "skills": [41,18,18,18,46,28,18,18,18,6,6,6,6,6,44,6,6,29,44,44,29,11,6,6,25,54,34]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

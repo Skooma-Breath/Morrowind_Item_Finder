@@ -1,0 +1,54 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Fabricant_Imperfect.NIF",
+  "FLAG": 2120,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 80,
+    "attributes": [100,80,80,100,75,100,50,100],
+    "health": 2000,
+    "magicka": 1000,
+    "fatigue": 5000,
+    "soul_strength": 165,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 100,
+    "attacks": [
+      [60,75],
+      [60,75],
+      [60,75]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Imperfect",
+  "SCRI": "SothaImperfect",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "p_Imperfect_Elixir"
+    }
+  ],
+  "NPCS": [
+    "shockimperfect",
+    "immune to disease",
+    "immune to poison",
+    "immune to normal weapons",
+    "resist paralysis_100",
+    "resist frost_50",
+    "resist fire_50",
+    "resist shock_50",
+    "regen_imperfect"
+  ],
+  "DODT": null,
+  "AI_": []
+}

@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "427228952896820789": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "43142177162243714",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulfgar the unending",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You honor me with this decision!  Songs will be written of our glorious battle!  It is true that in my heart I wish to be defeated, so that I may enter Sovngarde.  But know, this %PCName.  I will fight, and fight valiantly, as I have all my life.  You will probably die by my hand.  I will grant no quarter, no mercy, and I expect no less from you.  Go now. Prepare for battle.  When you are ready, return here.  We will speak one last time, and then engage in armed combat!",
+      "BNAM": "Journal BM_BrodirGrove 60\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "43142177162243714": {
+      "flag": 0,
+      "PNAM": "427228952896820789",
+      "NNAM": "28357324331720217418",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulfgar the unending",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh.  I see.  I thought I sensed honor in you, %PCName.  It is why I offered you this chance at glory.  Perhaps I was wrong about you....  If you have a change of heart, return to me and we will fight valiantly to the death.  And don't worry. I'm not going to ambush you.  In order to enter Sovngarde I must die in valiant combat.  I will not lower myself to cowardice and deceit as Grimkell did.  Now leave me, %PCName.  I have much to consider.",
+      "BNAM": "Journal BM_BrodirGrove 50\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "28357324331720217418": {
+      "flag": 0,
+      "PNAM": "43142177162243714",
+      "NNAM": "14503199851187811627",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulfgar the unending",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "New theories, you say?  Let me see the book you speak of.  Hmmm.... Could this be?  Is it possible the entrance to Sovngarde lie right before me all along?  It makes so much sense!  %PCName, you've done it!  You've found the way to Sovngarde!  All I need to do is die valiantly in combat!  But how....  I know!  You, %PCName!  You must help me!  You must defeat me in armed combat and send my soul to Sovngarde!  Tell me, will you honor me with a fight to the death?",
+      "BNAM": "Journal BM_BrodirGrove 40\r\nplayer->removeitem \"bk_sovngarde\" 1\r\nadditem \"bk_sovngarde\" 1\r\nChoice \"Sorry, Ulfgar, I can't help you.\" 2 \"I'll help you, Ulfgar.  I will do everything in my power to defeat you in armed combat.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14503199851187811627": {
+      "flag": 0,
+      "PNAM": "28357324331720217418",
+      "NNAM": "105981973125481769",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulfgar the unending",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't you understand?  For five hundred years, I have searched for the entrance to Sovngarde!  I have been all across the Empire and back, but I cannot find it!  Once, my friends and I served Ysgramor, and counted ourselves among his \"Five Hundred Companions.\"  We helped drive the Elves out of Skyrim!  We earned our place in Sovngarde!  If, in your travels, you discover the entrance to Sovngarde, let me know, and I will be forever in your debt.  I have tried...and failed.",
+      "BNAM": "Journal BM_BrodirGrove 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_BrodirGrove",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_Sovngarde",
+          "__TV": 0
+        }
+      ]
+    },
+    "105981973125481769": {
+      "flag": 0,
+      "PNAM": "14503199851187811627",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulfgar the unending",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't you understand?  For five hundred years, I have searched for the entrance to Sovngarde!  I have been all across the Empire and back, but I cannot find it!  Once, my friends and I served Ysgramor, and counted ourselves among his \"Five Hundred Companions.\"  We helped drive the Elves out of Skyrim!  We earned our place in Sovngarde!  If, in your travels, you discover the entrance to Sovngarde, let me know, and I will be forever in your debt.  I have tried...and failed.",
+      "BNAM": "Choice \"Actually, Ulfgar, I came upon this book.  It's called 'Sovngarde -- A Reexamination,' and seems to offer new theories on how one may enter Sovngarde.  I think it may have the answers you seek.\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_BrodirGrove",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_Sovngarde",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Buoyant Armiger",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Birer Indaram",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "last rites"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "glass_boots"
+    },
+    {
+      "count": 1,
+      "name": "glass_greaves"
+    },
+    {
+      "count": 1,
+      "name": "glass_cuirass"
+    }
+  ],
+  "NPCS": [
+    "clumsiness",
+    "strain",
+    "wearying touch",
+    "torpor",
+    "wild torpor",
+    "temptation",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "daedric bite",
+    "poison_powerful",
+    "vivec's_wrath",
+    "trap_poison00"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 154,
+    "magicka": 110,
+    "fatigue": 292,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [65,55,76,100,86,51,47,40],
+    "skills": [34,7,7,7,7,12,74,7,39,7,59,7,7,7,12,34,7,7,21,64,48,68,7,68,21,48,21]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

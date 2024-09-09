@@ -1,0 +1,35 @@
+{
+  "deleted": false,
+  "SPDT": {
+    "spell_type": 0,
+    "cost": 60,
+    "flags": 1
+  },
+  "FNAM": "Drain Blood",
+  "ENAM": [
+    {
+      "effect_index": 18,
+      "skill_affected": -1,
+      "attribute_affected": -1,
+      "range": 1,
+      "area": 0,
+      "duration": 30,
+      "magnitude": {
+        "min": 5,
+        "max": 5
+      }
+    },
+    {
+      "effect_index": 19,
+      "skill_affected": -1,
+      "attribute_affected": -1,
+      "range": 1,
+      "area": 0,
+      "duration": 30,
+      "magnitude": {
+        "min": 5,
+        "max": 5
+      }
+    }
+  ]
+}

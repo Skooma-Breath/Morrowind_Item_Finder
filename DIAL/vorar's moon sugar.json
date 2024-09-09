@@ -1,0 +1,90 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "11356187656004010": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "22476175271989529620",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vorar helas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "About damn time. Here, here's your payment. Now get out of here.",
+      "BNAM": "RemoveItem \"Gold_001\" 200\r\nPlayer->AddItem \"Gold_001\" 200\r\nJournal \"MV_SlaveMule\" 109\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_SlaveMule",
+          "__TV": 109
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_moon_sugar_01",
+          "__TV": 20
+        }
+      ]
+    },
+    "22476175271989529620": {
+      "flag": 0,
+      "PNAM": "11356187656004010",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vorar helas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have it? You're starting to bother me, %PCRace.",
+      "BNAM": "ModDisposition -10\r\nModFight 10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_moon_sugar_01",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_SlaveMule",
+          "__TV": 101
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_SlaveMule",
+          "__TV": 109
+        }
+      ]
+    }
+  }
+}

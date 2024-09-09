@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\draugrLord.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 50,
+    "attributes": [100,100,75,100,30,100,50,100],
+    "health": 800,
+    "magicka": 500,
+    "fatigue": 1000,
+    "soul_strength": 200,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 90,
+    "attacks": [
+      [30,50],
+      [30,50],
+      [30,50]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 20,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_draugr01",
+  "FNAM": "Draugr Lord Aesliip",
+  "SCRI": "aeslipScript",
+  "XSCL": 1.2000000476837158,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_ring_Aesliip"
+    }
+  ],
+  "NPCS": [
+    "firefist"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

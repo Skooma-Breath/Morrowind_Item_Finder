@@ -1,0 +1,58 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\cr_draugr.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 20,
+    "attributes": [100,50,50,80,22,50,50,80],
+    "health": 300,
+    "magicka": 500,
+    "fatigue": 800,
+    "soul_strength": 300,
+    "combat_skill": 90,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [7,25],
+      [7,25],
+      [7,25]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Draugr",
+  "SCRI": null,
+  "XSCL": 1.2000000476837158,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_gravetar"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to shock",
+    "immune to frost",
+    "regenerate [ability]",
+    "immune to paralysis",
+    "bm_draugr_curse"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

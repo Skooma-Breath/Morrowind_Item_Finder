@@ -1,0 +1,344 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2692091521624914048": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "29712175531425610710",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you still a member of the guild? Once Trebonius gives the authorization, we can discuss guild matters again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 20
+        }
+      ]
+    },
+    "29712175531425610710": {
+      "flag": 0,
+      "PNAM": "2692091521624914048",
+      "NNAM": "2248010194715925383",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Were you expelled? Or did you clear that up already? You ought to make amends with Guildmaster Trebonius just to be sure.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 10
+        }
+      ]
+    },
+    "2248010194715925383": {
+      "flag": 0,
+      "PNAM": "29712175531425610710",
+      "NNAM": "20109202052482526920",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled, %PCName. If you want to make amends, you should speak with Guildmaster Trebonius.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "20109202052482526920": {
+      "flag": 0,
+      "PNAM": "2248010194715925383",
+      "NNAM": "23780154241691614441",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Your delivery of the Dwemer Tube was commendable, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Science",
+          "__TV": 100
+        }
+      ]
+    },
+    "23780154241691614441": {
+      "flag": 0,
+      "PNAM": "20109202052482526920",
+      "NNAM": "3677283781193998",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is what I wanted. Now I can finally study these \"bthurkz\" the Dwarves wrote about. I am impressed by your dedication to scholarship. Good work, %PCName.",
+      "BNAM": "Journal MG_Science 100\r\nPlayer->RemoveItem misc_dwrv_artifact60 1\r\nAddItem misc_dwrv_artifact60 1\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3677283781193998": {
+      "flag": 0,
+      "PNAM": "23780154241691614441",
+      "NNAM": "1733512547813182",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is not a toy, %PCName. It is a valuable Dwemer artifact that is simply essential to my research.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1733512547813182": {
+      "flag": 0,
+      "PNAM": "3677283781193998",
+      "NNAM": "13809216011372125655",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Have you found a Dwemer Tube?",
+      "BNAM": "Choice \"Give her the Dwemer Tube.\" 1 \"Keep the Dwemer Tube.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "misc_dwrv_artifact60",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Science",
+          "__TV": 10
+        }
+      ]
+    },
+    "13809216011372125655": {
+      "flag": 0,
+      "PNAM": "1733512547813182",
+      "NNAM": "1988214138199322655",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Dwemer Tubes shouldn't be too hard to find. Go to Ald Velothi and travel along the coast to the west. You'll cross a bridge and you'll see Arkngthunch-Sturdumz ahead of you. You can't miss it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Science",
+          "__TV": 10
+        }
+      ]
+    },
+    "1988214138199322655": {
+      "flag": 0,
+      "PNAM": "13809216011372125655",
+      "NNAM": "10565178222768717924",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I appreciate your dedication, %PCName. Arkngthunch-Sturdumz is northwest of Gnisis, but there's an easier way to get there. Go to Ald Velothi and follow the coast to the west.",
+      "BNAM": "Journal MG_Science 10\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "10565178222768717924": {
+      "flag": 0,
+      "PNAM": "1988214138199322655",
+      "NNAM": "1414322892325992694",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm disappointed, %PCName. You are obviously not truly dedicated to research. If you're concerned about Imperial Law, there's no need to worry. I will, of course, turn the device over to the Chair of Dwemer Studies... just as soon as I've finished my research.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "1414322892325992694": {
+      "flag": 0,
+      "PNAM": "10565178222768717924",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "They're easy enough to find. I believe I saw some in Arkngthunch-Sturdumz when I was last there. Would you be willing to travel there and bring back the Dwemer Tube?",
+      "BNAM": "Choice \"Yes.\" 3 \"No.\" 4",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_ReturnBook",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

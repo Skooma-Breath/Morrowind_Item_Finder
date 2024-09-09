@@ -1,0 +1,92 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_14",
+  "MODL": null,
+  "FNAM": "Baladas Demnevanni",
+  "SCRI": "BILL_MT_WritBaladas",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "l_m_potion"
+    },
+    {
+      "count": 1,
+      "name": "l_m_rings"
+    },
+    {
+      "count": 1,
+      "name": "l_n_amulet"
+    },
+    {
+      "count": 1,
+      "name": "l_n_soul gem"
+    },
+    {
+      "count": 4,
+      "name": "l_m_enchantitem_telvanni_rank8"
+    },
+    {
+      "count": 1,
+      "name": "key_arvs-drelen_cell"
+    },
+    {
+      "count": -300,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "dire weary",
+    "great feather",
+    "command beast",
+    "command creature",
+    "strong reflect",
+    "strong spelldrinker",
+    "wild spelldrinker",
+    "summon storm atronach",
+    "summon flame atronach"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 35,
+    "health": 391,
+    "magicka": 200,
+    "fatigue": 342,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 6,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [74,100,100,77,87,91,61,40],
+    "skills": [8,8,49,49,8,13,8,8,13,86,96,86,71,86,91,30,30,30,8,8,8,13,59,54,8,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

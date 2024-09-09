@@ -1,0 +1,92 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_high elf_m_head_02",
+  "KNAM": "b_n_high elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Andil",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02_t"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_stoneflower_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_shalk_resin_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_scathecraw_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kresh_fiber_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_gold_kanet_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_black_anther_01"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "balyna's efficacious balm",
+    "balyna's soothing balm",
+    "veloth's benison",
+    "veloth's gift",
+    "heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 72,
+    "magicka": 168,
+    "fatigue": 211,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [46,84,57,63,37,45,55,40],
+    "skills": [24,6,6,6,39,6,6,6,6,44,58,20,20,20,15,34,58,15,39,6,6,24,6,6,10,24,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,10,0,0,0]
+    }
+  ]
+}

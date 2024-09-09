@@ -1,0 +1,209 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "7529199151019922690": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "984727539316418937",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Rabinna",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "984727539316418937": {
+      "flag": 0,
+      "PNAM": "7529199151019922690",
+      "NNAM": "2658413319245776771",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Im_Kilaya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We heard the slave had been killed. This is a very sad thing.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "Rabinna",
+          "__TV": 0
+        }
+      ]
+    },
+    "2658413319245776771": {
+      "flag": 0,
+      "PNAM": "984727539316418937",
+      "NNAM": "206684523190984478",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Im_Kilaya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She is in good hands now. Thank you, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 115
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Rabinna",
+          "__TV": 0
+        }
+      ]
+    },
+    "206684523190984478": {
+      "flag": 0,
+      "PNAM": "2658413319245776771",
+      "NNAM": "108169654132513017",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Im_Kilaya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you going to bring here here? She would be safe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 95
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Rabinna",
+          "__TV": 0
+        }
+      ]
+    },
+    "108169654132513017": {
+      "flag": 0,
+      "PNAM": "206684523190984478",
+      "NNAM": "486556011656210881",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Im_Kilaya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you going to bring here here? She would be safe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 112
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Rabinna",
+          "__TV": 0
+        }
+      ]
+    },
+    "486556011656210881": {
+      "flag": 0,
+      "PNAM": "108169654132513017",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Im_Kilaya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is good that you brought her here. We have heard tales of drugs being smuggled inside these poor people. There seems to be no low the smugglers and slavers won't stoop to for profit. We will give her the help she needs. Thank you, and please take this in return. Perhaps it will help you in funding other missions of goodwill. Take care.",
+      "BNAM": "Journal \"MV_SlaveMule\" 115\r\nPlayer->AddItem \"Gold_001\" 400\r\nModPCFacRep 10 \"Twin Lamps\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SlaveMule",
+          "__TV": 114
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Rabinna",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

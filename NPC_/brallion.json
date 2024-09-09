@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Smuggler",
+  "ANAM": "",
+  "BNAM": "B_N_Wood Elf_M_Head_07",
+  "KNAM": "b_n_wood elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Brallion",
+  "SCRI": "brallionScript",
+  "AIDT": {
+    "greet": 75,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "shockbite mace"
+    },
+    {
+      "count": 1,
+      "name": "amulet of igniis"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_brallion"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 110,
+    "magicka": 100,
+    "fatigue": 209,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,50,40,69,86,41,76,40],
+    "skills": [17,17,17,17,53,38,38,38,38,6,6,6,6,6,6,6,11,6,6,38,11,16,42,21,42,42,27]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,10,0,0]
+    },
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "telvanni guard"
+      },
+      "CNDT": null
+    }
+  ]
+}

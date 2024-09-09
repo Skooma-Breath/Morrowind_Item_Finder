@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 187,
+    "local_var_size": 6
+  },
+  "SCTX": "Begin venimGuardScript\r\n\r\nfloat timer\r\n\r\nif ( timer == -1 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex HR_RescueSarethi < 50 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex HR_RescueSarethi >= 70 )\r\n\tReturn\r\nendif\r\n\r\nset timer to ( timer + GetSecondsPassed )\r\n\r\nif ( timer < 3 )\r\n\tReturn\r\nendif\r\n\r\nSet timer to 0\r\n\r\nif ( GetDetected \"Varvur Sarethi\" == 1 )\r\n\tStartCombat Player\r\n\tSet timer to -1\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "timer"
+  ],
+  "SCDT": [6,1,1,10,32,102,1,0,32,61,61,32,45,49,36,1,9,1,6,1,1,28,32,88,205,16,32,100,16,72,82,95,82,101,115,99,117,101,83,97,114,101,116,104,105,32,60,32,53,48,36,1,9,1,6,1,1,29,32,88,205,16,32,100,16,72,82,95,82,101,115,99,117,101,83,97,114,101,116,104,105,32,62,61,32,55,48,36,1,9,1,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,1,8,32,102,1,0,32,60,32,51,36,1,9,1,5,1,102,1,0,2,32,48,6,1,2,26,32,88,78,17,32,114,14,86,97,114,118,117,114,32,83,97,114,101,116,104,105,32,61,61,32,49,25,16,6,80,108,97,121,101,114,5,1,102,1,0,7,32,45,49,32,49,32,42,9,1,1,1]
+}

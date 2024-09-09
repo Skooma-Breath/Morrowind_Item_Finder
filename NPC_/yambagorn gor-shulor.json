@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Smith",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_orc_m_head_02",
+  "KNAM": "b_n_orc_m_hair_01",
+  "MODL": null,
+  "FNAM": "Yambagorn gor-Shulor",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_04_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial cuirass_armor"
+    },
+    {
+      "count": -10,
+      "name": "l_n_repair item"
+    },
+    {
+      "count": -4,
+      "name": "random_imp_armor"
+    },
+    {
+      "count": -4,
+      "name": "random_imp_weapon"
+    },
+    {
+      "count": -4,
+      "name": "random_iron_weapon"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 123,
+    "magicka": 72,
+    "fatigue": 257,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 700,
+    "attributes": [81,36,56,50,49,70,35,40],
+    "skills": [57,57,42,42,47,32,37,15,15,6,6,6,6,6,6,6,6,38,6,6,6,23,6,6,10,6,38]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

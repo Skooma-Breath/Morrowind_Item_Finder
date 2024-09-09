@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 91,
+    "local_var_size": 7
+  },
+  "SCTX": "begin rieklingsword\r\n;when rieking dies, add lance and shield to inventory.\r\n\r\nshort isdead\r\n\r\nif ( isdead== 1 )\r\n\treturn\r\nendif\r\n\r\nIf ( OnDeath == 1 )\r\n\tadditem \"bm_ice_minion_lance\" 1\r\n\tadditem \"BM_Ice minion_Shield1\" 1\r\n\tset isdead to 1\r\nendif\r\n\r\n\r\nend rieklingsword",
+  "SCVR": [
+    "isdead"
+  ],
+  "SCDT": [6,1,1,8,32,115,1,0,61,61,32,49,36,1,9,1,6,1,3,9,32,88,240,16,32,61,61,32,49,212,16,19,98,109,95,105,99,101,95,109,105,110,105,111,110,95,108,97,110,99,101,1,0,212,16,21,66,77,95,73,99,101,32,109,105,110,105,111,110,95,83,104,105,101,108,100,49,1,0,5,1,115,1,0,2,32,49,9,1,1,1]
+}

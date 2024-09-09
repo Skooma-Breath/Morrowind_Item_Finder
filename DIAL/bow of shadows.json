@@ -1,0 +1,332 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1766680062343112445": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "29684241331106012927",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How is it that you have this?  It belongs to the Museum! GUARDS!!!",
+      "BNAM": "SetPCCrimeLevel 42000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bowshadows",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "longbow_shadows_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "29684241331106012927": {
+      "flag": 0,
+      "PNAM": "1766680062343112445",
+      "NNAM": "125892310559585655",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "bowshadows",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "longbow_shadows_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "125892310559585655": {
+      "flag": 0,
+      "PNAM": "29684241331106012927",
+      "NNAM": "317307854379528577",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well.  May your arrows fly straight and true, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "317307854379528577": {
+      "flag": 0,
+      "PNAM": "125892310559585655",
+      "NNAM": "3020915147272730304",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName.  A wonderful addition indeed.",
+      "BNAM": "set bowshadows to 2\r\nplayer->removeitem \"longbow_shadows_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"longbow_shadows_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "longbow_shadows_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "3020915147272730304": {
+      "flag": 0,
+      "PNAM": "317307854379528577",
+      "NNAM": "29208205121105920221",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName.  A wonderful addition indeed.",
+      "BNAM": "set bowshadows to 2\r\nplayer->removeitem \"longbow_shadows_unique\" 1\r\nplayer->additem \"gold_001\" 21000\r\n\"longbow_shadows_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "longbow_shadows_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "29208205121105920221": {
+      "flag": 0,
+      "PNAM": "3020915147272730304",
+      "NNAM": "218223989185216533",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Bow of Shadows with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "longbow_shadows_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "218223989185216533": {
+      "flag": 0,
+      "PNAM": "29208205121105920221",
+      "NNAM": "12708125786764466",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Bow of Shadows with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "longbow_shadows_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "12708125786764466": {
+      "flag": 0,
+      "PNAM": "218223989185216533",
+      "NNAM": "8067277245379416",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, this is a piece I never thought I'd see.  Did you know that the assassin Dram was said to have wielded this bow?  I would be honored to have this on display. I can offer you 21000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bowshadows",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "8067277245379416": {
+      "flag": 0,
+      "PNAM": "12708125786764466",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, this is a piece I never thought I'd see.  Did you know that the assassin Dram was said to have wielded this bow?  I would be honored to have this on display. I can offer you 21000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bowshadows",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

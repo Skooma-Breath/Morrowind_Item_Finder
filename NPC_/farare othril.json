@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Thief",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_f_head_09",
+  "KNAM": "b_n_dark elf_f_hair_19",
+  "MODL": null,
+  "FNAM": "Farare Othril",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron dagger"
+    },
+    {
+      "count": 1,
+      "name": "othril_ring"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 0,
+    "magicka": 21,
+    "fatigue": 177,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [42,42,51,43,52,41,31,40],
+    "skills": [5,5,5,5,5,10,5,5,21,5,15,5,5,5,10,5,5,5,32,32,32,36,42,22,16,16,16]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

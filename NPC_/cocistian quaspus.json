@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_imperial_m_head_03",
+  "KNAM": "b_n_imperial_m_hair_03",
+  "MODL": null,
+  "FNAM": "Cocistian Quaspus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": -5,
+      "name": "ingred_fire_petal_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_stoneflower_petals_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_scathecraw_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_rat_meat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_kresh_fiber_01"
+    },
+    {
+      "count": -2,
+      "name": "ingred_emerald_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bittergreen_petals_01"
+    }
+  ],
+  "NPCS": [
+    "fire storm",
+    "firebloom",
+    "flamebolt",
+    "frostbloom",
+    "frost bolt"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 73,
+    "magicka": 144,
+    "fatigue": 195,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [54,72,45,51,46,45,64,40],
+    "skills": [23,6,6,6,43,16,6,6,6,32,47,15,15,15,15,32,47,15,38,6,6,28,6,6,10,33,11]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Durzog.NIF",
+  "FLAG": 90,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [70,50,30,50,73,50,50,50],
+    "health": 175,
+    "magicka": 10,
+    "fatigue": 400,
+    "soul_strength": 50,
+    "combat_skill": 80,
+    "magic_skill": 50,
+    "stealth_skill": 20,
+    "attacks": [
+      [10,35],
+      [10,35],
+      [10,35]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Wild Durzog",
+  "SCRI": null,
+  "XSCL": 0.800000011920929,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ingred_durzog_meat_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1024,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

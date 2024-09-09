@@ -1,0 +1,188 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "30054265372752523561": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2018912136236816262",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hisin deep-raed",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need no potion now, friend! I'll feed that witch's entrails to the nix-hounds!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ParalyzedBarbarian",
+          "__TV": 100
+        }
+      ]
+    },
+    "2018912136236816262": {
+      "flag": 0,
+      "PNAM": "30054265372752523561",
+      "NNAM": "21209161715322239",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hisin deep-raed",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have no potion that I'd be willing to take! Hurry! I must take that witches head from her shoulders and feed it to the rats!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_ParalyzedBarbarian",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "p_cure_common_s",
+          "__TV": 1
+        }
+      ]
+    },
+    "21209161715322239": {
+      "flag": 0,
+      "PNAM": "2018912136236816262",
+      "NNAM": "10170247351350624353",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hisin deep-raed",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have no potion that I'd be willing to take! Hurry! I must take that witches head from her shoulders and feed it to the rats!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_ParalyzedBarbarian",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "p_cure_common_s",
+          "__TV": 1
+        }
+      ]
+    },
+    "10170247351350624353": {
+      "flag": 0,
+      "PNAM": "21209161715322239",
+      "NNAM": "452815464805220363",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hisin deep-raed",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, you've got the potion. Give it to me! Yes, yes! I'm free of this enchantment! Hisin Deep-Raed calls you friend, %PCName. Take this, my family's helm, Icecap. It was worn by my father, and his father, and by his father before him. It will protect you from the coldest of nights. Wear it with honor. Now, I must go kill that witch. I shall plant her head on a stake for all to see!",
+      "BNAM": "Journal \"MV_ParalyzedBarbarian\" 100\r\nPlayer->RemoveItem \"p_cure_common_s\" 1\r\nRemoveSpell \"witchwither\"\r\nRemoveItem \"Icecap_unique\" 1\r\nPlayer->AddItem \"Icecap_unique\" 1\r\nJournal \"MV_ParalyzedBarbarian\" 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_ParalyzedBarbarian",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_cure_common_s",
+          "__TV": 0
+        }
+      ]
+    },
+    "452815464805220363": {
+      "flag": 0,
+      "PNAM": "10170247351350624353",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hisin deep-raed",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, you've got the potion. Give it to me! Yes, yes! I'm free of this enchantment! Hisin Deep-Raed calls you friend, %PCName. Take this, my family's helm, Icecap. It was worn by my father, and his father, and by his father before him. It will protect you from the coldest of nights. Wear it with honor. Now, I must go kill that witch. I shall plant her head on a stake for all to see!",
+      "BNAM": "Journal \"MV_ParalyzedBarbarian\" 100\r\nPlayer->RemoveItem \"p_cure_common_s\" 1\r\nRemoveSpell \"witchwither\"\r\nRemoveItem \"Icecap_unique\" 1\r\nPlayer->AddItem \"Icecap_unique\" 1\r\nJournal \"MV_ParalyzedBarbarian\" 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_ParalyzedBarbarian",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_cure_common_s",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

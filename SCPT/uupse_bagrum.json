@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 77,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin uupse_Bagrum\r\n\r\nshort doOnce\r\n\r\nif ( doOnce == 0 )\r\n\tif ( \"yagrum bagarn\"->GetAttacked == 1 )\r\n\t\tStartCombat player\r\n\t\tSetFight 90\r\n\t\tSetDisposition 0\r\n\t\tset doOnce to 1\r\n\tendif\r\nendif\r\n\r\nend uupse_Bagrum",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,6,9,32,115,1,0,32,61,61,32,48,12,1,13,121,97,103,114,117,109,32,98,97,103,97,114,110,6,1,4,9,32,88,72,17,32,61,61,32,49,25,16,6,112,108,97,121,101,114,0,17,0,0,180,66,153,16,0,0,0,0,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

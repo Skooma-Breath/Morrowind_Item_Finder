@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 27,
+    "local_var_size": 7
+  },
+  "SCTX": "begin example_Containers\r\n\r\n\r\n;******************************************************************\r\n;\r\n;\t\tExample script for some stuff you can do with containers\r\n;\r\n;******************************************************************\r\n\r\n\r\n\r\n;******************************************************************\r\n;\r\n;\t\tSet a flag when opened\r\n;\r\n;******************************************************************\r\n\r\nshort Opened\r\n\r\nif ( OnActivate == 1 )\r\n\r\n\tset Opened to 1\r\n\tActivate\r\n\r\nendif\r\n\r\n\r\n\r\n\r\nend",
+  "SCVR": [
+    "Opened"
+  ],
+  "SCDT": [6,1,2,9,32,88,24,16,32,61,61,32,49,5,1,115,1,0,2,32,49,23,16,9,1,1,1]
+}

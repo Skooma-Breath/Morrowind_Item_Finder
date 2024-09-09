@@ -1,0 +1,72 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 35,
+    "attributes": [80,50,50,50,50,50,50,50],
+    "health": 300,
+    "magicka": 30,
+    "fatigue": 1000,
+    "soul_strength": 200,
+    "combat_skill": 80,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Skeleton Pirate Captain",
+  "SCRI": null,
+  "XSCL": 1.2000000476837158,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "bm_saber_seasplitter"
+    },
+    {
+      "count": 1,
+      "name": "sc_piratetreasure"
+    },
+    {
+      "count": 4,
+      "name": "random_bonemeal"
+    },
+    {
+      "count": 1,
+      "name": "random_silver_weapon"
+    },
+    {
+      "count": 1,
+      "name": "key_pirate"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "immune to frost",
+    "resist shock_50"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

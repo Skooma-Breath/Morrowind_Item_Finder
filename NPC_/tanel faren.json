@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_12",
+  "MODL": null,
+  "FNAM": "Tanel Faren",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 2,
+      "name": "l_m_potion"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "137249039912230197": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "252811350929112745",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aurane frernis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just what I needed! Thank you so much. Here, take this, and my gratitude. It's nice to see people will still help each other.",
+      "BNAM": "Journal \"MS_gold_kanet_Flower\" 100\r\nplayer->removeitem \"Ingred_gold_kanet_unique\" 5\r\nplayer->additem \"P_Fortify_Luck_E\" 1 \r\nadditem \"Ingred_gold_kanet_unique\" 5\r\nremoveitem \"P_Fortify_Luck_E\" 1\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Gold_kanet_flower",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_gold_kanet_unique",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MS_Gold_kanet_flower",
+          "__TV": 100
+        }
+      ]
+    },
+    "252811350929112745": {
+      "flag": 0,
+      "PNAM": "137249039912230197",
+      "NNAM": "2443819301647512680",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aurane frernis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I must find some Roland's Tear soon.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_Gold_kanet_flower",
+          "__TV": 5
+        }
+      ]
+    },
+    "2443819301647512680": {
+      "flag": 0,
+      "PNAM": "252811350929112745",
+      "NNAM": "191357945195430247",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aurane frernis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmpf! You lot are just rude! Fine. I will have to go get it myself. But if I ruin this outfit, I'm blaming you!!",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "191357945195430247": {
+      "flag": 0,
+      "PNAM": "2443819301647512680",
+      "NNAM": "932425122266223858",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aurane frernis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wonderful! Now, I may be wrong, but I think the ruins are east of here. Or was that west. No, no...east. And a bit to the north. Well, it's not very far at any rate. Near the water. I'll mark it on your map. Look to the eastern edge of the ruins. Now hurry, please. Oh, and be careful, I hear there are dangers near. Remember, I don't need regular gold kanet, only the Roland's Tear variety.",
+      "BNAM": "Journal \"MS_Gold_Kanet_flower\" 5\r\nModDisposition 10\r\nShowMap \"Ald Sotha\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "932425122266223858": {
+      "flag": 0,
+      "PNAM": "191357945195430247",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aurane frernis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The flower I need is called Roland's Tear, and it has magical powers greater than the ordinary gold kanet. It grows in the Daedric ruins near Vivec. I'd be grateful if you could go fetch five of the flowers for me.  Mind you, it's one particular type. The others won't do. If you could do this little favor for me I will make you something rare and wonderful from the ingredients left over.",
+      "BNAM": "Journal MS_Gold_kanet_flower 1\r\nchoice \"I have better things to do.\" 3 \"As long as you make it worth my while.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MS_Gold_kanet_flower",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "89222114916371662": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2650027256273228486",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahnassi has just one care she wants to share. Ahnassi hopes her VERY special friend will stay close to Ahnassi and never go away. Ahnassi worries, because Ahnassi looks forward to seeing you so much.... But Ahnassi understands. And Ahnassi is very busy, too. So Ahnassi is happy when she is busy, and happy when she sees you, and that is enough happiness for anyone.",
+      "BNAM": ";Ahnassi; ; Journal Romance_Ahnassi >= 80",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 80
+        }
+      ]
+    },
+    "2650027256273228486": {
+      "flag": 0,
+      "PNAM": "89222114916371662",
+      "NNAM": "2423826292815514708",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We mustn't keep meeting here in this old cornerclub. At Ahnassi's house, Ahnassi can show her VERY special friend some good, old-fashioned Khajiit hospitality. It's the house here in Pelagiad, across the street from the Halfway, by the fort wall, off the street, with the stone fences nearby. Here. You'll need the key. If you come by the Halfway again, and I'm not here, I'll be at the house.",
+      "BNAM": ";Ahnassi; ; Journal Romance_Ahnassi >= 75; Agility >= 80; CHOICE 1; \r\nplayer->additem \"key_Ahnassi\" 1\r\nJournal Romance_Ahnassi 80\r\n\"J'Dhannar\"->disable\r\nStartScript MoveAhnassi\r\nmodDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 75
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2423826292815514708": {
+      "flag": 0,
+      "PNAM": "2650027256273228486",
+      "NNAM": "91719850162218439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A friend tells Ahnassi that J'Dhannar has left Vivec to return to Elsweyr. She says that he looks well, and that he has stopped using sugar. Ahnassi is not sorry that she is free of her bond with J'Dhannar, but Ahnassi is very happy that he seems to be better. Ahnassi is VERY grateful to her VERY special friend. And Ahnassi hopes that her VERY special friend will come visit her at Ahnassi's house here in Pelagiad.",
+      "BNAM": ";Ahnassi; ; Journal Romance_Ahnassi >= 75; Agility >= 80; \r\nChoice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 75
+        }
+      ]
+    },
+    "91719850162218439": {
+      "flag": 0,
+      "PNAM": "2423826292815514708",
+      "NNAM": "16123263381688426896",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahnassi understands all too well. Ahnassi has tried, and failed. Ahnassi thanks her true and good friend anyway, thanks for sharing her care. For what are friends for, but to share each others cares?",
+      "BNAM": ";Ahnassi; ; Journal Romance_Ahnassi > =45; Agility >= 65; CHOICE 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 45
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "16123263381688426896": {
+      "flag": 0,
+      "PNAM": "91719850162218439",
+      "NNAM": "205919661329221389",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahnassi understands all too well. Ahnassi has tried, and failed. Cure skooma addict? It can't be done. But Ahnassi sees something in her true and good friend, something that says the things that can't be done might be done. And it gives Ahnassi hope. Ahnassi's mate is called J'Dhannar, and he lives where he can in St. Olms Canton. Please find him, and persuade him to give up the sugar.",
+      "BNAM": ";Ahnassi; ; Journal Romance_Ahnassi >= 45; Agility >= 65; CHOICE 1; \r\nJournal Romance_Ahnassi 65\r\naddtopic \"cure skooma addict\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 45
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "205919661329221389": {
+      "flag": 0,
+      "PNAM": "16123263381688426896",
+      "NNAM": "208792841818980",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "After you are so good to Ahnassi, Ahnassi is ashamed to ask. And Ahnassi feels strange telling her good friend this thing. But Ahnassi has a mate. Once Ahnassi loves him very much. But now, this mate is a slave to skooma. Ahnassi no longer loves him, but once one has been in your blood, there is shared blood forever. Ahnassi begs him to abandon the skooma, but he will not. Ahnassi knows not what to do. Can you help Ahnassi? Can you persuade this foolish mate to give up his skooma?",
+      "BNAM": ";Ahnassi; ; Journal Romance_Ahnassi  >= 45; Agility >= 65; \r\nChoice \"I don't know, but I will try.\" 1 \"I'm sorry, but I don't think I can succeed where you have failed.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 45
+        }
+      ]
+    },
+    "208792841818980": {
+      "flag": 0,
+      "PNAM": "205919661329221389",
+      "NNAM": "27780212171067528311",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahnassi thanks you again and again.",
+      "BNAM": ";Ahnassi; ; Journal Romance_Ahnassi >= 45;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 45
+        }
+      ]
+    },
+    "27780212171067528311": {
+      "flag": 0,
+      "PNAM": "208792841818980",
+      "NNAM": "15039161481941710809",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahnassi is safe? This bad person is no more? If you get a price on your head for helping Ahnassi, Ahnassi calls in all her favors, gets this fixed. Promise. Ahnassi thanks you with her hands, her lips, her heart. You are not just a new friend, %PCName. You are a good friend, and true friend. Now Ahnassi can share a gift, a special gift she has found for her true and good friend.",
+      "BNAM": ";Ahnassi; Journal Romance_Ahnassi >= 40; Dead Daren Adryn =1; \r\nJournal Romance_Ahnassi 45\r\nSetPCCrimeLevel 0\r\nmodDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "daren adryn",
+          "__TV": 1
+        }
+      ]
+    },
+    "15039161481941710809": {
+      "flag": 0,
+      "PNAM": "27780212171067528311",
+      "NNAM": "675710523272372743",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahnassi is worried and afraid, new friend, but Ahnassi understands, must be patient. New friend %PCName says he will take care of the bad person for Ahnassi, and Ahnassi knows he will keep his word.",
+      "BNAM": ";Ahnassi; Journal Romance_Ahnassi >= 40;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 40
+        }
+      ]
+    },
+    "675710523272372743": {
+      "flag": 0,
+      "PNAM": "15039161481941710809",
+      "NNAM": "16065291001071126082",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are kind to listen, %PCName. Ahnassi thanks you.",
+      "BNAM": ";Ahnassi; Journal Romance_Ahnassi >= 30; CHOICE 2; \r\nJournal Romance_Ahnassi 33",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "16065291001071126082": {
+      "flag": 0,
+      "PNAM": "675710523272372743",
+      "NNAM": "36152103399286957",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are too kind, %PCName. Ahnassi knows she places great burden on new friend, but Ahnassi cannot fight, cannot shed blood, she has sworn such an oath. Ahnassi tries to be good, but Ahnassi thinks now she is in great danger. This bad person, Daren Adryn, a Dark Elf, he is Camonna Tong bigwig in Gnaar Mok. He is found at Nadene Rotheran's Shack. Ahnassi is so ashamed that she asks a life, a very great gift, from her new friend, but Ahnassi has no one else.",
+      "BNAM": ";Ahnassi; Journal Romance_Ahnassi >= 30; CHOICE 1; \r\nJournal Romance_Ahnassi 40\r\n\"Daren Adryn\"->enable\r\naddtopic ahnassi",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "36152103399286957": {
+      "flag": 0,
+      "PNAM": "16065291001071126082",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahnassi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Forgive Ahnassi. Ahnassi is so ashamed, to ask her new friend to share such a care. But Ahnassi is afraid, very afraid. This dustman, bad person, he frightens Ahnassi. He comes, tells Ahnassi there is no more Thieves Guild, there is just Camonna Tong, and Ahnassi will join Camonna Tong, and be 'protected.' Otherwise, unless Ahnassi is 'protected', Ahnassi might get hurt. This dustman, he talks quiet, but very mean. Ahnassi is so sorry, sorry to trouble her new friend. But Ahnassi is scared.",
+      "BNAM": ";Ahnassi; Journal Romance_Ahnassi >= 30; \r\nChoice \"Offer to take care of the bad person for Ahnassi.\" 1 \"Express concern, but make no commitment.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Romance_Ahnassi",
+          "__TV": 30
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 192,
+    "local_var_size": 10
+  },
+  "SCTX": "Begin BILL_MarksSpiritSummon\r\n; Summon an Ancestor Ghost when a silver dagger is pulled from a skull\r\n;\r\n; script location: should be placed on a silver dagger stick in a skull\r\n\r\n;fixed 03/20. Could still be wierdness.\r\n;fixed again for the small space... only in Ibar-Dad in case someone puts one somewhere else\r\n\r\n; variables\r\nshort done\r\nshort xPos\r\n\r\nif ( OnActivate == 1 )\r\n\tif ( done == 1 )\r\n\t\tActivate\r\n\t\treturn\r\n\tendif\r\n\r\n\tif ( GetPCCell \"Ibar-Dad\" == 1 )\r\n\t\tSet xPos to ( GetPos X )\r\n\t\tif ( xPos > -2300 )\r\n\t\t\t;it's on the left side, put the ghost to the player's left\r\n\t\t\tPlaceAtPC \"ancestor_ghost\" 1 256 2\r\n\t\telse\r\n\t\t\t;it's on the right side, put the ghost to the player's right\r\n\t\t\tPlaceAtPC \"ancestor_ghost\" 1 256 3\r\n\t\tendif\r\n\t\tSet done to 1\r\n\t\tActivate\r\n\t\treturn\r\n\tendif\r\n\r\n;if NOT Ibar-Dad...\r\n\r\n\tPlaceAtPC \"ancestor_ghost\", 1, 128, 1\r\n\t; 1 of them, 128 units away, in back (1) of the player\r\n\tset done to 1\r\n\tActivate\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "done",
+    "xPos"
+  ],
+  "SCDT": [6,1,18,9,32,88,24,16,32,61,61,32,49,6,1,2,9,32,115,1,0,32,61,61,32,49,23,16,36,1,9,1,6,1,9,20,32,88,18,17,32,99,8,73,98,97,114,45,68,97,100,32,61,61,32,49,5,1,115,2,0,6,32,88,10,16,88,0,6,1,1,12,32,115,2,0,32,62,32,45,50,51,48,48,230,16,14,97,110,99,101,115,116,111,114,95,103,104,111,115,116,1,0,0,0,128,67,2,0,7,1,1,230,16,14,97,110,99,101,115,116,111,114,95,103,104,111,115,116,1,0,0,0,128,67,3,0,9,1,5,1,115,1,0,2,32,49,23,16,36,1,9,1,230,16,14,97,110,99,101,115,116,111,114,95,103,104,111,115,116,1,0,0,0,0,67,1,0,5,1,115,1,0,2,32,49,23,16,9,1,1,1]
+}

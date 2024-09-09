@@ -1,0 +1,164 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "755847831179519462": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1016716040111612897",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gualtierus spurius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No? I thought Lusius would have given you better advice. I'm sorry. I can't let you ruin what I've got going on here. You'll have to kill me and all of my friends. Leave one, and he will carry on. Now, it is time for you to die.",
+      "BNAM": "Journal BM_Smugglers 95\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1016716040111612897": {
+      "flag": 0,
+      "PNAM": "755847831179519462",
+      "NNAM": "143901736224822775",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gualtierus spurius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sounds good. You won't regret this. I'll be gone as soon as possible. Here, take this. I found it while doing a bit of traveling here on the island. Had a friend of mine throw a little enchantment on it as well. And, hey, take whatever you want from this stash. I'm sure nothing will be missed. Our secret...just between us.",
+      "BNAM": "Journal BM_Smugglers 93\r\nset fightmod to 1\r\nPlayer->AddItem \"BM nordic silver axe_spurius\" 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "143901736224822775": {
+      "flag": 0,
+      "PNAM": "1016716040111612897",
+      "NNAM": "14337273261010026742",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gualtierus spurius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As I said, you let me walk, and no one ever sees me again. The weapons stay here. And, I'll give you this axe. I think it's pretty valuable. What do you say, %PCName?",
+      "BNAM": "Choice \"You can go. Don't come back.\" 1 \"I can't let you do that.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Smugglers",
+          "__TV": 90
+        }
+      ]
+    },
+    "14337273261010026742": {
+      "flag": 0,
+      "PNAM": "143901736224822775",
+      "NNAM": "3142627724182042095",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gualtierus spurius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll get off the island. Leave the weapons behind. You just let me go peacefully and don't cause any trouble with Carius, and I'm gone. And, look, I'll give you this nice axe as a little bonus for keeping this quiet. Carius will never miss me, and I'll just disappear. Ask Lusius about it. He'll give you good advice.",
+      "BNAM": "Journal BM_Smugglers 90\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Smugglers",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Smugglers",
+          "__TV": 30
+        }
+      ]
+    },
+    "3142627724182042095": {
+      "flag": 0,
+      "PNAM": "14337273261010026742",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Interesting. Well, I suppose you could let him go. I know Spurius, and while he wasn't the best soldier, he wasn't the worst, either. And I know he has a family to feed back home. Still, he has stolen from the Legion, and his crimes are punishable by death. I'm afraid the decision is yours, my friend. Whatever you decide, I will support it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Smugglers",
+          "__TV": 90
+        }
+      ]
+    }
+  }
+}

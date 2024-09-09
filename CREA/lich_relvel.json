@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Liche.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 40,
+    "attributes": [100,100,100,100,100,100,100,100],
+    "health": 700,
+    "magicka": 1000,
+    "fatigue": 1000,
+    "soul_strength": 300,
+    "combat_skill": 80,
+    "magic_skill": 150,
+    "stealth_skill": 80,
+    "attacks": [
+      [20,50],
+      [20,50],
+      [20,50]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "lich",
+  "FNAM": "Gedna Relvel",
+  "SCRI": "Plague_Gedna",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "robe_lich_unique"
+    },
+    {
+      "count": 1,
+      "name": "random_bonemeal"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "resist shock_50",
+    "immune to frost",
+    "relvel_damage",
+    "relvel_regenerate",
+    "relvel_shield"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

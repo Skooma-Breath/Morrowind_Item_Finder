@@ -1,0 +1,253 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "205733683299535436": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "30448140721617019032",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, everything was so confusing there for a while. You've got to watch those slaughterfish bites. I'd heard they can cause disease, but I didn't realize how severely.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_MonsterDisease",
+          "__TV": 60
+        }
+      ]
+    },
+    "30448140721617019032": {
+      "flag": 0,
+      "PNAM": "205733683299535436",
+      "NNAM": "19761967213016528",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What's this? I...I...thank you. I'm not sure what happened. Everything is sort of hazy after that slaughterfish bite. Thank you so much for your help. I'd like to reward you for your generosity. I have very little, but please take this gold. Even during all my days in the legion, I've never felt anything so strange. I'll make sure to mention to my Legion friends how helpful you were. Thank you again. If you ever need anything, don't hesitate to ask.",
+      "BNAM": "Journal \"MV_MonsterDisease\" 60\r\nRemoveItem \"Gold_001\" 30\r\nPlayer->AddItem \"Gold_001\" 30\r\nModPCFacRep 5 \"Imperial Legion\"\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_MonsterDisease",
+          "__TV": 49
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_MonsterDisease",
+          "__TV": 50
+        }
+      ]
+    },
+    "19761967213016528": {
+      "flag": 0,
+      "PNAM": "30448140721617019032",
+      "NNAM": "9079474731225595",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Muddled? Where? No! Don't play in the muddled. You'll get a dirty mind.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_MonsterDisease",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_MonsterDisease",
+          "__TV": 49
+        }
+      ]
+    },
+    "9079474731225595": {
+      "flag": 0,
+      "PNAM": "19761967213016528",
+      "NNAM": "3003414966380822615",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, but everything is so much clearer now. Thank you for bringing me here. I'd really like to reward you for your generosity. I have very little, but please take this gold. Even during all my days in the legion, I've never felt anything so strange. I'll make sure to mention to my Legion friends how helpful you were. Thank you again. If you ever need anything, don't hesitate to ask.",
+      "BNAM": "Journal \"MV_MonsterDisease\" 60\r\nRemoveItem \"Gold_001\" 30\r\nPlayer->AddItem \"Gold_001\" 30\r\nModPCFacRep 5 \"Imperial Legion\"\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_MonsterDisease",
+          "__TV": 50
+        }
+      ]
+    },
+    "3003414966380822615": {
+      "flag": 0,
+      "PNAM": "9079474731225595",
+      "NNAM": "2010214589176655611",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Gnisis with you? A slaughterfish? Ha! Hmmm...maybe I should follow you. That way I can keep my eye on you.",
+      "BNAM": "Journal \"MV_MonsterDisease\" 40\r\nAddTopic \"slaughterfish bite\"\r\n\"Din\"->AiFollowCell,Player, \"Gnisis, Temple\", 0, 950, 2168, -638, 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2010214589176655611": {
+      "flag": 0,
+      "PNAM": "3003414966380822615",
+      "NNAM": "2715912549403922083",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A spell, huh? Never heard of a slaughterfish that could cast spells. Give it your best shot! Stop looking at me!",
+      "BNAM": "Journal \"MV_MonsterDisease\" 46",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2715912549403922083": {
+      "flag": 0,
+      "PNAM": "2010214589176655611",
+      "NNAM": "3838125121486224273",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fine! Can't trust you slaughterfish anyway! Are you threatening me? Go away!",
+      "BNAM": "Journal \"MV_MonsterDisease\" 48",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "3838125121486224273": {
+      "flag": 0,
+      "PNAM": "2715912549403922083",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "din",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm just having some problems concentrating since the  slaughterfish bite. Having some problems controlling myself, too. You have a problem with that? Huh? Well? Sorry...I really need some help. Maybe you can get me to a healer? To hell with the healers. I don't need one! That Mehra Drora is a healer, but I don't like the way she looks at me. All of Gnisis is like that. Don't look at me!",
+      "BNAM": "Journal \"MV_MonsterDisease\" 30\r\nChoice \"Perhaps you'd better follow me to the healer in Gnisis. I think she can help you.\" 1 \"Perhaps I can cast a spell to cure your disease.\" 2 \"I'm sorry, there's nothing I can do to help you.\" 3",
+      "SCVR": null
+    }
+  }
+}

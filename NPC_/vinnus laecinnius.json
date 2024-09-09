@@ -1,0 +1,101 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Pilgrim",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_05",
+  "MODL": null,
+  "FNAM": "Vinnus Laecinnius",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 50,
+      "name": "iron arrow"
+    },
+    {
+      "count": 1,
+      "name": "short bow"
+    },
+    {
+      "count": 1,
+      "name": "iron dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "dragonscale_towershield"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "absorb health",
+    "absorb health [ranged]",
+    "absorb spell points",
+    "absorb spell points [ranged]",
+    "cure common disease",
+    "rilm's cure",
+    "rilm's gift",
+    "resist shock",
+    "blightguard",
+    "variable resist common disease",
+    "variable resist fire",
+    "variable resist frost",
+    "variable resist magicka",
+    "variable resist poison",
+    "variable resist shock"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 102,
+    "magicka": 98,
+    "fatigue": 197,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [48,49,43,45,51,61,80,40],
+    "skills": [23,6,38,6,11,16,6,6,6,6,6,6,23,6,6,38,23,6,10,10,10,15,27,42,52,52,32]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

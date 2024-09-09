@@ -1,0 +1,96 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Mage",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_high elf_m_head_04",
+  "KNAM": "b_n_high elf_m_hair_04",
+  "MODL": null,
+  "FNAM": "Itermerel",
+  "SCRI": "itermerelScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver sparkblade"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "bk_itermerelsnotes"
+    },
+    {
+      "count": 1,
+      "name": "sc_alvusiaswarping"
+    },
+    {
+      "count": 1,
+      "name": "sc_elementalburstshock"
+    },
+    {
+      "count": 1,
+      "name": "sc_secondbarrier"
+    },
+    {
+      "count": 1,
+      "name": "sc_divineintervention"
+    },
+    {
+      "count": 150,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_health_q"
+    },
+    {
+      "count": 1,
+      "name": "p_levitation_s"
+    },
+    {
+      "count": 3,
+      "name": "p_restore_health_s"
+    }
+  ],
+  "NPCS": [
+    "hand of decay",
+    "firefist"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 84,
+    "magicka": 164,
+    "fatigue": 241,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [43,82,100,50,100,48,58,40],
+    "skills": [6,6,6,6,6,6,6,6,75,50,64,60,60,44,54,54,50,40,6,6,6,6,28,6,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,0]
+    }
+  ]
+}

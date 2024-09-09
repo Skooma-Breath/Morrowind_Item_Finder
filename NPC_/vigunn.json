@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Barbarian",
+  "ANAM": "",
+  "BNAM": "b_n_nord_m_head_04",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Vigunn",
+  "SCRI": "ColonyNordAttack",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM huntsman war axe"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_b"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_b"
+    },
+    {
+      "count": 1,
+      "name": "BM bear boots"
+    },
+    {
+      "count": 1,
+      "name": "BM bear greaves"
+    },
+    {
+      "count": 1,
+      "name": "BM bear cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 40,
+    "health": 295,
+    "magicka": 122,
+    "fatigue": 371,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [150,61,71,100,100,150,53,40],
+    "skills": [94,78,100,38,100,38,100,38,94,9,9,9,9,9,9,9,9,54,9,9,54,54,9,54,9,9,9]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

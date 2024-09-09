@@ -1,0 +1,79 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "High Elf",
+  "CNAM": "Battlemage",
+  "ANAM": "",
+  "BNAM": "b_n_high elf_f_head_01",
+  "KNAM": "b_n_high elf_f_hair_02",
+  "MODL": null,
+  "FNAM": "Elanande",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 0,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony war axe_elanande"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_02_elanande"
+    }
+  ],
+  "NPCS": [
+    "dire weary",
+    "strong frost shield",
+    "second barrier",
+    "strong shock shield",
+    "summon clanfear",
+    "wild clumsiness",
+    "wild distraction",
+    "drain enchant",
+    "drain destruction",
+    "drain alteration",
+    "drain conjuration",
+    "drain alchemy",
+    "strong reflect",
+    "strong spelldrinker",
+    "wild spelldrinker",
+    "absorb agility [ranged]",
+    "absorb endurance [ranged]",
+    "drain blood",
+    "absorb luck [ranged]",
+    "absorb strength [ranged]",
+    "absorb willpower [ranged]",
+    "blood despair",
+    "Ghost Curse",
+    "poison_powerful",
+    "vivec's_wrath"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "health": 200,
+    "magicka": 200,
+    "fatigue": 343,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,100,100,72,63,71,57,40],
+    "skills": [8,8,8,59,8,44,100,8,8,74,88,84,32,84,64,27,74,27,8,8,8,8,8,44,8,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

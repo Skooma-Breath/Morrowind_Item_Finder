@@ -1,0 +1,818 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "8731305225273977": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "29998172922353830025",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled. Join the Imperial Legion again. Then you can return the Lord's Mail with honor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "29998172922353830025": {
+      "flag": 0,
+      "PNAM": "8731305225273977",
+      "NNAM": "432918529193293218",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have returned the Lords Mail and found Chrysamere.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 100
+        }
+      ]
+    },
+    "432918529193293218": {
+      "flag": 0,
+      "PNAM": "29998172922353830025",
+      "NNAM": "6618179852210128456",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have returned the Lord's Mail. Now you must find Chrysamere.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 50
+        }
+      ]
+    },
+    "6618179852210128456": {
+      "flag": 0,
+      "PNAM": "432918529193293218",
+      "NNAM": "544121157646525481",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.",
+      "BNAM": "Journal \"IL_KnightShield\" 50\r\nModPCFacRep 5 \"Imperial Legion\"\r\n;PCRaiseRank \"Imperial Legion\" ;should not raise rank here Todd 4/02/02\r\nAddItem \"lords_cuirass_unique\" 1\r\nPlayer->RemoveItem \"lords_cuirass_unique\" 1\r\nPlayer->Additem \"silver_dukesguard_cuirass\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "17130173011493914825": {
+      "flag": 0,
+      "PNAM": "544121157646525481",
+      "NNAM": "294106160221822345",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then it is my duty to take the Lord's Mail from you!",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "294106160221822345": {
+      "flag": 0,
+      "PNAM": "17130173011493914825",
+      "NNAM": "3246322653208635335",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? You are dangerously close to treason, %PCName. I will ask you once more: Will you give me the Lord's Mail?",
+      "BNAM": "Choice \"Give him the Lord's Mail.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "3246322653208635335": {
+      "flag": 0,
+      "PNAM": "294106160221822345",
+      "NNAM": "187897543699123537",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have found the Lord's Mail! Well done, %PCRank. Give it to me and I will make sure it is well cared for.",
+      "BNAM": "Choice \"Give him the Lord's Mail.\" 1 \"Nevermind.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "187897543699123537": {
+      "flag": 0,
+      "PNAM": "3246322653208635335",
+      "NNAM": "15110249272105531728",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That cuirass is important to us, %PCRank. Find it quickly.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 10
+        }
+      ]
+    },
+    "15110249272105531728": {
+      "flag": 0,
+      "PNAM": "187897543699123537",
+      "NNAM": "14924170732116317254",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Varus Vatinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "The Lord's Mail is a cuirass, sometimes called the Armor of Morihaus. It has been kept in a Shrine on the lower level of the Imperial Commission here, but was recently stolen. Take this key. It will allow you entrance to the Shrine.",
+      "BNAM": "Journal \"IL_KnightShield\" 10\r\nPlayer->AddItem \"key_ebon_tomb\" 1\r\nRemoveItem \"key_ebon_tomb\" 1",
+      "SCVR": null
+    },
+    "14924170732116317254": {
+      "flag": 0,
+      "PNAM": "15110249272105531728",
+      "NNAM": "1300129912980619548",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Furius Acilius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Lord's Mail? You see me wearing it, don't you? And it's mine now. Bastards kicked me out of the Legion...and for what? Idiots, all of them. I'm surprised the fools even knew it was gone. But it's mine now. And that's how it will stay.",
+      "BNAM": "Journal \"IL_KnightShield\" 30\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": null
+    },
+    "1300129912980619548": {
+      "flag": 0,
+      "PNAM": "14924170732116317254",
+      "NNAM": "622117941882424916",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Ebonheart",
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "It's good to see the Lord's Mail in good hands again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "622117941882424916": {
+      "flag": 0,
+      "PNAM": "1300129912980619548",
+      "NNAM": "26805235351392553",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Ebonheart",
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "I'm glad you returned the Lord's Mail, %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 50
+        }
+      ]
+    },
+    "26805235351392553": {
+      "flag": 0,
+      "PNAM": "622117941882424916",
+      "NNAM": "2443617506215076705",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ebonheart",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I heard it was found.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_KnightShield",
+          "__TV": 50
+        }
+      ]
+    },
+    "2443617506215076705": {
+      "flag": 0,
+      "PNAM": "26805235351392553",
+      "NNAM": "31959230201741413535",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Duke's Guard_tomb",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it has gone missing. I can assure you that no one got past us. We've been right here. I suspect foul play, or evil magicka. Whoever has it, got in some other way.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "31959230201741413535": {
+      "flag": 0,
+      "PNAM": "2443617506215076705",
+      "NNAM": "16615164001889021508",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Duke's Guard_tomb2",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it has gone missing. I can assure you that no one got past us. We've been right here. I suspect foul play, or evil magicka. Whoever has it, got in some other way.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "16615164001889021508": {
+      "flag": 0,
+      "PNAM": "31959230201741413535",
+      "NNAM": "21102296461689323779",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Rufinus Alleius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have hunch, yes. Furius Acilius, who was banished from the Legion some time ago. He spoke of the armor before his leave, and of secret caves below the castle. Motive and opportunity; he seemed to have both. Ask about him at the Imperial Guard Garrison, he used to stay there.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "21102296461689323779": {
+      "flag": 0,
+      "PNAM": "16615164001889021508",
+      "NNAM": "2361519532602122759",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ebonheart",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Taken from the Imperial Commission here, right? You're a friend, so if I were you, I'd talk to Rufinus there. He keeps his ears open.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2361519532602122759": {
+      "flag": 0,
+      "PNAM": "21102296461689323779",
+      "NNAM": "199938182054010031",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Ebonheart",
+      "DNAM": "Imperial Legion",
+      "SNAM": null,
+      "NAME": "Yes, the Lord's Mail. Quite a wondrous piece of armor. It's a tragedy it was taken.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "544121157646525481": {
+      "flag": 0,
+      "PNAM": "6618179852210128456",
+      "NNAM": "17130173011493914825",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Lord's Mail with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "199938182054010031": {
+      "flag": 0,
+      "PNAM": "2361519532602122759",
+      "NNAM": "25215268712721719082",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!",
+      "BNAM": "SetPCCrimeLevel 190000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "lordsmail",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "25215268712721719082": {
+      "flag": 0,
+      "PNAM": "199938182054010031",
+      "NNAM": "145223634963910099",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "lordsmail",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "145223634963910099": {
+      "flag": 0,
+      "PNAM": "25215268712721719082",
+      "NNAM": "128597572810620812",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you so much.  This will be a wonderful addition to the Museum.",
+      "BNAM": "player->removeitem \"lords_cuirass_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\nset lordsmail to 2\r\n\"lords_cuirass_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "128597572810620812": {
+      "flag": 0,
+      "PNAM": "145223634963910099",
+      "NNAM": "1868219647366818581",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you so much.  This should be adequate payment.",
+      "BNAM": "player->removeitem \"lords_cuirass_unique\" 1\r\nplayer->additem \"gold_001\" 30000\r\nset lordsmail to 2\r\n\"lords_cuirass_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "1868219647366818581": {
+      "flag": 0,
+      "PNAM": "128597572810620812",
+      "NNAM": "30489209851973314983",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Lord's Mail with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "lords_cuirass_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "30489209851973314983": {
+      "flag": 0,
+      "PNAM": "1868219647366818581",
+      "NNAM": "26226171391658512896",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry you feel that way.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "26226171391658512896": {
+      "flag": 0,
+      "PNAM": "30489209851973314983",
+      "NNAM": "253431602312982495",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, this is quite a find. Do you wish to part with it? I can offer you 30000 gold if you choose to sell it.",
+      "BNAM": "Choice \"Sell the item.\" 4 \"Keep the item.\" 5 \"Donate the item.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "lordsmail",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "253431602312982495": {
+      "flag": 0,
+      "PNAM": "26226171391658512896",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, this is quite a find. Do you wish to part with it? I can offer you 30000 gold if you choose to sell it.",
+      "BNAM": "Choice \"Sell the item.\" 4 \"Keep the item.\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "lordsmail",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

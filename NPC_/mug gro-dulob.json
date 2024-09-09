@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Smith",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_orc_m_head_03",
+  "KNAM": "b_n_orc_m_hair_03",
+  "MODL": null,
+  "FNAM": "Mug gro-Dulob",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    },
+    {
+      "count": -10,
+      "name": "repair_prongs"
+    },
+    {
+      "count": -8,
+      "name": "repair_journeyman_01"
+    },
+    {
+      "count": -10,
+      "name": "hammer_repair"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 106,
+    "magicka": 70,
+    "fatigue": 242,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 700,
+    "attributes": [74,35,55,46,44,67,34,40],
+    "skills": [54,54,39,39,44,29,34,14,14,6,6,6,6,6,6,6,6,36,6,6,6,21,6,6,10,6,36]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,10,0,0,0,0]
+    }
+  ]
+}

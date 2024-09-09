@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Pawnbroker",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_10",
+  "MODL": null,
+  "FNAM": "Daynes Redothril",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 14071
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02_rr"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 96,
+    "magicka": 136,
+    "fatigue": 205,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [58,68,39,61,74,47,54,50],
+    "skills": [26,6,6,6,26,11,6,6,46,6,16,6,6,6,11,6,6,26,52,52,36,22,27,22,25,52,36]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,10,10,0,0,0]
+    }
+  ]
+}

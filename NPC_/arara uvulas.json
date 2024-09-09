@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_21",
+  "MODL": null,
+  "FNAM": "Arara Uvulas",
+  "SCRI": "araraUvulasScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "dire flameblade"
+    },
+    {
+      "count": 1,
+      "name": "amulet of shield"
+    },
+    {
+      "count": 1,
+      "name": "ring of wizard's fire"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_t"
+    },
+    {
+      "count": 100,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,0]
+    }
+  ]
+}

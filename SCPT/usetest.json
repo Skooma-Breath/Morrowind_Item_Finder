@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 2,
+    "local_var_size": 0
+  },
+  "SCTX": "begin UseTest\r\n\r\n;Commented out by Doug -- was not compiling & causing dialogue crashes...\r\n\r\n;short\trotate\r\n\r\n;if ( UsedOnMe, Misc_pot_redware_01 )\r\n;\tif ( rotate == 0 )\r\n;\t\tMessageBox, \"The Pot was used on me, I'll spin around now\"\r\n;\t\tset  rotate to 1\r\n;\telse\r\n;\t\tMessageBox, \"The Pot was used on me, I'll STOP spinning now\"\r\n;\t\tset  rotate to 0\r\n;\tendif\r\n;endif\r\n;\r\n;if ( MenuMode == 0 )\r\n;\tif ( rotate == 1 )\r\n;\t\trotate, z, 45\r\n;\tendif\r\n;endif\r\n;\r\nend UseTest\r\n",
+  "SCVR": null,
+  "SCDT": [1,1]
+}

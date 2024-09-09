@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mage Service",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_10",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Fevyn Ralen",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 34816
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_t"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    }
+  ],
+  "NPCS": [
+    "first barrier",
+    "second barrier",
+    "third barrier",
+    "frost storm",
+    "lightning storm",
+    "levitate",
+    "fenrick's doorjam",
+    "buoyancy",
+    "stumble",
+    "clench",
+    "woe",
+    "weapon eater",
+    "fire storm"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 89,
+    "magicka": 144,
+    "fatigue": 243,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [53,72,92,50,68,48,48,40],
+    "skills": [6,6,6,6,6,11,6,6,11,40,64,54,54,40,60,54,40,40,6,6,6,11,38,11,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

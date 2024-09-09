@@ -1,0 +1,96 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "26332259411248911020": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2244928392473729022",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hlormar wine-sot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight.",
+      "BNAM": ";Hlormar Wine-Sot\r\nPlayer->ModStrength 2\r\nJournal MV_abusedhealer 85\r\nAiWander 0,0,60,30,10,0,0,0,0,0,0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2244928392473729022": {
+      "flag": 0,
+      "PNAM": "26332259411248911020",
+      "NNAM": "2757230905834523173",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hlormar wine-sot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Methinks that a poor, poor decision on your part friend.",
+      "BNAM": ";Hlormar Wine-Sot\r\nJournal \"MV_AbusedHealer\" 80\r\nModDisposition -100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2757230905834523173": {
+      "flag": 0,
+      "PNAM": "2244928392473729022",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hlormar wine-sot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, let me hold her in my hands - ah, my pretty, I've missed you so....",
+      "BNAM": ";Hlormar Wine-Sot\r\nChoice \"Here's your axe, Hlormar.\" 1 \"It belongs with a true warrior. Me.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "MV_AbusedHealer",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

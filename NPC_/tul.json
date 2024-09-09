@@ -1,0 +1,72 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Monk",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_03",
+  "KNAM": "b_n_argonian_m_hair01",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Tul",
+  "SCRI": "tulScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_left"
+    }
+  ],
+  "NPCS": [
+    "hearth heal",
+    "absorb health",
+    "absorb spell points",
+    "resist fire",
+    "resist cold",
+    "resist poison",
+    "resist shock",
+    "resist common disease",
+    "resist frost",
+    "resist magicka",
+    "restore agility",
+    "rest of st. merris",
+    "great heal companion",
+    "restore willpower"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 129,
+    "magicka": 100,
+    "fatigue": 265,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [65,50,73,70,68,57,37,40],
+    "skills": [27,6,11,60,27,6,6,11,57,6,6,6,11,6,11,27,11,60,12,48,48,33,12,33,12,12,65]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

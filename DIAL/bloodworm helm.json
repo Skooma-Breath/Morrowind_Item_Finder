@@ -1,0 +1,332 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1166123243726022546": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "4270307863103430513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How is it that you have this?  It belongs to the Museum!  GUARDS!!!",
+      "BNAM": "SetPCCrimeLevel 34000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "helmbloodworm",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bloodworm_helm_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "4270307863103430513": {
+      "flag": 0,
+      "PNAM": "1166123243726022546",
+      "NNAM": "28278261101689929540",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's interesting to see that something most people find so offensive is one of the biggest draws at the museum.  Wouldn't you say?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "helmbloodworm",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bloodworm_helm_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "28278261101689929540": {
+      "flag": 0,
+      "PNAM": "4270307863103430513",
+      "NNAM": "8274252553182230814",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's your choice, of course.  I'd suggest exercising judgment in using it, however.  Necromancy is a dangerous thing.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "8274252553182230814": {
+      "flag": 0,
+      "PNAM": "28278261101689929540",
+      "NNAM": "31445312003212313716",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "While I admit I find it repulsive, it's an intriguing piece for our collection.  Thank you, %PCName.",
+      "BNAM": "set helmbloodworm to 2\r\nplayer->removeitem \"bloodworm_helm_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"bloodworm_helm_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bloodworm_helm_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "31445312003212313716": {
+      "flag": 0,
+      "PNAM": "8274252553182230814",
+      "NNAM": "981540112800528912",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "While I admit I find it repulsive, it's an intriguing piece for our collection.  Thank you, %PCName.",
+      "BNAM": "set helmbloodworm to 2\r\nplayer->removeitem \"bloodworm_helm_unique\" 1\r\nplayer->additem \"gold_001\" 17000\r\n\"bloodworm_helm_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bloodworm_helm_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "981540112800528912": {
+      "flag": 0,
+      "PNAM": "31445312003212313716",
+      "NNAM": "236142932915924686",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Bloodworm Helm with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bloodworm_helm_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "236142932915924686": {
+      "flag": 0,
+      "PNAM": "981540112800528912",
+      "NNAM": "32038133091407024968",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Bloodworm Helm with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bloodworm_helm_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "32038133091407024968": {
+      "flag": 0,
+      "PNAM": "236142932915924686",
+      "NNAM": "206496815456219464",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Said to have been left behind by the Worm King himself.  Evil, but beautiful. If you wish to sell it, %PCName, I can give you 17000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "helmbloodworm",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "206496815456219464": {
+      "flag": 0,
+      "PNAM": "32038133091407024968",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Said to have been left behind by the Worm King himself.  Evil, but beautiful. If you wish to sell it, %PCName, I can give you 17000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "helmbloodworm",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

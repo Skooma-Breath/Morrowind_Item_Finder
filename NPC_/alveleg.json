@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Scout",
+  "ANAM": "Thieves Guild",
+  "BNAM": "B_N_Wood Elf_M_Head_07",
+  "KNAM": "b_n_wood elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Alveleg",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 60,
+      "name": "iron arrow"
+    },
+    {
+      "count": 1,
+      "name": "long bow"
+    },
+    {
+      "count": 1,
+      "name": "iron longsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_t"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": 1,
+      "name": "dragonscale_towershield"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "p_fire_shield_s"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_b"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "health": 46,
+    "magicka": 84,
+    "fatigue": 165,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [34,42,32,56,64,43,41,40],
+    "skills": [38,11,38,11,11,38,11,11,38,5,5,17,5,5,5,5,22,17,5,42,10,27,5,45,5,5,5]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

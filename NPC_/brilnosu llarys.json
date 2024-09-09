@@ -1,0 +1,110 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Battlemage",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_20",
+  "MODL": null,
+  "FNAM": "Brilnosu Llarys",
+  "SCRI": "BILL_MT_WritBrilnosu",
+  "AIDT": {
+    "greet": 0,
+    "fight": 70,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "we_stormforge"
+    },
+    {
+      "count": 1,
+      "name": "expensive_robe_02_a"
+    },
+    {
+      "count": 1,
+      "name": "expensive_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "ebony_greaves"
+    },
+    {
+      "count": 1,
+      "name": "ebony_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "sc_mindfeeder"
+    },
+    {
+      "count": 1,
+      "name": "sc_argentglow"
+    },
+    {
+      "count": 3,
+      "name": "p_fortify_magicka_q"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_fatigue_s"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_health_q"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": 340,
+      "name": "Gold_001"
+    },
+    {
+      "count": 1,
+      "name": "key_chest_brilnosullarys_01"
+    }
+  ],
+  "NPCS": [
+    "weary",
+    "bound battle-axe",
+    "bound spear",
+    "bound longbow",
+    "summon greater bonewalker",
+    "summon least bonewalker",
+    "commanding touch",
+    "summon skeletal minion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "health": 142,
+    "magicka": 189,
+    "fatigue": 259,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [82,83,70,56,62,51,49,40],
+    "skills": [6,6,6,45,6,35,45,55,12,42,68,58,19,58,48,19,42,19,6,6,6,12,16,35,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,20,10,10,0,0,10,10]
+    }
+  ]
+}

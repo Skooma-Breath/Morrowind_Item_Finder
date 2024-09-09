@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Warrior",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_02",
+  "KNAM": "b_n_imperial_m_hair_00",
+  "MODL": null,
+  "FNAM": "Cavortius Albuttian",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "imperial shield"
+    },
+    {
+      "count": 1,
+      "name": "imperial right gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "imperial left gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "imperial boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial right pauldron"
+    },
+    {
+      "count": 1,
+      "name": "imperial left pauldron"
+    },
+    {
+      "count": 1,
+      "name": "imperial cuirass_armor"
+    },
+    {
+      "count": 100,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 21,
+    "disposition": 50,
+    "reputation": 18,
+    "rank": 8,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

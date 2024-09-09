@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Breton",
+  "CNAM": "Commoner",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_breton_f_head_03",
+  "KNAM": "b_n_breton_f_hair_02",
+  "MODL": null,
+  "FNAM": "Heniele Milielle",
+  "SCRI": "strongholdServices",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

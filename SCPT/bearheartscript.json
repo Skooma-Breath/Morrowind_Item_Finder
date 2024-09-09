@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 89,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin bearheartScript\r\n\r\nshort doOnce\r\n\r\nif ( player->GetItemCount BM_bearheart_UNIQUE > 0 )\r\n\tif ( doOnce == 0 )\r\n\t\tJournal BM_BearHunt1 80\r\n\t\tset doOnce to 1\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\nEnd bearheartScript",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [12,1,6,112,108,97,121,101,114,6,1,4,30,32,88,253,16,32,111,19,66,77,95,98,101,97,114,104,101,97,114,116,95,85,78,73,81,85,69,32,62,32,48,6,1,2,9,32,115,1,0,32,61,61,32,48,204,16,12,66,77,95,66,101,97,114,72,117,110,116,49,80,0,255,255,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

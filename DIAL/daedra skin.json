@@ -1,0 +1,428 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "626330163484113756": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "13003183971474426943",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Yes, this Daedra Skin will serve my purpose. Take these 300 drakes. You know, Daedra skins if not properly prepared can causes paralysis, a useful effect in some circumstances. Perhaps you would like to paralyze your enemies...",
+      "BNAM": "Journal HT_DaedraSkin 100\r\nPlayer->RemoveItem Ingred_Daedra_Skin_01 1\r\nAddItem Ingred_Daedra_Skin_01 1\r\nPlayer->AddItem Gold_001 300\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 5\r\nChoice \"Teach me how to paralyze.\" 3 \"Nevermind.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "13003183971474426943": {
+      "flag": 0,
+      "PNAM": "626330163484113756",
+      "NNAM": "43357462188501924",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I would not pay more than 300 drakes. For that price, I could go to an alchemist.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "43357462188501924": {
+      "flag": 0,
+      "PNAM": "13003183971474426943",
+      "NNAM": "2768116247324665147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is rather simple, actually. [Aryon teaches you the spell Paralyze.] This is a simple version of the spell. It is far more useful if you can cast it at a distance.",
+      "BNAM": "Player->AddSpell \"paralysis\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2768116247324665147": {
+      "flag": 0,
+      "PNAM": "43357462188501924",
+      "NNAM": "3244528316501924147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, your choice, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "3244528316501924147": {
+      "flag": 0,
+      "PNAM": "2768116247324665147",
+      "NNAM": "3214617742935313526",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not need any more Daedra skins at the moment.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DaedraSkin",
+          "__TV": 100
+        }
+      ]
+    },
+    "3214617742935313526": {
+      "flag": 0,
+      "PNAM": "3244528316501924147",
+      "NNAM": "854220814411418728",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you brought me a Daedra skin? I will pay you 300 drakes for it.",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_daedra_skin_01",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DaedraSkin",
+          "__TV": 10
+        }
+      ]
+    },
+    "854220814411418728": {
+      "flag": 0,
+      "PNAM": "3214617742935313526",
+      "NNAM": "23734223691465230169",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I am looking for a Daedra skin. If you find one, please bring it to me. I will pay well for its delivery.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DaedraSkin",
+          "__TV": 10
+        }
+      ]
+    },
+    "23734223691465230169": {
+      "flag": 0,
+      "PNAM": "854220814411418728",
+      "NNAM": "2803822364213596313",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galos mathendis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Master Aryon was pleased with the Daedra skin you brought him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DaedraSkin",
+          "__TV": 100
+        }
+      ]
+    },
+    "2803822364213596313": {
+      "flag": 0,
+      "PNAM": "23734223691465230169",
+      "NNAM": "2008411972330818414",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galos mathendis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see you have a Daedra skin. Please take it to Master Aryon in Tel Vos.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ingred_daedra_skin_01",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DaedraSkin",
+          "__TV": 10
+        }
+      ]
+    },
+    "2008411972330818414": {
+      "flag": 0,
+      "PNAM": "2803822364213596313",
+      "NNAM": "11099300371316110761",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galos mathendis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The skins of many kinds of Daedra can be recovered from Daedra who have recently been returned to Oblivion, but whose bodies remain here for a time. Alchemists will often sell Daedra skin as well. When you get the Daedra skin, please deliver it to Master Aryon in Tel Vos directly.",
+      "BNAM": "Journal HT_DaedraSkin 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_FyrMessage",
+          "__TV": 100
+        }
+      ]
+    },
+    "11099300371316110761": {
+      "flag": 0,
+      "PNAM": "2008411972330818414",
+      "NNAM": "302182842587958280",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Anis Seloth the alchemist probably has some. Her shop is on the north side of town, next to Fara's Hole in the Wall.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "anis seloth",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DaedraSkin",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_DaedraSkin",
+          "__TV": 100
+        }
+      ]
+    },
+    "302182842587958280": {
+      "flag": 0,
+      "PNAM": "11099300371316110761",
+      "NNAM": "1552112570775215760",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tendris vedran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Daedra skin must be removed from the specimen while it remains on the mortal plane. Daedra skin has modest magical properties, but collecting it from the daedra is hard work and dangerous.",
+      "BNAM": ";alchemist",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "1552112570775215760": {
+      "flag": 0,
+      "PNAM": "302182842587958280",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "anarenen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Daedra skin must be removed from the specimen while it remains on the mortal plane. Daedra skin has modest magical properties, but collecting it from the daedra is hard work and dangerous.",
+      "BNAM": ";alchemist",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

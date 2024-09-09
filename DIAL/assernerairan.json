@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "30287243492157329020": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2352430382536726512",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Durus Marius is dead. There is no more to discuss.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_DB_Assernerairan",
+          "__TV": 100
+        }
+      ]
+    },
+    "2352430382536726512": {
+      "flag": 0,
+      "PNAM": "30287243492157329020",
+      "NNAM": "29393297547330578",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you have already honorably executed Durus Marius. I am pleased that you brought our justice to him as soon as you found him.",
+      "BNAM": "Journal MT_DB_Assernerairan 100\r\nModPCFacRep 10 \"Morag Tong\"\r\nModDisposition 20\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "durus marius",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_DB_Assernerairan",
+          "__TV": 0
+        }
+      ]
+    },
+    "29393297547330578": {
+      "flag": 0,
+      "PNAM": "2352430382536726512",
+      "NNAM": "22997706194302552",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Durus Marius is dead and the cult in Assernerairan has been crushed. Please take these 2000 drakes as if this were a Writ of Execution.",
+      "BNAM": "Journal MT_DB_Assernerairan 100\r\nPlayer->AddItem Gold_001 2000\r\nModPCFacRep 10 \"Morag Tong\"\r\nModDisposition 20\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "durus marius",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_S_Sublime",
+          "__TV": 100
+        }
+      ]
+    },
+    "22997706194302552": {
+      "flag": 0,
+      "PNAM": "29393297547330578",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Assernerairan is in the Underworks of the St. Olms Canton here in Vivec City. Find this foul place and honorably execute Durus Marius, the leader of these Mehrunes Dagon cultists.",
+      "BNAM": "Journal MT_DB_Assernerairan 10",
+      "SCVR": [
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_S_Sublime",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

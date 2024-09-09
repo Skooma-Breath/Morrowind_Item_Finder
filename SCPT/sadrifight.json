@@ -1,0 +1,19 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 5,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 467,
+    "local_var_size": 44
+  },
+  "SCTX": "Begin SadriFight\r\n\r\nshort nolore\r\nshort spellcheck\r\nshort ammogone\r\nshort nolore\r\nshort greetonce\r\n\r\n\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\n\r\nif ( greetonce == 0 )\r\n\tif ( GetDistance Player <= 512 )\r\n\t\tForceGreeting\r\n\t\tset greetonce to 1\r\n\tendif\r\nendif\r\n\r\nif ( player->GetParalysis > 0 )\r\n\tset spellcheck to 1\r\nelse\r\n\tset spellcheck to 0\r\nendif\r\n\r\n\r\nif ( ammogone == 0 )\r\n\tif ( spellcheck == 1 )\r\n\t\tremoveitem \"ebony arrow_sadri\" 50\r\n\t\tremoveitem \"daedric long bow\" 1\r\n\t\tset ammogone to 1\r\n\telseif ( GetItemCount \"ebony arrow_sadri\" < 1 )\r\n\t\tadditem \"ebony arrow_sadri\" 50\r\n\tendif\r\nendif\r\n\r\nif ( ammogone == 1 )\r\n\tif ( spellcheck == 0 )\r\n\t\tadditem \"ebony arrow_sadri\" 50\r\n\t\tadditem \"daedric long bow\" 1\r\n\t\tset ammogone to 0\r\n\tendif\r\nendif\r\n\r\n\r\nif ( OnDeath == 1 )\r\n\tremoveitem \"ebony arrow_sadri\" 1000\r\n\tremoveitem \"daedric long bow\" 10\r\n\tadditem \"ebony arrow_sadri\" 5\r\n\tadditem \"daedric long bow\" 1\r\n\t\"ordinator_MH_Sadri\"->Disable\r\n\tJournal MS_Thief 80\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "nolore",
+    "spellcheck",
+    "ammogone",
+    "nolore",
+    "greetonce"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,4,9,32,115,5,0,32,61,61,32,48,6,1,2,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,53,49,50,232,16,5,1,115,5,0,2,32,49,9,1,9,1,12,1,6,112,108,97,121,101,114,6,1,1,8,32,88,130,17,32,62,32,48,5,1,115,2,0,2,32,49,7,1,1,5,1,115,2,0,2,32,48,9,1,6,1,7,9,32,115,3,0,32,61,61,32,48,6,1,3,9,32,115,2,0,32,61,61,32,49,213,16,17,101,98,111,110,121,32,97,114,114,111,119,95,115,97,100,114,105,50,0,213,16,16,100,97,101,100,114,105,99,32,108,111,110,103,32,98,111,119,1,0,5,1,115,3,0,2,32,49,8,1,1,28,32,88,253,16,32,111,17,101,98,111,110,121,32,97,114,114,111,119,95,115,97,100,114,105,32,60,32,49,212,16,17,101,98,111,110,121,32,97,114,114,111,119,95,115,97,100,114,105,50,0,9,1,9,1,6,1,5,9,32,115,3,0,32,61,61,32,49,6,1,3,9,32,115,2,0,32,61,61,32,48,212,16,17,101,98,111,110,121,32,97,114,114,111,119,95,115,97,100,114,105,50,0,212,16,16,100,97,101,100,114,105,99,32,108,111,110,103,32,98,111,119,1,0,5,1,115,3,0,2,32,48,9,1,9,1,6,1,6,9,32,88,240,16,32,61,61,32,49,213,16,17,101,98,111,110,121,32,97,114,114,111,119,95,115,97,100,114,105,232,3,213,16,16,100,97,101,100,114,105,99,32,108,111,110,103,32,98,111,119,10,0,212,16,17,101,98,111,110,121,32,97,114,114,111,119,95,115,97,100,114,105,5,0,212,16,16,100,97,101,100,114,105,99,32,108,111,110,103,32,98,111,119,1,0,12,1,18,111,114,100,105,110,97,116,111,114,95,77,72,95,83,97,100,114,105,219,16,204,16,8,77,83,95,84,104,105,101,102,80,0,255,255,9,1,1,1]
+}

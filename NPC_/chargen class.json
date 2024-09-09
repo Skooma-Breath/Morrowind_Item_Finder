@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Breton",
+  "CNAM": "Agent",
+  "ANAM": "Census and Excise",
+  "BNAM": "B_N_Breton_M_Head_08",
+  "KNAM": "b_n_breton_m_hair_05",
+  "MODL": null,
+  "FNAM": "Socucius Ergalla",
+  "SCRI": "CharGenClassNPC",
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel shardblade"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "crying eye"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 102,
+    "magicka": 128,
+    "fatigue": 236,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [63,64,60,75,55,38,76,40],
+    "skills": [28,6,6,6,6,6,6,6,6,6,6,11,33,38,16,16,11,28,18,54,54,54,54,18,40,54,18]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,0,0,10,0,0,0,0]
+    }
+  ]
+}

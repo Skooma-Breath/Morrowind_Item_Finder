@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 129,
+    "local_var_size": 6
+  },
+  "SCTX": "begin fab_attack_1\r\n\r\n;creature 1 for attack\r\n\r\nshort state\r\n\r\nif ( state == 10 )\r\n\tstartcombat \"guard_highord_attack\"\r\n\treturn\r\nendif\r\n\r\nif ( FabAttack == 1 )\r\n\tenable\r\n\tset state to 10\r\n\tif ( GetJournalIndex \"tr_mhattack\" < 10 )\r\n\t\tJournal \"TR_MHattack\" 10\r\n\tendif\r\nelse\r\n\tdisable\r\nendif\r\n\r\nend\r\n\r\n",
+  "SCVR": [
+    "state"
+  ],
+  "SCDT": [6,1,2,10,32,115,1,0,32,61,61,32,49,48,25,16,20,103,117,97,114,100,95,104,105,103,104,111,114,100,95,97,116,116,97,99,107,36,1,9,1,6,1,5,17,32,71,9,70,97,98,65,116,116,97,99,107,32,61,61,32,49,218,16,5,1,115,1,0,3,32,49,48,6,1,1,23,32,88,205,16,32,100,11,116,114,95,109,104,97,116,116,97,99,107,32,60,32,49,48,204,16,11,84,82,95,77,72,97,116,116,97,99,107,10,0,255,255,9,1,7,1,1,219,16,9,1,1,1]
+}

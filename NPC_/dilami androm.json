@@ -1,0 +1,56 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Dark Elf",
+  "CNAM": "Caravaner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_09",
+  "KNAM": "b_n_dark elf_f_hair_21",
+  "MODL": null,
+  "FNAM": "Dilami Androm",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [53162,-48230.25,984.1378784179688,0,0,3.1415927410125732],
+      "DNAM": null
+    },
+    {
+      "destination": [32207.0078125,-72224.5859375,1007.120849609375,0,0,4.71238899230957],
+      "DNAM": null
+    }
+  ],
+  "NPDT": {
+    "level": 1,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

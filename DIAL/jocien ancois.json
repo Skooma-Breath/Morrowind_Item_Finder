@@ -1,0 +1,440 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2486648242933018869": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1585268962877616570",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, but maybe you can join the Imperial Legion again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1585268962877616570": {
+      "flag": 0,
+      "PNAM": "2486648242933018869",
+      "NNAM": "22569745938527696",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He's dead? This is horrible.",
+      "BNAM": "Journal IL_RescueHermit 200\r\nModDisposition -20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "jocien ancois",
+          "__TV": 0
+        }
+      ]
+    },
+    "22569745938527696": {
+      "flag": 0,
+      "PNAM": "1585268962877616570",
+      "NNAM": "28039319222421214231",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You rescued him already.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 100
+        }
+      ]
+    },
+    "28039319222421214231": {
+      "flag": 0,
+      "PNAM": "22569745938527696",
+      "NNAM": "18750305871822010090",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You rescued Jocien? Good. Now he can continue his good works here in Vvardenfell.",
+      "BNAM": "\"Jocien Ancois\"->disable\r\nJournal IL_RescueHermit 100\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 50
+        }
+      ]
+    },
+    "18750305871822010090": {
+      "flag": 0,
+      "PNAM": "28039319222421214231",
+      "NNAM": "13320298301339622648",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "radd hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Jocien has been trying to teach the Erabenimsun of Imperial culture and virtue, but some Ashlanders do not appreciate his efforts. He was at the Erabenimsun camp, but was taken from there. Go find Jocien, deal with his captors, make sure he is safe, and report back to me.",
+      "BNAM": "Journal IL_RescueHermit 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_ScrapMetal",
+          "__TV": 100
+        }
+      ]
+    },
+    "13320298301339622648": {
+      "flag": 0,
+      "PNAM": "18750305871822010090",
+      "NNAM": "6573249891283315366",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zennammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I had forgotten him. He was easy to forget.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 100
+        }
+      ]
+    },
+    "6573249891283315366": {
+      "flag": 0,
+      "PNAM": "13320298301339622648",
+      "NNAM": "2553114363315668575",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zennammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you have brought us a better man. We will let Jocien go.",
+      "BNAM": "Journal IL_RescueHermit 50",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 30
+        }
+      ]
+    },
+    "2553114363315668575": {
+      "flag": 0,
+      "PNAM": "6573249891283315366",
+      "NNAM": "1250212732499911311",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zennammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Assaba-Bentus is on his way? I will believe that when he is here. Go wait outside for him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 25
+        }
+      ]
+    },
+    "1250212732499911311": {
+      "flag": 0,
+      "PNAM": "2553114363315668575",
+      "NNAM": "1270013915606912852",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zennammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want to take Jocien from us? But how can we work our magic without a man? I will let Jocien go if you can bring us a better man. The brave hunter Assaba-Bentus of the Erabenimsun is young, strong, and handsome. If you bring him here, we will let Jocien go.",
+      "BNAM": "Journal IL_RescueHermit 20",
+      "SCVR": null
+    },
+    "1270013915606912852": {
+      "flag": 0,
+      "PNAM": "1250212732499911311",
+      "NNAM": "560528479473529011",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mimanu zeba-adad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Zennammu in the yurt.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "560528479473529011": {
+      "flag": 0,
+      "PNAM": "1270013915606912852",
+      "NNAM": "2927730726799024737",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mamaea ashun-idantus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Zennammu in the yurt.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2927730726799024737": {
+      "flag": 0,
+      "PNAM": "560528479473529011",
+      "NNAM": "155848272747623407",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What of him? I heard he was back in the Erabenimsun camp.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 100
+        }
+      ]
+    },
+    "155848272747623407": {
+      "flag": 0,
+      "PNAM": "2927730726799024737",
+      "NNAM": "1507556812238423466",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He came to our camp speaking many lies from a large book. We told him the Mabrigash wanted to hear his words. Of course he was captured by the Mabrigash, who hold him captive still. He couldn't escape from his shirt without help.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1507556812238423466": {
+      "flag": 0,
+      "PNAM": "155848272747623407",
+      "NNAM": "1107136083057322861",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, he speaks from his books and we listen to him. The way a guar listens to its owner.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "jocien ancois",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 100
+        }
+      ]
+    },
+    "1107136083057322861": {
+      "flag": 0,
+      "PNAM": "1507556812238423466",
+      "NNAM": "8769151241279710721",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He came with so many books. Tried to teach us. Then went to the Mabrigash. So many books. They were old, pages always falling out. I kept picking them up after him. If you seek him, look for a trail of pages.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "8769151241279710721": {
+      "flag": 0,
+      "PNAM": "1107136083057322861",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He is like the Nix-Hound chasing a bone. We told him the Mabrigash wanted to hear him speak from his books. He went to them, and never returned.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

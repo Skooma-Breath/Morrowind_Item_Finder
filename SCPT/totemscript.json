@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 465,
+    "local_var_size": 35
+  },
+  "SCTX": "Begin totemScript\r\n\r\n;THIS SCRIPT CREATES A 10% CHANCE OF BEARS ATTACKING THE PLAYER IN HIS SLEEP WHILE IN THE PC'S POSSESSION\r\n\r\nshort bearchance\r\nshort beardist\r\nshort placebear\r\nshort temp\r\n\r\nif ( GetJournalIndex BM_Ceremony1 == 20 )\r\n\tif ( player->GetItemCount misc_BM_ClawFang_UNIQUE > 0 )\r\n\t\tJournal BM_Ceremony1 30\r\n\tendif\r\nendif\r\n\r\nif ( player->GetItemCount misc_BM_ClawFang_UNIQUE == 0 ) ;DOES PC HAVE TOTEM\r\n\treturn\r\nendif\r\n\r\nif ( GetPCSleep != 1 ) ;IS PC ASLEEP, ALSO RESET VARIABLE\r\n\treturn\r\n\tset beardist to 0\r\n\tset placebear to 0\r\nendif\r\n\r\nset bearchance to Random100 ;MAKE VARIABLE A RANDOM NUMBER 0-100\r\n\r\nif ( bearchance > 10 ) ;ONLY 10% CHANCE OF ATTACK\r\n\treturn\r\nendif\r\n\r\n;CHECK PLAYER LEVEL, PLACE BEARS, MAKE BEARS ATTACK\r\n\r\nif ( player->GetLevel >= 30 )\r\n\tset placebear to 3\r\nelseif ( player->GetLevel >= 20 )\r\n\tset placebear to 2\r\nelseif ( player->GetLevel < 20 )\r\n\tset placebear to 1\r\nendif\r\n\r\nset temp to placebear\r\nset beardist to ( beardist + 128 )\r\n\r\nwhile ( temp != 0 )\r\n\tPlaceAtPC BM_bear_black_Claw_UNIQ 1 beardist 1\r\n\tset temp to ( temp - 1 )\r\nendwhile\r\n\r\nWakeUpPC\r\nMessageBox \"You are awakened by the sounds of bears around you.\"\r\n\r\n\r\nEnd totemScript",
+  "SCVR": [
+    "bearchance",
+    "beardist",
+    "placebear",
+    "temp"
+  ],
+  "SCDT": [6,1,3,25,32,88,205,16,32,100,12,66,77,95,67,101,114,101,109,111,110,121,49,32,61,61,32,50,48,12,1,6,112,108,97,121,101,114,6,1,1,34,32,88,253,16,32,111,23,109,105,115,99,95,66,77,95,67,108,97,119,70,97,110,103,95,85,78,73,81,85,69,32,62,32,48,204,16,12,66,77,95,67,101,114,101,109,111,110,121,49,30,0,255,255,9,1,9,1,12,1,6,112,108,97,121,101,114,6,1,1,35,32,88,253,16,32,111,23,109,105,115,99,95,66,77,95,67,108,97,119,70,97,110,103,95,85,78,73,81,85,69,32,61,61,32,48,36,1,9,1,6,1,3,9,32,88,224,16,32,33,61,32,49,36,1,5,1,115,2,0,2,32,48,5,1,115,3,0,2,32,48,9,1,5,1,115,1,0,13,32,71,9,82,97,110,100,111,109,49,48,48,0,6,1,1,9,32,115,1,0,32,62,32,49,48,36,1,9,1,12,1,6,112,108,97,121,101,114,6,1,1,10,32,88,87,17,32,62,61,32,51,48,5,1,115,3,0,2,32,51,12,1,6,112,108,97,121,101,114,8,1,1,10,32,88,87,17,32,62,61,32,50,48,5,1,115,3,0,2,32,50,12,1,6,112,108,97,121,101,114,8,1,1,9,32,88,87,17,32,60,32,50,48,5,1,115,3,0,2,32,49,9,1,5,1,115,4,0,5,32,115,3,0,0,5,1,115,2,0,10,32,115,2,0,32,49,50,56,32,43,10,1,2,9,32,115,4,0,32,33,61,32,48,230,16,23,66,77,95,98,101,97,114,95,98,108,97,99,107,95,67,108,97,119,95,85,78,73,81,1,0,0,0,0,0,1,0,5,1,115,4,0,8,32,115,4,0,32,49,32,45,11,1,225,16,0,16,51,0,89,111,117,32,97,114,101,32,97,119,97,107,101,110,101,100,32,98,121,32,116,104,101,32,115,111,117,110,100,115,32,111,102,32,98,101,97,114,115,32,97,114,111,117,110,100,32,121,111,117,46,0,0,1,1]
+}

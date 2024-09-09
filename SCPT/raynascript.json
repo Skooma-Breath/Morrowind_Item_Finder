@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 57,
+    "local_var_size": 13
+  },
+  "SCTX": "Begin raynaScript\r\n\r\nshort state\r\nshort nolore\r\n\r\nif ( state == 10 )\r\n\treturn\r\nendif\r\n\r\nif ( GetDistance Player <= 512 )\r\n\t\tForceGreeting\r\n\t\tset state to 10\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "state",
+    "nolore"
+  ],
+  "SCDT": [6,1,1,10,32,115,1,0,32,61,61,32,49,48,36,1,9,1,6,1,2,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,53,49,50,232,16,5,1,115,1,0,3,32,49,48,9,1,1,1]
+}

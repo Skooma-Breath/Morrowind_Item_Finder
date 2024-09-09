@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Barbarian",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_F_head_11",
+  "KNAM": "b_n_nord_f_hair_03",
+  "MODL": null,
+  "FNAM": "Ulfrun",
+  "SCRI": "ThirskCorpse",
+  "AIDT": {
+    "greet": 100,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 8192
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM nordic silver longsword"
+    },
+    {
+      "count": 1,
+      "name": "BM bear right gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "bm bear left gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "BM wolf boots"
+    },
+    {
+      "count": 1,
+      "name": "BM bear greaves"
+    },
+    {
+      "count": 1,
+      "name": "BM bear right pauldron"
+    },
+    {
+      "count": 1,
+      "name": "BM Bear left Pauldron"
+    },
+    {
+      "count": 1,
+      "name": "BM wolf cuirass"
+    },
+    {
+      "count": 1,
+      "name": "BM Wolf Helmet"
+    },
+    {
+      "count": 10,
+      "name": "potion_nord_mead"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 178,
+    "magicka": 90,
+    "fatigue": 304,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [100,45,65,72,86,67,41,40],
+    "skills": [64,48,10,26,74,100,74,26,64,7,7,7,7,7,7,7,7,10,7,7,34,100,7,34,7,7,7]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

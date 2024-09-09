@@ -1,0 +1,62 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Goblin03.NIF",
+  "FLAG": 92,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 25,
+    "attributes": [100,50,80,80,14,100,50,50],
+    "health": 300,
+    "magicka": 100,
+    "fatigue": 1000,
+    "soul_strength": 300,
+    "combat_skill": 70,
+    "magic_skill": 90,
+    "stealth_skill": 5,
+    "attacks": [
+      [20,60],
+      [20,60],
+      [20,60]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "goblin_officer",
+  "FNAM": "Goblin Officer",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "goblin_weapons_random"
+    }
+  ],
+  "NPCS": [
+    "firebloom",
+    "resist fire_100",
+    "resist magicka_50",
+    "regenerate"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "position": [-1955,-1128,-736]
+    },
+    {
+      "position": [-1925,-743,-736]
+    },
+    {
+      "position": [-1568,-667,-736]
+    },
+    {
+      "position": [-1542,-1135,-736]
+    }
+  ]
+}

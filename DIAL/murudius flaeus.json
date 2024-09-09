@@ -1,0 +1,430 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3783283641355114233": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2308117807299678510",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Murudius Flaeus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm Murudius Flaeus. You here to collect the debt money?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 100
+        }
+      ]
+    },
+    "2308117807299678510": {
+      "flag": 0,
+      "PNAM": "3783283641355114233",
+      "NNAM": "21826260844581931",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled. I cannot discuss business with you unless you make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "21826260844581931": {
+      "flag": 0,
+      "PNAM": "2308117807299678510",
+      "NNAM": "638821392390214347",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already dealt with Murudius Flaeus, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 100
+        }
+      ]
+    },
+    "638821392390214347": {
+      "flag": 0,
+      "PNAM": "21826260844581931",
+      "NNAM": "1196635922080128287",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it's all here. I hope Murudius Flaeus wasn't too much trouble. You get to keep half of it, like we agreed.",
+      "BNAM": "Journal HH_BuriedTreasure 100\r\nPlayer->RemoveItem Gold_001 400\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 800
+        }
+      ]
+    },
+    "1196635922080128287": {
+      "flag": 0,
+      "PNAM": "638821392390214347",
+      "NNAM": "3197624615521522168",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't play games with me, %PCName, or I'll send someone to get the money from you the same way I sent you to get the money from Murudius.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3197624615521522168": {
+      "flag": 0,
+      "PNAM": "1196635922080128287",
+      "NNAM": "505916052155599000",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you killed him? Good work, but I can't pay you if you didn't find the debt money.",
+      "BNAM": "Journal HH_BuriedTreasure 110\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "505916052155599000": {
+      "flag": 0,
+      "PNAM": "3197624615521522168",
+      "NNAM": "258344060939615357",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then do not waste my time. Go to Hla Oad and get Murudius Flaeus to pay the money.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "258344060939615357": {
+      "flag": 0,
+      "PNAM": "505916052155599000",
+      "NNAM": "378622734273319645",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have the 800 drakes that Murudius Flaeus owes one of our nobles?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"Murudius Flaeus is dead.\" 2 \"No, not yet.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "Murudius Flaeus",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        }
+      ]
+    },
+    "378622734273319645": {
+      "flag": 0,
+      "PNAM": "258344060939615357",
+      "NNAM": "2993731133949610328",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have the 800 drakes that Murudius Flaeus owes one of our nobles?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No, not yet.\" 3",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        }
+      ]
+    },
+    "2993731133949610328": {
+      "flag": 0,
+      "PNAM": "378622734273319645",
+      "NNAM": "1846842382114131132",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Murudius Flaeus owes a House Hlaalu noble over 800 drakes in gambling debts. He lives in Hla Oad. Go there and get the drakes from him. If he refuses to give you the money, you can kill him, but if you get the money, you can keep half of it.",
+      "BNAM": "Journal HH_BuriedTreasure 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankCourier",
+          "__TV": 100
+        }
+      ]
+    },
+    "1846842382114131132": {
+      "flag": 0,
+      "PNAM": "2993731133949610328",
+      "NNAM": "287619204836010322",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He looks like he doesn't have any money, but he sure does spend it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 100
+        }
+      ]
+    },
+    "287619204836010322": {
+      "flag": 0,
+      "PNAM": "1846842382114131132",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Hla Oad",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He often goes swimming near Fadila's house. I wonder what he's doing out there?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "A",
+          "details": "RX",
+          "operator": "0",
+          "identifier": "Khajiit",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

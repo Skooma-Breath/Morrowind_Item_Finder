@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 79,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin molaggrundaScript\r\n\r\nIf ( OnDeath == 1 )\r\n\tIf ( GetDeadCount \"atronach_frost_gwai_uni\" >= 1 )\r\n\t\tJournal \"MS_VampireCure\" 40\r\n\tendif\r\nendif\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [6,1,3,9,32,88,240,16,32,61,61,32,49,6,1,1,35,32,88,254,16,32,111,23,97,116,114,111,110,97,99,104,95,102,114,111,115,116,95,103,119,97,105,95,117,110,105,32,62,61,32,49,204,16,14,77,83,95,86,97,109,112,105,114,101,67,117,114,101,40,0,255,255,9,1,9,1,1,1]
+}

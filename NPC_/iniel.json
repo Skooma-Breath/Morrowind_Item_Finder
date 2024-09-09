@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "High Elf",
+  "CNAM": "Guild Guide",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_high elf_f_head_03",
+  "KNAM": "b_n_high elf_f_hair_01",
+  "MODL": null,
+  "FNAM": "Iniel",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_02_a"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 30,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [2592.888671875,-511.85394287109375,-261.0496826171875,0,0,4.71238899230957],
+      "DNAM": "Ald-ruhn, Guild of Mages"
+    },
+    {
+      "destination": [-755.8966064453125,-1002.732666015625,-644.6278686523438,0,0,0.7853981852531433],
+      "DNAM": "Balmora, Guild of Mages"
+    },
+    {
+      "destination": [3.520470142364502,1391.325439453125,-385.8533020019531,0,0,3.1415927410125732],
+      "DNAM": "Vivec, Guild of Mages"
+    },
+    {
+      "destination": [525.7135009765625,334.80548095703125,490.12701416015625,0,0,1.5707963705062866],
+      "DNAM": "Caldera, Guild of Mages"
+    }
+  ],
+  "NPDT": {
+    "level": 12,
+    "health": 100,
+    "magicka": 40,
+    "fatigue": 227,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [42,80,88,50,57,47,57,40],
+    "skills": [6,6,6,6,6,6,6,6,6,43,58,53,53,38,48,48,43,33,6,6,6,6,27,6,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,20,10,10,0,0,10,0]
+    }
+  ]
+}

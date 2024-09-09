@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 61,
+    "local_var_size": 28
+  },
+  "SCTX": "Begin prisonerScript\r\n\r\nshort prisonerFreed\r\nshort doOnce\r\nshort NoLore\r\n\r\nif ( prisonerFreed == 0 )\r\n\tReturn\r\nendif\r\n\r\nif ( doOnce == 1 )\r\n\tReturn\r\nendif\r\n\r\nif ( CellChanged == 1 )\r\n\tSet doOnce to 1\r\n\tDisable\r\nendif\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "prisonerFreed",
+    "doOnce",
+    "NoLore"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,48,36,1,9,1,6,1,1,9,32,115,2,0,32,61,61,32,49,36,1,9,1,6,1,2,9,32,88,31,16,32,61,61,32,49,5,1,115,2,0,2,32,49,219,16,9,1,1,1]
+}

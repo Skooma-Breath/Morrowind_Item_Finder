@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 48,
+    "local_var_size": 10
+  },
+  "SCTX": "begin gloveScript\r\n\r\nshort OnPCEquip\r\n\r\nif ( OnPCEquip == 1 )\r\n\tset TGglove to 1\r\nelse\r\n\tset TGglove to 0\r\nendif\r\n\r\n\r\nend gloveScript",
+  "SCVR": [
+    "OnPCEquip"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,49,5,1,71,7,84,71,103,108,111,118,101,2,32,49,7,1,1,5,1,71,7,84,71,103,108,111,118,101,2,32,48,9,1,1,1]
+}

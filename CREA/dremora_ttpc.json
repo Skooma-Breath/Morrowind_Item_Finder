@@ -1,0 +1,56 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Dremora.NIF",
+  "FLAG": 15,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 6,
+    "attributes": [50,50,80,50,50,50,50,50],
+    "health": 225,
+    "magicka": 400,
+    "fatigue": 400,
+    "soul_strength": 200,
+    "combat_skill": 50,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [1,10],
+      [1,10],
+      [1,10]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 15,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "dremora",
+  "FNAM": "Krazzt",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ingred_daedras_heart_01"
+    }
+  ],
+  "NPCS": [
+    "second barrier",
+    "fire bite",
+    "reflect_20",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Scout",
+  "ANAM": "",
+  "BNAM": "b_n_nord_m_head_05",
+  "KNAM": "b_n_nord_m_hair01",
+  "MODL": null,
+  "FNAM": "Vongvild",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 70,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "nordic broadsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 85,
+    "magicka": 68,
+    "fatigue": 209,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [57,34,44,42,58,66,32,40],
+    "skills": [41,12,51,17,22,46,22,17,41,5,5,19,5,5,5,5,19,19,5,34,5,19,5,19,15,5,5]
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

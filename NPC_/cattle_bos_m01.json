@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Wood Elf",
+  "CNAM": "Slave",
+  "ANAM": "Clan Quarra",
+  "BNAM": "B_N_Wood Elf_M_Head_06",
+  "KNAM": "b_n_wood elf_m_hair_06",
+  "MODL": null,
+  "FNAM": "Cattle",
+  "SCRI": "cattleScript",
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 70,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_left"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

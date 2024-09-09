@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Dark Elf",
+  "CNAM": "Commoner",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_f_head_06",
+  "KNAM": "b_n_dark elf_f_hair_23",
+  "MODL": null,
+  "FNAM": "Vindyne Belvani",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 70,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 1024,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

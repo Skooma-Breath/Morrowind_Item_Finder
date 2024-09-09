@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Commoner",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_m_head_03",
+  "KNAM": "b_n_imperial_m_hair_02",
+  "MODL": null,
+  "FNAM": "Vodunius Nuccius",
+  "SCRI": "voduniusScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "sc_paper plain"
+    },
+    {
+      "count": 10,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "misc_de_tankard_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,20,20,0,0,0,0]
+    }
+  ]
+}

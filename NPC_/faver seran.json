@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Witchhunter",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_14",
+  "KNAM": "b_n_dark elf_m_hair_06",
+  "MODL": null,
+  "FNAM": "Faver Seran",
+  "SCRI": "mandasGuards",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "l_n_wpn_melee_blunt"
+    },
+    {
+      "count": 1,
+      "name": "l_m_potion"
+    },
+    {
+      "count": 1,
+      "name": "l_m_rings"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

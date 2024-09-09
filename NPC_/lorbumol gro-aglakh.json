@@ -1,0 +1,99 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Orc",
+  "CNAM": "Smith",
+  "ANAM": "Fighters Guild",
+  "BNAM": "b_n_orc_m_head_01",
+  "KNAM": "b_n_orc_m_hair_04",
+  "MODL": null,
+  "FNAM": "Lorbumol gro-Aglakh",
+  "SCRI": "lorbumolScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": -50,
+      "name": "steel bolt"
+    },
+    {
+      "count": -30,
+      "name": "silver bolt"
+    },
+    {
+      "count": -100,
+      "name": "steel arrow"
+    },
+    {
+      "count": -75,
+      "name": "silver arrow"
+    },
+    {
+      "count": -25,
+      "name": "silver dart"
+    },
+    {
+      "count": -25,
+      "name": "silver throwing star"
+    },
+    {
+      "count": -25,
+      "name": "steel dart"
+    },
+    {
+      "count": -30,
+      "name": "steel throwing knife"
+    },
+    {
+      "count": -30,
+      "name": "steel throwing star"
+    },
+    {
+      "count": 2,
+      "name": "dreugh club"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": -10,
+      "name": "repair_prongs"
+    },
+    {
+      "count": -10,
+      "name": "repair_master_01"
+    },
+    {
+      "count": -10,
+      "name": "repair_grandmaster_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 19,
+    "disposition": 50,
+    "reputation": 18,
+    "rank": 8,
+    "gold": 4000
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

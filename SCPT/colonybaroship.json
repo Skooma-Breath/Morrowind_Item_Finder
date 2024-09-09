@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 96,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin ColonyBaroShip\r\n\r\nif ( \"Baro Egnatius\"->GetDisabled == 1 )\r\n\tif ( GetDisabled == 0 )\r\n\t\tDisable\r\n\tendif\r\nelseif ( \"Baro Egnatius\"->GetDisabled == 0 )\r\n\tif ( GetDisabled == 1 )\r\n\t\tEnable\r\n\tendif\r\nendif\r\n\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [12,1,13,66,97,114,111,32,69,103,110,97,116,105,117,115,6,1,3,9,32,88,220,16,32,61,61,32,49,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,12,1,13,66,97,114,111,32,69,103,110,97,116,105,117,115,8,1,3,9,32,88,220,16,32,61,61,32,48,6,1,1,9,32,88,220,16,32,61,61,32,49,218,16,9,1,9,1,1,1]
+}

@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 127,
+    "local_var_size": 19
+  },
+  "SCTX": "begin SpellCast\r\n\r\nshort doOnce\r\nshort istriggered\r\n\r\nif ( doOnce == 1 )\r\n\treturn\r\nendif\r\n\r\nset istriggered to \"shrine_trigger\".triggered\r\n\r\nif  ( istriggered > 0 )\r\n\tcast \"fireball\" player\r\n\tset istriggered to istriggered - 1\r\n\tset \"shrine_trigger\".triggered to istriggered\r\n\tset doOnce to 1\r\nendif\r\n\r\nend",
+  "SCVR": [
+    "doOnce",
+    "istriggered"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,49,36,1,9,1,5,1,115,2,0,21,32,114,14,115,104,114,105,110,101,95,116,114,105,103,103,101,114,115,1,0,0,6,1,4,8,32,115,2,0,32,62,32,48,35,17,8,102,105,114,101,98,97,108,108,6,112,108,97,121,101,114,5,1,115,2,0,8,32,115,2,0,32,49,32,45,5,1,114,14,115,104,114,105,110,101,95,116,114,105,103,103,101,114,115,1,0,5,32,115,2,0,0,5,1,115,1,0,2,32,49,9,1,1,1]
+}

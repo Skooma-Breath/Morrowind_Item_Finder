@@ -1,0 +1,112 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Archer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Nevon Verilnith",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 0,
+    "fight": 70,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 25,
+      "name": "cruel frostarrow"
+    },
+    {
+      "count": 30,
+      "name": "steel arrow"
+    },
+    {
+      "count": 1,
+      "name": "steel longbow"
+    },
+    {
+      "count": 1,
+      "name": "silver longsword"
+    },
+    {
+      "count": 1,
+      "name": "silver shardsword"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    },
+    {
+      "count": 12,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "absorb fatigue",
+    "absorb fatigue [ranged]",
+    "energy leech",
+    "nimbleness",
+    "vitality",
+    "blood gift",
+    "powerwell",
+    "stamina",
+    "balyna's soothing balm",
+    "regenerate",
+    "rapid regenerate",
+    "veloth's benison",
+    "veloth's gift",
+    "heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 88,
+    "magicka": 92,
+    "fatigue": 223,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [63,46,38,74,63,48,34,40],
+    "skills": [46,14,30,14,14,50,14,30,50,6,16,6,6,6,11,22,6,22,6,22,6,42,16,55,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,20,10,10,0,0,0,0]
+    },
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "brilnosu llarys"
+      },
+      "CNDT": null
+    }
+  ]
+}

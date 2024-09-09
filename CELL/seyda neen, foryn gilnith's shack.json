@@ -1,0 +1,414 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Seyda Neen, Foryn Gilnith's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,60,60,0],
+    "sunlight": [80,60,20,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-129177": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "foryn gilnith",
+      "DATA": [-106.63343811035156,23.730371475219727,22.495698928833008,0,0,1.4831866025924683]
+    },
+    "0-119850": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [176.67501831054688,-162.51022338867188,96,0,0,4.71238899230957]
+    },
+    "0-119853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "foryn gilnith",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-73.0895767211914,-139.8762664794922,87.03248596191406,0,0,1.0105454921722412]
+    },
+    "0-119856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-136.56993103027344,-188.68539428710938,45.47843551635742,0,0,1.5795228481292725]
+    },
+    "0-119858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_5",
+      "XSCL": 1.4900001287460327,
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-121.20500946044922,-103.67506408691406,23.04961395263672,0,0,1.5707963705062866]
+    },
+    "0-119859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-93.86920166015625,-239.47840881347656,85.47103881835938,0,0,1.6955764293670654]
+    },
+    "0-119860": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-109.37068176269531,-241.17236328125,85.59852600097656,0,0,0.3955762982368469]
+    },
+    "0-119862": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "XSCL": 1.3300000429153442,
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [119.4140853881836,95.0477523803711,39.022918701171875,0,0,1.3123900890350342]
+    },
+    "0-119864": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-102.54729461669922,118.5976333618164,72.06619262695312,0,0,1.8101789951324463]
+    },
+    "0-119865": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-85.08097839355469,118.8373794555664,71.37380981445312,0,0,4.210179328918457]
+    },
+    "0-119871": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [101.40811920166016,43.49863052368164,44.9920539855957,0,0,6.112389087677002]
+    },
+    "0-119873": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_01",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [148.86868286132812,54.1207160949707,90.44628143310547,0,0,4.51239013671875]
+    },
+    "0-119875": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-120.10511779785156,115.34471893310547,75.6072006225586,0,0,4.712389945983887]
+    },
+    "0-119876": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-115.2645492553711,108.30020141601562,72.81814575195312,0,0.4000000059604645,5.512389183044434]
+    },
+    "0-119877": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-112.26168060302734,147.08734130859375,85.12870025634766,0,0,1.812389612197876]
+    },
+    "0-119884": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-69.14423370361328,127.31170654296875,70.57324981689453,0,0,5.383186340332031]
+    },
+    "0-119885": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-63.71772384643555,151.68080139160156,85.84730529785156,0,0,4.783186912536621]
+    },
+    "0-261717": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "XSCL": 1.2400000095367432,
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [121.47999572753906,-233.87680053710938,51.28729248046875,0,0,0.7853981852531433]
+    },
+    "0-119852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_firepit",
+      "DATA": [100.88800811767578,181.3000946044922,81.72869110107422,0,0,3.9123904705047607]
+    },
+    "0-119854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [-2.0577197074890137,-264.40972900390625,70.11124420166016,0.10000049322843552,6.183186054229736,5.678763389587402]
+    },
+    "0-119855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [-160.88790893554688,-17.842124938964844,71.94158935546875,0,6.08318567276001,6.178763389587402]
+    },
+    "0-119863": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-91.40398406982422,106.70930480957031,26.086997985839844,0,0,6.19336462020874]
+    },
+    "0-119866": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [-96.27534484863281,135.49305725097656,38.89725875854492,0,0,2.9101760387420654]
+    },
+    "0-119867": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-110.9747314453125,189.77622985839844,31.09422492980957,0,0,3.193363904953003]
+    },
+    "0-119868": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-82.14227294921875,-176.5347442626953,210.89846801757812,0.30000001192092896,0,2.312391519546509]
+    },
+    "0-119879": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [55.39124298095703,-227.53280639648438,44.57039260864258,0,0,5.312389373779297]
+    },
+    "0-119880": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [78.59719848632812,55.92713165283203,251.47787475585938,6.283185005187988,6.183185577392578,0.11239176988601685]
+    },
+    "0-119881": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [13.053329467773438,175.1049041748047,220.70758056640625,6.283185005187988,5.983185768127441,0.11239176988601685]
+    },
+    "0-119882": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [75.27969360351562,55.434627532958984,219.33978271484375,0,0,4.712389945983887]
+    },
+    "0-119883": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [67.34657287597656,54.671199798583984,180.53155517578125,0.6000009775161743,5.1831865310668945,4.212389945983887]
+    },
+    "0-321635": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_misc09",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [141.86500549316406,-23.740999221801758,33.47600173950195,0,0,1.3997540473937988]
+    },
+    "0-321636": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [137.24618530273438,45.714412689208984,46.42166519165039,0,0,0]
+    },
+    "0-321637": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_08",
+      "DATA": [4.722685813903809,182.7692108154297,202.82730102539062,0,0,0]
+    },
+    "0-321638": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03",
+      "DATA": [-85.54287719726562,-185.3435516357422,191.89999389648438,0,0,5.183186054229736]
+    },
+    "0-119872": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [132.96046447753906,43.72738265991211,96.16942596435547,0,0,2.2130775451660156]
+    },
+    "0-322124": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [328.0587463378906,23.69150733947754,202.27499389648438,0,0,0.4000000059604645]
+    },
+    "0-330447": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_02",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-330448": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [-150.3107452392578,149.1659698486328,47.795623779296875,0,0,0]
+    },
+    "0-119857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-101.55000305175781,-234.98399353027344,41.26499938964844,0,0,0.09599310904741287]
+    },
+    "0-119874": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "foryn gilnith",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-127.81497192382812,132.53408813476562,73.10399627685547,0,0,4.71238899230957]
+    },
+    "0-483472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bookskill_mercantile4",
+      "ANAM": "foryn gilnith",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-3.2517595291137695,-196.63233947753906,16.325912475585938,0,0,1.5000007152557373]
+    }
+  }
+}

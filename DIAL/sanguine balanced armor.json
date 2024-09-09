@@ -1,0 +1,202 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "42698712920931994": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3020531837167412839",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have returned the Belt of Sanguine Balanced Armor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_S_BalancedArmor",
+          "__TV": 100
+        }
+      ]
+    },
+    "3020531837167412839": {
+      "flag": 0,
+      "PNAM": "42698712920931994",
+      "NNAM": "1436670373263130998",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "With this, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.",
+      "BNAM": "Journal MT_S_BalancedArmor 100\r\nPlayer->RemoveItem SanguineBeltBalancedArmor 1\r\nPlayer->AddSpell SkillMephala_SP\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 25 \"Morag Tong\"\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "ThreadsWebspinner",
+          "__TV": 25
+        }
+      ]
+    },
+    "1436670373263130998": {
+      "flag": 0,
+      "PNAM": "3020531837167412839",
+      "NNAM": "1139730484723812275",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "The threads of the Webspinner return to us one by one.",
+      "BNAM": "Journal MT_S_BalancedArmor 100\r\nPlayer->RemoveItem SanguineBeltBalancedArmor 1\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1139730484723812275": {
+      "flag": 0,
+      "PNAM": "1436670373263130998",
+      "NNAM": "18857239281542421776",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "If you do not return this Thread, how can I be sure where your true loyalties lie?",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "18857239281542421776": {
+      "flag": 0,
+      "PNAM": "1139730484723812275",
+      "NNAM": "760532696120096908",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguinebeltbalancedarmor",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "760532696120096908": {
+      "flag": 0,
+      "PNAM": "18857239281542421776",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "I see you have the Belt of Sanguine Balanced Armor, one of the Threads of the Webspinner that Mephala dedicated to our cause long ago. Will you return this Thread to the custody of the Morag Tong?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguinebeltbalancedarmor",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Guar_white.NIF",
+  "FLAG": 1096,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 3,
+    "attributes": [255,50,40,50,50,50,50,50],
+    "health": 38,
+    "magicka": 0,
+    "fatigue": 500,
+    "soul_strength": 50,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 200,
+    "attacks": [
+      [10,25],
+      [5,10],
+      [5,8]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 10,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "guar",
+  "FNAM": "The White Guar",
+  "SCRI": "whiteguarScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_guar_hide"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

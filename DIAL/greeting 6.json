@@ -1,0 +1,2037 @@
+{
+  "deleted": false,
+  "DATA": 2,
+  "INFO": {
+    "210147641289913738": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "235016256970316832",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have completed the Pilgrimage to the Shine of Maar Gan.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MaarGan",
+          "__TV": 60
+        }
+      ]
+    },
+    "235016256970316832": {
+      "flag": 0,
+      "PNAM": "210147641289913738",
+      "NNAM": "111524160126505711",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have done well, Outlander. Wisdom and praise be unto you. Culminate your pilgrimage by reading the inscription on the rock.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MaarGan",
+          "__TV": 30
+        }
+      ]
+    },
+    "111524160126505711": {
+      "flag": 0,
+      "PNAM": "235016256970316832",
+      "NNAM": "97994012156422586",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you are on the pilgrimage here, I may assist you. Do you want the blessings of the Temple? If you've killed Anhaedra recently, you may have to wait a few days for his body to reform.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "dremora_ttmg",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "TT_MaarGan",
+          "__TV": 0
+        }
+      ]
+    },
+    "97994012156422586": {
+      "flag": 0,
+      "PNAM": "111524160126505711",
+      "NNAM": "32841880133803226",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you are on the pilgrimage here, I may assist you. Do you want the blessings of the Temple?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "TT_MaarGan",
+          "__TV": 0
+        }
+      ]
+    },
+    "32841880133803226": {
+      "flag": 0,
+      "PNAM": "97994012156422586",
+      "NNAM": "21128152871371620819",
+      "DATA": {
+        "value": 0,
+        "rank": 0,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Redoran",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.",
+      "BNAM": "; PCExpelledCurrent = 1; Rank > 0;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "21128152871371620819": {
+      "flag": 0,
+      "PNAM": "32841880133803226",
+      "NNAM": "292711834298661639",
+      "DATA": {
+        "value": 0,
+        "rank": 0,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Hlaalu",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.",
+      "BNAM": "; PCExpelledCurrent = 1; Rank > 0;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "292711834298661639": {
+      "flag": 0,
+      "PNAM": "21128152871371620819",
+      "NNAM": "714212201106014849",
+      "DATA": {
+        "value": 0,
+        "rank": 0,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.",
+      "BNAM": "; PCExpelledCurrent = 1; Rank > 0;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "714212201106014849": {
+      "flag": 0,
+      "PNAM": "292711834298661639",
+      "NNAM": "73941762759864612",
+      "DATA": {
+        "value": 0,
+        "rank": 0,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By your actions, you have lost the trust of the %Faction. Until you make amends, expect no favor from me.",
+      "BNAM": "; PCExpelledCurrent = 1; Rank > 0;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "73941762759864612": {
+      "flag": 0,
+      "PNAM": "714212201106014849",
+      "NNAM": "100948535162068245",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "What can I do for you, Telvanni?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "100948535162068245": {
+      "flag": 0,
+      "PNAM": "73941762759864612",
+      "NNAM": "2402312435148114184",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "What can I do for you, Redoran?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2402312435148114184": {
+      "flag": 0,
+      "PNAM": "100948535162068245",
+      "NNAM": "223139881339717365",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want to join House Hlaalu?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "223139881339717365": {
+      "flag": 0,
+      "PNAM": "2402312435148114184",
+      "NNAM": "2664754761467319287",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": 5
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora, Telvanni Council House",
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2664754761467319287": {
+      "flag": 0,
+      "PNAM": "223139881339717365",
+      "NNAM": "662210715224362023",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora, Telvanni Council House",
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Are you here for more chores, %PCRank?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "662210715224362023": {
+      "flag": 0,
+      "PNAM": "2664754761467319287",
+      "NNAM": "173633448106421780",
+      "DATA": {
+        "value": 0,
+        "rank": 4,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora, Telvanni Council House",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What are you here for? Do you have a question? Perhaps you wish to join House Telvanni",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "173633448106421780": {
+      "flag": 0,
+      "PNAM": "662210715224362023",
+      "NNAM": "31121235642399826826",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "31121235642399826826": {
+      "flag": 0,
+      "PNAM": "173633448106421780",
+      "NNAM": "272645702681917856",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Are you here for more duties, %PCRank? Or was there something else you wanted?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "272645702681917856": {
+      "flag": 0,
+      "PNAM": "31121235642399826826",
+      "NNAM": "19063289312659430776",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you looking for me? You want to join the Mages Guild?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "19063289312659430776": {
+      "flag": 0,
+      "PNAM": "272645702681917856",
+      "NNAM": "2475714417414921439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2475714417414921439": {
+      "flag": 0,
+      "PNAM": "19063289312659430776",
+      "NNAM": "1747624039121546856",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What is it, %PCRank? Are you here looking for jobs, or are you ready for advancement?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1747624039121546856": {
+      "flag": 0,
+      "PNAM": "2475714417414921439",
+      "NNAM": "168714871487932258",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you looking for me? You want to join the Thieves Guild?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "168714871487932258": {
+      "flag": 0,
+      "PNAM": "1747624039121546856",
+      "NNAM": "394225076107921698",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra drora",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome, my child. Do you seek to join the Temple?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "394225076107921698": {
+      "flag": 0,
+      "PNAM": "168714871487932258",
+      "NNAM": "1780510111095210260",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1780510111095210260": {
+      "flag": 0,
+      "PNAM": "394225076107921698",
+      "NNAM": "253658236484515",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "Are you here to serve the Temple by performing duties, %PCRank? Or have you come for something else?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "253658236484515": {
+      "flag": 0,
+      "PNAM": "1780510111095210260",
+      "NNAM": "1278371803083124313",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome, my child. Do you seek to join the Temple?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1278371803083124313": {
+      "flag": 0,
+      "PNAM": "253658236484515",
+      "NNAM": "1922626285304825312",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%PCName, you have found me. If you wish, you may request to join the Morag Tong.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1922626285304825312": {
+      "flag": 0,
+      "PNAM": "1278371803083124313",
+      "NNAM": "138471225627324116",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "The Morag Tong welcomes you, %PCRank.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "138471225627324116": {
+      "flag": 0,
+      "PNAM": "1922626285304825312",
+      "NNAM": "118372162282528541",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome, %PCName. What brings you to the Morag Tong?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "118372162282528541": {
+      "flag": 0,
+      "PNAM": "138471225627324116",
+      "NNAM": "3156425473249593367",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "3156425473249593367": {
+      "flag": 0,
+      "PNAM": "118372162282528541",
+      "NNAM": "38812432087227664",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You here for orders or advancement, %PCRank? Or was there something else you wanted?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "38812432087227664": {
+      "flag": 0,
+      "PNAM": "3156425473249593367",
+      "NNAM": "151792128178328940",
+      "DATA": {
+        "value": 0,
+        "rank": 6,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, speak up, %PCRace. What do you want? Are you here to join the Fighters Guild?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "151792128178328940": {
+      "flag": 0,
+      "PNAM": "38812432087227664",
+      "NNAM": "2879641831985415670",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ho there, Outlander. Are you here to buy slaves? Slavery is quite legal in these parts, you know. Can I help you find someone in particular? Were you hoping for direction to services?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2879641831985415670": {
+      "flag": 0,
+      "PNAM": "151792128178328940",
+      "NNAM": "2446115673121142750",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank %PCName?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2446115673121142750": {
+      "flag": 0,
+      "PNAM": "2879641831985415670",
+      "NNAM": "2820031501325924396",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You may want to check your advancement in House Redoran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2820031501325924396": {
+      "flag": 0,
+      "PNAM": "2446115673121142750",
+      "NNAM": "3167944341043520045",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hello again, %PCName. Are you here for training? Are you here to discuss your duties to House Redoran? Or are you here for something else?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3167944341043520045": {
+      "flag": 0,
+      "PNAM": "2820031501325924396",
+      "NNAM": "246142351970125790",
+      "DATA": {
+        "value": 0,
+        "rank": 3,
+        "gender": -1,
+        "player_rank": 0
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": "Imperial Cult",
+      "SNAM": null,
+      "NAME": "Welcome, %PCRank %PCName. Can I tell you about our services? Or, if you can donate more time and effort, would you like to become a lay servant?",
+      "BNAM": ";imperial cult; rank adept [rank 5]; PC layman [rank 0]",
+      "SCVR": null
+    },
+    "246142351970125790": {
+      "flag": 0,
+      "PNAM": "3167944341043520045",
+      "NNAM": "135323138334058449",
+      "DATA": {
+        "value": 0,
+        "rank": 3,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome. Can I tell you about the Imperial Cult? We invite you to become a lay member.",
+      "BNAM": ";imperial cult; rank adept [rank 5]",
+      "SCVR": null
+    },
+    "135323138334058449": {
+      "flag": 0,
+      "PNAM": "246142351970125790",
+      "NNAM": "2680230101858621045",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is %PCName! Nerevarine!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "2680230101858621045": {
+      "flag": 0,
+      "PNAM": "135323138334058449",
+      "NNAM": "27903275203097321078",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome, %PCName. You honor us.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "27903275203097321078": {
+      "flag": 0,
+      "PNAM": "2680230101858621045",
+      "NNAM": "24701341962156574",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome, favored guest. My yurt and hearth are yours.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    },
+    "24701341962156574": {
+      "flag": 0,
+      "PNAM": "27903275203097321078",
+      "NNAM": "282361461032531752",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You kill one of my tribe, and expect to talk, outlander. You are a fool.",
+      "BNAM": ";Ashlander, Urshilaku Camp;; Journal \"A2-1 Meet Sul-Matuul\" = 11; Journal \"A2-1 Meet Sul-Matuul\" 13;\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 13
+        }
+      ]
+    },
+    "282361461032531752": {
+      "flag": 0,
+      "PNAM": "24701341962156574",
+      "NNAM": "5163206891718830094",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You kill one of my tribe, and expect to talk, outlander. You are a fool.",
+      "BNAM": ";Ashlander, Urshilaku Camp;; Journal \"A2-1 Meet Sul-Matuul\" = 11; Journal \"A2-1 Meet Sul-Matuul\" 13;\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 11
+        }
+      ]
+    },
+    "5163206891718830094": {
+      "flag": 0,
+      "PNAM": "282361461032531752",
+      "NNAM": "46104006318083458",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You come to talk? Then talk, outlander.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "46104006318083458": {
+      "flag": 0,
+      "PNAM": "5163206891718830094",
+      "NNAM": "5856306951826118985",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will hear your talk, outlander.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "5856306951826118985": {
+      "flag": 0,
+      "PNAM": "46104006318083458",
+      "NNAM": "269475248127377938",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": 1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You come to us, outlander? You ask US about the trade goods wanted among the Zainab? We are just the women. No one listens to us. But since you ask, we will tell you what we think.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Tel_Vos",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "town_Tel_Vos",
+          "__TV": 30
+        }
+      ]
+    },
+    "269475248127377938": {
+      "flag": 0,
+      "PNAM": "5856306951826118985",
+      "NNAM": "3920186732213331935",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": 0,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. You come all this way to ask us about the trade goods wanted among the Zainab. Well, then. This is a very easy matter.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_Tel_Vos",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "town_Tel_Vos",
+          "__TV": 30
+        }
+      ]
+    },
+    "3920186732213331935": {
+      "flag": 0,
+      "PNAM": "269475248127377938",
+      "NNAM": "13461100581785211428",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Welcome, %PCName, Zainab Nerevarine. We have heard our chief does you great honor. How can I help you?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "13461100581785211428": {
+      "flag": 0,
+      "PNAM": "3920186732213331935",
+      "NNAM": "774318286171811680",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How can I help you, Nerevarine?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "774318286171811680": {
+      "flag": 0,
+      "PNAM": "13461100581785211428",
+      "NNAM": "10508252262594319629",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": 0,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ho, look! An outlander. Are you lost, poor thing? Did the big, bad beasts bite you, so you need a healer? Or do you need our trader, so he can take your gold and give you things we would throw away or give to our guar?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "10508252262594319629": {
+      "flag": 0,
+      "PNAM": "774318286171811680",
+      "NNAM": "991866061490724150",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": 1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Come closer. Let me see you. Yes. I think it is you. The one they talk about. The outlander who claims he fulfills the Nerevarine prophecies. You should talk to Ashkhan Kaushad.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "991866061490724150": {
+      "flag": 0,
+      "PNAM": "10508252262594319629",
+      "NNAM": "5395205471775528352",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do you want, %PCName?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "5395205471775528352": {
+      "flag": 0,
+      "PNAM": "991866061490724150",
+      "NNAM": "138774431398225",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you lost, outlander? Do you need a healer? Or a trader?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "138774431398225": {
+      "flag": 0,
+      "PNAM": "5395205471775528352",
+      "NNAM": "29860737160857199",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ho, look! An outlander. Are you lost, poor thing? Did the big, bad beasts bite you, so you need a healer? Or do you need our trader, so he can take your gold and give you things we would throw away or give to our guar?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "29860737160857199": {
+      "flag": 0,
+      "PNAM": "138774431398225",
+      "NNAM": "2443225763508024020",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do you want this time, outlander?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2443225763508024020": {
+      "flag": 0,
+      "PNAM": "29860737160857199",
+      "NNAM": "2224123934324487052",
+      "DATA": {
+        "value": 80,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. You have made a safe place for the Ahemmusa. Are you truly the Nerevarine? This will surely be a tale I tell to our children.",
+      "BNAM": ";Ashlander, Ahemmusa Camp; Journal \"A2-6_Incarnate\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 50
+        }
+      ]
+    },
+    "2224123934324487052": {
+      "flag": 0,
+      "PNAM": "2443225763508024020",
+      "NNAM": "320002082121730642",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. You have made a safe place for the Ahemmusa. Are you truly the Nerevarine? This will surely be a tale I tell to our children.",
+      "BNAM": ";Ashlander, Ahemmusa Camp; Journal \"A2-6_Incarnate\" >= 50\r\nmodDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 50
+        }
+      ]
+    },
+    "320002082121730642": {
+      "flag": 0,
+      "PNAM": "2224123934324487052",
+      "NNAM": "2894131586171246228",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Who are you? What do you want?",
+      "BNAM": ";Ashlander, Ahemmusa Camp; Journal \"A2-6_Incarnate\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "2894131586171246228": {
+      "flag": 0,
+      "PNAM": "320002082121730642",
+      "NNAM": "42493163422787408",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are %PCName. They say you have found the Amulet of Ashamanu, and that now the wise woman can cure the sickness. And we have heard some say you are the Nerevarine. We are very grateful. Is there something you need?",
+      "BNAM": ";Ashlander, Ahemmusa Camp; Journal \"A2-6_Incarnate\" >= 50\r\nmodDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_WhiteGuar",
+          "__TV": 80
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "42493163422787408": {
+      "flag": 0,
+      "PNAM": "2894131586171246228",
+      "NNAM": "2562167361630629356",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are %PCName. They say you have found the Amulet of Ashamanu, and that now the wise woman can cure the sickness. And we have heard some say you are the Nerevarine. We are very grateful. Is there something you need?",
+      "BNAM": ";Ashlander, Ahemmusa Camp; Journal \"A2-6_Incarnate\" >= 50\r\nmodDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_WhiteGuar",
+          "__TV": 80
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "2562167361630629356": {
+      "flag": 0,
+      "PNAM": "42493163422787408",
+      "NNAM": "1155776531938025942",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are %PCName. We have heard some say you are the Nerevarine. What do you want of me?",
+      "BNAM": ";Ashlander, Ahemmusa Camp; Journal \"A2-6_Incarnate\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "1155776531938025942": {
+      "flag": 0,
+      "PNAM": "2562167361630629356",
+      "NNAM": "2807617681879228487",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, outlander. Why are you here? Do you seek a healer? Or do you want our trader?",
+      "BNAM": ";Ashlander, Ahemmusa Camp",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "2807617681879228487": {
+      "flag": 0,
+      "PNAM": "1155776531938025942",
+      "NNAM": "17242203252219719904",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do you want, outlander?",
+      "BNAM": ";Ashlander, Ahemmusa Camp",
+      "SCVR": null
+    },
+    "17242203252219719904": {
+      "flag": 0,
+      "PNAM": "2807617681879228487",
+      "NNAM": "20560205602327720443",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So, %PCName. You are called Nerevarine, and Han-Ammu is now our ashkhan. Many changes. Many changes.",
+      "BNAM": ";Ashlander, Erabenimsun Camp; Journal \"B4_KillWarLovers\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "20560205602327720443": {
+      "flag": 0,
+      "PNAM": "17242203252219719904",
+      "NNAM": "1627329735355217245",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How can I help you, Nerevarine?",
+      "BNAM": ";Ashlander, Erabenimsun Camp; Journal \"B4_KillWarLovers\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 50
+        }
+      ]
+    },
+    "1627329735355217245": {
+      "flag": 0,
+      "PNAM": "20560205602327720443",
+      "NNAM": "199502631743821034",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are the outlander. The one who thinks he's the Nerevarine. Go away. We want nothing to do with you.",
+      "BNAM": ";Ashlander, Erabenimsun Camp; Journal \"A2_6_Incarnate\" >= 50; \r\nmodDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "199502631743821034": {
+      "flag": 0,
+      "PNAM": "1627329735355217245",
+      "NNAM": "572620131877213189",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Stupid....",
+      "BNAM": ";Ashlander, Erabenimsun Camp; Journal \"A2_6_Incarnate\" >= 50; \r\nModFight 90\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "572620131877213189": {
+      "flag": 0,
+      "PNAM": "199502631743821034",
+      "NNAM": "28448376431223813",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go away, outlander. You have come a long way to a bad place for nothing.",
+      "BNAM": ";Ashlander, Erabenimsun Camp; Journal \"A2_6_Incarnate\" >= 50; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "28448376431223813": {
+      "flag": 0,
+      "PNAM": "572620131877213189",
+      "NNAM": "160221253111885155",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I told you, outlander. Go away.",
+      "BNAM": ";Ashlander, Erabenimsun Camp; Journal \"A2_6_Incarnate\" >= 50; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "160221253111885155": {
+      "flag": 0,
+      "PNAM": "28448376431223813",
+      "NNAM": "1822032390240994843",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have no manners, outlander. I said, go away.",
+      "BNAM": ";Ashlander, Erabenimsun Camp; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1822032390240994843": {
+      "flag": 0,
+      "PNAM": "160221253111885155",
+      "NNAM": "210086926547218504",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm tired of your foolishness, outlander.",
+      "BNAM": ";Ashlander, Erabenimsun Camp; \r\nModFight 30\r\nGoodbye",
+      "SCVR": null
+    },
+    "210086926547218504": {
+      "flag": 0,
+      "PNAM": "1822032390240994843",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do you want, outlander?",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

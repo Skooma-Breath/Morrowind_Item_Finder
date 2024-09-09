@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Slave",
+  "ANAM": "",
+  "BNAM": "b_n_high elf_m_head_04",
+  "KNAM": "b_n_high elf_m_hair_03",
+  "MODL": "anim_dancingGirl.NIF",
+  "FNAM": "Yakov",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 90,
+    "fight": 5,
+    "flee": 90,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "slave_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boiled_helm"
+    },
+    {
+      "count": 1,
+      "name": "misc_uni_pillow_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 45,
+    "magicka": 25,
+    "fatigue": 166,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [42,51,31,52,43,41,32,50],
+    "skills": [16,16,5,5,5,5,5,5,31,5,5,10,10,15,15,26,10,0,6,32,32,6,6,6,16,32,32]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,40,40,40,40,40,40,5]
+    }
+  ]
+}

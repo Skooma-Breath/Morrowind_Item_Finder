@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Clothier",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_09",
+  "KNAM": "b_n_dark elf_f_hair_07",
+  "MODL": null,
+  "FNAM": "Nalvilie Saren",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 4
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_r"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "health": 45,
+    "magicka": 106,
+    "fatigue": 161,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [44,53,32,54,53,31,44,40],
+    "skills": [17,5,5,5,17,10,5,5,10,5,15,5,5,5,10,5,5,17,38,38,38,28,21,16,10,38,23]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

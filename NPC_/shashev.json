@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mage",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_18",
+  "MODL": null,
+  "FNAM": "Shashev",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ring_shashev_unique"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01"
+    },
+    {
+      "count": 114,
+      "name": "Gold_001"
+    },
+    {
+      "count": 1,
+      "name": "key_shashev"
+    }
+  ],
+  "NPCS": [
+    "great levitate",
+    "reflect",
+    "weak spelldrinker",
+    "blood despair",
+    "blood gift",
+    "wisdom",
+    "feet of notorgo",
+    "rapid regenerate",
+    "daedric bite",
+    "shadow weave",
+    "vivec's_wrath",
+    "fire storm",
+    "Fireball_large"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 93,
+    "magicka": 148,
+    "fatigue": 249,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [54,74,96,51,70,48,50,40],
+    "skills": [6,6,6,6,6,11,6,6,11,41,66,56,56,41,61,56,41,41,6,6,6,11,39,11,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

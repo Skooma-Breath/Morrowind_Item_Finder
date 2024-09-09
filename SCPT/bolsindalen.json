@@ -1,0 +1,43 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 29,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 51,
+    "local_var_size": 437
+  },
+  "SCTX": "begin BolsIndalen\r\n\r\nshort ebonyCuirass\r\nshort ebonyLeftPauldron\r\nshort ebonyRightPauldron\r\nshort ebonyLeftBracer\r\nshort ebonyRightBracer\r\nshort ebonyGreaves\r\nshort ebonyBoots\r\nshort ebonyHelm\r\nshort glassHelm\r\nshort glassBoots\r\nshort glassGreaves\r\nshort glassRightBracer\r\nshort glassLeftBracer\r\nshort glassRightPauldron\r\nshort glassLeftPauldron\r\nshort glassCuirass\r\nshort adamantiumHelm\r\nshort adamantiumBoots\r\nshort adamantiumGreaves\r\nshort adamantiumRightBracer\r\nshort adamantiumLeftBracer\r\nshort adamantiumRightPauldron\r\nshort adamantiumLeftPauldron\r\nshort adamantiumCuirass\r\nshort currentDay\r\nshort localdaysPassed\r\nshort busy\r\nShort NoLore\r\nshort change\r\n\r\nif ( currentDay != Day )\r\n\tset currentDay to Day\r\n\tset localdaysPassed to localdaysPassed + 1\r\nendif\r\n\r\nend BolsIndalen",
+  "SCVR": [
+    "ebonyCuirass",
+    "ebonyLeftPauldron",
+    "ebonyRightPauldron",
+    "ebonyLeftBracer",
+    "ebonyRightBracer",
+    "ebonyGreaves",
+    "ebonyBoots",
+    "ebonyHelm",
+    "glassHelm",
+    "glassBoots",
+    "glassGreaves",
+    "glassRightBracer",
+    "glassLeftBracer",
+    "glassRightPauldron",
+    "glassLeftPauldron",
+    "glassCuirass",
+    "adamantiumHelm",
+    "adamantiumBoots",
+    "adamantiumGreaves",
+    "adamantiumRightBracer",
+    "adamantiumLeftBracer",
+    "adamantiumRightPauldron",
+    "adamantiumLeftPauldron",
+    "adamantiumCuirass",
+    "currentDay",
+    "localdaysPassed",
+    "busy",
+    "NoLore",
+    "change"
+  ],
+  "SCDT": [6,1,2,15,32,115,25,0,32,33,61,32,71,4,68,97,121,0,0,5,1,115,25,0,8,32,71,4,68,97,121,0,0,5,1,115,26,0,8,32,115,26,0,32,49,32,43,9,1,1,1]
+}

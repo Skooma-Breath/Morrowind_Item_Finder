@@ -1,0 +1,383 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "27417258742904223576": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "743628527306374240",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "pemenie",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wondrous boots indeed. Never seen a pair like them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "MV_TraderAbandoned",
+          "__TV": 90
+        }
+      ]
+    },
+    "743628527306374240": {
+      "flag": 0,
+      "PNAM": "27417258742904223576",
+      "NNAM": "15801574972347619",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "pemenie",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A wondrous pair of boots indeed. The name says it all! I would hate to ever part with them.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "15801574972347619": {
+      "flag": 0,
+      "PNAM": "743628527306374240",
+      "NNAM": "1500012897220929708",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? How is it that you have these? They belong to the museum now! GUARDS!",
+      "BNAM": "SetPCCrimeLevel 10000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bootsblinding",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "boots of blinding speed[unique]",
+          "__TV": 0
+        }
+      ]
+    },
+    "1500012897220929708": {
+      "flag": 0,
+      "PNAM": "15801574972347619",
+      "NNAM": "31943166902350417444",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for allowing us to add them to our collection, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "bootsblinding",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "boots of blinding speed[unique]",
+          "__TV": 0
+        }
+      ]
+    },
+    "31943166902350417444": {
+      "flag": 0,
+      "PNAM": "1500012897220929708",
+      "NNAM": "21669193581310723691",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, that's your choice. The museum will survive without them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21669193581310723691": {
+      "flag": 0,
+      "PNAM": "31943166902350417444",
+      "NNAM": "3172719255142929570",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Boots of Blinding Speed with you? Then come back with them, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "boots of blinding speed[unique]",
+          "__TV": 0
+        }
+      ]
+    },
+    "3172719255142929570": {
+      "flag": 0,
+      "PNAM": "21669193581310723691",
+      "NNAM": "298729528207731191",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.",
+      "BNAM": "set bootsblinding to 2\r\nplayer->removeitem \"boots of blinding speed[unique]\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"boots of blinding speed_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "boots of blinding speed[unique]",
+          "__TV": 1
+        }
+      ]
+    },
+    "298729528207731191": {
+      "flag": 0,
+      "PNAM": "3172719255142929570",
+      "NNAM": "281708650205096268",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. They'll certainly be one of our more amusing artifacts, I'm sure.",
+      "BNAM": "set bootsblinding to 2\r\nplayer->removeitem \"boots of blinding speed[unique]\" 1\r\nplayer->additem \"gold_001\" 250\r\n\"boots of blinding speed_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "boots of blinding speed[unique]",
+          "__TV": 1
+        }
+      ]
+    },
+    "281708650205096268": {
+      "flag": 0,
+      "PNAM": "298729528207731191",
+      "NNAM": "1936325098655232666",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Boots of Blinding Speed with you? Then come back with them, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "boots of blinding speed[unique]",
+          "__TV": 0
+        }
+      ]
+    },
+    "1936325098655232666": {
+      "flag": 0,
+      "PNAM": "281708650205096268",
+      "NNAM": "1303123319341632382",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, they're certainly... interesting, aren't they? An odd combination of enchantments, to be sure. Do you wish to sell them to the museum? It's not much, but I can offer you 250 gold for them.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bootsblinding",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "1303123319341632382": {
+      "flag": 0,
+      "PNAM": "1936325098655232666",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, they're certainly... interesting, aren't they? An odd combination of enchantments, to be sure. Do you wish to sell them to the museum? It's not much, but I can offer you 250 gold for them.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bootsblinding",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

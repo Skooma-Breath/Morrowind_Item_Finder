@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Imperial",
+  "CNAM": "Drillmaster",
+  "ANAM": "Fighters Guild",
+  "BNAM": "B_N_Imperial_M_Head_06",
+  "KNAM": "b_n_imperial_m_hair_04",
+  "MODL": null,
+  "FNAM": "Hasphat Antabolis",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "Iron Long Spear"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "key_hasphat_antabolis"
+    },
+    {
+      "count": 1,
+      "name": "key_hasphat_antabolis2"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 91,
+    "magicka": 112,
+    "fatigue": 198,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [62,56,36,53,68,47,55,40],
+    "skills": [47,15,15,15,37,42,32,32,47,6,6,6,6,6,6,6,6,38,6,6,38,11,23,6,16,16,43]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_12",
+  "KNAM": "b_n_dark elf_m_hair_14",
+  "MODL": null,
+  "FNAM": "Delvam Andarys",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 100,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "we_shimsil"
+    },
+    {
+      "count": 1,
+      "name": "cl_ringofregeneration"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02_tt"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    }
+  ],
+  "NPCS": [
+    "summon greater bonewalker",
+    "sleep",
+    "spell absorption",
+    "summon skeletal minion",
+    "lightning shield",
+    "daedric bite",
+    "frost bolt",
+    "frost shield",
+    "detect_creature",
+    "ash feast",
+    "vivec's_wrath",
+    "scrib_paralysis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 111,
+    "magicka": 162,
+    "fatigue": 245,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [53,81,72,54,64,66,42,40],
+    "skills": [6,6,28,28,6,11,6,6,11,54,64,54,40,54,60,18,18,18,6,6,6,11,38,33,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

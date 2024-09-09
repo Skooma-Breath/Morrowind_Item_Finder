@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 215,
+    "local_var_size": 17
+  },
+  "SCTX": "begin Strong_Build3_T\r\n\r\nshort daysPassed\r\nshort myDay\r\n\r\nif ( Stronghold > 5 )\r\n\tStopScript Strong_Build3_T\r\n\tReturn\r\nendif\r\n\r\nif ( daysPassed == 0 )\r\n\tset myDay to Day\r\n\tset daysPassed to 1\r\nendif\r\n\r\nif ( myDay != Day )\r\n\tset daysPassed to daysPassed + 1\r\n\tset myDay to Day\r\nendif\r\n\r\nif ( GetPCCell \"Uvirith's Grave\" == 0 )\r\n\tif ( daysPassed > 5 )\r\n\t\tJournal HT_Stronghold 300\r\n\t\tset Stronghold to 6\r\n\tendif\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "daysPassed",
+    "myDay"
+  ],
+  "SCDT": [6,1,2,17,32,71,10,83,116,114,111,110,103,104,111,108,100,32,62,32,53,28,16,15,83,116,114,111,110,103,95,66,117,105,108,100,51,95,84,36,1,9,1,6,1,2,9,32,115,1,0,32,61,61,32,48,5,1,115,2,0,8,32,71,4,68,97,121,0,0,5,1,115,1,0,2,32,49,9,1,6,1,2,15,32,115,2,0,32,33,61,32,71,4,68,97,121,0,0,5,1,115,1,0,8,32,115,1,0,32,49,32,43,5,1,115,2,0,8,32,71,4,68,97,121,0,0,9,1,6,1,4,27,32,88,18,17,32,99,15,85,118,105,114,105,116,104,39,115,32,71,114,97,118,101,32,61,61,32,48,6,1,2,8,32,115,1,0,32,62,32,53,204,16,13,72,84,95,83,116,114,111,110,103,104,111,108,100,44,1,255,255,5,1,71,10,83,116,114,111,110,103,104,111,108,100,2,32,54,9,1,9,1,1,1]
+}

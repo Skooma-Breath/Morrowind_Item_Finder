@@ -1,0 +1,575 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "30019139331130616069": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "124810331540527877",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, but maybe you can join the Imperial Legion again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "124810331540527877": {
+      "flag": 0,
+      "PNAM": "30019139331130616069",
+      "NNAM": "10481166662854224739",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ragash is dead, and I need a new tax collector.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueRagash",
+          "__TV": 200
+        }
+      ]
+    },
+    "10481166662854224739": {
+      "flag": 0,
+      "PNAM": "124810331540527877",
+      "NNAM": "67722293285591",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You got Ragash away from Baladas' tower.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueRagash",
+          "__TV": 100
+        }
+      ]
+    },
+    "67722293285591": {
+      "flag": 0,
+      "PNAM": "10481166662854224739",
+      "NNAM": "2887214553238286416",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So she's dead already? That's too bad. Now I need a new tax collector. Well, you did what you could, %PCName.",
+      "BNAM": "Journal IL_RescueRagash 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ragash gra-shuzgub",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IL_RescueRagash",
+          "__TV": 0
+        }
+      ]
+    },
+    "2887214553238286416": {
+      "flag": 0,
+      "PNAM": "67722293285591",
+      "NNAM": "2915623406106918097",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do you mean she's dead? I ordered you to find her, not get her killed! You've disappointed me, %PCName.",
+      "BNAM": "ModDisposition -20\r\nJournal IL_RescueRagash 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ragash gra-shuzgub",
+          "__TV": 1
+        }
+      ]
+    },
+    "2915623406106918097": {
+      "flag": 0,
+      "PNAM": "2887214553238286416",
+      "NNAM": "3082822355715322846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent! Good to hear you were able to get her out of there.",
+      "BNAM": "Journal IL_RescueRagash 100\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10\r\n\"ragash gra-shuzgub\"->Disable",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueRagash",
+          "__TV": 70
+        }
+      ]
+    },
+    "3082822355715322846": {
+      "flag": 0,
+      "PNAM": "2915623406106918097",
+      "NNAM": "1939027571026016986",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Haven't you found her yet? Ask Baladas Demnevanni about her.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueRagash",
+          "__TV": 10
+        }
+      ]
+    },
+    "1939027571026016986": {
+      "flag": 0,
+      "PNAM": "3082822355715322846",
+      "NNAM": "11591115663084917415",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She was sent to Arvs Drelen, but no word has been heard since, and I suspect foul play. Find her and bring her back. Careful with old Baladas, though. I don't trust him.",
+      "BNAM": "Journal IL_RescueRagash 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescuePilgrim",
+          "__TV": 100
+        }
+      ]
+    },
+    "11591115663084917415": {
+      "flag": 0,
+      "PNAM": "1939027571026016986",
+      "NNAM": "161768566846524853",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "ragash gra-shuzgub",
+          "__TV": 0
+        }
+      ]
+    },
+    "161768566846524853": {
+      "flag": 0,
+      "PNAM": "11591115663084917415",
+      "NNAM": "29963243473271410610",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given you the key. Get her out of my tower before I reconsider.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IL_RescueRagash",
+          "__TV": 40
+        }
+      ]
+    },
+    "29963243473271410610": {
+      "flag": 0,
+      "PNAM": "161768566846524853",
+      "NNAM": "1317713382644329420",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The matter is settled as far as I am concerned.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueRagash",
+          "__TV": 40
+        }
+      ]
+    },
+    "1317713382644329420": {
+      "flag": 0,
+      "PNAM": "29963243473271410610",
+      "NNAM": "25188159682345431941",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I shall let her go. Take this key and take the orc with you when you leave.",
+      "BNAM": "Journal IL_RescueRagash 40\r\nPlayer->AddItem key_arvs-drelen_cell 1\r\nremoveitem \"key_arvs-drelen_cell\" 1\r\nSet timer to -1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "25188159682345431941": {
+      "flag": 0,
+      "PNAM": "1317713382644329420",
+      "NNAM": "2676210024450818829",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? So soon? Even the short-lived orcs need time to reflect on their transgressions.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2676210024450818829": {
+      "flag": 0,
+      "PNAM": "25188159682345431941",
+      "NNAM": "878714867614322314",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Can you make such a promise? I do not know if I should trust you... But I shall. Take this key and take the orc with you when you leave.",
+      "BNAM": "Journal IL_RescueRagash 40\r\nPlayer->AddItem key_arvs-drelen_cell 1\r\nremoveitem \"key_arvs-drelen_cell\" 1\r\nSet timer to -1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "878714867614322314": {
+      "flag": 0,
+      "PNAM": "2676210024450818829",
+      "NNAM": "695168312407925868",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You trouble me now. Do you think I have nothing better to do than listen to such lies? Leave now or you shall join the orc in my prison.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "695168312407925868": {
+      "flag": 0,
+      "PNAM": "878714867614322314",
+      "NNAM": "312781057276661971",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You are of respectable rank in House Telvanni, but I am the better wizard. Do you care to test your skills against mine, child?",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "312781057276661971": {
+      "flag": 0,
+      "PNAM": "695168312407925868",
+      "NNAM": "2303327322494513098",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not pay tribute to any man. Do not anger me, or you shall join the orc in my prison.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2303327322494513098": {
+      "flag": 0,
+      "PNAM": "312781057276661971",
+      "NNAM": "2699922789121932027",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Leave. Now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2699922789121932027": {
+      "flag": 0,
+      "PNAM": "2303327322494513098",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She came demanding tribute for the Empire of men. I was here before Gnisis, before the Empire of men. I will be here after Gnisis is gone and after this short-lived Empire has crumbled. The people of Gnisis live only because I tolerate them. Why should I pay tribute?",
+      "BNAM": "Choice \"Ragash learned her lesson.\" 1 \"Let her go and no one will trouble you again.\" 2 \"Everyone pays taxes.\" 3",
+      "SCVR": null
+    }
+  }
+}

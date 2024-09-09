@@ -1,0 +1,19 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 465,
+    "local_var_size": 30
+  },
+  "SCTX": "Begin satyanaScript\r\n\r\n;for Gary's betrayal quest thingy in Arenim Ancestral Tomb\r\n;always wondered if these GetPos things could be used for this\r\n;will find out soon\r\n\r\nshort doOnce\r\n;this is used as a state flag...\r\n\r\nshort noLore\r\n;not a bore\r\n\r\nfloat timer\r\n\r\nshort xpos\r\nshort ypos\r\n\r\nif ( GetJournalIndex MS_ArenimTomb >= 100 )\r\n\t;post-quest, regardless of how it turns out, she's gone\r\n\tif ( CellChanged == 1 )\r\n\t\tDisable\r\n\tendif\r\nendif\r\n\r\nif ( MenuMode == 0 )\r\n\tif ( Player->GetItemCount \"amulet_Agustas_unique\" > 0 )\r\n\t\t;when the player finds the amulet...\r\n\t\tif ( timer != -1 )\r\n\t\t\tset timer to ( timer+ GetSecondsPassed )\r\n\t\t\tif ( timer > 3 )\r\n\t\t\t\tif ( GetDistance Player <= 256 )\r\n\t\t\t\t\tAiWander 128 0 0 0 0 0 0 0\r\n\t\t\t\t\tForceGreeting\r\n\t\t\t\t\tSet timer to -1\r\n\t\t\t\tendif\r\n\t\t\tendif\r\n\t\tendif\r\n\t\treturn\r\n\tendif\r\nendif\r\n\r\nif ( GetCurrentAIPackage != 3 )\r\n\tSet doOnce to 0\r\n\treturn\r\nendif\r\n\r\nset xpos to GetPos X\r\nset ypos to GetPos Y\r\n\r\nif ( GetJournalIndex MS_ArenimTomb >= 100 )\r\n\tif ( xpos > 1900 )\r\n\t\tif ( ypos < 800 )\r\n\t\t\t;approaching the entrance\r\n\t\t\t;if you're leaving, reset her and keep her from following you out\r\n\t\t\tAiTravel 1470 910 -540 0\r\n\t\t\tSet doOnce to 0\r\n\t\t\treturn\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( xpos < -2000 )\r\n\tif ( ypos > 1500 )\r\n\t\t;near the body of her father's friend\r\n\t\tSet doOnce to 2\r\n\t\treturn\r\n\tendif\r\nendif\r\n\r\nif ( xpos > 2000 )\r\n\tif ( ypos > 1300 )\r\n\t\t;in final room with her father's body\r\n\t\tSet doOnce to 3\r\n\t\treturn\r\n\tendif\r\nendif\r\n\r\nSet doOnce to 1\r\n;default if you're following...\r\n\r\nEnd",
+  "SCVR": [
+    "doOnce",
+    "noLore",
+    "xpos",
+    "ypos",
+    "timer"
+  ],
+  "SCDT": [6,1,3,27,32,88,205,16,32,100,13,77,83,95,65,114,101,110,105,109,84,111,109,98,32,62,61,32,49,48,48,6,1,1,9,32,88,31,16,32,61,61,32,49,219,16,9,1,9,1,6,1,13,9,32,88,32,16,32,61,61,32,48,12,1,6,112,108,97,121,101,114,6,1,11,32,32,88,253,16,32,111,21,97,109,117,108,101,116,95,65,103,117,115,116,97,115,95,117,110,105,113,117,101,32,62,32,48,6,1,8,10,32,102,1,0,32,33,61,32,45,49,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,5,8,32,102,1,0,32,62,32,51,6,1,3,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,50,53,54,249,16,0,0,0,67,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,232,16,5,1,102,1,0,7,32,45,49,32,49,32,42,9,1,9,1,9,1,36,1,9,1,9,1,6,1,2,9,32,88,250,16,32,33,61,32,51,5,1,115,1,0,2,32,48,36,1,9,1,5,1,115,3,0,6,32,88,10,16,88,0,5,1,115,4,0,6,32,88,10,16,89,0,6,1,7,27,32,88,205,16,32,100,13,77,83,95,65,114,101,110,105,109,84,111,109,98,32,62,61,32,49,48,48,6,1,5,11,32,115,3,0,32,62,32,49,57,48,48,6,1,3,10,32,115,4,0,32,60,32,56,48,48,248,16,0,192,183,68,0,128,99,68,0,0,7,196,1,5,1,115,1,0,2,32,48,36,1,9,1,9,1,9,1,6,1,4,12,32,115,3,0,32,60,32,45,50,48,48,48,6,1,2,11,32,115,4,0,32,62,32,49,53,48,48,5,1,115,1,0,2,32,50,36,1,9,1,9,1,6,1,4,11,32,115,3,0,32,62,32,50,48,48,48,6,1,2,11,32,115,4,0,32,62,32,49,51,48,48,5,1,115,1,0,2,32,51,36,1,9,1,9,1,5,1,115,1,0,2,32,49,1,1]
+}

@@ -1,0 +1,826 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1582155,1061158912]
+  },
+  "NAME": "Seyda Neen, Eldafire's House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [80,71,63,0],
+    "sunlight": [81,18,0,0],
+    "fog_color": [75,36,24,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-119672": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_door_01",
+      "DATA": [144,-352,0,0,0,3.1415927410125732]
+    },
+    "0-119676": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Gold_05",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-284.3094787597656,-134.7238311767578,-99.62736511230469,0,0,5.4831862449646]
+    },
+    "0-119677": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "XSCL": 1.1400001049041748,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-241.52987670898438,-113.6203842163086,-99.62736511230469,0,0,0]
+    },
+    "0-119678": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.1500000953674316,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-171.71774291992188,-129.63478088378906,-117.77943420410156,0,0,5.983185768127441]
+    },
+    "0-119679": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "XSCL": 1.090000033378601,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-169.4664306640625,-130.45733642578125,-103.3677749633789,0,0,0]
+    },
+    "0-119680": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "XSCL": 1.1400001049041748,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [266.1993408203125,-257.6439514160156,-85.59207153320312,0,0,2.700000047683716]
+    },
+    "0-119684": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_cupboard_tankard",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [259.4239196777344,195.4788360595703,14.729833602905273,0,0,0]
+    },
+    "0-119685": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_cupboard_wood_bowls",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [135.1953582763672,198.28176879882812,14.918370246887207,0,0,0]
+    },
+    "0-119688": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [303.2923278808594,-264.5234680175781,11.183713912963867,0,0,0]
+    },
+    "0-119689": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [300.0279846191406,-239.90440368652344,11.183713912963867,0,0,0]
+    },
+    "0-119690": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [306.8453369140625,-248.27423095703125,11.183713912963867,0,0,0]
+    },
+    "0-119691": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [111.63307189941406,21.834060668945312,-45.08328628540039,0,0,5.1831865310668945]
+    },
+    "0-119692": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [94.10800170898438,-28.2810001373291,-57.566001892089844,0,0,1.8000001907348633]
+    },
+    "0-119693": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [285.8001708984375,197.3335418701172,50.988460540771484,5.383186340332031,0,1.2000000476837158]
+    },
+    "0-119694": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [347.5167236328125,-131.9542999267578,-107.99018859863281,0,0,0.30000001192092896]
+    },
+    "0-119695": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_broom_01",
+      "XSCL": 1.1500000953674316,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [361.509765625,-80.73176574707031,-64.87823486328125,0,5.997786998748779,5.397787570953369]
+    },
+    "0-119696": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [145.83460998535156,25.681711196899414,-41.17347717285156,0,0,1]
+    },
+    "0-119697": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [104.15331268310547,-3.5716960430145264,-52.47760772705078,0,0,0]
+    },
+    "0-119698": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [142.2532501220703,-35.86724853515625,-52.47760772705078,0,0,0]
+    },
+    "0-119699": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-18.09511947631836,-327.1927795410156,-93.78205871582031,0,0,0]
+    },
+    "0-119700": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-16.494123458862305,-254.7382354736328,-93.78205871582031,0,0,0.20000000298023224]
+    },
+    "0-119701": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_eggs",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-13.75202751159668,-308.8993225097656,-29.782058715820312,0,0,5.983185768127441]
+    },
+    "0-119666": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_house_02",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-119667": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [-371.00408935546875,-51.58654022216797,142.69805908203125,0,0,0]
+    },
+    "0-119668": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [359.7852783203125,11.3245210647583,142.69805908203125,0,0,3.1415927410125732]
+    },
+    "0-119669": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [-280.9931640625,-184.8649139404297,31.586326599121094,0,0,3.1415927410125732]
+    },
+    "0-119670": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [-156.45407104492188,-184.8649139404297,31.586326599121094,0,0,3.1415927410125732]
+    },
+    "0-119671": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_doorf_01",
+      "DATA": [128,-368,-16,0,0,0]
+    },
+    "0-119681": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_table_01",
+      "DATA": [120.85968780517578,-5.747238636016846,-91.84909057617188,0,0,4.6831865310668945]
+    },
+    "0-119682": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [57.823577880859375,-3.0309104919433594,-108.73558044433594,0,0,4.6831865310668945]
+    },
+    "0-119683": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [183.67373657226562,-0.6548325419425964,-109.30037689208984,0,0,1.5831867456436157]
+    },
+    "0-119686": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [370.25701904296875,139.3380126953125,-14.92098617553711,0,0,1.5707963705062866]
+    },
+    "0-321454": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-10.336877822875977,-193.92376708984375,-92.4112548828125,0,0,0.10000000149011612]
+    },
+    "0-321455": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [332.4056701660156,124.46058654785156,-92.41120147705078,0,0,0]
+    },
+    "0-321456": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_cauldron_02",
+      "DATA": [331.7388610839844,18.648792266845703,-91.40811157226562,0,0,2.5831878185272217]
+    },
+    "0-321457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bunk_02",
+      "ANAM": "eldafire",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-260.7892761230469,130.4809112548828,-54.68805694580078,0,0,3.1415927410125732]
+    },
+    "0-321458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-325.53802490234375,133.77230834960938,18.225074768066406,0,0,6.183185577392578]
+    },
+    "0-321459": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-325.53802490234375,133.77230834960938,-75.11481475830078,0,0,0.10000000149011612]
+    },
+    "0-321460": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_04",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [121.09021759033203,-46.00521469116211,-53.99007034301758,0,0,0]
+    },
+    "0-321461": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-345.63726806640625,-56.76809310913086,-103.02422332763672,0,0,3.0000007152557373]
+    },
+    "0-321462": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-303.5526123046875,30.57048225402832,-120.7811279296875,0,0,1.5168123245239258]
+    },
+    "0-321463": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-340.55731201171875,-55.39662170410156,-111.19537353515625,0,0,0]
+    },
+    "0-321464": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-306.1363525390625,60.59729766845703,-120.7811279296875,0,0,1.600000023841858]
+    },
+    "0-321465": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-305.4654846191406,44.32566833496094,-120.7811279296875,0,0,4.6999993324279785]
+    },
+    "0-321466": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-305.8716735839844,35.95602798461914,-113.39557647705078,0,0,4.616811275482178]
+    },
+    "0-321467": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Fire_NoSmoke",
+      "DATA": [-348.4154052734375,-60.06541061401367,-134.2945556640625,0,0,0]
+    },
+    "0-321468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [147.7953338623047,-17.86550521850586,-57.56562042236328,0,0,0]
+    },
+    "0-321469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [234.1412353515625,197.3335418701172,50.954166412353516,5.383186340332031,0,0.699999988079071]
+    },
+    "0-321470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [259.9528503417969,197.3335418701172,50.96404266357422,5.383186340332031,0,4]
+    },
+    "0-321471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [160.40484619140625,197.3335418701172,51.05678939819336,5.383186340332031,0,4.083184719085693]
+    },
+    "0-321472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [134.55764770507812,197.3335418701172,51.00678634643555,5.383186340332031,0,0.600000262260437]
+    },
+    "0-321473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [108.74614715576172,197.3335418701172,50.82591247558594,5.383186340332031,0,3.799999952316284]
+    },
+    "0-321474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [308.6866149902344,-273.88348388671875,-16.282684326171875,0,0,1.5707963705062866]
+    },
+    "0-321475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_pitcher",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [304.3445129394531,-297.6480407714844,16.047903060913086,0,0,0.5]
+    },
+    "0-321476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_platter",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [373.4483947753906,158.6500244140625,16.05918312072754,0,1.0853981971740723,1.5707963705062866]
+    },
+    "0-321478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "XSCL": 1.1100000143051147,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-98.56477355957031,-136.24070739746094,-86.64967346191406,0,0,0.5]
+    },
+    "0-321480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_pos",
+      "XSCL": 1.2100000381469727,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [282.0826110839844,-211.64881896972656,-93.32389068603516,0,6.08318567276001,5.983185768127441]
+    },
+    "0-321481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_pos",
+      "XSCL": 1.2100000381469727,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [294.29425048828125,-203.51602172851562,-93.02588653564453,0,6.08318567276001,6.183185577392578]
+    },
+    "0-321482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_01",
+      "DATA": [-21.45061492919922,196.40391540527344,86.05276489257812,0,0,3.1415927410125732]
+    },
+    "0-321483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01",
+      "DATA": [124.20899963378906,-131.7833251953125,98.0790023803711,0,0,0]
+    },
+    "0-321484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [366.77301025390625,106.75499725341797,21.385000228881836,0,0,0.11519172787666321]
+    },
+    "0-321485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "XSCL": 1.1500000953674316,
+      "DATA": [-61.87522506713867,163.349365234375,-107.28243255615234,0,0,0]
+    },
+    "0-321486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "eldafire",
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [-62.939090728759766,163.12969970703125,-79.5802001953125,0,0,1.399999976158142]
+    },
+    "0-321487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [149.98004150390625,-22.28510856628418,-56.77360153198242,6.183185577392578,0.10000000149011612,3.000000238418579]
+    },
+    "0-321488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [92.40392303466797,-12.191116333007812,-58.10065841674805,0,0,0.10000000149011612]
+    },
+    "0-321489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [149.8231964111328,-1.1316736936569214,-58.540130615234375,0,0,3.1831870079040527]
+    },
+    "0-321490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [100.09811401367188,-32.428733825683594,-55.81989288330078,0,0,5.283186435699463]
+    },
+    "0-321491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "XSCL": 1.2300000190734863,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [115.18310546875,-48.13425064086914,-51.95543670654297,0,5.683186054229736,5.58318567276001]
+    },
+    "0-321492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "eldafire",
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [123.20928192138672,-0.6986414194107056,-51.42994689941406,0,0,2.3999998569488525]
+    },
+    "0-322119": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-287.4406433105469,-564.1470947265625,-45.78204345703125,0,0,5.383186340332031]
+    },
+    "0-330427": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "XSCL": 1.350000023841858,
+      "DATA": [122.01343536376953,-16.58961296081543,-129.6966094970703,0,0,1.5707963705062866]
+    },
+    "0-330428": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [-376.8650207519531,183.37010192871094,-111.64002227783203,0,0,0]
+    },
+    "0-330429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [368.0226745605469,207.4562530517578,-137.72657775878906,0,0,0]
+    },
+    "0-330430": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_64_01",
+      "DATA": [128.30470275878906,-17.281526565551758,-117.63977813720703,0,0,0]
+    },
+    "0-369100": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "key_eldafire",
+      "ANAM": "eldafire",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [376.66461181640625,110.46183013916016,-13.071855545043945,1.5899949073791504,0,3.2009339332580566]
+    },
+    "0-369101": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 0.5,
+      "DATA": [375.6298828125,112.03900146484375,-0.02053135633468628,0,0,3.000000476837158]
+    },
+    "0-321479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "XSCL": 1.3100000619888306,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [263.8940124511719,-318.3380126953125,-79.5989990234375,0,0,1.9006634950637817]
+    },
+    "0-321477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Chest_02_misc10",
+      "XSCL": 1.1700000762939453,
+      "ANAM": "eldafire",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 30,
+      "KNAM": "key_eldafire",
+      "DATA": [-126.22100067138672,133.81100463867188,-101.11000061035156,0,0,4.783947467803955]
+    },
+    "0-481439": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_Lava_Blacksquare",
+      "DATA": [-327.1944274902344,-422.250732421875,-122.49259185791016,0,0,0]
+    },
+    "0-483471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bookskill_restoration2",
+      "ANAM": "eldafire",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-259.64288330078125,129.20779418945312,-79.12327575683594,0,0,1.3199999332427979]
+    }
+  }
+}

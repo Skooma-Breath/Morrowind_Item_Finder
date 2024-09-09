@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Breton",
+  "CNAM": "Knight",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_breton_m_head_02",
+  "KNAM": "b_n_breton_m_hair_05",
+  "MODL": null,
+  "FNAM": "Joncis Dalomax",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "templar boots"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "templar_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "disposition": 50,
+    "reputation": 12,
+    "rank": 5,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,10]
+    }
+  ]
+}

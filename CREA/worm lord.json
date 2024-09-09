@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 16,
+    "attributes": [75,75,75,75,50,75,75,75],
+    "health": 230,
+    "magicka": 70,
+    "fatigue": 1000,
+    "soul_strength": 0,
+    "combat_skill": 90,
+    "magic_skill": 90,
+    "stealth_skill": 75,
+    "attacks": [
+      [1,8],
+      [1,8],
+      [1,8]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Worm Lord",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver viperskewer"
+    }
+  ],
+  "NPCS": [
+    "black hand",
+    "brown rot",
+    "disintegrate armor",
+    "dread curse: strength",
+    "summon skeletal minion"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,0,0,0,0,0]
+    }
+  ]
+}

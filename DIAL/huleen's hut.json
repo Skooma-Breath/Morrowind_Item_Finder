@@ -1,0 +1,502 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "22337205531853021487": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "16732978221253884",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you still a member of the guild? Once Trebonius gives the authorization, we can discuss guild matters again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 20
+        }
+      ]
+    },
+    "16732978221253884": {
+      "flag": 0,
+      "PNAM": "22337205531853021487",
+      "NNAM": "1630118357304356896",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Were you expelled? Or did you clear that up already? You ought to make amends with Guildmaster Trebonius just to be sure.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 10
+        }
+      ]
+    },
+    "1630118357304356896": {
+      "flag": 0,
+      "PNAM": "16732978221253884",
+      "NNAM": "16909316501248517965",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled, %PCName. If you want to make amends, you should speak with Guildmaster Trebonius.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "16909316501248517965": {
+      "flag": 0,
+      "PNAM": "1630118357304356896",
+      "NNAM": "273652662705216359",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "I'm trying to forget about it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Apprentice",
+          "__TV": 100
+        }
+      ]
+    },
+    "273652662705216359": {
+      "flag": 0,
+      "PNAM": "16909316501248517965",
+      "NNAM": "15870261283074913716",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "You what?! You killed Listien? I don't care what he summoned. The Mages Guild does not kill its own members, except in a few rare and extreme cases. I will see that you are expelled for this.",
+      "BNAM": "Journal MG_Apprentice 200\r\nPCExpell \"Mages Guild\"\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "15870261283074913716": {
+      "flag": 0,
+      "PNAM": "273652662705216359",
+      "NNAM": "287981851013822667",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "That is unfortunate. If he could summon as scamp with such little training, he had promise.",
+      "BNAM": "Journal MG_Apprentice 100\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "287981851013822667": {
+      "flag": 0,
+      "PNAM": "15870261283074913716",
+      "NNAM": "2855411938865629147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "I might believe that story if I knew you better. What did you really find at Huleen's hut?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2855411938865629147": {
+      "flag": 0,
+      "PNAM": "287981851013822667",
+      "NNAM": "20148464162028183",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "You've been to Huleen's Hut? What happened? Is her apprentice okay?",
+      "BNAM": "Choice \"I killed the little runt.\" 3 \"He summoned a Scamp and it killed him.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "listien bierles",
+          "__TV": 0
+        }
+      ]
+    },
+    "20148464162028183": {
+      "flag": 0,
+      "PNAM": "2855411938865629147",
+      "NNAM": "1340012123514731943",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "So Huleen's apprentice summoned a scamp? Is that all? I can't believe I was distracted from my studies for something so trivial. Speaking of which, I discovered these scrolls during my research. You may find them useful.",
+      "BNAM": "Journal MG_Apprentice 100\r\nPlayer->AddItem sc_fifthbarrier 2\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 10\r\n\"Listien Bierles\"->Disable",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Apprentice",
+          "__TV": 40
+        }
+      ]
+    },
+    "1340012123514731943": {
+      "flag": 0,
+      "PNAM": "20148464162028183",
+      "NNAM": "27477492211522801",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "There was a Scamp loose in Huleen's hut? This needs more investigation, %PCName. Go back to Huleen's hut and see if you can find Huleen's apprentice, Listien Bierles.",
+      "BNAM": "Journal MG_Apprentice 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "scamp_mg_apprentice",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Apprentice",
+          "__TV": 10
+        }
+      ]
+    },
+    "27477492211522801": {
+      "flag": 0,
+      "PNAM": "1340012123514731943",
+      "NNAM": "15522224682884427777",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Just go to Huleen's hut in Maar Gan and find out what's going on. Don't distract me from my work, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Apprentice",
+          "__TV": 10
+        }
+      ]
+    },
+    "15522224682884427777": {
+      "flag": 0,
+      "PNAM": "27477492211522801",
+      "NNAM": "2451239792254631410",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent, %PCName. Go to Maar Gan. I'm sure someone there can give you further directions. Take care of this for me so I can continue my studies in peace.",
+      "BNAM": "Journal MG_Apprentice 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2451239792254631410": {
+      "flag": 0,
+      "PNAM": "15522224682884427777",
+      "NNAM": "2902428456226768390",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, maybe Tarandur can do it. I'll ask next time I see him. You're not the only %PCRank we have, you know.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2902428456226768390": {
+      "flag": 0,
+      "PNAM": "2451239792254631410",
+      "NNAM": "22214212221743313870",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, maybe Tarandur can do it. I'll ask next time I see him. You're not the only %PCRank we have, you know.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "22214212221743313870": {
+      "flag": 0,
+      "PNAM": "2902428456226768390",
+      "NNAM": "2301027678187576723",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Since Huleen is a member of the Guild, we really ought to do something about the disturbance. I simply haven't had time to do it myself. My research is at an absolutely critical phase. Would you go to Maar Gan and take a look for me?",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StealBook",
+          "__TV": 100
+        }
+      ]
+    },
+    "2301027678187576723": {
+      "flag": 0,
+      "PNAM": "22214212221743313870",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's outside the town walls to the southeast, near the shrine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "listien bierles",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

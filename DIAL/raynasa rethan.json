@@ -1,0 +1,308 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "23336204581832611976": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "6400257011881023722",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from House Redoran. Make amends if you can.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "6400257011881023722": {
+      "flag": 0,
+      "PNAM": "23336204581832611976",
+      "NNAM": "158131442190951070",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "The Hlaalu will have a hard time doing business there with Raynasa Rethan gone.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_AttackRethan",
+          "__TV": 100
+        }
+      ]
+    },
+    "158131442190951070": {
+      "flag": 0,
+      "PNAM": "6400257011881023722",
+      "NNAM": "2392557151515428536",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "So Raynasa Rethan is already dead. Good work, %PCName.",
+      "BNAM": "Journal HR_AttackRethan 100\r\nModPCFacRep 10 \"Redoran\"\r\nModDisposition 10\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "raynasa rethan",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HR_AttackRethan",
+          "__TV": 0
+        }
+      ]
+    },
+    "2392557151515428536": {
+      "flag": 0,
+      "PNAM": "158131442190951070",
+      "NNAM": "84346128103924607",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "So Rethan Manor now has no Hlaalu lord. Good work, %PCName.",
+      "BNAM": "Journal HR_AttackRethan 100\r\nModPCFacRep 10 \"Redoran\"\r\nModDisposition 10\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "raynasa rethan",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_AttackRethan",
+          "__TV": 10
+        }
+      ]
+    },
+    "84346128103924607": {
+      "flag": 0,
+      "PNAM": "2392557151515428536",
+      "NNAM": "312088763616122893",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "faral retheran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Rethan Manor is on the Odai Plateau, on the River Odai which heads south from Balmora. Go there and slay Raynasa Rethan. Show these Hlaalu that we mean business.",
+      "BNAM": "Journal HR_AttackRethan 10\r\nShowMap \"Odai Plateau\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_AttackUvirith",
+          "__TV": 100
+        }
+      ]
+    },
+    "312088763616122893": {
+      "flag": 0,
+      "PNAM": "84346128103924607",
+      "NNAM": "482622429622738",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "A stronghold is no good without its master.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_AttackRethan",
+          "__TV": 100
+        }
+      ]
+    },
+    "482622429622738": {
+      "flag": 0,
+      "PNAM": "312088763616122893",
+      "NNAM": "2364117383169438305",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "She is already dead? This is excellent news, %PCName.",
+      "BNAM": "Journal HT_AttackRethan 100\r\nModPCFacRep 10 \"Telvanni\"\r\nModDisposition 10\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "raynasa rethan",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HT_AttackRethan",
+          "__TV": 0
+        }
+      ]
+    },
+    "2364117383169438305": {
+      "flag": 0,
+      "PNAM": "482622429622738",
+      "NNAM": "264238851038814188",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "So Raynasa Rethan is no more. You are a credit to your House, %PCName.",
+      "BNAM": "Journal HT_AttackRethan 100\r\nModPCFacRep 10 \"Telvanni\"\r\nModDisposition 10\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "raynasa rethan",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_AttackRethan",
+          "__TV": 10
+        }
+      ]
+    },
+    "264238851038814188": {
+      "flag": 0,
+      "PNAM": "2364117383169438305",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Rethan Manor is on the Odai Plateau. Follow the Odai River south from Balmora and you will see it on your right. Go there and slay this young Hlaalu noble.",
+      "BNAM": "Journal HT_AttackRethan 10\r\nShowMap \"Odai Plateau\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_RecruitEddie",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

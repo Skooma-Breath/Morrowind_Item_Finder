@@ -1,0 +1,340 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "20673223402256129057": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3110230687468526775",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? How is it that you have this? It belongs to the museum! GUARDS!",
+      "BNAM": "SetPCCrimeLevel 20000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bipolarblade",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "Bipolar Blade",
+          "__TV": 0
+        }
+      ]
+    },
+    "3110230687468526775": {
+      "flag": 0,
+      "PNAM": "20673223402256129057",
+      "NNAM": "1480423888124583667",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it's quite an...interesting... piece. I'm glad that it's on display.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bipolarblade",
+          "__TV": 2
+        }
+      ]
+    },
+    "1480423888124583667": {
+      "flag": 0,
+      "PNAM": "3110230687468526775",
+      "NNAM": "7906306902369311051",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're quite sure, are you? Very well. Somehow, I think we will get by without it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "7906306902369311051": {
+      "flag": 0,
+      "PNAM": "1480423888124583667",
+      "NNAM": "9609155962620717147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. It will take up a place in our collection. Likely a place towards the back. Thank you, %PCName.",
+      "BNAM": "set bipolarblade to 2\r\nplayer->removeitem \"bipolar blade\" 1\r\nplayer->additem \"gold_001\" 20000\r\n\"bipolar blade_x\"->enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "Bipolar Blade",
+          "__TV": 1
+        }
+      ]
+    },
+    "9609155962620717147": {
+      "flag": 0,
+      "PNAM": "7906306902369311051",
+      "NNAM": "171884055467810687",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. It will take up a place in our collection. Likely a place towards the back. Thank you, %PCName.",
+      "BNAM": "set bipolarblade to 2\r\nplayer->removeitem \"bipolar blade\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"bipolar blade_x\"->enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "Bipolar Blade",
+          "__TV": 1
+        }
+      ]
+    },
+    "171884055467810687": {
+      "flag": 0,
+      "PNAM": "9609155962620717147",
+      "NNAM": "2821324170301423443",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You do not have the blade with you? Return with it, and we can settle the matter.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "Bipolar Blade",
+          "__TV": 0
+        }
+      ]
+    },
+    "2821324170301423443": {
+      "flag": 0,
+      "PNAM": "171884055467810687",
+      "NNAM": "2821616131900621344",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You do not have the blade with you? Return with it, and we can settle the matter.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "Bipolar Blade",
+          "__TV": 0
+        }
+      ]
+    },
+    "2821616131900621344": {
+      "flag": 0,
+      "PNAM": "2821324170301423443",
+      "NNAM": "2667422636598917395",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Legend has it that a nobleman sank his fortune into creating a blade of supreme power. Two smiths on opposite ends of Tamriel created each half of the blade, unaware of the other, with the hope that no one man, save the owner of the blade, would know its true power. Unfortunately, the smiths were not given enough instruction, and created halves with enchantments that completely negated each other. Do you wish to part with it, %PCName? I can offer you 20000 for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bipolarblade",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Bipolar Blade",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "2667422636598917395": {
+      "flag": 0,
+      "PNAM": "2821616131900621344",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Legend has it that a nobleman sank his fortune into creating a blade of supreme power. Two smiths on opposite ends of Tamriel created each half of the blade, unaware of the other, with the hope that no one man, save the owner of the blade, would know its true power. Unfortunately, the smiths were not given enough instruction, and created halves with enchantments that completely negated each other. Do you wish to part with it, %PCName? I can offer you 20000 for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bipolarblade",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Bipolar Blade",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

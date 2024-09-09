@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Herder",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Sakulerib",
+  "SCRI": "ZainabKill",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "chitin spear"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01_z"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_z"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 159,
+    "magicka": 25,
+    "fatigue": 283,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [61,50,71,79,51,72,48,40],
+    "skills": [28,6,28,6,6,11,28,43,48,6,16,6,6,6,11,43,6,6,13,34,34,54,23,54,13,13,13]
+  },
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

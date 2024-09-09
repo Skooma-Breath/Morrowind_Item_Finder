@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Golden Saint.NIF",
+  "FLAG": 13,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 22,
+    "attributes": [50,50,100,50,50,50,50,50],
+    "health": 350,
+    "magicka": 755,
+    "fatigue": 700,
+    "soul_strength": 400,
+    "combat_skill": 90,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [25,65],
+      [25,65],
+      [25,65]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "golden saint",
+  "FNAM": "Staada",
+  "SCRI": "staadaScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "Sheogorath's Signet Ring"
+    },
+    {
+      "count": 1,
+      "name": "ingred_daedras_heart_01"
+    },
+    {
+      "count": 1,
+      "name": "random_Golden_saint_weapon"
+    },
+    {
+      "count": 1,
+      "name": "random_Golden_saint_shield"
+    }
+  ],
+  "NPCS": [
+    "dispel",
+    "resist fire_50",
+    "resist frost_50",
+    "resist shock_50",
+    "shock shield",
+    "reflect_20",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": []
+}

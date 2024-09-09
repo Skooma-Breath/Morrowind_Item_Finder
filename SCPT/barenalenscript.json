@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 50,
+    "local_var_size": 39
+  },
+  "SCTX": "Begin barenAlenScript\r\n\r\n;for HH_BankFraud\r\nshort givenOrders\r\n\r\n;for HH_ReplaceDocs\r\nshort givenDocuments\r\n\r\n;checks to see if he still has a land deed\r\nshort hasLandDeed\r\n\r\nif ( GetItemCount \"bk_stronghold_ld_hlaalu\" > 0 )\r\n\tSet hasLandDeed to 1\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "givenOrders",
+    "givenDocuments",
+    "hasLandDeed"
+  ],
+  "SCDT": [6,1,1,34,32,88,253,16,32,111,23,98,107,95,115,116,114,111,110,103,104,111,108,100,95,108,100,95,104,108,97,97,108,117,32,62,32,48,5,1,115,3,0,2,32,49,9,1,1,1]
+}

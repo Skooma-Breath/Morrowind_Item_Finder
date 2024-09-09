@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 10,
+    "attributes": [50,25,10,50,50,75,0,50],
+    "health": 200,
+    "magicka": 0,
+    "fatigue": 1000,
+    "soul_strength": 200,
+    "combat_skill": 90,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Skeleton Champion",
+  "SCRI": "BILL_GTs_Skeletal_Guardians",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "nordic broadsword"
+    },
+    {
+      "count": 1,
+      "name": "trollbone_shield"
+    },
+    {
+      "count": 2,
+      "name": "random_bonemeal"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "immune to frost",
+    "resist shock_50"
+  ],
+  "DODT": null,
+  "AI_": []
+}

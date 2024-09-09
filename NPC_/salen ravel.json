@@ -1,0 +1,86 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_04",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Salen Ravel",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02_t"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": -5,
+      "name": "ingred_dreugh_wax_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ectoplasm_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_gravedust_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_kagouti_hide_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_shalk_resin_01"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "second barrier",
+    "sleep",
+    "wild spelldrinker",
+    "vivec's mercy",
+    "magickguard",
+    "shield of the armiger",
+    "seryn's blessing",
+    "Troll Strength",
+    "charisma",
+    "iron will",
+    "almalexia's grace"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 73,
+    "magicka": 102,
+    "fatigue": 216,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [54,51,68,49,63,45,47,40],
+    "skills": [6,6,6,6,38,11,6,6,11,15,42,47,15,32,52,47,32,47,6,6,6,28,16,11,10,23,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

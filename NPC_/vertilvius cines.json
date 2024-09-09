@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Warrior",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_01",
+  "KNAM": "b_n_imperial_m_hair_00",
+  "MODL": null,
+  "FNAM": "Vertilvius Cines",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_coif_helm"
+    },
+    {
+      "count": 1,
+      "name": "l_n_repair item"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

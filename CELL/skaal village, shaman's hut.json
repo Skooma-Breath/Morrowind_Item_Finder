@@ -1,0 +1,531 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3223332,1061997773]
+  },
+  "NAME": "Skaal Village, Shaman's Hut",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,40,0],
+    "sunlight": [80,60,40,0],
+    "fog_color": [36,47,49,0],
+    "fog_density": 0.800000011920929
+  },
+  "FRMR": {
+    "2-11561": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "korst wind-eye",
+      "DATA": [0,-80,-215.55404663085938,0,0,0]
+    },
+    "2-11798": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_door",
+      "XSCL": 1.1500000953674316,
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [220.8770751953125,-249.02207946777344,-141.36720275878906,0,0,5.682816028594971]
+    },
+    "2-11799": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_longhouse_small",
+      "DATA": [-8,0,0,0,0,0.9999998807907104]
+    },
+    "2-11800": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "XSCL": 1.0500000715255737,
+      "DATA": [-189.1414794921875,278.1544189453125,51.03778076171875,0,0,0.9292019605636597]
+    },
+    "2-11801": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [259.1418762207031,-17.219482421875,-206.0221710205078,0,0,4.170796871185303]
+    },
+    "2-11803": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [-182.141845703125,253.4285888671875,-223.00657653808594,0,0,2.5]
+    },
+    "2-11804": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "korst wind-eye",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-177.06271362304688,-256.10260009765625,-101.05876922607422,0,0,5.783185958862305]
+    },
+    "2-11806": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-439.8670654296875,55.87493896484375,178.3719940185547,0,0,0]
+    },
+    "2-11807": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_cauldron_02",
+      "XSCL": 0.5,
+      "DATA": [-87.70230102539062,307.9233093261719,-222.0137939453125,0,0,2.0999999046325684]
+    },
+    "2-11811": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [214.4365692138672,-52.61692810058594,-217.9045867919922,0,0,1.100000023841858]
+    },
+    "2-11812": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [-94.93860626220703,-307.7120056152344,-217.79563903808594,0,0,4.183186054229736]
+    },
+    "2-11815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [-282.6807556152344,-29.517242431640625,42.0056037902832,0,0,5.1831865310668945]
+    },
+    "2-11816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Rope_06",
+      "XSCL": 0.6200000047683716,
+      "DATA": [129.8084716796875,205.4544677734375,42.56951904296875,0,0,4.083187580108643]
+    },
+    "2-11818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [269.7533264160156,2.0713558197021484,-46.52069091796875,0,5.4831862449646,5.1831865310668945]
+    },
+    "2-11819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-260.9729309082031,-36.743080139160156,-23.01386070251465,0,5.283185958862305,5.1831865310668945]
+    },
+    "2-11820": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [325.5648193359375,-69.77809143066406,-35.75965881347656,1.1831867694854736,1.7168139219284058,1.6999993324279785]
+    },
+    "2-11821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-261.0893859863281,-38.87759780883789,23.1160831451416,0,0,0.6999999284744263]
+    },
+    "2-11822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [285.2434997558594,-31.256359100341797,20.251033782958984,0,0,2.483186721801758]
+    },
+    "2-11823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [309.1220703125,-63.21589660644531,0.9427490234375,0,0,4.783186435699463]
+    },
+    "2-11824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.1800000667572021,
+      "DATA": [27.23937225341797,-109.1910629272461,-239.9219970703125,0,0,2.5269908905029297]
+    },
+    "2-11825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-297.8399658203125,88.62225341796875,-224.05531311035156,0,0,3.883185863494873]
+    },
+    "2-11827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [279.4659118652344,-6.484546184539795,-165.14614868164062,0,0,5.1831865310668945]
+    },
+    "2-11828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [261.8346252441406,1.9611263275146484,1.0624451637268066,0,0,0.6999999284744263]
+    },
+    "2-11829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [8.851884841918945,378.611083984375,-218.2925567626953,0,0,5.1831865310668945]
+    },
+    "2-11830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-177.06202697753906,152.31735229492188,-217.95303344726562,0,0,3.200000047683716]
+    },
+    "2-11840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [256.4059753417969,12.9937744140625,-166.6983642578125,0,0,5.1831865310668945]
+    },
+    "2-11844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "XSCL": 1.0500000715255737,
+      "DATA": [142.8642120361328,185.54107666015625,-19.013456344604492,1.783186912536621,3.1999988555908203,3.483186960220337]
+    },
+    "2-11845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2400000095367432,
+      "DATA": [126.4988021850586,210.66200256347656,20.89190673828125,0,0,0.9000014066696167]
+    },
+    "2-13804": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [-144.89682006835938,-220.39117431640625,-217.79563903808594,0,0,4.183186054229736]
+    },
+    "2-13805": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_whitewolf",
+      "XSCL": 1.1400001049041748,
+      "DATA": [20.497135162353516,286.529296875,-233.849609375,0,0,1.6707963943481445]
+    },
+    "2-13806": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_doorjam",
+      "DATA": [208.14169311523438,-270.2248840332031,-121.6798095703125,0,0,5.683186054229736]
+    },
+    "2-13807": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-173.07882690429688,-130.27554321289062,-202.6770477294922,0,0,0]
+    },
+    "2-13808": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_ingred10",
+      "XSCL": 0.64000004529953,
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [14.899955749511719,-194.72445678710938,39.635318756103516,0,0,5.683185577392578]
+    },
+    "2-13809": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_j_mortar_01",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [264.3539733886719,-45.3659782409668,-173.297607421875,0,0,0]
+    },
+    "2-13810": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_chokeweed_01",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [254.47833251953125,-5.578564643859863,-173.48158264160156,0,0,0]
+    },
+    "2-13811": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_fire_petal_01",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [247.5065155029297,-21.31723403930664,-173.3135528564453,0,0,0]
+    },
+    "2-13812": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_gold_kanet_01",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [294.6212463378906,-42.45219802856445,-174.0428924560547,0,0,0]
+    },
+    "2-13813": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_five_far_stars",
+      "XSCL": 0.690000057220459,
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [241.29783630371094,133.6630859375,-122.9103775024414,4.783186912536621,0.5,0]
+    },
+    "2-13814": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_comberry_brandy_01",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-219.86300659179688,165.61434936523438,-223.60073852539062,0,0,0]
+    },
+    "2-13815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-200.21629333496094,203.7256622314453,-220.3828125,0,0,5.58318567276001]
+    },
+    "2-13816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window_closed",
+      "DATA": [320.7065734863281,-216.9385986328125,-38.71420669555664,0,0,5.683186054229736]
+    },
+    "2-13817": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window_closed",
+      "DATA": [102.87752532958984,-367.3158874511719,-38.71420669555664,0,0,5.683186054229736]
+    },
+    "2-13819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_128",
+      "DATA": [-32.05622863769531,-11.476698875427246,-20.72578239440918,0,0,0]
+    },
+    "2-13821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [210.05117797851562,87.48251342773438,-200.71792602539062,0,0,0]
+    },
+    "2-13822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [81.92433166503906,383.02740478515625,-127.19769287109375,0,0,5.1831865310668945]
+    },
+    "2-13823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_06_64",
+      "ANAM": "korst wind-eye",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-386.5895080566406,172.7285614013672,-126.24803161621094,0,0,0]
+    },
+    "2-13824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2400000095367432,
+      "DATA": [150.34996032714844,174.78903198242188,24.211217880249023,0,0,3.9831862449645996]
+    },
+    "2-13825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [127.8067855834961,213.3780517578125,-11.129629135131836,0,0,0.9000000953674316]
+    },
+    "2-13826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [121.8527603149414,222.68133544921875,-9.105438232421875,0,0,0.9000000953674316]
+    },
+    "2-13827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2400000095367432,
+      "DATA": [120.5447769165039,219.9652862548828,22.91609764099121,0,0,0.9000014066696167]
+    },
+    "2-13828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [294.9924011230469,-36.81477737426758,-46.26874542236328,0,0,0.9000000953674316]
+    },
+    "2-13829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2400000095367432,
+      "DATA": [293.6844177246094,-39.53083038330078,-14.247209548950195,0,0,0.9000014066696167]
+    },
+    "2-13830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Contain_BM_belladonna_0",
+      "ANAM": "korst wind-eye",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [300.2416687011719,-46.28376388549805,-41.325557708740234,0,0,0.9000000953674316]
+    },
+    "2-13831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2400000095367432,
+      "DATA": [298.9336853027344,-48.999813079833984,-9.304021835327148,0,0,0.9000014066696167]
+    }
+  }
+}

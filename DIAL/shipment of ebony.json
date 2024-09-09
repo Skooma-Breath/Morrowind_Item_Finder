@@ -1,0 +1,793 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "28301321162474932431": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3397283233160231405",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You gave me the ebony. We have no more business to discuss.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 50
+        }
+      ]
+    },
+    "3397283233160231405": {
+      "flag": 0,
+      "PNAM": "28301321162474932431",
+      "NNAM": "470688971786123660",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, five pieces. Good. You are dismissed. I will tell Odral you made the delivery.",
+      "BNAM": "Player->RemoveItem Ingred_Raw_Ebony_01 5\r\nJournal HH_EbonyDelivery 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "470688971786123660": {
+      "flag": 0,
+      "PNAM": "3397283233160231405",
+      "NNAM": "16538183611930411342",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then I'll take it from your dead body.",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        }
+      ]
+    },
+    "16538183611930411342": {
+      "flag": 0,
+      "PNAM": "470688971786123660",
+      "NNAM": "17582193711605422712",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the ebony? Give it to me, quickly.",
+      "BNAM": "Choice \"Give him the ebony.\" 7 \"Keep the ebony.\" 8",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_ebony_01",
+          "__TV": 5
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 50
+        }
+      ]
+    },
+    "17582193711605422712": {
+      "flag": 0,
+      "PNAM": "16538183611930411342",
+      "NNAM": "2619666592296720931",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This matter is now out of your hands. I will send men to investigate Odral Helvi and Drinar Varyon. If they can confirm your story, I will have both of them arrested.",
+      "BNAM": "Player->RemoveItem Ingred_Raw_Ebony_01 5\r\nJournal HH_EbonyDelivery 60\r\n\"Drinar Varyon\"->Disable\r\n\"Odral Helvi\"->Disable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2619666592296720931": {
+      "flag": 0,
+      "PNAM": "17582193711605422712",
+      "NNAM": "10366252532913317648",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you keep the ebony, I will be forced to have you arrested for failing to cooperate with an Imperial investigation.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "10366252532913317648": {
+      "flag": 0,
+      "PNAM": "2619666592296720931",
+      "NNAM": "19400243671378030535",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Give me the ebony, and I will investigate Drinar Varyon and Odral Helvi. If what you say is true, I will have them both arrested.",
+      "BNAM": "Choice \"Give Ebony.\" 1 \"Keep Ebony.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "19400243671378030535": {
+      "flag": 0,
+      "PNAM": "10366252532913317648",
+      "NNAM": "3108241043209931887",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's a very interesting story. I'm not sure if I believe it. I'm going to pretend this conversation never happened.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "3108241043209931887": {
+      "flag": 0,
+      "PNAM": "19400243671378030535",
+      "NNAM": "1587836152668421038",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Odral Helvi ordered you to deliver the ebony? To whom?",
+      "BNAM": "Choice \"Truth: Drinar Varyon in Ald'ruhn.\" 3 \"Lie.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "1587836152668421038": {
+      "flag": 0,
+      "PNAM": "3108241043209931887",
+      "NNAM": "263418614993618742",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go about your business then.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "263418614993618742": {
+      "flag": 0,
+      "PNAM": "1587836152668421038",
+      "NNAM": "1561342282664624523",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you know of an illegal shipment, you must bring me the evidence. Otherwise, my hands are tied.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 100
+        }
+      ]
+    },
+    "1561342282664624523": {
+      "flag": 0,
+      "PNAM": "263418614993618742",
+      "NNAM": "141339230316322147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Odral Helvi and Drinar Varyon have been found guilty of the crime of ebony smuggling.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 110
+        }
+      ]
+    },
+    "141339230316322147": {
+      "flag": 0,
+      "PNAM": "1561342282664624523",
+      "NNAM": "427811750143224419",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I assure you I will investigate this matter.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 60
+        }
+      ]
+    },
+    "427811750143224419": {
+      "flag": 0,
+      "PNAM": "141339230316322147",
+      "NNAM": "29116303411468231529",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "segunivus mantedius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ebony? Why do you have ebony? Are you a licensed trader?",
+      "BNAM": "Choice \"Truth: Odral Helvi ordered me to deliver it.\" 5 \"Lie: Yes, of course.\" 6",
+      "SCVR": null
+    },
+    "29116303411468231529": {
+      "flag": 0,
+      "PNAM": "427811750143224419",
+      "NNAM": "2893930856184510827",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've broken the rules of House Hlaalu, sweetie. It brings tears to my eyes when I think about your disloyalty. Maybe you can make amends and make everything better.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2893930856184510827": {
+      "flag": 0,
+      "PNAM": "29116303411468231529",
+      "NNAM": "28392671624206530",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You did well, dumpling. Without Odral Helvi, our operations in Caldera will go so much smoother. Not to mention our relations with House Redoran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 110
+        }
+      ]
+    },
+    "28392671624206530": {
+      "flag": 0,
+      "PNAM": "2893930856184510827",
+      "NNAM": "719746601474914742",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I wish you had listened to my advice, but what's done is done. Odral knows someone's after him now. I don't think he'll have any more special favors to ask of you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 100
+        }
+      ]
+    },
+    "719746601474914742": {
+      "flag": 0,
+      "PNAM": "28392671624206530",
+      "NNAM": "21076203682863413312",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You did well, my little pudding pie. Odral Helvi is now on a prison ship. The same situation you found yourself in when you first came here. Take these little rings, sweetie. They'll look good on you.",
+      "BNAM": "Journal HH_EbonyDelivery 110\r\nPlayer->AddItem \"dire shardbolt ring\" 1\r\nPlayer->AddItem \"eye-maze ring\" 1\r\nModPCFacRep 10 \"Hlaalu\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 60
+        }
+      ]
+    },
+    "21076203682863413312": {
+      "flag": 0,
+      "PNAM": "719746601474914742",
+      "NNAM": "13300271141681525597",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I wish you had spoken to me about this, my little pudding pie. This was out best chance to arrest Odral Helvi and now that chance is gone.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 50
+        }
+      ]
+    },
+    "13300271141681525597": {
+      "flag": 0,
+      "PNAM": "21076203682863413312",
+      "NNAM": "107868896148242806",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is the last of the evidence we needed. Instead of delivering the ebony to Drinar Varyon, take it to Segunivus Mantedius at the Fort Buckmoth near Ald'ruhn. I bet if you turn your charms on Segunivus Mantedius, he will have Odral Helvi and Drinar Varyon arrested for this.",
+      "BNAM": "Journal HH_EbonyDelivery 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 10
+        }
+      ]
+    },
+    "107868896148242806": {
+      "flag": 0,
+      "PNAM": "13300271141681525597",
+      "NNAM": "2519820017255321152",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't think so. You've been expelled. Until you make amends, I don't have to discuss business with you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2519820017255321152": {
+      "flag": 0,
+      "PNAM": "107868896148242806",
+      "NNAM": "1456128628325353864",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already delivered the ebony.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 100
+        }
+      ]
+    },
+    "1456128628325353864": {
+      "flag": 0,
+      "PNAM": "2519820017255321152",
+      "NNAM": "189125915823032577",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? Drinar Varyon is dead? Now I'll need to find a new contact. Nevermind, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "drinar varyon",
+          "__TV": 0
+        }
+      ]
+    },
+    "189125915823032577": {
+      "flag": 0,
+      "PNAM": "1456128628325353864",
+      "NNAM": "2212538103190213703",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for delivering the ebony to Drinar Varyon. Take these 500 drakes for your service.",
+      "BNAM": "Journal HH_EbonyDelivery 100\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 50
+        }
+      ]
+    },
+    "2212538103190213703": {
+      "flag": 0,
+      "PNAM": "189125915823032577",
+      "NNAM": "259786305303106432",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Like I said, take the ebony to Drinar Varyon in Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 10
+        }
+      ]
+    },
+    "259786305303106432": {
+      "flag": 0,
+      "PNAM": "2212538103190213703",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take these five pieces of raw ebony to Drinar Varyon in Ald'ruhn. He will deliver them to... friends of mine on the mainland. Do not speak of this to anyone.",
+      "BNAM": "Journal HH_EbonyDelivery 10\r\nPlayer->AddItem Ingred_Raw_Ebony_01 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_RentCollector",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

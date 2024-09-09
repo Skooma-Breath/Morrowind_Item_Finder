@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mage Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_15",
+  "MODL": null,
+  "FNAM": "Malven Romori",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 34816
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 35,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "burden",
+    "fire barrier",
+    "frost barrier",
+    "lightning shield",
+    "cruel firebloom",
+    "spirit knife",
+    "second barrier",
+    "summon least bonewalker",
+    "weakness to fire",
+    "paralysis",
+    "summon ancestral ghost",
+    "summon flame atronach",
+    "summon greater bonewalker",
+    "summon scamp",
+    "summon skeletal minion",
+    "fireball",
+    "Fireball_large"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 69,
+    "magicka": 130,
+    "fatigue": 207,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 100,
+    "attributes": [49,65,76,47,63,35,53,40],
+    "skills": [6,6,6,6,6,11,6,6,11,34,58,48,48,34,54,48,34,34,6,6,6,11,34,11,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

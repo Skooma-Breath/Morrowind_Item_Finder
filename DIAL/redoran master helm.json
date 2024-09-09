@@ -1,0 +1,223 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "165721352238421558": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "234946453787912522",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been kicked out of the Guild, %PCName. Better make amends, or no one's going to talk to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "234946453787912522": {
+      "flag": 0,
+      "PNAM": "165721352238421558",
+      "NNAM": "25633151693140617565",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already brought me a Redoran Master Helm.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_MasterHelm",
+          "__TV": 100
+        }
+      ]
+    },
+    "25633151693140617565": {
+      "flag": 0,
+      "PNAM": "234946453787912522",
+      "NNAM": "269881975755487861",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good work. I hope our client appreciates this. Here. Take a little gold for your trouble.",
+      "BNAM": "Journal TG_MasterHelm 100\r\nPlayer->RemoveItem Redoran_Master_Helm 1\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "269881975755487861": {
+      "flag": 0,
+      "PNAM": "25633151693140617565",
+      "NNAM": "4038236141108721305",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well get us a Redoran Master Helm, %PCName. I can't keep our clients waiting forever.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "4038236141108721305": {
+      "flag": 0,
+      "PNAM": "269881975755487861",
+      "NNAM": "2121331106105496573",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "A client of ours wants a Redoran Master Helm, and I see you have one on you. Will you hand this over to the Guild, or get us another one?",
+      "BNAM": "Journal TG_MasterHelm 10\r\nChoice \"Yes, take the helm\" 1 \"I'll find you another helm\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "redoran_master_helm",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_MasterHelm",
+          "__TV": 0
+        }
+      ]
+    },
+    "2121331106105496573": {
+      "flag": 0,
+      "PNAM": "4038236141108721305",
+      "NNAM": "914927503201548325",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Did you get a Redoran Master Helm?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "redoran_master_helm",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_MasterHelm",
+          "__TV": 10
+        }
+      ]
+    },
+    "914927503201548325": {
+      "flag": 0,
+      "PNAM": "2121331106105496573",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "A client of ours wants a Redoran Master Helm. Most of the Councilors in House Redoran have one, but they can be hard to find. I know Miner Arobar has one, probably in his bedroom. You'd have to check Arobar Manor here in Ald'ruhn, Under-Skar.",
+      "BNAM": "Journal TG_MasterHelm 10",
+      "SCVR": null
+    }
+  }
+}

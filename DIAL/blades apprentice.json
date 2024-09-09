@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "18103192121783923995": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "32212141051164821657",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Those were the good old days, eh? Believe it or not, I was an Apprentice once, too. But that was a LOONG time ago.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        }
+      ]
+    },
+    "32212141051164821657": {
+      "flag": 0,
+      "PNAM": "18103192121783923995",
+      "NNAM": "1010328727326818700",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. Congratulations. Just get on with it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 55
+        }
+      ]
+    },
+    "1010328727326818700": {
+      "flag": 0,
+      "PNAM": "32212141051164821657",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm promoting you to Apprentice Rank, effective immediately. And here's a little present -- two spell scrolls. The Divine Intervention will recall you to the nearest Imperial shrine, and the Almsivi Intervention will recall you the nearest Temple. They come in handy for a quick getaway. No, no, %PCName. No thanks needed. You're doing great work. Now, get out of here and let me read.",
+      "BNAM": "Player->AddItem, \"sc_divineintervention\", 1\r\nPlayer->AddItem, \"sc_almsiviintervention\", 1\r\nJournal A1_4_MuzgobInformant 55",
+      "SCVR": null
+    }
+  }
+}

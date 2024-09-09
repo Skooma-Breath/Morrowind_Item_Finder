@@ -1,0 +1,23 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 5,
+    "num_longs": 0,
+    "num_floats": 4,
+    "script_data_size": 444,
+    "local_var_size": 61
+  },
+  "SCTX": "Begin Werewolfwilderness\r\n\r\n;This script is for the werewolves in wilderness placed randomly, very hard to find\r\n;they change to werewolf during night, are lunatic NPC's during day\r\n\r\nshort nolore\r\nshort doonce\r\nshort npcwerewolf\r\nshort isnight\r\nshort isdead\r\nfloat time\r\nfloat xpos\r\nfloat ypos\r\nfloat zpos\r\n\r\nif ( Menumode == 1 )\r\n\treturn\r\nendif\r\n\r\nif (isdead==1)\r\n\treturn\r\nendif\r\n\r\nif (ondeath==1)\r\n\tset isdead to 1\r\nendif\r\n\r\nset isnight to 1 ;nighttime by default\r\nif ( GameHour < 21 ) ; daytime\r\n\tif ( GameHour > 6 )\r\n\t\tset isnight to 0\r\n\tendif\r\nendif\t\r\n\r\nif (isnight == 0) ;daytime\r\n\t\tif ( npcwerewolf == 1 ) ;NPC is a werewolf\r\n\t\t\tif (doonce==1)\r\n\t\t\t\t;place the effect\r\n\t\t\t\tset xpos to ( GetPos, X )\r\n\t\t\t\tset ypos to ( GetPos, Y )\r\n\t\t\t\tset zpos to ( GetPos, Z )\r\n\t\t\t\tPlaceitem \"wildwerewolf\" xpos ypos zpos 0 \r\n\t\t\t\t;change to human\r\n\t\t\t\tset time to ( time + GetSecondsPassed )\t\r\n\t\t\t\t\tIf ( time >= 1 )\r\n\t\t\t\t\t\tUndowerewolf\r\n\t\t\t\t\t\tset doonce to 0\r\n\t\t\t\t\t\tset npcwerewolf to 0\r\n\t\t\t\t\tendif\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nelseif (isnight == 1) ;nighttime\r\n\t\tIf (doonce==0)\r\n\t\t\t;place the effect\r\n\t\t\tset xpos to ( GetPos, X )\r\n\t\t\tset ypos to ( GetPos, Y )\r\n\t\t\tset zpos to ( GetPos, Z )\r\n\t\t\tPlaceitem \"wildwerewolf\" xpos ypos zpos 0 \r\n\t\t\t;change to werewolf\r\n\t\t\tset time to ( time + GetSecondsPassed )\t\r\n\t\t\t\tIf ( time >= 1 ) \r\n\t\t\t\t\tBecomewerewolf\r\n\t\t\t\t\taddspell \"werewolf blood\"\r\n\t\t\t\t\tset doonce to 1\r\n\t\t\t\t\tset npcwerewolf to 1\r\n\t\t\t\t\tset time to 0\r\n\t\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nEnd Werewolfwilderness",
+  "SCVR": [
+    "nolore",
+    "doonce",
+    "npcwerewolf",
+    "isnight",
+    "isdead",
+    "time",
+    "xpos",
+    "ypos",
+    "zpos"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,7,32,115,5,0,61,61,49,36,1,9,1,6,1,1,7,32,88,240,16,61,61,49,5,1,115,5,0,2,32,49,9,1,5,1,115,4,0,2,32,49,6,1,3,16,32,71,8,71,97,109,101,72,111,117,114,32,60,32,50,49,6,1,1,15,32,71,8,71,97,109,101,72,111,117,114,32,62,32,54,5,1,115,4,0,2,32,48,9,1,9,1,6,1,14,9,32,115,4,0,32,61,61,32,48,6,1,12,9,32,115,3,0,32,61,61,32,49,6,1,10,7,32,115,2,0,61,61,49,5,1,102,2,0,6,32,88,10,16,88,0,5,1,102,3,0,6,32,88,10,16,89,0,5,1,102,4,0,6,32,88,10,16,90,0,149,17,12,119,105,108,100,119,101,114,101,119,111,108,102,102,2,0,0,102,3,0,0,102,4,0,0,0,0,0,0,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,3,9,32,102,1,0,32,62,61,32,49,180,17,5,1,115,2,0,2,32,48,5,1,115,3,0,2,32,48,9,1,9,1,9,1,9,1,8,1,14,9,32,115,4,0,32,61,61,32,49,6,1,12,7,32,115,2,0,61,61,48,5,1,102,2,0,6,32,88,10,16,88,0,5,1,102,3,0,6,32,88,10,16,89,0,5,1,102,4,0,6,32,88,10,16,90,0,149,17,12,119,105,108,100,119,101,114,101,119,111,108,102,102,2,0,0,102,3,0,0,102,4,0,0,0,0,0,0,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,5,9,32,102,1,0,32,62,61,32,49,179,17,29,17,14,119,101,114,101,119,111,108,102,32,98,108,111,111,100,5,1,115,2,0,2,32,49,5,1,115,3,0,2,32,49,5,1,102,1,0,2,32,48,9,1,9,1,9,1,9,1,1,1]
+}

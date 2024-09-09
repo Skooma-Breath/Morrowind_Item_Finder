@@ -1,0 +1,215 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2675825562212581755": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1970318731169927492",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uvoo llaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you the one who claims to be the Nerevarine? You should speak with Archcanon Saryoni. Before these rumors are put to rest, I cannot give you duties.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "1970318731169927492": {
+      "flag": 0,
+      "PNAM": "2675825562212581755",
+      "NNAM": "196033229984697708",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uvoo llaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "196033229984697708": {
+      "flag": 0,
+      "PNAM": "1970318731169927492",
+      "NNAM": "310787996283522232",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uvoo llaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Assantus Hansar is dead. I wish the Temple had a chance to convert him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MinistryHeathen",
+          "__TV": 200
+        }
+      ]
+    },
+    "310787996283522232": {
+      "flag": 0,
+      "PNAM": "196033229984697708",
+      "NNAM": "28686228012354228233",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uvoo llaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already cured Assantus Hansar.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MinistryHeathen",
+          "__TV": 100
+        }
+      ]
+    },
+    "28686228012354228233": {
+      "flag": 0,
+      "PNAM": "310787996283522232",
+      "NNAM": "3590442825469591",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uvoo llaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Assantus Hansar is dead? How unfortunate. Perhaps you can find someone else to cure in the Temple's name.",
+      "BNAM": "Journal TT_MinistryHeathen 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "assantushansar",
+          "__TV": 1
+        }
+      ]
+    },
+    "3590442825469591": {
+      "flag": 0,
+      "PNAM": "28686228012354228233",
+      "NNAM": "2172720431245831931",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uvoo llaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Assantus Hansar has been cured? Good work, %PCName. Take these potions in case you were infected as well.",
+      "BNAM": "Journal TT_MinistryHeathen 100\r\nPlayer->AddItem P_Cure_Common_S 3\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MinistryHeathen",
+          "__TV": 50
+        }
+      ]
+    },
+    "2172720431245831931": {
+      "flag": 0,
+      "PNAM": "3590442825469591",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uvoo llaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Temple does not proselytize, but we do good works. Assantus Hansar is an ill Ashlander in the outcast Ashlander camp of Ahinanapal which is just south of Ghostgate. Find and cure him. You may need a way to calm him, for outcast Ashlanders are often aggressive towards strangers.",
+      "BNAM": "Journal TT_MinistryHeathen 10\r\n\"assantushansar\"->Enable",
+      "SCVR": null
+    }
+  }
+}

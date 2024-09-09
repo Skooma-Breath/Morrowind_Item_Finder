@@ -1,0 +1,50 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Acrobat",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_02",
+  "KNAM": "b_n_argonian_m_hair03",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Werewolf",
+  "SCRI": "wereskaalScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": null,
+  "NPCS": [
+    "burden of sin",
+    "crushing burden",
+    "cruel weary",
+    "great feather",
+    "fire shield"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 50,
+    "health": 337,
+    "magicka": 158,
+    "fatigue": 368,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,79,84,100,100,84,74,40],
+    "skills": [10,10,15,10,10,10,10,69,94,10,10,64,15,10,15,10,15,84,39,100,100,94,39,100,39,94,50]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

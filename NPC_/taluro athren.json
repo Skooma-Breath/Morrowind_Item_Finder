@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_f_head_05",
+  "KNAM": "b_n_dark elf_f_hair_16",
+  "MODL": null,
+  "FNAM": "Taluro Athren",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron longsword"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_rr"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "chitin_shield"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 140,
+    "magicka": 98,
+    "fatigue": 243,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [87,49,39,55,71,62,47,40],
+    "skills": [36,17,36,36,52,56,52,52,22,6,16,6,6,6,11,6,6,6,6,6,6,31,51,11,10,6,26]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

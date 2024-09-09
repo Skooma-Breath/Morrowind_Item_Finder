@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 276,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin paur_maston\r\n\r\nshort nolore\r\n\r\nif ( GetJournalIndex \"MV_TraderMissed\" >= 90 )\r\n\tReturn\r\n\t;Do nothing if the quest is over\r\nendif\r\n\r\nif ( GetJournalIndex \"MV_TraderMissed\" < 10 )\r\n\tReturn\r\n\t;Do nothing if the quest is over\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\tJournal \"MV_TraderMissed\" 90\r\n\tReturn\r\n\t;sets journal when he dies.\r\nendif\r\n\r\n\r\nif ( GetPCCell, \"Molag Mar\" == 1 )\r\n\tif ( GetCurrentAIPackage == 3 )\r\n\t\tif ( GetDistance Player < 512 )\r\n\t\t\tif ( GetDistance Vanjirra < 512 )\r\n\t\t\t\tJournal \"MV_TraderMissed\" 95\r\n\t\t\t\t\"paur maston\"->AiWander 256, 0, 0, 60, 30, 20, 0,0,0,0,0,0\r\n\t\t\t\t;sets journal if he's following you in Molag Mar within 512 units\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "nolore"
+  ],
+  "SCDT": [6,1,1,28,32,88,205,16,32,100,15,77,86,95,84,114,97,100,101,114,77,105,115,115,101,100,32,62,61,32,57,48,36,1,9,1,6,1,1,27,32,88,205,16,32,100,15,77,86,95,84,114,97,100,101,114,77,105,115,115,101,100,32,60,32,49,48,36,1,9,1,6,1,2,9,32,88,240,16,32,61,61,32,49,204,16,15,77,86,95,84,114,97,100,101,114,77,105,115,115,101,100,90,0,255,255,36,1,9,1,6,1,8,22,32,88,18,17,44,32,99,9,77,111,108,97,103,32,77,97,114,32,61,61,32,49,6,1,6,9,32,88,250,16,32,61,61,32,51,6,1,4,19,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,53,49,50,6,1,2,21,32,88,1,16,32,114,8,86,97,110,106,105,114,114,97,32,60,32,53,49,50,204,16,15,77,86,95,84,114,97,100,101,114,77,105,115,115,101,100,95,0,255,255,12,1,11,112,97,117,114,32,109,97,115,116,111,110,249,16,0,0,128,67,0,0,0,0,0,0,0,0,8,0,30,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,9,1,9,1,9,1,9,1,1,1]
+}

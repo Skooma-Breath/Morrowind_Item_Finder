@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 80,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin dbcontractScript\r\n\r\nshort doOnce\r\n\r\nif ( player->GetItemCount \"bk_dbcontract\" > 0 )\r\n\tif ( doOnce == 0 )\r\n\t\tJournal TR_DBHunt 110\r\n\t\tset doOnce to 1\r\n\tendif\r\nendif\r\n\r\n\r\n\r\nEnd dbcontractScript",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [12,1,6,112,108,97,121,101,114,6,1,4,24,32,88,253,16,32,111,13,98,107,95,100,98,99,111,110,116,114,97,99,116,32,62,32,48,6,1,2,9,32,115,1,0,32,61,61,32,48,204,16,9,84,82,95,68,66,72,117,110,116,110,0,255,255,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

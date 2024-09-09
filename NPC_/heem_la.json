@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Mage Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_argonian_m_head_01",
+  "KNAM": "b_n_argonian_m_hair01",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Heem-La",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 34816
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel flameblade"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_01"
+    },
+    {
+      "count": -3,
+      "name": "random_scroll_all"
+    }
+  ],
+  "NPCS": [
+    "bound dagger",
+    "bound gauntlets",
+    "bound spear",
+    "bound boots",
+    "summon ancestral ghost",
+    "summon least bonewalker",
+    "summon skeletal minion",
+    "hide",
+    "sleep",
+    "Fireball_large",
+    "Frostball_large",
+    "third barrier",
+    "second barrier",
+    "shockball_large",
+    "armor eater",
+    "weapon eater",
+    "weary",
+    "wild flay spirit",
+    "wild levitate",
+    "distraction",
+    "enervate",
+    "spite",
+    "light"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 58,
+    "magicka": 120,
+    "fatigue": 199,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [46,60,64,55,58,34,38,40],
+    "skills": [6,6,11,6,6,6,6,11,21,29,44,44,49,29,49,44,34,34,6,6,6,6,21,6,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

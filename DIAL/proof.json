@@ -1,0 +1,254 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3921147271407415216": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "26882135782779822870",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, but maybe you can join the Imperial Legion again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "26882135782779822870": {
+      "flag": 0,
+      "PNAM": "3921147271407415216",
+      "NNAM": "1572130721416510255",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Proof of a conspiracy against the Emperor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_TalosTreason",
+          "__TV": 10
+        }
+      ]
+    },
+    "1572130721416510255": {
+      "flag": 0,
+      "PNAM": "26882135782779822870",
+      "NNAM": "28845122431089326191",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am glad you brought me the axe. Now I know I was mistaken about Lugrub.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_WidowLand",
+          "__TV": 120
+        }
+      ]
+    },
+    "28845122431089326191": {
+      "flag": 0,
+      "PNAM": "1572130721416510255",
+      "NNAM": "295562660354152583",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have seen your proof, and I am convinced. Find Lugrub gro-Ogdum in the Gnisis Eggmine and kill him to avenge Mansilamat Vabdas.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_WidowLand",
+          "__TV": 70
+        }
+      ]
+    },
+    "295562660354152583": {
+      "flag": 0,
+      "PNAM": "28845122431089326191",
+      "NNAM": "28029214682771030601",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't care if you saw the ghost of Tiber Septim. I can't tell the Legion officers in Cyrodiil that I condemned a soldier to death because you talked to a ghost.",
+      "BNAM": "moddisposition -2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "28029214682771030601": {
+      "flag": 0,
+      "PNAM": "295562660354152583",
+      "NNAM": "1798469541298118987",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hm. Yes, this is Lugrub's Axe. I can see how it's been damaged from hitting bone here and here. With this, I have no choice but to believe your story. Lugrub gro-Odgum is an outlaw. Find him and kill him. Then justice will be served.",
+      "BNAM": "Journal IL_WidowLand 70\r\nPlayer->RemoveItem \"Lugrub's Axe\" 1\r\nmoddisposition 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1798469541298118987": {
+      "flag": 0,
+      "PNAM": "28029214682771030601",
+      "NNAM": "713312514151098125",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These are serious accusations, %PCName, and Lugrub is your superior officer. If you don't have any proof, I might have to press charges of insubordination.",
+      "BNAM": "moddisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "713312514151098125": {
+      "flag": 0,
+      "PNAM": "1798469541298118987",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What kind of proof do you have?",
+      "BNAM": "Choice \"I spoke with the ghost of Mansilamat Vabdas.\" 1 \"Here is Lugrub's Axe.\" 2 \"Nevermind.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "lugrub's axe",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_WidowLand",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

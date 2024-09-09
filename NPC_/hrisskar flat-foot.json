@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Rogue",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_nord_m_head_01",
+  "KNAM": "b_n_nord_m_hair04",
+  "MODL": null,
+  "FNAM": "Hrisskar Flat-Foot",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 40,
+    "flee": 30,
+    "alarm": 40,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 30,
+      "name": "iron arrow"
+    },
+    {
+      "count": 1,
+      "name": "long bow"
+    },
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "imperial shield"
+    },
+    {
+      "count": 1,
+      "name": "imperial boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "imperial_studded_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 81,
+    "magicka": 18,
+    "fatigue": 205,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [67,36,46,55,62,37,74,40],
+    "skills": [27,10,37,15,20,50,52,15,27,6,6,6,6,6,6,6,6,6,6,6,6,38,38,6,38,23,38]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

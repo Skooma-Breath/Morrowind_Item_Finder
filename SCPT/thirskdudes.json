@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 78,
+    "local_var_size": 7
+  },
+  "SCTX": "begin thirskdudes\r\n\r\nshort nolore\r\n\r\nif ( GetJournalIndex \"BM_MeadHall\" < 70 )\r\n\tDisable\t \r\nendif\r\n\r\nif ( GetJournalIndex \"BM_MeadHall\" >= 70 )\r\n\tEnable\r\n\tStopScript MeadScript\r\nendif\r\n\r\nend thirskdudes",
+  "SCVR": [
+    "nolore"
+  ],
+  "SCDT": [6,1,1,23,32,88,205,16,32,100,11,66,77,95,77,101,97,100,72,97,108,108,32,60,32,55,48,219,16,9,1,6,1,2,24,32,88,205,16,32,100,11,66,77,95,77,101,97,100,72,97,108,108,32,62,61,32,55,48,218,16,28,16,10,77,101,97,100,83,99,114,105,112,116,9,1,1,1]
+}

@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\cr_draugr.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [75,50,75,100,15,75,50,100],
+    "health": 0,
+    "magicka": 50,
+    "fatigue": 400,
+    "soul_strength": 200,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 90,
+    "attacks": [
+      [5,30],
+      [8,35],
+      [3,25]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 20,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_draugr01",
+  "FNAM": "Draugr",
+  "SCRI": "ColonyShipwreckDoor",
+  "XSCL": 1.2000000476837158,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_gravetar"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

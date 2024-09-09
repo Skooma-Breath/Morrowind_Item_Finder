@@ -1,0 +1,248 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "237092951122708616": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2509220253904931572",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard that you are a False Incarnate. I am not yet convinced, but I no longer trust you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "2509220253904931572": {
+      "flag": 0,
+      "PNAM": "237092951122708616",
+      "NNAM": "31875216091781719674",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "31875216091781719674": {
+      "flag": 0,
+      "PNAM": "2509220253904931572",
+      "NNAM": "22489294731844927691",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You cleansed the dark cult from Hassour.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_Hassour",
+          "__TV": 100
+        }
+      ]
+    },
+    "22489294731844927691": {
+      "flag": 0,
+      "PNAM": "31875216091781719674",
+      "NNAM": "16186187232437826792",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already sought out Hassour and cleansed the land of Dagoth Fovon? I am impressed, %PCName. Surely you do not need these scrolls and potions of cure blight, but take them anyway. As a gift from the Temple.",
+      "BNAM": "Journal TT_Hassour 100\r\nPlayer->AddItem \"sc_cureblight_ranged\" 2\r\nPlayer->AddItem \"p_cure_blight_s\" 2\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "dagoth fovon",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_Hassour",
+          "__TV": 0
+        }
+      ]
+    },
+    "16186187232437826792": {
+      "flag": 0,
+      "PNAM": "22489294731844927691",
+      "NNAM": "41811249643821698",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have slain Dagoth Fovon and cleansed the dark cult from Hassour. As these cultists sometimes spread Blight diseases, perhaps you can make use of these scrolls and potions.",
+      "BNAM": "Journal TT_Hassour 100\r\nPlayer->AddItem \"sc_cureblight_ranged\" 2\r\nPlayer->AddItem \"p_cure_blight_s\" 2\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "dagoth fovon",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_Hassour",
+          "__TV": 10
+        }
+      ]
+    },
+    "41811249643821698": {
+      "flag": 0,
+      "PNAM": "16186187232437826792",
+      "NNAM": "471711104110843001",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is a dark cult dwelling in Hassour. Go to Hassour and bring the Tribunal's justice to the leader of this cult, Dagoth Fovon. To get to Hassour, go to Balmora, then head east towards Moonmoth Legion Fort. When you enter the Foyada Mamaea, follow it all the way south.",
+      "BNAM": "Journal TT_Hassour 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 15
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MaarGan",
+          "__TV": 100
+        }
+      ]
+    },
+    "471711104110843001": {
+      "flag": 0,
+      "PNAM": "41811249643821698",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is a dark cult dwelling in Hassour. Go to Hassour and bring the Tribunal's justice to the leader of this cult, Dagoth Fovon. Be warned, %PCRank, that Dagoth Fovon is a terrible foe. You may wish to fight more of the lesser servants of the Sixth House before taking on Dagoth Fovon. Many of the righteous have fallen to him. To get to Hassour, go to Balmora, then head east towards Moonmoth Legion Fort. When you enter the Foyada Mamaea, follow it all the way south.",
+      "BNAM": "Journal TT_Hassour 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MaarGan",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

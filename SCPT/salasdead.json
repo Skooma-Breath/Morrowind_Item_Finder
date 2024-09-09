@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 103,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin SalasDead\r\n\r\nshort nolore\r\n\r\nif ( OnDeath == 1 )\r\n\tif ( getjournalindex TR_MissingHand_02 >= 1 )\r\n\t\tJournal TR_MissingHand_02 90\t\t;Salas Valor killed after quest starts\r\n\telse\r\n\t\tJournal TR_MissingHand_01 90\t\t;Salas Valor killed before quest starts\r\n\tendif\r\nendif\r\n\r\nend SalasDead",
+  "SCVR": [
+    "nolore"
+  ],
+  "SCDT": [6,1,5,9,32,88,240,16,32,61,61,32,49,6,1,1,29,32,88,205,16,32,100,17,84,82,95,77,105,115,115,105,110,103,72,97,110,100,95,48,50,32,62,61,32,49,204,16,17,84,82,95,77,105,115,115,105,110,103,72,97,110,100,95,48,50,90,0,255,255,7,1,1,204,16,17,84,82,95,77,105,115,115,105,110,103,72,97,110,100,95,48,49,90,0,255,255,9,1,9,1,1,1]
+}

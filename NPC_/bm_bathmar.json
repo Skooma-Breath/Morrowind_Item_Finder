@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Bard",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_M_head_09",
+  "KNAM": "B_N_Nord_M_Hair07",
+  "MODL": null,
+  "FNAM": "Bathmar Bold-Lute",
+  "SCRI": "thirskdudes",
+  "AIDT": {
+    "greet": 60,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_Nordic01_shirt"
+    },
+    {
+      "count": 1,
+      "name": "BM_Nordic01_pants"
+    },
+    {
+      "count": 1,
+      "name": "BM wolf boots"
+    },
+    {
+      "count": 1,
+      "name": "misc_de_lute_01_phat"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 101,
+    "magicka": 120,
+    "fatigue": 222,
+    "disposition": 100,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [73,60,47,44,47,58,80,40],
+    "skills": [39,6,34,11,16,44,16,11,6,24,6,6,24,6,6,6,39,6,34,15,48,15,15,15,34,48,15]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

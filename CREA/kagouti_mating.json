@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\LeastKagouti.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 5,
+    "attributes": [90,30,50,75,40,67,100,30],
+    "health": 45,
+    "magicka": 10,
+    "fatigue": 500,
+    "soul_strength": 200,
+    "combat_skill": 65,
+    "magic_skill": 20,
+    "stealth_skill": 80,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 95,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "kagouti",
+  "FNAM": "Mating Kagouti",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_kagouti_hide"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

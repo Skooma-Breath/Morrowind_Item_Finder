@@ -1,0 +1,332 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "633148821632421532": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2563119136295338406",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!",
+      "BNAM": "SetPCCrimeLevel 10000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ringphynaster",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ring_phynaster_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "2563119136295338406": {
+      "flag": 0,
+      "PNAM": "633148821632421532",
+      "NNAM": "22001669616515827",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "ringphynaster",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ring_phynaster_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "22001669616515827": {
+      "flag": 0,
+      "PNAM": "2563119136295338406",
+      "NNAM": "2686254322987123513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent.  Small though it is, it shall hold a prominent place in our collection.",
+      "BNAM": "set ringphynaster to 2\r\nplayer->removeitem \"ring_phynaster_unique\" 1 \r\nset MuseumDonations to MuseumDonations + 1\r\n\"ring_phynaster_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ring_phynaster_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "2686254322987123513": {
+      "flag": 0,
+      "PNAM": "22001669616515827",
+      "NNAM": "2586519814324764015",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent.  Small though it is, it shall hold a prominent place in our collection.",
+      "BNAM": "set ringphynaster to 2\r\nplayer->removeitem \"ring_phynaster_unique\" 1 \r\nplayer->additem \"gold_001\" 9000\r\n\"ring_phynaster_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ring_phynaster_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "2586519814324764015": {
+      "flag": 0,
+      "PNAM": "2686254322987123513",
+      "NNAM": "4793100201741427977",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Ring of Phynaster with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ring_phynaster_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "4793100201741427977": {
+      "flag": 0,
+      "PNAM": "2586519814324764015",
+      "NNAM": "2246013489631928766",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Ring of Phynaster with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ring_phynaster_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "2246013489631928766": {
+      "flag": 0,
+      "PNAM": "4793100201741427977",
+      "NNAM": "1065281441673720930",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your choice, %PCName.  I take it you have an aversion to poison and lightning?  Not surprising at all.  I hope the ring serves you well.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1065281441673720930": {
+      "flag": 0,
+      "PNAM": "2246013489631928766",
+      "NNAM": "322616293441012248",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, Phynaster's Ring.  I trust it has served you as well as it served him all those years ago.  Are you interested in selling it to the Museum? Or perhaps donating it? I can offer you 9000 gold if you choose to sell it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ringphynaster",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "322616293441012248": {
+      "flag": 0,
+      "PNAM": "1065281441673720930",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, Phynaster's Ring.  I trust it has served you as well as it served him all those years ago.  Are you interested in selling it to the Museum? I can offer you 9000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ringphynaster",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

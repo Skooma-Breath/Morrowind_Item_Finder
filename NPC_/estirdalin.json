@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "High Elf",
+  "CNAM": "Mage Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_high elf_f_head_01",
+  "KNAM": "b_n_high elf_f_hair_03",
+  "MODL": null,
+  "FNAM": "Estirdalin",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 51200
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel spider blade"
+    },
+    {
+      "count": 1,
+      "name": "expensive_ring_01"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05_c"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    }
+  ],
+  "NPCS": [
+    "fire bite",
+    "frostbite",
+    "shock",
+    "paralysis",
+    "poison",
+    "earwig",
+    "fleabite",
+    "fuddle",
+    "burden",
+    "feather",
+    "poisonous touch",
+    "bound boots",
+    "bound dagger",
+    "bound helm",
+    "bound longbow"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 55,
+    "magicka": 140,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [36,70,74,45,48,34,48,40],
+    "skills": [6,6,6,6,6,6,6,6,6,39,54,49,49,34,44,44,39,29,6,6,6,6,21,6,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [0,30,20,20,0,0,30,0]
+    }
+  ]
+}

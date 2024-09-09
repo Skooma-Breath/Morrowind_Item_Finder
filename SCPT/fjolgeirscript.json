@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 248,
+    "local_var_size": 37
+  },
+  "SCTX": "Begin fjolgeirScript\r\n\r\nshort noLore\r\nshort followNow\r\nshort distanceCheck\r\nfloat timer\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetHealth <= 0 )\r\n\treturn\r\nendif\r\n\r\nif ( GetCurrentAiPackage != 3 )\r\n\treturn\r\nendif\r\n\r\nif ( timer < 3 )\r\n\tset timer to ( timer + GetSecondsPassed )\r\n\treturn\r\nendif\r\n\r\nif ( GetDistance Player < NPCVoiceDistance )\r\n\tif ( GetDistance Player < 500 )\r\n\t\tset distanceCheck to 0\r\n\tendif\r\n\tset timer to 0\r\n\treturn\r\nendif\r\n\r\nif ( distanceCheck == 0 )\r\n\t;since there does not appear to be any \"wait for me\" for Nord males...\r\n\tSay \"Vo\\N\\M\\Flw_NM001.mp3\" \"Do you know where you're going?\"\r\n\tset distanceCheck to 1\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "noLore",
+    "followNow",
+    "distanceCheck",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,88,140,16,32,60,61,32,48,36,1,9,1,6,1,1,9,32,88,250,16,32,33,61,32,51,36,1,9,1,6,1,2,8,32,102,1,0,32,60,32,51,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,36,1,9,1,6,1,5,35,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,71,16,78,80,67,86,111,105,99,101,68,105,115,116,97,110,99,101,0,6,1,1,19,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,53,48,48,5,1,115,3,0,2,32,48,9,1,5,1,102,1,0,2,32,48,36,1,9,1,6,1,2,9,32,115,3,0,32,61,61,32,48,27,17,20,86,111,92,78,92,77,92,70,108,119,95,78,77,48,48,49,46,109,112,51,31,0,68,111,32,121,111,117,32,107,110,111,119,32,119,104,101,114,101,32,121,111,117,39,114,101,32,103,111,105,110,103,63,5,1,115,3,0,2,32,49,9,1,1,1]
+}

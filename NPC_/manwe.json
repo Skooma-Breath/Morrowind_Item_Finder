@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_08",
+  "KNAM": "b_n_dark elf_f_hair_18",
+  "MODL": null,
+  "FNAM": "Manwe",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 50,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "l_b_amulets"
+    },
+    {
+      "count": 1,
+      "name": "l_b_rings"
+    },
+    {
+      "count": 1,
+      "name": "l_m_wpn_melee_short blade"
+    },
+    {
+      "count": 11,
+      "name": "random gold"
+    },
+    {
+      "count": 200,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "sixth barrier",
+    "bound dagger",
+    "summon least bonewalker",
+    "dread curse: strength",
+    "dread curse: agility",
+    "fire storm",
+    "Fireball_large"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 11,
+    "health": 103,
+    "magicka": 148,
+    "fatigue": 215,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [50,74,62,51,61,52,49,40],
+    "skills": [6,6,25,25,6,11,6,6,11,50,60,50,35,50,55,16,16,16,6,6,6,11,35,30,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,0]
+    }
+  ]
+}

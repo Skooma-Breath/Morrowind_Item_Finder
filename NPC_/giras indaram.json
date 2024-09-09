@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Buoyant Armiger",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_15",
+  "KNAM": "b_n_dark elf_m_hair_17",
+  "MODL": null,
+  "FNAM": "Giras Indaram",
+  "SCRI": "girasScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "fiend tanto"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    }
+  ],
+  "NPCS": [
+    "strain",
+    "torpor",
+    "wild torpor",
+    "shockbite",
+    "daedric bite"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 175,
+    "magicka": 98,
+    "fatigue": 250,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [54,49,61,88,71,47,40,40],
+    "skills": [26,6,6,6,6,11,6,6,31,6,51,6,6,6,11,26,6,6,17,52,36,56,62,56,17,36,17]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 0,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

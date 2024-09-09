@@ -1,0 +1,79 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Nightblade Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_f_head_10",
+  "KNAM": "b_n_dark elf_f_hair_11",
+  "MODL": null,
+  "FNAM": "Llaros Uvayn",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "dire viperblade"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 30,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "shadowmask",
+    "shadow weave",
+    "shalidor's mirror",
+    "demoralize beast",
+    "demoralizing touch",
+    "detect_key",
+    "detect enchantment",
+    "soul trap",
+    "soulpinch",
+    "telekinesis",
+    "medusa's gaze",
+    "silence",
+    "wild earwig",
+    "hide",
+    "crying eye",
+    "tinur's hoptoad",
+    "slowfall"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 65,
+    "magicka": 98,
+    "fatigue": 203,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [48,49,62,58,75,35,51,40],
+    "skills": [6,6,6,6,6,11,6,6,11,15,42,47,47,15,52,15,15,32,23,38,6,28,48,28,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

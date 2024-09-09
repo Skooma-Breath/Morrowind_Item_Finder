@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 232,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin GloomyCaveScript\r\n\r\nshort nolore\r\n\r\nif ( GetJournalIndex \"BM_WolfGiver\" < 30 )\r\n\tDisable \r\n\t\"furn_com_cauldron_unique\"->Disable\r\nendif\r\n\r\nif ( GetJournalIndex \"BM_WolfGiver\" >= 30 )\r\n\tif ( GetJournalIndex \"BM_WolfGiver\" < 80 )\r\n\t\tEnable\r\n\t\t\"furn_com_cauldron_unique\"->Enable\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex \"BM_WolfGiver\" >= 80 )\r\n\tif ( CellChanged == 1 )\r\n\t\t\"furn_com_cauldron_unique\"->Disable\r\n\t\tDisable\r\n\tendif\r\nendif\r\n\r\n\r\nEnd GloomyCaveScript",
+  "SCVR": [
+    "nolore"
+  ],
+  "SCDT": [6,1,2,24,32,88,205,16,32,100,12,66,77,95,87,111,108,102,71,105,118,101,114,32,60,32,51,48,219,16,12,1,24,102,117,114,110,95,99,111,109,95,99,97,117,108,100,114,111,110,95,117,110,105,113,117,101,219,16,9,1,6,1,4,25,32,88,205,16,32,100,12,66,77,95,87,111,108,102,71,105,118,101,114,32,62,61,32,51,48,6,1,2,24,32,88,205,16,32,100,12,66,77,95,87,111,108,102,71,105,118,101,114,32,60,32,56,48,218,16,12,1,24,102,117,114,110,95,99,111,109,95,99,97,117,108,100,114,111,110,95,117,110,105,113,117,101,218,16,9,1,9,1,6,1,4,25,32,88,205,16,32,100,12,66,77,95,87,111,108,102,71,105,118,101,114,32,62,61,32,56,48,6,1,2,9,32,88,31,16,32,61,61,32,49,12,1,24,102,117,114,110,95,99,111,109,95,99,97,117,108,100,114,111,110,95,117,110,105,113,117,101,219,16,219,16,9,1,9,1,1,1]
+}

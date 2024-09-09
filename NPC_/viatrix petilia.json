@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Imperial",
+  "CNAM": "Pilgrim",
+  "ANAM": "Temple",
+  "BNAM": "b_n_imperial_f_head_01",
+  "KNAM": "b_n_imperial_f_hair_01",
+  "MODL": null,
+  "FNAM": "Viatrix Petilia",
+  "SCRI": "viatrix_petilia",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_ring_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 500,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

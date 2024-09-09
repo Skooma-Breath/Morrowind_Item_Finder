@@ -1,0 +1,514 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2676311797272564592": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2468732417700032616",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have no miners to sell today.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 150
+        }
+      ]
+    },
+    "2468732417700032616": {
+      "flag": 0,
+      "PNAM": "2676311797272564592",
+      "NNAM": "24431353222227",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. I will give orders to have Llaals taken from the slave pit. Go on inside. He's your problem now.",
+      "BNAM": "\"Llaals Ores\"->PositionCell 1030 -2660 180 180 \"Tel Aruhn, Underground\"\r\nJournal HH_Stronghold 150\r\nPlayer->RemoveItem Gold_001 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "24431353222227": {
+      "flag": 0,
+      "PNAM": "2468732417700032616",
+      "NNAM": "767027153239117774",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There are no other miners to recruit here in Tel Aruhn. I will see you again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "767027153239117774": {
+      "flag": 0,
+      "PNAM": "24431353222227",
+      "NNAM": "9095164821621212302",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "savile imayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not know about any free miners here, but I have a slave, Llaals Oren, who says he used to be a miner. He is rebellious and lazy. I will sell him to you for 200 drakes. A bargain.",
+      "BNAM": "Choice \"Agreed. 200 drakes.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 140
+        }
+      ]
+    },
+    "9095164821621212302": {
+      "flag": 0,
+      "PNAM": "767027153239117774",
+      "NNAM": "105671786334028820",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llaals ores",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want me to work in an egg mine? That's the best thing I've heard in months. I know where Shurdan-Raplay is. I'll meet you there. You didn't waste your money, and I'll prove it to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 150
+        }
+      ]
+    },
+    "105671786334028820": {
+      "flag": 0,
+      "PNAM": "9095164821621212302",
+      "NNAM": "1516817441512128397",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llaals ores",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I was once a miner, but now I am slave.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1516817441512128397": {
+      "flag": 0,
+      "PNAM": "105671786334028820",
+      "NNAM": "17354141771247217718",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilasour tansumiran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Shurdan-Raplay Egg Mine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We should be able to handle a mine this size.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 150
+        }
+      ]
+    },
+    "17354141771247217718": {
+      "flag": 0,
+      "PNAM": "1516817441512128397",
+      "NNAM": "2147595191176116795",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilasour tansumiran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have found work here in Gnisis.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "hiredMiner",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 150
+        }
+      ]
+    },
+    "2147595191176116795": {
+      "flag": 0,
+      "PNAM": "17354141771247217718",
+      "NNAM": "31481326321608422602",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilasour tansumiran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will be at the mine as soon as my men are ready.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 150
+        }
+      ]
+    },
+    "31481326321608422602": {
+      "flag": 0,
+      "PNAM": "2147595191176116795",
+      "NNAM": "28232131542672118578",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilasour tansumiran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard that the Shurdan-Raplay Mine was going to open again, despite the bandits and the blight. I will serve you and your House faithfully. I will be at the mine with my crew in a few days.",
+      "BNAM": "Journal HH_Stronghold 150\r\nSet hiredMiner to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 130
+        }
+      ]
+    },
+    "28232131542672118578": {
+      "flag": 0,
+      "PNAM": "31481326321608422602",
+      "NNAM": "27325619285420414",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilasour tansumiran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are? Wait... I heard that mine was blighted. You won't find any miners willing to work in a blighted mine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "27325619285420414": {
+      "flag": 0,
+      "PNAM": "28232131542672118578",
+      "NNAM": "2733520125189161033",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilasour tansumiran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know. Work is hard to find these days.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2733520125189161033": {
+      "flag": 0,
+      "PNAM": "27325619285420414",
+      "NNAM": "143746490177381168",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilasour tansumiran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I am an egg miner, and I'm looking for work. Why do you ask?",
+      "BNAM": "Choice \"I need miners in the Shurdan-Raplay mine.\" 1 \"Nevermind.\" 2",
+      "SCVR": null
+    },
+    "143746490177381168": {
+      "flag": 0,
+      "PNAM": "2733520125189161033",
+      "NNAM": "16101117361719819313",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "dondos driler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You've recruited some miners and the Shurdan-Raplay Egg Mine should give you some steady income.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 150
+        }
+      ]
+    },
+    "16101117361719819313": {
+      "flag": 0,
+      "PNAM": "143746490177381168",
+      "NNAM": "25168236351934711042",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "dondos driler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "In House Hlaalu, we always have a shortage of egg miners. But this gives us the opportunity to recruit miners from the other Houses. There are usually some unemployed miners in Gnisis and Tel Aruhn. Go to either of these cities and ask around.",
+      "BNAM": "Journal HH_Stronghold 130",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 100
+        }
+      ]
+    },
+    "25168236351934711042": {
+      "flag": 0,
+      "PNAM": "16101117361719819313",
+      "NNAM": "30793285321867813511",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard Ilasour Tansumiran was looking for work. He lives on the north side of Gnisis between the Temple and the mines.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "30793285321867813511": {
+      "flag": 0,
+      "PNAM": "25168236351934711042",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Tel Aruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not know of any egg miners around here. Perhaps the slave trader, Savile Imayn, has one for sale.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

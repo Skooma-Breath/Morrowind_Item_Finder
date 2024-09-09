@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "26206171821649832387": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "12971163431110427628",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, but maybe you can join the Imperial Legion again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "12971163431110427628": {
+      "flag": 0,
+      "PNAM": "26206171821649832387",
+      "NNAM": "13256133222837523490",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The traitor is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_TraitorWarrior",
+          "__TV": 100
+        }
+      ]
+    },
+    "13256133222837523490": {
+      "flag": 0,
+      "PNAM": "12971163431110427628",
+      "NNAM": "266821685363619849",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you already killed Honthjolf? The sooner the better, I suppose. You must have an adventurous spirit to travel to a place like Aharnabi on your own.",
+      "BNAM": "Journal IL_TraitorWarrior 100\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "honthjolf",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IL_TraitorWarrior",
+          "__TV": 0
+        }
+      ]
+    },
+    "266821685363619849": {
+      "flag": 0,
+      "PNAM": "13256133222837523490",
+      "NNAM": "17800272171933632584",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Honthjolf is dead. It is always sad when someone betrays the Legions, but we cannot allow such traitors to live.",
+      "BNAM": "Journal IL_TraitorWarrior 100\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "honthjolf",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_TraitorWarrior",
+          "__TV": 10
+        }
+      ]
+    },
+    "17800272171933632584": {
+      "flag": 0,
+      "PNAM": "266821685363619849",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Frald the White",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Honthjolf was once a member of the Order of Ebonheart. He turned our backs on us and works as a guard for Llarusea Andrethi in Aharnabi, a foul den of sorcerers and Daedra worshippers on the far southeast corner of Azura's coast, near the Shrine of Azura. Find the traitor and kill him.",
+      "BNAM": "Journal IL_TraitorWarrior 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_Courtesy",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2336626427211545337": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2454977152471127391",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Rieklings?  The Snow Elves of legend?  Preposterous.  You see, I believe the Falmer REALLY existed, centuries ago.  They were Elves, just like the Altmer, Dunmer or Bosmer. Then...they just faded away.  They bred with the other Elven races, and ceased to exist as an identifiable culture.  It's very likely that the Falmer are an important part of Elven ancestry.  %PCName, your glass is almost emptttyyyyy....",
+      "BNAM": "player->additem \"potion_cyro_brandy_01\" 1\r\nJournal \"BM_Falmer\" 20\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Falmer",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Falmer",
+          "__TV": 20
+        }
+      ]
+    },
+    "2454977152471127391": {
+      "flag": 0,
+      "PNAM": "2336626427211545337",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The mere suggestion that the Falmer are no more than the Rieklings is ridiculous.  The Falmer WERE a real race, until they intermingled with the other Elven races.  It's quite clear to me that the Falmer are an important piece in the puzzle that is Elven Ancestry.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Falmer",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "63",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

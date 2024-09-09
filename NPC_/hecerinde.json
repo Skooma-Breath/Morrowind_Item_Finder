@@ -1,0 +1,88 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Agent",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_high elf_m_head_04",
+  "KNAM": "b_n_high elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Hecerinde",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16480
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel tanto"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04_b"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 12,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "saintly word",
+    "bound cuirass",
+    "bound helm",
+    "bound gauntlets",
+    "bound boots",
+    "bound shield",
+    "summon ancestral ghost",
+    "shadow weave",
+    "invisibility",
+    "hide",
+    "medusa's gaze",
+    "silence",
+    "dire noise",
+    "wild earwig"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 192,
+    "magicka": 152,
+    "fatigue": 286,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "_garbage2": 0,
+    "gold": 1000,
+    "attributes": [73,76,59,100,76,54,98,40],
+    "skills": [39,7,7,7,7,7,7,7,7,17,17,12,44,44,7,7,17,39,100,66,66,66,66,19,40,66,19]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

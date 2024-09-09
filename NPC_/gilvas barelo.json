@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_04",
+  "MODL": null,
+  "FNAM": "Gilvas Barelo",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 40,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 10485760
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 19,
+    "health": 222,
+    "magicka": 30,
+    "fatigue": 328,
+    "disposition": 50,
+    "reputation": 25,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,61,86,70,51,72,51,40],
+    "skills": [58,44,44,58,58,64,16,16,21,7,59,7,7,7,12,34,34,7,7,7,7,12,17,12,7,7,34]
+  },
+  "AI_": [
+    {
+      "distance": 1,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,60,100,10,0,0,0,0]
+    }
+  ]
+}

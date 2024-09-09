@@ -1,0 +1,99 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Knight",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_10",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Sarayn Sadus",
+  "SCRI": "BILL_MT_WritSadus",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_ring_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "steel_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "steel_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "steel_cuirass"
+    },
+    {
+      "count": 35,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "l_n_wpn_melee"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,10]
+    },
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "Nelvon Radas"
+      },
+      "CNDT": null
+    }
+  ]
+}

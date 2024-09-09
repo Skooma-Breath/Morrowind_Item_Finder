@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 51,
+    "local_var_size": 5
+  },
+  "SCTX": "Begin menhirTelUvirith\r\n\r\nshort test\r\n\r\nset test to GetPCRank \"House Telvanni\"\r\n\r\nif ( test < 9 )\r\n\tDisable\r\nelse\r\n\tEnable\r\nendif\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "test"
+  ],
+  "SCDT": [5,1,115,1,0,22,32,88,12,17,32,100,14,72,111,117,115,101,32,84,101,108,118,97,110,110,105,0,6,1,1,8,32,115,1,0,32,60,32,57,219,16,7,1,1,218,16,9,1,1,1]
+}

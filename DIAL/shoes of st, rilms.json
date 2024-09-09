@@ -1,0 +1,411 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "41531243822222944": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3500247525422821",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I trust that you placed the shoes somewhere for safekeeping?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "shoes of st. rilms",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_RilmsShoes",
+          "__TV": 110
+        }
+      ]
+    },
+    "3500247525422821": {
+      "flag": 0,
+      "PNAM": "41531243822222944",
+      "NNAM": "19843123472424815563",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I gave you the Shoes of St. Rilms. Do you not remember? No, I see that you have them with you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_RilmsShoes",
+          "__TV": 110
+        }
+      ]
+    },
+    "19843123472424815563": {
+      "flag": 0,
+      "PNAM": "3500247525422821",
+      "NNAM": "1145677011254016993",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "As Archcanon you may examine the shoes. I entrust them to your care.",
+      "BNAM": "Journal TT_RilmsShoes 110\r\nRemoveItem \"Shoes of St. Rilms\" 1\r\nPlayer->AddItem \"Shoes of St. Rilms\" 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_RilmsShoes",
+          "__TV": 100
+        }
+      ]
+    },
+    "1145677011254016993": {
+      "flag": 0,
+      "PNAM": "19843123472424815563",
+      "NNAM": "1774174411550615094",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard rumors that you claim to be the Nerevarine. I do not know what to think of these rumors, but I will not give you any duties right now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "1774174411550615094": {
+      "flag": 0,
+      "PNAM": "1145677011254016993",
+      "NNAM": "204787987147084079",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "204787987147084079": {
+      "flag": 0,
+      "PNAM": "1774174411550615094",
+      "NNAM": "3356299751213721194",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You brought me the Shoes of St. Rilms. I assure you they are being well cared for.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_RilmsShoes",
+          "__TV": 100
+        }
+      ]
+    },
+    "3356299751213721194": {
+      "flag": 0,
+      "PNAM": "204787987147084079",
+      "NNAM": "116364879174329937",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. I will make sure they are cared for.",
+      "BNAM": "Journal TT_RilmsShoes 100\r\nPlayer->RemoveItem \"Shoes of St. Rilms\" 1\r\nAddItem \"Shoes of St. Rilms\" 1\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "116364879174329937": {
+      "flag": 0,
+      "PNAM": "3356299751213721194",
+      "NNAM": "320114617757622224",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps you do not understand the importance of this priceless relic.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "320114617757622224": {
+      "flag": 0,
+      "PNAM": "116364879174329937",
+      "NNAM": "2063629758266821600",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are... are those the Shoes of St. Rilms? Have you already recovered them from the depths of Ald Sotha?",
+      "BNAM": "Choice \"Give her the shoess\" 1 \"Keep the shoes.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "shoes of st. rilms",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_RilmsShoes",
+          "__TV": 0
+        }
+      ]
+    },
+    "2063629758266821600": {
+      "flag": 0,
+      "PNAM": "320114617757622224",
+      "NNAM": "31066300861810217199",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, these are the Shoes of St. Rilms. Will you return them to their proper place in the Temple?",
+      "BNAM": "Choice \"Give shoes\" 1 \"Keep shoes\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "shoes of st. rilms",
+          "__TV": 1
+        }
+      ]
+    },
+    "31066300861810217199": {
+      "flag": 0,
+      "PNAM": "2063629758266821600",
+      "NNAM": "32740177071035924759",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Ald Sotha, just northeast of Vivec, and return this sacred relic to the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_RilmsShoes",
+          "__TV": 10
+        }
+      ]
+    },
+    "32740177071035924759": {
+      "flag": 0,
+      "PNAM": "31066300861810217199",
+      "NNAM": "711211223005210331",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 5
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "In a dream, a priest had a vision of the Shoes of St. Rilms lying neglected in the depths of Ald Sotha, just northeast of Vivec. Go to Ald Sotha and, if this is a true vision, return this sacred relic to the Temple. I offer you these potions to aid you in your quest.",
+      "BNAM": "Journal TT_RilmsShoes 10\r\nPlayer->AddItem \"p_heroism_s\" 1\r\nPlayer->AddItem \"p_restore_health_e\" 4\r\nPlayer->AddItem \"p_invisibility_q\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 15
+        }
+      ]
+    },
+    "711211223005210331": {
+      "flag": 0,
+      "PNAM": "32740177071035924759",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "In a dream, a priest had a vision of the Shoes of St. Rilms lying neglected in the depths of Ald Sotha, just northeast of Vivec. Go to Ald Sotha and, if this is a true vision, return this sacred relic to the Temple. Ald Sotha may be too difficult for you, %PCName, but you might make it through with the aid of these potions. In the priests' vision, the shoes were in a chest, behind a statue of Mehrunes Dagon.",
+      "BNAM": "Journal TT_RilmsShoes 10\r\nPlayer->AddItem \"p_heroism_s\" 1\r\nPlayer->AddItem \"p_restore_health_e\" 4\r\nPlayer->AddItem \"p_invisibility_q\" 2",
+      "SCVR": null
+    }
+  }
+}

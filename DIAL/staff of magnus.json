@@ -1,0 +1,490 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "8928285342519022": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "22619316682420711487",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "22619316682420711487": {
+      "flag": 0,
+      "PNAM": "8928285342519022",
+      "NNAM": "32078146102290132692",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Ajira knows you have found the Staff of Magnus. Now Ajira might tell you her other secret.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StaffMagnus",
+          "__TV": 100
+        }
+      ]
+    },
+    "32078146102290132692": {
+      "flag": 0,
+      "PNAM": "22619316682420711487",
+      "NNAM": "6828163781448012332",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Ajira knows you have found the Staff of Magnus. Now Ajira might tell you her other secret.",
+      "BNAM": "Journal MG_StaffMagnus 100\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "staff_magnus_unique",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StaffMagnus",
+          "__TV": 10
+        }
+      ]
+    },
+    "6828163781448012332": {
+      "flag": 0,
+      "PNAM": "32078146102290132692",
+      "NNAM": "16579644373552990",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Have you found the Staff of Magnus? Ajira does not want it for herself. Just bring it to Ajira and let Ajira see it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StaffMagnus",
+          "__TV": 10
+        }
+      ]
+    },
+    "16579644373552990": {
+      "flag": 0,
+      "PNAM": "6828163781448012332",
+      "NNAM": "5835301272052314486",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Ajira knows the Staff of Magnus is in Assu. It is a cave on the slopes of Mount Kand just northwest of Molag Mar.",
+      "BNAM": "Journal MG_StaffMagnus 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StolenReport",
+          "__TV": 100
+        }
+      ]
+    },
+    "5835301272052314486": {
+      "flag": 0,
+      "PNAM": "16579644373552990",
+      "NNAM": "276061280022672315",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Staff of Magnus with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "staff_magnus_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "276061280022672315": {
+      "flag": 0,
+      "PNAM": "5835301272052314486",
+      "NNAM": "4759262131563617077",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!",
+      "BNAM": "SetPCCrimeLevel 120000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "staffmagnus",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "staff_magnus_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "4759262131563617077": {
+      "flag": 0,
+      "PNAM": "276061280022672315",
+      "NNAM": "3016127439222823013",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "staffmagnus",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "staff_magnus_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "3016127439222823013": {
+      "flag": 0,
+      "PNAM": "4759262131563617077",
+      "NNAM": "317139216182319173",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do take good care of it, then.  That staff is one of the most prized artifacts in all of Tamriel.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "317139216182319173": {
+      "flag": 0,
+      "PNAM": "3016127439222823013",
+      "NNAM": "11358108702981723542",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Quite an addition for our collection.  It is one of the oldest artifacts in all of Tamriel, to my knowledge.  Thank you, %PCName.",
+      "BNAM": "set staffmagnus to 2\r\nplayer->removeitem \"staff_magnus_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"staff_magnus_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "staff_magnus_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "11358108702981723542": {
+      "flag": 0,
+      "PNAM": "317139216182319173",
+      "NNAM": "2349517515313386007",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Quite an addition for our collection.  It is one of the oldest artifacts in all of Tamriel, to my knowledge.  Thank you, %PCName.",
+      "BNAM": "set staffmagnus to 2\r\nplayer->removeitem \"staff_magnus_unique\" 1\r\nplayer->additem \"gold_001\" 30000\r\n\"staff_magnus_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "staff_magnus_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "2349517515313386007": {
+      "flag": 0,
+      "PNAM": "11358108702981723542",
+      "NNAM": "572723979410527496",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Staff of Magnus with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "staff_magnus_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "572723979410527496": {
+      "flag": 0,
+      "PNAM": "2349517515313386007",
+      "NNAM": "2634526682162565792",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Staff of Magnus.  Quite a prize, indeed.  Are you willing to part with it? I can offer you 30000 gold in exchange for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "staffmagnus",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "2634526682162565792": {
+      "flag": 0,
+      "PNAM": "572723979410527496",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Staff of Magnus.  Quite a prize, indeed.  Are you willing to part with it? I can offer you 30000 gold in exchange for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "staffmagnus",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

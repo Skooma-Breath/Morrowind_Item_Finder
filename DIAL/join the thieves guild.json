@@ -1,0 +1,616 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "5275104151157219106": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "292531804432634565",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are now a %PCRank in the Thieves Guild. Welcome, sister %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.",
+      "BNAM": "PCJoinFaction \"Thieves Guild\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "292531804432634565": {
+      "flag": 0,
+      "PNAM": "5275104151157219106",
+      "NNAM": "2498952861388531122",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are now a %PCRank in the Thieves Guild. Welcome, brother %PCName. Talk to me when you want some odd jobs to do and when you think you're ready for advancement. If you have a price on your head, there are those you can talk to as well.",
+      "BNAM": "PCJoinFaction \"Thieves Guild\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2498952861388531122": {
+      "flag": 0,
+      "PNAM": "292531804432634565",
+      "NNAM": "2255723662294042287",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just remember there *is* honor among thieves. Do not steal from a brother thief. Everyone else is a mark. Do not attack a brother thief. Do what you will to everyone else. If you have a price on your head, we have ways of taking care of it. If you break these rules, you must speak with one of the Masterminds here in Vvardenfell to regain your good standing. Think you can handle it?",
+      "BNAM": "Choice \"Yes.\" 1 \"No, nevermind.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2255723662294042287": {
+      "flag": 0,
+      "PNAM": "2498952861388531122",
+      "NNAM": "2082524636989628815",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm. Whatever you say, chum. But we'll keep our eyes on you.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2082524636989628815": {
+      "flag": 0,
+      "PNAM": "2255723662294042287",
+      "NNAM": "2791429210669120524",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Got any friends here? Thought not.",
+      "BNAM": "ModDisposition -20\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ExpThievesGuild",
+          "__TV": 1
+        }
+      ]
+    },
+    "2791429210669120524": {
+      "flag": 0,
+      "PNAM": "2082524636989628815",
+      "NNAM": "3222514357912418028",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You really screwed the netch this time, but I may be able to pull some strings... If you make amends.",
+      "BNAM": "moddisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3222514357912418028": {
+      "flag": 0,
+      "PNAM": "2791429210669120524",
+      "NNAM": "2739375643256517662",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're already a %PCRank in the Thieves Guild, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2739375643256517662": {
+      "flag": 0,
+      "PNAM": "3222514357912418028",
+      "NNAM": "87143819197936888",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You look like you may have some skill... You want to join? Or maybe you want to know what we're all about.",
+      "BNAM": "Choice \"Yeah, yeah lemme in.\" 1 \"Hear the rules.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "87143819197936888": {
+      "flag": 0,
+      "PNAM": "2739375643256517662",
+      "NNAM": "1207973371095927775",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We have our standards, %PCRace, and you do not meet them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1207973371095927775": {
+      "flag": 0,
+      "PNAM": "87143819197936888",
+      "NNAM": "190293224615110637",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't you already belong, sister %PCName?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "190293224615110637": {
+      "flag": 0,
+      "PNAM": "1207973371095927775",
+      "NNAM": "28722210552542225114",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't you already belong, brother %PCName?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "28722210552542225114": {
+      "flag": 0,
+      "PNAM": "190293224615110637",
+      "NNAM": "1012427822486532450",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora, Dirty Muriel's Cornerclub",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want Big Helende. She runs this place. Can't miss her.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1012427822486532450": {
+      "flag": 0,
+      "PNAM": "28722210552542225114",
+      "NNAM": "14086255392457720151",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alright, you want to go to Dirty Muriel's and talk with Big Helende. She'll tell you what's what.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "14086255392457720151": {
+      "flag": 0,
+      "PNAM": "1012427822486532450",
+      "NNAM": "2809290792622916185",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald-ruhn, The Rat In The Pot",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aengoth the Jeweler is the mer you want.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "2809290792622916185": {
+      "flag": 0,
+      "PNAM": "14086255392457720151",
+      "NNAM": "1513217763048120821",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": "Ald-ruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, no Thieves Guild here in Ald'ruhn, no ser. But maybe you should check for yourself over at the Rat in the Pot.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1513217763048120821": {
+      "flag": 0,
+      "PNAM": "2809290792622916185",
+      "NNAM": "1537992043127627951",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Balmora, South Wall Cornerclub",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Talk to Sugar-Lips.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1537992043127627951": {
+      "flag": 0,
+      "PNAM": "1513217763048120821",
+      "NNAM": "29105304272092326474",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": "Pelagiad, Halfway Tavern",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tell you what. Why not visit the South Wall Cornerclub in Balmora? Spend some time there, ask around. If people like what they see, maybe you'll learn something.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "29105304272092326474": {
+      "flag": 0,
+      "PNAM": "1537992043127627951",
+      "NNAM": "21008195143051312326",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hm. Maybe we could use you. Why not visit the South Wall Cornerclub? Spend some time there, ask around. Maybe you'll learn something.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "21008195143051312326": {
+      "flag": 0,
+      "PNAM": "29105304272092326474",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Thieves Guild",
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Maybe we could use you. Talk to Gentleman Jim Stacey in Simine Fralinie's shop?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    }
+  }
+}

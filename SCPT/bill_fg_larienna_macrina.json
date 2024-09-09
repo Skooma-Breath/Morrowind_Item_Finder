@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 406,
+    "local_var_size": 41
+  },
+  "SCTX": "begin BILL_FG_Larienna_Macrina\r\n; adventuring behaveour for Larienna\r\n\r\n; script location: should be placed on Larienna Macrina and used to augment\r\n; her behaveour for joint adventuring with the Player during quest FG_Nchurdamz\r\n\r\n;fixed in various ways 03/20\r\n\r\nshort healCompanion\t\t\t; gets set in dialogue topic 'require aid'\r\nshort healCount\t\t\t\t;makes you not get healed over and over\r\nshort questOver\t\t\t\t; gets set in script 'BILL_FG_Hrelvesuu' when the beast dies\r\nshort noLore\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetHealth <= 0 )\r\n\treturn\r\nendif\r\n\r\nif ( healCompanion == 1 )\r\n\tCast \"heal companion\" Player\r\n\tset healCount to ( healCount + 1 )\r\n\tset healCompanion to 0\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\t; when we are killed...\r\n\tif ( GetJournalIndex \"FG_Nchurdamz\" > 0 )\r\n\t\t; ... and if the player is on the quest to protect us...\r\n\t\tJournal \"FG_Nchurdamz\" 60\t\t; blew it\r\n\tendif\r\nendif\r\n\r\nif ( questOver == 1 )\r\n\tSay \"Vo\\Misc\\bill_lariennaend.wav\", \"Larienna: 'Hrelvesuu is vanquished, yet somehow I feel uneasy. I must investigate these ruins further. You have been a worthy companion. Farewell my friend.'\"\r\n \tAIWander 0 0 0 20 20 10 10 0 0 0 40 0\r\n\tset questOver to 0\r\nendif\r\n\r\n\r\nend BILL_FG_Larienna_Macrina",
+  "SCVR": [
+    "healCompanion",
+    "healCount",
+    "questOver",
+    "noLore"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,88,140,16,32,60,61,32,48,36,1,9,1,6,1,3,9,32,115,1,0,32,61,61,32,49,35,17,14,104,101,97,108,32,99,111,109,112,97,110,105,111,110,6,80,108,97,121,101,114,5,1,115,2,0,8,32,115,2,0,32,49,32,43,5,1,115,1,0,2,32,48,9,1,6,1,3,9,32,88,240,16,32,61,61,32,49,6,1,1,23,32,88,205,16,32,100,12,70,71,95,78,99,104,117,114,100,97,109,122,32,62,32,48,204,16,12,70,71,95,78,99,104,117,114,100,97,109,122,60,0,255,255,9,1,9,1,6,1,3,9,32,115,3,0,32,61,61,32,49,27,17,28,86,111,92,77,105,115,99,92,98,105,108,108,95,108,97,114,105,101,110,110,97,101,110,100,46,119,97,118,157,0,76,97,114,105,101,110,110,97,58,32,39,72,114,101,108,118,101,115,117,117,32,105,115,32,118,97,110,113,117,105,115,104,101,100,44,32,121,101,116,32,115,111,109,101,104,111,119,32,73,32,102,101,101,108,32,117,110,101,97,115,121,46,32,73,32,109,117,115,116,32,105,110,118,101,115,116,105,103,97,116,101,32,116,104,101,115,101,32,114,117,105,110,115,32,102,117,114,116,104,101,114,46,32,89,111,117,32,104,97,118,101,32,98,101,101,110,32,97,32,119,111,114,116,104,121,32,99,111,109,112,97,110,105,111,110,46,32,70,97,114,101,119,101,108,108,32,109,121,32,102,114,105,101,110,100,46,39,249,16,0,0,0,0,0,0,0,0,0,0,0,0,8,0,20,0,10,0,10,0,0,0,0,0,0,0,40,0,0,0,2,5,1,115,3,0,2,32,48,9,1,1,1]
+}

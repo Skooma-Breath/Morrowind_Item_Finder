@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Healer Service",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_03",
+  "KNAM": "b_n_argonian_m_hair03",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Only-He-Stands-There",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 26640
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_02_a"
+    },
+    {
+      "count": 1,
+      "name": "bk_ConsolationsOfPrayer"
+    },
+    {
+      "count": 1,
+      "name": "sc_daydenespanacea"
+    }
+  ],
+  "NPCS": [
+    "dire weary",
+    "great feather",
+    "second barrier",
+    "strong reflect",
+    "strong spelldrinker",
+    "wild spelldrinker",
+    "absorb fatigue",
+    "energy leech",
+    "absorb speed [ranged]",
+    "feet of notorgo",
+    "shield of the armiger",
+    "vivec's mercy",
+    "great resist corprus disease",
+    "strong resist corprus disease",
+    "daedric health"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 82,
+    "magicka": 106,
+    "fatigue": 234,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [56,53,78,63,73,37,60,40],
+    "skills": [6,6,11,6,27,6,6,11,21,17,17,53,43,17,58,53,43,43,6,6,6,27,6,6,10,42,42]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

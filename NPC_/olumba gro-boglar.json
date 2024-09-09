@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Monk Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_orc_m_head_03",
+  "KNAM": "b_n_orc_m_hair_03",
+  "MODL": null,
+  "FNAM": "Olumba gro-Boglar",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "divine judgement silver staff"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": 25,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 90,
+    "magicka": 72,
+    "fatigue": 251,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [62,36,69,65,56,55,35,40],
+    "skills": [33,16,16,16,23,6,11,6,38,6,6,6,6,6,6,23,6,38,15,47,47,32,15,32,10,15,47]
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

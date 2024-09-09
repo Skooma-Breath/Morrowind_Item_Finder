@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Agent",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_imperial_m_head_03",
+  "KNAM": "b_n_imperial_m_hair_02",
+  "MODL": null,
+  "FNAM": "Silius Fulcinius",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "fiend tanto"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_tt"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boiled_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "dust_adept_helm"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 81,
+    "magicka": 98,
+    "fatigue": 197,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [54,49,36,62,55,45,76,40],
+    "skills": [23,6,6,6,11,16,6,6,6,6,6,6,23,23,6,6,6,23,15,47,47,52,47,15,10,57,20]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

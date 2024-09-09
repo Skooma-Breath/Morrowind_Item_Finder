@@ -1,0 +1,324 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "212731722754717191": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "555269681678010982",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I suppose there's nothing more to say about this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_Apologies",
+          "__TV": 110
+        }
+      ]
+    },
+    "555269681678010982": {
+      "flag": 0,
+      "PNAM": "212731722754717191",
+      "NNAM": "7668540395945674",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see all is forgiven. He gave you something for me? Excellent. I'm feeling better already. Since you did such a good job, here's an extra 50 gold.",
+      "BNAM": "Player->RemoveItem \"p_cure_common_unique\" 1\r\nPlayer->AddItem \"Gold_001\" 100\r\nAddItem \"p_cure_common_unique\" 1\r\nRemoveItem \"Gold_001\" 100\r\nModDisposition 10\r\nJournal MS_Apologies 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Apologies",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MS_Apologies",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_cure_common_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "7668540395945674": {
+      "flag": 0,
+      "PNAM": "555269681678010982",
+      "NNAM": "15506300582587925179",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "trebonius artorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This book is from Tarer? Well, it's about time he learned some humility. I'm touched by the gesture nonetheless.  Here's something for that rash of his, and a little something for you.",
+      "BNAM": "Journal MS_Apologies 10\r\nPlayer->RemoveItem \"bk_Aedra_Tarer_Unique\" 1\r\nAdditem \"bk_Aedra_Tarer_Unique\" 1\r\nPlayer-> AddItem \"P_Levitation_E\" 1 \r\nPlayer->AddItem \"p_cure_common_unique\" 1\r\nModDisposition 10\r\nJournal MS_Apologies 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Apologies",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_Aedra_Tarer_Unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "15506300582587925179": {
+      "flag": 0,
+      "PNAM": "7668540395945674",
+      "NNAM": "10281264153056623114",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't have anything more to say about that.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_Apologies",
+          "__TV": 7
+        }
+      ]
+    },
+    "10281264153056623114": {
+      "flag": 0,
+      "PNAM": "15506300582587925179",
+      "NNAM": "27869415257855512",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Trebonius is dead? Oh...this is rash is going to last a while.",
+      "BNAM": "ModDisposition -10\r\nJournal MS_Apologies 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "p_cure_common_unique",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_Apologies",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "trebonius artorius",
+          "__TV": 0
+        }
+      ]
+    },
+    "27869415257855512": {
+      "flag": 0,
+      "PNAM": "10281264153056623114",
+      "NNAM": "2952021996223231169",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, %PCName,  I thought you said you were going to help. I won't pay for a favor not done.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "p_cure_common_unique",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_Apologies",
+          "__TV": 5
+        }
+      ]
+    },
+    "2952021996223231169": {
+      "flag": 0,
+      "PNAM": "27869415257855512",
+      "NNAM": "3682258062850715304",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm... well, suit yourself. I'm sure it will go away on its own.",
+      "BNAM": "Journal MS_Apologies 7\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3682258062850715304": {
+      "flag": 0,
+      "PNAM": "2952021996223231169",
+      "NNAM": "1359219556106738155",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Take this book to him, and tell him I'm truly sorry. You'll find him in the Mage's Guild here in Vivec. He's a rather powerful wizard, as I've learned.",
+      "BNAM": "Journal MS_Apologies 5\r\nPlayer->AddItem \"bk_Aedra_Tarer_Unique\" 1\r\nRemoveItem \"bk_Aedra_tarer_unique\" 1",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1359219556106738155": {
+      "flag": 0,
+      "PNAM": "3682258062850715304",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tarer braryn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm afraid I was rather drunk last night when I ran into Trebonius Artorius, that arrogant fool. It seems that the drink took over my tongue, and I called him a Flat-Head. Now I have a horrid rash. No matter what I do, now matter how many potions I use or spells I cast, it won't go away. I've tried everything! If you give him my most sincere apologies, maybe he'll make it go away. I'd do it myself but I'm feeling a little under the weather. I'll pay you 50 gold for your trouble.",
+      "BNAM": "Journal MS_Apologies 1\r\nChoice \"Sure, why not?\" 1 \"I've got troubles enough of my own, thanks\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MS_Apologies",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1504219359159859529": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "83172224776130996",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take the Silt Strider to Gnisis and follow the roads north. I will mark Ald Velothi on your map.",
+      "BNAM": "ShowMap \"Ald Velothi\"",
+      "SCVR": null
+    },
+    "83172224776130996": {
+      "flag": 0,
+      "PNAM": "1504219359159859529",
+      "NNAM": "25775321811386017905",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's a long walk. I'd suggest taking the Silt Strider to Gnisis and making the journey from there. Ald Velothi is directly north of Gnisis.",
+      "BNAM": "Journal HR_Courier 20\r\nShowMap \"Ald Velothi\"",
+      "SCVR": null
+    },
+    "25775321811386017905": {
+      "flag": 0,
+      "PNAM": "83172224776130996",
+      "NNAM": "2721280103160417875",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm glad to be back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "MaduraRescued",
+          "__TV": 0
+        }
+      ]
+    },
+    "2721280103160417875": {
+      "flag": 0,
+      "PNAM": "25775321811386017905",
+      "NNAM": "12458975367589918",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "madura seran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Please, get me back to the Outpost there.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "MaduraRescued",
+          "__TV": 0
+        }
+      ]
+    },
+    "12458975367589918": {
+      "flag": 0,
+      "PNAM": "2721280103160417875",
+      "NNAM": "3273610796110562094",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald Velothi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "People seem at ease now that Madura Seran has returned.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "MaduraRescued",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "3273610796110562094": {
+      "flag": 0,
+      "PNAM": "12458975367589918",
+      "NNAM": "492167021401522768",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald Velothi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's been quiet. I think everyone is concerned those outcast ashlanders will kidnap more people. Didn't you hear? They took Madura Seran! She was but a simple pilgrim. Someone needs to rescue her.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "MaduraRescued",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "492167021401522768": {
+      "flag": 0,
+      "PNAM": "3273610796110562094",
+      "NNAM": "3192894061831425063",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald Velothi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's a simple place. Theldyn Virith is the local Redoran sheriff lives at the outpost, and there's a Redoran smith and trader as well, and a small Temple shrine in the outpost basement.",
+      "BNAM": ";Ald Velothi;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "3192894061831425063": {
+      "flag": 0,
+      "PNAM": "492167021401522768",
+      "NNAM": "2330463402488313767",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's directly north of here, along the coast.",
+      "BNAM": "ShowMap \"Ald Velothi\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2330463402488313767": {
+      "flag": 0,
+      "PNAM": "3192894061831425063",
+      "NNAM": "6750279031060810545",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ald Velothi is a tiny fishing village on the northern coast of the West Gash.",
+      "BNAM": "ShowMap \"Ald Velothi\"\r\n;scout; savant;",
+      "SCVR": null
+    },
+    "6750279031060810545": {
+      "flag": 0,
+      "PNAM": "2330463402488313767",
+      "NNAM": "83839597296171218",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ald Velothi is a tiny fishing village on the northern coast of the West Gash.",
+      "BNAM": "ShowMap \"Ald Velothi\"\r\n;scout; savant;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "83839597296171218": {
+      "flag": 0,
+      "PNAM": "6750279031060810545",
+      "NNAM": "210788412704022021",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ald Velothi is a tiny fishing village on the northern coast of the West Gash.",
+      "BNAM": "ShowMap \"Ald Velothi\"\r\n;scout; savant;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "210788412704022021": {
+      "flag": 0,
+      "PNAM": "83839597296171218",
+      "NNAM": "18414221691261629435",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ald Velothi is a tiny fishing village on the northern coast of the West Gash.",
+      "BNAM": "ShowMap \"Ald Velothi\"\r\n;scout; savant;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "18414221691261629435": {
+      "flag": 0,
+      "PNAM": "210788412704022021",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Ald Velothi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ald Velothi is a tiny fishing village on the northern coast of the West Gash.",
+      "BNAM": "ShowMap \"Ald Velothi\"\r\n;scout; savant;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

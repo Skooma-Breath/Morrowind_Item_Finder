@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\SphereArcher.NIF",
+  "FLAG": 2124,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [90,50,50,70,16,50,25,50],
+    "health": 300,
+    "magicka": 20,
+    "fatigue": 400,
+    "soul_strength": 0,
+    "combat_skill": 90,
+    "magic_skill": 50,
+    "stealth_skill": 90,
+    "attacks": [
+      [10,10],
+      [10,10],
+      [10,10]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "centurion_projectile",
+  "FNAM": "Centurion Archer",
+  "SCRI": "replenishammoShock",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_scrap_metal"
+    }
+  ],
+  "NPCS": [
+    "resist poison_75",
+    "resist paralysis_100",
+    "immune to shock"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "centurion_steam_C_L"
+      },
+      "CNDT": null
+    }
+  ]
+}

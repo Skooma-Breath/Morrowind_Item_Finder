@@ -1,0 +1,62 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Almelexia.NIF",
+  "FLAG": 204,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 100,
+    "attributes": [100,100,100,100,80,100,100,100],
+    "health": 3000,
+    "magicka": 1500,
+    "fatigue": 1500,
+    "soul_strength": 1500,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 100,
+    "attacks": [
+      [100,100],
+      [100,100],
+      [100,100]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 50,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Almalexia",
+  "SCRI": "almaScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "Sword of Almalexia"
+    }
+  ],
+  "NPCS": [
+    "almalexia's wrath",
+    "immune to disease",
+    "immune to fire",
+    "immune to normal weapons",
+    "immune to poison",
+    "resist frost_50",
+    "resist magicka_50",
+    "resist paralysis_100",
+    "resist shock_50",
+    "regenerate [ability]"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,0,0,0,0,0,0]
+    }
+  ]
+}

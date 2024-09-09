@@ -1,0 +1,186 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3178932552617118048": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "250507164541925610",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Up to you. I'll be here if you need me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "250507164541925610": {
+      "flag": 0,
+      "PNAM": "3178932552617118048",
+      "NNAM": "484311056140511865",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sounds good. Let's go get 'em. Saenus will have to run those other errands that Captain Carius had for us to do. I'm ready for some action.",
+      "BNAM": "Journal BM_Smugglers 35\r\nset artoriachosen to 1\r\n\"saenus lusius\"->Disable\r\nAiFollow Player 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "484311056140511865": {
+      "flag": 0,
+      "PNAM": "250507164541925610",
+      "NNAM": "3736213661007417010",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeah, Cap'n said something about some smugglers. Wanna go crack some skulls?",
+      "BNAM": "Choice \"I would like you to work with me.\" 3 \"I am not sure with whom I will work.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Smugglers",
+          "__TV": 30
+        }
+      ]
+    },
+    "3736213661007417010": {
+      "flag": 0,
+      "PNAM": "484311056140511865",
+      "NNAM": "1379215723152159737",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. If you change your mind, please let me know.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1379215723152159737": {
+      "flag": 0,
+      "PNAM": "3736213661007417010",
+      "NNAM": "29269206844150370",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Gaea Artoria will have to perform the other tasks that Captain Carius had for me today, but no matter. Let us find these scoundrels!",
+      "BNAM": "Journal BM_Smugglers 30\r\nset luciuschosen to 1\r\n\"gaea artoria\"->Disable\r\nAiFollow Player 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "29269206844150370": {
+      "flag": 0,
+      "PNAM": "1379215723152159737",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah yes, this smuggling ring. Captain Carius mentioned something about that. I would be glad to help. Though I'm admittedly not the most handy with my blade, I believe I can help guide you through this conundrum.",
+      "BNAM": "Choice \"I would like you to work with me.\" 1 \"I am not sure with whom I will work.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Smugglers",
+          "__TV": 30
+        }
+      ]
+    }
+  }
+}

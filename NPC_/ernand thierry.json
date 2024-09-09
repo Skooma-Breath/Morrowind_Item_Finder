@@ -1,0 +1,118 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Breton",
+  "CNAM": "Alchemist Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_breton_m_head_02",
+  "KNAM": "b_n_breton_m_hair_02",
+  "MODL": null,
+  "FNAM": "Ernand Thierry",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_belt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_spore_pod"
+    },
+    {
+      "count": -5,
+      "name": "ingred_russula_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_coprinus_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_ampoule_pod"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_coda_flower"
+    },
+    {
+      "count": -5,
+      "name": "ingred_corkbulb_root_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_alit_hide_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_alembic_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_calcinator_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_retort_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_mortar_01"
+    }
+  ],
+  "NPCS": [
+    "weary",
+    "tinur's hoptoad",
+    "summon greater bonewalker",
+    "summon least bonewalker",
+    "summon scamp",
+    "commanding touch",
+    "reflect",
+    "sotha's mirror",
+    "weak spelldrinker",
+    "wild spelldrinker",
+    "vivec's feast",
+    "summon skeletal minion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 66,
+    "magicka": 172,
+    "fatigue": 193,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [50,86,69,39,41,35,47,50],
+    "skills": [23,6,6,6,23,6,6,6,6,47,15,52,20,57,57,25,52,32,6,6,6,6,6,6,10,23,23]
+  },
+  "AI_": [
+    {
+      "distance": 56,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

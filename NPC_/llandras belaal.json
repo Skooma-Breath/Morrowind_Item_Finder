@@ -1,0 +1,108 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_09",
+  "KNAM": "b_n_dark elf_m_hair_19",
+  "MODL": null,
+  "FNAM": "Llandras Belaal",
+  "SCRI": "sleeperScript",
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "NPCO": [
+    {
+      "count": 100,
+      "name": "iron arrow"
+    },
+    {
+      "count": 1,
+      "name": "long bow"
+    },
+    {
+      "count": 1,
+      "name": "steel dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer right"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 3,
+      "name": "food_kwama_egg_02"
+    },
+    {
+      "count": 1,
+      "name": "ingred_saltrice_01"
+    },
+    {
+      "count": 1,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": 1,
+      "name": "ingred_kwama_cuttle_01"
+    },
+    {
+      "count": 1,
+      "name": "torch"
+    },
+    {
+      "count": 236,
+      "name": "Gold_001"
+    },
+    {
+      "count": 1,
+      "name": "hammer_repair"
+    }
+  ],
+  "NPCS": [
+    "test_spell",
+    "fireball"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 68,
+    "magicka": 36,
+    "fatigue": 193,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [45,72,46,56,46,46,34,40],
+    "skills": [6,6,20,20,6,6,6,6,6,38,38,42,28,48,48,18,13,8,6,6,6,6,20,40,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 2000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

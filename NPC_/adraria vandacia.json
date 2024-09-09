@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Imperial",
+  "CNAM": "Agent",
+  "ANAM": "Census and Excise",
+  "BNAM": "b_n_imperial_f_head_05",
+  "KNAM": "b_n_imperial_f_hair_01",
+  "MODL": null,
+  "FNAM": "Adraria Vandacia",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "blessed touch",
+    "holy touch",
+    "holy word",
+    "frenzy creature",
+    "frenzy humanoid",
+    "chameleon",
+    "shadow form",
+    "light",
+    "spider touch",
+    "sanctuary",
+    "father's hand",
+    "sotha's grace",
+    "noise",
+    "cruel noise",
+    "earwig"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 11,
+    "health": 98,
+    "magicka": 102,
+    "fatigue": 219,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [58,51,48,67,49,46,80,40],
+    "skills": [25,6,6,6,11,16,6,6,6,6,6,6,25,25,6,6,6,25,11,45,45,50,45,11,10,55,16]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

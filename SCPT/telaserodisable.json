@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 128,
+    "local_var_size": 17
+  },
+  "SCTX": "Begin telaseroDisable\r\n\r\nshort telenable\r\nshort nolore\r\n\r\nif ( telenable == -1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex FG_Telasero < 10 )\r\n\tif ( GetDisabled == 0 )\r\n\t\tDisable\r\n\tendif\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex FG_Telasero >= 10 )\r\n\tif ( GetDisabled == 1 )\r\n\t\tEnable\r\n\t\tset telenable to -1\r\n\tendif\r\nendif\r\n\r\nEnd telaseroDisable",
+  "SCVR": [
+    "telenable",
+    "nolore"
+  ],
+  "SCDT": [6,1,1,10,32,115,1,0,32,61,61,32,45,49,36,1,9,1,6,1,4,23,32,88,205,16,32,100,11,70,71,95,84,101,108,97,115,101,114,111,32,60,32,49,48,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,36,1,9,1,6,1,4,24,32,88,205,16,32,100,11,70,71,95,84,101,108,97,115,101,114,111,32,62,61,32,49,48,6,1,2,9,32,88,220,16,32,61,61,32,49,218,16,5,1,115,1,0,7,32,45,49,32,49,32,42,9,1,9,1,1,1]
+}

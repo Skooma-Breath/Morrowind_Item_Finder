@@ -1,0 +1,163 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "12942106023022017709": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "156171272864323892",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fargoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for finding it! Those guards better look out.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "state",
+          "__TV": 65535
+        }
+      ]
+    },
+    "156171272864323892": {
+      "flag": 0,
+      "PNAM": "12942106023022017709",
+      "NNAM": "158791326429969956",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fargoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Darn. Well if you see it let me know. It's an Engraved Ring of Healing. I know it's in there somewhere.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "158791326429969956": {
+      "flag": 0,
+      "PNAM": "156171272864323892",
+      "NNAM": "3245423813243151497",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fargoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's not it! Don't mess with me, I don't like that. If you really find it, let me know.",
+      "BNAM": "moddisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ring_keley",
+          "__TV": 0
+        }
+      ]
+    },
+    "3245423813243151497": {
+      "flag": 0,
+      "PNAM": "158791326429969956",
+      "NNAM": "2507536232473510507",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fargoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You found it! Amazing! Thank you, thank you! You are now my favorite friend. I'll be sure to tell the others, especially my friend Arrille who runs the tradehouse here. Go see him, he'll be happy to see you now!",
+      "BNAM": "Journal MS_FargothRing 100\r\nadditem \"ring_keley\" 1\r\nplayer->removeitem \"ring_keley\" 1\r\nset state to -1\r\nmoddisposition 50\r\n\"arrille\"->moddisposition 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ring_keley",
+          "__TV": 0
+        }
+      ]
+    },
+    "2507536232473510507": {
+      "flag": 0,
+      "PNAM": "3245423813243151497",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fargoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I swear one of the Guards has it. I had it last week before their weekly \"Let's shake down Fargoth\" ritual. An engraved healing ring, family heirloom of mine. You haven't seen it have you?",
+      "BNAM": "Journal MS_FargothRing 10\r\nchoice \"Uhhh. No, sorry. No ring.\" 1 \"Yes, I found it! Here take it.\" 2",
+      "SCVR": null
+    }
+  }
+}

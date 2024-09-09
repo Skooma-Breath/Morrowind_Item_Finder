@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "164191972610637287": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1575397162787810533",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eraldil",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He wishes to apologize? How very noble. But, at least he sent a gift along, which is certainly appropriate. Well, I'm sure I'll have use for it sometime, although it's probably not even of good quality.",
+      "BNAM": "Journal \"EB_Unrequited\" 90\r\nPlayer->RemoveItem \"p_lovepotion_unique\" 1\r\nAddItem \"p_lovepotion_unique\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Unrequited",
+          "__TV": 70
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_lovepotion_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "1575397162787810533": {
+      "flag": 0,
+      "PNAM": "164191972610637287",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gadayn andarys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I'm sure she'll accept my apologies...and the potion of course.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Unrequited",
+          "__TV": 90
+        }
+      ]
+    }
+  }
+}

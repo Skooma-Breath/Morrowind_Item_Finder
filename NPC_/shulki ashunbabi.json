@@ -1,0 +1,95 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_04",
+  "KNAM": "b_n_dark elf_f_hair_11",
+  "MODL": null,
+  "FNAM": "Shulki Ashunbabi",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": -25,
+      "name": "iron bolt"
+    },
+    {
+      "count": -50,
+      "name": "iron arrow"
+    },
+    {
+      "count": -30,
+      "name": "chitin throwing star"
+    },
+    {
+      "count": 1,
+      "name": "expensive_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_belt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_t"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "almalexia's grace",
+    "divine intervention",
+    "soul trap",
+    "telekinesis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 6,
+    "health": 70,
+    "magicka": 96,
+    "fatigue": 179,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [58,48,38,50,57,33,61,40],
+    "skills": [28,13,13,13,28,18,13,13,18,6,16,6,6,6,40,6,6,26,35,35,20,10,16,10,25,35,20]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

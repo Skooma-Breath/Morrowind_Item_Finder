@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 3,
+    "attributes": [40,40,40,40,50,40,40,40],
+    "health": 30,
+    "magicka": 20,
+    "fatigue": 1000,
+    "soul_strength": 10,
+    "combat_skill": 30,
+    "magic_skill": 70,
+    "stealth_skill": 10,
+    "attacks": [
+      [1,8],
+      [1,8],
+      [1,8]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Crippled Skeleton",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron_shield"
+    },
+    {
+      "count": 1,
+      "name": "random_bonemeal"
+    },
+    {
+      "count": 1,
+      "name": "random_iron_weapon"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "resist shock_50",
+    "immune to frost"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

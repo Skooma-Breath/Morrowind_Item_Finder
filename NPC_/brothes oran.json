@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Agent",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Brothes Oran",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_c"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 5,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 60,
+    "magicka": 88,
+    "fatigue": 183,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [47,44,33,61,58,42,48,40],
+    "skills": [19,5,5,5,5,10,5,5,10,5,15,5,19,19,10,5,5,19,12,41,41,46,51,17,15,41,12]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1637710799869521443": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2743427227343412324",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've broken the rules of House Hlaalu, sweetie. It brings tears to my eyes when I think about your disloyalty. Maybe you can make amends and make everything better.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2743427227343412324": {
+      "flag": 0,
+      "PNAM": "1637710799869521443",
+      "NNAM": "71413960226223402",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You never disappoint me, pudding pie.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DestroyIndarysManor",
+          "__TV": 100
+        }
+      ]
+    },
+    "71413960226223402": {
+      "flag": 0,
+      "PNAM": "2743427227343412324",
+      "NNAM": "2290211391722619531",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh? Banden Indarys is already dead? Well, then, please accept these 1000 drakes from House Hlaalu.",
+      "BNAM": "Journal HH_DestroyIndarysManor 100\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 10 \"Hlaalu\"\r\nModDisposition 20\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "banden indarys",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HH_DestroyIndarysManor",
+          "__TV": 0
+        }
+      ]
+    },
+    "2290211391722619531": {
+      "flag": 0,
+      "PNAM": "71413960226223402",
+      "NNAM": "478166382114232658",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Indarys Manor is no more? Good work, %PCName. Please take these 1000 drakes from House Hlaalu.",
+      "BNAM": "Journal HH_DestroyIndarysManor 100\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 10 \"Hlaalu\"\r\nModDisposition 20\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "banden indarys",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DestroyIndarysManor",
+          "__TV": 10
+        }
+      ]
+    },
+    "478166382114232658": {
+      "flag": 0,
+      "PNAM": "2290211391722619531",
+      "NNAM": "2866735503117516703",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Redoran also has an unchartered stronghold. The Redoran Stronghold of Indarys Manor is on the east side of the road from Ald'ruhn to Maar Gan in a place called the Bal Isra. Go there and kill the master of the stronghold, Banden Indarys. I know you will not disapoint me, pudding.",
+      "BNAM": "Journal HH_DestroyIndarysManor 10\r\nShowMap \"Bal Isra\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 100
+        }
+      ]
+    },
+    "2866735503117516703": {
+      "flag": 0,
+      "PNAM": "478166382114232658",
+      "NNAM": "3078511401174710666",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Indarys Manor has no leader. The Redorans have been defeated.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_AttackIndarys",
+          "__TV": 100
+        }
+      ]
+    },
+    "3078511401174710666": {
+      "flag": 0,
+      "PNAM": "2866735503117516703",
+      "NNAM": "1436280762784821358",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Banden Indarys is already dead? The Redorans will not be so hasty to expand their territory now. You have done well, %PCName.",
+      "BNAM": "Journal HT_AttackIndarys 100\r\nModPCFacRep 10 \"Telvanni\"\r\nModDisposition 10\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "banden indarys",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HT_AttackIndarys",
+          "__TV": 0
+        }
+      ]
+    },
+    "1436280762784821358": {
+      "flag": 0,
+      "PNAM": "3078511401174710666",
+      "NNAM": "15408132141702522054",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "So Banden Indarys is dead. The Redorans will not be so hasty to expand their territory now. You have done well, %PCName.",
+      "BNAM": "Journal HT_AttackIndarys 100\r\nModPCFacRep 10 \"Telvanni\"\r\nModDisposition 10\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "banden indarys",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_AttackIndarys",
+          "__TV": 10
+        }
+      ]
+    },
+    "15408132141702522054": {
+      "flag": 0,
+      "PNAM": "1436280762784821358",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Indarys Manor is built in the Bal Isra, named after the rows of stones there. You can find it on the road from Ald'ruhn to Maar Gan. Go there and slay the Redoran Banden Indarys.",
+      "BNAM": "Journal HT_AttackIndarys 10\r\nShowMap \"Bal Isra\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_AttackRethan",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

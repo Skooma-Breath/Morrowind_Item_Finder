@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AshGhoul.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 3,
+    "level": 15,
+    "attributes": [100,100,100,100,30,100,100,100],
+    "health": 220,
+    "magicka": 280,
+    "fatigue": 400,
+    "soul_strength": 250,
+    "combat_skill": 70,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [15,45],
+      [15,45],
+      [15,45]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": null,
+  "FNAM": "Ash Ghoul",
+  "SCRI": "diseaseAshWoe",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_ash_salts"
+    }
+  ],
+  "NPCS": [
+    "ash woe blight",
+    "first barrier",
+    "earwig",
+    "spark",
+    "reflect_20"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

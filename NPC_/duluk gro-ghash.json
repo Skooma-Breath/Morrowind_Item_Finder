@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Orc",
+  "CNAM": "Barbarian",
+  "ANAM": "",
+  "BNAM": "B_N_Orc_M_Head_04",
+  "KNAM": "b_n_orc_m_hair_02",
+  "MODL": null,
+  "FNAM": "Duluk gro-Ghash",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "orcish battle axe"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boiled_cuirass"
+    },
+    {
+      "count": 100,
+      "name": "random gold"
+    },
+    {
+      "count": 17,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

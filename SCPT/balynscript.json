@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 254,
+    "local_var_size": 13
+  },
+  "SCTX": "Begin balynScript\r\n\r\nfloat timer\r\nshort doOnce\r\n\r\nif ( GetJournalIndex \"DA_Mephala\" < 40 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex DA_Mephala >= 60 )\r\n\tReturn\r\nendif\r\n\r\nSet timer to ( timer + GetSecondsPassed )\r\n\r\nif ( timer < 5 )\r\n\tReturn\r\nendif\r\n\r\nSet timer to 0\r\n\r\nif ( doOnce == 0 )\r\n\tif ( GetDistance Player <= 1024 )\r\n\t\tif ( player->GetDistance \"hlaalu_loaddoor_ 02_balyn\" <=256 )\r\n\t\t\tif ( GetLOS Player == 1 )\r\n\t\t\t\tForceGreeting\r\n\t\t\t\tJournal DA_Mephala 55\r\n\t\t\t\tset doOnce to -1\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "doOnce",
+    "timer"
+  ],
+  "SCDT": [6,1,1,22,32,88,205,16,32,100,10,68,65,95,77,101,112,104,97,108,97,32,60,32,52,48,36,1,9,1,6,1,1,23,32,88,205,16,32,100,10,68,65,95,77,101,112,104,97,108,97,32,62,61,32,54,48,36,1,9,1,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,1,8,32,102,1,0,32,60,32,53,36,1,9,1,5,1,102,1,0,2,32,48,6,1,9,9,32,115,1,0,32,61,61,32,48,6,1,7,21,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,49,48,50,52,12,1,6,112,108,97,121,101,114,6,1,5,38,32,88,1,16,32,114,25,104,108,97,97,108,117,95,108,111,97,100,100,111,111,114,95,32,48,50,95,98,97,108,121,110,32,60,61,50,53,54,6,1,3,18,32,88,252,16,32,114,6,80,108,97,121,101,114,32,61,61,32,49,232,16,204,16,10,68,65,95,77,101,112,104,97,108,97,55,0,255,255,5,1,115,1,0,7,32,45,49,32,49,32,42,9,1,9,1,9,1,9,1,1,1]
+}

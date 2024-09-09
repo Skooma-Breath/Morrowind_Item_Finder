@@ -1,0 +1,228 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "145783453542027234": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "20346204972850912813",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulyne henim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Daris Adram has met our justice. There is no need to fight together any more.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "daris adram",
+          "__TV": 1
+        }
+      ]
+    },
+    "20346204972850912813": {
+      "flag": 0,
+      "PNAM": "145783453542027234",
+      "NNAM": "14303183551984930906",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulyne henim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will fight by your side.",
+      "BNAM": ";below may need to be adjusted. I was told all zeros was \"follow forever\"\r\nJournal FG_Vas 50\r\nAiFollow Player 0 0 0 0 0 0 0 0 0",
+      "SCVR": null
+    },
+    "14303183551984930906": {
+      "flag": 0,
+      "PNAM": "20346204972850912813",
+      "NNAM": "19808204903220023708",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulyne henim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will wait here for you.",
+      "BNAM": "AiWander 128 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": null
+    },
+    "19808204903220023708": {
+      "flag": 0,
+      "PNAM": "14303183551984930906",
+      "NNAM": "16742267121877231535",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulyne henim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall I wait here for you?",
+      "BNAM": "Choice \"No, we fight together\" 1 \"Yes, wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 1
+        }
+      ]
+    },
+    "16742267121877231535": {
+      "flag": 0,
+      "PNAM": "19808204903220023708",
+      "NNAM": "28245263682091225442",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulyne henim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shall we bring justice to the foul Necromancer Daris Adram?",
+      "BNAM": "Choice \"Yes, we fight together\" 1 \"No, wait here\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "followNow",
+          "__TV": 0
+        }
+      ]
+    },
+    "28245263682091225442": {
+      "flag": 0,
+      "PNAM": "16742267121877231535",
+      "NNAM": "1612516822937913517",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjorgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just lead the way, %PCName.",
+      "BNAM": "Journal HH_Stronghold 250\r\nAiFollow Player 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1612516822937913517": {
+      "flag": 0,
+      "PNAM": "28245263682091225442",
+      "NNAM": "1522026081463327988",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjorgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So, I'm to guard right here, eh? You can count on me.",
+      "BNAM": "AiWander 0 0 0 10 10 10 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1522026081463327988": {
+      "flag": 0,
+      "PNAM": "1612516822937913517",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjorgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aye. I'll fight by your side until your gold runs dry.",
+      "BNAM": "Choice \"Guard this spot.\" 2 \"Fight with me.\" 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 200
+        }
+      ]
+    }
+  }
+}

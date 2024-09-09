@@ -1,0 +1,107 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Redguard",
+  "CNAM": "Trader Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_redguard_m_head_05",
+  "KNAM": "b_n_redguard_m_hair_03",
+  "MODL": null,
+  "FNAM": "Kaye",
+  "SCRI": "WaitOneDay",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": -50,
+      "name": "steel bolt"
+    },
+    {
+      "count": -150,
+      "name": "iron arrow"
+    },
+    {
+      "count": -75,
+      "name": "steel arrow"
+    },
+    {
+      "count": 1,
+      "name": "steel crossbow"
+    },
+    {
+      "count": 1,
+      "name": "steel axe"
+    },
+    {
+      "count": 1,
+      "name": "steel spear"
+    },
+    {
+      "count": 1,
+      "name": "steel halberd"
+    },
+    {
+      "count": 2,
+      "name": "steel warhammer"
+    },
+    {
+      "count": 1,
+      "name": "steel claymore"
+    },
+    {
+      "count": 1,
+      "name": "steel katana"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "almalexia's grace",
+    "divine intervention",
+    "soul trap",
+    "telekinesis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 104,
+    "magicka": 86,
+    "fatigue": 226,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [73,43,43,55,51,55,58,40],
+    "skills": [32,15,20,20,37,30,20,15,20,6,6,6,6,6,38,6,6,23,38,38,23,6,11,6,10,38,23]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

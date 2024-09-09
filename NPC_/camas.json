@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Redguard",
+  "CNAM": "Healer",
+  "ANAM": "",
+  "BNAM": "b_n_redguard_m_head_03",
+  "KNAM": "b_n_redguard_m_hair_00",
+  "MODL": null,
+  "FNAM": "Camas",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_fatigue_s"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_s"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_endurance_s"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

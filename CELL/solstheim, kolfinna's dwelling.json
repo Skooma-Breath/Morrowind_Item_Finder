@@ -1,0 +1,673 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3421214,1056964608]
+  },
+  "NAME": "Solstheim, Kolfinna's Dwelling",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [15,15,15,0],
+    "sunlight": [30,35,40,0],
+    "fog_color": [30,52,52,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "2-8359": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "kolfinna",
+      "DATA": [-63.07086181640625,1090.83251953125,-221.55715942382812,0,0,0]
+    },
+    "2-32909": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_KA_door_dark_02",
+      "DATA": [-279.3881530761719,-425.41943359375,-204.8052520751953,0,0,0]
+    },
+    "2-8365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_kolfinna_beddisable",
+      "ANAM": "kolfinna",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [534.104736328125,869.2817993164062,-136.32366943359375,0,0,6.2539825439453125]
+    },
+    "2-8366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_kolfinna_bedenable",
+      "DATA": [534.104736328125,869.2817993164062,-136.32366943359375,0,0,6.253982067108154]
+    },
+    "2-8367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_gustav",
+      "ANAM": "kolfinna",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 100,
+      "KNAM": "key_gustav_chest",
+      "DATA": [621.2584228515625,1017.3214721679688,-147.55746459960938,0,0,4.572762489318848]
+    },
+    "2-17358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_cavern_04",
+      "DATA": [192,1024,-64,0,0,0]
+    },
+    "2-17360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.5,
+      "DATA": [-245.85165405273438,895.4547119140625,54.16357421875,0,0,0]
+    },
+    "2-17361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.5200000405311584,
+      "DATA": [-30.922119140625,1241.6083984375,109.3076171875,0,0,5.983185291290283]
+    },
+    "2-17362": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.7600000500679016,
+      "DATA": [-70.53096008300781,1284.271240234375,87.336181640625,0,0,5.883185386657715]
+    },
+    "2-17363": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.5,
+      "DATA": [-222.87728881835938,678.4095458984375,45.639892578125,0,0,4.783185005187988]
+    },
+    "2-17364": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.5,
+      "DATA": [-16.47137451171875,485.0023193359375,65.72705078125,0,0,0.6999990940093994]
+    },
+    "2-17365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.5200000405311584,
+      "DATA": [-170.39553833007812,1043.1240234375,116.61083984375,0,0,1.9999996423721313]
+    },
+    "2-17366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.6800000071525574,
+      "DATA": [270.8424072265625,1089.21728515625,85.59765625,0,0,4.7831854820251465]
+    },
+    "2-17367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_05",
+      "XSCL": 0.5,
+      "DATA": [-77.90544128417969,1150.11767578125,72.006591796875,0,0,0]
+    },
+    "2-17368": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.8400000333786011,
+      "DATA": [129.2406005859375,1175.63232421875,103.22802734375,0,0,0]
+    },
+    "2-17369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.7100000381469727,
+      "DATA": [-209.85971069335938,1097.42822265625,80.465087890625,0,0,0]
+    },
+    "2-17370": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.7600000500679016,
+      "DATA": [-162.03488159179688,898.3787841796875,87.336181640625,0,0,5.183185577392578]
+    },
+    "2-17371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_03",
+      "XSCL": 0.5,
+      "DATA": [283.46343994140625,1310.572998046875,85.541748046875,0,0,0]
+    },
+    "2-17372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.5200000405311584,
+      "DATA": [6.308837890625,1053.796142578125,85.59765625,0,0,6.283185005187988]
+    },
+    "2-17373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 0.8200000524520874,
+      "DATA": [-51.36236572265625,1369.609375,-133.183349609375,3.1415927410125732,0,0.18539762496948242]
+    },
+    "2-17374": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 0.5,
+      "DATA": [-111.29713439941406,834.7110595703125,-183.21556091308594,3.1415927410125732,0,1.285398244857788]
+    },
+    "2-17375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_05",
+      "XSCL": 0.5,
+      "DATA": [-263.9142150878906,1170.482421875,-130.2196502685547,3.1415927410125732,0,0]
+    },
+    "2-17376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_03",
+      "XSCL": 0.5,
+      "DATA": [-397.4305725097656,974.23876953125,-112.96484375,3.1415927410125732,0,1.156193733215332]
+    },
+    "2-17377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 0.5,
+      "DATA": [-27.846099853515625,939.3282470703125,-181.6176300048828,3.1415927410125732,0,0.18539762496948242]
+    },
+    "2-17378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "DATA": [-209.81265258789062,1267.822998046875,-175.156982421875,3.1415927410125732,0,1.9146023988723755]
+    },
+    "2-17379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 0.8700000643730164,
+      "DATA": [9.1129150390625,1447.38720703125,-131.254150390625,3.1415927410125732,0,4.512389183044434]
+    },
+    "2-17380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_04",
+      "DATA": [590.773193359375,1252.4720458984375,-115.02294921875,3.183184862136841,0,1.5999990701675415]
+    },
+    "2-17381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_04",
+      "DATA": [786.4153442382812,838.0331420898438,-92.76416015625,3.1415927410125732,0,1.5707963705062866]
+    },
+    "2-17382": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 0.5900000333786011,
+      "DATA": [319.170654296875,1216.81982421875,-190.407958984375,3.1415927410125732,0,4.71238899230957]
+    },
+    "2-17383": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 0.8700000643730164,
+      "DATA": [211.09130859375,1378.90771484375,-190.407958984375,3.1415927410125732,0,1.2292029857635498]
+    },
+    "2-17384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "DATA": [215.68804931640625,1448.751953125,-142.322021484375,3.1415927410125732,0,5.4977874755859375]
+    },
+    "2-17385": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_05",
+      "XSCL": 0.5,
+      "DATA": [86.48175048828125,985.8514404296875,-142.77561950683594,3.1415927410125732,0,0]
+    },
+    "2-17386": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 0.5,
+      "DATA": [-145.38479614257812,635.82421875,45.639892578125,0,0,1.5999993085861206]
+    },
+    "2-17387": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_04",
+      "XSCL": 1.540000081062317,
+      "DATA": [221.42724609375,690.087158203125,-13.897216796875,5.983185768127441,5.883185863494873,0.19999966025352478]
+    },
+    "2-17388": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_04",
+      "DATA": [79.55999755859375,-154.2681884765625,2.192626953125,0,0,0.800000011920929]
+    },
+    "2-17389": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_05",
+      "XSCL": 0.5,
+      "DATA": [13.6925048828125,-204.70458984375,-134.820556640625,0,0,0.7000000476837158]
+    },
+    "2-17390": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_03",
+      "XSCL": 1.2300000190734863,
+      "DATA": [-87.44334411621094,-210.529052734375,-102.65185546875,0.7000003457069397,0.8000009059906006,5.283186435699463]
+    },
+    "2-17391": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_03",
+      "XSCL": 0.8400000333786011,
+      "DATA": [61.83477783203125,-96.431640625,-132.407958984375,0,0,0]
+    },
+    "2-17392": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_03",
+      "XSCL": 0.8400000333786011,
+      "DATA": [64.4676513671875,-100.804443359375,-75.993896484375,0.7000003457069397,0.8000009059906006,5.283186435699463]
+    },
+    "2-17393": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_04",
+      "DATA": [151.484130859375,-38.568115234375,-13.897216796875,0.6000000834465027,5.883185863494873,4.183185577392578]
+    },
+    "2-17394": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_03",
+      "XSCL": 0.5,
+      "DATA": [127.49822998046875,959.940673828125,-182.739501953125,3.1415927410125732,0,2.356194496154785]
+    },
+    "2-17396": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_brownish",
+      "DATA": [-213.45535278320312,-160.65907287597656,65.2106704711914,0,0,0]
+    },
+    "2-17397": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [460.1358947753906,844.3528442382812,-166.58595275878906,0,0,4.71238899230957]
+    },
+    "2-17398": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [588.3928833007812,845.760009765625,-166.58595275878906,0,0,4.71238899230957]
+    },
+    "2-17399": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [589.02978515625,972.2042846679688,-166.58595275878906,0,0,4.71238899230957]
+    },
+    "2-17400": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [587.9492797851562,1098.981689453125,-166.58595275878906,0,0,4.71238899230957]
+    },
+    "2-17401": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_stairs00",
+      "DATA": [336.516845703125,972.4134521484375,-200.24534606933594,0,0,3.1415927410125732]
+    },
+    "2-17402": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [459.9005126953125,970.9976196289062,-166.58595275878906,0,0,1.5707963705062866]
+    },
+    "2-17403": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [413.59405517578125,931.2168579101562,-437.2277526855469,0,0,0]
+    },
+    "2-17404": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [410.29449462890625,810.1509399414062,-437.2277526855469,0,0,0]
+    },
+    "2-17405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01_77",
+      "DATA": [615.543701171875,1125.6649169921875,-26.639888763427734,0,0,5.4977874755859375]
+    },
+    "2-17407": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "DATA": [526.3550415039062,933.8137817382812,-161.28640747070312,0,0,1.5707963705062866]
+    },
+    "2-17408": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_04",
+      "DATA": [719.0091552734375,1200.7647705078125,-92.76416015625,0,0,3.9999988079071045]
+    },
+    "2-17409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_04",
+      "DATA": [746.4182739257812,1073.43798828125,-92.76416015625,3.1415927410125732,0,3.9269909858703613]
+    },
+    "2-17410": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [560.8319091796875,1136.07958984375,-128.03688049316406,0,0,0]
+    },
+    "2-17411": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [618.05810546875,1081.140625,-136.1693115234375,0,0,0]
+    },
+    "2-17412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_fence_01",
+      "DATA": [512.1817016601562,1040.4588623046875,-99.0369644165039,0,0,0]
+    },
+    "2-17414": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook_02",
+      "DATA": [512.246826171875,1023.7511596679688,-57.18064880371094,0,0,0]
+    },
+    "2-17415": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_cavern_04_02",
+      "DATA": [192,1024,-64,0,0,0]
+    },
+    "2-17416": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_KA_glo_dark",
+      "DATA": [-86.30181884765625,1187.611572265625,-489.672119140625,0,0,0]
+    },
+    "2-17417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_KA_glo_dark",
+      "DATA": [-15.42148208618164,1183.959716796875,318.5337219238281,0,0,0]
+    },
+    "2-17418": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01_77",
+      "DATA": [623.6771240234375,962.0496215820312,-26.639888763427734,0,0,5.4977874755859375]
+    },
+    "2-30448": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01_77",
+      "DATA": [420.7796325683594,806.605712890625,-26.639888763427734,0,0,4.797788143157959]
+    },
+    "2-30449": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01_77",
+      "DATA": [-205.80018615722656,1053.6275634765625,-86.05078887939453,0,0,4.797788143157959]
+    },
+    "2-30450": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_pitfire01",
+      "DATA": [197.57298278808594,1198.517822265625,-229.47073364257812,0,0,5.08318567276001]
+    },
+    "2-30451": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_arrows",
+      "DATA": [88.94989013671875,1164.2113037109375,-207.56277465820312,0,4.783186435699463,5.383185863494873]
+    },
+    "2-30452": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_arrows",
+      "DATA": [54.25333786010742,1218.0147705078125,-200.85781860351562,0,0,0]
+    },
+    "2-30453": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_arrows",
+      "DATA": [109.63529205322266,1220.5911865234375,-200.85781860351562,0,0,5.383185863494873]
+    },
+    "2-30454": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "DATA": [612.2276000976562,1065.4781494140625,-108.68031311035156,0,0,0]
+    },
+    "2-30455": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "DATA": [605.075927734375,1076.8662109375,-102.10371398925781,0,0,0]
+    },
+    "2-30456": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "DATA": [629.0075073242188,1055.0589599609375,-108.19335174560547,0,0,3.6831862926483154]
+    },
+    "2-30457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "DATA": [629.2683715820312,1082.5316162109375,-102.68792724609375,0,0,0]
+    },
+    "2-30458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_basket_01",
+      "DATA": [626.9807739257812,1020.8071899414062,-131.7618408203125,0,0,0]
+    },
+    "2-32155": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-544.9844970703125,-234.110107421875,148.44000244140625,0,0,3.9831857681274414]
+    },
+    "2-32494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_coals_hot",
+      "XSCL": 1.2700001001358032,
+      "DATA": [204.4533233642578,1193.026123046875,-227.39845275878906,0,0,0.6000000238418579]
+    },
+    "2-32910": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "DATA": [602.1546630859375,873.7307739257812,-109.68502807617188,0,0,0.10000000149011612]
+    },
+    "2-33328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Terrain_BM_ice_07",
+      "DATA": [-280.0176696777344,-431.7733459472656,336.30194091796875,0,0,3.0999996662139893]
+    }
+  }
+}

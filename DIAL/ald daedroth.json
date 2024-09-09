@@ -1,0 +1,126 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "28014325021692728605": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "202484823143412349",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald Daedroth",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This site is an ancient shrine to Sheogorath, the Mad Lord. But now it will also be a refuge for the Ahemmusa in times of trouble.",
+      "BNAM": "; Sinnammu Mirpal;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 40
+        }
+      ]
+    },
+    "202484823143412349": {
+      "flag": 0,
+      "PNAM": "28014325021692728605",
+      "NNAM": "276183227581616893",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Ald Daedroth Daedric site is a shrine to Sheogorath, the Mad Lord. The surface ruins are on an island a great distance north as the racer flies.",
+      "BNAM": "; Sinnammu Mirpal; Journal \"A2-6_Incarnate\" >= 50;\r\nShowMap \"Ald Daedroth\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "276183227581616893": {
+      "flag": 0,
+      "PNAM": "202484823143412349",
+      "NNAM": "2484023613165571715",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Tel Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ald Daedroth is an abandoned Daedric site on an island north along the coast, in the straits between Vvardenfell and Sheogorad island. I say 'abandoned', but I've heard worshippers have rededicated the old temple there. And I also heard the Ordinators were hiring a ship and planning to burn them out. The island is out of sight of the mainland, and not easy to find.",
+      "BNAM": "ShowMap \"Ald Daedroth\"\r\n;scout; Tel Mora",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2484023613165571715": {
+      "flag": 0,
+      "PNAM": "276183227581616893",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ald Daedroth is a very impressive Daedric ruin in the Sheogorad region of northeast Vvardenfell. The site itself is on a small island between Vvardenfell and Sheogorad island to the north. Tel Mora is the closest settlement. From there you'll have to fly or water-walk; Ald Daedroth is long abandoned, and there's no boat service.",
+      "BNAM": "ShowMap \"Ald Daedroth\"\r\n; scout, Sadrith Mora,",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "66794353038430875": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "91035936218037191",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Stand still.",
+      "BNAM": "Cast \"shrine_maargan_npc_sp\" Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "91035936218037191": {
+      "flag": 0,
+      "PNAM": "66794353038430875",
+      "NNAM": "510247992393732284",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you need assistance, speak with me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "510247992393732284": {
+      "flag": 0,
+      "PNAM": "91035936218037191",
+      "NNAM": "169325213141115146",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tralas rendas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you want the blessings of the Tribunal?",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MaarGan",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TT_MaarGan",
+          "__TV": 50
+        }
+      ]
+    },
+    "169325213141115146": {
+      "flag": 0,
+      "PNAM": "510247992393732284",
+      "NNAM": "15582931567910486",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Healer",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imperial cult members, or reverent, respectful guests, may make offerings at shrines and receive in return a blessing. Common blessings are healing, cure common or blight disease, resistance to common or blight disease, cure poison, and other health benefits. More extraordinary blessings are reserved for the advanced ranks of the faithful. No offering need be made by these pious souls; benefits may include long-term fortification of attributes and abilities.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": null
+    },
+    "15582931567910486": {
+      "flag": 0,
+      "PNAM": "169325213141115146",
+      "NNAM": "19512113122160228881",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Healer",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 40
+        }
+      ]
+    },
+    "19512113122160228881": {
+      "flag": 0,
+      "PNAM": "15582931567910486",
+      "NNAM": "19082242531176319859",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Monk",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 40
+        }
+      ]
+    },
+    "19082242531176319859": {
+      "flag": 0,
+      "PNAM": "19512113122160228881",
+      "NNAM": "1512230081169115999",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest Service",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 40
+        }
+      ]
+    },
+    "1512230081169115999": {
+      "flag": 0,
+      "PNAM": "19082242531176319859",
+      "NNAM": "30905121611418017393",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 40
+        }
+      ]
+    },
+    "30905121611418017393": {
+      "flag": 0,
+      "PNAM": "1512230081169115999",
+      "NNAM": "1480835042708010402",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Healer",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imperial cult members and reverent guests may make offerings at altars and receive in return a blessing.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": null
+    },
+    "1480835042708010402": {
+      "flag": 0,
+      "PNAM": "30905121611418017393",
+      "NNAM": "204323452789915297",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Monk",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imperial cult members and reverent guests may make offerings at altars and receive in return a blessing.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": null
+    },
+    "204323452789915297": {
+      "flag": 0,
+      "PNAM": "1480835042708010402",
+      "NNAM": "5644203513237424106",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest Service",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imperial cult members and reverent guests may make offerings at altars and receive in return a blessing.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": null
+    },
+    "5644203513237424106": {
+      "flag": 0,
+      "PNAM": "204323452789915297",
+      "NNAM": "999317742302763852",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest",
+      "FNAM": "Imperial Cult",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imperial cult members and reverent guests may make offerings at altars and receive in return a blessing.",
+      "BNAM": ";Imperial cult priests; monks; healers;",
+      "SCVR": null
+    },
+    "999317742302763852": {
+      "flag": 0,
+      "PNAM": "5644203513237424106",
+      "NNAM": "335918871233145830",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Healer",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "In addition to common blessings, most shrines provide special blessings of the saints that fortify attributes and abilities for long durations.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 25
+        }
+      ]
+    },
+    "335918871233145830": {
+      "flag": 0,
+      "PNAM": "999317742302763852",
+      "NNAM": "730116955323385794",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Monk",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "In addition to common blessings, most shrines provide special blessings of the saints that fortify attributes and abilities for long durations.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 25
+        }
+      ]
+    },
+    "730116955323385794": {
+      "flag": 0,
+      "PNAM": "335918871233145830",
+      "NNAM": "19862301721525411938",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest Service",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "In addition to common blessings, most shrines provide special blessings of the saints that fortify attributes and abilities for long durations.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 25
+        }
+      ]
+    },
+    "19862301721525411938": {
+      "flag": 0,
+      "PNAM": "730116955323385794",
+      "NNAM": "323142681580737641",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "In addition to common blessings, most shrines provide special blessings of the saints that fortify attributes and abilities for long durations.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 25
+        }
+      ]
+    },
+    "323142681580737641": {
+      "flag": 0,
+      "PNAM": "19862301721525411938",
+      "NNAM": "1027626077759414037",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Healer",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 50
+        }
+      ]
+    },
+    "1027626077759414037": {
+      "flag": 0,
+      "PNAM": "323142681580737641",
+      "NNAM": "295532289065455725",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Monk",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 50
+        }
+      ]
+    },
+    "295532289065455725": {
+      "flag": 0,
+      "PNAM": "1027626077759414037",
+      "NNAM": "31375190581227610914",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest Service",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 50
+        }
+      ]
+    },
+    "31375190581227610914": {
+      "flag": 0,
+      "PNAM": "295532289065455725",
+      "NNAM": "12847254152810122782",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most shrines provide common blessings like healing, cure common or cure blight disease, and cure poison.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 50
+        }
+      ]
+    },
+    "12847254152810122782": {
+      "flag": 0,
+      "PNAM": "31375190581227610914",
+      "NNAM": "164242263559986844",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Healer",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Temple faithful and reverent guests may make offerings at shrines and receive in return a blessing.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": null
+    },
+    "164242263559986844": {
+      "flag": 0,
+      "PNAM": "12847254152810122782",
+      "NNAM": "1920241442779429944",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Monk",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Temple faithful and reverent guests may make offerings at shrines and receive in return a blessing.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": null
+    },
+    "1920241442779429944": {
+      "flag": 0,
+      "PNAM": "164242263559986844",
+      "NNAM": "808957252906718847",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest Service",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Temple faithful and reverent guests may make offerings at shrines and receive in return a blessing.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": null
+    },
+    "808957252906718847": {
+      "flag": 0,
+      "PNAM": "1920241442779429944",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest",
+      "FNAM": "Temple",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Temple faithful and reverent guests may make offerings at shrines and receive in return a blessing.",
+      "BNAM": ";Temple; priests; monks; healers;",
+      "SCVR": null
+    }
+  }
+}

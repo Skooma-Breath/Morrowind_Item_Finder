@@ -1,0 +1,732 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "21258321652528915145": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "100447372526118390",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "almalexia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is good and right that the Band be in my possession. Surely, it will be a boon to all of my people. Your efforts are appreciated.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_MazedBand",
+          "__TV": 100
+        }
+      ]
+    },
+    "100447372526118390": {
+      "flag": 0,
+      "PNAM": "21258321652528915145",
+      "NNAM": "2374359641917913512",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "almalexia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is I who serve all of Morrowind. Your help has been appreciated, %PCName. I have seen something in you that I have not seen in a very long time. I bestow the blessing of My Light upon you. We will speak again in the future.",
+      "BNAM": "Player->RemoveItem mazed_band 1\r\nplayer->addspell \"almalexia's light\" 1\r\nJournal TR_MazedBand 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2374359641917913512": {
+      "flag": 0,
+      "PNAM": "100447372526118390",
+      "NNAM": "429323921202362942",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "almalexia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do not concern yourself too deeply in these matters, friend %PCName. I will use the ring as I do everything...to serve the Temple and all of Morrowind. You have been a pleasant surprise to meet. I have seen something in you that I have not seen in a very long time. I bestow the blessing of My Light upon you. May it serve you well. We will speak again soon.",
+      "BNAM": "Player->RemoveItem mazed_band 1\r\nplayer->addspell \"almalexia's light\" 1\r\nJournal TR_MazedBand 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "429323921202362942": {
+      "flag": 0,
+      "PNAM": "2374359641917913512",
+      "NNAM": "24535179462895914272",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "almalexia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "An interesting item, is it not? It seems ordinary enough, but it is much more. The ring is cold now, but the embers of its power still burn hot within. I will use my magic to reawaken this power.",
+      "BNAM": "Choice \"Why did you want this ring?\" 1 \"It is my pleasure to serve you.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_MazedBand",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "mazed_band",
+          "__TV": 0
+        }
+      ]
+    },
+    "24535179462895914272": {
+      "flag": 0,
+      "PNAM": "429323921202362942",
+      "NNAM": "19288181742859910503",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "almalexia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was told you had the Mazed Band. Where is it? Retrieve it. Quickly.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_MazedBand",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "mazed_band",
+          "__TV": 0
+        }
+      ]
+    },
+    "19288181742859910503": {
+      "flag": 0,
+      "PNAM": "24535179462895914272",
+      "NNAM": "1764329076152436329",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I understand that you've found this thing of legend and brought it to the goddess.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 100
+        }
+      ]
+    },
+    "1764329076152436329": {
+      "flag": 0,
+      "PNAM": "19288181742859910503",
+      "NNAM": "302811991723642981",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Mazed Band may actually be no more than a legend, though there is no doubt of Barilzar's existence, or his power. It has been said that the Mazed Band was able to open rifts in time and space...that it could even open the gates of Oblivion. It's been said that it would take one of divine birth to wield the ring. Some speculate that that was how Barilzar himself met his end. Of course, this is all conjecture. No one really knows what happened to the man or the Band. All of that was lost centuries ago.",
+      "BNAM": "Journal TR_MazedBand 55",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 55
+        }
+      ]
+    },
+    "302811991723642981": {
+      "flag": 0,
+      "PNAM": "1764329076152436329",
+      "NNAM": "4351258781176015618",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "plitinius mero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found the ring and returned it to the goddess? Foolish, foolish, foolish. I hope your faith in her is well-placed, %PCName. In the wrong hands, I shudder to guess what evils could be unleashed on the city.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 100
+        }
+      ]
+    },
+    "4351258781176015618": {
+      "flag": 0,
+      "PNAM": "302811991723642981",
+      "NNAM": "8781583345642632",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "plitinius mero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You should not even speak of that cursed object! I'm sorry, friend %PCName...I did not mean to snap at you. I have heard many tales of that ring, and the evil Barilzar who created it. It was to be a means of teleportation for the wizard, but it was much worse than that. That ring was said to open gates to hellish planes, releasing creatures best left in nightmare. I've heard the ring was stripped of its power, and that only a god could use it now and not be destroyed. The thought chills my bones.",
+      "BNAM": "Journal TR_MazedBand 53",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        }
+      ]
+    },
+    "8781583345642632": {
+      "flag": 0,
+      "PNAM": "4351258781176015618",
+      "NNAM": "2610620129228787432",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "barenziah",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I understand you have found the thing and returned it to the goddess. Walk with care, %PCName. It is wise to be wary of gods with mortal failings.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 100
+        }
+      ]
+    },
+    "2610620129228787432": {
+      "flag": 0,
+      "PNAM": "8781583345642632",
+      "NNAM": "4489112111547111936",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "barenziah",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard of this thing, %PCName, but I know very little about it. I've heard whispers about it, but few details. Some say it is cursed...some say it is not. I can't understand why the goddess would want such a thing. If you want to know more, I would suggest speaking with Torasa Aram at the Museum of Artifacts. She has great knowledge of these things. Take care...some things are best left buried.",
+      "BNAM": "Journal TR_MazedBand 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        }
+      ]
+    },
+    "4489112111547111936": {
+      "flag": 0,
+      "PNAM": "2610620129228787432",
+      "NNAM": "94403376266721707",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with the Lady directly, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_MazedBand",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "mazed_band",
+          "__TV": 0
+        }
+      ]
+    },
+    "94403376266721707": {
+      "flag": 0,
+      "PNAM": "4489112111547111936",
+      "NNAM": "1951274982257317045",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been able to retrieve the Mazed Band? Amazing...Almalexia will want to hear about this immediately. You are to speak with her directly. I hope you realize what an honor you're receiving, %PCName.",
+      "BNAM": "Journal TR_MazedBand 90",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "mazed_band",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 90
+        }
+      ]
+    },
+    "1951274982257317045": {
+      "flag": 0,
+      "PNAM": "94403376266721707",
+      "NNAM": "101043159716126970",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You'll need to retrieve the Band from the Temple ruins. Quickly. The goddess wishes to have it in her possession.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        }
+      ]
+    },
+    "101043159716126970": {
+      "flag": 0,
+      "PNAM": "1951274982257317045",
+      "NNAM": "2602152341601113805",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes...the Mazed Band. Barilzar himself was a powerful mage...quite powerful, in fact. He created the band sometime in the middle of the Second Era, and soon after disappeared. The purpose of the artifact is unknown to me, %PCName. All I know is that the Lady wants it. I can only assume it will allow her to better minister to her people, though I find that hard to imagine.",
+      "BNAM": "Journal TR_MazedBand 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        }
+      ]
+    },
+    "2602152341601113805": {
+      "flag": 0,
+      "PNAM": "101043159716126970",
+      "NNAM": "200419903282923223",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris hler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have nothing more to say about the thing. You've been told what to do.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 80
+        }
+      ]
+    },
+    "200419903282923223": {
+      "flag": 0,
+      "PNAM": "2602152341601113805",
+      "NNAM": "2603317352197715073",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris hler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You got the Mazed Band? Interesting.... I won't be the one to take it. Speak with the priest, Drin. He'll know what should be done.",
+      "BNAM": "Journal TR_MazedBand 80",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "mazed_band",
+          "__TV": 0
+        }
+      ]
+    },
+    "2603317352197715073": {
+      "flag": 0,
+      "PNAM": "200419903282923223",
+      "NNAM": "137965039266238565",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris hler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All I know is that you're to retrieve it from the Temple ruins. That's all you should need to know as well.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "gavas drin",
+          "__TV": 0
+        }
+      ]
+    },
+    "137965039266238565": {
+      "flag": 0,
+      "PNAM": "2603317352197715073",
+      "NNAM": "460022086259443902",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris hler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All I know is that you're to retrieve it from the Temple ruins. That's all you should need to know as well. Talk to Drin if you need to know more.",
+      "BNAM": "Journal TR_MazedBand 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_MazedBand",
+          "__TV": 70
+        }
+      ]
+    },
+    "460022086259443902": {
+      "flag": 0,
+      "PNAM": "137965039266238565",
+      "NNAM": "2884823021355625687",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris hler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All I know is that the goddess wants it returned. You'll find it in the ruins beneath the Temple. Search to the northwest in the sewers. There was a passageway in the Abandoned Crypt that had been blocked off by a cave-in, but Almalexia had the area cleared. As for the item itself, I don't really see why you'd need to know any more about it. Gavas Drin could tell you more...were he not dead.",
+      "BNAM": "Journal TR_MazedBand 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "gavas drin",
+          "__TV": 0
+        }
+      ]
+    },
+    "2884823021355625687": {
+      "flag": 0,
+      "PNAM": "460022086259443902",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris hler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All I know is that the goddess wants it returned. You'll find it in the ruins beneath the Temple. Search to the northwest in the sewers. There was a passageway in the Abandoned Crypt that had been blocked off by a cave-in, but Almalexia had the area cleared. As for the item itself, I don't really see why you'd need to know any more about it. If you must inquire, perhaps Gavas Drin can give you more details.",
+      "BNAM": "Journal TR_MazedBand 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_MazedBand",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

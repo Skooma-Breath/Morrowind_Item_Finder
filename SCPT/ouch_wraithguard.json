@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 148,
+    "local_var_size": 29
+  },
+  "SCTX": "Begin ouch_wraithguard\r\n\r\nshort extraDamage\r\nshort doOnce\r\nshort OnPCEquip\r\n;global short wraithguardEquipped\r\n\r\nif ( OnPCEquip == 1 )\r\n\t;is wraithguard equipped?\r\n     set wraithguardEquipped to 1\r\nelse\r\n     set wraithguardEquipped to 0\r\n\treturn\r\nendif\r\n\r\nif ( doOnce == 1 )\r\n\treturn\r\nendif\r\n\r\n;hurt PC BAD first time equipped\r\n\r\nSet extraDamage to Random 25\r\nSet extraDamage to -200 - extraDamage\r\nplayer->ModHealth extraDamage\r\nset doOnce to 1\r\n\r\nEnd",
+  "SCVR": [
+    "extraDamage",
+    "doOnce",
+    "OnPCEquip"
+  ],
+  "SCDT": [6,1,1,9,32,115,3,0,32,61,61,32,49,5,1,71,19,119,114,97,105,116,104,103,117,97,114,100,69,113,117,105,112,112,101,100,2,32,49,7,1,2,5,1,71,19,119,114,97,105,116,104,103,117,97,114,100,69,113,117,105,112,112,101,100,2,32,48,36,1,9,1,6,1,1,9,32,115,2,0,32,61,61,32,49,36,1,9,1,5,1,115,1,0,7,32,88,33,16,25,0,53,5,1,115,1,0,15,32,45,49,32,50,48,48,32,42,32,115,1,0,32,45,12,1,6,112,108,97,121,101,114,142,16,115,1,0,0,5,1,115,2,0,2,32,49,1,1]
+}

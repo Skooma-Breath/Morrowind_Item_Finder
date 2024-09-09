@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Noble",
+  "ANAM": "Morag Tong",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Methas Hlaalu",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_amulet_methas"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    }
+  ],
+  "NPCS": [
+    "hearth heal",
+    "free action",
+    "balyna's antidote",
+    "cure poison",
+    "seryn's gift",
+    "resist fire",
+    "resist cold",
+    "resist common disease",
+    "resist frost",
+    "resist magicka",
+    "rest of st. merris",
+    "great heal companion",
+    "troll's blood",
+    "veloth's grace",
+    "restore personality"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 0,
+    "magicka": 108,
+    "fatigue": 202,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [52,54,60,45,52,45,70,50],
+    "skills": [28,10,10,10,10,15,10,10,48,6,16,6,6,6,11,24,6,6,39,24,24,29,49,11,39,39,6]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

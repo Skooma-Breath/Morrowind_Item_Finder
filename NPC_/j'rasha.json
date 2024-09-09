@@ -1,0 +1,114 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Khajiit",
+  "CNAM": "Healer Service",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_m_head_03",
+  "KNAM": "b_n_khajiit_m_hair03",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "J'Rasha",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ash_yam_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_chokeweed_01"
+    },
+    {
+      "count": -5,
+      "name": "food_kwama_egg_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": -3,
+      "name": "ingred_scamp_skin_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_saltrice_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scuttle_01"
+    },
+    {
+      "count": 2,
+      "name": "p_drain willpower_q"
+    },
+    {
+      "count": 2,
+      "name": "p_drain_speed_q"
+    },
+    {
+      "count": 1,
+      "name": "p_drain_strength_q"
+    },
+    {
+      "count": 1,
+      "name": "p_drain_luck_q"
+    },
+    {
+      "count": 1,
+      "name": "p_drain_intelligence_q"
+    }
+  ],
+  "NPCS": [
+    "strong open",
+    "wild open",
+    "ondusi's open door",
+    "shield",
+    "mark",
+    "recall",
+    "cure common disease",
+    "rilm's cure",
+    "vitality",
+    "variable resist common disease",
+    "variable resist fire",
+    "variable resist frost",
+    "variable resist magicka",
+    "variable resist poison",
+    "variable resist shock",
+    "detect_creature"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 6,
+    "health": 54,
+    "magicka": 92,
+    "fatigue": 191,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [46,46,56,56,50,33,58,40],
+    "skills": [6,6,6,6,20,6,6,6,10,13,13,42,28,13,42,42,28,28,10,10,20,25,10,6,15,35,40]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

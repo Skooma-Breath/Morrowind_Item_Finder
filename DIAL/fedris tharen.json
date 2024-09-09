@@ -1,0 +1,228 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2439830951181128046": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "4353257462646921585",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard that Fedris Tharen is dead. You have failed me, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "fedris tharen",
+          "__TV": 1
+        }
+      ]
+    },
+    "4353257462646921585": {
+      "flag": 0,
+      "PNAM": "2439830951181128046",
+      "NNAM": "22756156191232620",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hope he is well.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindTharen",
+          "__TV": 100
+        }
+      ]
+    },
+    "22756156191232620": {
+      "flag": 0,
+      "PNAM": "4353257462646921585",
+      "NNAM": "15120165112291727816",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for healing Fedris Tharen. To make up for your sacrifice, why not take these cure disease potions? I have more than I need at the moment.",
+      "BNAM": "Journal HR_FindTharen 110\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 5\r\nPlayer->AddItem P_Cure_Common_S 4\r\n\"fedris tharen\"->Disable",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindTharen",
+          "__TV": 70
+        }
+      ]
+    },
+    "15120165112291727816": {
+      "flag": 0,
+      "PNAM": "22756156191232620",
+      "NNAM": "28619192711299919323",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard you found Fedris Tharen. I will send a healer to him at once. While I'm thinking about it, why not take this cure disease potion?",
+      "BNAM": "Journal HR_FindTharen 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 5\r\nPlayer->AddItem P_Cure_Common_S 1\r\n\"fedris tharen\"->Disable",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindTharen",
+          "__TV": 50
+        }
+      ]
+    },
+    "28619192711299919323": {
+      "flag": 0,
+      "PNAM": "15120165112291727816",
+      "NNAM": "1644728677554213173",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lloros sarano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fedris Tharen left Gnisis several days ago. He was supposed to head to the Koal Cave, just south of Gnisis, but he never arrived. Go to Gnisis and ask around and find out what happened to him.",
+      "BNAM": "Journal HR_FindTharen 10\r\n\"fedris tharen\"->Enable",
+      "SCVR": null
+    },
+    "1644728677554213173": {
+      "flag": 0,
+      "PNAM": "28619192711299919323",
+      "NNAM": "524923532212965617",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris tharen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I am Fedris Tharen.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "524923532212965617": {
+      "flag": 0,
+      "PNAM": "1644728677554213173",
+      "NNAM": "1271302972619530165",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fedris Tharen the Pilgrim? I saw him leave Gnisis a few days ago. I haven't seen him since. He left south to the Koal Cave.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "1271302972619530165": {
+      "flag": 0,
+      "PNAM": "524923532212965617",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He may have gotten lost. I'd head south towards the Koal Cave and keep an eye out for him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

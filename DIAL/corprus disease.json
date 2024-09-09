@@ -1,0 +1,656 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2654219887316962925": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1526310258128234794",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "See? No more symptoms. Amazing. A bit surprised, myself.",
+      "BNAM": ";Divayth Fyr; Journal \"A2_3_CorprusCure\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 50
+        }
+      ]
+    },
+    "1526310258128234794": {
+      "flag": 0,
+      "PNAM": "2654219887316962925",
+      "NNAM": "22065221482166914792",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, yes. I know. You've got corprus disease. But did you get the boots I sent you to get? Because I'm not giving you any potion until you've given me the boots.",
+      "BNAM": ";Divayth Fyr; Journal \"A2_3_CorprusCure\" >= 25; \r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 25
+        }
+      ]
+    },
+    "22065221482166914792": {
+      "flag": 0,
+      "PNAM": "1526310258128234794",
+      "NNAM": "2243271898244639",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's a fascinating story you tell. So. You might be the Nerevarine. Means nothing, of course. Corprus victims have all sorts of delusions. But... let me think...",
+      "BNAM": ";Divayth Fyr; 1; \r\nChoice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2243271898244639": {
+      "flag": 0,
+      "PNAM": "22065221482166914792",
+      "NNAM": "251914210943025613",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've got a potion. In theory, it should cure corprus. Doesn't work, though. Probably kill you. Killed all my test subjects. But you've got nothing to lose. Before I give it to you, I want you to look around below in the Corprusarium. Know what's in store if you don't take the potion. And while you're there, I want you to pick up a pair of boots from a victim, calls himself Yagrum Bagarn. My oldest patient. Handy fellow, fixes things for me. Bring the boots back, and then you can have the potion.",
+      "BNAM": ";Divayth Fyr; 3; \r\nJournal \"A2_3_CorprusCure\" 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "251914210943025613": {
+      "flag": 0,
+      "PNAM": "2243271898244639",
+      "NNAM": "9480233551374413",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nerevarine prophecies. Just Ashlander superstitions. Or maybe not. Never can tell where prophecy and Azura are concerned. Hmm. Let me think...",
+      "BNAM": ";Divayth Fyr; 2; \r\nChoice \"Continue\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "9480233551374413": {
+      "flag": 0,
+      "PNAM": "251914210943025613",
+      "NNAM": "23639108742988324234",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've got a potion. In theory, it should cure corprus. Doesn't work, though. Probably kill you. Killed all my test subjects. But you've got nothing to lose. Before I give it to you, I want you to look around below in the Corprusarium. Know what's in store if you don't take the potion. And while you're there, I want you to pick up a pair of boots from a victim, calls himself Yagrum Bagarn. My oldest patient. Handy fellow, fixes things for me. Bring the boots back, and then you can have the potion.",
+      "BNAM": ";Divayth Fyr; 4; \r\nJournal \"A2_3_CorprusCure\" 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "23639108742988324234": {
+      "flag": 0,
+      "PNAM": "9480233551374413",
+      "NNAM": "10333700696417663",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How interesting. Did you know that corprus makes you immune to disease? Have you ever heard of the prophecies of the Nerevarine? Ashlanders say the Nerevarine will be immune to disease. I've always thought, \"Maybe I have the Nerevarine down in my Corprusarium, and I don't even know it.\" Hah. Hah. The Nerevarine is a fat, disgusting corprus monster, and mad as a marsh rat. Wouldn't that be funny?",
+      "BNAM": ";Divayth Fyr; PC got corprus from Dagoth Gares; \r\nChoice \"Explain that you may fulfill the Nerevarine prophecies.\" 1 \"Tell him you know nothing about the Nerevarine prophecies.\" 2\r\nJournal \"A2_3_CorprusCure\" 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        }
+      ]
+    },
+    "10333700696417663": {
+      "flag": 0,
+      "PNAM": "23639108742988324234",
+      "NNAM": "787955341383422622",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "divayth fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. The divine disease can't be cured. And the Temple will demand that you be imprisoned here in my Corprusarium, to protect the health of others. A pity. You had better put your affairs in order. The course of the disease varies. Sometimes it's rapid, sometimes very slow. I would hurry, if I were you. Now, excuse me.",
+      "BNAM": ";Divayth Fyr; PC has corprus BEFORE he gets it from Dagoth Gares; \r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "58",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "787955341383422622": {
+      "flag": 0,
+      "PNAM": "10333700696417663",
+      "NNAM": "2670222922968728076",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uupse fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The disease takes many forms. For some, the progress is rapid and terrible. For others, the effects on the mind and body are very slow. It's a remarkable affliction, in that once having contracted Corprus, one is completely unaffected by any other diseases. We've always hoped that our research would permit us to isolate the beneficial aspects of corprus, but, alas, we've not been successful.",
+      "BNAM": ";Uupse Fyr",
+      "SCVR": null
+    },
+    "2670222922968728076": {
+      "flag": 0,
+      "PNAM": "787955341383422622",
+      "NNAM": "28768140802897712352",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "delte fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Those with corprus disease go to the Corprusarium. To get there, just keep heading down.",
+      "BNAM": ";Delte Fyr",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "58",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "28768140802897712352": {
+      "flag": 0,
+      "PNAM": "2670222922968728076",
+      "NNAM": "215284459151965336",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "beyte fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Everyone who gets corprus disease comes to our Corprusarium. It's not very pleasant, but at least they're all fed and cared for.",
+      "BNAM": ";Beyte Fyr",
+      "SCVR": null
+    },
+    "215284459151965336": {
+      "flag": 0,
+      "PNAM": "28768140802897712352",
+      "NNAM": "286931597882510575",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alfe fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you've got the disease, go down to the dungeon with all the other monsters.",
+      "BNAM": ";Alfe Fyr",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "58",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "286931597882510575": {
+      "flag": 0,
+      "PNAM": "215284459151965336",
+      "NNAM": "29426140982889710581",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raesa pullia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've heard of corprus disease before, but never seen it. The trooper's flesh was swollen and covered with growths. His bones twisted and lost their shape. He spoke to himself, as if in a dream. We didn't recognize him at first, except for his clothing and armor. The fort chaplain tried spells and potions, but couldn't cure the disease. He died soon after he reached the fort. Didn't realize how fast corprus kills. It sure wasn't pretty. The troops seem shaken. I'm a little worried myself, to tell the truth.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 5
+        }
+      ]
+    },
+    "29426140982889710581": {
+      "flag": 0,
+      "PNAM": "286931597882510575",
+      "NNAM": "165819908269819515",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have corprus disease. It's a rare disease that usually drives victims mad, and causes terrible, deformed growths on the body. I don't know much about it. I'll check my informants, and see how to cure it. In the meantime, we can discuss your orders.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "58",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "165819908269819515": {
+      "flag": 0,
+      "PNAM": "29426140982889710581",
+      "NNAM": "8297177471001729027",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know much about it. I've never seen a case myself. You can get it from contact with the Red Mountain monsters they call 'corprus beasts'. I think it's like a blight disease, only worse. It usually drives victims mad, and causes terrible, deformed growths on the body. I'll check my informants, and find out how to cure it. In the meantime, just follow your orders. I don't know what else to do.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "8297177471001729027": {
+      "flag": 0,
+      "PNAM": "165819908269819515",
+      "NNAM": "17705199432866425078",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Apothecary Service",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. But we can't help you. We can't cure corprus. Victims must go to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. You will go mad, and your body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days. There is no hope. Go to the Corprusarium, or you may give the disease to others.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 30
+        }
+      ]
+    },
+    "17705199432866425078": {
+      "flag": 0,
+      "PNAM": "8297177471001729027",
+      "NNAM": "29922180611933810306",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Healer",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. But we can't help you. We can't cure corprus. Victims must go to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. You will go mad, and your body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days. There is no hope. Go to the Corprusarium, or you may give the disease to others.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 50
+        }
+      ]
+    },
+    "29922180611933810306": {
+      "flag": 0,
+      "PNAM": "17705199432866425078",
+      "NNAM": "21555197272276730297",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Priest",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. But we can't help you. We can't cure corprus. Victims must go to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. You will go mad, and your body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days. There is no hope. Go to the Corprusarium, or you may give the disease to others.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 50
+        }
+      ]
+    },
+    "21555197272276730297": {
+      "flag": 0,
+      "PNAM": "29922180611933810306",
+      "NNAM": "63112098949915328",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ygfa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "63112098949915328": {
+      "flag": 0,
+      "PNAM": "21555197272276730297",
+      "NNAM": "1888110103233583886",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "maela kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1888110103233583886": {
+      "flag": 0,
+      "PNAM": "63112098949915328",
+      "NNAM": "5489153242238223035",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vala catraso",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "5489153242238223035": {
+      "flag": 0,
+      "PNAM": "1888110103233583886",
+      "NNAM": "2197315804952815701",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2197315804952815701": {
+      "flag": 0,
+      "PNAM": "5489153242238223035",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tendris vedran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

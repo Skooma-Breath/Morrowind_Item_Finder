@@ -1,0 +1,100 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Priest",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_m_head_03",
+  "KNAM": "B_N_Imperial_M_Hair_06",
+  "MODL": null,
+  "FNAM": "Antonius Nuncius",
+  "SCRI": "nunciuskeyScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver staff"
+    },
+    {
+      "count": 1,
+      "name": "BM_Wool01_Robe"
+    },
+    {
+      "count": 1,
+      "name": "BM_Wool01_shoes"
+    },
+    {
+      "count": 1,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": 1,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": 250,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "second barrier",
+    "summon clanfear",
+    "wild clumsiness",
+    "wild distraction",
+    "drain destruction",
+    "drain alteration",
+    "drain conjuration",
+    "drain mysticism",
+    "drain restoration",
+    "drain alchemy",
+    "drain unarmored",
+    "drain blunt weapon",
+    "strong reflect",
+    "strong spelldrinker",
+    "wild spelldrinker",
+    "absorb agility [ranged]",
+    "drain blood",
+    "absorb luck [ranged]",
+    "absorb personality [ranged]",
+    "absorb speed [ranged]",
+    "absorb strength [ranged]",
+    "absorb willpower [ranged]",
+    "blood despair",
+    "masterful golden wisdom",
+    "masterful smiting",
+    "masterful transcendant wisdom",
+    "masteful red wisdom",
+    "masterful unseen wisdom",
+    "vivec's mercy",
+    "poison_powerful"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 45,
+    "health": 215,
+    "magicka": 200,
+    "fatigue": 344,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,100,100,78,100,66,100,40],
+    "skills": [9,9,9,9,79,19,9,9,9,36,86,100,36,86,100,100,86,100,9,9,9,64,9,9,19,69,14]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

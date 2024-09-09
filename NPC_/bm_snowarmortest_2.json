@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Acrobat",
+  "ANAM": "",
+  "BNAM": "b_n_nord_m_head_05",
+  "KNAM": "b_n_nord_m_hair02",
+  "MODL": null,
+  "FNAM": "Snow Wolf armor test guy",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_wolf_right_gauntlet_snow"
+    },
+    {
+      "count": 1,
+      "name": "BM_wolf_left_gauntlet_snow"
+    },
+    {
+      "count": 1,
+      "name": "BM_wolf_boots_snow"
+    },
+    {
+      "count": 1,
+      "name": "BM_wolf_greaves_snow"
+    },
+    {
+      "count": 1,
+      "name": "BM_wolf_right_pauldron_snow"
+    },
+    {
+      "count": 1,
+      "name": "BM_wolf_left_pauldron_snow"
+    },
+    {
+      "count": 1,
+      "name": "BM_wolf_cuirass_snow"
+    },
+    {
+      "count": 1,
+      "name": "BM_wolf_helmet_snow"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 55,
+    "magicka": 60,
+    "fatigue": 190,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [50,30,40,40,40,60,30,40],
+    "skills": [5,5,15,10,15,10,15,20,30,5,5,15,5,5,5,5,5,10,10,35,35,100,10,35,10,20,20]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

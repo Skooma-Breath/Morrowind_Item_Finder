@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Crusader",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Mertis Falandas",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "glass jinkblade"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "glass_shield"
+    },
+    {
+      "count": 1,
+      "name": "glass_boots"
+    },
+    {
+      "count": 1,
+      "name": "glass_greaves"
+    },
+    {
+      "count": 1,
+      "name": "glass_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "glass_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "glass_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "key_duskvault"
+    }
+  ],
+  "NPCS": [
+    "deadly poison [ranged]",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "daedric bite"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 296,
+    "magicka": 136,
+    "fatigue": 360,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,68,98,80,58,82,55,40],
+    "skills": [68,52,52,68,68,72,20,100,25,8,65,8,8,8,12,40,40,8,8,8,8,12,18,12,8,8,40]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

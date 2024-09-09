@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Sphere_Centurions.NIF",
+  "FLAG": 2120,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 8,
+    "attributes": [75,25,70,75,70,75,10,50],
+    "health": 150,
+    "magicka": 150,
+    "fatigue": 800,
+    "soul_strength": 0,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "centurion_sphere",
+  "FNAM": "Shock Centurion",
+  "SCRI": "baladasCenturion",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "random_scrap_metal"
+    }
+  ],
+  "NPCS": [
+    "shockball",
+    "shockbite",
+    "shock shield"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [15,15,15,15,100,0,0,0]
+    }
+  ]
+}

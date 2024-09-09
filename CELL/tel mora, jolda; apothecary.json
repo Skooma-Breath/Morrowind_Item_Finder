@@ -1,0 +1,981 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3155518,1061158912]
+  },
+  "NAME": "Tel Mora, Jolda: Apothecary",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [61,39,20,0],
+    "fog_color": [62,38,48,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-361488": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "jolda",
+      "DATA": [-101.53388977050781,-50.26262664794922,128.16986083984375,0,0,1.5]
+    },
+    "0-361564": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_door_exit",
+      "DATA": [340.95001220703125,-1.819000005722046,131.07200622558594,0,0,1.5707963705062866]
+    },
+    "0-361489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_28",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-95.85189819335938,-173.03208923339844,429.46295166015625,0,0,5.883185863494873]
+    },
+    "0-361490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-159.3633270263672,-196.04934692382812,434.85272216796875,0.10000000149011612,6.08318567276001,5.983185768127441]
+    },
+    "0-361491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_18_64",
+      "ANAM": "jolda",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [224.61550903320312,-133.5325164794922,460.7450256347656,0,0,5.783186435699463]
+    },
+    "0-361492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [195.4882049560547,-162.4031219482422,466.4521789550781,0,0,0.699999988079071]
+    },
+    "0-361493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_02",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [177.73342895507812,-131.43768310546875,454.7232666015625,0,0,1.7000000476837158]
+    },
+    "0-361494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_02",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [184.30670166015625,-164.48434448242188,455.4669189453125,0,0,1]
+    },
+    "0-361495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [196.20472717285156,-145.4892120361328,449.2421569824219,0,0,0.5]
+    },
+    "0-361496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_pos3",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [39.56309509277344,-259.494873046875,406.3489990234375,0,0,2.7354469299316406]
+    },
+    "0-361497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "telvanni guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3.1673998832702637,-65.0768051147461,424.12799072265625,0,0,0]
+    },
+    "0-361498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bar_02",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-17.122770309448242,-77.77057647705078,160,0,0,6.183185577392578]
+    },
+    "0-361499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_04",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-23.512067794799805,-14.090546607971191,160,0,0,3.041592597961426]
+    },
+    "0-361500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_04_157",
+      "DATA": [-42.90915298461914,194.35975646972656,328.6803283691406,0,0,0]
+    },
+    "0-361501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_s",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [24.848047256469727,179.1638641357422,229.20382690429688,0,0,0]
+    },
+    "0-361502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_b",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [29.40679359436035,160.57484436035156,228.86734008789062,0,0,0]
+    },
+    "0-361503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_drain_speed_q",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [32.43879699707031,176.234130859375,274.9190368652344,0,0,0]
+    },
+    "0-361504": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fire_shield_q",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [58.670989990234375,157.6251678466797,274.2950134277344,0,0,0]
+    },
+    "0-361505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_light_s",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [75.28598022460938,135.0895233154297,273.5069580078125,0,0,0]
+    },
+    "0-361506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_q",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [61.917545318603516,158.7457275390625,228.3764190673828,0,0,0]
+    },
+    "0-361507": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_intelligence_b",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [66.19935607910156,137.66441345214844,228.73353576660156,0,0,0]
+    },
+    "0-361508": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_spell_absorption_s",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [40.25981521606445,160.3932342529297,273.44842529296875,0,0,0]
+    },
+    "0-361509": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_endurance_s",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [43.1025276184082,148.04383850097656,228.58306884765625,0,0,0]
+    },
+    "0-361510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_reflection_q",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [60.863826751708984,140.3159942626953,273.8515930175781,0,0,0]
+    },
+    "0-361511": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_invisibility_s",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [84.97384643554688,140.4368133544922,228.9977264404297,0,0,0]
+    },
+    "0-361512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_frost_resistance_b",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [92.07875061035156,118.79985046386719,229.60780334472656,0,0,0]
+    },
+    "0-361513": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_chameleon_q",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [92.89495086669922,141.91395568847656,273.2374572753906,0,0,0]
+    },
+    "0-361514": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [42.6258544921875,173.83114624023438,228.85191345214844,0,0,0]
+    },
+    "0-361515": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Cyro_Whiskey_01",
+      "XSCL": 1.350000023841858,
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [134.70468139648438,116.24266815185547,269.8200378417969,0,0,0]
+    },
+    "0-361516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Cyro_Whiskey_01",
+      "XSCL": 1.350000023841858,
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [115.07746887207031,116.81069946289062,269.8200378417969,0,0,0]
+    },
+    "0-361517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [145.96900939941406,94.69990539550781,271.5587158203125,0,0,0]
+    },
+    "0-361518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [152.00177001953125,102.07626342773438,227.93411254882812,0,0,0]
+    },
+    "0-361519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [119.14111328125,102.6657485961914,227.93411254882812,0,0,0]
+    },
+    "0-361520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_g_mortar_01",
+      "XSCL": 0.8100000619888306,
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [33.893798828125,177.43429565429688,169.7411651611328,0,0,0]
+    },
+    "0-361521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_m_calcinator_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-16.286142349243164,188.88507080078125,128.00735473632812,0,0,0]
+    },
+    "0-361522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_m_retort_01",
+      "XSCL": 0.8100000619888306,
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [80.67140197753906,150.04611206054688,170.09451293945312,0,0,3.5831873416900635]
+    },
+    "0-361523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_j_alembic_01",
+      "XSCL": 0.6200000047683716,
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [132.20375061035156,103.82674407958984,168.67750549316406,0,0,3.8999996185302734]
+    },
+    "0-361524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_scathecraw_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-23.688798904418945,-94.44746398925781,192.9617919921875,0,0,0.7000000476837158]
+    },
+    "0-361525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_scamp_skin_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-32.94062805175781,-73.98374938964844,193.03900146484375,0,0,0]
+    },
+    "0-361526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_sload_soap_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-2.074510335922241,-90.03498840332031,192.995361328125,0,0,0]
+    },
+    "0-361527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_kagouti_hide_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-3.8665027618408203,-67.7176742553711,192.96963500976562,0,0,0.8999999761581421]
+    },
+    "0-361528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_wickwheat_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-4.411336898803711,-10.063355445861816,193.23348999023438,0,0,0.4000000059604645]
+    },
+    "0-361529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_resin_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-13.015176773071289,3.083840847015381,194.87655639648438,0,0,0]
+    },
+    "0-361530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_heather_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-16.74677848815918,-11.487914085388184,193.1033935546875,0,0,0]
+    },
+    "0-361531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_gold_kanet_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-34.132781982421875,-1.244888424873352,193.39707946777344,0,0.19999992847442627,0]
+    },
+    "0-361532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_rndgold",
+      "XSCL": 0.800000011920929,
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [-40.96539306640625,-42.567962646484375,198.06320190429688,0,0,1.4000000953674316]
+    },
+    "0-361533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_jolda",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "telvanni guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [210.22474670410156,105.12653350830078,416.07330322265625,0,0,6.08318567276001]
+    },
+    "0-361534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_jolda",
+      "ANAM": "telvanni guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [228.94825744628906,45.47367858886719,420.873291015625,0,0,5.983185768127441]
+    },
+    "0-361535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_jolda",
+      "ANAM": "telvanni guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [233.5290069580078,-9.789999961853027,484.87298583984375,0,0,6.082472324371338]
+    },
+    "0-361536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_jolda",
+      "ANAM": "telvanni guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [234.21690368652344,-27.4171142578125,420.873291015625,0,0,6.183185577392578]
+    },
+    "0-361537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_jolda",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "telvanni guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [234.26968383789062,51.42047882080078,480.07330322265625,0,0,6.08318567276001]
+    },
+    "0-361539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_propertyofjolda",
+      "DATA": [206.19700622558594,50.47200012207031,488.5140075683594,4.51167631149292,1.3700834512710571,6.183701515197754]
+    },
+    "0-361540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_propertyofjolda",
+      "DATA": [183.05068969726562,96.04851531982422,428.7829895019531,4.51167631149292,1.3700834512710571,5.9829888343811035]
+    },
+    "0-361541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_propertyofjolda",
+      "DATA": [199.34300231933594,30.746999740600586,433.21099853515625,4.51167631149292,1.2705997228622437,6.082472324371338]
+    },
+    "0-361543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_propertyofjolda",
+      "DATA": [200.9369354248047,-14.420619010925293,499.6128234863281,4.51167631149292,1.3700834512710571,0.20071285963058472]
+    },
+    "0-361544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_08",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [170.96511840820312,-153.7761688232422,450.9645690917969,0,0,0]
+    },
+    "0-361545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_joldanote",
+      "DATA": [21.45425796508789,-264.84613037109375,422.8479309082031,0,0,0]
+    },
+    "0-361547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_2flr_stair",
+      "DATA": [-13.390732765197754,-0.11023342609405518,380.03619384765625,0,0,2.356194496154785]
+    },
+    "0-361548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [-170.85894775390625,-119.33729553222656,394.1966552734375,0,0,5.883185863494873]
+    },
+    "0-361549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [9.304607391357422,90.91392517089844,394.1966552734375,0,0,4.8831868171691895]
+    },
+    "0-361550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [-9.250812530517578,-6.902486801147461,394.1966552734375,0,0,5.4831862449646]
+    },
+    "0-361551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole_rails",
+      "DATA": [-79.87094116210938,-79.86634826660156,394.1966552734375,0,0,5.883185863494873]
+    },
+    "0-361552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_railing_pole",
+      "DATA": [-259.2684326171875,-157.90122985839844,391.7718505859375,0,0,5.583186149597168]
+    },
+    "0-361553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [189.43910217285156,-145.24545288085938,419.90045166015625,0,0,0.6499999761581421]
+    },
+    "0-361554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_01",
+      "DATA": [144.2603302001953,-195.75091552734375,426.19635009765625,0,0,3.883185863494873]
+    },
+    "0-361555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "XSCL": 0.5,
+      "DATA": [184.4918212890625,95.28337097167969,427.6184997558594,3.299999952316284,0.4000000059604645,1.5831862688064575]
+    },
+    "0-361556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "XSCL": 0.5,
+      "DATA": [1.0376471281051636,162.68031311035156,267.0060729980469,0,0,0.5]
+    },
+    "0-361557": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [93.18890380859375,142.50088500976562,203.69613647460938,0,0,3.683187246322632]
+    },
+    "0-361558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "DATA": [-39.34788131713867,199.20408630371094,343.7096252441406,0,0,0]
+    },
+    "0-361559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "XSCL": 0.5,
+      "DATA": [204.50076293945312,-27.107812881469727,437.7046203613281,0,0,1.5831862688064575]
+    },
+    "0-361560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "XSCL": 0.5,
+      "DATA": [202.5865020751953,-13.964561462402344,499.2594299316406,3.299999952316284,0.4000000059604645,1.5831862688064575]
+    },
+    "0-361561": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "XSCL": 0.5,
+      "DATA": [207.64752197265625,49.1154899597168,487.085693359375,3.299999952316284,0.4000000059604645,1.5831862688064575]
+    },
+    "0-361562": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "XSCL": 0.5,
+      "DATA": [200.5542449951172,30.486112594604492,431.75054931640625,3.299999952316284,0.4000000059604645,1.5831862688064575]
+    },
+    "0-361563": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_01",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-361565": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [552.4689331054688,-39.97015380859375,372.36737060546875,0,0,2.1561946868896484]
+    },
+    "0-361566": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_t_bug_musk_01",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [96.5979995727539,120.86100006103516,178.90899658203125,0,0,0]
+    },
+    "0-361567": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_01_v_potion_ap_04",
+      "ANAM": "jolda",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [-133.47999572753906,-105.5,143.9969940185547,0,0,0.9005898833274841]
+    },
+    "0-361568": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BlightPotionNotice",
+      "XSCL": 1.2600001096725464,
+      "DATA": [-0.1157880425453186,159.24034118652344,251.26687622070312,4.71238899230957,0.4991641640663147,6.182472229003906]
+    },
+    "0-361569": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_04_64",
+      "DATA": [-17.47311019897461,-54.44765090942383,211.59033203125,0,0,0]
+    },
+    "0-361570": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_08",
+      "XSCL": 1.1299999952316284,
+      "DATA": [77.83665466308594,3.6079208850860596,125.25191497802734,0,0,1.5]
+    },
+    "0-361571": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-59.77799987792969,184.91400146484375,172.1510009765625,0,0,5.508259296417236]
+    },
+    "0-361572": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-146.54019165039062,130.8780059814453,169.63571166992188,0,0,5.68318510055542]
+    },
+    "0-361573": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-105.96475982666016,167.11502075195312,169.63571166992188,0,0,0]
+    },
+    "0-361574": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-104.5630874633789,126.53172302246094,150.25538635253906,0,0,2.1750001907348633]
+    },
+    "0-361575": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-173.4887237548828,102.84820556640625,150.25538635253906,0,0,2.575000286102295]
+    },
+    "0-361576": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-69.7966079711914,150.40643310546875,150.25538635253906,0,0,2.575000286102295]
+    },
+    "0-361577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [82.30326843261719,160.9088897705078,142.95748901367188,0,0,0.47499996423721313]
+    },
+    "0-361578": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [51.84645080566406,172.1173553466797,133.20330810546875,0,0,0.574999988079071]
+    },
+    "0-361579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [117.76170349121094,144.37014770507812,133.20330810546875,0,0,0.42499998211860657]
+    },
+    "0-361580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "DATA": [-16.11890983581543,-275.5518493652344,366.0230712890625,0,0,0.15000000596046448]
+    },
+    "0-361581": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "telvanni guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [30.9226016998291,-56.483341217041016,413.61834716796875,0,0,1.5750000476837158]
+    },
+    "0-361582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "DATA": [161.20872497558594,-205.6956024169922,359.2195129394531,0,0,5.583184719085693]
+    },
+    "0-361546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_propertyofjolda",
+      "XSCL": 1.2000000476837158,
+      "DATA": [200.96218872070312,-27.873031616210938,423.0176086425781,4.51167631149292,1.4713125228881836,0.20071285963058472]
+    },
+    "0-443056": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [54.396759033203125,-260.1878662109375,442.8889465332031,0,0,0.8000000715255737]
+    },
+    "0-443057": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "DATA": [127.09776306152344,185.77821350097656,361.05621337890625,0,0,3.783184289932251]
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1280311661531218170": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "6357211092137920258",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have demonstrated your knowledge of the basic spells.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_WizardSpells",
+          "__TV": 100
+        }
+      ]
+    },
+    "6357211092137920258": {
+      "flag": 0,
+      "PNAM": "1280311661531218170",
+      "NNAM": "1622274672481210084",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have learned the rudimentary spells. I am proud to be your patron. For your next lesson, please take this book on War Magic by the legendary Zurin Arctus.",
+      "BNAM": "Journal HT_WizardSpells 100\r\nPlayer->AddItem  bookskill_destruction4 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "learnedWizardSpells",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_WizardSpells",
+          "__TV": 10
+        }
+      ]
+    },
+    "1622274672481210084": {
+      "flag": 0,
+      "PNAM": "6357211092137920258",
+      "NNAM": "24187163892101531244",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see you have already learned the rudimentary spells. I am proud to be your patron. For your next lesson, please take this book on War Magic by the legendary Zurin Arctus.",
+      "BNAM": "Journal HT_WizardSpells 100\r\nPlayer->AddItem  bookskill_destruction4 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "learnedWizardSpells",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HT_WizardSpells",
+          "__TV": 0
+        }
+      ]
+    },
+    "24187163892101531244": {
+      "flag": 0,
+      "PNAM": "1622274672481210084",
+      "NNAM": "3088429521932618889",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you are having trouble finding these spells, should speak with the Telvanni mage trainer in Vivec, Fevyn Ralen. Or perhaps Felara Andrethi over at Tel Aruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_WizardSpells",
+          "__TV": 10
+        }
+      ]
+    },
+    "3088429521932618889": {
+      "flag": 0,
+      "PNAM": "24187163892101531244",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Learn the rudimentary spell of Recall, a spell of flying, and a spell fire damage. I will recognize the standard spells such as Levitate, Great Levitate, or Wild Levitate. For fire damage, I would suggest Fireball, Greater Fireball, or Fire Storm. Spells you research yourself will not be sufficient.",
+      "BNAM": "Journal HT_WizardSpells 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_MineCure",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "267524125218004717": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "764412791127635506",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well... not right now, actually. Because I'm working for you. Remember?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "companion",
+          "__TV": 1
+        }
+      ]
+    },
+    "764412791127635506": {
+      "flag": 0,
+      "PNAM": "267524125218004717",
+      "NNAM": "180439746220217800",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Our contract is for 30 days. Here are the terms. I follow you everywhere, and fight when you fight. I'm always on duty. I follow or stay, at your command. And you'll keep me healthy and safe, if you want to get your money's worth. If you want to change the plan, just talk to me about it.",
+      "BNAM": "player->removeitem gold_001 250\r\nadditem gold_001 250\r\nSet Contract_Calvus to 1\r\nJournal Merc_Calvus 11\r\nStartScript Contract_Calvus\r\nSet Companion to 1\r\nAIFollow Player 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "180439746220217800": {
+      "flag": 0,
+      "PNAM": "764412791127635506",
+      "NNAM": "30980199742317328246",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Our contract is for 30 days. Here are the terms. I follow you everywhere, and fight when you fight. I'm always on duty. I follow or stay, at your command. And you'll keep me healthy and safe, if you want to get your money's worth. If you want to change the plan, just talk to me about it.",
+      "BNAM": "player->removeitem gold_001 250\r\nadditem gold_001 250\r\nSet Contract_Calvus to 1\r\nJournal Merc_Calvus 1\r\nStartScript Contract_Calvus\r\nSet Companion to 1\r\nAIFollow Player 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "30980199742317328246": {
+      "flag": 0,
+      "PNAM": "180439746220217800",
+      "NNAM": "29189294702201222667",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You know where to find me.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "29189294702201222667": {
+      "flag": 0,
+      "PNAM": "30980199742317328246",
+      "NNAM": "952027324223343",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Suit yourself.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "952027324223343": {
+      "flag": 0,
+      "PNAM": "29189294702201222667",
+      "NNAM": "2873530613127328524",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've worked for you, and liked the experience. Same terms as before -- keep me healthy, and you won't regret it. But I won't stand for any abuse. If my profit ever drops below zero, I quit immediately.",
+      "BNAM": "Choice \"Sorry. Not interested.\" 1 \"Maybe some other time.\" 2 \"Sounds good. Here's your 250 gold.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 250
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Merc_Calvus",
+          "__TV": 1
+        }
+      ]
+    },
+    "2873530613127328524": {
+      "flag": 0,
+      "PNAM": "952027324223343",
+      "NNAM": "9697308142613316392",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've worked for you, and liked the experience. Same terms as before -- keep me healthy, and you won't regret it. But I won't stand for any abuse. If my profit ever drops below zero, I quit immediately.",
+      "BNAM": "Choice \"Sorry. Not interested.\" 1 \"Maybe some other time.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 250
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "Merc_Calvus",
+          "__TV": 1
+        }
+      ]
+    },
+    "9697308142613316392": {
+      "flag": 0,
+      "PNAM": "2873530613127328524",
+      "NNAM": "2032313422113616643",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "For 250 gold I'll serve as bodyguard and companion for 30 days. I'm strong, and I don't mind heavy loads. I'm healthy, and quick to heal. Heal me if you can --keep me healthy, and you'll get your money's worth. But I won't stand for any abuse. I work for profit. I've got my own gear and gold. If you ever leave me with less Profit than my own gear and gold, then I quit immediately, and never work for you again.",
+      "BNAM": "Choice \"Sorry. Not interested.\" 1 \"Maybe some other time.\" 2 \"Sounds good. Here's your 250 gold.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 250
+        }
+      ]
+    },
+    "2032313422113616643": {
+      "flag": 0,
+      "PNAM": "9697308142613316392",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Calvus Horatius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "For 250 gold I'll serve as bodyguard and companion for 30 days. I'm strong, and I don't mind heavy loads. I'm healthy, and quick to heal. Heal me if you can --keep me healthy, and you'll get your money's worth. But I won't stand for any abuse. I work for profit. I've got my own gear and gold. If you ever leave me with less Profit than my own gear and gold, then I quit immediately, and never work for you again.",
+      "BNAM": "Choice \"Sorry. Not interested.\" 1 \"Maybe some other time.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 250
+        }
+      ]
+    }
+  }
+}

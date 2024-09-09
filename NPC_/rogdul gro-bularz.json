@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Assassin Service",
+  "ANAM": "Morag Tong",
+  "BNAM": "b_n_orc_m_head_02",
+  "KNAM": "b_n_orc_m_hair_05",
+  "MODL": null,
+  "FNAM": "Rogdul gro-Bularz",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 16480
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "dire viperarrow"
+    },
+    {
+      "count": 1,
+      "name": "bonemold long bow"
+    },
+    {
+      "count": 1,
+      "name": "devil tanto"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer right"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    },
+    {
+      "count": -3,
+      "name": "pick_master"
+    },
+    {
+      "count": -5,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": -3,
+      "name": "probe_master"
+    },
+    {
+      "count": -5,
+      "name": "probe_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 21,
+    "health": 154,
+    "magicka": 136,
+    "fatigue": 315,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [87,68,66,100,78,62,42,40],
+    "skills": [45,17,17,17,7,35,12,7,35,7,7,7,7,7,7,7,35,7,50,65,65,65,65,65,10,22,22]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

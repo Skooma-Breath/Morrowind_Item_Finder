@@ -1,0 +1,104 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "956872517528464": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "194628832854511441",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uupse fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They do seem to find the drumming comforting, poor things. I think they'll be a lot more peaceful now.",
+      "BNAM": ";Uupse Fyr;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusSafe",
+          "__TV": 100
+        }
+      ]
+    },
+    "194628832854511441": {
+      "flag": 0,
+      "PNAM": "956872517528464",
+      "NNAM": "20563289352119022773",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uupse fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. That guarskin drum will do perfectly. I'll take it and play a little soothing rhythm, and I think that will pacify the poor corprus victims so they won't be so savage and aggressive.",
+      "BNAM": ";Uupse Fyr; Journal A2-3_CorprusCure >= 26; item = misc_de_drum_02; \r\nplayer->removeitem \"misc_de_drum_02\" 1\r\nadditem \"misc_de_drum_02\" 1\r\nJournal A2_3_CorprusSafe 100\r\nstartscript CorprusBeastSafe",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_de_drum_02",
+          "__TV": 1
+        }
+      ]
+    },
+    "20563289352119022773": {
+      "flag": 0,
+      "PNAM": "194628832854511441",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "uupse fyr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. Look around. There's a guarskin drum somewhere. If you'll find it and bring it to me, I'll sooth the corprus victims with a little music.",
+      "BNAM": ";Uupse Fyr;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

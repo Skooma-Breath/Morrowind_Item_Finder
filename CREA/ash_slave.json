@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AshSlave.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 3,
+    "level": 5,
+    "attributes": [100,100,80,100,30,100,100,100],
+    "health": 60,
+    "magicka": 100,
+    "fatigue": 400,
+    "soul_strength": 100,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": null,
+  "FNAM": "Ash Slave",
+  "SCRI": "diseaseAshWoe",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_ash_salts"
+    }
+  ],
+  "NPCS": [
+    "ash woe blight",
+    "first barrier",
+    "earwig",
+    "spark",
+    "reflect_20"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,50,20,20,0,0,0,0]
+    }
+  ]
+}

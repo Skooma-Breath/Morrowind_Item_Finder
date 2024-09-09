@@ -1,0 +1,425 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3236514843323820106": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "24139276561306830582",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urvel dulni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It seems we've done our job. The Shrine is cleansed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_ShrineDead",
+          "__TV": 200
+        }
+      ]
+    },
+    "24139276561306830582": {
+      "flag": 0,
+      "PNAM": "3236514843323820106",
+      "NNAM": "28116198232768322072",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urvel dulni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It seems we've done our job. The Shrine is cleansed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "TR_ShrineDead",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_ShrineDead",
+          "__TV": 60
+        }
+      ]
+    },
+    "28116198232768322072": {
+      "flag": 0,
+      "PNAM": "24139276561306830582",
+      "NNAM": "213124053002928270",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "urvel dulni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I-I'd rather not speak of it. I know what must be done, but the place frightens me to the core. I don't know why I was chosen, but Our Lady believes I must be the one to go, as the shrine must be cleansed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_ShrineDead",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_ShrineDead",
+          "__TV": 100
+        }
+      ]
+    },
+    "213124053002928270": {
+      "flag": 0,
+      "PNAM": "28116198232768322072",
+      "NNAM": "10373127657056040",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is nothing further to say about that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_ShrineDead",
+          "__TV": 100
+        }
+      ]
+    },
+    "10373127657056040": {
+      "flag": 0,
+      "PNAM": "213124053002928270",
+      "NNAM": "1143028911208902181",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Interesting. You've performed your duty well, %PCName. The goddess is very pleased. Take this Blessed Spear as a gift from the Lady Almalexia. It is good that you have been of service to our Lady.",
+      "BNAM": "Journal TR_ShrineDead 100\r\nPlayer->AddItem \"ebony spear_blessed_unique\" 1\r\n\"urvel dulni\"-> AiWander 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_ShrineDead",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "urvel dulni",
+          "__TV": 0
+        }
+      ]
+    },
+    "1143028911208902181": {
+      "flag": 0,
+      "PNAM": "10373127657056040",
+      "NNAM": "2296544539794370",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Urvel Dulni is dead, and there is no one to cleanse the shrine. This is a disappointment.",
+      "BNAM": "Journal TR_ShrineDead 116",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "urvel dulni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_ShrineDead",
+          "__TV": 40
+        }
+      ]
+    },
+    "2296544539794370": {
+      "flag": 0,
+      "PNAM": "1143028911208902181",
+      "NNAM": "2463825686447028896",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You allowed Urvel Dulni to die? Fool...but at least you managed to get the Shrine cleansed. He wasn't the best of priests, anyway. You were to be of service to our Lady, not get one of her followers killed. But, the Lady demands you be rewarded for your troubles. Her wisdom be praised. Take this.",
+      "BNAM": "Journal TR_ShrineDead 115\r\nPlayer->AddItem gold_001 5000",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "urvel dulni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ShrineCleanse",
+          "__TV": 1
+        }
+      ]
+    },
+    "2463825686447028896": {
+      "flag": 0,
+      "PNAM": "2296544539794370",
+      "NNAM": "3614160783237518321",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You allowed Urvel Dulni to die? Fool! The Lady will not be pleased by this. And you did not get the Shrine cleansed. Pathetic. You were to be of service to our Lady, yet you have failed miserably. Pathetic and typical.",
+      "BNAM": "Journal TR_ShrineDead 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "urvel dulni",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ShrineCleanse",
+          "__TV": 0
+        }
+      ]
+    },
+    "3614160783237518321": {
+      "flag": 0,
+      "PNAM": "2463825686447028896",
+      "NNAM": "258756018263922673",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take Urvel Dulni there and allow him to perform the ritual.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_ShrineDead",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_ShrineDead",
+          "__TV": 60
+        }
+      ]
+    },
+    "258756018263922673": {
+      "flag": 0,
+      "PNAM": "3614160783237518321",
+      "NNAM": "1979130085472818855",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gavas drin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As I said, it holds immense power to speak with the ancestors and harness their power. The Lady Almalexia wishes to use this power for the good of Morrowind. I realize that ancestor worship falls a bit...outside traditional Temple doctrine, but the Lady knows best, and her will is law. To find the Shrine, enter the sewers through the Temple basement. Then head east to the ruined Temple Gardens, and south to the Shrine of the Dead.",
+      "BNAM": "Journal TR_ShrineDead 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_ShrineDead",
+          "__TV": 30
+        }
+      ]
+    },
+    "1979130085472818855": {
+      "flag": 0,
+      "PNAM": "258756018263922673",
+      "NNAM": "162721366946726310",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris hler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know nothing about that shrine. Speak with Drin about it.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "162721366946726310": {
+      "flag": 0,
+      "PNAM": "1979130085472818855",
+      "NNAM": "2675616906217797153",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "barenziah",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Shrine of the Dead? An ancient shrine dedicated to ancestor worship, if I remember correctly. I can't imagine what the goddess would want with it. From what I understand, it was destroyed centuries ago.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2675616906217797153": {
+      "flag": 0,
+      "PNAM": "162721366946726310",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "plitinius mero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've read about the shrine. At one point, it was rumored to hold great power. It was used by the Dunmer to harness the power of their ancestors. Some said it could have been used to summon legions of the undead, but that's never been proven to be true. Either way, it could have been a very powerful tool, but it was buried at the end of the First Era, along with the rest of Mournhold.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

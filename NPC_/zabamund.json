@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Dark Elf",
+  "CNAM": "Champion",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Zabamund",
+  "SCRI": "zabamundNoLore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "chitin war axe"
+    },
+    {
+      "count": 1,
+      "name": "chitin_towershield"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 139,
+    "magicka": 102,
+    "fatigue": 278,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [79,51,50,89,75,60,38,40],
+    "skills": [56,18,56,18,18,23,56,18,46,6,16,29,6,6,11,29,6,6,6,29,29,60,16,49,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,10]
+    }
+  ]
+}

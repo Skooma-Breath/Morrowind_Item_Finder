@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 526,
+    "local_var_size": 16
+  },
+  "SCTX": "Begin cattleScript\r\n\r\nShort OnPCHitme\r\nshort AiSet\r\n\r\nif ( menumode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( AiSet == 0 )\r\n\tsetfight 20\r\n\tsetflee 100\r\n\tset AiSet to -1\r\nendif\r\n\r\nif ( PCVampire != 1 )\r\n\treturn\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\tif ( GetJournalIndex \"VA_VampHunter\" == 100 )\r\n\t\tJournal \"VA_VampHunter\" 110\r\n\telseif ( GetJournalIndex \"VA_VampCountess\" == 60 )\r\n\t\tJournal \"VA_VampCountess\" 70\r\n\telseif ( GetJournalIndex \"VA_VampAmulet\" == 40 )\r\n\t\tJournal \"VA_VampAmulet\" 50\r\n\tendif\r\nendif\r\n\r\n\r\nif ( VampClan == 0 )\r\n\treturn\r\nelseif ( VampClan == 1 ) \r\n\tif ( GetJournalIndex \"VA_VampHunter\" == 100 )\r\n\t\tif ( OnPCHitMe == 1 )\r\n\t\t\tSetFight 0\r\n\t\t\tSetFlee 0\r\n\t\t\tStopCombat Player\r\n\t\tendif\r\n\tendif\r\nelseif ( VampClan == 2 ) \r\n\tif ( GetJournalIndex \"VA_VampCountess\" == 60 )\r\n\t\tif ( OnPCHitMe == 1 )\r\n\t\t\tSetFight 0\r\n\t\t\tSetFlee 0\r\n\t\t\tStopCombat Player\r\n\t\tendif\r\n\tendif\r\nelseif ( VampClan == 3 ) \r\n\tif ( GetJournalIndex \"VA_VampAmulet\" == 40 )\r\n\t\tif ( OnPCHitMe == 1 )\r\n\t\t\tSetFight 0\r\n\t\t\tSetFlee 0\r\n\t\t\tStopCombat Player\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\nEnd cattleScript",
+  "SCVR": [
+    "OnPCHitme",
+    "AiSet"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,3,9,32,115,2,0,32,61,61,32,48,0,17,0,0,160,65,3,17,0,0,200,66,5,1,115,2,0,7,32,45,49,32,49,32,42,9,1,6,1,1,17,32,71,9,80,67,86,97,109,112,105,114,101,32,33,61,32,49,36,1,9,1,6,1,7,9,32,88,240,16,32,61,61,32,49,6,1,1,27,32,88,205,16,32,100,13,86,65,95,86,97,109,112,72,117,110,116,101,114,32,61,61,32,49,48,48,204,16,13,86,65,95,86,97,109,112,72,117,110,116,101,114,110,0,255,255,8,1,1,28,32,88,205,16,32,100,15,86,65,95,86,97,109,112,67,111,117,110,116,101,115,115,32,61,61,32,54,48,204,16,15,86,65,95,86,97,109,112,67,111,117,110,116,101,115,115,70,0,255,255,8,1,1,26,32,88,205,16,32,100,13,86,65,95,86,97,109,112,65,109,117,108,101,116,32,61,61,32,52,48,204,16,13,86,65,95,86,97,109,112,65,109,117,108,101,116,50,0,255,255,9,1,9,1,6,1,1,16,32,71,8,86,97,109,112,67,108,97,110,32,61,61,32,48,36,1,8,1,7,16,32,71,8,86,97,109,112,67,108,97,110,32,61,61,32,49,6,1,5,27,32,88,205,16,32,100,13,86,65,95,86,97,109,112,72,117,110,116,101,114,32,61,61,32,49,48,48,6,1,3,9,32,115,1,0,32,61,61,32,49,0,17,0,0,0,0,3,17,0,0,0,0,26,16,9,1,9,1,8,1,7,16,32,71,8,86,97,109,112,67,108,97,110,32,61,61,32,50,6,1,5,28,32,88,205,16,32,100,15,86,65,95,86,97,109,112,67,111,117,110,116,101,115,115,32,61,61,32,54,48,6,1,3,9,32,115,1,0,32,61,61,32,49,0,17,0,0,0,0,3,17,0,0,0,0,26,16,9,1,9,1,8,1,7,16,32,71,8,86,97,109,112,67,108,97,110,32,61,61,32,51,6,1,5,26,32,88,205,16,32,100,13,86,65,95,86,97,109,112,65,109,117,108,101,116,32,61,61,32,52,48,6,1,3,9,32,115,1,0,32,61,61,32,49,0,17,0,0,0,0,3,17,0,0,0,0,26,16,9,1,9,1,9,1,1,1]
+}

@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Redguard",
+  "CNAM": "Commoner",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_redguard_m_head_02",
+  "KNAM": "b_n_redguard_m_hair_05",
+  "MODL": null,
+  "FNAM": "Sason",
+  "SCRI": "sasonScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_r"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 200,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 80,
+    "magicka": 72,
+    "fatigue": 190,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [56,36,44,37,48,53,71,40],
+    "skills": [20,6,10,10,10,20,10,6,40,6,6,6,6,6,6,6,6,35,22,22,22,8,28,8,38,38,38]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

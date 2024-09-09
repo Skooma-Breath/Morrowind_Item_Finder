@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Fighters Guild",
+  "BNAM": "b_n_nord_f_head_03",
+  "KNAM": "b_n_nord_f_hair_02",
+  "MODL": null,
+  "FNAM": "Eydis Fire-Eye",
+  "SCRI": "eydisScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "dwarven mace"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_towershield"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_cuirass"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 19,
+    "health": 247,
+    "magicka": 88,
+    "fatigue": 305,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,44,64,55,74,86,41,40],
+    "skills": [47,21,57,52,72,67,72,67,21,7,7,7,7,7,7,7,7,7,7,7,7,33,48,7,7,7,33]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

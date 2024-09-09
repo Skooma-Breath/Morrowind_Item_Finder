@@ -1,0 +1,535 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1594025613149529658": {
+      "flag": 0,
+      "PNAM": "25962153161759731313",
+      "NNAM": "21432111501574114700",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "boderi farano",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Go down the stairs, and use the first room on your right. It's yours for the next day.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script ALDRUHN ALD SKAR INN\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "21432111501574114700": {
+      "flag": 0,
+      "PNAM": "1594025613149529658",
+      "NNAM": "26036209202016629907",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dulnea ralaal",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's all yours for the day. Down the stairs to the right.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "26036209202016629907": {
+      "flag": 0,
+      "PNAM": "21432111501574114700",
+      "NNAM": "792795413069525055",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "benunius agrudilius",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's all yours. Up the stairs to the left. Enjoy your stay.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script BALMORA LUCKY LOCKUP\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "792795413069525055": {
+      "flag": 0,
+      "PNAM": "26036209202016629907",
+      "NNAM": "1271813945413015993",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hope everything is adequate.",
+      "BNAM": ";called first if you are already renting a room",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "rent",
+          "__TV": 1
+        }
+      ]
+    },
+    "1271813945413015993": {
+      "flag": 0,
+      "PNAM": "792795413069525055",
+      "NNAM": "1281821504188985983",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "banor seran",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very good. Go down the stairs. The room on the right is yours. I'd avoid the left room, the man there wishes to be undisturbed..",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script ;BALMORA COUNCIL CLUB\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "1281821504188985983": {
+      "flag": 0,
+      "PNAM": "1271813945413015993",
+      "NNAM": "13139129622269431723",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bacola closcius",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, the bed is yours for the day. You'll find the door over there unlocked. I trust Balmora will treat you well..",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script BALMORA, South Wall\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "13139129622269431723": {
+      "flag": 0,
+      "PNAM": "1281821504188985983",
+      "NNAM": "2394122532865625896",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drelasa ramothran",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Great. The bed is yours. At the end of the hall upstairs, you'll find it unlocked. Enjoy your stay in Pelagiad.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "2394122532865625896": {
+      "flag": 0,
+      "PNAM": "13139129622269431723",
+      "NNAM": "28002112342703720123",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ery",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. You can use the second floor loft.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script, SADRITH MORA\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "28002112342703720123": {
+      "flag": 0,
+      "PNAM": "2394122532865625896",
+      "NNAM": "1614216812759915904",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Great. The bed is yours. Enjoy your stay.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "1614216812759915904": {
+      "flag": 0,
+      "PNAM": "28002112342703720123",
+      "NNAM": "962731613265082404",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry. Doesn't look like you can afford it. Maybe another time.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "962731613265082404": {
+      "flag": 0,
+      "PNAM": "1614216812759915904",
+      "NNAM": "4325609943702902",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ok. Just ask again if you change your mind.",
+      "BNAM": ";choice 2 is for no to the room rental",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "4325609943702902": {
+      "flag": 0,
+      "PNAM": "962731613265082404",
+      "NNAM": "3579309451481124256",
+      "DATA": {
+        "value": 15,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, we have one available. It's 10 gold for the rest of the day. Do you want it?",
+      "BNAM": "Choice, \"Yes\", 1, \"No\", 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "rent",
+          "__TV": 0
+        }
+      ]
+    },
+    "3579309451481124256": {
+      "flag": 0,
+      "PNAM": "4325609943702902",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't like you staying here. Get lost.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2467420241504626206": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1594025613149529658",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hession",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, the bed is yours for the day. You'll find the room on the bottom floor, at the North end of the bar.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script MOURNHOLD WINGED GUAR\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    },
+    "25962153161759731313": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1594025613149529658",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Alcedonia Amnis",
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. Head upstairs, to the last room on the right. It's yours for the next day.",
+      "BNAM": "set rent to 1 ;this does everything in the publican's script RAVEN ROCK BAR\r\nadditem, gold_001, 10\r\nplayer->removeitem, gold_001, 10\r\nmoddisposition 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3547940,1061158912]
+  },
+  "NAME": "Balmora, Vorar Helas' House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,65,65,0],
+    "sunlight": [80,40,20,0],
+    "fog_color": [36,35,54,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-261839": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "vorar helas",
+      "DATA": [207.4887237548828,198.74859619140625,16.116329193115234,0,0,3.383185863494873]
+    },
+    "0-57360": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_loaddoor_01",
+      "DATA": [0,-128,128,0,0,1.5707963705062866]
+    },
+    "0-57354": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_loaddoor_01",
+      "DATA": [256,128,384,0,0,1.5707963705062866]
+    },
+    "0-57366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_04",
+      "ANAM": "vorar helas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [30.719406127929688,539.0673217773438,36.64140319824219,0,0,3.1415927410125732]
+    },
+    "0-57367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-36.77034378051758,537.646484375,63.75,0,0,0]
+    },
+    "0-57368": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03",
+      "DATA": [-59.37843704223633,446.08050537109375,138.8987579345703,0,0,0.7853981852531433]
+    },
+    "0-57371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [291.26971435546875,571.7468872070312,65.38955688476562,0,0,0.000000029802322387695313]
+    },
+    "0-57375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [302.6246643066406,-0.8206937909126282,142.75013732910156,0,0,0.18318843841552734]
+    },
+    "0-57376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [306.64727783203125,-53.37630081176758,135.82969665527344,0,0,0.18380069732666016]
+    },
+    "0-57377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [317.7190246582031,34.2941780090332,135.32337951660156,0,0,4.466373920440674]
+    },
+    "0-57378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [310.6535949707031,50.18332290649414,135.32337951660156,0,0,0.18318843841552734]
+    },
+    "0-57379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [300.62353515625,67.1007308959961,135.2713165283203,0,0,0.18318843841552734]
+    },
+    "0-57380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [306.4695739746094,84.03604888916016,135.2713165283203,0,0,0.18318843841552734]
+    },
+    "0-57381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [300.0255126953125,-21.227558135986328,97.50495147705078,0,0,0.18318843841552734]
+    },
+    "0-57382": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [304.64813232421875,-53.126895904541016,98.28925323486328,0,0,0.18318843841552734]
+    },
+    "0-57383": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [310.9328308105469,40.94667434692383,92.6256332397461,0,0,3.26637601852417]
+    },
+    "0-57384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [301.7505187988281,64.55138397216797,93.26937103271484,0,0,3.26637601852417]
+    },
+    "0-57385": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [309.7302551269531,82.20846557617188,93.31916046142578,0,0,3.26637601852417]
+    },
+    "0-57386": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [308.7444152832031,77.81777954101562,46.25104522705078,0,0,1.3831896781921387]
+    },
+    "0-57387": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [314.4384765625,44.7449836730957,46.299217224121094,0,0,0.18318843841552734]
+    },
+    "0-57388": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_platter",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [310.2587585449219,14.98346996307373,50.72170639038086,0,0,3.365537166595459]
+    },
+    "0-57389": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [306.08154296875,-15.546229362487793,49.84792709350586,0,0,0.18318796157836914]
+    },
+    "0-57390": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Redware_Cup",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [298.58404541015625,-37.37409591674805,52.128761291503906,0,0,0.18318796157836914]
+    },
+    "0-57391": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Redware_Cup",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [303.0794982910156,-55.27463150024414,51.84684753417969,0,0,5.8663716316223145]
+    },
+    "0-57394": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_14_64",
+      "ANAM": "vorar helas",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [356.7467956542969,307.31964111328125,134.97691345214844,0,0,0]
+    },
+    "0-57395": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_14_64",
+      "ANAM": "vorar helas",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [356.9719543457031,223.36685180664062,134.97691345214844,0,0,0]
+    },
+    "0-57396": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_02",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [355.1340026855469,261.5539855957031,130.8280029296875,0,0,0]
+    },
+    "0-57402": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03",
+      "DATA": [-63.89543533325195,554.7353515625,396.1891174316406,0,0,5.683186054229736]
+    },
+    "0-57403": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [269.92529296875,510.96893310546875,331.5527648925781,0,0,2.200000286102295]
+    },
+    "0-57404": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_09",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [248.8802947998047,550.4984741210938,324.2584228515625,0,0,4.883186340332031]
+    },
+    "0-57405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_09",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [252.5145263671875,495.5557556152344,324.2584228515625,0,0,0.800000011920929]
+    },
+    "0-57406": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [289.4815673828125,508.2855224609375,333.8192138671875,0,0,0.20000000298023224]
+    },
+    "0-57407": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [267.01483154296875,484.37640380859375,317.9354248046875,0,0,5.183186054229736]
+    },
+    "0-57408": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [229.7689666748047,526.7525634765625,317.9354248046875,0,0,0]
+    },
+    "0-57410": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [354.3013916015625,288.8362731933594,400.7640075683594,0,0,5.497786998748779]
+    },
+    "0-57411": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [349.5592956542969,232.8430938720703,402.7881774902344,0,0,0]
+    },
+    "0-57412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [342.62506103515625,266.321044921875,401.81402587890625,0,0,0.6000001430511475]
+    },
+    "0-57413": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [358.1549987792969,254.2112579345703,401.81402587890625,0,0,0]
+    },
+    "0-57414": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [342.596923828125,250.7581787109375,401.81402587890625,0,0,0.30000001192092896]
+    },
+    "0-57415": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [358.8995666503906,266.7061767578125,401.81402587890625,0,0,1.1000001430511475]
+    },
+    "0-57416": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_11_64",
+      "ANAM": "vorar helas",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [363.0969543457031,207.01138305664062,388.984619140625,0,0,0]
+    },
+    "0-57417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [35.42583465576172,572.6788330078125,279.3988037109375,0,0,5.983185768127441]
+    },
+    "0-57418": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [34.26837921142578,571.8490600585938,267.7691650390625,0,0,0]
+    },
+    "0-57419": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-28.398860931396484,577.4057006835938,284.56915283203125,0,0,0]
+    },
+    "0-57420": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-70.48632049560547,513.5821533203125,286.4706726074219,0,0,5.1831865310668945]
+    },
+    "0-57421": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-87.21749877929688,424.8734436035156,288.2972717285156,0,0.20000000298023224,3.1415927410125732]
+    },
+    "0-57422": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [316.8243713378906,132.5225830078125,41.191307067871094,0,0,0.4000000059604645]
+    },
+    "0-57423": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [328.3821105957031,185.8124542236328,41.191307067871094,0,0,0.42500001192092896]
+    },
+    "0-249518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_dwrv_artifact60",
+      "XSCL": 0.9000000357627869,
+      "ANAM": "vorar helas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [324.3665771484375,555.5165405273438,67.53106689453125,1.5707963705062866,4.172517776489258,2.970796585083008]
+    },
+    "0-57350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_door1",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-57352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_corner",
+      "DATA": [256,0,128,0,0,4.71238899230957]
+    },
+    "0-57353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb_load",
+      "DATA": [256,128,384,0,0,1.5707963705062866]
+    },
+    "0-57355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_stairsl",
+      "DATA": [0,256,256,0,0,4.71238899230957]
+    },
+    "0-57356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_corner",
+      "DATA": [0,512,384,0,0,1.5707963705062866]
+    },
+    "0-57358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_door2",
+      "DATA": [256,256,384,0,0,3.1415927410125732]
+    },
+    "0-57359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb_load",
+      "DATA": [0,-128,128,0,0,1.5707963705062866]
+    },
+    "0-57361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_corner",
+      "DATA": [256,512,384,0,0,3.1415927410125732]
+    },
+    "0-57365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_rail",
+      "DATA": [128,256,384,0,0,1.5707963705062866]
+    },
+    "0-57369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [305.7374267578125,554.313232421875,35.94703674316406,0,0,0]
+    },
+    "0-57373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.1600000858306885,
+      "DATA": [240.74822998046875,180.3262176513672,2.85614275932312,0,0,4.71238899230957]
+    },
+    "0-57392": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [307.4507141113281,16.160837173461914,80.67850494384766,0,0,1.5831899642944336]
+    },
+    "0-57393": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [356.6647033691406,264.710205078125,121.10175323486328,0,0,1.5707963705062866]
+    },
+    "0-57397": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_01",
+      "DATA": [249.64918518066406,219.68048095703125,261.5652160644531,0,0,0]
+    },
+    "0-57399": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_01",
+      "DATA": [259.8957824707031,527.4777221679688,289.7679748535156,0,0,1.7999999523162842]
+    },
+    "0-57400": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [315.28546142578125,445.70379638671875,293.8538513183594,0,0,2.397787570953369]
+    },
+    "0-57401": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [170.26971435546875,562.2796020507812,293.8538513183594,0,0,4.847786903381348]
+    },
+    "0-57409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [355.4415588378906,250.1487274169922,375.1864318847656,0,0,1.5707963705062866]
+    },
+    "0-290501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-118.04818725585938,-361.8013000488281,85.93695068359375,0,0,4.71238899230957]
+    },
+    "0-384162": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_14_64",
+      "ANAM": "vorar helas",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [293.5063171386719,536.808349609375,70.31828308105469,0,0,0]
+    },
+    "0-384163": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_room_door1",
+      "DATA": [256,256,128,0,0,3.1415927410125732]
+    },
+    "0-384164": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [256,512,128,0,0,3.1415927410125732]
+    },
+    "0-384165": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_end",
+      "DATA": [0,512,128,0,0,4.71238899230957]
+    },
+    "0-384166": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_basket_01",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "vorar helas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [320.88446044921875,558.0834350585938,72.68550109863281,0,0,1]
+    },
+    "0-384167": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.2000000476837158,
+      "DATA": [165.71688842773438,493.3150329589844,259.5207214355469,0,0,6.2831854820251465]
+    },
+    "0-384168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.0200001001358032,
+      "DATA": [70.58099365234375,512.4812622070312,2.85614275932312,0,0,6.2831854820251465]
+    },
+    "0-384169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [279.83935546875,549.4473266601562,338.3686218261719,0,0,5.883185863494873]
+    },
+    "0-384170": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-110.59017944335938,-6.089306354522705,233.36026000976562,0,0,1.5707963705062866]
+    },
+    "0-384171": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [6.8870062828063965,146.9608612060547,490.7883605957031,0,0,0]
+    },
+    "0-384172": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [243.45973205566406,621.2007446289062,233.36026000976562,0,0,3.1415927410125732]
+    },
+    "0-384173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [2.8107588291168213,621.2007446289062,490.7883605957031,0,0,3.1415927410125732]
+    },
+    "0-384174": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-107.72172546386719,501.33319091796875,490.7883605957031,0,0,1.5707963705062866]
+    },
+    "0-384175": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-107.72172546386719,255.05828857421875,490.7883605957031,0,0,1.5707963705062866]
+    },
+    "0-384176": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [365.3406677246094,511.8935852050781,490.7883605957031,0,0,4.71238899230957]
+    },
+    "0-384177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [243.45973205566406,621.2007446289062,490.7883605957031,0,0,3.1415927410125732]
+    },
+    "0-384178": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [19.026636123657227,402.631103515625,216.882568359375,0,0,0]
+    },
+    "0-384179": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [365.3406677246094,10.491982460021973,233.36026000976562,0,0,4.71238899230957]
+    },
+    "0-384180": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [254.380615234375,-109.38011169433594,233.36026000976562,0,0,6.2831854820251465]
+    },
+    "0-384181": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [365.3406677246094,511.8935852050781,233.36026000976562,0,0,4.71238899230957]
+    },
+    "0-384182": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-109.74434661865234,510.9910583496094,233.36026000976562,0,0,1.5707963705062866]
+    },
+    "0-384183": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [19.026636123657227,621.6835327148438,216.882568359375,0,0,3.1415927410125732]
+    },
+    "0-384184": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_08_128_01",
+      "DATA": [68.80014038085938,-98.18025970458984,217.8465576171875,0,0,0.7853981852531433]
+    },
+    "0-384185": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2600001096725464,
+      "DATA": [73.11502838134766,-99.02542877197266,236.7357177734375,0,0,3.9269907474517822]
+    }
+  }
+}

@@ -1,0 +1,759 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "7600226825306505": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "250603092653151409",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dorisa darvel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I might have one I could sell you. I have been trying to make copies of this rare book. If I don't have one at the moment, try Jobasha's Rare Books in Vivec.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "250603092653151409": {
+      "flag": 0,
+      "PNAM": "7600226825306505",
+      "NNAM": "2951510500150015041",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "You already brought me a copy of Chronicles of Nchuleft.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_ChroniclesNchuleft",
+          "__TV": 100
+        }
+      ]
+    },
+    "2951510500150015041": {
+      "flag": 0,
+      "PNAM": "250603092653151409",
+      "NNAM": "66238650311922029",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Good. I will not forget this, %PCName. As you have brought me all three books. Please accept these trinkets of mine. I no longer have any use for them.",
+      "BNAM": "Journal HT_ChroniclesNchuleft 100\r\nJournal HT_DwemerLaw 120\r\nPlayer->RemoveItem \"bk_ChroniclesNchuleft\" 1\r\nAddItem \"bk_ChroniclesNchuleft\" 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 10\r\nSet givenReward to 1\r\nPlayer->AddItem \"ondusi's key\" 1\r\nPlayer->AddItem \"amulet of admonition\" 1\r\nPlayer->AddItem \"second barrier belt\" 1\r\nPlayer->AddItem \"common_shoes_02_surefeet\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_ChroniclesNchuleft",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "givenReward",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DwemerLaw",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_FireAndFaith",
+          "__TV": 100
+        }
+      ]
+    },
+    "66238650311922029": {
+      "flag": 0,
+      "PNAM": "2951510500150015041",
+      "NNAM": "17883164021678426602",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Good. I will not forget this, %PCName.",
+      "BNAM": "Journal HT_ChroniclesNchuleft 100\r\nPlayer->RemoveItem \"bk_ChroniclesNchuleft\" 1\r\nAddItem \"bk_ChroniclesNchuleft\" 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_ChroniclesNchuleft",
+          "__TV": 1
+        }
+      ]
+    },
+    "17883164021678426602": {
+      "flag": 0,
+      "PNAM": "66238650311922029",
+      "NNAM": "2338627563162067478",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "I do not want to play games with you, %PCName. Bring me a copy of Chronicles of Nchuleft. Do not try to trick me.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2338627563162067478": {
+      "flag": 0,
+      "PNAM": "17883164021678426602",
+      "NNAM": "21657126292392918147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "I know it may be difficult to find this book. You could try the Dwemer ruin of Nchuleft itself, which is supposed to be somewhere between Vos and the Ghostfence.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21657126292392918147": {
+      "flag": 0,
+      "PNAM": "2338627563162067478",
+      "NNAM": "289922690152114837",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Have you found a copy of Chronicles of Nchuleft?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DwemerLaw",
+          "__TV": 5
+        }
+      ]
+    },
+    "289922690152114837": {
+      "flag": 0,
+      "PNAM": "21657126292392918147",
+      "NNAM": "2077122939923615",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baladas demnevanni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "\"Chronicles of Nchuleft\" is very rare. There are probably still copies of the book in the Dwemer ruin of Nchuleft. Otherwise, you could try asking booksellers where one might find a copy.",
+      "BNAM": "Journal HT_DwemerLaw 5",
+      "SCVR": null
+    },
+    "2077122939923615": {
+      "flag": 0,
+      "PNAM": "289922690152114837",
+      "NNAM": "21549239941139516581",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you still a member of the guild? Once Trebonius gives the authorization, we can discuss guild matters again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 20
+        }
+      ]
+    },
+    "21549239941139516581": {
+      "flag": 0,
+      "PNAM": "2077122939923615",
+      "NNAM": "8829232071668230231",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Were you expelled? Or did you clear that up already? You ought to make amends with Guildmaster Trebonius just to be sure.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 10
+        }
+      ]
+    },
+    "8829232071668230231": {
+      "flag": 0,
+      "PNAM": "21549239941139516581",
+      "NNAM": "21806256833173112664",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled, %PCName. If you want to make amends, you should speak with Guildmaster Trebonius.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "21806256833173112664": {
+      "flag": 0,
+      "PNAM": "8829232071668230231",
+      "NNAM": "2641885042222313163",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Chronicles of Nchuleft has been invaluable in my research.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_NchuleftBook",
+          "__TV": 100
+        }
+      ]
+    },
+    "2641885042222313163": {
+      "flag": 0,
+      "PNAM": "21806256833173112664",
+      "NNAM": "5202153131904230638",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "I'm impressed, %PCRank. I hope you are always this efficient.",
+      "BNAM": "Journal MG_NchuleftBook 100\r\nPlayer->RemoveItem \"bk_ChroniclesNchuleft\" 1\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "5202153131904230638": {
+      "flag": 0,
+      "PNAM": "2641885042222313163",
+      "NNAM": "681413927109812574",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "I thought we had an agreement, %PCName. Apparently your word cannot be trusted.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "681413927109812574": {
+      "flag": 0,
+      "PNAM": "5202153131904230638",
+      "NNAM": "946247231264014642",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "What? You already have a copy of Chronicles of Nchuleft? I am impressed with your scholarship, %PCName. Are you willing to part with the book?",
+      "BNAM": "Choice \"Give her the book.\" 3 \"Keep the book.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_ChroniclesNchuleft",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MG_NchuleftBook",
+          "__TV": 0
+        }
+      ]
+    },
+    "946247231264014642": {
+      "flag": 0,
+      "PNAM": "681413927109812574",
+      "NNAM": "16493505187536318",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "You actually found a copy? Excellent, now give the book to me.",
+      "BNAM": "Choice \"Give her the book.\" 3 \"Keep the book.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_ChroniclesNchuleft",
+          "__TV": 1
+        }
+      ]
+    },
+    "16493505187536318": {
+      "flag": 0,
+      "PNAM": "946247231264014642",
+      "NNAM": "1786816122756313471",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "I simply *must* have this book for my research. Use the gold I gave you to find a copy. Maybe one of the booksellers has one.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_NchuleftBook",
+          "__TV": 10
+        }
+      ]
+    },
+    "1786816122756313471": {
+      "flag": 0,
+      "PNAM": "16493505187536318",
+      "NNAM": "30876280701898211538",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. Here's 250 septims to cover your expenses. Time is of the essence.",
+      "BNAM": "Player->AddItem Gold_001 250\r\nJournal MG_NchuleftBook 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "30876280701898211538": {
+      "flag": 0,
+      "PNAM": "1786816122756313471",
+      "NNAM": "2946918012419552",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I guess I'll have to get Bribanne Erien to do it.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2946918012419552": {
+      "flag": 0,
+      "PNAM": "30876280701898211538",
+      "NNAM": "26081231041180118731",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "It is a rare Dwarven tome. None of the Mages Guild branches have a copy, and it is simply *essential* to my research. Would you be willing to find a copy for me?",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2",
+      "SCVR": null
+    },
+    "26081231041180118731": {
+      "flag": 0,
+      "PNAM": "2946918012419552",
+      "NNAM": "221858775371129315",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "jobasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, Jobasha knows the Chronicles of Nchuleft. Perhaps Jobasha has a copy...",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "221858775371129315": {
+      "flag": 0,
+      "PNAM": "26081231041180118731",
+      "NNAM": "183046666343215",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": "Bookseller",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name owns no copies of Chronicles of Nchuleft. Speak with Jobasha in Vivec. Jobasha has many rare books.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "183046666343215": {
+      "flag": 0,
+      "PNAM": "221858775371129315",
+      "NNAM": "113033264784513703",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Bookseller",
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Try Jobasha's Rare Books in the Market Canton.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "113033264784513703": {
+      "flag": 0,
+      "PNAM": "183046666343215",
+      "NNAM": "2861191472954228655",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, Guild of Mages",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Try Jobasha's Rare Books in the Market Canton.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2861191472954228655": {
+      "flag": 0,
+      "PNAM": "113033264784513703",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Bookseller",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Chronicles of Nchuleft? It is a very rare book, but you might find a copy in Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Monk Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_04",
+  "KNAM": "b_n_dark elf_f_hair_18",
+  "MODL": null,
+  "FNAM": "Balen Vendu",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "sc_paper plain"
+    },
+    {
+      "count": 1,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 67,
+    "magicka": 90,
+    "fatigue": 199,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [53,45,47,65,69,34,44,40],
+    "skills": [21,6,6,6,21,11,6,6,41,6,16,6,6,6,11,21,6,36,14,44,44,34,24,34,15,14,44]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

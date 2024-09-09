@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Thief",
+  "ANAM": "",
+  "BNAM": "B_N_Wood Elf_M_Head_08",
+  "KNAM": "b_n_wood elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "High-Pockets",
+  "SCRI": "highPocketsScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ring of icegrip"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_06"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_06"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_06"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 76,
+    "magicka": 108,
+    "fatigue": 202,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [46,54,37,84,100,35,51,40],
+    "skills": [6,6,6,6,6,6,6,6,24,6,6,6,6,6,6,6,11,6,48,58,54,58,48,48,34,34,34]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 347,
+    "local_var_size": 11
+  },
+  "SCTX": "begin tr_weathlev1\r\n;lever for weather machine, same script on all three levers.\r\n\r\nshort state\t\t;the state of the lever, 0 down, 1 up\r\nshort move\r\n\r\nif ( OnActivate == 1 )\r\n\tif (act_dwe_powerbox00.PowerOn == 0 )\r\n\t\tMessageBox \"This lever cannot be used until the machine is powered on.\"\r\n\telse\r\n\t\tif ( GetJournalIndex TR_SothaSil < 100 )\r\n\t\t\tif ( GetJournalIndex TR_ShowPower >= 100 )\r\n\t\t\t\tMessageBox \"This lever is being held in place by a mysterious force.\"\r\n\t\t\t\treturn\r\n\t\t\tendif\r\n\t\tendif\t\t\r\n\t\tset move to 1\r\n\tendif\r\nendif\r\n\r\nif  ( move == 1 )\r\n\t\r\n\t;animate the lever\r\n\tif ( state == 0 )\r\n\t\t\tplaygroup \"idle2\"\r\n\t\t\tset state to 1\r\n\telse\r\n\t\t\tplaygroup \"idle3\"\r\n\t\t\tset state to 0\r\n\tendif\r\n\r\n\tset \"act_dwe_weather00\".crankReset to 1\r\n\tset move to 0\r\n\r\nendif\r\n\r\nend\r\n\r\n\r\n",
+  "SCVR": [
+    "state",
+    "move"
+  ],
+  "SCDT": [6,1,11,9,32,88,24,16,32,61,61,32,49,6,1,1,29,32,114,18,97,99,116,95,100,119,101,95,112,111,119,101,114,98,111,120,48,48,115,3,0,32,61,61,32,48,0,16,58,0,84,104,105,115,32,108,101,118,101,114,32,99,97,110,110,111,116,32,98,101,32,117,115,101,100,32,117,110,116,105,108,32,116,104,101,32,109,97,99,104,105,110,101,32,105,115,32,112,111,119,101,114,101,100,32,111,110,46,0,0,7,1,7,6,1,4,24,32,88,205,16,32,100,11,84,82,95,83,111,116,104,97,83,105,108,32,60,32,49,48,48,6,1,2,26,32,88,205,16,32,100,12,84,82,95,83,104,111,119,80,111,119,101,114,32,62,61,32,49,48,48,0,16,56,0,84,104,105,115,32,108,101,118,101,114,32,105,115,32,98,101,105,110,103,32,104,101,108,100,32,105,110,32,112,108,97,99,101,32,98,121,32,97,32,109,121,115,116,101,114,105,111,117,115,32,102,111,114,99,101,46,0,0,36,1,9,1,9,1,5,1,115,2,0,2,32,49,9,1,9,1,6,1,9,9,32,115,2,0,32,61,61,32,49,6,1,2,9,32,115,1,0,32,61,61,32,48,20,16,1,0,0,5,1,115,1,0,2,32,49,7,1,2,20,16,2,0,0,5,1,115,1,0,2,32,48,9,1,5,1,114,17,97,99,116,95,100,119,101,95,119,101,97,116,104,101,114,48,48,115,2,0,2,32,49,5,1,115,2,0,2,32,48,9,1,1,1]
+}

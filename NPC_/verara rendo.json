@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Clothier",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_05",
+  "MODL": null,
+  "FNAM": "Verara Rendo",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 4
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 94,
+    "magicka": 136,
+    "fatigue": 213,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [63,68,39,74,65,37,64,40],
+    "skills": [26,6,6,6,26,11,6,6,11,6,16,6,6,6,11,6,6,26,52,52,52,42,27,22,23,52,36]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

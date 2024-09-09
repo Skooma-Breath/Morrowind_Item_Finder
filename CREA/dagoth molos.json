@@ -1,0 +1,58 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AscendedSleeper.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 3,
+    "level": 20,
+    "attributes": [100,70,50,100,20,255,100,45],
+    "health": 280,
+    "magicka": 340,
+    "fatigue": 600,
+    "soul_strength": 330,
+    "combat_skill": 75,
+    "magic_skill": 95,
+    "stealth_skill": 35,
+    "attacks": [
+      [10,15],
+      [10,33],
+      [10,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "ascended_sleeper",
+  "FNAM": "Dagoth Molos",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "amulet of 6th house"
+    }
+  ],
+  "NPCS": [
+    "shockball",
+    "frost storm",
+    "fire storm",
+    "poison_powerful",
+    "drain health_fatigue",
+    "paralysis"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

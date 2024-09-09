@@ -1,0 +1,1266 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [4076326,1061158912]
+  },
+  "NAME": "Balmora, Western Guard Tower South",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,65,65,0],
+    "sunlight": [80,40,20,0],
+    "fog_color": [38,51,62,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-384324": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hlaalu guard",
+      "DATA": [4349.8515625,4089.609375,15750.0947265625,0,0,0]
+    },
+    "0-384325": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hlaalu guard",
+      "DATA": [4320,4384,15264,0,0,3.1415927410125732]
+    },
+    "0-384439": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_h_trapdoor_01",
+      "DATA": [4084.25390625,4347.09619140625,16261.525390625,0,0,1.5707963705062866]
+    },
+    "0-384440": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_loaddoor_01",
+      "DATA": [3712,4096,15616,0,0,3.1415927410125732]
+    },
+    "0-384326": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_door",
+      "DATA": [4224,4032,15360,0,0,6.2831854820251465]
+    },
+    "0-384327": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_10",
+      "XSCL": 0.7800000309944153,
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3798.21337890625,4350.78271484375,16029.7431640625,0,0,4.71238899230957]
+    },
+    "0-384328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4070.22998046875,3788.310546875,15310.74609375,0,0,6.197786808013916]
+    },
+    "0-384329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4055.895751953125,3868.087158203125,15310.484375,0,0,5.297787666320801]
+    },
+    "0-384330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4097.62548828125,3868.685302734375,15304.4033203125,0,0,5.683186054229736]
+    },
+    "0-384331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4053.599853515625,3824.593017578125,15320.439453125,0,0,0.4000000059604645]
+    },
+    "0-384332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_door",
+      "DATA": [4416,4224,15360,0,0,4.71238899230957]
+    },
+    "0-384333": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_random_pos",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4414.6455078125,4408.0029296875,15270.2548828125,0,0,0]
+    },
+    "0-384334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4046.239990234375,4288.1796875,15301.15234375,0,0,6.212388038635254]
+    },
+    "0-384335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_Ingred",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4038.041748046875,4349.88818359375,15301.15234375,0,0,6.212388038635254]
+    },
+    "0-384336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4109.39306640625,4336.8974609375,15272.25390625,0,0,3.4269917011260986]
+    },
+    "0-384337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4131.24462890625,4404.814453125,15272.25390625,0,0,4.7123894691467285]
+    },
+    "0-384338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4112.16357421875,4266.1728515625,15272.25390625,0,0,4.7123894691467285]
+    },
+    "0-384339": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Gold_05",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4131.57666015625,4301.88818359375,15263.1552734375,0,0,4.7123894691467285]
+    },
+    "0-384340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_eggs",
+      "XSCL": 0.8200000524520874,
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4050.269287109375,4403.95751953125,15327.240234375,0,0,4.912388801574707]
+    },
+    "0-384341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4053.378173828125,4403.18896484375,15269,0,0,4.7123894691467285]
+    },
+    "0-384342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_drawers_01_mcloth",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3781.58544921875,4101.2568359375,16053.669921875,0,0,4.7123894691467285]
+    },
+    "0-384343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_LivesOfTheSaints",
+      "XSCL": 0.9100000262260437,
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3739.498046875,4311.7763671875,16113.68359375,4.71238899230957,3.1415927410125732,0]
+    },
+    "0-384344": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_SaryonisSermons",
+      "XSCL": 0.690000057220459,
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3739.799560546875,4318.79736328125,16118.63671875,4.71238899230957,3.1415927410125732,0]
+    },
+    "0-384345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BookDawnAndDusk",
+      "XSCL": 0.7700000405311584,
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3734.678955078125,4347.80322265625,16114.865234375,0,5.297074317932129,4.71238899230957]
+    },
+    "0-384346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "XSCL": 0.8200000524520874,
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3742.5380859375,4387.4423828125,16098.2109375,0,0,0]
+    },
+    "0-384347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "XSCL": 0.8200000524520874,
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3741.5009765625,4296.2724609375,16098.2109375,0,0,0]
+    },
+    "0-384348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4087.374267578125,3833.83056640625,15308.7744140625,0,0,0.6000000238418579]
+    },
+    "0-384349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4082.17724609375,3814.368408203125,15303.4921875,0,0,2.700000047683716]
+    },
+    "0-384350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_De_Lantern_01_128",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [4047.093994140625,3781.48291015625,15338.4150390625,0,0,0.7993608117103577]
+    },
+    "0-384351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_paper_lantern_01_200",
+      "DATA": [4299.521484375,4100.08740234375,15448.0537109375,0,0,4.6838250160217285]
+    },
+    "0-384352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4326.6513671875,3780.8916015625,15374.876953125,0,0,1.7831885814666748]
+    },
+    "0-384353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4274.00048828125,3778.40576171875,15368.111328125,0,0,1.7838006019592285]
+    },
+    "0-384354": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4361.310546875,3764.778564453125,15367.60546875,0,0,6.066372394561768]
+    },
+    "0-384355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4377.3994140625,3771.37646484375,15367.60546875,0,0,1.7831885814666748]
+    },
+    "0-384356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4394.6025390625,3780.90869140625,15367.552734375,0,0,1.7831885814666748]
+    },
+    "0-384357": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4411.359375,3774.5712890625,15367.552734375,0,0,1.7831885814666748]
+    },
+    "0-384358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4314.04296875,3778.28515625,15330.23828125,0,0,1.7831885814666748]
+    },
+    "0-384359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4275.9580078125,3778.1201171875,15329.982421875,0,0,1.7831885814666748]
+    },
+    "0-384360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4368.158203125,3771.36767578125,15324.90625,0,0,4.866374492645264]
+    },
+    "0-384361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4392.021484375,3779.8564453125,15325.55078125,0,0,4.866374492645264]
+    },
+    "0-384362": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4409.43798828125,3771.365234375,15325.6015625,0,0,4.866374492645264]
+    },
+    "0-384363": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4405.078125,3772.47802734375,15278.533203125,0,0,2.9827675819396973]
+    },
+    "0-384364": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4371.8525390625,3767.751953125,15278.580078125,0,0,1.7831885814666748]
+    },
+    "0-384365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_platter",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4342.2255859375,3772.7998046875,15283.00390625,0,0,5.283186435699463]
+    },
+    "0-384366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4311.8310546875,3777.86669921875,15282.12890625,0,0,1.7831881046295166]
+    },
+    "0-384367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Redware_Cup",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4290.2314453125,3785.997802734375,15284.41015625,0,0,1.7831881046295166]
+    },
+    "0-384368": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Redware_Cup",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4272.20703125,3782.027099609375,15284.12890625,0,0,1.1831856966018677]
+    },
+    "0-384369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [4352,4352,15360,0,0,3.1415927410125732]
+    },
+    "0-384370": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [4096,4352,15360,0,0,1.5707963705062866]
+    },
+    "0-384371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_stairsl",
+      "DATA": [4096,4096,15488,0,0,3.1415929794311523]
+    },
+    "0-384372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [4096,4352,16128,0,0,3.1415929794311523]
+    },
+    "0-384373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [3840,4352,15616,0,0,1.570796012878418]
+    },
+    "0-384374": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [3840,4096,16128,0,0,0.00000011920928955078125]
+    },
+    "0-384375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [3840,4352,16128,0,0,1.5707963705062866]
+    },
+    "0-384376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_3way",
+      "DATA": [4352,4096,15360,0,0,4.71238899230957]
+    },
+    "0-384377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_3way",
+      "DATA": [3840,4096,15616,0,0,6.2831854820251465]
+    },
+    "0-384378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb_load",
+      "DATA": [3712.000244140625,4095.999755859375,15616,0,0,3.1415927410125732]
+    },
+    "0-384379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_rail",
+      "DATA": [4096,4224,16128,0,0,0]
+    },
+    "0-384380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb",
+      "DATA": [4224,4096,15360,0,0,3.1415927410125732]
+    },
+    "0-384381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb",
+      "DATA": [4352,4224,15360,0,0,4.71238899230957]
+    },
+    "0-384382": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_stairsl",
+      "DATA": [4096,4096,16000,0,0,3.1415929794311523]
+    },
+    "0-384383": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_stairsl",
+      "DATA": [4096,4352,15744,0,0,6.2831854820251465]
+    },
+    "0-384384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_shelf_01",
+      "DATA": [3738.32958984375,4341.4638671875,16108.8583984375,0,0,4.71238899230957]
+    },
+    "0-384385": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3988.394775390625,4342.10986328125,15979.0732421875,0,0,1.5707963705062866]
+    },
+    "0-384386": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.03000009059906,
+      "DATA": [3841.798583984375,4286.6689453125,16003.5029296875,0,0,1.5707963705062866]
+    },
+    "0-384387": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.03000009059906,
+      "DATA": [4353.01220703125,4221.13818359375,15747.6611328125,0,0,1.5561944246292114]
+    },
+    "0-384388": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_04",
+      "DATA": [4064.020751953125,3841.788818359375,15271.1796875,0,0,1.6000001430511475]
+    },
+    "0-384389": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [4121.00341796875,3829.911865234375,15255.892578125,0,0,1.4000000953674316]
+    },
+    "0-384390": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [4343.4833984375,3775.572265625,15312.9609375,0,0,3.1415927410125732]
+    },
+    "0-384391": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [4352.00048828125,4095.99951171875,15872,0,0,4.71238899230957]
+    },
+    "0-384392": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3797.59033203125,4410.3203125,16047.6669921875,0,0,1.600000262260437]
+    },
+    "0-384393": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [3901.76171875,3599.30810546875,16208.6728515625,0,0,1.600000262260437]
+    },
+    "0-384394": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "DATA": [3841.61865234375,4221.8603515625,15491.443359375,0,0,1.5499999523162842]
+    },
+    "0-384395": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3849.3916015625,4420.6962890625,16020.1357421875,0,0,0.9249999523162842]
+    },
+    "0-384396": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_05",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3845.64111328125,4410.01611328125,16011.583984375,0,0,0.39968040585517883]
+    },
+    "0-384397": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [4352,3840,15360,0,0,4.71238899230957]
+    },
+    "0-384398": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [4297.74267578125,4100.86865234375,15495.3291015625,0,0,1.5707963705062866]
+    },
+    "0-384399": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [3841.822021484375,4150.744140625,15746.1904296875,0,0,3.1415927410125732]
+    },
+    "0-384400": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_paper_lantern_01_200",
+      "DATA": [3841.040771484375,4148.96484375,15698.9150390625,0,0,6.2546210289001465]
+    },
+    "0-384401": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_paper_lantern_01_200",
+      "DATA": [4376.7880859375,4149.9365234375,15946.5146484375,0,0,6.2546210289001465]
+    },
+    "0-384402": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [4377.5693359375,4151.7158203125,15993.7900390625,0,0,3.1415927410125732]
+    },
+    "0-384403": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_paper_lantern_01_200",
+      "DATA": [3901.1083984375,4380.0009765625,16210.0771484375,0,0,6.2546210289001465]
+    },
+    "0-384404": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [3901.8896484375,4381.7802734375,16257.3525390625,0,0,3.1415927410125732]
+    },
+    "0-384405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [4352,4352,15872,0,0,3.1415927410125732]
+    },
+    "0-384406": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver claymore",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1120,
+      "NAM9": 1,
+      "DATA": [3783.002197265625,4076.194091796875,16102.9482421875,0,0,0]
+    },
+    "0-384407": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_16_64",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [3770.969970703125,4135.55810546875,16110.607421875,0,0,0.21460075676441193]
+    },
+    "0-384408": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_16_64",
+      "CNAM": {
+        "faction_id": "Hlaalu",
+        "rank": 2
+      },
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [3770.852783203125,4066.7734375,16110.607421875,0,0,0.800000011920929]
+    },
+    "0-384409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4351.10986328125,3986.07373046875,15976.93359375,0,0,0]
+    },
+    "0-384410": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4460.66015625,4349.49365234375,15976.93359375,0,0,4.71238899230957]
+    },
+    "0-384411": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4340.19873046875,4459.744140625,15979.0732421875,0,0,3.1415927410125732]
+    },
+    "0-384412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4097.40283203125,4459.744140625,15979.0732421875,0,0,3.1415927410125732]
+    },
+    "0-384413": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4460.66015625,4105.51220703125,15976.93359375,0,0,4.71238899230957]
+    },
+    "0-384414": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3840.577392578125,4460.8388671875,15722.2998046875,0,0,3.1415929794311523]
+    },
+    "0-384415": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4203.29150390625,4104.8017578125,15724.439453125,0,0,4.7123894691467285]
+    },
+    "0-384416": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4094.2841796875,3987.169921875,15724.439453125,0,0,6.283185005187988]
+    },
+    "0-384417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3851.488525390625,3987.169921875,15724.439453125,0,0,6.283185005187988]
+    },
+    "0-384418": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3731.027099609375,4341.3994140625,15722.2998046875,0,0,1.5707964897155762]
+    },
+    "0-384419": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3850.416015625,3991.203369140625,16237.87890625,0,0,6.2831854820251465]
+    },
+    "0-384420": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3732.954345703125,4100.66357421875,16237.87890625,0,0,1.5707963705062866]
+    },
+    "0-384421": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3838.873779296875,4458.1015625,16237.87890625,0,0,3.1415927410125732]
+    },
+    "0-384422": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4094.26220703125,3991.203369140625,16237.87890625,0,0,6.2831854820251465]
+    },
+    "0-384423": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4202.38818359375,4103.93603515625,16237.87890625,0,0,4.71238899230957]
+    },
+    "0-384424": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4202.38818359375,4350.6044921875,16237.87890625,0,0,4.71238899230957]
+    },
+    "0-384425": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4086.266845703125,4458.1015625,16237.87890625,0,0,3.1415927410125732]
+    },
+    "0-384426": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_end",
+      "DATA": [4096,3840,15360,0,0,4.71238899230957]
+    },
+    "0-384427": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3991.513671875,4339.40087890625,15469.556640625,0,0,1.5707963705062866]
+    },
+    "0-384428": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4099.23779296875,4457.138671875,15469.556640625,0,0,3.1415927410125732]
+    },
+    "0-384429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4337.15087890625,4457.138671875,15469.556640625,0,0,3.1415927410125732]
+    },
+    "0-384430": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4459.03515625,4353.298828125,15469.556640625,0,0,4.71238899230957]
+    },
+    "0-384431": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4459.03515625,4099.39794921875,15469.556640625,0,0,4.71238899230957]
+    },
+    "0-384432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4459.03515625,3852.758544921875,15469.556640625,0,0,4.71238899230957]
+    },
+    "0-384433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [4353.1357421875,3732.60498046875,15469.556640625,0,0,0]
+    },
+    "0-384434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "DATA": [4115.37060546875,3732.60498046875,15449.9423828125,0,0,0]
+    },
+    "0-384435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "DATA": [4115.37060546875,3947.28173828125,15449.9423828125,0,0,3.1415927410125732]
+    },
+    "0-384436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0600000619888306,
+      "DATA": [3989.580322265625,3839.77734375,15469.556640625,0,0,1.5707963705062866]
+    },
+    "0-384437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_rail",
+      "DATA": [4096,4224,15872,0,0,0]
+    },
+    "0-384438": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_rail",
+      "DATA": [4096,4224,15616,0,0,0]
+    }
+  }
+}

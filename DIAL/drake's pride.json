@@ -1,0 +1,306 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "143101437367061686": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1957554642047311325",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "senise thindo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is the Drake's Pride that I wear. It is not for sale.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1957554642047311325": {
+      "flag": 0,
+      "PNAM": "143101437367061686",
+      "NNAM": "2145425348324619427",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it is a fine and marvelous robe when worn by the rare wizard who is worthy of it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DrakePride",
+          "__TV": 100
+        }
+      ]
+    },
+    "2145425348324619427": {
+      "flag": 0,
+      "PNAM": "1957554642047311325",
+      "NNAM": "153227411508118960",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Were you expelled for getting me the robe? How unfortunate. I will take care of this for you. It's the least I can do. And take these ten drakes for your trouble.",
+      "BNAM": "Journal HT_DrakePride 100\r\nPlayer->AddItem Gold_001 10\r\nPlayer->RemoveItem \"exquisite_robe_drake's pride\" 1\r\nAddItem \"exquisite_robe_drake's pride\" 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 5\r\nPCClearExpelled",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "153227411508118960": {
+      "flag": 0,
+      "PNAM": "2145425348324619427",
+      "NNAM": "28327282662566813983",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, now the robe is in the proper hands. Here, take these ten drakes for your trouble.",
+      "BNAM": "Journal HT_DrakePride 100\r\nPlayer->AddItem Gold_001 10\r\nPlayer->RemoveItem \"exquisite_robe_drake's pride\" 1\r\nAddItem \"exquisite_robe_drake's pride\" 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "28327282662566813983": {
+      "flag": 0,
+      "PNAM": "153227411508118960",
+      "NNAM": "3199888722703229870",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It looks very similar. Are you certain? Do not lie to me, %PCName.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3199888722703229870": {
+      "flag": 0,
+      "PNAM": "28327282662566813983",
+      "NNAM": "864630441314367005",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, is that the Robe of Drake's Pride?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "exquisite_robe_drake's pride",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_DrakePride",
+          "__TV": 10
+        }
+      ]
+    },
+    "864630441314367005": {
+      "flag": 0,
+      "PNAM": "3199888722703229870",
+      "NNAM": "513927245139498696",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At the present time, Senise Thindo wears the Robe of Drake's Pride. She is a servant of Master Gothren in Tel Aruhn and a mere child of two hundred years. She does not deserve the robe. Correct this injustice and bring the robe to me, as clearly I deserve the robe far more than she does.",
+      "BNAM": "Journal HT_DrakePride 10",
+      "SCVR": null
+    },
+    "513927245139498696": {
+      "flag": 0,
+      "PNAM": "864630441314367005",
+      "NNAM": "169551838408112032",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Tel Aruhn, Tower Living Quarters",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with Senise Thindo about that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "senise thindo",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_DrakePride",
+          "__TV": 100
+        }
+      ]
+    },
+    "169551838408112032": {
+      "flag": 0,
+      "PNAM": "513927245139498696",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Tel Aruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, that is one of Senise Thindo's robes. She is in the tower's living quarters.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "senise thindo",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_DrakePride",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

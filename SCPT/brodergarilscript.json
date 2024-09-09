@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 72,
+    "local_var_size": 21
+  },
+  "SCTX": "Begin broderGarilScript\r\n\r\nshort noLore\r\nshort strongService\r\n\r\nif ( strongService != 1 )\r\n\tset strongService to 1\r\nendif\r\n\r\nif ( CellChanged == 0 )\r\n\treturn\r\nendif\r\n\r\nif ( Stronghold < 4 )\r\n\tDisable\r\nelse\r\n\tEnable\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "noLore",
+    "strongService"
+  ],
+  "SCDT": [6,1,1,9,32,115,2,0,32,33,61,32,49,5,1,115,2,0,2,32,49,9,1,6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,1,17,32,71,10,83,116,114,111,110,103,104,111,108,100,32,60,32,52,219,16,7,1,1,218,16,9,1,1,1]
+}

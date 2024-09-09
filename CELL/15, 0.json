@@ -1,0 +1,772 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 2,
+    "grid": [15,0]
+  },
+  "NAME": null,
+  "RGNN": "Azura's Coast Region",
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": null,
+  "FRMR": {
+    "0-137961": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_03",
+      "XSCL": 1.7000000476837158,
+      "DATA": [125695.6015625,7203.96923828125,194.1190643310547,0.09999962151050568,0,5.766375541687012]
+    },
+    "0-137965": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_muckspunge_03",
+      "DATA": [125793.1796875,7902.607421875,231.41897583007812,0.000000014901161193847657,6.183185577392578,1.5]
+    },
+    "0-137966": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_muckspunge_04",
+      "XSCL": 1.1200000047683716,
+      "DATA": [125730.5546875,7973.28857421875,490.0291748046875,6.183185577392578,5.983185768127441,1.6999998092651367]
+    },
+    "0-137967": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_muckspunge_01",
+      "XSCL": 1.1600000858306885,
+      "DATA": [125596.8828125,7801.900390625,400.7578125,5.983185768127441,0,1.6999998092651367]
+    },
+    "0-137959": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [123032.890625,7583.873046875,-1125.7305908203125,0,0,4.28318452835083]
+    },
+    "0-137960": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_11",
+      "XSCL": 2,
+      "DATA": [126043.9921875,7339.46142578125,-149.7379608154297,0,0,3.3831865787506104]
+    },
+    "0-137962": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_08",
+      "XSCL": 1.2100000381469727,
+      "DATA": [125514.2734375,7584.5673828125,-39.283477783203125,0,0,4.883186340332031]
+    },
+    "0-137963": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [126184.8984375,7899.64892578125,-1097.54150390625,0,0,0.8663724064826965]
+    },
+    "0-137964": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_03",
+      "XSCL": 2,
+      "DATA": [126673.46875,7863.302734375,-109.2242202758789,0,0,0.599998950958252]
+    },
+    "0-137968": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_12",
+      "DATA": [125405.984375,8153.89013671875,382.8496398925781,0,0,1.1999996900558472]
+    },
+    "0-347256": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "h2o_all_lev+2",
+      "DATA": [127072.84375,5643.0830078125,-247.4382781982422,0,0,0]
+    },
+    "0-393824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_03",
+      "XSCL": 1.6700000762939453,
+      "DATA": [125355.1328125,1545.203369140625,463.12860107421875,0,0,4.383186340332031]
+    },
+    "0-393831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_07",
+      "XSCL": 2,
+      "DATA": [125368.828125,1398.272705078125,932.1376953125,0,0,3.4831862449645996]
+    },
+    "0-393833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_02",
+      "XSCL": 1.1600000858306885,
+      "DATA": [123730.7421875,741.0767822265625,452.1591491699219,0,0,4.458184242248535]
+    },
+    "0-393834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_07",
+      "XSCL": 1.3000000715255737,
+      "DATA": [125837.109375,1242.3802490234375,710.8428955078125,0,0,0.9000000357627869]
+    },
+    "0-393835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_05",
+      "XSCL": 1.4200000762939453,
+      "DATA": [123622.609375,187.01980590820312,730.0514526367188,0,0,0.6000000238418579]
+    },
+    "0-393836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_Ash_Grass_R_01",
+      "DATA": [123595.03125,812.4078369140625,971.9842529296875,0,0,5.58318567276001]
+    },
+    "0-393837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ma_39",
+      "XSCL": 2,
+      "DATA": [123241.4921875,165.0459442138672,-380.41339111328125,0,5.9829888343811035,0.7995078563690186]
+    },
+    "0-393838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_05",
+      "XSCL": 2,
+      "DATA": [123672.21875,1131.4100341796875,808.9556274414062,0,0,6.266373157501221]
+    },
+    "0-393839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_06",
+      "XSCL": 2,
+      "DATA": [123464.40625,927.2481689453125,918.4049682617188,0,0,2.666372299194336]
+    },
+    "0-393840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_04",
+      "XSCL": 2,
+      "DATA": [125527.15625,963.7461547851562,844.590087890625,0,0,3.4831862449645996]
+    },
+    "0-393841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ma_39",
+      "XSCL": 2,
+      "DATA": [124353.46875,302.83966064453125,-201.2662353515625,0,0,0.26637569069862366]
+    },
+    "0-393842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ma_25",
+      "XSCL": 2,
+      "DATA": [124696.0625,120.40229797363281,419.994384765625,0.09948376566171646,6.282988548278809,5.650320053100586]
+    },
+    "0-393843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_04",
+      "XSCL": 2,
+      "DATA": [125098.3046875,474.91351318359375,890.871337890625,0,0,2.849557638168335]
+    },
+    "0-393844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_07",
+      "XSCL": 2,
+      "DATA": [124526.2109375,866.8095703125,1145.6600341796875,0,0,2.849557638168335]
+    },
+    "0-393845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_03",
+      "XSCL": 1.6700000762939453,
+      "DATA": [124386.6875,922.632568359375,552.9058227539062,0,0,3.7495579719543457]
+    },
+    "0-393846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ma_39",
+      "XSCL": 2,
+      "DATA": [124654.328125,300.5439453125,-23.46070098876953,0,0,3.849560260772705]
+    },
+    "0-393847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_05",
+      "XSCL": 2,
+      "DATA": [124298.1484375,607.9437255859375,926.3447875976562,0,0,0.6495609283447266]
+    },
+    "0-393848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_fire_fern_01",
+      "DATA": [123635.5,853.7609252929688,358.8248596191406,0,0,0.6000000238418579]
+    },
+    "0-393849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ma_49",
+      "XSCL": 2,
+      "DATA": [123412.7734375,519.7295532226562,113.57920837402344,0,0,0.19999933242797852]
+    },
+    "0-393850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_04",
+      "XSCL": 2,
+      "DATA": [123080.2109375,860.959228515625,733.4048461914062,0,0,0.38318565487861633]
+    },
+    "0-393851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ma_49",
+      "XSCL": 1.9800001382827759,
+      "DATA": [123066.984375,289.3681335449219,-132.89932250976562,0,0,2.0831878185272217]
+    },
+    "0-393852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ashtree_05",
+      "XSCL": 2,
+      "DATA": [123275.9921875,70.0851821899414,840.1934814453125,0,0,3.783186435699463]
+    },
+    "0-399164": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ma_39",
+      "XSCL": 2,
+      "DATA": [123185.921875,1170.776611328125,-409.500244140625,0,5.9829888343811035,0.7995078563690186]
+    },
+    "0-405652": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "h2o_all_lev+2",
+      "DATA": [129690.640625,4066.505615234375,-436.7576599121094,0,0,0]
+    },
+    "0-405653": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_shore_all_lev+0",
+      "DATA": [123392.28125,2919.793701171875,246.80897521972656,0,0,2.583185911178589]
+    },
+    "0-405654": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_shore_mudcrab",
+      "DATA": [126412.5078125,2039.70654296875,334.1890563964844,0,0,3.0831856727600098]
+    },
+    "0-450266": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.440000057220459,
+      "DATA": [124808.3125,5650.57421875,-1381.4720458984375,0,0,0.41681307554244995]
+    },
+    "0-450267": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.540000081062317,
+      "DATA": [124309.6796875,6112.4697265625,-430.32598876953125,0,0,2.3504421710968018]
+    },
+    "0-450268": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 2,
+      "DATA": [124342.671875,5908.9072265625,-439.3323059082031,0,0,3.950439214706421]
+    },
+    "0-450269": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_03",
+      "XSCL": 1.2000000476837158,
+      "DATA": [124465.0234375,6047.5419921875,-492.8922119140625,0,0,3.150442361831665]
+    },
+    "0-450270": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_03",
+      "DATA": [124420.9296875,6527.67041015625,-391.4606018066406,0,0,4.55043888092041]
+    },
+    "0-450271": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "kollop_03_pearl",
+      "XSCL": 0.800000011920929,
+      "DATA": [124358.921875,6502.345703125,-446.0892333984375,5.983185291290283,6.183186054229736,5.833625316619873]
+    },
+    "0-450272": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "kollop_03_pearl",
+      "XSCL": 0.7200000286102295,
+      "DATA": [124207.96875,6044.6162109375,-524.8402709960938,6.18318510055542,6.183186054229736,5.533625602722168]
+    },
+    "0-450273": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.540000081062317,
+      "DATA": [124240.8984375,5844.30810546875,-448.1988220214844,0,0,2.3504421710968018]
+    },
+    "0-450274": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue coast ref 1024",
+      "DATA": [124207.6484375,6058.9111328125,-375.2938232421875,0,0,2.7504420280456543]
+    },
+    "0-450275": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.540000081062317,
+      "DATA": [124203.3203125,6224.763671875,-382.9049377441406,0,0,2.3504421710968018]
+    },
+    "0-450276": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_04",
+      "DATA": [124069.15625,6228.263671875,-413.9910888671875,0,0,2.150442123413086]
+    },
+    "0-450277": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.540000081062317,
+      "DATA": [124035.2890625,6117.53564453125,-365.6242980957031,0,0,2.3504421710968018]
+    },
+    "0-450278": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.540000081062317,
+      "DATA": [124087.234375,5875.5205078125,-422.01446533203125,0,0,2.3504421710968018]
+    },
+    "0-450279": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_04",
+      "DATA": [124167.140625,6503.9482421875,-370.6278991699219,0,0,4.55043888092041]
+    },
+    "0-450280": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_03",
+      "XSCL": 1.2000000476837158,
+      "DATA": [124000.53125,6009.0517578125,-430.6361389160156,0,0,3.150442361831665]
+    },
+    "0-450281": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 1.3000000715255737,
+      "DATA": [123945.8828125,5863.0966796875,-426.04254150390625,0,0,3.950439214706421]
+    },
+    "0-450282": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "kollop_02_pearl",
+      "XSCL": 0.800000011920929,
+      "DATA": [124053.4140625,6504.48388671875,-398.1569519042969,5.983184337615967,5.983185291290283,5.234043121337891]
+    },
+    "0-450283": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_03",
+      "XSCL": 1.2000000476837158,
+      "DATA": [124050.046875,6385.15673828125,-367.2837829589844,0,6.08318567276001,2.7504420280456543]
+    },
+    "0-450284": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_04",
+      "DATA": [124412.1875,6436.44482421875,-431.1119689941406,0,6.08318567276001,4.55043888092041]
+    },
+    "0-450285": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_03",
+      "XSCL": 1.2000000476837158,
+      "DATA": [123882.5546875,6154.48779296875,-385.44573974609375,0,6.08318567276001,3.150442361831665]
+    },
+    "0-450286": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_04",
+      "DATA": [123905.84375,6415.45654296875,-351.7868347167969,0,0,2.150442123413086]
+    },
+    "0-450287": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 2,
+      "DATA": [123870.6953125,5955.27001953125,-387.0075378417969,0,0,3.951225519180298]
+    },
+    "0-450288": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_04",
+      "DATA": [123911.859375,6291.50439453125,-381.9504699707031,0,0,2.15004825592041]
+    },
+    "0-450289": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [124400.359375,5281.19384765625,-1902.7591552734375,0,0,3.3168129920959473]
+    },
+    "0-450290": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [123860.3203125,5384.57568359375,-2130.91259765625,0,0,3.0999996662139893]
+    },
+    "0-450291": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [124468.4296875,4671.27099609375,-1872.5001220703125,0,0,2.3999969959259033]
+    },
+    "0-450292": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [127942.1875,7231.72998046875,-1643.931396484375,0,0,0.8168119192123413]
+    },
+    "0-450293": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [127423.328125,6875.69091796875,-1877.807373046875,0,0,3.599998950958252]
+    },
+    "0-450294": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [127465.078125,5941.64453125,-1962.3016357421875,0,0,4.899998188018799]
+    },
+    "0-450295": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [128014.375,6389.75537109375,-1852.436279296875,0,0,5.38318395614624]
+    },
+    "0-450296": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.440000057220459,
+      "DATA": [127685.9140625,5274.8056640625,-1374.9580078125,0,0,2.700000286102295]
+    },
+    "0-450297": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_barnacles_02",
+      "XSCL": 1.970000147819519,
+      "DATA": [128823.9140625,6465.34326171875,-362.1728210449219,0.10000047832727432,6.18318510055542,6.066370010375977]
+    },
+    "0-450298": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue coast ref 1024",
+      "DATA": [128833.1953125,6542.00537109375,-217.45599365234375,0,0,0.299998939037323]
+    },
+    "0-450299": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_barnacles_02",
+      "XSCL": 2,
+      "DATA": [128740.203125,6567.97900390625,-388.2917785644531,0.2831880450248718,0.000000476837158203125,3.5831844806671143]
+    },
+    "0-450300": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_barnacles_02",
+      "XSCL": 2,
+      "DATA": [128917.328125,6573.2783203125,-380.50335693359375,0.09999846667051315,6.28318452835083,4.166372299194336]
+    },
+    "0-450301": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_03",
+      "XSCL": 1.5000001192092896,
+      "DATA": [128898.6796875,6403.8466796875,-275.860107421875,0,0,6.083183765411377]
+    },
+    "0-450302": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cave_plant00",
+      "XSCL": 2,
+      "DATA": [128682.2578125,6396.9169921875,-397.4901123046875,0,0,2.983184814453125]
+    },
+    "0-450303": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_barnacles_03",
+      "XSCL": 2,
+      "DATA": [128847.328125,6698.80126953125,-391.9512023925781,3.199631452560425,3.1005425453186035,3.083601236343384]
+    },
+    "0-450304": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cave_plant00",
+      "XSCL": 2,
+      "DATA": [128697.40625,6675.32421875,-446.0836181640625,0,0,3.483186721801758]
+    },
+    "0-450305": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.4600000381469727,
+      "DATA": [128572.3359375,6562.4736328125,-299.3156433105469,0,0,6.083183765411377]
+    },
+    "0-450306": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 1.4600000381469727,
+      "DATA": [128996.28125,6606.6826171875,-269.43865966796875,0,0,4.283185005187988]
+    },
+    "0-450307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 1.840000033378601,
+      "DATA": [129006.375,6496.28857421875,-253.1925811767578,0,0,3.4831857681274414]
+    },
+    "0-450308": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 1.7400001287460327,
+      "DATA": [131035.984375,5117.93994140625,-112.50189971923828,0,0,5.433625221252441]
+    },
+    "0-450309": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [130601.625,5032.72802734375,-1974.2406005859375,0,0,4.099998474121094]
+    },
+    "0-450310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.540000081062317,
+      "DATA": [130962.734375,5213.671875,-98.20004272460938,0,0,3.833627462387085]
+    },
+    "0-450311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_02",
+      "XSCL": 1.0700000524520874,
+      "DATA": [130980.3671875,5369.470703125,-139.0104522705078,0,0,3.833627462387085]
+    },
+    "0-450312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 1.3000000715255737,
+      "DATA": [130955.6328125,5509.2099609375,-89.60852813720703,0,0,5.433625221252441]
+    },
+    "0-450313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_kelp_01",
+      "XSCL": 1.2000000476837158,
+      "DATA": [131040.859375,5592.15234375,-98.45796966552734,0,0,5.434411525726318]
+    },
+    "0-450314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [130662.8671875,5738.9501953125,-1836.8031005859375,0,0,4.583185195922852]
+    }
+  }
+}

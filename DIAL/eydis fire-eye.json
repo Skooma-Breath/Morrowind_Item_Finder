@@ -1,0 +1,218 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1459212808479224743": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "936319538248841994",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Regretably, you broke the rules of the Fighters Guild and you have been expelled. First make amends, and then I can speak with you about this again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "936319538248841994": {
+      "flag": 0,
+      "PNAM": "1459212808479224743",
+      "NNAM": "195781222524312234",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Eydis Fire-Eye used to be one of Sjoring Hard-Heart's supporters, but something changed her mind. We don't have to worry about her anymore, just kill Lorbumol gro-Aglakh.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BitterBribe",
+          "__TV": 100
+        }
+      ]
+    },
+    "195781222524312234": {
+      "flag": 0,
+      "PNAM": "936319538248841994",
+      "NNAM": "172029969243517829",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Don't let your conscience trouble you, %PCName. You did the right thing.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillCronies",
+          "__TV": 100
+        }
+      ]
+    },
+    "172029969243517829": {
+      "flag": 0,
+      "PNAM": "195781222524312234",
+      "NNAM": "14862105102587224443",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Now that Eydis Fire-Eye and Lorbumol gro-Aglakh are dead, you must take the battle to Sjoring Hard-Heart.",
+      "BNAM": "Journal FG_KillCronies 100\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillCronies",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "lorbumol gro-aglakh",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "eydis fire-eye",
+          "__TV": 1
+        }
+      ]
+    },
+    "14862105102587224443": {
+      "flag": 0,
+      "PNAM": "172029969243517829",
+      "NNAM": "120212398643415761",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Good work, %PCName. You must also kill Lorbumol gro-Aglakh before the Fighters Guild can free itself from corruption.",
+      "BNAM": "Journal FG_KillCronies 40",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillCronies",
+          "__TV": 10
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "eydis fire-eye",
+          "__TV": 1
+        }
+      ]
+    },
+    "120212398643415761": {
+      "flag": 0,
+      "PNAM": "14862105102587224443",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You can find her at the Guild of Fighters in Balmora. Kill her and report back to me.",
+      "BNAM": "Journal FG_KillCronies 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

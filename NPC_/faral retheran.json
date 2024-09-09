@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Agent",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_22",
+  "MODL": null,
+  "FNAM": "Faral Retheran",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "cruel sparkstar"
+    },
+    {
+      "count": 1,
+      "name": "cruel vipersword"
+    },
+    {
+      "count": 1,
+      "name": "amulet of mighty blows"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 18,
+    "health": 123,
+    "magicka": 118,
+    "fatigue": 251,
+    "disposition": 50,
+    "reputation": 12,
+    "rank": 5,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [71,59,44,96,82,40,84,40],
+    "skills": [32,7,7,7,7,12,7,7,12,7,17,7,32,32,12,7,7,32,20,60,60,66,70,25,10,60,20]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

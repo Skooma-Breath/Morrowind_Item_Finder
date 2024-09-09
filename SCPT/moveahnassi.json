@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 126,
+    "local_var_size": 0
+  },
+  "SCTX": "begin moveAhnassi\r\n\r\nif ( CellChanged == 0 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex Romance_Ahnassi >= 80 )\r\n\tif ( CellChanged == 1 )\r\n\t\tPositionCell 402, -327, 639, 0, \"Pelagiad, Ahnassi's House\"\r\n\t\tStopScript MoveAhnassi\r\n\tendif\r\nendif\r\n\r\nEnd moveAhnassi",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,4,28,32,88,205,16,32,100,15,82,111,109,97,110,99,101,95,65,104,110,97,115,115,105,32,62,61,32,56,48,6,1,2,9,32,88,31,16,32,61,61,32,49,5,16,0,0,201,67,0,128,163,195,0,192,31,68,0,0,0,0,25,80,101,108,97,103,105,97,100,44,32,65,104,110,97,115,115,105,39,115,32,72,111,117,115,101,28,16,11,77,111,118,101,65,104,110,97,115,115,105,9,1,9,1,1,1]
+}

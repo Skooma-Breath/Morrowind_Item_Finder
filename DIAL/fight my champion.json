@@ -1,0 +1,350 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "16061107653160313729": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14707155682221223996",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is no need to speak of this further.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_Champion",
+          "__TV": 80
+        }
+      ]
+    },
+    "14707155682221223996": {
+      "flag": 0,
+      "PNAM": "16061107653160313729",
+      "NNAM": "2483789722806727854",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm impressed, %PCName. None have ever defeated Karrod in battle, and I certainly didn't expect you to be the first. You continue to surprise me. You have proven your worth to me, as well as your loyalty. Take this as a token of my faith in our friendship. It was my father's ceremonial dagger, and I place it now in your possession. Do not disgrace his memory, %PCName. Now, let us discuss my plans for you.",
+      "BNAM": "Player->AddItem \"glass dagger_symmachus_unique\" 1\r\nRemoveItem \"glass dagger_symmachus_unique\" 1\r\nStartScript HelsMoveScript\r\nJournal TR_Champion 80",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Champion",
+          "__TV": 70
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "KarrodBeaten",
+          "__TV": 0
+        }
+      ]
+    },
+    "2483789722806727854": {
+      "flag": 0,
+      "PNAM": "14707155682221223996",
+      "NNAM": "20388175531037128290",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My champion is dead, %PCName. Your treachery will not go unpunished! Guards!",
+      "BNAM": "Set KingHit to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_Champion",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Champion",
+          "__TV": 70
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "karrod",
+          "__TV": 0
+        }
+      ]
+    },
+    "20388175531037128290": {
+      "flag": 0,
+      "PNAM": "2483789722806727854",
+      "NNAM": "29068919923063464",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see you are prepared to fight my champion, but you have your mercenary with you. Though I understand the value of a good sword at your side, this is to be a personal battle. Please escort your companion out of the Throne Room. He will be safe outside. When you return, we may begin.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_Champion",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Champion",
+          "__TV": 70
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "MercenaryNear",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "KarrodFightStart",
+          "__TV": 2
+        }
+      ]
+    },
+    "29068919923063464": {
+      "flag": 0,
+      "PNAM": "20388175531037128290",
+      "NNAM": "367250812126122308",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahhh...you have come to meet Karrod in battle. Good for you. Karrod is looking a bit under the weather today, but no matter. Perhaps you've heard that Karrod has never been defeated in battle? It's true. Amazing, don't you think? Regardless, this will be a fair fight. You may both use whatever weapons are at your disposal. I wish you both luck. None are to interfere, and you will begin on my command.",
+      "BNAM": "Set KarrodFightStart to 3\r\nJournal TR_Champion 70\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_Champion",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Champion",
+          "__TV": 70
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "karrodBribe",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "KarrodFightStart",
+          "__TV": 2
+        }
+      ]
+    },
+    "367250812126122308": {
+      "flag": 0,
+      "PNAM": "29068919923063464",
+      "NNAM": "3193511784866211470",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahhh...you have come to meet Karrod in battle. Good for you. Have I mentioned that Karrod has never been defeated? Perhaps I hadn't. This is to be a fair fight. Use whatever weapons or spells are at your disposal. I wish you both luck. At least one of you will need it. None are to interfere, and you will begin on my command.",
+      "BNAM": "Set KarrodFightStart to 3\r\nJournal TR_Champion 70\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_Champion",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Champion",
+          "__TV": 70
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "karrodBribe",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "KarrodFightStart",
+          "__TV": 2
+        }
+      ]
+    },
+    "3193511784866211470": {
+      "flag": 0,
+      "PNAM": "367250812126122308",
+      "NNAM": "110562582019886957",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You will meet him tomorrow. Report back here tomorrow and be prepared to face Karrod.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_Champion",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Champion",
+          "__TV": 70
+        }
+      ]
+    },
+    "110562582019886957": {
+      "flag": 0,
+      "PNAM": "3193511784866211470",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "King Hlaalu Helseth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is correct. I have come to know you a bit, %PCName. I believe you can be of some use to me. But the plans I have will require someone of great strength or wit. Perhaps both. The time has come for you to prove this to me. You will return here tomorrow, and you will duel Karrod. If you are able to defeat him, we will discuss my plans for you.",
+      "BNAM": "Journal TR_Champion 20\r\nSet FightDay to DaysPassed\r\nStartScript KarrodMovement",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Champion",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

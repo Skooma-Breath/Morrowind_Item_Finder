@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 78,
+    "local_var_size": 13
+  },
+  "SCTX": "Begin PlagueStart\r\n\r\n;note that this is a placeholder script; final script will \r\n;set the var PlagueActivate after several days.  \r\n\r\nfloat timer\r\nshort doonce\r\n\r\n\r\nif ( GetLocked == 0 )\r\n\tif ( doonce == 0 )\r\n\t\tif ( OnActivate == 1 )\r\n\t\t\tset PlagueActivate to 1\r\n\t\t\tset doonce to 1\r\n\t\t\tActivate\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\nEnd PlagueStart",
+  "SCVR": [
+    "doonce",
+    "timer"
+  ],
+  "SCDT": [6,1,7,9,32,88,97,17,32,61,61,32,48,6,1,5,9,32,115,1,0,32,61,61,32,48,6,1,3,9,32,88,24,16,32,61,61,32,49,5,1,71,14,80,108,97,103,117,101,65,99,116,105,118,97,116,101,2,32,49,5,1,115,1,0,2,32,49,23,16,9,1,9,1,9,1,1,1]
+}

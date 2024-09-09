@@ -1,0 +1,467 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "14579671149418650": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "28795174823266728766",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard the Duke's concerns. Rest assured that from now on, there will be limits to the Ordinator's influence.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 100
+        }
+      ]
+    },
+    "28795174823266728766": {
+      "flag": 0,
+      "PNAM": "14579671149418650",
+      "NNAM": "905325665237516558",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have brought me the Robe of St Roris. For this I will speak with Berel Sala, and I will not let him influence Temple policy as much as in the past.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 70
+        }
+      ]
+    },
+    "905325665237516558": {
+      "flag": 0,
+      "PNAM": "28795174823266728766",
+      "NNAM": "1103129957204925885",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Yes, I will place this robe somewhere safe. I will speak with Berel Sala and see to it that the Ordinators take their orders from the Temple.",
+      "BNAM": "Player->RemoveItem \"Robe of St Roris\" 1\r\nJournal HH_WinSaryoni 70",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1103129957204925885": {
+      "flag": 0,
+      "PNAM": "905325665237516558",
+      "NNAM": "19912311301638426264",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you want my aid, you must give me the robe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "19912311301638426264": {
+      "flag": 0,
+      "PNAM": "1103129957204925885",
+      "NNAM": "2984521971445921689",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Robe of St. Roris the martyr. It is the robe he wore when he was slain and was thus blessed with his blood. Will you hand over the robe now?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "robe of st roris",
+          "__TV": 1
+        }
+      ]
+    },
+    "2984521971445921689": {
+      "flag": 0,
+      "PNAM": "19912311301638426264",
+      "NNAM": "795232754250407802",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "I understand your concerns, but the Ordinators are a necessity. Especially in these troubling times.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "795232754250407802": {
+      "flag": 0,
+      "PNAM": "2984521971445921689",
+      "NNAM": "22925242863013420753",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alas, you seem to have been expelled from House Hlaalu. When you make amends, speak with me again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "22925242863013420753": {
+      "flag": 0,
+      "PNAM": "795232754250407802",
+      "NNAM": "49502714644205522",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Ordinators seem to be under control now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 100
+        }
+      ]
+    },
+    "49502714644205522": {
+      "flag": 0,
+      "PNAM": "22925242863013420753",
+      "NNAM": "2517787053219530477",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You bring me news that Berel Sala is dead. Perhaps this will help us control the ordinators, but perhaps it will not. Only time will tell.",
+      "BNAM": "Journal HH_WinSaryoni 110\r\nModPCFacRep 10 \"Hlaalu\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "berel sala",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 0
+        }
+      ]
+    },
+    "2517787053219530477": {
+      "flag": 0,
+      "PNAM": "49502714644205522",
+      "NNAM": "1053715775136832877",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Berel Sala has been murdered. There are rumors in town that you were responsible. If you are so careless, I do not believe you should be the Grandmaster of House Hlaalu.",
+      "BNAM": "ModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "berel sala",
+          "__TV": 0
+        }
+      ]
+    },
+    "1053715775136832877": {
+      "flag": 0,
+      "PNAM": "2517787053219530477",
+      "NNAM": "1873023874111644213",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard that the Archcanon will speak with Berel Sala and the Ordinators. Perhaps he can convince them to leave House Hlaalu's business alone. Please accept my gratitude.",
+      "BNAM": "Journal HH_WinSaryoni 100\r\nModPCFacRep 10 \"Hlaalu\"\r\nModDisposition 20\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 70
+        }
+      ]
+    },
+    "1873023874111644213": {
+      "flag": 0,
+      "PNAM": "1053715775136832877",
+      "NNAM": "62974736131015446",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Go speak with Archcanon Tholer Saryoni in Vivec. Get him to put a stop to the worst of Berel Sala's excesses.",
+      "BNAM": "Journal HH_WinSaryoni 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 10
+        }
+      ]
+    },
+    "62974736131015446": {
+      "flag": 0,
+      "PNAM": "1873023874111644213",
+      "NNAM": "2279213437671325343",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Berel Sala, the leader of the Ordinators, is a fanatic. The Archcanon Tholer Saryoni, on the other hand, seems to be a decent and reasonable man. I need you to convince Archcanon Saryoni to put a stop to the worst of the Ordinator's zeal. Saryoni may be found at the High Fane in Vivec. Here is a key to his quarters.",
+      "BNAM": "Journal HH_WinSaryoni 10\r\nPlayer->AddItem \"key_archcanon_private\" 1",
+      "SCVR": null
+    },
+    "2279213437671325343": {
+      "flag": 0,
+      "PNAM": "62974736131015446",
+      "NNAM": "159762363019015187",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "berel sala",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps. Perhaps I would listen to you if I had any respect for you. Saryoni was a far greater man, and he would never place these impossible restrictions on us. Leave me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "159762363019015187": {
+      "flag": 0,
+      "PNAM": "2279213437671325343",
+      "NNAM": "24517181632377922414",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "berel sala",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see that you still have some reason about you. Leave me now, as I am quite busy.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "24517181632377922414": {
+      "flag": 0,
+      "PNAM": "159762363019015187",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "berel sala",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do you want us to do, %PCName? Shall we lie down like dogs in the street and let the heretics and Dagoth Ur's creatures trample over us?",
+      "BNAM": "Choice \"Our enemy is Dagoth Ur and the Four Corners, not the Hlaalu.\" 1 \"Nevermind.\" 2",
+      "SCVR": null
+    }
+  }
+}

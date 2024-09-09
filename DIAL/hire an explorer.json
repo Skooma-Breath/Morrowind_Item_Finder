@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "29691247171687613591": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "291199704243078759",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need you to investigate Solstheim's ancient sites.  Burial barrows, standing stones, that sort of thing.  Who knows what information they hold?  Here's 200 gold for traveling expenses, equipment, or whatever else you may need.  If you find any solid evidence of the Falmer's existence, bring it back to me here.",
+      "BNAM": "ModDisposition 10\r\nplayer->additem \"gold_001\" 200\r\nJournal \"BM_Falmer\" 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "291199704243078759": {
+      "flag": 0,
+      "PNAM": "29691247171687613591",
+      "NNAM": "12999313612484813733",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, that IS disappointing.  You listened so intently to my tale, I thought for sure you'd want to help me.  Oh well.  If you change your mind, the job is open.  Unless, of course, I find another interested party.  Good day, %PCName.",
+      "BNAM": "ModDisposition -20\r\nJournal \"BM_Falmer\" 40\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "12999313612484813733": {
+      "flag": 0,
+      "PNAM": "291199704243078759",
+      "NNAM": "109292383113818899",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Listen, %PCName....  You seem an able sort. And you did listen politely to my ramblings!  Would you be interested in helping me with my research?  I need someone to do a bit of exploring and investigating. I'll pay you, of course, with some gold up front. Are you interested?",
+      "BNAM": "Choice \"Sounds intriguing, Athellor.  What would you have me do?\" 1 \"Afraid not, Athellor.  I've got more important matters to attend to.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Falmer",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Falmer",
+          "__TV": 50
+        }
+      ]
+    },
+    "109292383113818899": {
+      "flag": 0,
+      "PNAM": "12999313612484813733",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've already hired an explorer -- you.  Now please get going.  I'm anxious to know what evidence you might find.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Falmer",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Falmer",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

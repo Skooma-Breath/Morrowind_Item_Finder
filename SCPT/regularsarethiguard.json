@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 121,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin regularSarethiGuard\r\n\r\n;script on Sarethi guards to remove them during HR_GuardSarethi quest\r\n\r\nif ( CellChanged == 0 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex HR_GuardSarethi > 0 )\r\n\tif ( GetJournalIndex HR_GuardSarethi < 100 )\r\n\t\tif ( GetDisabled == 0 )\r\n\t\t\tDisable\r\n\t\t\tReturn\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( GetDisabled == 1 )\r\n\tEnable\r\nendif\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,6,26,32,88,205,16,32,100,15,72,82,95,71,117,97,114,100,83,97,114,101,116,104,105,32,62,32,48,6,1,4,28,32,88,205,16,32,100,15,72,82,95,71,117,97,114,100,83,97,114,101,116,104,105,32,60,32,49,48,48,6,1,2,9,32,88,220,16,32,61,61,32,48,219,16,36,1,9,1,9,1,9,1,6,1,1,9,32,88,220,16,32,61,61,32,49,218,16,9,1,1,1]
+}

@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Kwama Forager.NIF",
+  "FLAG": 74,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 2,
+    "attributes": [30,50,10,20,5,50,50,30],
+    "health": 23,
+    "magicka": 15,
+    "fatigue": 300,
+    "soul_strength": 15,
+    "combat_skill": 30,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,3],
+      [1,3],
+      [1,3]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 85,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Kwama Forager",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_kwama_cuttle"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,30,30,0,0,0,0,0]
+    }
+  ]
+}

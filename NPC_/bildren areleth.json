@@ -1,0 +1,91 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_10",
+  "MODL": null,
+  "FNAM": "Bildren Areleth",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_t"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_stoneflower_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_resin_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_kresh_fiber_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kagouti_hide_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_heather_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ectoplasm_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bittergreen_petals_01"
+    },
+    {
+      "count": -1,
+      "name": "potion_t_bug_musk_01"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 73,
+    "magicka": 144,
+    "fatigue": 205,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 325,
+    "attributes": [54,72,45,61,56,45,44,40],
+    "skills": [23,6,6,6,38,11,6,6,11,32,57,15,15,15,20,32,47,15,38,6,6,28,16,11,18,23,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

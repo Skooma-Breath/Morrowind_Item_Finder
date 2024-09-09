@@ -1,0 +1,559 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "4814160731644529355": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "72911595534967662",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from House Redoran. Make amends and perhaps we can speak again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "72911595534967662": {
+      "flag": 0,
+      "PNAM": "4814160731644529355",
+      "NNAM": "92204667541930670",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "I heard Mathis Dalobar was dead. I don't have any proof, but I believe you were responsible. I will have you expelled for this and will not give you any more duties.",
+      "BNAM": "PCExpell \"Redoran\"\r\nSet ExpRedoran to 1\r\nModDisposition -15\r\nJournal HR_FindDalobar 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "mathis dalobar",
+          "__TV": 0
+        }
+      ]
+    },
+    "92204667541930670": {
+      "flag": 0,
+      "PNAM": "72911595534967662",
+      "NNAM": "837124045333916612",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Mathis Dalobar is doing well last I heard.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 100
+        }
+      ]
+    },
+    "837124045333916612": {
+      "flag": 0,
+      "PNAM": "92204667541930670",
+      "NNAM": "2803112788327348446",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "I heard that Mathis Dalobar made it to Maar Gan with your help. Good work, %PCName. I have more duties for you.",
+      "BNAM": "Journal HR_FindDalobar 100\r\n\"Mathis Dalobar\"->Disable\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 70
+        }
+      ]
+    },
+    "2803112788327348446": {
+      "flag": 0,
+      "PNAM": "837124045333916612",
+      "NNAM": "31996301793072325145",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Mathis Dalobar is a trader who comes through Ald'ruhn just about every month. He was probably headed towards Maar Gan or Gnisis. Talk to the people in Maar Gan and find out if anyone there knows what happened to him. I'll mark these towns on your map.",
+      "BNAM": "Journal HR_FindDalobar 10\r\n\"Mathis Dalobar\"->Enable\r\nShowMap \"Maar Gan\"\r\nShowMap \"Gnisis\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_MudcrabNest",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Courier",
+          "__TV": 100
+        }
+      ]
+    },
+    "31996301793072325145": {
+      "flag": 0,
+      "PNAM": "2803112788327348446",
+      "NNAM": "166524532816031339",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mathis dalobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks for getting me back to Maar Gan.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 70
+        }
+      ]
+    },
+    "166524532816031339": {
+      "flag": 0,
+      "PNAM": "31996301793072325145",
+      "NNAM": "17008115842842914774",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mathis dalobar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I'm Mathis Dalobar. Let's travel together back to Maar Gan.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "17008115842842914774": {
+      "flag": 0,
+      "PNAM": "166524532816031339",
+      "NNAM": "27203277672206110516",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "miles gloriosus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If Mathis Dalobar thinks he can get out of his delivery contract with me, he's mistaken. He should have been here days ago.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 100
+        }
+      ]
+    },
+    "27203277672206110516": {
+      "flag": 0,
+      "PNAM": "17008115842842914774",
+      "NNAM": "23622241633028118194",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He hasn't been here recently. He'll turn up though. Always does. And he'll make up some excuse or other and charge higher prices than last year, too.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 50
+        }
+      ]
+    },
+    "23622241633028118194": {
+      "flag": 0,
+      "PNAM": "27203277672206110516",
+      "NNAM": "26977261051038831247",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "High Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have not seen Mathis Dalobar. Perhaps he is no longer in business.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 50
+        }
+      ]
+    },
+    "26977261051038831247": {
+      "flag": 0,
+      "PNAM": "23622241633028118194",
+      "NNAM": "576920176436732",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name sees no Mathis Dalobar here. %Name saw a great ash storm and hid inside.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 50
+        }
+      ]
+    },
+    "576920176436732": {
+      "flag": 0,
+      "PNAM": "26977261051038831247",
+      "NNAM": "1972204181969527189",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Maybe he got stuck in the ash storm.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 50
+        }
+      ]
+    },
+    "1972204181969527189": {
+      "flag": 0,
+      "PNAM": "576920176436732",
+      "NNAM": "1838321353104505174",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Nord",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mathis Dalobar? The trader? He should have been here ages ago. Maybe he got caught in the ash storm.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 50
+        }
+      ]
+    },
+    "1838321353104505174": {
+      "flag": 0,
+      "PNAM": "1972204181969527189",
+      "NNAM": "126251091953179144",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I bet Mathis Dalobar was just delayed a bit by the ash storm.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 50
+        }
+      ]
+    },
+    "126251091953179144": {
+      "flag": 0,
+      "PNAM": "1838321353104505174",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Gnisis",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He should be here any day now. If you want to find him, you might meet him on the road to Maar Gan or Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindDalobar",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HR_FindDalobar",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

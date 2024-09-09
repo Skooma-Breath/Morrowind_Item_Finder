@@ -1,0 +1,254 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "19201121931238411117": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1682848571679112884",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bivale teneran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You gave me the scroll already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 50
+        }
+      ]
+    },
+    "1682848571679112884": {
+      "flag": 0,
+      "PNAM": "19201121931238411117",
+      "NNAM": "3085427701255731121",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bivale teneran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, as I expected. Tell Nileno Dorvayn that I received the scroll and understood the message. Why not take this outfit? A present for my efficient courier.",
+      "BNAM": "Journal HH_IndEsp3 50\r\nPlayer->RemoveItem \"bk_OrdersForBivaleTeneran\" 1\r\nPlayer->AddItem exquisite_shirt_01 1\r\nPlayer->AddItem extravagant_pants_02 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3085427701255731121": {
+      "flag": 0,
+      "PNAM": "1682848571679112884",
+      "NNAM": "1953219243185614527",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bivale teneran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. I must have mistaken you for someone else. What are you hear for? A new shirt? How about this one?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1953219243185614527": {
+      "flag": 0,
+      "PNAM": "3085427701255731121",
+      "NNAM": "218821016228347935",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bivale teneran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Well, are you going to give me the scroll or not?",
+      "BNAM": "Choice \"Give her the scroll.\" 1 \"Keep the scroll.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_ordersforbivaleteneran",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 10
+        }
+      ]
+    },
+    "218821016228347935": {
+      "flag": 0,
+      "PNAM": "1953219243185614527",
+      "NNAM": "28004125902240221273",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from House Hlaalu. You must make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "28004125902240221273": {
+      "flag": 0,
+      "PNAM": "218821016228347935",
+      "NNAM": "80442377842543662",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You delivered new orders to Bivale Teneran already. I don't want to use the same messenger more than once.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 100
+        }
+      ]
+    },
+    "80442377842543662": {
+      "flag": 0,
+      "PNAM": "28004125902240221273",
+      "NNAM": "2170917326114682948",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you delivered the orders to Bivale Teneran?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 50
+        }
+      ]
+    },
+    "2170917326114682948": {
+      "flag": 0,
+      "PNAM": "80442377842543662",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you need to deliver the scroll to Bivale Teneran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp2",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

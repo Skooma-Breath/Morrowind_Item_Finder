@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 25,
+  "RNAM": "Imperial",
+  "CNAM": "Witch",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_f_head_03",
+  "KNAM": "b_n_imperial_f_hair_01",
+  "MODL": null,
+  "FNAM": "Isobel of Glenmoril Wyrd",
+  "SCRI": "GloomyCaveScript",
+  "AIDT": {
+    "greet": 100,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_unique"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "sc_witchnote"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "glenmoril_witch_cave"
+      },
+      "CNDT": null
+    }
+  ]
+}

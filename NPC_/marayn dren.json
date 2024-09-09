@@ -1,0 +1,82 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mage Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_dark elf_m_head_06",
+  "KNAM": "b_n_dark elf_m_hair_11",
+  "MODL": null,
+  "FNAM": "Marayn Dren",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 18432
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_a"
+    },
+    {
+      "count": 1,
+      "name": "expensive_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 25,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "fire shield",
+    "charming touch",
+    "calm creature",
+    "calm humanoid",
+    "frost shield",
+    "buoyancy",
+    "water walking",
+    "water breathing",
+    "ondusi's open door",
+    "first barrier",
+    "second barrier",
+    "levitate",
+    "lightning shield",
+    "summon least bonewalker",
+    "summon skeletal minion",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 75,
+    "magicka": 124,
+    "fatigue": 205,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [47,62,68,46,60,44,40,40],
+    "skills": [6,6,6,6,6,11,6,6,11,30,56,48,46,30,50,46,30,30,6,6,6,11,32,11,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [0,30,20,20,0,0,30,0]
+    }
+  ]
+}

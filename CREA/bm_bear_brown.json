@@ -1,0 +1,56 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\bear_brown_larger.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [100,50,50,80,15,50,50,50],
+    "health": 180,
+    "magicka": 50,
+    "fatigue": 500,
+    "soul_strength": 100,
+    "combat_skill": 90,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [10,22],
+      [10,22],
+      [10,22]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 85,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_bear_black",
+  "FNAM": "Plague Bear",
+  "SCRI": null,
+  "XSCL": 1.5000001192092896,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_bear_pelt"
+    }
+  ],
+  "NPCS": [
+    "ataxia",
+    "regenerate [ability]",
+    "resist magicka_50",
+    "resist paralysis"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

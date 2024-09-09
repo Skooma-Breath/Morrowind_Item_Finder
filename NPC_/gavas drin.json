@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest",
+  "ANAM": "Temple",
+  "BNAM": "B_N_Dark Elf_M_Head_17",
+  "KNAM": "b_n_dark elf_m_hair_22",
+  "MODL": null,
+  "FNAM": "Gavas Drin",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony mace"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 10,
+      "name": "p_restore_fatigue_e"
+    }
+  ],
+  "NPCS": [
+    "second barrier",
+    "strong reflect",
+    "blood despair",
+    "vivec's_wrath",
+    "almalexia's shield"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 50,
+    "health": 431,
+    "magicka": 200,
+    "fatigue": 363,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 9,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,100,100,94,100,69,84,40],
+    "skills": [10,10,10,10,94,15,10,10,15,39,100,100,39,94,100,100,94,100,10,10,10,69,20,15,10,64,10]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,1388 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [2241090,1061158912]
+  },
+  "NAME": "Vivec, St. Olms Yngling Manor",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [61,40,20,0],
+    "fog_color": [66,50,34,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-259478": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "star",
+      "DATA": [-191.5325164794922,-184.8897705078125,-248.74827575683594,0,0,0]
+    },
+    "0-259479": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "shagar gra-snagarz",
+      "DATA": [-597.0975952148438,-392.906494140625,-250.88011169433594,0,0,6.100000858306885]
+    },
+    "0-259480": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "faulgor",
+      "DATA": [-90.15489959716797,266.4999694824219,-241.6903533935547,0,0,3.5831851959228516]
+    },
+    "0-359949": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "yngling half-troll",
+      "DATA": [365.48797607421875,-300.8416442871094,-232.13064575195312,0,0,5.383185386657715]
+    },
+    "0-181964": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "FLTV": 85,
+      "KNAM": "key_yinglingbasement",
+      "DATA": [320,-384,-512,0,0,6.2831854820251465]
+    },
+    "0-215518": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-256,448,-256,0,0,1.5707963705062866]
+    },
+    "0-215519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [64,-256,-256,0,0,3.1415927410125732]
+    },
+    "0-215526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [-624.9434814453125,-45.58966827392578,-127.77325439453125,0,0,3.9269909858703613]
+    },
+    "0-215529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_77",
+      "DATA": [495.1606140136719,-144.4957275390625,-127.50982666015625,0,0,0.7853981852531433]
+    },
+    "0-215530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_r_bed_19",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [219.13800048828125,-428.8190002441406,-225.0590057373047,0,0,2.356194496154785]
+    },
+    "0-215532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_77",
+      "DATA": [142.14337158203125,-402.6009216308594,-127.50982666015625,0,0,0.7853981852531433]
+    },
+    "0-215533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_77",
+      "DATA": [270.38299560546875,-490.0821228027344,-127.50982666015625,0,0,0.7853981852531433]
+    },
+    "0-215535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_mcloth03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [420.03399658203125,-487.3290100097656,-172.1219940185547,0,0,3.1415927410125732]
+    },
+    "0-215536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_drawers_01_mcloth",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [504.85198974609375,-247.29800415039062,-207.3300018310547,0,0,1.5707963705062866]
+    },
+    "0-215582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-548.1748046875,303.9499206542969,-196.17347717285156,0,0,5.983185768127441]
+    },
+    "0-215583": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_fork",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-549.18115234375,319.9200744628906,-197.12611389160156,0,0,0]
+    },
+    "0-215584": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_knife",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-547.5244140625,288.0082092285156,-197.26390075683594,0,0,0]
+    },
+    "0-215585": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_spoon",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-548.9796752929688,284.7067565917969,-196.92079162597656,0,0,0]
+    },
+    "0-215586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-530.9196166992188,288.7326965332031,-191.22711181640625,0,0,5.883185386657715]
+    },
+    "0-215587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-498.8158874511719,302.6184997558594,-196.1734619140625,0,0,2.066370964050293]
+    },
+    "0-215588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_fork",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-498.2054748535156,286.6282653808594,-197.12611389160156,0,0,3.1663708686828613]
+    },
+    "0-215589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_knife",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-499.0711364746094,318.5714416503906,-197.26390075683594,0,0,3.1663708686828613]
+    },
+    "0-215590": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_spoon",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-497.5344543457031,321.8358459472656,-196.92079162597656,0,0,3.1663708686828613]
+    },
+    "0-215591": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-515.6887817382812,318.2585144042969,-191.22711181640625,0,0,3.6663708686828613]
+    },
+    "0-215592": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-547.570068359375,196.98953247070312,-196.17300415039062,0,0,5.183185577392578]
+    },
+    "0-215593": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_fork",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-548.576171875,212.95965576171875,-197.12611389160156,0,0,0]
+    },
+    "0-215594": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_knife",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-546.91943359375,181.04766845703125,-197.26390075683594,0,0,0]
+    },
+    "0-215595": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_spoon",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-548.3746948242188,177.7462158203125,-196.92079162597656,0,0,0]
+    },
+    "0-215596": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-530.314697265625,181.77215576171875,-191.22711181640625,0,0,0.30000001192092896]
+    },
+    "0-215597": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-497.6307678222656,197.58697509765625,-196.1734619140625,0,0,3.341592788696289]
+    },
+    "0-215598": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_fork",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-496.6244201660156,181.61672973632812,-197.12611389160156,0,0,3.1415929794311523]
+    },
+    "0-215599": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_knife",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-498.2810974121094,213.52874755859375,-197.26390075683594,0,0,3.1415929794311523]
+    },
+    "0-215600": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_spoon",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-496.8258972167969,216.83016967773438,-196.92079162597656,0,0,3.1415929794311523]
+    },
+    "0-215601": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-512.9928588867188,218.4702606201172,-191.22711181640625,0,0,2.4415934085845947]
+    },
+    "0-215602": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-524.2926635742188,253.28750610351562,-197.65106201171875,0,0,5.4831862449646]
+    },
+    "0-215604": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_01_64",
+      "DATA": [-530.221435546875,225.968994140625,-180.2722930908203,0,0,0.01460297405719757]
+    },
+    "0-215605": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-5.6532511711120605,302.784423828125,-180.03269958496094,0,0,0.8750000596046448]
+    },
+    "0-215606": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-6.8643107414245605,189.8649139404297,-228.17849731445312,0,0,0]
+    },
+    "0-215607": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-14.918900489807129,210.44967651367188,-220.4400634765625,0,0,0]
+    },
+    "0-215608": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [0.9121081233024597,188.5127716064453,-180.62789916992188,0,0,0.574999988079071]
+    },
+    "0-215609": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "XSCL": 1.100000023841858,
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-10.758124351501465,293.4895935058594,-127.80724334716797,0,0,0]
+    },
+    "0-215610": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-10.784000396728516,223.5006103515625,-117.44100189208984,0,0,0]
+    },
+    "0-215611": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-12.570425987243652,256.1556701660156,-129.7418670654297,0,0,0]
+    },
+    "0-215612": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_pot_redware_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-12.846938133239746,314.83245849609375,-228.06976318359375,0,0,0]
+    },
+    "0-215613": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [0.0860736295580864,298.9450378417969,-228.06976318359375,0,0,0]
+    },
+    "0-215614": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AedraAndDaedra",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-8.76436710357666,172.80250549316406,-112.73860931396484,1.5707963705062866,3.1415927410125732,3.1415927410125732]
+    },
+    "0-215616": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AncestorsAndTheDunmer",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-10.258753776550293,185.049560546875,-111.23860931396484,4.71238899230957,0,0]
+    },
+    "0-215618": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-7.590905666351318,197.21446228027344,-113.73860931396484,4.71238899230957,0,0]
+    },
+    "0-215619": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-17.341012954711914,203.4192352294922,-113.6385726928711,4.71238899230957,0,0]
+    },
+    "0-215620": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_frontierconquestaccommodat",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-8.8358736038208,226.15301513671875,-126.73811340332031,0,0,0]
+    },
+    "0-259481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.100000023841858,
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [172.7034912109375,-475.955078125,-199.24021911621094,0,0,5.483185291290283]
+    },
+    "0-181880": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-64,320,-128,0,0,6.283185005187988]
+    },
+    "0-181881": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_entrance_01",
+      "DATA": [-320,320,-128,0,0,1.5707963705062866]
+    },
+    "0-181885": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_stairs_01",
+      "DATA": [-64,-448,-512,0,0,6.2831854820251465]
+    },
+    "0-181886": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [-320,-192,-128,0,0,4.71238899230957]
+    },
+    "0-181887": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_corner_01",
+      "DATA": [-576,-448,-128,0,0,3.1415927410125732]
+    },
+    "0-181888": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-575.999267578125,320.000732421875,-128,0,0,4.7123894691467285]
+    },
+    "0-181891": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [448,-448,-128,0,0,1.5707963705062866]
+    },
+    "0-181893": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_stairs_01",
+      "DATA": [-320,-448,-384,0,0,6.2831854820251465]
+    },
+    "0-181895": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_hall_04",
+      "DATA": [192,-448,-384,0,0,0]
+    },
+    "0-181896": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [448,-192,-128,0,0,0]
+    },
+    "0-181965": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [320,-448,-512,0,0,3.1415927410125732]
+    },
+    "0-181968": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [192,-448,-128,0,0,3.1415927410125732]
+    },
+    "0-181970": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_02",
+      "DATA": [-576,-192,-128,0,0,3.1415927410125732]
+    },
+    "0-187585": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_center_02",
+      "DATA": [-320,64,-128,0,0,4.71238899230957]
+    },
+    "0-187586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_02",
+      "DATA": [-64,64,-128,0,0,1.5707963705062866]
+    },
+    "0-187587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_02",
+      "DATA": [-576,64,-128,0,0,4.71238899230957]
+    },
+    "0-187588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_02",
+      "DATA": [-64,-192,-128,0,0,1.5707963705062866]
+    },
+    "0-187589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_02",
+      "DATA": [192,-192,-128,0,0,4.71238899230957]
+    },
+    "0-215516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [-320,448,-256,0,0,4.71238899230957]
+    },
+    "0-215517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [64,-192,-256,0,0,0]
+    },
+    "0-215537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [318.0789489746094,-146.61334228515625,-212.40882873535156,0,0,6.2831854820251465]
+    },
+    "0-215538": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [421.662841796875,-155.91281127929688,-212.40882873535156,0,0,0.3999998867511749]
+    },
+    "0-215565": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_08",
+      "DATA": [97.6866683959961,-419.3094177246094,-31.84398078918457,0,0,1.5707963705062866]
+    },
+    "0-215566": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_07",
+      "DATA": [-523.1553955078125,256.0499572753906,-226.82553100585938,0,0,4.71238899230957]
+    },
+    "0-215567": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-599.9345092773438,305.0008850097656,-212.4088134765625,0,0,4.783186435699463]
+    },
+    "0-215568": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-440.9656066894531,304.9228820800781,-212.4088134765625,0,0,1.5707963705062866]
+    },
+    "0-215569": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-446.0419921875,191.84765625,-212.4088134765625,0,0,1.5707963705062866]
+    },
+    "0-215570": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-598.5017700195312,184.85476684570312,-212.4088134765625,0,0,4.583186149597168]
+    },
+    "0-215571": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "DATA": [-7.654451847076416,258.3251647949219,-175.6318359375,0,0,4.71238899230957]
+    },
+    "0-215572": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_02",
+      "DATA": [-88.01590728759766,335.3726501464844,-237.3727264404297,0,0,5.4977874755859375]
+    },
+    "0-215573": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-108.56102752685547,114.80107879638672,-212.4088134765625,0,0,3.1415927410125732]
+    },
+    "0-215574": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.6400001049041748,
+      "DATA": [-317.7572326660156,261.1123046875,-259.85894775390625,0,0,6.2831854820251465]
+    },
+    "0-215575": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [-633.02392578125,-179.3961181640625,-233.6025390625,0,0,4.71238899230957]
+    },
+    "0-215576": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-672,256,-32,0,0,1.5707963705062866]
+    },
+    "0-215577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-672,-413.4739074707031,-32,0,0,1.5707963705062866]
+    },
+    "0-215578": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-672,-184.6956329345703,-32,0,0,1.5707963705062866]
+    },
+    "0-215579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-288.258056640625,-288,-32,0,0,0]
+    },
+    "0-215580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-549.5089111328125,416,-32,0,0,3.1415927410125732]
+    },
+    "0-282782": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-317.4401550292969,805.1005249023438,-139.14622497558594,0,0,0]
+    },
+    "0-337920": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-556.29833984375,-541.4485473632812,-32,0,0,6.278981685638428]
+    },
+    "0-337921": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [190.01939392089844,-348.2686462402344,-295.6904296875,0,0,3.1415927410125732]
+    },
+    "0-337922": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [196.2442169189453,-545.0936279296875,-295.6904296875,0,0,6.278981685638428]
+    },
+    "0-337923": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_01",
+      "XSCL": 1.350000023841858,
+      "DATA": [324.55908203125,-289.7122802734375,-259.95526123046875,0,0,0]
+    },
+    "0-337924": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_08",
+      "DATA": [319.3218078613281,-99.00163269042969,-30.403072357177734,0,0,3.1415927410125732]
+    },
+    "0-337925": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_08",
+      "DATA": [542.1373901367188,-190.67543029785156,-31.84398078918457,0,0,4.71238899230957]
+    },
+    "0-337926": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [508.0690002441406,-395.5299987792969,-220.74600219726562,0,0,1.1501719951629639]
+    },
+    "0-337927": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [504.1368408203125,-344.4479675292969,-220.74559020996094,0,0,0.875]
+    },
+    "0-337928": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [479.87261962890625,-371.4693908691406,-231.34725952148438,0,0,5.083185195922852]
+    },
+    "0-337929": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [517.5372924804688,-233.3738555908203,-146.86477661132812,0,0,0.9500000476837158]
+    },
+    "0-337930": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [511.86334228515625,-215.75889587402344,-146.86477661132812,0,0,0.9500000476837158]
+    },
+    "0-337931": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [510.830322265625,-250.04762268066406,-146.86477661132812,0,0,0]
+    },
+    "0-337932": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_comberry_brandy_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [517.6840209960938,-271.0820007324219,-145.572998046875,0,0,0]
+    },
+    "0-337933": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_08",
+      "DATA": [225.642333984375,-541.7998657226562,-31.84398078918457,0,0,6.2831854820251465]
+    },
+    "0-337934": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_08",
+      "DATA": [542.1373901367188,-378.1944885253906,-31.84398078918457,0,0,4.71238899230957]
+    },
+    "0-337935": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-4.451480865478516,234.34947204589844,-212.09136962890625,0,0,4.972787857055664]
+    },
+    "0-337936": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-11.18802261352539,337.7285461425781,-212.21885681152344,0,0,0.25]
+    },
+    "0-337937": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-0.6131566762924194,261.47479248046875,-212.09136962890625,0,0,4.7831854820251465]
+    },
+    "0-337938": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-2.7530229091644287,270.8689880371094,-212.09136962890625,0,0,5.983185291290283]
+    },
+    "0-337939": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-5.827718734741211,248.7109375,-210.19454956054688,0,0,0.15000000596046448]
+    },
+    "0-337940": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-13.003924369812012,265.9070129394531,-210.19454956054688,0,0,0]
+    },
+    "0-337941": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1.248445987701416,327.9671630859375,-212.09136962890625,0,0,5.4977874755859375]
+    },
+    "0-337942": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3.185936689376831,285.26556396484375,-212.09136962890625,0,0,5.4977874755859375]
+    },
+    "0-337943": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-15.812999725341797,283.12567138671875,-212.218994140625,0,0,0.24958208203315735]
+    },
+    "0-337944": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-7.624933242797852,329.8778076171875,-180.03269958496094,0,0,0]
+    },
+    "0-337945": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-6.010683536529541,213.10830688476562,-179.1082000732422,0,0,0]
+    },
+    "0-337946": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-17.14069938659668,188.62657165527344,-180.62789916992188,0,0,0]
+    },
+    "0-337947": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-8.899298667907715,177.48289489746094,-180.62789916992188,0,0,0.3499999940395355]
+    },
+    "0-337948": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_04",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1.3211102485656738,266.1523742675781,-129.7418670654297,0,0,0]
+    },
+    "0-337949": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "yngling half-troll",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-5.590552806854248,254.3450469970703,-179.1082000732422,0,0,0]
+    },
+    "0-337950": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [30.710599899291992,258.2032470703125,-32,0,0,4.71238899230957]
+    },
+    "0-337951": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_velothi_window_01",
+      "DATA": [-131.01559448242188,407.237060546875,-92.43387603759766,5.783185005187988,0,4.71238899230957]
+    },
+    "0-405587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_025",
+      "DATA": [516.2222900390625,-291.3514709472656,-158.6380615234375,0,0,0.49999991059303284]
+    },
+    "0-405588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_010",
+      "DATA": [502.92132568359375,-292.06982421875,-158.63540649414062,0,0,0]
+    },
+    "0-424914": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-93.09188079833984,-288,-32,0,0,0]
+    },
+    "0-424915": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_rail_01",
+      "DATA": [-80,64,-128,0,0,0]
+    },
+    "0-424916": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_column_01",
+      "DATA": [-48,-192,-128,0,0,0]
+    },
+    "0-424917": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_rail_01",
+      "DATA": [-560,64,-128,0,0,3.1415927410125732]
+    },
+    "0-424918": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_column_01",
+      "DATA": [-592,320,-128,0,0,3.1415927410125732]
+    },
+    "0-424919": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_01_64",
+      "DATA": [-514.7130737304688,276.41815185546875,-180.2722930908203,0,0,5.197787761688232]
+    },
+    "0-424920": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-77.64646911621094,178.46258544921875,-32.554080963134766,0,0,3.9269909858703613]
+    },
+    "0-424921": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-321.2179260253906,392.5804748535156,-21.958417892456055,0,0,0.7853981852531433]
+    },
+    "0-424922": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-80.50015258789062,180.67140197753906,-12.946873664855957,0,0,4.541593074798584]
+    },
+    "0-424923": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-318.5100402832031,389.85943603515625,-2.3181092739105225,0,0,1.4000000953674316]
+    },
+    "0-424924": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [-558.4452514648438,-511.65521240234375,-127.77325439453125,0,0,5.4081854820251465]
+    },
+    "0-424925": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.6400001049041748,
+      "DATA": [-317.7572326660156,-125.10802459716797,-259.85894775390625,0,0,6.2831854820251465]
+    },
+    "0-424926": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-56.67013168334961,-183.48146057128906,-29.791860580444336,0,0,6.2831854820251465]
+    },
+    "0-424927": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-52.831302642822266,-183.4907684326172,-10.151555061340332,0,0,0.6146019101142883]
+    },
+    "0-424928": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "torch_128",
+      "ANAM": "yngling half-troll",
+      "INTV": 1129447424,
+      "NAM9": 1,
+      "DATA": [303.5226745605469,-525.7394409179688,-362.4256591796875,0,0,0]
+    },
+    "0-424929": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_torch_ring_01",
+      "DATA": [311.162109375,-525.7222900390625,-349.3528747558594,0,0,1.5707963705062866]
+    },
+    "0-424930": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "XSCL": 1.6400001049041748,
+      "DATA": [-575.1375122070312,63.93800354003906,-304.6910705566406,0,0,0]
+    },
+    "0-424931": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "XSCL": 1.6400001049041748,
+      "DATA": [-45.34413528442383,63.93800354003906,-304.6910705566406,0,0,0]
+    },
+    "0-460144": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BookSkill_Short Blade5",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-10.721887588500977,178.70660400390625,-112.73860168457031,4.71238899230957,6.2831854820251465,0]
+    },
+    "0-483286": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [109.40534973144531,-152.8496551513672,-29.791860580444336,0,0,6.2831854820251465]
+    },
+    "0-483287": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [113.24417877197266,-152.8589630126953,-10.151555061340332,0,0,0.6146019101142883]
+    },
+    "0-483552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_yellowbook426",
+      "ANAM": "yngling half-troll",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-6.237470626831055,191.00404357910156,-113.6385726928711,4.71238899230957,0,0]
+    }
+  }
+}

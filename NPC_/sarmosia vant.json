@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Imperial",
+  "CNAM": "Monk Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_imperial_f_head_04",
+  "KNAM": "b_n_imperial_f_hair_01",
+  "MODL": null,
+  "FNAM": "Sarmosia Vant",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 70,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 13,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 83,
+    "magicka": 92,
+    "fatigue": 221,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [57,46,59,60,56,45,55,40],
+    "skills": [23,6,6,6,28,16,6,6,38,6,6,6,6,6,6,23,6,38,15,47,47,37,15,32,10,25,52]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

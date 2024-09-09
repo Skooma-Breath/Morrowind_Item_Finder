@@ -1,0 +1,79 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 28,
+  "RNAM": "Dark Elf",
+  "CNAM": "Guard",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "High Ordinator",
+  "SCRI": "PlagueOrdBasement",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "Ebony Scimitar"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_shield"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_gauntlet_R"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_gauntlet_L"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_boots"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_Greaves"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_Pauldron_R"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_Pauldron_L"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_Cuirass"
+    },
+    {
+      "count": 1,
+      "name": "Indoril_MH_Guard_helmet"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 23,
+    "disposition": 40,
+    "reputation": 14,
+    "rank": 6,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

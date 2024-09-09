@@ -1,0 +1,698 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "535412220890519954": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1036312146125447659",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1036312146125447659": {
+      "flag": 0,
+      "PNAM": "535412220890519954",
+      "NNAM": "31663295561499727741",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "43",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 100
+        }
+      ]
+    },
+    "31663295561499727741": {
+      "flag": 0,
+      "PNAM": "1036312146125447659",
+      "NNAM": "111723425101266659",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Indrele Rathryon has the deed now, and the Temple courts have been stalled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 100
+        }
+      ]
+    },
+    "111723425101266659": {
+      "flag": 0,
+      "PNAM": "31663295561499727741",
+      "NNAM": "2020824791273289534",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "I heard you gave the land deed to Indrele Rathryon. Maybe Velanda Omani will leave her alone now.",
+      "BNAM": "Journal TG_SS_Generosity2 100\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 50
+        }
+      ]
+    },
+    "2020824791273289534": {
+      "flag": 0,
+      "PNAM": "111723425101266659",
+      "NNAM": "3123625870320926210",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "You have the land deed? Take it to Indrele Rathryon in Seyda Neen.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_indreledeed",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 10
+        }
+      ]
+    },
+    "3123625870320926210": {
+      "flag": 0,
+      "PNAM": "2020824791273289534",
+      "NNAM": "22391288163153227573",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "The Hlaalu Councilor Velanda Omani wants Indrele Rathryon's land. Velanda Omani forged a land deed and placed it in the Library of Vivec. Without our help, Velanda Omani's bribes will prevent justice, and allow the forged deed to stand. Go to the Library of Vivec, find the deed, and deliver it to Indrele Rathryon in the name of the Bal Molagmer.",
+      "BNAM": "Journal TG_SS_Generosity2 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Yngling",
+          "__TV": 100
+        }
+      ]
+    },
+    "22391288163153227573": {
+      "flag": 0,
+      "PNAM": "3123625870320926210",
+      "NNAM": "1036416049168545689",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I burned that land deed. If Velanda Omani wants my land she'll have to forge another one. I don't know if she'd do that or not, but for now, my land is safe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 100
+        }
+      ]
+    },
+    "1036416049168545689": {
+      "flag": 0,
+      "PNAM": "22391288163153227573",
+      "NNAM": "120599882799226037",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You gave me the land deed, and I am grateful.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 50
+        }
+      ]
+    },
+    "120599882799226037": {
+      "flag": 0,
+      "PNAM": "1036416049168545689",
+      "NNAM": "1538590672597130268",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I won't argue with you, but I still don't understand why you did this.",
+      "BNAM": "Journal TG_SS_Generosity2 50\r\nPlayer->RemoveItem bk_IndreleDeed 1\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1538590672597130268": {
+      "flag": 0,
+      "PNAM": "120599882799226037",
+      "NNAM": "1620413279116669157",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you very much. I can't tell you what this means. And...your gloves...they seem somehow familiar...stories I heard as a child. Anyway, I thank you.",
+      "BNAM": "Journal TG_SS_Generosity2 55\r\nPlayer->RemoveItem bk_IndreleDeed 1\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "TGglove",
+          "__TV": 1
+        }
+      ]
+    },
+    "1620413279116669157": {
+      "flag": 0,
+      "PNAM": "1538590672597130268",
+      "NNAM": "321094461560110622",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I thank you. I have my land deed, and Velanda Omani doesn't.",
+      "BNAM": "Journal TG_SS_Generosity2 50\r\nPlayer->RemoveItem bk_IndreleDeed 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "321094461560110622": {
+      "flag": 0,
+      "PNAM": "1620413279116669157",
+      "NNAM": "2727512660673812667",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? This looks like the land deed... Why are you giving me this?",
+      "BNAM": "Choice \"I stole it.\" 1 \"This deed belongs in your hands.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2727512660673812667": {
+      "flag": 0,
+      "PNAM": "321094461560110622",
+      "NNAM": "1107454491077912844",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "And my answer will be the same next time.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "1107454491077912844": {
+      "flag": 0,
+      "PNAM": "2727512660673812667",
+      "NNAM": "169416125277387578",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "indrele rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just leave me alone. I already told you. I never signed any land deed. I'm not selling my land, and I'm not moving back to Cyrodiil.",
+      "BNAM": "Choice \"Give her the land deed\" 3 \"Nevermind\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_indreledeed",
+          "__TV": 1
+        }
+      ]
+    },
+    "169416125277387578": {
+      "flag": 0,
+      "PNAM": "1107454491077912844",
+      "NNAM": "2451124916197662",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Oh, that? I had nothing to do with that, believe me! That was one of my retainers. When I found out what he planned, I sent him back to the mainland.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_indreledeed",
+          "__TV": 1
+        }
+      ]
+    },
+    "2451124916197662": {
+      "flag": 0,
+      "PNAM": "169416125277387578",
+      "NNAM": "333729882291638447",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You ruined my plans, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 100
+        }
+      ]
+    },
+    "333729882291638447": {
+      "flag": 0,
+      "PNAM": "2451124916197662",
+      "NNAM": "3254431973644726957",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Now leave and I'll forget about this.",
+      "BNAM": "Journal TG_SS_Generosity2 30\r\nPlayer->RemoveItem bk_IndreleDeed 1\r\nAddItem bk_IndreleDeed 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3254431973644726957": {
+      "flag": 0,
+      "PNAM": "333729882291638447",
+      "NNAM": "156762636158544895",
+      "DATA": {
+        "value": 15,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So be it. Leave before I lose my temper.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "156762636158544895": {
+      "flag": 0,
+      "PNAM": "3254431973644726957",
+      "NNAM": "42334688260573534",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So be it. Leave before I lose my temper.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "42334688260573534": {
+      "flag": 0,
+      "PNAM": "156762636158544895",
+      "NNAM": "10622994875827021",
+      "DATA": {
+        "value": 15,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know how you got that back, but you won't get away with this.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_indreledeed",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 30
+        }
+      ]
+    },
+    "10622994875827021": {
+      "flag": 0,
+      "PNAM": "42334688260573534",
+      "NNAM": "2535878202473527910",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know how you got that back, but you won't get away with this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_indreledeed",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 30
+        }
+      ]
+    },
+    "2535878202473527910": {
+      "flag": 0,
+      "PNAM": "10622994875827021",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "velanda omani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I believe you have something that belongs to me. If you give it back to me and leave quietly, I will forget this ever happened.",
+      "BNAM": "Choice \"Give her the land deed' 1 \"Keep the land deed\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_indreledeed",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

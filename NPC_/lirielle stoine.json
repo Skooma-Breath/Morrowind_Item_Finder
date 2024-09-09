@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Breton",
+  "CNAM": "Thief Service",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_breton_f_head_04",
+  "KNAM": "b_n_breton_f_hair_01",
+  "MODL": null,
+  "FNAM": "Lirielle Stoine",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 17520
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel dagger"
+    },
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": -5,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": -10,
+      "name": "pick_apprentice_01"
+    },
+    {
+      "count": 1,
+      "name": "key_aldruhn_underground"
+    },
+    {
+      "count": -10,
+      "name": "probe_apprentice_01"
+    },
+    {
+      "count": -5,
+      "name": "probe_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 57,
+    "magicka": 120,
+    "fatigue": 186,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [41,60,55,56,63,34,47,40],
+    "skills": [6,6,6,6,6,6,6,6,21,6,6,11,11,16,16,16,11,6,39,39,39,39,39,24,10,24,24]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "215722304160130119": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "30478205042865912286",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? How is it that you have this? This belongs to the Museum! GUARDS!",
+      "BNAM": "SetPCCrimeLevel 10000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "robelich",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "robe_lich_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "30478205042865912286": {
+      "flag": 0,
+      "PNAM": "215722304160130119",
+      "NNAM": "3233715140569619977",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "robelich",
+          "__TV": 2
+        }
+      ]
+    },
+    "3233715140569619977": {
+      "flag": 0,
+      "PNAM": "30478205042865912286",
+      "NNAM": "11140326121516229745",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Robe of the Lich with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "robe_lich_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "11140326121516229745": {
+      "flag": 0,
+      "PNAM": "3233715140569619977",
+      "NNAM": "816041051286623449",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Robe of the Lich with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "robe_lich_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "816041051286623449": {
+      "flag": 0,
+      "PNAM": "11140326121516229745",
+      "NNAM": "317131157378318821",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Splendid. I must say I feel more comfortable with this in the Museum's collection than I would knowing it was somewhere out in the world.",
+      "BNAM": "set robelich to 2\r\nplayer->removeitem \"robe_lich_unique\" 1 \r\nset MuseumDonations to MuseumDonations + 1\r\n\"robe_lich_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "robe_lich_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "317131157378318821": {
+      "flag": 0,
+      "PNAM": "816041051286623449",
+      "NNAM": "2648015349111219845",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Splendid. I must say I feel more comfortable with this in the Museum's collection than I would knowing it was somewhere out in the world.",
+      "BNAM": "set robelich to 2\r\nplayer->removeitem \"robe_lich_unique\" 1 \r\nplayer->additem \"gold_001\" 11000\r\n\"robe_lich_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "robe_lich_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "2648015349111219845": {
+      "flag": 0,
+      "PNAM": "317131157378318821",
+      "NNAM": "990914675153962768",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The decision is yours, %PCName. Though I will advise caution if you intend to make use of the robe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "990914675153962768": {
+      "flag": 0,
+      "PNAM": "2648015349111219845",
+      "NNAM": "1142610169139473235",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Information is scarce at best when it comes to this artifact. Some have said it was pulled from a lich when it was defeated; others say it was developed by an evil mage who wanted the power of a lich without the.... drawbacks. Either way, it is a powerful item indeed. Do you wish to part with it? I can offer you 11000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "robelich",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "1142610169139473235": {
+      "flag": 0,
+      "PNAM": "990914675153962768",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Information is scarce at best when it comes to this artifact. Some have said it was pulled from a lich when it was defeated; others say it was developed by an evil mage who wanted the power of a lich without the.... drawbacks. Either way, it is a powerful item indeed. Do you wish to part with it? I can offer you 11000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "robelich",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

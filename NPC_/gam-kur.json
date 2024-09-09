@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Argonian",
+  "CNAM": "Barbarian",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_02",
+  "KNAM": "b_n_argonian_m_hair05",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Gam-Kur",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "nordic_ringmail_cuirass"
+    },
+    {
+      "count": 14,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "l_n_wpn_melee_blunt"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

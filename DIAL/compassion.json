@@ -1,0 +1,430 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "27238305751399731599": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "15886269761989117617",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard that you are a False Incarnate. I am not yet convinced, but I no longer trust you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "15886269761989117617": {
+      "flag": 0,
+      "PNAM": "27238305751399731599",
+      "NNAM": "2312527976221225592",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2312527976221225592": {
+      "flag": 0,
+      "PNAM": "15886269761989117617",
+      "NNAM": "2002195351748419616",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bulfim gra-Shugharz is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_Compassion",
+          "__TV": 200
+        }
+      ]
+    },
+    "2002195351748419616": {
+      "flag": 0,
+      "PNAM": "2312527976221225592",
+      "NNAM": "29914238421347426986",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already proven your compassion.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_Compassion",
+          "__TV": 100
+        }
+      ]
+    },
+    "29914238421347426986": {
+      "flag": 0,
+      "PNAM": "2002195351748419616",
+      "NNAM": "2215026641968827092",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have slain Bulfim gra-Shugharz?! You were to cure her -- not kill her! Perhaps you are not suited for the Temple.",
+      "BNAM": "Journal TT_Compassion 200\r\nModDisposition -20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "bulfim_gra_shugarz",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_Compassion",
+          "__TV": 10
+        }
+      ]
+    },
+    "2215026641968827092": {
+      "flag": 0,
+      "PNAM": "29914238421347426986",
+      "NNAM": "613064632292223605",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bulfim gra-Shugharz is dead? That is a shame. Perhaps you can prove your compassion some other way.",
+      "BNAM": "Journal TT_Compassion 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "bulfim_gra_shugarz",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_Compassion",
+          "__TV": 0
+        }
+      ]
+    },
+    "613064632292223605": {
+      "flag": 0,
+      "PNAM": "2215026641968827092",
+      "NNAM": "1996065662610329587",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have performed beyond my expectations, %PCName. You are indeed resourceful as well as compassionate. Are you ready for further duties?",
+      "BNAM": "Player->RemoveItem \"p_cure_blight_s\" 1\r\nJournal TT_Compassion 110\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "p_cure_blight_s",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_Compassion",
+          "__TV": 99
+        }
+      ]
+    },
+    "1996065662610329587": {
+      "flag": 0,
+      "PNAM": "613064632292223605",
+      "NNAM": "710824588833415125",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Where is it? Oh, I see. You are joking.",
+      "BNAM": "Journal TT_Compassion 100\r\nModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "p_cure_blight_s",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_Compassion",
+          "__TV": 99
+        }
+      ]
+    },
+    "710824588833415125": {
+      "flag": 0,
+      "PNAM": "1996065662610329587",
+      "NNAM": "2796670822571010700",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Unfortunate. But its use promoted a virtuous act. Well done, %PCName. Are you ready for further duties?",
+      "BNAM": "Journal TT_Compassion 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_Compassion",
+          "__TV": 99
+        }
+      ]
+    },
+    "2796670822571010700": {
+      "flag": 0,
+      "PNAM": "710824588833415125",
+      "NNAM": "102013759499815014",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You cured Bulfim gra-Shugharz and have proven your compassion. You might be interested in this book, which has an important lesson on the rewards of compassion. Were you able to preserve the potion?",
+      "BNAM": "Journal TT_Compassion 99\r\nPlayer->AddItem BookSkill_Restoration3 1\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10\r\nChoice \"Yes, I have it right here.\", 1, \"No. I had to use it.\", 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_Compassion",
+          "__TV": 50
+        }
+      ]
+    },
+    "102013759499815014": {
+      "flag": 0,
+      "PNAM": "2796670822571010700",
+      "NNAM": "148132270975028751",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Seek the Orc called Bulfim gra-Shugarz at the Maelkashishi Shrine. Cure her and learn the meaning of compassion. And if at all possible, return the potion which I have entrusted to your care.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_Compassion",
+          "__TV": 10
+        }
+      ]
+    },
+    "148132270975028751": {
+      "flag": 0,
+      "PNAM": "102013759499815014",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Vivec often showed compassion to his enemies. You must show compassion by curing Bulfim gra-Shugarz, a Sheogorath worshipper in Maelkashishi. Take this potion of cure blight. You can cure Bulfim by giving her the potion... But it is expensive. I would prefer you learned a spell such as \"Rilm's Gift\" and returned the potion to me.",
+      "BNAM": "Journal TT_Compassion 10\r\nPlayer->AddItem \"p_cure_blight_s\" 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_Compassion",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

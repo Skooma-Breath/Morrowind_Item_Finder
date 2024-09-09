@@ -1,0 +1,180 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1169290472039916356": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2410209952981819284",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahhh...you've gotten the list! This will prove most advantageous. Business is all about having even a little advantage over your competitors. You have done well. Take this as a reward. And mention this to no one.",
+      "BNAM": "Player->removeitem \"bk_clientlist\" 1\r\nAddItem \"bk_clientlist\" 1\r\nJournal \"EB_Clients\" 50\r\nPlayer->additem \"gold_001\" 700",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_clientlist",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Clients",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Clients",
+          "__TV": 50
+        }
+      ]
+    },
+    "2410209952981819284": {
+      "flag": 0,
+      "PNAM": "1169290472039916356",
+      "NNAM": "28924198451092816944",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We must take advantage of every opportunity we can.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Clients",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "EB_Clients",
+          "__TV": 40
+        }
+      ]
+    },
+    "28924198451092816944": {
+      "flag": 0,
+      "PNAM": "2410209952981819284",
+      "NNAM": "75616167195688800",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm...a pity. Perhaps you are not the person I thought you to be. This conversation, of course, never took place. You understand, I'm sure.",
+      "BNAM": "Journal \"EB_Clients\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "75616167195688800": {
+      "flag": 0,
+      "PNAM": "28924198451092816944",
+      "NNAM": "9339268071503329448",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's the attitude we like here at the Company. Go quickly and quietly. No one should know the details of your business. And if you are discovered, the Company will deny all knowledge of your existence. Good luck.",
+      "BNAM": "Journal \"EB_Clients\" 30\r\n\"bk_clientlist\"->enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "9339268071503329448": {
+      "flag": 0,
+      "PNAM": "75616167195688800",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is a Telvanni enchanter in Vivec--Audenian Valius. I believe you helped him with a nasty little rat problem. Shame, that was. He has a rather exclusive clientele, and he sells very exclusive products at quite a large profit. It would be of interest to the Company to know who his clients are, and to know what items they require. If you can bring me a list of these clients and items, I would be most appreciative.",
+      "BNAM": "Journal \"EB_Clients\" 20\r\nChoice \"I will help you get the list.\" 1 \"I cannot help you.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Clients",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

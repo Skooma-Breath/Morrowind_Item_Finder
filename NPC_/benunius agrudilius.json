@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Publican",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_03",
+  "MODL": null,
+  "FNAM": "Benunius Agrudilius",
+  "SCRI": "Pub_Balmora_Lucky",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 50,
+    "alarm": 100,
+    "flags": 8208
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    },
+    {
+      "count": -10,
+      "name": "random_food"
+    },
+    {
+      "count": -5,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -5,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": -5,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -4,
+      "name": "potion_cyro_brandy_01"
+    },
+    {
+      "count": -4,
+      "name": "Potion_Cyro_Whiskey_01"
+    },
+    {
+      "count": -5,
+      "name": "potion_local_liquor_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 61,
+    "magicka": 112,
+    "fatigue": 164,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [45,56,33,41,44,45,69,40],
+    "skills": [19,5,19,5,24,15,5,19,5,5,5,5,5,5,5,5,5,5,41,41,12,46,12,12,20,51,31]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

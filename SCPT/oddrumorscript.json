@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 117,
+    "local_var_size": 5
+  },
+  "SCTX": "Begin OddRumorScript\r\n\r\nshort done\r\n\r\nif ( done == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( PCWerewolf == 1 )\r\n\tenable\r\nendif\r\n\r\nif ( PCWerewolf <= 0 )\r\n\tdisable\r\nendif\r\n\t \r\n;if ( GetJournalIndex BM_WolfGiver < 10 )\r\n\tif ( onactivate == 1 )\r\n\t\tJournal \"BM_WolfGiver\" 10\r\n\t\tset done to 1\r\n\t\tactivate\r\n\tendif\r\nendif\r\n \r\n\r\nEnd OddRumorScript",
+  "SCVR": [
+    "done"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,49,36,1,9,1,6,1,1,18,32,71,10,80,67,87,101,114,101,119,111,108,102,32,61,61,32,49,218,16,9,1,6,1,1,18,32,71,10,80,67,87,101,114,101,119,111,108,102,32,60,61,32,48,219,16,9,1,6,1,3,9,32,88,24,16,32,61,61,32,49,204,16,12,66,77,95,87,111,108,102,71,105,118,101,114,10,0,255,255,5,1,115,1,0,2,32,49,23,16,9,1,9,1,1,1]
+}

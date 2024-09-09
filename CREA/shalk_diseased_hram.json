@@ -1,0 +1,56 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Shalk.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 5,
+    "attributes": [30,30,30,30,20,30,30,30],
+    "health": 15,
+    "magicka": 10,
+    "fatigue": 100,
+    "soul_strength": 10,
+    "combat_skill": 30,
+    "magic_skill": 30,
+    "stealth_skill": 30,
+    "attacks": [
+      [1,5],
+      [1,5],
+      [1,5]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "shalk",
+  "FNAM": "Diseased Shalk",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "random_shalk_resin"
+    }
+  ],
+  "NPCS": [
+    "collywobbles",
+    "shalk_firebite",
+    "immune to fire",
+    "weakness frost_60"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,30,0,0,0,0,0]
+    }
+  ]
+}

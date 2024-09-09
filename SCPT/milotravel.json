@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 130,
+    "local_var_size": 21
+  },
+  "SCTX": "begin MiloTravel\r\n\r\nshort travelDone\r\nshort travelNow\r\n\r\nif (MenuMode == 0)\r\n\r\n\tif (travelDone == 0)\r\n\t;don't check the rest if you don't have to\r\n\t;avoid adding AI packages over and over\r\n\r\n\t\tif (GetCurrentAiPackage == 1)\r\n\r\n\t\t\t;if travel is the current package, set travelNow and continue\r\n\t\t\tset travelNow to 1\r\n\r\n\t\t\tif (GetAIPackageDone == 1)\r\n\r\n\t\t\t\t;if the travel is done, set travelDone to 1, reset travelNow to 0\r\n\t\t\t\tset travelDone to 1\r\n\t\t\t\tset travelNow to 0\r\n\r\n\t\t\t\t;Give NPC new package to avoid dumb-looking behavior\r\n\t\t\t\tAiWander 128 6 0 40 30 20 0 0 0 0 0 0\r\n\r\n\t\t\t endif\r\n\r\n\t\telse\r\n\t\t\t;if travel is NOT the current package, make sure travelNow is zero\r\n\t\t\tset travelNow to 0\r\n\t\tendif\r\n\r\n\tendif\r\n\r\nendif\r\n\r\nend MiloTravel\r\n\r\n",
+  "SCVR": [
+    "travelDone",
+    "travelNow"
+  ],
+  "SCDT": [6,1,12,9,32,88,32,16,32,61,61,32,48,6,1,10,9,32,115,1,0,32,61,61,32,48,6,1,6,9,32,88,250,16,32,61,61,32,49,5,1,115,2,0,2,32,49,6,1,3,9,32,88,251,16,32,61,61,32,49,5,1,115,1,0,2,32,49,5,1,115,2,0,2,32,48,249,16,0,0,0,67,0,0,192,64,0,0,0,0,8,0,30,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,9,1,7,1,1,5,1,115,2,0,2,32,48,9,1,9,1,9,1,1,1]
+}

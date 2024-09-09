@@ -1,0 +1,236 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "14843235153159213783": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "26758248813219512283",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will handle this personally. Here, take these 10 drakes as a reward for your honesty.",
+      "BNAM": "Journal TG_ManorKey 70\r\nPlayer->RemoveItem key_neranomanor 1\r\nAddItem key_neranomanor 1\r\nPlayer->AddItem Gold_001 10\r\nModDisposition 25\r\n\"Sovor Trandel\"->Disable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "26758248813219512283": {
+      "flag": 0,
+      "PNAM": "14843235153159213783",
+      "NNAM": "2557946932006426333",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, if you had kept the key, perhaps I might have something to say about the matter.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2557946932006426333": {
+      "flag": 0,
+      "PNAM": "26758248813219512283",
+      "NNAM": "2238916999289337412",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He did? Well, that is most interesting. And what did you do with the key?",
+      "BNAM": "Choice \"It's here. Take it.\" 1 \"I no longer have it.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2238916999289337412": {
+      "flag": 0,
+      "PNAM": "2557946932006426333",
+      "NNAM": "25761123232711720371",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Of course, he's quite unremarkable. He lacks ambition.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "25761123232711720371": {
+      "flag": 0,
+      "PNAM": "2238916999289337412",
+      "NNAM": "3051529204792527691",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, he works for me. Does odd jobs when he's not too lazy.",
+      "BNAM": "Choice \"Sovor Trandel gave me the key to your manor.\" 3 \"I see. Thanks for your time.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_neranomanor",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_ManorKey",
+          "__TV": 50
+        }
+      ]
+    },
+    "3051529204792527691": {
+      "flag": 0,
+      "PNAM": "25761123232711720371",
+      "NNAM": "23290117562196027022",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ondres nerano",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, he works for me. Does odd jobs when he's not too lazy, which is rare.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "23290117562196027022": {
+      "flag": 0,
+      "PNAM": "3051529204792527691",
+      "NNAM": "9605152162764523118",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Habasi did not mean for you to kill him. You must be more careful in the future.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "sovor trandel",
+          "__TV": 0
+        }
+      ]
+    },
+    "9605152162764523118": {
+      "flag": 0,
+      "PNAM": "23290117562196027022",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "habasi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He spends all his time and gold at the Council Club over by the silt strider.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

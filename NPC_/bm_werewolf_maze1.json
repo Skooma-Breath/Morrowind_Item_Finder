@@ -1,0 +1,50 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Acrobat",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_02",
+  "KNAM": "b_n_argonian_m_hair03",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Hound of Hircine",
+  "SCRI": "weremazeScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 100,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": null,
+  "NPCS": [
+    "dire weary",
+    "strong fire shield",
+    "strong frost shield",
+    "second barrier",
+    "strong shock shield"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 70,
+    "health": 700,
+    "magicka": 190,
+    "fatigue": 900,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,95,100,100,100,100,0,100],
+    "skills": [12,12,17,12,12,12,12,89,100,12,12,84,17,12,17,12,17,100,51,100,100,100,51,100,51,100,100]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,0,0,0,0,0,0,0]
+    }
+  ]
+}

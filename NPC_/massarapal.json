@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Massarapal",
+  "SCRI": "ErabenimsunKill",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 145055
+  },
+  "NPCO": [
+    {
+      "count": -25,
+      "name": "chitin arrow"
+    },
+    {
+      "count": -10,
+      "name": "chitin throwing star"
+    },
+    {
+      "count": 1,
+      "name": "chitin spear"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01_e"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_e"
+    },
+    {
+      "count": -3,
+      "name": "random ashlander weapon"
+    },
+    {
+      "count": -3,
+      "name": "random_armor_chitin"
+    },
+    {
+      "count": 15,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "rally humanoid",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "divine intervention",
+    "mark",
+    "recall",
+    "sotha's mirror",
+    "soul trap",
+    "vivec's feast",
+    "spell absorption",
+    "telekinesis",
+    "dispel",
+    "detect_creature",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 119,
+    "magicka": 122,
+    "fatigue": 235,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [67,61,51,69,68,48,69,40],
+    "skills": [40,18,18,18,40,23,18,18,23,6,16,6,6,6,48,6,6,35,43,43,6,33,16,11,10,43,28]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

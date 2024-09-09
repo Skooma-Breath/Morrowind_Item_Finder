@@ -1,0 +1,20 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 3,
+    "script_data_size": 350,
+    "local_var_size": 49
+  },
+  "SCTX": "begin explosion_pushout\r\n\r\nfloat startval\r\nfloat curval\r\nfloat currshift\r\n\r\nshort xdir\r\nshort state\r\nshort initialized\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( initialized == 0 )\r\n\t;make a prop\r\n\r\n\tset xdir to 1\r\n\tset curval to GetPos X\r\n\tset startval to curval\r\n\tset state to 1\r\n\r\n\tset initialized to 1\r\nendif\r\n\r\nif ( state == 1 )\r\n\tset currshift to 500 * GetSecondsPassed\r\n\tset currshift to currshift * xdir\r\n\tset curval to curval + currshift\r\n\tSetPos X curval\r\n\r\n\tif ( GetCollidingPC )\r\n\t\tMessageBox \"hit PC\"\r\n\t\tplayer->sethealth 0\r\n\tendif\r\n\tif ( GetCollidingActor )\r\n\t\tMessageBox \"hit somethin else\"\r\n\tendif\r\n\r\n\tHurtCollidingActor 500\r\n\t\r\n\tif ( xdir < 0 )\r\n\t\tset currshift to startval - curval\r\n\telse\r\n\t\tset currshift to curval - startval \r\n\tendif\r\n\r\n\tif ( currshift  > 800 )\r\n\t\tMessageBox \"Explosion complete. ptdiff = %.2f\" currshift\r\n\t\tDisable\r\n\t\tSetDelete 1\r\n\t\tset state to 2\r\n\tendif\r\nendif\r\n\r\n\r\nend",
+  "SCVR": [
+    "xdir",
+    "state",
+    "initialized",
+    "startval",
+    "curval",
+    "currshift"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,5,9,32,115,3,0,32,61,61,32,48,5,1,115,1,0,2,32,49,5,1,102,2,0,6,32,88,10,16,88,0,5,1,102,1,0,5,32,102,2,0,0,5,1,115,2,0,2,32,49,5,1,115,3,0,2,32,49,9,1,6,1,23,9,32,115,2,0,32,61,61,32,49,5,1,102,3,0,10,32,53,48,48,32,88,18,16,32,42,5,1,102,3,0,10,32,102,3,0,32,115,1,0,32,42,5,1,102,2,0,10,32,102,2,0,32,102,3,0,32,43,11,16,88,102,2,0,0,6,1,2,5,32,88,163,17,0,0,16,6,0,104,105,116,32,80,67,0,0,12,1,6,112,108,97,121,101,114,141,16,0,0,0,0,9,1,6,1,1,5,32,88,164,17,0,0,16,17,0,104,105,116,32,115,111,109,101,116,104,105,110,32,101,108,115,101,0,0,9,1,165,17,0,0,250,67,6,1,1,8,32,115,1,0,32,60,32,48,5,1,102,3,0,10,32,102,1,0,32,102,2,0,32,45,7,1,1,5,1,102,3,0,10,32,102,2,0,32,102,1,0,32,45,9,1,6,1,4,10,32,102,3,0,32,62,32,56,48,48,0,16,33,0,69,120,112,108,111,115,105,111,110,32,99,111,109,112,108,101,116,101,46,32,112,116,100,105,102,102,32,61,32,37,46,50,102,1,102,3,0,0,219,16,171,17,1,0,5,1,115,2,0,2,32,50,9,1,9,1,1,1]
+}

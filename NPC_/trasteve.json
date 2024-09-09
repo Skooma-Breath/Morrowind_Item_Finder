@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Redguard",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_redguard_m_head_04",
+  "KNAM": "b_n_redguard_m_hair_01",
+  "MODL": null,
+  "FNAM": "Trasteve",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05_a"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": -2,
+      "name": "torch"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 250
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

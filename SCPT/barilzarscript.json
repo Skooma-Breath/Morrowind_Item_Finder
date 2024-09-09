@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 107,
+    "local_var_size": 10
+  },
+  "SCTX": "Begin barilzarScript\r\n\r\nshort greetOnce\r\n\r\nif ( greetOnce == -1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex TR_MazedBand >= 20 )\r\n\tif ( GetDistance Player <= 512 )\r\n\t\tif ( greetOnce == 0 )\r\n\t\t\tForceGreeting\r\n\t\t\tset greetOnce to -1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\n\r\nEnd barilzarScript",
+  "SCVR": [
+    "greetOnce"
+  ],
+  "SCDT": [6,1,1,10,32,115,1,0,32,61,61,32,45,49,36,1,9,1,6,1,6,25,32,88,205,16,32,100,12,84,82,95,77,97,122,101,100,66,97,110,100,32,62,61,32,50,48,6,1,4,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,53,49,50,6,1,2,9,32,115,1,0,32,61,61,32,48,232,16,5,1,115,1,0,7,32,45,49,32,49,32,42,9,1,9,1,9,1,1,1]
+}

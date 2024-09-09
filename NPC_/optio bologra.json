@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Drillmaster",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_orc_m_head_03",
+  "KNAM": "b_n_orc_m_hair_05",
+  "MODL": null,
+  "FNAM": "Optio Bologra",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "imperial boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial cuirass_armor"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 116,
+    "magicka": 100,
+    "fatigue": 242,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [77,50,40,79,72,46,57,40],
+    "skills": [58,22,22,22,33,33,38,33,48,6,6,6,6,6,6,6,6,5,6,6,42,6,27,6,6,6,42]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Khajiit",
+  "CNAM": "Thief Service",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_khajiit_f_head_02",
+  "KNAM": "b_n_khajiit_f_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Chirranirr",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 70,
+    "alarm": 100,
+    "flags": 16480
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_amulet_02"
+    },
+    {
+      "count": 1,
+      "name": "common_skirt_04_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_b"
+    },
+    {
+      "count": -4,
+      "name": "pick_apprentice_01"
+    },
+    {
+      "count": -2,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": 1,
+      "name": "pick_master"
+    },
+    {
+      "count": -3,
+      "name": "probe_apprentice_01"
+    },
+    {
+      "count": -1,
+      "name": "probe_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 55,
+    "magicka": 92,
+    "fatigue": 183,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [37,46,33,71,59,42,45,40],
+    "skills": [5,5,5,5,5,5,5,5,24,5,5,5,5,5,5,5,5,5,46,46,56,46,46,26,10,26,31]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

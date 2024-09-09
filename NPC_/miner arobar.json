@@ -1,0 +1,91 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 26,
+  "RNAM": "Dark Elf",
+  "CNAM": "Crusader",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_15",
+  "MODL": null,
+  "FNAM": "Miner Arobar",
+  "SCRI": "RedoranCouncilor",
+  "AIDT": {
+    "greet": 20,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "miner's pick"
+    },
+    {
+      "count": 1,
+      "name": "dwarven claymore"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_ring_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_armun-an_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_armun-an_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_armun-an_cuirass"
+    },
+    {
+      "count": 300,
+      "name": "Gold_001"
+    },
+    {
+      "count": 1,
+      "name": "key_arobarmanor_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 19,
+    "disposition": 50,
+    "reputation": 18,
+    "rank": 8,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 8,
+      "time_of_day": 8,
+      "idles": [60,60,100,10,0,0,0,10]
+    }
+  ]
+}

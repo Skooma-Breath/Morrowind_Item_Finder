@@ -1,0 +1,136 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "23944174911317027201": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1774643442223216683",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nelos onmar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, just tell her you have a note from Nelos. I think she'll be happy with it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "MV_VictimRomance",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_VictimRomance",
+          "__TV": 100
+        }
+      ]
+    },
+    "1774643442223216683": {
+      "flag": 0,
+      "PNAM": "23944174911317027201",
+      "NNAM": "2829522118217825567",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "maurrie aurmine",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He gave you a letter to give to me? Wonderful! Thank you so! I knew that he cared. You know, you didn't have to do all of this for me, and I really appreciate it. You're clearly a wonderful person. You should visit my friend Emusette Bracques in Tel Aruhn. She's a wonderful person, and I think the two of you would get along famously.",
+      "BNAM": "Journal \"MV_VictimRomance\" 105\r\nAddTopic \"Maurrie Aurmine\"\r\nAddItem \"bk_notefromnelos\" 1\r\nPlayer->RemoveItem \"bk_notefromnelos\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_VictimRomance",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_notefromnelos",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "2829522118217825567": {
+      "flag": 0,
+      "PNAM": "1774643442223216683",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "maurrie aurmine",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He gave you a letter to give to me? Wonderful! Thank you so! I knew that he cared. You know, you didn't have to do all of this for me, and I really appreciate it. You're clearly a wonderful person. You should visit my friend Barnand Erelie in Tel Branora. He's a wonderful person, and I think the two of you would get along famously.",
+      "BNAM": "Journal \"MV_VictimRomance\" 100\r\nAddTopic \"Maurrie Aurmine\"\r\nAddItem \"bk_notefromnelos\" 1\r\nPlayer->RemoveItem \"bk_notefromnelos\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_VictimRomance",
+          "__TV": 60
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_notefromnelos",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

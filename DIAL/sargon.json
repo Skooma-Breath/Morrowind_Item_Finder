@@ -1,0 +1,202 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "21375104401520320939": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1510463241152012269",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Regretably, you broke the rules of the Fighters Guild and you have been expelled. First clear your name, and then I can speak with you about this again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1510463241152012269": {
+      "flag": 0,
+      "PNAM": "21375104401520320939",
+      "NNAM": "22856209292233315718",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sure the Nord sailors that travel along the north coast of Vvardenfell are grateful to you, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_BeneranBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "22856209292233315718": {
+      "flag": 0,
+      "PNAM": "1510463241152012269",
+      "NNAM": "29089101551222532221",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You might want to ask around Maar Gan. I've heard this outlaw refuge is on an island and well-hidden.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_BeneranBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "29089101551222532221": {
+      "flag": 0,
+      "PNAM": "22856209292233315718",
+      "NNAM": "24441161152667522631",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's almost due north of here, but you'll need a way get across the sea. It's on an island, and it's a long walk with a long swim after it. You know where Vas is? Well, it's a bit southwest of there. Like I said, it's a long way to go. I suppose you could travel west from Dagon Fel, but it's a long trip from there as well.",
+      "BNAM": "Journal FG_BeneranBounty 50\r\nShowMap Vas",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_BeneranBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "24441161152667522631": {
+      "flag": 0,
+      "PNAM": "29089101551222532221",
+      "NNAM": "1162966682928225468",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Can't think of why you'd want to go to that place. I'm not sure where it is, but check with Bugdurash gra-Gashel or Nuleno Tedas. They both know the land around here well. Check for them at the outpost, or maybe at the tradehouse.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_BeneranBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "1162966682928225468": {
+      "flag": 0,
+      "PNAM": "24441161152667522631",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Maar Gan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Why would you want to go there? Well, it's your business.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_BeneranBounty",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

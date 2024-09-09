@@ -1,0 +1,194 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "32681283711537029546": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1235330461088413493",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're already working for the East Empire Company. Is this an attempt at humor? I'm not amused.",
+      "BNAM": "moddisposition -1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1235330461088413493": {
+      "flag": 0,
+      "PNAM": "32681283711537029546",
+      "NNAM": "322838711831330428",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, then. You are now an %NextPCRank in the East Empire Company, %PCName. I'll make it clear to you now that I am the one in charge; see me when you're ready for an assignment or want a promotion.",
+      "BNAM": "PCRaiseRank\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "322838711831330428": {
+      "flag": 0,
+      "PNAM": "1235330461088413493",
+      "NNAM": "21291254781734316216",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The East Empire Company is a business at heart. Applicants should have a winning personality, and a strong will. Those with the ability to speak eloquently and barter shrewdly are most valuable. Given the hostile environments the Company often ventures into, applicants should have a keen sense of security. Finally, all applicants should be trained in the time-honored virtues of long blades and medium armor, as has been customary for the Company for generations.",
+      "BNAM": "Choice \"Okay, I'm in.\" 1 \"No, sorry.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21291254781734316216": {
+      "flag": 0,
+      "PNAM": "322838711831330428",
+      "NNAM": "213599299468411207",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Makes little difference to me. Others can be found to do the job.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "213599299468411207": {
+      "flag": 0,
+      "PNAM": "21291254781734316216",
+      "NNAM": "19412122383160624641",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your interest is commendable, and we can certainly use the manual labor, if nothing else. As with all business, make sure you understand the requirements before agreeing to anything. So, are you willing?",
+      "BNAM": "Choice \"Yes, hire me!\" 1 \"What are the requirements?\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "19412122383160624641": {
+      "flag": 0,
+      "PNAM": "213599299468411207",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Carnius Magius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At a closer glance, it seems you'd be of little use to me. You certainly don't meet the requirements.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

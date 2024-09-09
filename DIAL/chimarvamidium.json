@@ -1,0 +1,643 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "20608132533194415424": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "10816281271963926775",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you still a member of the guild? Once Trebonius gives the authorization, we can discuss guild matters again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 20
+        }
+      ]
+    },
+    "10816281271963926775": {
+      "flag": 0,
+      "PNAM": "20608132533194415424",
+      "NNAM": "301628958197732380",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Were you expelled? Or did you clear that up already? You ought to make amends with Guildmaster Trebonius just to be sure.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 10
+        }
+      ]
+    },
+    "301628958197732380": {
+      "flag": 0,
+      "PNAM": "10816281271963926775",
+      "NNAM": "2562925961188227134",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled, %PCName. If you want to make amends, you should speak with Guildmaster Trebonius.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "2562925961188227134": {
+      "flag": 0,
+      "PNAM": "301628958197732380",
+      "NNAM": "7967257031745615915",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "While Chimarvamidium was not as useful as I'd hoped, I do appreciate your efforts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_ReturnBook",
+          "__TV": 100
+        }
+      ]
+    },
+    "7967257031745615915": {
+      "flag": 0,
+      "PNAM": "2562925961188227134",
+      "NNAM": "9005325072360828695",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "The book has been returned? Good work, %PCRank. Once I know the locations of some Dwemer ruins, I will be asking you to travel to some dangerous places. These amulets will help you return to safety.",
+      "BNAM": "Journal MG_ReturnBook 100\r\nPlayer->AddItem \"amulet of almsivi intervention\" 1\r\nPlayer->AddItem \"amulet of divine intervention\" 1\r\nModDisposition 10\r\nModPCFacRep 5 \"Mages Guild\"\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_ReturnBook",
+          "__TV": 30
+        }
+      ]
+    },
+    "9005325072360828695": {
+      "flag": 0,
+      "PNAM": "7967257031745615915",
+      "NNAM": "3116585172347815368",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "The book has been returned? Good work, %PCRank. Once I know the locations of some Dwemer ruins, I will be asking you to travel to some dangerous places. These amulets will help you return to safety.",
+      "BNAM": "Journal MG_ReturnBook 100\r\nPlayer->AddItem \"amulet of almsivi intervention\" 1\r\nPlayer->AddItem \"amulet of divine intervention\" 1\r\nModDisposition 10\r\nModPCFacRep 5 \"Mages Guild\"\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bookInBox",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_ReturnBook",
+          "__TV": 10
+        }
+      ]
+    },
+    "3116585172347815368": {
+      "flag": 0,
+      "PNAM": "9005325072360828695",
+      "NNAM": "3226130213217323029",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Like I said, take Chimarvamidium back to the Mages Guild in Vivec. Make sure you put it back exactly where you found it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_ReturnBook",
+          "__TV": 10
+        }
+      ]
+    },
+    "3226130213217323029": {
+      "flag": 0,
+      "PNAM": "3116585172347815368",
+      "NNAM": "3142786131015527436",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Can you believe this isn't about a Dwemer construct at all? This book was completely useless. In any case, I need you to return the book before Sirilonwe suspects anything. Return the book to wherever you found it.",
+      "BNAM": "Player->AddItem \"BookSkill_Heavy Armor3\" 1\r\nJournal MG_ReturnBook 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Apprentice",
+          "__TV": 100
+        }
+      ]
+    },
+    "3142786131015527436": {
+      "flag": 0,
+      "PNAM": "3226130213217323029",
+      "NNAM": "5490629691824586",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "I have not had a chance to study the book. Have patience, %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StealBook",
+          "__TV": 100
+        }
+      ]
+    },
+    "5490629691824586": {
+      "flag": 0,
+      "PNAM": "3142786131015527436",
+      "NNAM": "19536233231307613985",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. I will return the book to you soon, but in the meantime, I have more duties for you.",
+      "BNAM": "Player->RemoveItem \"BookSkill_Heavy Armor3\" 1\r\nSet bookInBox to 0\r\nJournal MG_StealBook 100\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "19536233231307613985": {
+      "flag": 0,
+      "PNAM": "5490629691824586",
+      "NNAM": "9879185852540730290",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "That is very disappointing, %PCName.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "9879185852540730290": {
+      "flag": 0,
+      "PNAM": "19536233231307613985",
+      "NNAM": "5804296551948310830",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "You have a copy of Chimarvamidium? Will you let me borrow the book?",
+      "BNAM": "Choice \"Give her the book.\" 1 \"Keep the book.\" 2",
+      "SCVR": [
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "BookSkill_Heavy Armor3",
+          "__TV": 0
+        }
+      ]
+    },
+    "5804296551948310830": {
+      "flag": 0,
+      "PNAM": "9879185852540730290",
+      "NNAM": "31812295352530630784",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Just go to the Mages Guild in Vivec, find the book Chimarvamidium, and return it to me. I'm certain that Sirilonwe has a copy, though she may claim otherwise.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StealBook",
+          "__TV": 10
+        }
+      ]
+    },
+    "31812295352530630784": {
+      "flag": 0,
+      "PNAM": "5804296551948310830",
+      "NNAM": "1652913482890628649",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. Sirilonwe probably keeps the book near her in the Mages Guild in Vivec. Do whatever it takes to get the book and then return it to me. If you're caught stealing, of course, it is a crime against the guild, so be careful. And take these scrolls just in case.",
+      "BNAM": "Journal MG_StealBook 10\r\nPlayer->AddItem sc_ondusisunhinging 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1652913482890628649": {
+      "flag": 0,
+      "PNAM": "31812295352530630784",
+      "NNAM": "1856324162712123337",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't think of it as breaking your oath to the Guild, %PCName. It is just a small favor. For the advancement of the art and science of magic. If you're caught, of course, you will have to accept the consequences.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "1856324162712123337": {
+      "flag": 0,
+      "PNAM": "1652913482890628649",
+      "NNAM": "4493228852761410466",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edwinna elbert",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "It is the sixth volume of Marobar Sul's \"Ancient Tales of the Dwemer.\" Most of the \"Ancient Tales\" are not truly Dwemer in origin, but this one may be an exception. It deals with some sort of golem or centurion. Would you be willing to \"borrow\" this book for me?",
+      "BNAM": "Choice \"Yes.\" 3 \"No.\" 4",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Potion",
+          "__TV": 100
+        }
+      ]
+    },
+    "4493228852761410466": {
+      "flag": 0,
+      "PNAM": "1856324162712123337",
+      "NNAM": "22591291781434814289",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sirilonwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Thank you. I won't forget this. Just a suggestion... Keep quiet about this book, %PCName. Some members of the Mages Guild can be very jealous.",
+      "BNAM": "Player->RemoveItem \"BookSkill_Heavy Armor3\" 1\r\nAddItem \"BookSkill_Heavy Armor3\" 1\r\nJournal MG_ReturnBook 30\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_ReturnBook",
+          "__TV": 10
+        }
+      ]
+    },
+    "22591291781434814289": {
+      "flag": 0,
+      "PNAM": "4493228852761410466",
+      "NNAM": "123721910514845403",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sirilonwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Thank you. I won't forget this. Just a suggestion... Keep quiet about this book, %PCName. Some members of the Mages Guild can be very jealous.",
+      "BNAM": "Player->RemoveItem \"BookSkill_Heavy Armor3\" 1\r\nAddItem \"BookSkill_Heavy Armor3\" 1\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "123721910514845403": {
+      "flag": 0,
+      "PNAM": "22591291781434814289",
+      "NNAM": "436019758954820477",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sirilonwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "That is most unfortunate, %PCRank. I thought you would be willing to assist a fellow Guild member.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "436019758954820477": {
+      "flag": 0,
+      "PNAM": "123721910514845403",
+      "NNAM": "85223887638232106",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sirilonwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "How did you... I mean where did you get a copy of Chimarvamidium? I've been looking for this book. Perhaps you'd be willing to part with it?",
+      "BNAM": "Choice \"Give her the book.\" 1 \"Keep the book.\" 2",
+      "SCVR": [
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "BookSkill_Heavy Armor3",
+          "__TV": 0
+        }
+      ]
+    },
+    "85223887638232106": {
+      "flag": 0,
+      "PNAM": "436019758954820477",
+      "NNAM": "",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sirilonwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Why, I've never heard of such a book...",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

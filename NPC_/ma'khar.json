@@ -1,0 +1,47 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Khajiit",
+  "CNAM": "Slave",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_m_head_03",
+  "KNAM": "b_n_khajiit_m_hair02",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ma'Khar",
+  "SCRI": "slaveScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_left"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

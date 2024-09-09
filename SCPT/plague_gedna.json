@@ -1,0 +1,21 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 3,
+    "script_data_size": 253,
+    "local_var_size": 71
+  },
+  "SCTX": "Begin Plague_Gedna\r\n\r\nshort nolore\r\nshort level\r\nshort greetonce\r\nshort doonce\r\n\r\nfloat healthchange\r\nfloat fatiguechange\r\nfloat magickachange\r\n\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\nif ( GetJournalIndex \"MS_CrimsonPlague\" == 140 )\r\n\tif ( doonce == 0 )\r\n\t\tset level to player->GetStat Level\r\n\t\tSet healthchange to ( level * 100 )\r\n\t\tset fatiguechange to ( level * 400 )\r\n\t\tset magickachange to ( level * 300 )\r\n\t\tmodhealth, healthchange\r\n\t\tmodhealth, fatiguechange\r\n\t\tmodhealth, magickachange\r\n\t\tset doonce to 1\r\n\tendif\r\nendif\r\n\r\nif ( greetonce == 0 )\r\n\tif ( GetDistance Player <= 512 )\r\n\t\tForceGreeting\r\n\t\tset greetonce to 1\r\n\tendif\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\tJournal MS_CrimsonPlague 150\r\nendif\r\n\r\n\r\n\r\nEnd Plague_Gedna",
+  "SCVR": [
+    "nolore",
+    "level",
+    "greetonce",
+    "doonce",
+    "healthchange",
+    "fatiguechange",
+    "magickachange"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,10,30,32,88,205,16,32,100,16,77,83,95,67,114,105,109,115,111,110,80,108,97,103,117,101,32,61,61,32,49,52,48,6,1,8,9,32,115,4,0,32,61,61,32,48,12,1,6,112,108,97,121,101,114,5,1,115,2,0,5,32,115,2,0,0,5,1,102,1,0,10,32,115,2,0,32,49,48,48,32,42,5,1,102,2,0,10,32,115,2,0,32,52,48,48,32,42,5,1,102,3,0,10,32,115,2,0,32,51,48,48,32,42,142,16,102,1,0,0,142,16,102,2,0,0,142,16,102,3,0,0,5,1,115,4,0,2,32,49,9,1,9,1,6,1,4,9,32,115,3,0,32,61,61,32,48,6,1,2,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,53,49,50,232,16,5,1,115,3,0,2,32,49,9,1,9,1,6,1,1,9,32,88,240,16,32,61,61,32,49,204,16,16,77,83,95,67,114,105,109,115,111,110,80,108,97,103,117,101,150,0,255,255,9,1,1,1]
+}

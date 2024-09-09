@@ -1,0 +1,859 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Vivec, Telvanni Enchanter",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-204308": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "audenian valius",
+      "DATA": [87.32610321044922,-273.6664123535156,-91.52693939208984,0,0,0.14181490242481232]
+    },
+    "0-440489": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hunger_audenian",
+      "DATA": [417.8091735839844,-17.247699737548828,-112,0,0,3.1269912719726562]
+    },
+    "0-460148": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "rat_telvanni_unique_2",
+      "DATA": [504.6030578613281,-188.7876739501953,-107.9065933227539,0,0,0]
+    },
+    "0-460149": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "rat_telvanni_unique_2",
+      "DATA": [498.8758850097656,-41.709049224853516,-107.9065933227539,0,0,3.1415927410125732]
+    },
+    "0-440490": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_clientlist",
+      "DATA": [559.1734619140625,-275.7414855957031,-51.796749114990234,0,0,5.4831862449646]
+    },
+    "0-204333": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-64,128,-128,0,0,4.71238899230957]
+    },
+    "0-204346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Greater",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [120.57421112060547,-350.4964904785156,-22.315855026245117,0,0,0]
+    },
+    "0-204347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Lesser",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [155.20013427734375,-339.9302673339844,-25.99896240234375,0,2.983187437057495,1.6831868886947632]
+    },
+    "0-204348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Lesser",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [161.6273651123047,-350.0551452636719,-25.868192672729492,0,0,5.883185863494873]
+    },
+    "0-204349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Petty",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [107.95560455322266,-350.23992919921875,-26.504121780395508,0,2.9831881523132324,2.983187198638916]
+    },
+    "0-204350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Petty",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [99.80579376220703,-347.9922790527344,-26.504121780395508,0,0,0.9000000357627869]
+    },
+    "0-204319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [320,32,-128,0,0,6.2831854820251465]
+    },
+    "0-204331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_77",
+      "DATA": [-54.346134185791016,-301.4791564941406,0.49013519287109375,0,0,0.20000000298023224]
+    },
+    "0-204334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "devil tanto",
+      "ANAM": "audenian valius",
+      "XCHG": 70,
+      "INTV": 200,
+      "NAM9": 1,
+      "DATA": [26.08589744567871,-199.5711212158203,-68.83086395263672,0,0,1.2999999523162842]
+    },
+    "0-204345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_soulgem",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 10,
+      "DATA": [102.28620910644531,-182.6276397705078,-63.60300064086914,0,0,0.28274333477020264]
+    },
+    "0-204351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [258.51641845703125,-352.0386657714844,-16.45812225341797,0,0,0.7853981852531433]
+    },
+    "0-204352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_levitation_b",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [199.72705078125,-353.554931640625,-13.89008903503418,0,0,2.7415931224823]
+    },
+    "0-204309": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_01",
+      "DATA": [0,0,0,0,0,6.2831854820251465]
+    },
+    "0-204311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [512,-255.999755859375,0,0,0,1.5707964897155762]
+    },
+    "0-204312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [512,0.00048828125,0,0,0,6.283185005187988]
+    },
+    "0-204313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [256,-256,0,0,0,4.7123894691467285]
+    },
+    "0-204314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [320,-32,-128,0,0,3.1415929794311523]
+    },
+    "0-204315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_column_01",
+      "DATA": [192.00048828125,352,0,0,0,3.1415929794311523]
+    },
+    "0-204317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_column_01",
+      "DATA": [192,96,0,0,0,3.1415929794311523]
+    },
+    "0-204318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [256,0.00048828125,0,0,0,1.5707964897155762]
+    },
+    "0-204320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [0,128.00048828125,-128,0,0,4.7123894691467285]
+    },
+    "0-204322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "DATA": [570.1605834960938,-229.83763122558594,-47.63182830810547,0,0,1.5707963705062866]
+    },
+    "0-204323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [19.631013870239258,-278.6674499511719,-91.57579803466797,0,0,3.5165927410125732]
+    },
+    "0-204324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_04",
+      "DATA": [64.27436828613281,-186.6118927001953,-98.95144653320312,0,0,0]
+    },
+    "0-204325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_shelf_02",
+      "DATA": [183.38768005371094,-345.3101501464844,-49.25336837768555,0,0,3.1415927410125732]
+    },
+    "0-204353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [7.013710975646973,-349.6434020996094,96,0,0,0]
+    },
+    "0-287895": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-21.304397583007812,357.05694580078125,85.7581787109375,0,0,4.71238899230957]
+    },
+    "0-338075": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_De_Candle_20",
+      "ANAM": "audenian valius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [142.75375366210938,-346.15887451171875,-24.250621795654297,0,0,0]
+    },
+    "0-338077": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_De_Lamp_07_Blue",
+      "DATA": [545.2584228515625,47.90617370605469,3.673309326171875,0,0,0.7499999403953552]
+    },
+    "0-338078": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_De_Lamp_07_Blue",
+      "DATA": [507.67254638671875,-301.0816955566406,5.534221172332764,0,0,0.6499999761581421]
+    },
+    "0-338079": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.1800000667572021,
+      "DATA": [473.6266174316406,-143.8946075439453,-130.44383239746094,0,0,1.5707963705062866]
+    },
+    "0-338080": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.1800000667572021,
+      "DATA": [96.95941162109375,-233.15911865234375,-130.4628143310547,0,0,0]
+    },
+    "0-338081": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [192,96,96,0,0,3.1415927410125732]
+    },
+    "0-338082": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-95.0354995727539,-14.796602249145508,96,0,0,1.5707963705062866]
+    },
+    "0-338083": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [-95.0354995727539,-234.8709716796875,96,0,0,1.5707963705062866]
+    },
+    "0-338084": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [228.80923461914062,-352.11126708984375,-16.45812225341797,0,0,0.6000000238418579]
+    },
+    "0-338085": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [243.64907836914062,-340.0971374511719,-16.45812225341797,0,0,4.6831865310668945]
+    },
+    "0-338086": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_levitation_b",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [211.99038696289062,-344.35321044921875,-13.89008903503418,0,0,5.866371154785156]
+    },
+    "0-338087": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [446.4501647949219,94.53619384765625,96,0,0,3.1415927410125732]
+    },
+    "0-338088": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [301.5676574707031,-260.5050964355469,96,0,0,4.71238899230957]
+    },
+    "0-338089": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron flameblade",
+      "ANAM": "audenian valius",
+      "XCHG": 10,
+      "INTV": 300,
+      "NAM9": 1,
+      "DATA": [565.7294311523438,-183.39085388183594,-99.06271362304688,0,0,0]
+    },
+    "0-338090": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "audenian valius",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [567.5952758789062,-183.66134643554688,-51.244998931884766,0,0,1.6499996185302734]
+    },
+    "0-338091": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "audenian valius",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [567.3924560546875,-157.21173095703125,-51.244998931884766,0,0,1.3499999046325684]
+    },
+    "0-338092": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "audenian valius",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [567.3162841796875,-172.52780151367188,-51.244998931884766,0,0,1.499999761581421]
+    },
+    "0-338093": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [606.1807861328125,-221.46524047851562,96,0,0,4.71238899230957]
+    },
+    "0-338094": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron mace",
+      "ANAM": "audenian valius",
+      "INTV": 1200,
+      "NAM9": 1,
+      "DATA": [559.2367553710938,-216.9263916015625,-47.38148498535156,0,0,0.7853981852531433]
+    },
+    "0-338095": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver bolt",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [568.5763549804688,-203.6470947265625,-99.9469985961914,0,0,0.07438544929027557]
+    },
+    "0-338096": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver bolt",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [581.7328491210938,-204.69381713867188,-99.94733428955078,0,0,0]
+    },
+    "0-338097": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver bolt",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [577.4806518554688,-204.09194946289062,-99.94733428955078,0,0,6.233185291290283]
+    },
+    "0-338098": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver bolt",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [575.704345703125,-203.50479125976562,-99.9469985961914,0,0,6.232570648193359]
+    },
+    "0-338099": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver bolt",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [573.0189819335938,-204.54940795898438,-99.9469985961914,0,0,6.182570457458496]
+    },
+    "0-338100": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver bolt",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [570.125732421875,-203.76951599121094,-99.9469985961914,0,0,6.232570648193359]
+    },
+    "0-338101": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glass dagger",
+      "ANAM": "audenian valius",
+      "INTV": 2,
+      "NAM9": 1,
+      "DATA": [567.5631103515625,-241.2174072265625,-99.0647964477539,0,0,1.375]
+    },
+    "0-338102": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Petty",
+      "XSCL": 1.28000009059906,
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [571.2196044921875,-243.01376342773438,-50.421875,0,0,1.6250009536743164]
+    },
+    "0-338103": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Petty",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [560.928955078125,-243.48023986816406,-50.617523193359375,0,0,0.3000006675720215]
+    },
+    "0-338104": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Petty",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [570.6383666992188,-237.0809326171875,-50.617523193359375,0,0,4.683186054229736]
+    },
+    "0-338105": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Lesser",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [570.5367431640625,-256.9900817871094,-50.21833419799805,0,0,1.5499998331069946]
+    },
+    "0-338106": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Lesser",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [572.57080078125,-251.4416961669922,-50.21833419799805,0,0,4.533185005187988]
+    },
+    "0-338107": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_SoulGem_Petty",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [566.3531494140625,-232.04193115234375,-50.617523193359375,0,0,4.533185958862305]
+    },
+    "0-338110": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [255.16490173339844,-317.36517333984375,-92.7456283569336,0,0,5.383185386657715]
+    },
+    "0-338111": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "audenian valius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [221.4178466796875,-334.9354248046875,-101.84535217285156,0,0,5.483185291290283]
+    },
+    "0-440491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [0,-256,0,0,0,3.1415929794311523]
+    },
+    "0-440492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_l_int_partition_01",
+      "DATA": [432,-304,128,0,0,4.71238899230957]
+    },
+    "0-440493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_l_int_partition_01",
+      "DATA": [192,-304,128,0,0,1.5707963705062866]
+    },
+    "0-440494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_CantatasOfVivec",
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [569.8759155273438,-293.4243469238281,-48.97866439819336,0,0,0]
+    },
+    "0-443576": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [21.01848793029785,-177.19190979003906,-49.042667388916016,0,0,3.9000000953674316]
+    },
+    "0-443577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [606.1807861328125,-33.11042785644531,96,0,0,4.71238899230957]
+    },
+    "0-443578": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_13",
+      "DATA": [407.169189453125,-220.8350372314453,-96.27859497070312,0,0,1.5707963705062866]
+    },
+    "0-443579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [405.4894714355469,-292.4461364746094,-69.16991424560547,0,0,4.71238899230957]
+    },
+    "0-443580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_rnd_ingr_5",
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [566.0316162109375,-189.50613403320312,28.643733978271484,0,0,4.7123894691467285]
+    },
+    "0-443581": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_rnd_ingr_5",
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [570.5947875976562,-190.64466857910156,4.0350470542907715,0,0,4.812388896942139]
+    },
+    "0-443582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_rnd_ingr_5",
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [563.8018798828125,-190.34994506835938,16.269540786743164,0,0,1.5123900175094604]
+    },
+    "0-443583": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [265.9463806152344,-244.1243133544922,0,0,0,5.4977874755859375]
+    },
+    "0-443584": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.5,
+      "DATA": [567.8200073242188,-296.7188415527344,-1.7418632507324219,0,0,0]
+    },
+    "0-443585": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_ash_yam_02",
+      "XSCL": 0.5,
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [570.5580444335938,-269.1550598144531,6.1505818367004395,4.983186721801758,0.20000000298023224,0]
+    },
+    "0-443586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_rndgold",
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 25,
+      "DATA": [568.2877807617188,-284.5878601074219,-93.7697525024414,0,0,1.7000013589859009]
+    },
+    "0-443587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "XSCL": 1.1600000858306885,
+      "DATA": [406.5618896484375,-45.77328109741211,102.68624877929688,0,0,0.18539801239967346]
+    },
+    "0-443588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [410.82281494140625,-46.37612533569336,122.26741790771484,0,0,0.18539801239967346]
+    },
+    "0-469355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "XSCL": 1.1600000858306885,
+      "DATA": [-51.67913818359375,77.94550323486328,102.68624877929688,0,0,0.7853981852531433]
+    },
+    "0-469356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-48.50291442871094,75.04207611083984,122.26741790771484,0,0,0.7853981852531433]
+    },
+    "0-477580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_valius",
+      "ANAM": "audenian valius",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 90,
+      "DATA": [570.2022705078125,-65.05029296875,-100.90245056152344,0,0,1.5707963705062866]
+    },
+    "0-481569": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [466.12115478515625,-349.6434020996094,96,0,0,0]
+    },
+    "0-481570": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [318.7146301269531,-271.4884948730469,96,0,0,1.5707963705062866]
+    }
+  }
+}

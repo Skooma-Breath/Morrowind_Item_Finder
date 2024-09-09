@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Goblin03.NIF",
+  "FLAG": 88,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 35,
+    "attributes": [150,75,80,100,14,100,50,50],
+    "health": 500,
+    "magicka": 195,
+    "fatigue": 600,
+    "soul_strength": 350,
+    "combat_skill": 90,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [25,75],
+      [25,75],
+      [25,75]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "goblin_bruiser",
+  "FNAM": "Warchief Durgoc",
+  "SCRI": "goblinchiefScript1",
+  "XSCL": 1.5000001192092896,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "goblin_health"
+    },
+    {
+      "count": 1,
+      "name": "key_durgok"
+    }
+  ],
+  "NPCS": [
+    "regenerate",
+    "third barrier",
+    "poisonbloom",
+    "shockbloom",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,20,50,0,0,0,0,0]
+    }
+  ]
+}

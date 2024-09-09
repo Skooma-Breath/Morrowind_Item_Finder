@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Pauper",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_02",
+  "KNAM": "b_n_argonian_m_hair03",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Big Head",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 70,
+    "fight": 40,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "dwarven halberd"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 6,
+    "health": 56,
+    "magicka": 88,
+    "fatigue": 185,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [60,44,44,60,65,33,41,50],
+    "skills": [20,6,10,6,20,6,6,80,50,6,6,6,10,6,10,6,10,80,13,42,28,13,28,13,42,42,28]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

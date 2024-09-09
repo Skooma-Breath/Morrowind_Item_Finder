@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 12,
+  "RNAM": "Imperial",
+  "CNAM": "Guard",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_01",
+  "KNAM": "b_n_imperial_m_hair_03",
+  "MODL": null,
+  "FNAM": "Elite Guard",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "templar belt"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer right"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer left"
+    },
+    {
+      "count": 1,
+      "name": "templar boots"
+    },
+    {
+      "count": 1,
+      "name": "templar_greaves"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "templar_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "templar_helmet_armor"
+    },
+    {
+      "count": 1,
+      "name": "torch_infinite_time"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 35,
+    "health": 285,
+    "magicka": 110,
+    "fatigue": 309,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,55,45,66,70,98,61,40],
+    "skills": [64,48,64,64,54,75,48,75,64,7,7,7,7,7,7,7,7,7,7,7,7,12,75,34,17,17,12]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 24,
+      "time_of_day": 0,
+      "idles": [60,20,20,20,0,0,0,20]
+    }
+  ]
+}

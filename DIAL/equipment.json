@@ -1,0 +1,690 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "21745135271270929671": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "18514303861634115078",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bryngrim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? Yeh gave me the equipment already. I ain't here to chat with yeh.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bryngrimequip",
+          "__TV": 1
+        }
+      ]
+    },
+    "18514303861634115078": {
+      "flag": 0,
+      "PNAM": "21745135271270929671",
+      "NNAM": "1783080361612822767",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bryngrim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, enough with the talkin'. Just give me this and go away.",
+      "BNAM": "player->removeitem \"bm bear cuirass\" 1\r\nplayer->removeitem \"bm bear greaves\" 1\r\nplayer->removeitem \"bm huntsman war axe\" 1\r\nadditem \"bm bear cuirass\" 1\r\nadditem \"bm bear greaves\" 1\r\nadditem \"bm huntsman war axe\" 1\r\nset bryngrimequip to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear cuirass",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear greaves",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM huntsman war axe",
+          "__TV": 1
+        }
+      ]
+    },
+    "1783080361612822767": {
+      "flag": 0,
+      "PNAM": "18514303861634115078",
+      "NNAM": "2967022227320767110",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bryngrim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bah! Come back when yeh actually have the armor and weapon yeh're supposed to give to me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        }
+      ]
+    },
+    "2967022227320767110": {
+      "flag": 0,
+      "PNAM": "1783080361612822767",
+      "NNAM": "5586917362432642",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Valgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I got nothin' else to say to yeh.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "valgeirequip",
+          "__TV": 1
+        }
+      ]
+    },
+    "5586917362432642": {
+      "flag": 0,
+      "PNAM": "2967022227320767110",
+      "NNAM": "14400305702483227310",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Valgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, enough with the talkin'. Just give me this and go away.",
+      "BNAM": "player->removeitem \"bm bear cuirass\" 1\r\nplayer->removeitem \"bm bear greaves\" 1\r\nplayer->removeitem \"bm huntsman war axe\" 1\r\nadditem \"bm bear cuirass\" 1\r\nadditem \"bm bear greaves\" 1\r\nadditem \"bm huntsman war axe\" 1\r\nset valgeirequip to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear cuirass",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear greaves",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM huntsman war axe",
+          "__TV": 1
+        }
+      ]
+    },
+    "14400305702483227310": {
+      "flag": 0,
+      "PNAM": "5586917362432642",
+      "NNAM": "272481931526498471",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Valgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Why are yeh wastin' my time when yeh don't even have the bear armor and war axe yeh're supposed to?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        }
+      ]
+    },
+    "272481931526498471": {
+      "flag": 0,
+      "PNAM": "14400305702483227310",
+      "NNAM": "14802639329022405",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Alfbrand",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeh already gave it to me. Get lost.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "alfbrandequip",
+          "__TV": 1
+        }
+      ]
+    },
+    "14802639329022405": {
+      "flag": 0,
+      "PNAM": "272481931526498471",
+      "NNAM": "1583011526803524915",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Alfbrand",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, enough with the talkin'. Just give me this and go away.",
+      "BNAM": "player->removeitem \"bm bear cuirass\" 1\r\nplayer->removeitem \"bm bear greaves\" 1\r\nplayer->removeitem \"bm huntsman war axe\" 1\r\nadditem \"bm bear cuirass\" 1\r\nadditem \"bm bear greaves\" 1\r\nadditem \"bm huntsman war axe\" 1\r\nset alfbrandequip to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear cuirass",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear greaves",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM huntsman war axe",
+          "__TV": 1
+        }
+      ]
+    },
+    "1583011526803524915": {
+      "flag": 0,
+      "PNAM": "14802639329022405",
+      "NNAM": "1031989681130824520",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Alfbrand",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeh don't have it? Well then what're yeh standin' around talkin' for? Come back when yeh've got the bear armor and the war axe I been promised.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        }
+      ]
+    },
+    "1031989681130824520": {
+      "flag": 0,
+      "PNAM": "1583011526803524915",
+      "NNAM": "14460177561093910276",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ormvard",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I got the equipment from yeh. I've got nothin' more to say.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ormvardequip",
+          "__TV": 1
+        }
+      ]
+    },
+    "14460177561093910276": {
+      "flag": 0,
+      "PNAM": "1031989681130824520",
+      "NNAM": "753830343273014281",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ormvard",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, enough with the talkin'. Just give me this and go away.",
+      "BNAM": "player->removeitem \"bm bear cuirass\" 1\r\nplayer->removeitem \"bm bear greaves\" 1\r\nplayer->removeitem \"bm huntsman war axe\" 1\r\nadditem \"bm bear cuirass\" 1\r\nadditem \"bm bear greaves\" 1\r\nadditem \"bm huntsman war axe\" 1\r\nset ormvardequip to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear cuirass",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear greaves",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM huntsman war axe",
+          "__TV": 1
+        }
+      ]
+    },
+    "753830343273014281": {
+      "flag": 0,
+      "PNAM": "14460177561093910276",
+      "NNAM": "268929132644314451",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ormvard",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeh don't have it? Well then what're yeh standin' around talkin' for? Come back when yeh've got the bear armor and the war axe I been promised.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        }
+      ]
+    },
+    "268929132644314451": {
+      "flag": 0,
+      "PNAM": "753830343273014281",
+      "NNAM": "23352196048784222",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Audmund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeh've already given me what I need. Now go away.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "audmundequip",
+          "__TV": 1
+        }
+      ]
+    },
+    "23352196048784222": {
+      "flag": 0,
+      "PNAM": "268929132644314451",
+      "NNAM": "2845924792177429105",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Audmund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, enough with the talkin'. Just give me this and go away.",
+      "BNAM": "player->removeitem \"bm bear cuirass\" 1\r\nplayer->removeitem \"bm bear greaves\" 1\r\nplayer->removeitem \"bm huntsman war axe\" 1\r\nadditem \"bm bear cuirass\" 1\r\nadditem \"bm bear greaves\" 1\r\nadditem \"bm huntsman war axe\" 1\r\nset audmundequip to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear cuirass",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM bear greaves",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM huntsman war axe",
+          "__TV": 1
+        }
+      ]
+    },
+    "2845924792177429105": {
+      "flag": 0,
+      "PNAM": "23352196048784222",
+      "NNAM": "1133131711303623353",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Audmund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeh don't have it? Well then what're yeh standin' around talkin' for? Come back when yeh've got the bear armor and the war axe I been promised.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 20
+        }
+      ]
+    },
+    "1133131711303623353": {
+      "flag": 0,
+      "PNAM": "2845924792177429105",
+      "NNAM": "2933022561138068898",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Toralf",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Passed it all out, did yeh? That's a good lackey. Now, I'll just be taking what you've got for me, and then we'll be dispatchin' yeh. 'Fraid so, on Carnius' orders. Seems he don't have much need of yeh anymore, and thought yeh might be a good warm up for us. Nothin' personal, yeh understand.",
+      "BNAM": "player->removeitem \"bm huntsman war axe\" 1\r\nplayer->removeitem \"bm wolf cuirass\" 1\r\nplayer->removeitem \"bm wolf greaves\" 1\r\nadditem \"bm huntsman war axe\" 1\r\nadditem \"bm wolf cuirass\" 1\r\nadditem \"bm wolf greaves\" 1\r\nJournal CO_13a 30\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM huntsman war axe",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM wolf cuirass",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "BM wolf greaves",
+          "__TV": 1
+        }
+      ]
+    },
+    "2933022561138068898": {
+      "flag": 0,
+      "PNAM": "1133131711303623353",
+      "NNAM": "173913733139984782",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Toralf",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What, have yeh forgotten the things for me? Gah! Get out of my sight, and come back when yeh've got it!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 25
+        }
+      ]
+    },
+    "173913733139984782": {
+      "flag": 0,
+      "PNAM": "2933022561138068898",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Toralf",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aye, the weapons and armor yeh've got. Give armor and a weapon to each of my men, and let me know when yeh've finished. Hurry up, now.",
+      "BNAM": "Journal CO_13a 20\r\nStartScript ColonyNordEquip\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_13a",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

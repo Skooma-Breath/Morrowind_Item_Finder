@@ -1,0 +1,791 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [595772,1056964608]
+  },
+  "NAME": "Fort Frostmoth, Prison",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,60,60,0],
+    "sunlight": [48,36,12,0],
+    "fog_color": [60,23,9,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "2-30803": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Imperial Guard",
+      "DATA": [1886.46044921875,-424.5871887207031,-118.83267211914062,0,0,0]
+    },
+    "2-30804": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Imperial Guard",
+      "DATA": [51.41449737548828,-406.69085693359375,-84.87739562988281,0,0,0]
+    },
+    "2-12584": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_loaddoor_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "2-12585": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_loaddoor_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1792,0,0,0,0,1.5707963705062866]
+    },
+    "2-31979": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "stolen_goods",
+      "XSCL": 1.3600000143051147,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 7
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [-328.3037109375,-404.9703674316406,-98.1986083984375,0,0,4.71238899230957]
+    },
+    "2-12586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [0,0,0,0,0,4.71238899230957]
+    },
+    "2-12587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [384,-384,0,0,0,6.2831854820251465]
+    },
+    "2-12588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_hall_01",
+      "DATA": [512,-384,0,0,0,1.5707963705062866]
+    },
+    "2-12589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_hall_01",
+      "DATA": [768,-384,0,0,0,1.5707963705062866]
+    },
+    "2-12590": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_hall_01",
+      "DATA": [1280,-384,0,0,0,1.5707963705062866]
+    },
+    "2-12591": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_hall_01",
+      "DATA": [1024,-384,0,0,0,1.5707963705062866]
+    },
+    "2-12593": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_4way_01",
+      "DATA": [0,-384,0,0,0,0]
+    },
+    "2-12594": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_3way_01",
+      "DATA": [-256,-384,0,0,0,0]
+    },
+    "2-12595": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_4way_01",
+      "DATA": [256,-384,0,0,0,0]
+    },
+    "2-12596": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_corner_01",
+      "DATA": [256,-640,0,0,0,3.1415927410125732]
+    },
+    "2-12597": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_corner_01",
+      "DATA": [-256,-640,0,0,0,4.71238899230957]
+    },
+    "2-12598": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_3way_01",
+      "DATA": [0,-640,0,0,0,4.71238899230957]
+    },
+    "2-12601": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_4way_01",
+      "DATA": [0,-128,0,0,0,0]
+    },
+    "2-12602": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [-256,-512,0,0,0,4.71238899230957]
+    },
+    "2-12604": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [0,-512,0,0,0,4.71238899230957]
+    },
+    "2-12605": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [256,-512,0,0,0,4.71238899230957]
+    },
+    "2-12607": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [1792,0,0,0,0,4.71238899230957]
+    },
+    "2-12608": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [1408,-384,0,0,0,6.2831854820251465]
+    },
+    "2-12610": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_4way_01",
+      "DATA": [1792,-384,0,0,0,0]
+    },
+    "2-12611": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_3way_01",
+      "DATA": [2048,-384,0,0,0,3.1415927410125732]
+    },
+    "2-12612": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_4way_01",
+      "DATA": [1536,-384,0,0,0,3.1415927410125732]
+    },
+    "2-12613": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_corner_01",
+      "DATA": [2048,-640,0,0,0,3.1415927410125732]
+    },
+    "2-12614": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_corner_01",
+      "DATA": [1536,-640,0,0,0,4.71238899230957]
+    },
+    "2-12615": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_3way_01",
+      "DATA": [1792,-640,0,0,0,4.71238899230957]
+    },
+    "2-12618": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_4way_01",
+      "DATA": [1792,-128,0,0,0,0]
+    },
+    "2-12619": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [1536,-512,0,0,0,4.71238899230957]
+    },
+    "2-12621": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [1792,-512,0,0,0,4.71238899230957]
+    },
+    "2-12622": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [2048,-512,0,0,0,4.71238899230957]
+    },
+    "2-12624": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [256,-640,-128,0,0,0]
+    },
+    "2-12625": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [0,-640,-128,0,0,3.1415927410125732]
+    },
+    "2-12626": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [-256,-640,-128,0,0,3.1415927410125732]
+    },
+    "2-12627": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [-0.00000762939453125,-640,-128,0,0,0]
+    },
+    "2-12628": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [1536,-640,-128,0,0,3.1415927410125732]
+    },
+    "2-12629": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [1792,-640,-128,0,0,0]
+    },
+    "2-12630": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [1792,-640,-128,0,0,3.1415927410125732]
+    },
+    "2-12631": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [2048,-640,-128,0,0,0]
+    },
+    "2-12632": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [1005.8718872070312,-645.4327392578125,-47.9998779296875,0,0,1.5707963705062866]
+    },
+    "2-15814": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_jail_01",
+      "XSCL": 1.0099999904632568,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [316,-508,-16,0,0,1.5707963705062866]
+    },
+    "2-15815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_jail_01",
+      "XSCL": 1.0099999904632568,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [60,-508,-16,0,0,1.5707963705062866]
+    },
+    "2-15816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_jail_01",
+      "XSCL": 1.0200001001358032,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-196,-508,-16,0,0,1.5707963705062866]
+    },
+    "2-15817": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_jail_01",
+      "XSCL": 1.0099999904632568,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [2108,-508,-16,0,0,1.5707963705062866]
+    },
+    "2-15818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_jail_01",
+      "XSCL": 1.0099999904632568,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1852.0001220703125,-508,-16.000030517578125,0,0,1.5707963705062866]
+    },
+    "2-15819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_jail_01",
+      "XSCL": 1.0099999904632568,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1596,-508,-16,0,0,1.5707963705062866]
+    },
+    "2-15820": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.7200000286102295,
+      "DATA": [2159.8642578125,-386.56109619140625,43.43508529663086,0,0,4.71238899230957]
+    },
+    "2-15821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [2042.650390625,-312.7811279296875,-105.77549743652344,0,0,0]
+    },
+    "2-15822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [1869.7047119140625,-255.7489471435547,49.8814697265625,0,0,4.71238899230957]
+    },
+    "2-15823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [2086.70166015625,-707.5276489257812,-110.52386474609375,0,0,1.5707963705062866]
+    },
+    "2-15824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1975.919677734375,-705.3475952148438,-110.2081527709961,0,0,1.5707963705062866]
+    },
+    "2-15825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [1599.901611328125,-692.6135864257812,-110.52392578125,0,0,0.5707969665527344]
+    },
+    "2-15826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "DATA": [1501.54736328125,-735.1539916992188,-125.5079574584961,4.71238899230957,0,1.5707963705062866]
+    },
+    "2-15827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "DATA": [1483.077880859375,-727.2229614257812,-124.55354309082031,4.71238899230957,5.3123884201049805,1.5707963705062866]
+    },
+    "2-15828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "DATA": [1467.06103515625,-737.4238891601562,-124.55352783203125,4.71238899230957,4.11238956451416,1.5707963705062866]
+    },
+    "2-15829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1444.66259765625,-705.651123046875,-110.20817565917969,0,0,1.4000000953674316]
+    },
+    "2-15830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [1792,-128,-128,0,0,3.1415927410125732]
+    },
+    "2-15831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [2048,-384,-128,0,0,1.5707963705062866]
+    },
+    "2-15832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.9300000667572021,
+      "DATA": [2038.530029296875,-286.7247314453125,76.25003814697266,0,0,3.1415927410125732]
+    },
+    "2-15833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [1536,-384,-128,0,0,1.5707961320877075]
+    },
+    "2-15834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [1792,-128,-128,0,0,0.00000011920928955078125]
+    },
+    "2-15835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [1663.82861328125,-306.246337890625,51.30693435668945,0,0,3.1415927410125732]
+    },
+    "2-15836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.9300000667572021,
+      "DATA": [1534.490234375,-286.3829040527344,75.19595336914062,0,0,3.1415927410125732]
+    },
+    "2-15837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [1538.610595703125,-312.4393005371094,-105.7755355834961,0,0,0]
+    },
+    "2-15838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [1728.073486328125,-625.4508056640625,-110.52377319335938,0,0,1.5707963705062866]
+    },
+    "2-15839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.7800000309944153,
+      "DATA": [1025.301513671875,-273.166259765625,41.7545280456543,0,0,3.1415927410125732]
+    },
+    "2-15840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.7800000309944153,
+      "DATA": [768.715087890625,-273.4936218261719,43.2530517578125,0,0,3.1415927410125732]
+    },
+    "2-15841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [895.193603515625,-306.3785705566406,27.959774017333984,0,0,3.1415927410125732]
+    },
+    "2-15842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.7800000309944153,
+      "DATA": [766.7018432617188,-495.61151123046875,40.82640075683594,0,0,6.283185005187988]
+    },
+    "2-15843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [896.84521484375,-461.8238830566406,27.031625747680664,0,0,6.283185005187988]
+    },
+    "2-15844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.7800000309944153,
+      "DATA": [1023.2877197265625,-495.28411865234375,42.32490539550781,0,0,6.283185005187988]
+    },
+    "2-15845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [-256.35260009765625,-316.8076477050781,-105.77548217773438,0,0,6.183185577392578]
+    },
+    "2-15846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.9300000667572021,
+      "DATA": [-260.1394958496094,-286.89007568359375,74.90643310546875,0,0,3.1415927410125732]
+    },
+    "2-15847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [-256,-384,-128,0,0,1.5707961320877075]
+    },
+    "2-15848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [0,-128,-128,0,0,0.00000011920928955078125]
+    },
+    "2-15849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [-130.781982421875,-313.8070373535156,61.08245849609375,0,0,3.1415927410125732]
+    },
+    "2-15850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [256,-384,-128,0,0,1.5707964897155762]
+    },
+    "2-15851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [0.00000762939453125,-128,-128,0,0,3.141592502593994]
+    },
+    "2-15852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.7200000286102295,
+      "DATA": [-368.1322937011719,-385.12384033203125,41.24285125732422,0,0,1.5707963705062866]
+    },
+    "2-15853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "XSCL": 0.9300000667572021,
+      "DATA": [252.3699951171875,-286.9936828613281,73.52576446533203,0,0,3.1415927410125732]
+    },
+    "2-15854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [255.05392456054688,-315.9866638183594,-105.7755355834961,0,0,0]
+    },
+    "2-15855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-316.13897705078125,-577.9439086914062,-110.20819854736328,0,0,1.4000000953674316]
+    },
+    "2-15856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [-199.37306213378906,-703.2228393554688,-110.52392578125,0,0,0.5707969665527344]
+    },
+    "2-15857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [3.335019588470459,-673.5025024414062,-110.52375030517578,0,0,1.5707963705062866]
+    },
+    "2-15858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [287.8149108886719,-671.935791015625,-110.20816802978516,0,0,1.5707963705062866]
+    },
+    "2-15859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_pm_stool_02",
+      "DATA": [322.5504455566406,-636.1193237304688,-110.52388000488281,0,0,1.5707963705062866]
+    },
+    "2-15860": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [78.07555389404297,-254.71934509277344,57.770835876464844,0,0,4.71238899230957]
+    }
+  }
+}

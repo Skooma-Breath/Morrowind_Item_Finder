@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Clothier",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_08",
+  "KNAM": "b_n_dark elf_f_hair_20",
+  "MODL": null,
+  "FNAM": "Bevene Releth",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 4
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 67,
+    "magicka": 120,
+    "fatigue": 185,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [53,60,35,63,58,34,53,40],
+    "skills": [21,6,6,6,21,11,6,6,11,6,16,6,6,6,11,6,6,21,44,44,44,34,24,19,18,44,29]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,30,30,10,0,0,0,0]
+    }
+  ]
+}

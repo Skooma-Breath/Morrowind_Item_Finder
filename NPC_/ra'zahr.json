@@ -1,0 +1,49 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Khajiit",
+  "CNAM": "Slave",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_m_head_01",
+  "KNAM": "b_n_khajiit_m_hair02",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ra'Zahr",
+  "SCRI": "slaveScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 100,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "slave_bracer_right"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 10,
+    "magicka": 80,
+    "fatigue": 160,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [40,40,30,50,40,40,40,50],
+    "skills": [15,15,5,30,5,5,5,5,35,5,5,5,5,5,5,15,5,5,15,40,50,15,15,10,20,20,40]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

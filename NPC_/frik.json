@@ -1,0 +1,72 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_nord_m_head_04",
+  "KNAM": "b_n_nord_m_hair02",
+  "MODL": null,
+  "FNAM": "Frik",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver staff"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    }
+  ],
+  "NPCS": [
+    "wearying touch",
+    "distracting touch",
+    "shockbloom",
+    "poisonbloom",
+    "lightning storm",
+    "absorb health",
+    "resist poison",
+    "resist shock",
+    "vigor",
+    "enrichment"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 100,
+    "magicka": 144,
+    "fatigue": 249,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [72,72,63,57,50,57,50,40],
+    "skills": [27,6,16,11,52,11,16,11,6,38,53,17,17,17,17,38,53,17,42,6,6,27,6,6,10,27,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

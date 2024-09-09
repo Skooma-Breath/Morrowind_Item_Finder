@@ -1,0 +1,629 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "9395619710993525": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "473725358266963269",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard that YOU are a False Incarnate. I am not yet convinced, but I no longer trust you. Like Elvil Vidron, if your claim is true, you must prove it to Archcanon Saryoni in Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "473725358266963269": {
+      "flag": 0,
+      "PNAM": "9395619710993525",
+      "NNAM": "2878448875288597",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2878448875288597": {
+      "flag": 0,
+      "PNAM": "473725358266963269",
+      "NNAM": "44099801306459979",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You put an end to the heresies of the False Incarnate.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 100
+        }
+      ]
+    },
+    "44099801306459979": {
+      "flag": 0,
+      "PNAM": "2878448875288597",
+      "NNAM": "29734213442724123767",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Elvil Vidron is already dead? That is unfortunate. I wish we could have saved him.",
+      "BNAM": "Journal TT_FalseIncarnate 100\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "elvil vidron",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 0
+        }
+      ]
+    },
+    "29734213442724123767": {
+      "flag": 0,
+      "PNAM": "44099801306459979",
+      "NNAM": "2740730168508410302",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am sorry that you had to kill Elvil Vidron. Perhaps this will discourage others from making heretical claims.",
+      "BNAM": "Journal TT_FalseIncarnate 100\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 60
+        }
+      ]
+    },
+    "2740730168508410302": {
+      "flag": 0,
+      "PNAM": "29734213442724123767",
+      "NNAM": "9522118712685313498",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Elvil Vidron will do penance for his errors, but I am glad you did not kill him. Please accept these potions of healing in reward for your wisdom in this matter. Are you ready for additional duties?",
+      "BNAM": "Journal TT_FalseIncarnate 100\r\nPlayer->AddItem \"p_restore_health_e\" 3\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "9522118712685313498": {
+      "flag": 0,
+      "PNAM": "2740730168508410302",
+      "NNAM": "28513173801072011314",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Elvil Vidron in Suran claims to be the Nerevarine and makes prophecies of doom. Clearly he is a heretic. Convince him that he is mistaken or, if all else fails, prove it by killing him. If he is the true Nerevarine, he is protected by prophesy and cannot die.",
+      "BNAM": "Journal TT_FalseIncarnate 10",
+      "SCVR": null
+    },
+    "28513173801072011314": {
+      "flag": 0,
+      "PNAM": "9522118712685313498",
+      "NNAM": "13928406931728625",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuls valen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Elvil Vidron in Suran claims to be the Nerevarine and makes prophecies of doom. We cannot have two Nerevarines. Go to him and prove to him that you are the true Incarnate.",
+      "BNAM": "Journal TT_FalseIncarnate 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "13928406931728625": {
+      "flag": 0,
+      "PNAM": "28513173801072011314",
+      "NNAM": "2322237471579918257",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Temple refers to any demented impostor who claims to be the Nerevarine as \"the False Incarnate\". The Temple treats such persons as insane, and Ordinators pursue and imprison them \"for their own protection.\" The Temple has reported that the most recent False Incarnate, a girl child named Peakstar, has died, but they've produced no body, and skeptics are suspicious of Temple claims.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 15
+        }
+      ]
+    },
+    "2322237471579918257": {
+      "flag": 0,
+      "PNAM": "13928406931728625",
+      "NNAM": "2334490831858019154",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, Nerevar. I see clearly now. I shall repent at the Temple and preach in your name.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 55
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "2334490831858019154": {
+      "flag": 0,
+      "PNAM": "2322237471579918257",
+      "NNAM": "2943523480103622571",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have seen the error of my ways, %PCName. Your wisdom has guided me through this most disturbing time.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "2943523480103622571": {
+      "flag": 0,
+      "PNAM": "2334490831858019154",
+      "NNAM": "26600176262558618889",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I pity you, unbeliever. You will be swept away like ash before the storm.",
+      "BNAM": "ModDisposition -5\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "26600176262558618889": {
+      "flag": 0,
+      "PNAM": "2943523480103622571",
+      "NNAM": "1315815681109111762",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You cannot harm me, pawn of the Temple! Leave before I prove the truth of my prophecies on your flesh!",
+      "BNAM": "ModDisposition -10\r\nModFight 10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1315815681109111762": {
+      "flag": 0,
+      "PNAM": "26600176262558618889",
+      "NNAM": "3147028438808011979",
+      "DATA": {
+        "value": 65,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Who then, if not myself? There must be a meaning to these dreams. Perhaps you are right... Your words have guided me. I will seek penance for my sins. Forgive me and thank you.",
+      "BNAM": "ModDisposition 15\r\nSetFight 0\r\nStopCombat\r\nJournal TT_FalseIncarnate 50\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3147028438808011979": {
+      "flag": 0,
+      "PNAM": "1315815681109111762",
+      "NNAM": "161778139520817330",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Who then, if not myself? The dreams are unyielding! Every day, every night!  I must be the one.... I must... No, your words are not convincing enough.",
+      "BNAM": "ModDisposition -5\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "161778139520817330": {
+      "flag": 0,
+      "PNAM": "3147028438808011979",
+      "NNAM": "98417052332465",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Who then, if not myself? You?! Before you make such claims, you must find a way to convince me.",
+      "BNAM": "ModDisposition -5\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "98417052332465": {
+      "flag": 0,
+      "PNAM": "161778139520817330",
+      "NNAM": "1189627307603725440",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You... The vision... The Moon-and-Star! It was you, not I. Forgive me, Nerevar, forgive! I meant only to prepare the way.",
+      "BNAM": "Journal TT_Compassion 55",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1189627307603725440": {
+      "flag": 0,
+      "PNAM": "98417052332465",
+      "NNAM": "1294929929145704464",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You disbelieve? I know my destiny. And you will have a hard time proving otherwise. I have seen the message in the dream. Have you not also experienced the waking dream?",
+      "BNAM": "Choice \"I don't know what you're talking about.\" 1 \"Yes. But you are not the one I envisioned.\" 2 \"Show him the Moon-and-Star ring\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "moon_and_star",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 10
+        }
+      ]
+    },
+    "1294929929145704464": {
+      "flag": 0,
+      "PNAM": "1189627307603725440",
+      "NNAM": "54798713897229548",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "elvil vidron",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You disbelieve? I know my destiny. And you will have a hard time proving otherwise. I have seen the message in the dream. Have you not also experienced the waking dream?",
+      "BNAM": "Choice \"I don't know what you're talking about.\" 1 \"Yes. But you are not the one I envisioned.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_FalseIncarnate",
+          "__TV": 10
+        }
+      ]
+    },
+    "54798713897229548": {
+      "flag": 0,
+      "PNAM": "1294929929145704464",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "huleeya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "In the past, some have claimed to be the reincarnated Nerevar. The most recent is known as Peakstar, a figure of legend among the Wastes tribes for the last 30 years. The Temple says these false Incarnates disprove the prophecies, since the false Incarnates fail and come to nothing, but the mystical Nerevarine cult glorifies rather than shrinks from contradictions, citing the appearance of \"failed Incarnates\" as certain proof of Nerevar's coming rebirth.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_7HuleeyaInformant",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

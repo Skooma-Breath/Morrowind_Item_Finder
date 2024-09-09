@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Trader",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_03",
+  "KNAM": "b_n_argonian_m_hair02",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Rasha",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "exquisite_belt_01"
+    },
+    {
+      "count": 6,
+      "name": "exquisite_shirt_01_rasha"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "demoralize creature",
+    "demoralize humanoid",
+    "rally creature",
+    "rally humanoid",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "divine intervention",
+    "mark",
+    "recall",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "telekinesis",
+    "dispel"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 93,
+    "magicka": 102,
+    "fatigue": 219,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,51,61,45,40,54,45,40],
+    "skills": [26,9,14,9,26,9,9,14,24,6,6,6,11,6,42,6,11,5,37,37,6,45,6,6,37,37,22]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

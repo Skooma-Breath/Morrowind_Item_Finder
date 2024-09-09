@@ -1,0 +1,147 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "17281197101776017263": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1771327817254703194",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I can teach you more necromancy spells. For a price, of course. And as long as you keep quite about this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Sharn_Necro",
+          "__TV": 10
+        }
+      ]
+    },
+    "1771327817254703194": {
+      "flag": 0,
+      "PNAM": "17281197101776017263",
+      "NNAM": "99912527298624518",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon a skeletal minion.] Now. Remember. You said you'd keep quiet about this.",
+      "BNAM": "Journal MG_Sharn_Necro 10\r\nplayer->addspell \"summon skeletal minion\"\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "99912527298624518": {
+      "flag": 0,
+      "PNAM": "1771327817254703194",
+      "NNAM": "25411852328694634",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. It's a simple matter, really. [Sharn takes you aside and teaches you how to summon an ancestral ghost.] Now. Remember. You said you'd keep quiet about this.",
+      "BNAM": "Journal MG_Sharn_Necro 10\r\nplayer->addspell \"summon ancestral ghost\"\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "25411852328694634": {
+      "flag": 0,
+      "PNAM": "99912527298624518",
+      "NNAM": "132682185397187142",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Where did you get that? That's MY copy of Legions of the Dead. Oh, all right. I'm a necromancer. Look. I'll teach you a spell, but you'll have to keep your mouth shut about this. I can teach you the Summon Ancestral Ghost spell, or, if you prefer, I can teach you Summon Skeletal Minion.",
+      "BNAM": "Choice \"Teach me a ghost summoning.\" 1 \"Teach me a skeleton summoning\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_sharnslegionsofthedead",
+          "__TV": 1
+        }
+      ]
+    },
+    "132682185397187142": {
+      "flag": 0,
+      "PNAM": "25411852328694634",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. Of course not. I can't teach you spells. I'm NOT a necromancer. No. Absolutely not. Not a necromancer.",
+      "BNAM": "Journal MG_Sharn_Necro 1",
+      "SCVR": null
+    }
+  }
+}

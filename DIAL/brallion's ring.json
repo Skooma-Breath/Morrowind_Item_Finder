@@ -1,0 +1,835 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "161071963925511592": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2984416372124716826",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2984416372124716826": {
+      "flag": 0,
+      "PNAM": "161071963925511592",
+      "NNAM": "2803374653936361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "43",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2803374653936361": {
+      "flag": 0,
+      "PNAM": "2984416372124716826",
+      "NNAM": "45211215830543405",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let us speak of this no more.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 110
+        }
+      ]
+    },
+    "45211215830543405": {
+      "flag": 0,
+      "PNAM": "2803374653936361",
+      "NNAM": "1490827291559923344",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already delivered the ring.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 100
+        }
+      ]
+    },
+    "1490827291559923344": {
+      "flag": 0,
+      "PNAM": "45211215830543405",
+      "NNAM": "176449113107193551",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "So you delivered the ring. Good. I hope Ilmeni Dren puts it to good use.",
+      "BNAM": "Journal TG_SS_GreedySlaver 100\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 50
+        }
+      ]
+    },
+    "176449113107193551": {
+      "flag": 0,
+      "PNAM": "1490827291559923344",
+      "NNAM": "139727119662819232",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I wanted you to deliver a slaver's ring to Ilmeni Dren, but you tell me she's dead. I don't like the sound of that, %PCName. Lets forget about this completely.",
+      "BNAM": "Journal TG_SS_GreedySlaver 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 100
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "ilmeni dren",
+          "__TV": 0
+        }
+      ]
+    },
+    "139727119662819232": {
+      "flag": 0,
+      "PNAM": "176449113107193551",
+      "NNAM": "842127711436028439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Braillon is dead? I don't like the sound of this, %PCName. It wouldn't be good for us to be associated with this in any way. Let's forget about this completely.",
+      "BNAM": "Journal TG_SS_GreedySlaver 120",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "brallion",
+          "__TV": 0
+        }
+      ]
+    },
+    "842127711436028439": {
+      "flag": 0,
+      "PNAM": "139727119662819232",
+      "NNAM": "6823307032644721683",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "I see you have Brallion's Ring. Take it to Ilmeni Dren in the St. Delyn Canton here in Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "exquisite_ring_brallion",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 100
+        }
+      ]
+    },
+    "6823307032644721683": {
+      "flag": 0,
+      "PNAM": "842127711436028439",
+      "NNAM": "14244218413022716335",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Brallion has the ring, naturally. He's a slave trader in Sadrith Mora's Great Market. Steal the ring and then deliver it to Ilmeni Dren, a secret abolitionist and the daughter of Duke Vedam Dren.",
+      "BNAM": "Journal TG_SS_GreedySlaver 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Enamor",
+          "__TV": 100
+        }
+      ]
+    },
+    "14244218413022716335": {
+      "flag": 0,
+      "PNAM": "6823307032644721683",
+      "NNAM": "19262630242628553",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I sold the ring. Soon more slaves will be on their way back to Black Marsh or Elsweyr.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 100
+        }
+      ]
+    },
+    "19262630242628553": {
+      "flag": 0,
+      "PNAM": "14244218413022716335",
+      "NNAM": "6222168421563525608",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 50
+        }
+      ]
+    },
+    "6222168421563525608": {
+      "flag": 0,
+      "PNAM": "19262630242628553",
+      "NNAM": "1989235172324815862",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How could I wear a ring like that when there is so much suffering in Tamriel? If you want my appreciation, there are better ways to earn it than fancy gifts.",
+      "BNAM": "moddisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1989235172324815862": {
+      "flag": 0,
+      "PNAM": "6222168421563525608",
+      "NNAM": "4238270821071427189",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Bal Molagmer? I remember tales of them told to me when I was a child, and I have heard whisperings recently that they were returning. I accept this ring as a symbol of good faith.",
+      "BNAM": "Journal TG_SS_GreedySlaver 55\r\nPlayer->RemoveItem Exquisite_Ring_Brallion 1\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "TGglove",
+          "__TV": 1
+        }
+      ]
+    },
+    "4238270821071427189": {
+      "flag": 0,
+      "PNAM": "1989235172324815862",
+      "NNAM": "21322256572068221919",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Bal Molagmer? What do you know of this, thief? I have heard of these noble bandits, but you show no sign of being one. Still, anything taken from a slaver is a good thing.",
+      "BNAM": "Journal TG_SS_GreedySlaver 50\r\nPlayer->RemoveItem Exquisite_Ring_Brallion 1\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21322256572068221919": {
+      "flag": 0,
+      "PNAM": "4238270821071427189",
+      "NNAM": "45821865731554650",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is for me? What are you suggesting?",
+      "BNAM": "Choice \"I stole it for you.\" 1 \"In the name of the Bal Molagmer, I return this to you.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "45821865731554650": {
+      "flag": 0,
+      "PNAM": "21322256572068221919",
+      "NNAM": "10349110811129517153",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Keep it. I wouldn't wear that gaudy thing anyway.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "10349110811129517153": {
+      "flag": 0,
+      "PNAM": "45821865731554650",
+      "NNAM": "3357160322563329943",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What do I want with a slaver's ring?",
+      "BNAM": "Choice \"The ring is for you.\" 3 \"Never mind.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "exquisite_ring_brallion",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_GreedySlaver",
+          "__TV": 10
+        }
+      ]
+    },
+    "3357160322563329943": {
+      "flag": 0,
+      "PNAM": "10349110811129517153",
+      "NNAM": "7945315681663820847",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't have that ring anymore.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ringcount",
+          "__TV": 1
+        }
+      ]
+    },
+    "7945315681663820847": {
+      "flag": 0,
+      "PNAM": "3357160322563329943",
+      "NNAM": "3045432009145311948",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Five hundred you say? Well, you are a shrewd one at that. Sold!",
+      "BNAM": "player->removeitem \"gold_001\" 500\r\nBrallion->removeitem \"exquisite_ring_brallion\" 1\r\nbrallion->additem \"gold_001\" 500\r\nplayer->additem \"exquisite_ring_brallion\" 1\r\njournal TG_SS_GreedySlaver 30\r\nmoddisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 500
+        }
+      ]
+    },
+    "3045432009145311948": {
+      "flag": 0,
+      "PNAM": "7945315681663820847",
+      "NNAM": "2090661832779612209",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have not the coin, braggart.",
+      "BNAM": "moddisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 500
+        }
+      ]
+    },
+    "2090661832779612209": {
+      "flag": 0,
+      "PNAM": "3045432009145311948",
+      "NNAM": "198875951187315187",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Five hundred you say? Ha! 800 is my standing price. Take it or leave it.",
+      "BNAM": "Choice \"Done.\" 3 \"Forget I asked.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "198875951187315187": {
+      "flag": 0,
+      "PNAM": "2090661832779612209",
+      "NNAM": "714323452207912987",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Suit yourself.",
+      "BNAM": "moddisposition -2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "714323452207912987": {
+      "flag": 0,
+      "PNAM": "198875951187315187",
+      "NNAM": "108211599712468367",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right, then. It's yours. Pleasure doing business.",
+      "BNAM": "player->removeitem \"gold_001\" 800\r\nBrallion->removeitem \"exquisite_ring_brallion\" 1\r\nbrallion->additem \"gold_001\" 800\r\nplayer->additem \"exquisite_ring_brallion\" 1\r\nplayer->journal TG_SS_GreedySlaver 30\r\nmoddisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 800
+        }
+      ]
+    },
+    "108211599712468367": {
+      "flag": 0,
+      "PNAM": "714323452207912987",
+      "NNAM": "27409124203229158",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't waste my time, braggart.",
+      "BNAM": "moddisposition -15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 800
+        }
+      ]
+    },
+    "27409124203229158": {
+      "flag": 0,
+      "PNAM": "108211599712468367",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brallion",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Eh? You like it? One of my slaves tried to buy his freedom with it. Imagine! A slave with a jewel like this? He obviously stole it, so I relieved him of its burden. If it has caught your fancy, I could part with it for, say, 1000 coin?",
+      "BNAM": "Choice \"Hmm. 500 and you have a deal.\" 1 \"Too rich for me.\" 2",
+      "SCVR": null
+    }
+  }
+}

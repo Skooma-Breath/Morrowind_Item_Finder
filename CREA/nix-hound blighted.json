@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\NixHound.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 6,
+    "attributes": [50,50,40,50,28,50,50,50],
+    "health": 68,
+    "magicka": 10,
+    "fatigue": 400,
+    "soul_strength": 10,
+    "combat_skill": 70,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [6,18],
+      [6,18],
+      [6,18]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "nix-hound",
+  "FNAM": "Blighted Nix-Hound",
+  "SCRI": "diseaseBlackHeart",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_hound_meat"
+    }
+  ],
+  "NPCS": [
+    "black-heart blight"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

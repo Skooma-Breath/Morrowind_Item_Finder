@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 149,
+    "local_var_size": 17
+  },
+  "SCTX": "Begin smugScript\r\n\r\nshort doOnce\r\nshort fightOnce\r\n\r\nif ( doOnce == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( \"gualtierus spurius\".fightmod == 1 )\r\n\tif ( fightOnce == 0 )\r\n\t\tsetfight 30\r\n\t\tset fightOnce to 1\r\n\tendif\r\nendif\r\n\r\nif ( doOnce == 0 )\r\n\tif ( OnDeath == 1 )\r\n\t\tset smugDead to ( smugDead + 1 )\r\n\t\tset doOnce to 1\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\nEnd smugScript",
+  "SCVR": [
+    "doOnce",
+    "fightOnce"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,49,36,1,9,1,6,1,4,29,32,114,18,103,117,97,108,116,105,101,114,117,115,32,115,112,117,114,105,117,115,115,3,0,32,61,61,32,49,6,1,2,9,32,115,2,0,32,61,61,32,48,0,17,0,0,240,65,5,1,115,2,0,2,32,49,9,1,9,1,6,1,4,9,32,115,1,0,32,61,61,32,48,6,1,2,9,32,88,240,16,32,61,61,32,49,5,1,71,8,115,109,117,103,68,101,97,100,15,32,71,8,115,109,117,103,68,101,97,100,32,49,32,43,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

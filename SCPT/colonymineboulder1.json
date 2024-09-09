@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 129,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin ColonyMineBoulder1\r\n\r\nif ( ColonySide == 1 )\r\n\tif ( GetJournalIndex \"CO_8\" >= 10 )\r\n\t\tif ( GetDisabled == 0 )\r\n\t\t\tDisable\r\n\t\tendif\r\n\tendif\r\nelseif ( ColonySide == 2 )\r\n\tif ( GetJournalIndex \"CO_8a\" >= 10 )\r\n\t\tif ( GetDisabled == 0 )\r\n\t\t\tDisable\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\nEnd ColonyMineBoulder1\r\n\t",
+  "SCVR": null,
+  "SCDT": [6,1,5,18,32,71,10,67,111,108,111,110,121,83,105,100,101,32,61,61,32,49,6,1,3,17,32,88,205,16,32,100,4,67,79,95,56,32,62,61,32,49,48,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,9,1,8,1,5,18,32,71,10,67,111,108,111,110,121,83,105,100,101,32,61,61,32,50,6,1,3,18,32,88,205,16,32,100,5,67,79,95,56,97,32,62,61,32,49,48,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,9,1,9,1,1,1]
+}

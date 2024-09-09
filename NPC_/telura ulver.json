@@ -1,0 +1,78 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_23",
+  "MODL": null,
+  "FNAM": "Telura Ulver",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "exquisite_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "l_b_amulets"
+    },
+    {
+      "count": 1,
+      "name": "l_b_rings"
+    },
+    {
+      "count": 2,
+      "name": "l_m_potion"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "weary",
+    "bound longbow",
+    "summon greater bonewalker",
+    "summon least bonewalker",
+    "commanding touch",
+    "reflect",
+    "weak spelldrinker",
+    "summon skeletal minion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "health": 151,
+    "magicka": 176,
+    "fatigue": 254,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [56,88,81,58,68,59,54,40],
+    "skills": [7,7,31,31,7,12,7,7,12,59,69,59,44,59,64,20,20,20,7,7,7,12,41,36,7,7,7]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,0]
+    }
+  ]
+}

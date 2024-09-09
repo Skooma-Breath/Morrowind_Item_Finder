@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 84,
+    "local_var_size": 9
+  },
+  "SCTX": "begin BILL_GTs_Skeletal_Guardians\r\n; Skeletal Champion behavour in the 'Sandas Ancestral Tomb'\r\n\r\n; script location: should be placed on 'skeleton champ_sandas00' and\r\n;  'skeleton champ_sandas10'\r\n; NOTE: these creatures are not placed - rather they 'rise' when the master's\r\n;  chest is disturbed ('chest_tomb_sandas').\r\n\r\n;NOTE: Fixed by Doug 03/20. Should work as intended now. They are diabled on cell change and\r\n;enabled when the chest is activated. Moving them \"up\" from a hidden room is bad\r\n\r\n; variables\r\nshort getimBoy\r\n\r\nif ( CellChanged == 1 )\r\n\tDisable\r\nendif\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( getimBoy == 1 )\r\n\tif ( GetTarget \"Player\" == 0 )\r\n\t\t;as soon as we are enabled, try and get to the player\r\n\t\t;More reliable than a Travel. In tiny Velothi halls. Through two doors. Out of LOS and FOV. Underwater. In the future.\r\n\t\tStartCombat Player\r\n\tendif\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "getimBoy"
+  ],
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,49,219,16,9,1,6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,3,9,32,115,1,0,32,61,61,32,49,6,1,1,18,32,88,80,17,32,114,6,80,108,97,121,101,114,32,61,61,32,48,25,16,6,80,108,97,121,101,114,9,1,9,1,1,1]
+}

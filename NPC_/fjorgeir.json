@@ -1,0 +1,84 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Barbarian",
+  "ANAM": "",
+  "BNAM": "b_n_nord_m_head_02",
+  "KNAM": "b_n_nord_m_hair00",
+  "MODL": null,
+  "FNAM": "Fjorgeir",
+  "SCRI": "fjolgeirScript",
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel shardaxe"
+    },
+    {
+      "count": 1,
+      "name": "dragonscale_towershield"
+    },
+    {
+      "count": 1,
+      "name": "fur_boots"
+    },
+    {
+      "count": 1,
+      "name": "fur_greaves"
+    },
+    {
+      "count": 1,
+      "name": "dragonscale_cuirass"
+    },
+    {
+      "count": 45,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "hearth heal",
+    "absorb health",
+    "absorb health [ranged]",
+    "cure poison",
+    "seryn's gift",
+    "resist fire",
+    "resist cold",
+    "resist poison",
+    "resist shock",
+    "vigor",
+    "blightguard",
+    "resist common disease",
+    "rest of st. merris",
+    "great heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "health": 201,
+    "magicka": 86,
+    "fatigue": 295,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,43,58,65,90,72,40,40],
+    "skills": [59,44,69,25,69,25,69,25,90,7,7,7,7,7,7,31,7,7,7,7,31,60,7,31,7,7,7]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,20,10,10,0,0,0,10]
+    }
+  ]
+}

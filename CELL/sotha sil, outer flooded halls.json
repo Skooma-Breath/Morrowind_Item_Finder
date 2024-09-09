@@ -1,0 +1,1642 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 3,
+    "grid": [4600350,1065353216]
+  },
+  "NAME": "Sotha Sil, Outer Flooded Halls",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [30,30,30,0],
+    "sunlight": [30,30,30,0],
+    "fog_color": [30,50,70,0],
+    "fog_density": 1
+  },
+  "FRMR": {
+    "1-21751": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "fabricant_verminousDead",
+      "DATA": [4044.980712890625,-1435.5887451171875,-30.31068992614746,0,0,5.08318567276001]
+    },
+    "1-12312": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "door_sotha_pre_load",
+      "DATA": [5184,128,32,0,0,4.71238899230957]
+    },
+    "1-12339": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_pre_door3",
+      "DATA": [3840,-1408,-64,0,0,1.5707963705062866]
+    },
+    "1-12370": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_pre_door1",
+      "DATA": [1152,-128,-64,0,0,1.5707963705062866]
+    },
+    "1-12371": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_pre_door2",
+      "DATA": [3456,1152,-64,0,0,6.2831854820251465]
+    },
+    "1-12508": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_pre_door8",
+      "DATA": [4480,128,-64,0,0,1.5707963705062866]
+    },
+    "1-12313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [-256,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_arch00",
+      "DATA": [-384,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_load",
+      "DATA": [-365.6925048828125,-125.09134674072266,32,0,6.08318567276001,4.512389183044434]
+    },
+    "1-12316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dwrv_block00",
+      "DATA": [-322.1307067871094,-233.2449951171875,-52.47279357910156,5.783185958862305,5.983185768127441,0.6000000238418579]
+    },
+    "1-12317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dwrv_block10",
+      "DATA": [-325.72357177734375,-76.75920867919922,-43.894325256347656,0.20000000298023224,5.783185958862305,3.100001811981201]
+    },
+    "1-12318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dwrv_block20",
+      "XSCL": 0.7800000309944153,
+      "DATA": [-342.4524230957031,-188.47239685058594,236.78843688964844,6.08318567276001,5.883186340332031,4.483187198638916]
+    },
+    "1-12319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_01",
+      "XSCL": 0.6600000262260437,
+      "DATA": [-324.0270080566406,15.41308879852295,-22.941688537597656,5.4831862449646,5.783185958862305,5.583186149597168]
+    },
+    "1-12320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_02",
+      "DATA": [-210.87013244628906,-1.607448935508728,-67.20716094970703,5.383186340332031,0.30000001192092896,4.683187007904053]
+    },
+    "1-12321": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_03",
+      "DATA": [-351.1685791015625,-312.45556640625,143.8773193359375,3.1831881999969482,5.883185863494873,1.1000001430511475]
+    },
+    "1-12322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_04",
+      "DATA": [-416.9024963378906,-183.7272186279297,156.28695678710938,4.683187007904053,4.3831868171691895,5.783185958862305]
+    },
+    "1-12323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_05",
+      "DATA": [-356.3883972167969,8.012666702270508,164.8174591064453,2.6831889152526855,5.983185768127441,1.4000002145767212]
+    },
+    "1-12324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_04",
+      "DATA": [-217.78237915039062,-253.2236785888672,-78.26448059082031,0,0,0]
+    },
+    "1-12325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dwrv_block20",
+      "DATA": [-310.7834777832031,-176.82373046875,28.261398315429688,5.783185958862305,4.383187294006348,0.4000000059604645]
+    },
+    "1-12326": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dwrv_block20",
+      "XSCL": 0.6000000238418579,
+      "DATA": [-268.1310729980469,28.745574951171875,224.0297393798828,1.3000000715255737,5.883186340332031,5.883185863494873]
+    },
+    "1-12327": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dwrv_block20",
+      "XSCL": 0.6000000238418579,
+      "DATA": [-255.1649169921875,-337.2065124511719,80.21636199951172,1.7000001668930054,5.883186340332031,4.483187198638916]
+    },
+    "1-12328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [896,-128,-64,0,0,0]
+    },
+    "1-12329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_00",
+      "DATA": [384,384,-64,0,0,3.1415927410125732]
+    },
+    "1-12330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3456,1664,-64,0,0,0]
+    },
+    "1-12331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_00",
+      "DATA": [384,-640,-64,0,0,1.5707963705062866]
+    },
+    "1-12332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_00",
+      "DATA": [896,-640,-64,0,0,0]
+    },
+    "1-12333": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_trap00",
+      "DATA": [1536,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [3456,-768,-64,0,0,3.1415927410125732]
+    },
+    "1-12335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_00",
+      "DATA": [896,384,-64,0,0,4.71238899230957]
+    },
+    "1-12336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_arch00",
+      "DATA": [3456,1152,-64,0,0,3.1415927410125732]
+    },
+    "1-12337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_arch00",
+      "DATA": [128,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_dicer",
+      "DATA": [1536,-128,608,0,0,4.71238899230957]
+    },
+    "1-12340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [1280,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_00",
+      "DATA": [1920,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [1920,-1024,128,0,0,3.1415927410125732]
+    },
+    "1-12343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_02",
+      "DATA": [1920,-640,192,0,0,3.1415927410125732]
+    },
+    "1-12344": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [2304,-1408,128,0,0,4.71238899230957]
+    },
+    "1-12345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [384,-128,-64,0,0,0]
+    },
+    "1-12346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [3072,-1408,-64,0,0,4.71238899230957]
+    },
+    "1-12347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [5120,128,-64,0,0,1.5707963705062866]
+    },
+    "1-12348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_02",
+      "DATA": [2688,-1408,192,0,0,4.71238899230957]
+    },
+    "1-12349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_00",
+      "DATA": [1920,-1408,128,0,0,1.5707963705062866]
+    },
+    "1-12350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [4096,-1408,-64,0,0,1.5707963705062866]
+    },
+    "1-12351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3968,-384,-64,0,0,0]
+    },
+    "1-12352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3456,128,-64,0,0,0]
+    },
+    "1-12353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3456,-384,-64,0,0,0]
+    },
+    "1-12354": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [2944,-384,-64,0,0,0]
+    },
+    "1-12355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [2944,128,-64,0,0,0]
+    },
+    "1-12356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [2944,640,-64,0,0,0]
+    },
+    "1-12357": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3968,640,-64,0,0,0]
+    },
+    "1-12358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3968,128,-64,0,0,0]
+    },
+    "1-12359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre1_00",
+      "DATA": [2560,128,-64,0,0,0]
+    },
+    "1-12360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre1_00",
+      "DATA": [3072,1664,-64,0,0,0]
+    },
+    "1-12361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre1_00",
+      "DATA": [4352,-1408,-64,0,0,3.1415927410125732]
+    },
+    "1-12362": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [3456,-1024,-64,0,0,3.1415927410125732]
+    },
+    "1-12363": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [3456,1024,-64,0,0,3.1415927410125732]
+    },
+    "1-12364": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [3456,1280,-64,0,0,3.1415927410125732]
+    },
+    "1-12365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [4352,128,-64,0,0,1.5707963705062866]
+    },
+    "1-12366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_arch00",
+      "DATA": [1152,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_arch00",
+      "DATA": [3840,-1408,-64,0,0,4.71238899230957]
+    },
+    "1-12368": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3456,640,-64,0,0,0]
+    },
+    "1-12369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre1_00",
+      "DATA": [3840,1664,-64,0,0,3.1415927410125732]
+    },
+    "1-12372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever1b",
+      "XSCL": 0.5,
+      "DATA": [1920,88,56,4.71238899230957,0,3.1415927410125732]
+    },
+    "1-12373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre4_00",
+      "DATA": [3456,-1408,-64,0,0,0]
+    },
+    "1-12374": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_arch00",
+      "DATA": [5184,128,-64,0,0,4.71238899230957]
+    },
+    "1-12375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [3840,-1408,-64,0,0,1.5707963705062866]
+    },
+    "1-12376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_01",
+      "DATA": [4289.498046875,-1250.3634033203125,31.120119094848633,0,0,0]
+    },
+    "1-12377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_02",
+      "DATA": [4279.8876953125,-1503.2578125,-25.119808197021484,0.30000001192092896,0.20000001788139343,4.983186721801758]
+    },
+    "1-12378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_03",
+      "DATA": [4397.82177734375,-1530.281005859375,34.462345123291016,0,5.883185863494873,5.083186626434326]
+    },
+    "1-12379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_04",
+      "DATA": [4315.78076171875,-1553.00927734375,132.8585968017578,4.8831868171691895,1.5000001192092896,6.183185577392578]
+    },
+    "1-12380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_05",
+      "DATA": [4410.94580078125,-1291.92626953125,99.1903305053711,0.4000000059604645,5.983185768127441,3.983187675476074]
+    },
+    "1-12381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_06",
+      "DATA": [4479.24853515625,-1527.24169921875,209.7920684814453,3.1831884384155273,0.5,0]
+    },
+    "1-12382": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_07",
+      "DATA": [4472.37548828125,-1348.0142822265625,167.5071563720703,3.083188056945801,0.5,4.683187007904053]
+    },
+    "1-12383": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [4608,128,-64,0,0,1.5707963705062866]
+    },
+    "1-12384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [4864,128,-64,0,0,1.5707963705062866]
+    },
+    "1-12385": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre_arch00",
+      "DATA": [4480,128,-64,0,0,4.71238899230957]
+    },
+    "1-12386": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_01",
+      "DATA": [22.995656967163086,-9.707027435302734,192,0,0,1.4000002145767212]
+    },
+    "1-12387": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_02",
+      "DATA": [-17.952472686767578,-294.3770751953125,173.44558715820312,0,0,5.283186435699463]
+    },
+    "1-12388": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_03",
+      "DATA": [-179.1814422607422,-284.2698059082031,201.39761352539062,0,0,0]
+    },
+    "1-12389": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_04",
+      "DATA": [948.6927490234375,-770.000732421875,195.01580810546875,0,0,5.683186054229736]
+    },
+    "1-12390": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_05",
+      "DATA": [599.5682983398438,-812.0751953125,143.61695861816406,0,0,0.000000014901161193847657]
+    },
+    "1-12391": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_06",
+      "DATA": [181.76705932617188,-198.7594451904297,164.5750732421875,0,0,4.783186912536621]
+    },
+    "1-12392": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_07",
+      "DATA": [172.7485809326172,-39.44902801513672,172.63763427734375,0,0,4.683187007904053]
+    },
+    "1-12393": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_08",
+      "DATA": [252.40391540527344,510.79150390625,161.69708251953125,0,0,5.4831862449646]
+    },
+    "1-12394": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_09",
+      "DATA": [572.830810546875,-365.76898193359375,172.00106811523438,0,0,1.5168160200119019]
+    },
+    "1-12395": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_10",
+      "DATA": [634.6781005859375,61.363746643066406,163.45970153808594,0,0,0]
+    },
+    "1-12396": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_11",
+      "DATA": [925.6090698242188,545.8448486328125,183.30105590820312,0,0,0.4000000059604645]
+    },
+    "1-12397": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_12",
+      "DATA": [721.3629150390625,201.620361328125,184.13961791992188,0,0,1.283186674118042]
+    },
+    "1-12398": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_13",
+      "DATA": [1254.9764404296875,-212.19468688964844,190.63580322265625,0,0,4.483187198638916]
+    },
+    "1-12399": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_14",
+      "DATA": [1724.492919921875,59.593441009521484,168.8175048828125,0,0,0]
+    },
+    "1-12400": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_15",
+      "DATA": [1922.3460693359375,-151.1055145263672,211.91551208496094,0,0,1.1000001430511475]
+    },
+    "1-12401": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_16",
+      "DATA": [1992.4713134765625,-662.4224853515625,280.495849609375,0,0,0]
+    },
+    "1-12402": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_17",
+      "DATA": [1762.1298828125,-1115.199951171875,343.9103088378906,0,0,1.700000286102295]
+    },
+    "1-12403": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_18",
+      "DATA": [1932.2462158203125,-1571.5513916015625,357.7923278808594,0,0,0]
+    },
+    "1-12404": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_19",
+      "DATA": [2280.157470703125,-1437.4759521484375,393.8046875,0,0,5.1831865310668945]
+    },
+    "1-12405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_20",
+      "DATA": [2592.569580078125,-1238.1641845703125,323.3335266113281,0,0,0]
+    },
+    "1-12406": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_21",
+      "DATA": [3095.96826171875,-1362.6593017578125,208.2045135498047,0,0,1.600000262260437]
+    },
+    "1-12407": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_12",
+      "DATA": [4236.64453125,-1491.9482421875,229.74050903320312,0,0,5.083186626434326]
+    },
+    "1-12408": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_13",
+      "DATA": [4183.986328125,-1309.1036376953125,201.27467346191406,0,0,0.9000000953674316]
+    },
+    "1-12409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_13",
+      "DATA": [3377.50732421875,-941.9468383789062,200.61915588378906,0,0,0]
+    },
+    "1-12410": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_14",
+      "DATA": [3468.518310546875,-843.1041870117188,207.0375213623047,0,0,3.4999990463256836]
+    },
+    "1-12411": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_15",
+      "DATA": [3067.905517578125,-533.2916870117188,208.0649871826172,0,0,0]
+    },
+    "1-12412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_16",
+      "DATA": [2752.93994140625,-521.91552734375,165.1256866455078,0,0,5.516814708709717]
+    },
+    "1-12413": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_17",
+      "DATA": [2790.765625,-177.4404754638672,162.7353057861328,0,0,1.8672585487365723]
+    },
+    "1-12414": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_18",
+      "DATA": [2448.35546875,89.45894622802734,174.52845764160156,0,0,5.31681489944458]
+    },
+    "1-12415": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_19",
+      "DATA": [3107.95361328125,371.417724609375,179.4349822998047,0,0,0.8336294293403625]
+    },
+    "1-12416": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_20",
+      "DATA": [2772.45654296875,821.2720336914062,188.3355712890625,0,0,2.2336297035217285]
+    },
+    "1-12417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_21",
+      "DATA": [3146.87353515625,785.508544921875,193.99240112304688,0,0,0.7336288690567017]
+    },
+    "1-12418": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_01",
+      "DATA": [3712.658935546875,812.8580322265625,179.1792449951172,0,0,0.23362894356250763]
+    },
+    "1-12419": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_03",
+      "DATA": [3258.14794921875,301.0592041015625,181.25277709960938,0,0,0.7336292266845703]
+    },
+    "1-12420": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_04",
+      "DATA": [3728.069091796875,-29.01454734802246,203.66064453125,0,0,0.8336289525032043]
+    },
+    "1-12421": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_05",
+      "DATA": [3748.294921875,-361.76409912109375,176.5367889404297,0,0,5.116814613342285]
+    },
+    "1-12422": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_06",
+      "DATA": [3708.764404296875,1521.37109375,155.7816162109375,0,0,2.516815185546875]
+    },
+    "1-12423": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_moss_08",
+      "DATA": [3208.485595703125,1578.0560302734375,165.77999877929688,0,0,4.683187007904053]
+    },
+    "1-12424": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_vivec_waterfall_01",
+      "DATA": [4351.5576171875,-1444.2359619140625,83.44172668457031,0,0,1.8000003099441528]
+    },
+    "1-12425": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_vivec_waterfall_01",
+      "DATA": [4328.63134765625,-1331.645263671875,32.47583770751953,0,0,1.1000001430511475]
+    },
+    "1-12426": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_04",
+      "DATA": [4255.58251953125,-1382.184814453125,-34.51637268066406,0,0,5.383186340332031]
+    },
+    "1-12427": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_04",
+      "DATA": [4284.67041015625,-1255.55859375,157.24668884277344,5.583186149597168,1.3000001907348633,4.8831868171691895]
+    },
+    "1-12428": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_04",
+      "DATA": [4373.748046875,-1323.2581787109375,195.2612762451172,4.8831868171691895,1.0000001192092896,0.20000001788139343]
+    },
+    "1-12429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_mud_rock_04",
+      "DATA": [4357.19287109375,-1462.8057861328125,254.96958923339844,4.8831868171691895,2.1000001430511475,5.083186626434326]
+    },
+    "1-12430": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_waterfall_mist_01",
+      "DATA": [4262.57470703125,-1390.1273193359375,10.748623847961426,0,0,0]
+    },
+    "1-12431": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_waterfall_mist_01",
+      "DATA": [4153.56494140625,-1379.4964599609375,-68.4721908569336,0,0,4.083187580108643]
+    },
+    "1-12432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever1a",
+      "XSCL": 0.5,
+      "DATA": [616,-384,80,1.5707963705062866,1.5707963705062866,4.71238899230957]
+    },
+    "1-12433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever8b",
+      "XSCL": 0.5,
+      "DATA": [4608,-96,48,1.5707963705062866,0,0]
+    },
+    "1-12434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever3b",
+      "XSCL": 0.5,
+      "DATA": [4096,-1624,56,1.5707963705062866,0,3.1415927410125732]
+    },
+    "1-12435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever3a",
+      "XSCL": 0.5,
+      "DATA": [3584,-1656,56,1.5707963705062866,0,0]
+    },
+    "1-12436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever2b",
+      "XSCL": 0.5,
+      "DATA": [3672,1280,56,4.71238899230957,1.5707963705062866,6.2831854820251465]
+    },
+    "1-12437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever2a",
+      "XSCL": 0.5,
+      "DATA": [3712,872,72,4.71238899230957,6.2831854820251465,1.5707963705062866]
+    },
+    "1-12438": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_lever8a",
+      "XSCL": 0.5,
+      "DATA": [4200,-128,80,0,1.5707963705062866,6.2831854820251465]
+    },
+    "1-12440": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [147.5286407470703,-282.153564453125,102.91383361816406,0,0,4.712388038635254]
+    },
+    "1-12441": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [147.53721618652344,29.545116424560547,101.19573974609375,0,0,4.712388038635254]
+    },
+    "1-12442": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [156.91319274902344,26.246746063232422,106.70667266845703,0,0,4.712388038635254]
+    },
+    "1-12443": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [1132.673583984375,-282.25372314453125,93.33904266357422,0,0,1.570793628692627]
+    },
+    "1-12444": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [1132.522705078125,25.8742618560791,90.5950927734375,0,0,1.570793628692627]
+    },
+    "1-12445": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [1123.8778076171875,21.909265518188477,96.13607788085938,0,0,4.712388038635254]
+    },
+    "1-12446": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [157.0830535888672,-286.1306457519531,108.38787841796875,0,0,4.712388038635254]
+    },
+    "1-12447": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [1123.8153076171875,-286.0343322753906,98.73235321044922,0,0,4.712388038635254]
+    },
+    "1-12448": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [1171.345458984375,-281.9986877441406,97.00521850585938,0,0,4.712386608123779]
+    },
+    "1-12449": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [1180.203857421875,-278.21820068359375,102.39852905273438,0,0,1.5707948207855225]
+    },
+    "1-12450": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [1171.4732666015625,30.87381935119629,99.3096923828125,0,0,4.7123847007751465]
+    },
+    "1-12451": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [1180.33154296875,34.65424728393555,104.7030029296875,0,0,1.570793628692627]
+    },
+    "1-12452": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [2082.897705078125,45.29512023925781,119.32097625732422,0,0,0.7853951454162598]
+    },
+    "1-12453": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [2079.3076171875,36.358070373535156,124.71428680419922,0,0,3.9269890785217285]
+    },
+    "1-12454": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [1756.1641845703125,-1579.6566162109375,316.9162292480469,0,0,3.926988363265991]
+    },
+    "1-12455": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [1759.754638671875,-1570.7196044921875,322.3095397949219,0,0,0.7853965759277344]
+    },
+    "1-12456": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [3820.618408203125,-1565.361083984375,98.17850494384766,0,0,1.570793628692627]
+    },
+    "1-12457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [3811.760009765625,-1569.1417236328125,103.57181549072266,0,0,4.712388038635254]
+    },
+    "1-12458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [3820.592041015625,-1252.1268310546875,99.69019317626953,0,0,1.570793628692627]
+    },
+    "1-12459": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [3811.73388671875,-1255.907470703125,105.08350372314453,0,0,4.712388038635254]
+    },
+    "1-12460": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256",
+      "DATA": [4206.7607421875,-1415.109375,116.29143524169922,0,0,0]
+    },
+    "1-12461": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [3301.66796875,1132.35986328125,94.97547912597656,0,0,6.283182621002197]
+    },
+    "1-12462": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [3305.4482421875,1123.501708984375,100.36878967285156,0,0,3.1415905952453613]
+    },
+    "1-12463": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [3616.85595703125,1132.533203125,97.1537094116211,0,0,6.283182144165039]
+    },
+    "1-12464": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [3620.636474609375,1123.6748046875,102.5470199584961,0,0,3.1415903568267822]
+    },
+    "1-12465": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [3615.787109375,1171.2159423828125,98.87892150878906,0,0,3.141589641571045]
+    },
+    "1-12466": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [3612.006591796875,1180.0740966796875,104.27223205566406,0,0,6.283183574676514]
+    },
+    "1-12467": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [3291.994873046875,1171.509033203125,103.30511474609375,0,0,3.141589641571045]
+    },
+    "1-12468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [3288.214111328125,1180.3671875,108.69842529296875,0,0,6.283182621002197]
+    },
+    "1-12469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 512",
+      "DATA": [3473.07421875,1683.5684814453125,126.0875244140625,0,0,0]
+    },
+    "1-12470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [4460.6611328125,286.8439636230469,104.67193603515625,0,0,1.570793628692627]
+    },
+    "1-12471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [4451.802734375,283.0633544921875,110.06524658203125,0,0,4.712388038635254]
+    },
+    "1-12472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [4460.60791015625,-34.58348083496094,101.30659484863281,0,0,1.570793628692627]
+    },
+    "1-12473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [4451.74951171875,-38.36408996582031,106.69990539550781,0,0,4.712388038635254]
+    },
+    "1-12474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [4499.55322265625,-30.890762329101562,99.523681640625,0,0,4.712385654449463]
+    },
+    "1-12475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [4508.41162109375,-27.109416961669922,104.9169921875,0,0,1.5707945823669434]
+    },
+    "1-12476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [4499.63037109375,287.29949951171875,103.01145935058594,0,0,4.712385654449463]
+    },
+    "1-12477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [4508.48876953125,291.08087158203125,108.40476989746094,0,0,1.5707945823669434]
+    },
+    "1-12478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [5164.37939453125,-31.266429901123047,95.3492202758789,0,0,1.570793628692627]
+    },
+    "1-12479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [5155.52099609375,-35.047035217285156,100.7425308227539,0,0,4.712388038635254]
+    },
+    "1-12480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_lantern_hook",
+      "DATA": [5164.4365234375,289.2694091796875,99.69422912597656,0,0,1.570793628692627]
+    },
+    "1-12481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_lantern",
+      "DATA": [5155.578125,285.4888000488281,105.08753967285156,0,0,4.712388038635254]
+    },
+    "1-12482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear00",
+      "DATA": [386.3026123046875,-832.9539184570312,116.55610656738281,1.5707963705062866,0,0]
+    },
+    "1-12483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear01",
+      "DATA": [408.5025634765625,-124.66448974609375,272.33935546875,0,0,0]
+    },
+    "1-12484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear02",
+      "DATA": [1097.205078125,383.8712158203125,107.87730407714844,0,1.5707963705062866,0]
+    },
+    "1-12485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear03",
+      "DATA": [1960.3310546875,-1194.89892578125,502.4988098144531,0,3.1415927410125732,0]
+    },
+    "1-12486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear00",
+      "DATA": [3072.16796875,-1600.033203125,118.50303649902344,1.5707963705062866,0,0]
+    },
+    "1-12487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear00",
+      "DATA": [3649.840087890625,-763.9329833984375,112.54056549072266,6.2831854820251465,1.5707963705062866,0]
+    },
+    "1-12488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear02",
+      "DATA": [3714.22314453125,146.08096313476562,278.9823913574219,0,3.1415927410125732,0]
+    },
+    "1-12489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_gear01",
+      "XSCL": 0.550000011920929,
+      "DATA": [2866.605712890625,1662.7296142578125,106.8092041015625,0,1.5707963705062866,0]
+    },
+    "1-12490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [3968,640,-64,0,0,6.2831854820251465]
+    },
+    "1-12491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [3968,-384,-64,0,0,0]
+    },
+    "1-12492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [3968,-384,-64,0,0,1.5707963705062866]
+    },
+    "1-12493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [2944,-384,-64,0,0,1.5707963705062866]
+    },
+    "1-12494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [2944,-384,-64,0,0,3.1415927410125732]
+    },
+    "1-12495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [2944,640,-64,0,0,3.1415927410125732]
+    },
+    "1-12496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [2944,640,-64,0,0,4.71238899230957]
+    },
+    "1-12497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [3456,1664,-64,0,0,4.71238899230957]
+    },
+    "1-12498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_01",
+      "DATA": [0,-128,-64,0,0,4.71238899230957]
+    },
+    "1-12499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [3968,640,-64,0,0,4.71238899230957]
+    },
+    "1-12500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_pre2_wall00",
+      "DATA": [3456,-1408,-64,0,0,1.5707963705062866]
+    },
+    "1-12501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_gear00",
+      "DATA": [960,-424,272,3.1415927410125732,0,0]
+    },
+    "1-12502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_gear01",
+      "XSCL": 0.5,
+      "DATA": [2496,-1192,272,1.5707963705062866,6.2831854820251465,0]
+    },
+    "1-12503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_gear02",
+      "DATA": [2704,-384,96,0,4.71238899230957,0]
+    },
+    "1-12504": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_gear03",
+      "DATA": [3448,640,320,3.1415927410125732,0,0]
+    },
+    "1-12505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_gear00",
+      "DATA": [3456,1896,96,4.71238899230957,6.2831854820251465,0]
+    },
+    "1-12506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_gear01",
+      "XSCL": 0.5,
+      "DATA": [4736,336,104,1.5707963705062866,6.2831854820251465,0]
+    },
+    "1-12507": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-672,24,80,0,0,0]
+    },
+    "1-21752": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [637.5437622070312,-249.93238830566406,217.35195922851562,0,0,0]
+    },
+    "1-21753": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [1941.0023193359375,-1402.912109375,359.31976318359375,0,0,0]
+    },
+    "1-21754": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [3434.16748046875,198.9650115966797,216.5924530029297,0,0,0]
+    },
+    "1-21755": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [3109.66162109375,-1407.321533203125,216.5924530029297,0,0,0]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 331,
+    "local_var_size": 33
+  },
+  "SCTX": "Begin BILL_MT_WritBaladas\r\n; log a journal entry for each successful 'hit' the player performs for the Morag Tong\r\n\r\nshort noLore\r\n\r\n; script location: should be placed on each and every target of the Morag Tong, with \r\n;  changes to reflect the person it is running on.\r\n\r\nshort CL1\r\nshort CL2\r\nfloat timer\r\n\r\n;for doing his three book quests in House Telvanni\r\n;reward flag\r\n\r\nshort givenReward\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\n;below added for IL_RescueRagash behavior. Should not affects Bill's MT quest.\r\n\r\nif ( timer != -1 )\r\n\t;flag set in dialogue to make him not attack\r\n\tSet timer to ( timer + GetSecondsPassed )\r\nendif\r\n\r\nif ( timer > 2 )\r\n\tset timer to 0\r\n\tif ( GetDetected \"ragash gra-shuzgub\" == 1 )\r\n\t\tStartCombat \"ragash gra-shuzgub\"\r\n\tendif\r\nendif\r\n\t\t\t\t\r\n\r\nif ( CellChanged == 1 )\r\n\tStopCombat\r\n\tset CL1 to GetPCCrimeLevel\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\t; when we are killed...\r\n\r\n\tSet TelvanniDead to ( TelvanniDead + 1 )\r\n\t;this line for Telvanni Hortator... This Baladas is in too many quests!\r\n\r\n\tif ( GetJournalIndex MT_WritBaladas > 0 )\r\n\t\t; ... and if the player has a writ for us...\r\n\t\t;dug sez: er... NO. If the player is ON THE QUEST\r\n\t\t;otherwise if the player drops the writ, the quest is broke\r\n\r\n\t\tset CL2 to GetPCCrimeLevel\r\n\t\tif ( CL2 > CL1 )\r\n\t\t\t; ... append a journal entry if the execution is seen ...\r\n\t\t\tPlayer->Journal MT_WritBaladas 80\r\n\t\telse\r\n\t\t\t; ... append a journal entry if the execution is NOT seen ...\r\n\t\t\tPlayer->Journal MT_WritBaladas 90\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "noLore",
+    "CL1",
+    "CL2",
+    "givenReward",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,10,32,102,1,0,32,33,61,32,45,49,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,9,1,6,1,4,8,32,102,1,0,32,62,32,50,5,1,102,1,0,2,32,48,6,1,1,30,32,88,78,17,32,114,18,114,97,103,97,115,104,32,103,114,97,45,115,104,117,122,103,117,98,32,61,61,32,49,25,16,18,114,97,103,97,115,104,32,103,114,97,45,115,104,117,122,103,117,98,9,1,9,1,6,1,2,9,32,88,31,16,32,61,61,32,49,26,16,5,1,115,2,0,5,32,88,155,16,0,9,1,6,1,9,9,32,88,240,16,32,61,61,32,49,5,1,71,12,84,101,108,118,97,110,110,105,68,101,97,100,19,32,71,12,84,101,108,118,97,110,110,105,68,101,97,100,32,49,32,43,6,1,6,25,32,88,205,16,32,100,14,77,84,95,87,114,105,116,66,97,108,97,100,97,115,32,62,32,48,5,1,115,3,0,5,32,88,155,16,0,6,1,1,11,32,115,3,0,32,62,32,115,2,0,0,12,1,6,112,108,97,121,101,114,204,16,14,77,84,95,87,114,105,116,66,97,108,97,100,97,115,80,0,255,255,7,1,1,12,1,6,112,108,97,121,101,114,204,16,14,77,84,95,87,114,105,116,66,97,108,97,100,97,115,90,0,255,255,9,1,9,1,9,1,1,1]
+}

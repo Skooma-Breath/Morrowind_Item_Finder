@@ -1,0 +1,108 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Crusader",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_00",
+  "MODL": null,
+  "FNAM": "Saprius Entius",
+  "SCRI": "sapriusScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel warhammer"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_c"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer right"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer left"
+    },
+    {
+      "count": 1,
+      "name": "imperial shield"
+    },
+    {
+      "count": 1,
+      "name": "imperial right gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "imperial left gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "templar boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial right pauldron"
+    },
+    {
+      "count": 1,
+      "name": "imperial left pauldron"
+    },
+    {
+      "count": 1,
+      "name": "imperial cuirass_armor"
+    },
+    {
+      "count": 1,
+      "name": "imperial helmet armor"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "strong resist frost",
+    "strong resist magicka",
+    "lustidrike_cocktail",
+    "cure common disease victim"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "health": 239,
+    "magicka": 144,
+    "fatigue": 360,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,72,85,86,75,89,67,40],
+    "skills": [78,64,64,78,84,88,27,27,75,8,59,8,8,8,8,44,44,8,8,8,8,13,8,8,18,18,49]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

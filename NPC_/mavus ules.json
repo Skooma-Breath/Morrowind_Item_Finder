@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Warrior",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_12",
+  "KNAM": "b_n_dark elf_m_hair_25",
+  "MODL": null,
+  "FNAM": "Mavus Ules",
+  "SCRI": "drenSlaveOwners",
+  "AIDT": {
+    "greet": 60,
+    "fight": 40,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "chitin shortsword"
+    },
+    {
+      "count": 1,
+      "name": "chitin_shield"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    },
+    {
+      "count": 1,
+      "name": "key_dren_storage"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 151,
+    "magicka": 24,
+    "fatigue": 259,
+    "disposition": 30,
+    "reputation": 0,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [77,48,58,49,46,75,46,40],
+    "skills": [45,30,45,45,30,50,30,30,50,6,16,6,6,6,11,6,6,6,6,6,6,11,16,30,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

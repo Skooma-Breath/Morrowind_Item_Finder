@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Imperial",
+  "CNAM": "Commoner",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_f_head_05",
+  "KNAM": "b_n_imperial_f_hair_02",
+  "MODL": null,
+  "FNAM": "Canodia Felannus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_ring_04"
+    },
+    {
+      "count": 1,
+      "name": "common_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "Misc_SoulGem_Petty"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

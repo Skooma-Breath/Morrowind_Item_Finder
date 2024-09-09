@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Dark Elf",
+  "CNAM": "Commoner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_11",
+  "MODL": null,
+  "FNAM": "Aryni Orethi",
+  "SCRI": "strongholdWives",
+  "AIDT": {
+    "greet": 40,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "key_chest_aryniorethi_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 2048,
+      "duration": 8,
+      "time_of_day": 8,
+      "idles": [40,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2485614984231611628": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2960191241830414411",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dondos driler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There are no more bandits near your stronghold to guard against.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 270
+        }
+      ]
+    },
+    "2960191241830414411": {
+      "flag": 0,
+      "PNAM": "2485614984231611628",
+      "NNAM": "125321075642894768",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dondos driler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hope the hired guard was helpful in rooting out the bandits. I will give the orders to put the finishing touches on your stronghold.",
+      "BNAM": "Journal HH_Stronghold 270\r\nStartScript Strong_Build3_H",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "maros gimayn",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 220
+        }
+      ]
+    },
+    "125321075642894768": {
+      "flag": 0,
+      "PNAM": "2960191241830414411",
+      "NNAM": "3817850459511342",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dondos driler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The bandit leader is dead? Good. I will give the orders to put the finishing touches on your stronghold.",
+      "BNAM": "Journal HH_Stronghold 270\r\nStartScript Strong_Build3_H",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "maros gimayn",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 200
+        }
+      ]
+    },
+    "3817850459511342": {
+      "flag": 0,
+      "PNAM": "125321075642894768",
+      "NNAM": "1267665832530216695",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dondos driler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see that you hired a guard from the Fighters Guild. Now you must find the bandits nearby and kill their leader.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 250
+        }
+      ]
+    },
+    "1267665832530216695": {
+      "flag": 0,
+      "PNAM": "3817850459511342",
+      "NNAM": "27030318083194722955",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dondos driler",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, go to the Fighters Guild or the Imperial Legion here in Balmora. See if they will let you hire someone to garrison your stronghold. Perhaps with their aid you can track down the bandits near your stronghold.",
+      "BNAM": "Journal HH_Stronghold 210",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 200
+        }
+      ]
+    },
+    "27030318083194722955": {
+      "flag": 0,
+      "PNAM": "1267665832530216695",
+      "NNAM": "507222291760011238",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjorgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Maros Gimayn, the leader of those bandits, is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "maros gimayn",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 200
+        }
+      ]
+    },
+    "507222291760011238": {
+      "flag": 0,
+      "PNAM": "27030318083194722955",
+      "NNAM": "3909298021984318380",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjorgeir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aye, I can help ye with the bandits. I know just where they are. A little cave called Zainsipilu just across the Odai River and south over the hills. I can stay here and guard the stronghold while you fight, or we can fight together as long as your gold is good.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 200
+        }
+      ]
+    },
+    "3909298021984318380": {
+      "flag": 0,
+      "PNAM": "507222291760011238",
+      "NNAM": "9653076625635239",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "flaenia amiulusus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If Fjorgeir is dead, that is unfortunate, but there's nothing more I can do about it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 220
+        }
+      ]
+    },
+    "9653076625635239": {
+      "flag": 0,
+      "PNAM": "3909298021984318380",
+      "NNAM": "14712204241993116163",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "flaenia amiulusus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have already given you a contract for Fjorgeir. He is the only mercenary available right now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 220
+        }
+      ]
+    },
+    "14712204241993116163": {
+      "flag": 0,
+      "PNAM": "9653076625635239",
+      "NNAM": "25345712215749113",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "flaenia amiulusus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. I will send word to him. He will be waiting for you at your stronghold.",
+      "BNAM": "Journal HH_Stronghold 220\r\n\"Fjorgeir\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "25345712215749113": {
+      "flag": 0,
+      "PNAM": "14712204241993116163",
+      "NNAM": "1900992531875117267",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "flaenia amiulusus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, if you think you can make other arrangements...",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1900992531875117267": {
+      "flag": 0,
+      "PNAM": "25345712215749113",
+      "NNAM": "71172972785517856",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "flaenia amiulusus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We do not have enough men to hire to just anyone. But I do know someone you could hire. His name is Fjorgeir. For 1000 septims, I will send him word and a contract.",
+      "BNAM": "Choice \"Pay 1000 gold.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 205
+        }
+      ]
+    },
+    "71172972785517856": {
+      "flag": 0,
+      "PNAM": "1900992531875117267",
+      "NNAM": "2697328327259714631",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Fighters Guild",
+      "ANAM": "Balmora, Guild of Fighters",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with Flaenia. She handles contracts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 205
+        }
+      ]
+    },
+    "2697328327259714631": {
+      "flag": 0,
+      "PNAM": "71172972785517856",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Imperial Legion",
+      "ANAM": "Moonmoth Legion Fort",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We need every Legionnaire we have.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

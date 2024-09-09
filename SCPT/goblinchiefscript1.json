@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 118,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin goblinchiefScript1\r\n\r\nif ( gobchiefdead == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\tif ( GetDeadCount goblin_warchief2 > 0 )\r\n\t\tset gobchiefdead to 1\r\n\t\tJournal TR_KillGoblins 50\r\n\tendif\r\nendif\r\n\r\n\r\nEnd goblinchiefScript1",
+  "SCVR": null,
+  "SCDT": [6,1,1,20,32,71,12,103,111,98,99,104,105,101,102,100,101,97,100,32,61,61,32,49,36,1,9,1,6,1,4,9,32,88,240,16,32,61,61,32,49,6,1,2,27,32,88,254,16,32,111,16,103,111,98,108,105,110,95,119,97,114,99,104,105,101,102,50,32,62,32,48,5,1,71,12,103,111,98,99,104,105,101,102,100,101,97,100,2,32,49,204,16,14,84,82,95,75,105,108,108,71,111,98,108,105,110,115,50,0,255,255,9,1,9,1,1,1]
+}

@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Noble",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_f_head_09",
+  "KNAM": "b_n_dark elf_f_hair_07",
+  "MODL": null,
+  "FNAM": "Arns Saren",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 10485760
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 266,
+    "magicka": 25,
+    "fatigue": 325,
+    "disposition": 50,
+    "reputation": 25,
+    "rank": 5,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,50,85,68,40,72,85,40],
+    "skills": [68,52,78,25,78,25,78,25,68,8,8,8,20,8,8,40,8,8,8,8,40,20,8,40,8,8,52]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "13016238062411718801": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "18152138871553111085",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am here as I promised. Do not worry about me. No witch-woman can hold a real warrior for long.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 30
+        }
+      ]
+    },
+    "18152138871553111085": {
+      "flag": 0,
+      "PNAM": "13016238062411718801",
+      "NNAM": "2398977363820583",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, we travel together to the Mabrigash camp.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueHermit",
+          "__TV": 25
+        }
+      ]
+    },
+    "2398977363820583": {
+      "flag": 0,
+      "PNAM": "18152138871553111085",
+      "NNAM": "70511544391142831",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will show you that I am not afraid of any witch-woman. I will follow you to the mabrigash camp.",
+      "BNAM": "Journal IL_RescueHermit 25\r\nAiFollow Player 0 85344 -3536 640 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "70511544391142831": {
+      "flag": 0,
+      "PNAM": "2398977363820583",
+      "NNAM": "2204152213177024290",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your words move me. I will show you how a real warrior deals with these witch-women. I will follow you to the mabrigash camp.",
+      "BNAM": "Journal IL_RescueHermit 25\r\nAiFollow Player 0 85344 -3536 640 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2204152213177024290": {
+      "flag": 0,
+      "PNAM": "70511544391142831",
+      "NNAM": "2293719125970827121",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am a hunter of the Erabinimsun. I have proven my bravery many times against the war-loving Erabinimsun who think all the peace-lovers are cowards.",
+      "BNAM": "Choice \"So you ARE afraid.\" 1 \"Nevermind.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2293719125970827121": {
+      "flag": 0,
+      "PNAM": "2204152213177024290",
+      "NNAM": "24518149913020223724",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mimanu tried her charms on me. I let her think they were working and escaped the next morning.",
+      "BNAM": "Choice \"Then you can enjoy her charms and escape again.\" 2 \"Nevermind.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "24518149913020223724": {
+      "flag": 0,
+      "PNAM": "2293719125970827121",
+      "NNAM": "53117600474428084",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then what do you want, outlander?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "53117600474428084": {
+      "flag": 0,
+      "PNAM": "24518149913020223724",
+      "NNAM": "576925922481230387",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assaba-bentus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? You want me to go live with the witch-women? Do you think I am a fool like Jocien? Do you think I would fall for their charms?",
+      "BNAM": "Choice \"Are you afraid of a few women?\" 4 \"Are you sure you can resist their charms?\" 5 \"Nevermind.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IL_RescueHermit",
+          "__TV": 20
+        }
+      ]
+    },
+    "576925922481230387": {
+      "flag": 0,
+      "PNAM": "53117600474428084",
+      "NNAM": "21431945678929255",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The wise-woman who left us, and our rules. She steals a man's vital essence to make herself a powerful sorcerer. Her camp is to the west, along the lava. She has others with her and I would stay away. It'll be hard to find the camp in this landscape anyway.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "21431945678929255": {
+      "flag": 0,
+      "PNAM": "576925922481230387",
+      "NNAM": "1750676562642721708",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war. By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior. The manifestation of her dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.",
+      "BNAM": ";scout ; savant; bard; bookseller;",
+      "SCVR": null
+    },
+    "1750676562642721708": {
+      "flag": 0,
+      "PNAM": "21431945678929255",
+      "NNAM": "5048304081133917538",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war. By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior. The manifestation of her dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.",
+      "BNAM": ";scout ; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "5048304081133917538": {
+      "flag": 0,
+      "PNAM": "1750676562642721708",
+      "NNAM": "185765862889827659",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The manifestation of the mabrigash's dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.",
+      "BNAM": ";scout ; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 33
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "185765862889827659": {
+      "flag": 0,
+      "PNAM": "5048304081133917538",
+      "NNAM": "61477696696217308",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior.",
+      "BNAM": ";scout ; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "Random100",
+          "__TV": 66
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "61477696696217308": {
+      "flag": 0,
+      "PNAM": "185765862889827659",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war.",
+      "BNAM": ";scout ; savant; bard; bookseller;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

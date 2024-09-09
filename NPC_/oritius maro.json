@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Warrior",
+  "ANAM": "Talos Cult",
+  "BNAM": "b_n_imperial_m_head_03",
+  "KNAM": "b_n_imperial_m_hair_04",
+  "MODL": null,
+  "FNAM": "Oritius Maro",
+  "SCRI": "talosTraitorScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_coif_helm"
+    },
+    {
+      "count": 1,
+      "name": "key_oritius"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 110,
+    "magicka": 92,
+    "fatigue": 216,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [69,46,36,43,51,68,54,40],
+    "skills": [46,30,46,46,36,56,30,30,46,6,6,6,6,6,6,6,6,6,6,6,6,11,75,22,16,16,11]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

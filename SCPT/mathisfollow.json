@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 466,
+    "local_var_size": 37
+  },
+  "SCTX": "Begin mathisFollow\r\n\r\nshort noLore\r\nshort followNow\r\nshort distanceCheck\r\nfloat timer\r\n;global NPCVoiceDistance\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex HR_FindDalobar >= 70 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex HR_FindDalobar < 50 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetHealth <= 0 )\r\n\treturn\r\nendif\r\n\r\nif ( GetCurrentAiPackage == 3 )\r\n;if follow is the current package, set followNow and continue...\r\n\r\n\tset followNow to 1\r\n\tSetHello 0\r\n\r\n;\tif ( GetAIPackageDone == 1 )\r\n\t\t;removed since he could not reach his point...\r\n\t\t;changed to follow until INSIDE of Shrine\r\n;\t\tJournal HR_FindDalobar 70\r\n;\t\tset followNow to 0\r\n;\t\tAiWander 256 0 0 40 20 20 0 0 0 0 0 0\r\n;\t\tSay \"Vo\\D\\M\\Flw_DM004.mp3\" \"Thank you.\"\r\n;\t\tSetHello 30\r\n;\tendif\r\n\r\n\tif ( timer < 2 )\r\n\t\tset timer to ( timer + GetSecondsPassed )\r\n\t\treturn\r\n\tendif\r\n\r\n\tif ( GetPCCell \"Maar Gan, Shrine\" == 1 )\r\n\t\tJournal HR_FindDalobar 70\r\n\t\tset followNow to 0\r\n\t\tAiWander 256 0 0 40 20 20 0 0 0 0 0 0\r\n\t\tSay \"Vo\\D\\M\\Flw_DM004.mp3\" \"Thank you.\"\r\n\t\tSetHello 30\r\n\tendif\r\n\r\n\tif ( GetDistance Player < NPCVoiceDistance )\r\n\t\tif ( GetDistance Player < 500 )\r\n\t\t\tset distanceCheck to 0\r\n\t\tendif\r\n\t\tset timer to 0\r\n\t\treturn\r\n\tendif\r\n\r\n\tif ( distanceCheck == 0 )\r\n\t\t;since there is not \"wait for me\" for Dunmer male...\r\n\t\tSay \"Vo\\D\\M\\Flw_DM001.mp3\" \"Where are you going?\"\r\n\t\tset distanceCheck to 1\r\n\tendif\r\n\r\nelse\r\n\t;if follow is NOT the current package, make sure followNow is zero\r\n\tset followNow to 0\r\nendif\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "noLore",
+    "followNow",
+    "distanceCheck",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,27,32,88,205,16,32,100,14,72,82,95,70,105,110,100,68,97,108,111,98,97,114,32,62,61,32,55,48,36,1,9,1,6,1,1,26,32,88,205,16,32,100,14,72,82,95,70,105,110,100,68,97,108,111,98,97,114,32,60,32,53,48,36,1,9,1,6,1,1,9,32,88,140,16,32,60,61,32,48,36,1,9,1,6,1,24,9,32,88,250,16,32,61,61,32,51,5,1,115,2,0,2,32,49,9,17,0,0,0,0,6,1,2,8,32,102,1,0,32,60,32,50,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,36,1,9,1,6,1,5,28,32,88,18,17,32,99,16,77,97,97,114,32,71,97,110,44,32,83,104,114,105,110,101,32,61,61,32,49,204,16,14,72,82,95,70,105,110,100,68,97,108,111,98,97,114,70,0,255,255,5,1,115,2,0,2,32,48,249,16,0,0,128,67,0,0,0,0,0,0,0,0,8,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,27,17,20,86,111,92,68,92,77,92,70,108,119,95,68,77,48,48,52,46,109,112,51,10,0,84,104,97,110,107,32,121,111,117,46,9,17,0,0,240,65,9,1,6,1,5,35,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,71,16,78,80,67,86,111,105,99,101,68,105,115,116,97,110,99,101,0,6,1,1,19,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,53,48,48,5,1,115,3,0,2,32,48,9,1,5,1,102,1,0,2,32,48,36,1,9,1,6,1,2,9,32,115,3,0,32,61,61,32,48,27,17,20,86,111,92,68,92,77,92,70,108,119,95,68,77,48,48,49,46,109,112,51,20,0,87,104,101,114,101,32,97,114,101,32,121,111,117,32,103,111,105,110,103,63,5,1,115,3,0,2,32,49,9,1,7,1,1,5,1,115,2,0,2,32,48,9,1,1,1]
+}

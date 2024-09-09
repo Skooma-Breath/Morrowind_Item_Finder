@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Commoner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Black Dart Urvyn",
+  "SCRI": "drownOnExit",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "black dart"
+    },
+    {
+      "count": 2,
+      "name": "carmine dart"
+    },
+    {
+      "count": 2,
+      "name": "spring dart"
+    },
+    {
+      "count": 2,
+      "name": "bleeder dart"
+    },
+    {
+      "count": 18,
+      "name": "steel dart"
+    },
+    {
+      "count": 1,
+      "name": "fine black dart"
+    },
+    {
+      "count": 1,
+      "name": "fine bleeder dart"
+    },
+    {
+      "count": 1,
+      "name": "fine carmine dart"
+    },
+    {
+      "count": 1,
+      "name": "fine spring dart"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02_rr"
+    },
+    {
+      "count": 12,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 40,
+    "health": 277,
+    "magicka": 166,
+    "fatigue": 320,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [91,83,61,95,100,73,100,40],
+    "skills": [54,9,9,9,9,14,9,9,74,9,19,9,9,9,14,9,9,90,78,78,78,38,88,90,94,94,94]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 330,
+    "local_var_size": 47
+  },
+  "SCTX": "Begin ouch_sunder\r\n\r\n;hurt PC as long as it is equipped, and wraithguard or wraithguard_jury_rig are not equipped\r\n;add a journal first time player picks it up\r\n\r\nshort extraDamage\r\nshort OnPCEquip\r\nshort doOnce\r\nfloat timer\r\nshort messageOnce\r\n;global short wraithguardEquipped\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( Player->GetHealth <= 0 )\r\n\treturn\r\nendif\r\n\r\nif ( OnPCEquip == 1 )\r\n\r\n\tif ( timer < 1 )\r\n\t\tset timer to ( timer + GetSecondsPassed )\r\n\t\treturn\r\n\tendif\r\n\r\n\tset timer to 0\r\n\r\n     if ( wraithguardEquipped == 0 )\r\n          Set extraDamage to Random 75\r\n          Set extraDamage to ( 0 - extraDamage )\r\n\t\tSet extraDamage to ( extraDamage - 50 )\r\n          player->ModCurrentHealth extraDamage\r\n\t\tif ( messageOnce == 0 )\r\n\t\t\tSet messageOnce to 1\r\n\t\t\tMessageBox \"Sunder has dealt you a mortal wound.\"\r\n\t\tendif\r\n     endif\r\nendif\r\n\r\nif ( doOnce == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( Player->GetItemCount \"sunder\" == 0 )\r\n\treturn\r\nendif\r\n\r\nJournal C0_Act_C 15\r\nSet doOnce to 1\r\n\r\nEnd",
+  "SCVR": [
+    "extraDamage",
+    "OnPCEquip",
+    "doOnce",
+    "messageOnce",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,12,1,6,112,108,97,121,101,114,6,1,1,9,32,88,140,16,32,60,61,32,48,36,1,9,1,6,1,15,9,32,115,2,0,32,61,61,32,49,6,1,2,8,32,102,1,0,32,60,32,49,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,36,1,9,1,5,1,102,1,0,2,32,48,6,1,8,27,32,71,19,119,114,97,105,116,104,103,117,97,114,100,69,113,117,105,112,112,101,100,32,61,61,32,48,5,1,115,1,0,7,32,88,33,16,75,0,53,5,1,115,1,0,8,32,48,32,115,1,0,32,45,5,1,115,1,0,9,32,115,1,0,32,53,48,32,45,12,1,6,112,108,97,121,101,114,50,17,115,1,0,0,6,1,2,9,32,115,4,0,32,61,61,32,48,5,1,115,4,0,2,32,49,0,16,36,0,83,117,110,100,101,114,32,104,97,115,32,100,101,97,108,116,32,121,111,117,32,97,32,109,111,114,116,97,108,32,119,111,117,110,100,46,0,0,9,1,9,1,9,1,6,1,1,9,32,115,3,0,32,61,61,32,49,36,1,9,1,12,1,6,112,108,97,121,101,114,6,1,1,18,32,88,253,16,32,111,6,115,117,110,100,101,114,32,61,61,32,48,36,1,9,1,204,16,8,67,48,95,65,99,116,95,67,15,0,255,255,5,1,115,3,0,2,32,49,1,1]
+}

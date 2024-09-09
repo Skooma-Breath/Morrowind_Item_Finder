@@ -1,0 +1,49 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Slave",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_m_head_02",
+  "KNAM": "b_n_argonian_m_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Keerasa-Tan",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 10,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 0,
+    "magicka": 100,
+    "fatigue": 160,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [40,50,40,40,40,40,30,50],
+    "skills": [15,15,10,30,5,5,5,10,45,5,5,5,10,5,10,15,10,10,10,35,35,10,10,10,20,20,35]
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

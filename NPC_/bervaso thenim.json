@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_13",
+  "MODL": null,
+  "FNAM": "Bervaso Thenim",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel staff of peace"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "BookSkill_Alchemy4"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 77,
+    "magicka": 148,
+    "fatigue": 211,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [56,74,47,63,57,45,45,40],
+    "skills": [24,6,6,6,39,11,6,6,11,34,58,15,15,15,20,34,48,15,39,6,6,29,16,11,10,24,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

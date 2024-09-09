@@ -1,0 +1,288 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "274721996724567284": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3181365002294221408",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuveso beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My son is dead. I have nothing to say to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "deval beleth",
+          "__TV": 1
+        }
+      ]
+    },
+    "3181365002294221408": {
+      "flag": 0,
+      "PNAM": "274721996724567284",
+      "NNAM": "14282287001458832721",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuveso beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You were expelled from House Redoran. You need to make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14282287001458832721": {
+      "flag": 0,
+      "PNAM": "3181365002294221408",
+      "NNAM": "31579256291980919993",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuveso beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for keeping my son safe on his pilgrimage.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 100
+        }
+      ]
+    },
+    "31579256291980919993": {
+      "flag": 0,
+      "PNAM": "14282287001458832721",
+      "NNAM": "19706204992249420672",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuveso beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for keeping my son safe on his pilgrimage. Please take this sword with my gratitude.",
+      "BNAM": "Journal HR_KoalCave 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10\r\nPlayer->AddItem \"Steel Firesword\" 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 70
+        }
+      ]
+    },
+    "19706204992249420672": {
+      "flag": 0,
+      "PNAM": "31579256291980919993",
+      "NNAM": "27431280362312416029",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tuveso beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Talk to my son, Deval Beleth, and escort him to the Koal Cave, a famous pilgrimage site south of Gnisis.",
+      "BNAM": "Journal HR_KoalCave 10",
+      "SCVR": null
+    },
+    "27431280362312416029": {
+      "flag": 0,
+      "PNAM": "19706204992249420672",
+      "NNAM": "1078313115303924643",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for taking me to the Koal Cave, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 100
+        }
+      ]
+    },
+    "1078313115303924643": {
+      "flag": 0,
+      "PNAM": "27431280362312416029",
+      "NNAM": "32435277573201314330",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let me stay here awhile. I will travel back to Ald'ruhn with another pilgrim.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 70
+        }
+      ]
+    },
+    "32435277573201314330": {
+      "flag": 0,
+      "PNAM": "1078313115303924643",
+      "NNAM": "192047750232949576",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "deval beleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Koal Cave is south of Gnisis. Cross the river, the Ouada Samsi, and head southwest towards the coast.",
+      "BNAM": "ShowMap \"Koal Cave Entrance\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_KoalCave",
+          "__TV": 50
+        }
+      ]
+    },
+    "192047750232949576": {
+      "flag": 0,
+      "PNAM": "32435277573201314330",
+      "NNAM": "1205014970468028476",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fonus rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We are here. Thank you for your help.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_PoorPilgrim",
+          "__TV": 100
+        }
+      ]
+    },
+    "1205014970468028476": {
+      "flag": 0,
+      "PNAM": "192047750232949576",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fonus rathryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Koal Cave is south of Gnisis. If we travel west and a bit south, we can arrive there. If you have a map, I can mark the location for you.",
+      "BNAM": "ShowMap \"Koal Cave Entrance\"",
+      "SCVR": null
+    }
+  }
+}

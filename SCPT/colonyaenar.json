@@ -1,0 +1,27 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 13,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 147,
+    "local_var_size": 114
+  },
+  "SCTX": "Begin ColonyAenar\r\n\r\n;controls timing and variables  for Stalhrim armor crafting\r\n;also contains Journal update for killing all three nords in quest CO_8a\r\n\r\nshort OnPCHitMe\r\nshort scuirass\r\nshort sgreaves\r\nshort slpauld\r\nshort srpauld\r\nshort slbracer\r\nshort srbracer\r\nshort sboots\r\nshort shelm\r\nshort busy\r\nshort currentday\r\nshort localdayspassed\r\nshort nolore\r\n\r\nif ( busy == 1 )\r\n\tif ( currentday != day )\r\n\t\tset currentday to day\r\n\t\tset localdayspassed to ( localdayspassed + 1 )\r\n\tendif\r\nendif\r\n\r\nif ( OnPCHitMe == 1 )\r\n\t\"Hidar\"->SetFight 100\r\n\t\"Hidar\"->StartCombat Player\r\n\t\"Graring\"->SetFight 100\r\n\t\"Graring\"->StartCombat Player\r\nendif\r\n\r\n\r\nEnd ColonyAenar",
+  "SCVR": [
+    "OnPCHitMe",
+    "scuirass",
+    "sgreaves",
+    "slpauld",
+    "srpauld",
+    "slbracer",
+    "srbracer",
+    "sboots",
+    "shelm",
+    "busy",
+    "currentday",
+    "localdayspassed",
+    "nolore"
+  ],
+  "SCDT": [6,1,4,9,32,115,10,0,32,61,61,32,49,6,1,2,15,32,115,11,0,32,33,61,32,71,4,68,97,121,0,0,5,1,115,11,0,8,32,71,4,68,97,121,0,0,5,1,115,12,0,8,32,115,12,0,32,49,32,43,9,1,9,1,6,1,4,9,32,115,1,0,32,61,61,32,49,12,1,5,104,105,100,97,114,0,17,0,0,200,66,12,1,5,104,105,100,97,114,25,16,6,80,108,97,121,101,114,12,1,7,103,114,97,114,105,110,103,0,17,0,0,200,66,12,1,7,103,114,97,114,105,110,103,25,16,6,80,108,97,121,101,114,9,1,1,1]
+}

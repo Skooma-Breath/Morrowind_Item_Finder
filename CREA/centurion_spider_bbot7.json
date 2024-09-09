@@ -1,0 +1,54 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\G_CenturionSpider.NIF",
+  "FLAG": 2120,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 3,
+    "attributes": [25,25,60,75,7,50,25,50],
+    "health": 38,
+    "magicka": 20,
+    "fatigue": 400,
+    "soul_strength": 0,
+    "combat_skill": 30,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,9],
+      [1,9],
+      [1,9]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "centurion_spider",
+  "FNAM": "Centurion Spider",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_scrap_metal"
+    }
+  ],
+  "NPCS": [
+    "poisonbloom",
+    "immune to poison"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

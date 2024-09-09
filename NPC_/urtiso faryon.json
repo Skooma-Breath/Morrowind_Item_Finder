@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer Service",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_f_head_09",
+  "KNAM": "b_n_dark elf_f_hair_13",
+  "MODL": null,
+  "FNAM": "Urtiso Faryon",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 34816
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel shardblade"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02_t"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    }
+  ],
+  "NPCS": [
+    "great feather",
+    "summon clanfear",
+    "sleep",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "wild spelldrinker",
+    "drain blood",
+    "slowfall",
+    "poison_powerful",
+    "bound dagger",
+    "bound battle-axe",
+    "bound helm",
+    "summon flame atronach",
+    "summon frost atronach",
+    "summon storm atronach",
+    "summon bonelord",
+    "soulpinch",
+    "gash spirit",
+    "fire storm",
+    "lightning storm"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 70,
+    "magicka": 128,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [46,64,49,47,57,47,45,40],
+    "skills": [6,6,21,21,6,11,6,6,11,44,54,44,29,44,49,14,14,14,6,6,6,11,31,26,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

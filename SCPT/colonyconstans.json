@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 184,
+    "local_var_size": 23
+  },
+  "SCTX": "Begin ColonyConstans\r\n\r\nshort nolore\r\nshort enabled\r\nshort rugtrap\r\n\r\nif ( enabled == 0 )\r\n\tif ( GetDisabled == 0 )\r\n\t\tif ( GetJournalIndex \"CO_9\" < 10 )\r\n\t\t\tDisable\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( enabled == 0 )\r\n\tif ( GetDisabled == 1 )\r\n\t\tif ( GetJournalIndex \"CO_9\" >= 10 )\r\n\t\t\tEnable\r\n\t\t\tset enabled to 1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( enabled == 0 )\r\n\tif ( GetDisabled == 1 )\r\n\t\tif ( GetJournalIndex \"CO_12a\" >= 40 )\r\n\t\t\tEnable\r\n\t\t\tset enabled to 1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nEnd ColonyConstans",
+  "SCVR": [
+    "nolore",
+    "enabled",
+    "rugtrap"
+  ],
+  "SCDT": [6,1,5,9,32,115,2,0,32,61,61,32,48,6,1,3,9,32,88,220,16,32,61,61,32,48,6,1,1,16,32,88,205,16,32,100,4,67,79,95,57,32,60,32,49,48,219,16,9,1,9,1,9,1,6,1,6,9,32,115,2,0,32,61,61,32,48,6,1,4,9,32,88,220,16,32,61,61,32,49,6,1,2,17,32,88,205,16,32,100,4,67,79,95,57,32,62,61,32,49,48,218,16,5,1,115,2,0,2,32,49,9,1,9,1,9,1,6,1,6,9,32,115,2,0,32,61,61,32,48,6,1,4,9,32,88,220,16,32,61,61,32,49,6,1,2,19,32,88,205,16,32,100,6,67,79,95,49,50,97,32,62,61,32,52,48,218,16,5,1,115,2,0,2,32,49,9,1,9,1,9,1,1,1]
+}

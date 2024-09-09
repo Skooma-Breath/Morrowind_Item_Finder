@@ -1,0 +1,261 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3031530767408715845": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2934813841288227803",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard that you are a False Incarnate. I am not yet convinced, but I no longer trust you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "2934813841288227803": {
+      "flag": 0,
+      "PNAM": "3031530767408715845",
+      "NNAM": "2889621797140235311",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2889621797140235311": {
+      "flag": 0,
+      "PNAM": "2934813841288227803",
+      "NNAM": "235312634960598316",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ihinipalit has been cleansed of the dark cult.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_StAralor",
+          "__TV": 100
+        }
+      ]
+    },
+    "235312634960598316": {
+      "flag": 0,
+      "PNAM": "2889621797140235311",
+      "NNAM": "15056236732001914979",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already cleansed the dark cult from Ihinipalit? Then you have earned the respect of the Ancestors. Please take this Ancestral Wisdom Staff and my gratitude.",
+      "BNAM": "Journal TT_StAralor 100\r\nPlayer->AddItem SteelStaffAncestors_TTSA 1\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "bjadmund",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TT_StAralor",
+          "__TV": 0
+        }
+      ]
+    },
+    "15056236732001914979": {
+      "flag": 0,
+      "PNAM": "235312634960598316",
+      "NNAM": "13493326771957210662",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I heard Bjadmund is dead and the dark cult has been cleansed from the shrine of Ihinipalit. You have earned the respect of the Ancestors. Please take this Ancestral Wisdom Staff and my gratitude.",
+      "BNAM": "Journal TT_StAralor 100\r\nPlayer->AddItem SteelStaffAncestors_TTSA 1\r\nModPCFacRep 5 \"Temple\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "bjadmund",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_StAralor",
+          "__TV": 10
+        }
+      ]
+    },
+    "13493326771957210662": {
+      "flag": 0,
+      "PNAM": "15056236732001914979",
+      "NNAM": "675622753312023997",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Find Ihinipalit beneath the St. Delyn Canton. Bring the Temple's justice to the leader of this cult, Bjadmund.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_StAralor",
+          "__TV": 10
+        }
+      ]
+    },
+    "675622753312023997": {
+      "flag": 0,
+      "PNAM": "13493326771957210662",
+      "NNAM": "574829537840520129",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 5
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "The cult meets there. I know only that Ihinipalit is somewhere beneath the St. Delyn Canton. Go there with fire in your eyes and in your heart. Bring the Temple's justice to the leader of this cult, Bjadmund. I wish I could accompany you, %PCRank %PCName, but I cannot. However, I can offer you these scrolls.",
+      "BNAM": "Journal TT_StAralor 10\r\nPlayer->AddItem \"sc_hellfire\" 2\r\nPlayer->AddItem \"sc_elementalburstfire\" 2\r\nPlayer->AddItem \"sc_fifthbarrier\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 15
+        }
+      ]
+    },
+    "574829537840520129": {
+      "flag": 0,
+      "PNAM": "675622753312023997",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 5
+      },
+      "ONAM": "endryn llethan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "The cult meets there. I know only that Ihinipalit is somewhere beneath the St. Delyn Canton. Go there with fire in your eyes and in your heart. Bring the Temple's justice to the leader of this cult, Bjadmund. I wish I could accompany you, %PCRank %PCName, but I cannot. However, I can offer you these scrolls. This place holds as much danger as Ald Sotha. I did not believe you were ready, but you have proven me wrong. I hope that you will surprise me and return unharmed from Ihinipalit as well.",
+      "BNAM": "Journal TT_StAralor 10\r\nPlayer->AddItem \"sc_hellfire\" 2\r\nPlayer->AddItem \"sc_elementalburstfire\" 2\r\nPlayer->AddItem \"sc_fifthbarrier\" 2",
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Vaval Selas",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": -5,
+      "name": "ingred_rat_meat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_saltrice_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scrib_jerky_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_gravedust_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bittergreen_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_chokeweed_01"
+    },
+    {
+      "count": -5,
+      "name": "food_kwama_egg_01"
+    },
+    {
+      "count": 20,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "frost_shield",
+    "heavy burden touch",
+    "strong feather",
+    "ulms juicedaw's feather",
+    "calm creature",
+    "calm humanoid",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "seryn's blessing",
+    "strong resist fire",
+    "strong resist frost",
+    "strong resist magicka",
+    "strong resist poison",
+    "strong resist shock",
+    "dispel",
+    "Swimmer's_Blessing",
+    "cure common disease victim"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 67,
+    "magicka": 96,
+    "fatigue": 203,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [49,48,62,48,63,44,52,40],
+    "skills": [6,6,6,6,22,11,6,6,11,14,24,46,30,14,50,46,30,30,6,6,6,27,16,11,15,37,37]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Pawnbroker",
+  "ANAM": "Camonna Tong",
+  "BNAM": "b_n_dark elf_m_head_06",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Meder Nulen",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 14071
+  },
+  "NPCO": [
+    {
+      "count": -40,
+      "name": "iron bolt"
+    },
+    {
+      "count": -50,
+      "name": "iron arrow"
+    },
+    {
+      "count": -75,
+      "name": "chitin arrow"
+    },
+    {
+      "count": -20,
+      "name": "chitin throwing star"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 81,
+    "magicka": 126,
+    "fatigue": 189,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [53,63,36,55,68,45,48,50],
+    "skills": [23,6,6,6,23,11,6,6,43,6,16,6,6,6,11,6,6,23,47,47,32,20,25,20,10,47,32]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

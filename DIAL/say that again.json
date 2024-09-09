@@ -1,0 +1,318 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1223428587300376462": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "149566323006016870",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from House Hlaalu. You must make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "149566323006016870": {
+      "flag": 0,
+      "PNAM": "1223428587300376462",
+      "NNAM": "1732111579259325430",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You don't need to say it again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DisguisedArmor",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_DisguisedArmor",
+          "__TV": 100
+        }
+      ]
+    },
+    "1732111579259325430": {
+      "flag": 0,
+      "PNAM": "149566323006016870",
+      "NNAM": "19821293371703031681",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Take this helm and speak with Neminda at the Redoran Council. Take a silt strider to Ald'ruhn, then look under Skar. When she asks what you want, say you are an orphan of Arnesia. Neminda should give you a coded message to deliver. Bring that coded message to me instead.",
+      "BNAM": "Journal HH_DisguisedArmor 10\r\nPlayer->AddItem Bonemold_Gah-Julan_HHDA 1\r\nNeminda->AddItem bk_nemindasorders 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "44",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "19821293371703031681": {
+      "flag": 0,
+      "PNAM": "1732111579259325430",
+      "NNAM": "1770536112529922357",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Take this helm and speak with Neminda at the Redoran Council. Take a silt strider to Ald'ruhn, then look under Skar. When she asks what you want, say you are an orphan of Arnesia. Neminda should give you a coded message to deliver. Bring that coded message to me instead.",
+      "BNAM": "Journal HH_DisguisedArmor 11\r\nPlayer->AddItem Bonemold_Gah-Julan_HHDA 1\r\nNeminda->AddItem bk_nemindasorders 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "44",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1770536112529922357": {
+      "flag": 0,
+      "PNAM": "19821293371703031681",
+      "NNAM": "7062267821651731091",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I expected better of you. Perhaps you don't deserve the title of %PCRank.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "7062267821651731091": {
+      "flag": 0,
+      "PNAM": "1770536112529922357",
+      "NNAM": "8038280651571829605",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I expected better of you. Perhaps you don't deserve the title of %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "8038280651571829605": {
+      "flag": 0,
+      "PNAM": "7062267821651731091",
+      "NNAM": "756310263772131418",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "How fortunate! Your voice sounds almost like the Redoran Felsen Sethandus who died... um, just recently. Would you be willing to disguise yourself as Felsen Sethandus and get orders from House Redoran, then deliver the orders to me?",
+      "BNAM": "Choice \"Yes.\" 1 \"No, too busy.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "44",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "1",
+          "identifier": "PCRace",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "1",
+          "identifier": "PCRace",
+          "__TV": 6
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_DisguisedArmor",
+          "__TV": 100
+        }
+      ]
+    },
+    "756310263772131418": {
+      "flag": 0,
+      "PNAM": "8038280651571829605",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "How fortunate! Your voice sounds almost like the Redoran Relmerea Saram who died... um, just recently. Would you be willing to disguise yourself as Relmerea Saram and get orders from House Redoran, then deliver the orders to me?",
+      "BNAM": "Choice \"Yes.\" 1 \"No, too busy.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "44",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "1",
+          "identifier": "PCRace",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "1",
+          "identifier": "PCRace",
+          "__TV": 6
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_DisguisedArmor",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

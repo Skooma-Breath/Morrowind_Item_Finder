@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3533493114919234": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "8014268033164926233",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. They are quite splendid aren't they. Of course... they were a gift. I wear them out of courtesy, %PCName. Not out of vanity. I am not a vain man.",
+      "BNAM": ";Ashkhan Kaushad;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 4
+        }
+      ]
+    },
+    "8014268033164926233": {
+      "flag": 0,
+      "PNAM": "3533493114919234",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you. These remarkable shoes are... very fancy. Too fancy for a simple Ashlander like myself, But I thank you very much for the gift. It was very thoughtful.",
+      "BNAM": ";Ashkhan Kaushad;\r\nplayer->removeitem exquisite_shoes_01 1\r\nadditem exquisite_shoes_01 1\r\njournal B3_ZainabBride 4\r\nModDisposition 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "exquisite_shoes_01",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

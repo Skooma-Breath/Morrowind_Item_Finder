@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 72,
+    "local_var_size": 10
+  },
+  "SCTX": "Begin wraithguardScript\r\n\r\nshort OnPCEquip\r\n;global short wraithguardEquipped\r\n\r\nif ( OnPCEquip == 1 )\r\n\t;is wraithguard equipped?\r\n     set wraithguardEquipped to 1\r\nelse\r\n     set wraithguardEquipped to 0\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "OnPCEquip"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,49,5,1,71,19,119,114,97,105,116,104,103,117,97,114,100,69,113,117,105,112,112,101,100,2,32,49,7,1,1,5,1,71,19,119,114,97,105,116,104,103,117,97,114,100,69,113,117,105,112,112,101,100,2,32,48,9,1,1,1]
+}

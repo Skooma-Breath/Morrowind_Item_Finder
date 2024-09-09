@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Drillmaster Service",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_wood elf_m_head_02",
+  "KNAM": "b_n_wood elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Nedhelorn",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": 25,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 111,
+    "magicka": 120,
+    "fatigue": 222,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [62,60,40,79,92,41,47,40],
+    "skills": [53,17,17,17,38,38,38,38,53,6,6,6,6,6,6,6,11,42,6,16,47,16,27,21,10,6,42]
+  },
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

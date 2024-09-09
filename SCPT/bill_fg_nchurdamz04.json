@@ -1,0 +1,24 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 10,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 591,
+    "local_var_size": 76
+  },
+  "SCTX": "begin BILL_FG_Nchurdamz04\r\n; Larienna's daedroth summoning\r\n;\r\n; script location: should be placed on a small unseen ring04 in the daedroth's sanctuary\r\n\r\n;This on is too funky and looks broken. Removed ring from world. Doug.\r\n\r\n; variables\r\nshort once\r\nshort questTest\r\nshort distTest\r\nshort check1\r\nshort check2\r\nshort check3\r\nshort doit\r\nshort gotKey\r\nshort deadTest\r\nshort deadTest2\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( OnActivate == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( once == 0 )\r\n\tset questTest to ( Player->GetJournalIndex \"FG_Nchurdamz\" )\r\n\tif ( questTest > 0 )\r\n\t\t; ... this happens only if the player is on the FG_Nchurdamz quest\r\n\t\tset check1 to 1\r\n\tendif\r\n\tset once to 1\r\nendif\r\n\r\nif ( check1 == 1 )\r\n\tset distTest to ( GetDistance, \"Larienna Macrina\" )\r\n\tif ( distTest > 300 )\r\n\t\t; no good\r\n\t\tset check2 to 0\r\n\t\treturn\r\n\telse\r\n\t\t; good\r\n\t\tset check1 to 0\r\n\t\tset check2 to 1\r\n\tendif\r\nendif\r\n\r\nif ( check2 == 1 )\r\n\tset gotKey to ( Player->GetItemCount, \"key_fg_nchur\" )\r\n\tif ( gotKey == 0 )\r\n\t\t; no good\r\n\t\tset doit to 0\r\n\t\treturn\r\n\telse\r\n\t\t; good\r\n\t\tset check2 to 0\r\n\t\tset check3 to 1\r\n\tendif\r\nendif\r\n\r\nif ( check3 == 1 )\r\n\tset deadTest to ( GetDeadCount \"daedroth_fg_nchur\" )\r\n\tif ( deadTest >= 1 )\r\n\t\t; no good\r\n\t\tset doit to 1\r\n\t\treturn\r\n\telse\r\n\t\t; good\r\n\t\tset check3 to 0\r\n\t\tset doit to 1\r\n\tendif\r\nendif\r\n\r\nif ( doit == 1 )\r\n\tset deadTest2 to ( GetDeadCount \"Larienna Macrina\" )\r\n\tif ( deadTest2 == 0 )\r\n\t\t\"Larienna Macrina\"->Say \"Vo\\Misc\\bill_fg_nchurdamz04.wav\",  \"Larienna: 'At last! A means to vanquish Hrelvesuu. The final battle awaits!'\"\r\n\t\tset doit to 0\r\n;removed this \"stop script self\" line to help text search and fix all these. Doug.\r\n\tendif\r\nendif\r\n\r\n\r\nend BILL_FG_Nchurdamz04",
+  "SCVR": [
+    "once",
+    "questTest",
+    "distTest",
+    "check1",
+    "check2",
+    "check3",
+    "doit",
+    "gotKey",
+    "deadTest",
+    "deadTest2"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,88,24,16,32,61,61,32,49,36,1,9,1,6,1,5,9,32,115,1,0,32,61,61,32,48,12,1,6,112,108,97,121,101,114,5,1,115,2,0,20,32,88,205,16,32,100,12,70,71,95,78,99,104,117,114,100,97,109,122,0,6,1,1,8,32,115,2,0,32,62,32,48,5,1,115,4,0,2,32,49,9,1,5,1,115,1,0,2,32,49,9,1,6,1,8,9,32,115,4,0,32,61,61,32,49,5,1,115,3,0,25,32,88,1,16,44,32,114,16,76,97,114,105,101,110,110,97,32,77,97,99,114,105,110,97,0,6,1,2,10,32,115,3,0,32,62,32,51,48,48,5,1,115,5,0,2,32,48,36,1,7,1,2,5,1,115,4,0,2,32,48,5,1,115,5,0,2,32,49,9,1,9,1,6,1,8,9,32,115,5,0,32,61,61,32,49,12,1,6,112,108,97,121,101,114,5,1,115,8,0,21,32,88,253,16,44,32,111,12,107,101,121,95,102,103,95,110,99,104,117,114,0,6,1,2,9,32,115,8,0,32,61,61,32,48,5,1,115,7,0,2,32,48,36,1,7,1,2,5,1,115,5,0,2,32,48,5,1,115,6,0,2,32,49,9,1,9,1,6,1,8,9,32,115,6,0,32,61,61,32,49,5,1,115,9,0,25,32,88,254,16,32,111,17,100,97,101,100,114,111,116,104,95,102,103,95,110,99,104,117,114,0,6,1,2,9,32,115,9,0,32,62,61,32,49,5,1,115,7,0,2,32,49,36,1,7,1,2,5,1,115,6,0,2,32,48,5,1,115,7,0,2,32,49,9,1,9,1,6,1,5,9,32,115,7,0,32,61,61,32,49,5,1,115,10,0,24,32,88,254,16,32,111,16,76,97,114,105,101,110,110,97,32,77,97,99,114,105,110,97,0,6,1,2,9,32,115,10,0,32,61,61,32,48,12,1,16,76,97,114,105,101,110,110,97,32,77,97,99,114,105,110,97,27,17,31,86,111,92,77,105,115,99,92,98,105,108,108,95,102,103,95,110,99,104,117,114,100,97,109,122,48,52,46,119,97,118,76,0,76,97,114,105,101,110,110,97,58,32,39,65,116,32,108,97,115,116,33,32,65,32,109,101,97,110,115,32,116,111,32,118,97,110,113,117,105,115,104,32,72,114,101,108,118,101,115,117,117,46,32,84,104,101,32,102,105,110,97,108,32,98,97,116,116,108,101,32,97,119,97,105,116,115,33,39,5,1,115,7,0,2,32,48,9,1,9,1,1,1]
+}

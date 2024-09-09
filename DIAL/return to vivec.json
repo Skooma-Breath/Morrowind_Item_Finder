@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "166801710719804332": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2799136892859529576",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vevrana aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "When you're ready, I'll be here, waiting.",
+      "BNAM": "; Vevrana Aryon; Journal \"A2_4_MiloGone\" >= 20; 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2799136892859529576": {
+      "flag": 0,
+      "PNAM": "166801710719804332",
+      "NNAM": "4809240791970322821",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vevrana aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then I'm ready to take you to Ebonheart whenever you're ready to travel.",
+      "BNAM": "; Vevrana Aryon; Journal \"A2_4_MiloGone\" >= 20; 1;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "4809240791970322821": {
+      "flag": 0,
+      "PNAM": "2799136892859529576",
+      "NNAM": "202972562615025726",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vevrana aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You'll return to Vivec by boat, arriving at the West Docks in Ebonheart. Are you ready?",
+      "BNAM": "; Vevrana Aryon; Journal \"A2_4_MiloGone\" >= 20\r\nChoice \"Yes\" 1 \"Not Yet\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 20
+        }
+      ]
+    },
+    "202972562615025726": {
+      "flag": 0,
+      "PNAM": "4809240791970322821",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Holamayan Monastery",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Vevrana Aryon, a monk at the docks outside, can arrange for travel back to Vivec. You can only enter or leave Holamayan at dusk and dawn; the entrance is sealed at all other hours. But please make yourself comfortable here. Rest in our beds, and make good use of our services. You may read our books, but don't take them. Do not abuse our hospitality. Do not take personal items or alchemical apparatus or ingredients or other private property.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

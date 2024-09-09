@@ -1,0 +1,915 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3157537,1061997773]
+  },
+  "NAME": "Skaal Village, Lassnr's House",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [41,47,48,0],
+    "sunlight": [119,83,77,0],
+    "fog_color": [33,46,48,0],
+    "fog_density": 0.800000011920929
+  },
+  "FRMR": {
+    "2-8347": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "lassnr",
+      "DATA": [-128,-192,-220.18540954589844,0,0,3.7831857204437256]
+    },
+    "2-9059": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_door",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [233.00303649902344,-216.56878662109375,-142.259521484375,0,0,4.612905025482178]
+    },
+    "2-13723": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_longhouse_med",
+      "DATA": [-384,-320,0,0,0,4.612389087677002]
+    },
+    "2-13724": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [320,384,-128,0,0,0]
+    },
+    "2-13725": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [16.285106658935547,-659.9884033203125,31.93777084350586,0,0,4.6123881340026855]
+    },
+    "2-13726": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [159.24093627929688,21.205249786376953,-206.66229248046875,0,0,4.670796871185303]
+    },
+    "2-13727": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [-794.8762817382812,-1.8221951723098755,-224.41671752929688,0,0,2.999999523162842]
+    },
+    "2-13728": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "lassnr",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [203.58892822265625,-183.17276000976562,-111.91270446777344,0,0,4.683186054229736]
+    },
+    "2-13729": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [-174.95664978027344,-369.0913391113281,-217.90457153320312,0,0,0]
+    },
+    "2-13730": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [-663.4193115234375,-631.60498046875,-217.79562377929688,0,0,4.583186149597168]
+    },
+    "2-13731": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_01",
+      "DATA": [-968.8025512695312,-116.52412414550781,-214.1061248779297,0,0,5.1831865310668945]
+    },
+    "2-13732": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [-71.47882843017578,-39.50642395019531,33.48870086669922,0,0,4.583187103271484]
+    },
+    "2-13733": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Rope_06",
+      "XSCL": 0.6200000047683716,
+      "DATA": [-290.67974853515625,-249.68040466308594,73.67101287841797,0,0,4.083187580108643]
+    },
+    "2-13734": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-658.2603149414062,-622.3574829101562,-50.80915832519531,0,5.4831862449646,0]
+    },
+    "2-13735": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-49.996341705322266,-42.26777648925781,-25.641887664794922,1.2000004053115845,0.6999995112419128,6.183186054229736]
+    },
+    "2-13736": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-669.4749145507812,-666.064453125,-59.50815963745117,1.1831867694854736,0.2168123424053192,1.199999213218689]
+    },
+    "2-13737": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-103.79308319091797,-43.53923797607422,15.268570899963379,0,0,2.7831873893737793]
+    },
+    "2-13738": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "XSCL": 1.1299999952316284,
+      "DATA": [-674.4751586914062,-637.4015502929688,26.140661239624023,5.883185863494873,0.3999999761581421,0.08318676799535751]
+    },
+    "2-13739": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-672.9281005859375,-662.5486450195312,-12.508940696716309,0,0,4.783186435699463]
+    },
+    "2-13740": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.1800000667572021,
+      "DATA": [-179.0856475830078,-254.64231872558594,-236.58895874023438,0,0,1.6269913911819458]
+    },
+    "2-13741": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-657.2340698242188,-317.8011169433594,-224.05528259277344,0,0,0.6999984979629517]
+    },
+    "2-13742": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-699.5359497070312,-736.637451171875,-66.47477722167969,0,0,5.1831865310668945]
+    },
+    "2-13743": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-664.56689453125,-631.461181640625,-5.666257858276367,0,0,2.1000001430511475]
+    },
+    "2-13744": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-106.97675323486328,-28.810733795166016,-23.586238861083984,4.683187007904053,0,5.1831865310668945]
+    },
+    "2-13745": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-143.34788513183594,57.7977409362793,-217.95303344726562,0,0,3.200000047683716]
+    },
+    "2-13746": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-181.7821502685547,-300.8164367675781,-162.5172576904297,0,0,3.7831878662109375]
+    },
+    "2-13747": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "XSCL": 1.0500000715255737,
+      "DATA": [-425.9862060546875,-332.0433654785156,-213.2953338623047,6.066372394561768,1.2168124914169312,5.183186054229736]
+    },
+    "2-13748": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [-64.04877471923828,33.508670806884766,-217.7955780029297,0,0,4.6831865310668945]
+    },
+    "2-13749": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.4300000667572021,
+      "DATA": [-771.5277709960938,-148.92918395996094,-231.88021850585938,0,0,1.3000001907348633]
+    },
+    "2-13750": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_doorjam",
+      "DATA": [246.78460693359375,-238.89895629882812,-122.59339141845703,0,0,4.683187007904053]
+    },
+    "2-13751": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-229.7718505859375,-298.9259948730469,-165.6510009765625,0,0,5.58318567276001]
+    },
+    "2-13752": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [-793.5379638671875,22.559986114501953,36.558494567871094,0,0,1.4292020797729492]
+    },
+    "2-13753": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-894.0473022460938,-350.95867919921875,-224.05528259277344,0,0,2.8831863403320312]
+    },
+    "2-13754": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-606.7962646484375,-101.83143615722656,-224.05528259277344,0,0,4.58318567276001]
+    },
+    "2-13755": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [23.03128433227539,-635.913818359375,-229.73580932617188,0,0,2.999999523162842]
+    },
+    "2-13756": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [-715.73388671875,-743.0684204101562,-82.81999969482422,0,0,3.0490901470184326]
+    },
+    "2-13757": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [-513.6720581054688,-697.6474609375,-161.2038116455078,0,0,6.183185577392578]
+    },
+    "2-13758": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-686.5028076171875,1.1115734577178955,-217.95301818847656,0,0,3.200000047683716]
+    },
+    "2-13759": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_64",
+      "DATA": [-143.88633728027344,56.331748962402344,-178.134033203125,0,0,0]
+    },
+    "2-13760": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_S_tapestry",
+      "XSCL": 0.9300000667572021,
+      "DATA": [-1010.65771484375,-253.89279174804688,-76.7559814453125,0,0,1.5000001192092896]
+    },
+    "2-13761": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_S_tapestry03",
+      "DATA": [-987.2568969726562,-571.6478881835938,-67.5767593383789,0,0,1.5000001192092896]
+    },
+    "2-13762": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_S_tapestry02",
+      "DATA": [-1003.3878784179688,-406.0786437988281,-66.41246032714844,0,0,1.5000001192092896]
+    },
+    "2-13763": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "lassnr",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-157.29576110839844,-309.84814453125,-134.6001739501953,0,0,6.08318567276001]
+    },
+    "2-13764": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_nord_mead",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-482.5277099609375,-703.8672485351562,-150.74322509765625,0,0,0]
+    },
+    "2-13765": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-470.4151306152344,-692.0906372070312,-92.61914825439453,0,0,0]
+    },
+    "2-13766": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-545.8703002929688,-704.1978759765625,-89.95381927490234,0,0,0]
+    },
+    "2-13767": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-550.748779296875,-702.5984497070312,-147.85464477539062,0,0,0]
+    },
+    "2-13768": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-528.9730224609375,-690.8026123046875,-147.85464477539062,0,0,0]
+    },
+    "2-13769": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-577.18896484375,-697.1175537109375,-134.38929748535156,0,0,0]
+    },
+    "2-13770": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-503.6279602050781,-667.1925048828125,-235.73995971679688,0,0,0]
+    },
+    "2-13771": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BlasphemousRevenants",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-588.0025024414062,-597.5721435546875,-233.58433532714844,0,0,2.40000057220459]
+    },
+    "2-13772": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BookOfDaedra",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-478.32958984375,-698.4490356445312,-191.64694213867188,0,0,1.5000001192092896]
+    },
+    "2-13773": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_corpsepreperation1_c",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-478.19818115234375,-703.3233032226562,-185.6360321044922,0,0,0]
+    },
+    "2-13774": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_DoorsOfTheSpirit",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-950.2297973632812,-189.543212890625,-234.2456512451172,0,0,0.5]
+    },
+    "2-13775": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_bloodfire",
+      "ANAM": "lassnr",
+      "XCHG": 18,
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-882.7451171875,-337.48828125,16.14448356628418,0,0,0]
+    },
+    "2-13776": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 1.0500000715255737,
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [213.8681640625,-186.60150146484375,-97.20623016357422,0,0,1.5831866264343262]
+    },
+    "2-13777": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [266.593505859375,-413.5181884765625,-129.34957885742188,0,0,0]
+    },
+    "2-13778": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-498.94677734375,-701.35986328125,-97.42027282714844,0,0,5.1831865310668945]
+    },
+    "2-13779": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [-229.9480743408203,3.6789374351501465,-217.7955780029297,0,0,4.6831865310668945]
+    },
+    "2-13780": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "DATA": [65.16754150390625,80.04386901855469,-67.29244995117188,0,0,0]
+    },
+    "2-13781": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [64.69892883300781,56.56058120727539,-96.49869537353516,4.8831868171691895,3.0999996662139893,5.683186054229736]
+    },
+    "2-13784": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_whitewolf",
+      "DATA": [-672.352294921875,-309.401611328125,-218.84571838378906,0,0,2.070796489715576]
+    },
+    "2-13785": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_nord_mead",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-463.2550964355469,-687.6976928710938,-150.52288818359375,0,0,0]
+    },
+    "2-13786": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-564.0283203125,-694.9645385742188,-193.3384246826172,0,0,0]
+    },
+    "2-13787": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-57.64102554321289,-38.56415557861328,14.05971622467041,0,0,5.983185768127441]
+    },
+    "2-13788": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_bones",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-385.3475036621094,-641.1741333007812,-201.35806274414062,0,0,0]
+    },
+    "2-13789": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_poisonsong2",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-529.1451416015625,-692.330078125,-192.01625061035156,0,0,4.583187103271484]
+    },
+    "2-13790": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_128",
+      "DATA": [-870.1339721679688,-443.7835388183594,-37.26409912109375,0,0,0]
+    },
+    "2-13791": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_128",
+      "DATA": [-179.69932556152344,-311.7166748046875,-40.229270935058594,0,0,0]
+    },
+    "2-19079": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [-189.90333557128906,-302.427734375,-202.92791748046875,0,0,6.270796775817871]
+    },
+    "2-19080": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_wolfsbane_01",
+      "XSCL": 0.8800000548362732,
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [171.5937042236328,63.81175231933594,-175.01470947265625,0,0,4.299999237060547]
+    },
+    "2-19081": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fortify_intelligence_e",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [149.4252166748047,91.76689147949219,-231.37310791015625,0,1.600000262260437,0]
+    },
+    "2-19082": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_j_mortar_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [147.4915313720703,74.4443588256836,-173.99240112304688,0,0,0]
+    },
+    "2-19083": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_6thhouseravings",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [144.07061767578125,9.711650848388672,-173.41543579101562,0,0,4.883186340332031]
+    },
+    "2-19084": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_bartendersguide",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [185.62445068359375,-40.57722091674805,-171.06045532226562,0,0,1.100000023841858]
+    },
+    "2-19085": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_daedras_heart_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [153.52159118652344,41.73741149902344,-174.66322326660156,0,0,0]
+    },
+    "2-19089": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_cupboard_clothes",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-483.9285583496094,29.82691192626953,-210.2192840576172,0,0,6.183185577392578]
+    },
+    "2-19090": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_09_64",
+      "ANAM": "lassnr",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-473.8570251464844,26.799083709716797,-173.40966796875,0,0,0]
+    },
+    "2-19091": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-196.7029266357422,-324.69110107421875,-168.10494995117188,0,0,0]
+    },
+    "2-19092": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ghoul_heart_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [168.4550323486328,23.009666442871094,-167.89187622070312,0,0,5.083186149597168]
+    },
+    "2-19093": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_human_meat_01",
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [230.04653930664062,37.7780876159668,-136.22023010253906,0,0,0]
+    },
+    "2-19094": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "food_kwama_egg_01",
+      "XSCL": 0.5,
+      "ANAM": "lassnr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-198.33291625976562,-323.7621765136719,-164.9025421142578,0,0,0]
+    },
+    "2-25851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-394.5330810546875,-147.62307739257812,1.8965238332748413,1.6000001430511475,1.5707963705062866,6.26858377456665]
+    },
+    "2-25852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.8600001335144043,
+      "DATA": [-393.3481750488281,-65.73416137695312,-110.27572631835938,1.5707963705062866,1.6707963943481445,0]
+    },
+    "2-25853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-411.1535949707031,5.2433881759643555,1.8965238332748413,1.6000001430511475,1.5707963705062866,6.26858377456665]
+    },
+    "2-25854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.970000147819519,
+      "DATA": [1.6282646656036377,-505.5830993652344,-230.81686401367188,0,0,1.4000000953674316]
+    },
+    "2-25855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "XSCL": 1.0500000715255737,
+      "DATA": [-954.442138671875,-22.869028091430664,-217.73101806640625,0,0,1.4000002145767212]
+    },
+    "2-25856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_03",
+      "XSCL": 0.8800000548362732,
+      "DATA": [-968.4862060546875,-18.090068817138672,-210.9127960205078,0.30000004172325134,5.1831865310668945,1.2000001668930054]
+    },
+    "2-25857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "XSCL": 0.800000011920929,
+      "DATA": [-956.4014892578125,-34.03673553466797,-217.42774963378906,1.0000003576278687,0.8000000715255737,6.08318567276001]
+    },
+    "2-25858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "DATA": [-944.5952758789062,-29.56072235107422,-214.257568359375,1.0000001192092896,0.8000000715255737,6.08318567276001]
+    },
+    "2-25859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "XSCL": 1.0500000715255737,
+      "DATA": [-900.6016235351562,-24.658267974853516,-217.11708068847656,0,0,0]
+    },
+    "2-25860": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_03",
+      "XSCL": 0.8800000548362732,
+      "DATA": [-911.6851196289062,-33.61412811279297,-205.1688232421875,0.8000000715255737,5.783185958862305,0]
+    },
+    "2-25861": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "XSCL": 0.800000011920929,
+      "DATA": [-895.5390014648438,-31.76873016357422,-216.81381225585938,0,0.8000000715255737,4.6831865310668945]
+    },
+    "2-25862": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "DATA": [-892.3336791992188,-16.092105865478516,-211.3550262451172,0,0.8000000715255737,4.6831865310668945]
+    }
+  }
+}

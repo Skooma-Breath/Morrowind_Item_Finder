@@ -1,0 +1,321 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3869262101710230208": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2802655181704113213",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2802655181704113213": {
+      "flag": 0,
+      "PNAM": "3869262101710230208",
+      "NNAM": "2070312325241575312",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "43",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 100
+        }
+      ]
+    },
+    "2070312325241575312": {
+      "flag": 0,
+      "PNAM": "2802655181704113213",
+      "NNAM": "22344226852161226188",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Saryn Sarethi's blade has been returned to him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Enamor",
+          "__TV": 100
+        }
+      ]
+    },
+    "22344226852161226188": {
+      "flag": 0,
+      "PNAM": "2070312325241575312",
+      "NNAM": "92591768378715184",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "So, the blade and note are in Salyn's chest? Good work. I hope you didn't have too much trouble.",
+      "BNAM": "Journal TG_SS_Enamor 100\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "enamorInChest",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Enamor",
+          "__TV": 10
+        }
+      ]
+    },
+    "92591768378715184": {
+      "flag": 0,
+      "PNAM": "22344226852161226188",
+      "NNAM": "224935963700026344",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Just take the blade Enamor and the note I gave you. Put both of them in Salyn Sarethi's chest in the Tower of Dusk at Ghostgate.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Enamor",
+          "__TV": 10
+        }
+      ]
+    },
+    "224935963700026344": {
+      "flag": 0,
+      "PNAM": "92591768378715184",
+      "NNAM": "17465238702697223042",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "This is Enamor. A Guild member stole it from Salyn Sarethi, a noble and generous Buoyant Armiger. The blade was a gift from Vivec himself. We do not want the Thieves Guild to be blamed for this kind of theft. Take this blade and this note. Put them in Salyn Sarethi's chest in the Tower of Dusk in Ghostgate.",
+      "BNAM": "Journal TG_SS_Enamor 10\r\nPlayer->AddItem bk_Enamor 1\r\nPlayer->AddItem Glass_Dagger_Enamor 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "indrele rathryon",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Yngling",
+          "__TV": 100
+        }
+      ]
+    },
+    "17465238702697223042": {
+      "flag": 0,
+      "PNAM": "224935963700026344",
+      "NNAM": "24464289543257920336",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "This is Enamor. A Guild member stole it from Salyn Sarethi, a noble and generous Buoyant Armiger. The blade was a gift from Vivec himself. We do not want the Thieves Guild to be blamed for this kind of theft. Take this blade and this note. Put them in Salyn Sarethi's chest in the Tower of Dusk in Ghostgate.",
+      "BNAM": "Journal TG_SS_Enamor 10\r\nPlayer->AddItem bk_Enamor 1\r\nPlayer->AddItem Glass_Dagger_Enamor 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Generosity2",
+          "__TV": 100
+        }
+      ]
+    },
+    "24464289543257920336": {
+      "flag": 0,
+      "PNAM": "17465238702697223042",
+      "NNAM": "389826103201461712",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "salyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I found the blade with a note from the Bal Molagmer which said the sword was stolen by mistake. I have no love for thieves, but perhaps these new Bal Molagmer are like the Bal Molagmer of the old poems. Honorable thieves, worthy of respect. Only time will tell.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Enamor",
+          "__TV": 100
+        }
+      ]
+    },
+    "389826103201461712": {
+      "flag": 0,
+      "PNAM": "24464289543257920336",
+      "NNAM": "23947167542883012393",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "salyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it was stolen. I did not know anyone else knew. It was a priceless blade, a gift from Vivec himself. I was ashamed to report it.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "23947167542883012393": {
+      "flag": 0,
+      "PNAM": "389826103201461712",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "allding",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeah, that was me. I didn't know Gentleman Jim was such a big fan of Dunmer poetry. He chewed me out for an hour and even recited some of Salyn Sarethi's poems. I won't make THAT mistake again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_SS_Enamor",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

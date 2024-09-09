@@ -1,0 +1,105 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Tarvyn Faren",
+  "SCRI": "tarvynFollow",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_h"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "misc_com_plate_01"
+    },
+    {
+      "count": 2,
+      "name": "misc_com_plate_02"
+    },
+    {
+      "count": 2,
+      "name": "misc_com_plate_03"
+    },
+    {
+      "count": 1,
+      "name": "misc_com_plate_04"
+    },
+    {
+      "count": 2,
+      "name": "misc_com_plate_05"
+    },
+    {
+      "count": 1,
+      "name": "misc_com_plate_06"
+    },
+    {
+      "count": 1,
+      "name": "misc_com_plate_07"
+    },
+    {
+      "count": 2,
+      "name": "misc_com_plate_08"
+    }
+  ],
+  "NPCS": [
+    "rally creature",
+    "rally humanoid",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "divine intervention",
+    "mark",
+    "recall",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "telekinesis",
+    "dispel",
+    "detect_creature",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 106,
+    "magicka": 116,
+    "fatigue": 223,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [64,58,48,64,50,47,54,40],
+    "skills": [36,17,17,17,36,22,17,17,50,6,16,6,6,6,46,6,6,26,41,41,6,31,16,11,41,41,26]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

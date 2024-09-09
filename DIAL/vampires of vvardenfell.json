@@ -1,0 +1,419 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "23534166261371318466": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "24042188102382818527",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have not yet had word from Arch-Mage Trebonius in Vivec. Until then, I must consider you expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 20
+        }
+      ]
+    },
+    "24042188102382818527": {
+      "flag": 0,
+      "PNAM": "23534166261371318466",
+      "NNAM": "111031638113605723",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You were still expelled from the Mages Guild last I heard. Be patient. The Guild does not move quickly here in Vvardenfell.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 10
+        }
+      ]
+    },
+    "111031638113605723": {
+      "flag": 0,
+      "PNAM": "24042188102382818527",
+      "NNAM": "160522884592727406",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I cannot discuss these matters with you. You have been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "160522884592727406": {
+      "flag": 0,
+      "PNAM": "111031638113605723",
+      "NNAM": "175953201983853105",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "I thank you for the book, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_VampVol2",
+          "__TV": 100
+        }
+      ]
+    },
+    "175953201983853105": {
+      "flag": 0,
+      "PNAM": "160522884592727406",
+      "NNAM": "272586348200106962",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is exactly what I was looking for... And it is in good condition, too. I hope 1000 septims will cover your expenses.",
+      "BNAM": "Journal MG_VampVol2 100\r\nPlayer->RemoveItem bk_vampiresofvvardenfell2 1\r\nAdditem bk_vampiresofvvardenfell2 1\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_vampiresofvvardenfell2",
+          "__TV": 0
+        }
+      ]
+    },
+    "272586348200106962": {
+      "flag": 0,
+      "PNAM": "175953201983853105",
+      "NNAM": "22905199071625420923",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh? You have a copy? Bring it to me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "22905199071625420923": {
+      "flag": 0,
+      "PNAM": "272586348200106962",
+      "NNAM": "1818924963110396422",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do not be discouraged. I fear it may take weeks or even months to find a copy.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1818924963110396422": {
+      "flag": 0,
+      "PNAM": "22905199071625420923",
+      "NNAM": "1360912725265552437",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Have you found the second volume yet?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_VampVol2",
+          "__TV": 10
+        }
+      ]
+    },
+    "1360912725265552437": {
+      "flag": 0,
+      "PNAM": "1818924963110396422",
+      "NNAM": "1025827335179053914",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "skinkintreesshade",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "There are two books in this series. The first is common in Morrowind. Most rare booksellers have a copy. The second volume is rare. If you can find a copy of volume two, I would be grateful. You might try a rare bookseller.",
+      "BNAM": "Journal MG_VampVol2 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_EscortScholar1",
+          "__TV": 100
+        }
+      ]
+    },
+    "1025827335179053914": {
+      "flag": 0,
+      "PNAM": "1360912725265552437",
+      "NNAM": "2416267231408013694",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "jobasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is a rare book. The Temple does not like this book, and could punish poor Jobasha if they knew...",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2416267231408013694": {
+      "flag": 0,
+      "PNAM": "1025827335179053914",
+      "NNAM": "950688301031019526",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ordinator wander",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We have many book in the Hall of Justice, but our library is closed to foreigners.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_VampVol2",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_VampVol2",
+          "__TV": 100
+        }
+      ]
+    },
+    "950688301031019526": {
+      "flag": 0,
+      "PNAM": "2416267231408013694",
+      "NNAM": "1018916464320806716",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ordinator stationary",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We have many book in the Hall of Justice, but our library is closed to foreigners.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_VampVol2",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_VampVol2",
+          "__TV": 100
+        }
+      ]
+    },
+    "1018916464320806716": {
+      "flag": 0,
+      "PNAM": "950688301031019526",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Bookseller",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You might find a copy at Jobasha's Rare Books in Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_VampVol2",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_VampVol2",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

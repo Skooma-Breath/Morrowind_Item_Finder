@@ -1,0 +1,248 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "408123122128446361": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "11630124531778831393",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Kaye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mount Kand is in the Molag Amur region. Speak to Nevosi Hlan, shipmaster at the Ebonheart docks. Take a ship to Tel Branora; from there, you can get a ship to Molag Mar. From Molag Mar travel on foot north by roads, watching for signs to Mount Kand. I don't know the region myself, but I've heard it is wild and dangerous, and easy to get lost in.",
+      "BNAM": "ShowMap \"Molag Mar\"\r\nShowMap \"Mount Kand\"",
+      "SCVR": null
+    },
+    "11630124531778831393": {
+      "flag": 0,
+      "PNAM": "408123122128446361",
+      "NNAM": "1051815131787018614",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "atronach_storm_ttmk",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I serve in Mount Kand -- eternally. Like my brethren. Now. Answer my riddle.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1051815131787018614": {
+      "flag": 0,
+      "PNAM": "11630124531778831393",
+      "NNAM": "30144110542529632161",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "atronach_frost_ttmk",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I serve in Mount Kand -- eternally. Like my brethren. Now. Answer my riddle.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "30144110542529632161": {
+      "flag": 0,
+      "PNAM": "1051815131787018614",
+      "NNAM": "6086323792119811837",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "atronach_flame_ttmk",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I ssserve in Mount Kand -- eternally. My riddle ... you will anssswer it. And then you will perish in flames.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "6086323792119811837": {
+      "flag": 0,
+      "PNAM": "30144110542529632161",
+      "NNAM": "2577229328994413670",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharer rotheloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard that you claim to be the Incarnate. I do not know the truth of the matter, but for now I will not give you duties.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "2577229328994413670": {
+      "flag": 0,
+      "PNAM": "6086323792119811837",
+      "NNAM": "22949307441425724768",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharer rotheloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled from the Temple.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "22949307441425724768": {
+      "flag": 0,
+      "PNAM": "2577229328994413670",
+      "NNAM": "24310115101398920473",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharer rotheloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I heard you defeated the Daedra at Mount Kand in a contest of riddles and received Vivec's blessings. I celebrate your success. I have other duties for you when you are ready.",
+      "BNAM": "Journal TT_MountKand 110",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MountKand",
+          "__TV": 100
+        }
+      ]
+    },
+    "24310115101398920473": {
+      "flag": 0,
+      "PNAM": "22949307441425724768",
+      "NNAM": "13349528327226309",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharer rotheloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "As I said, go to Mount Kand and answer the Daedra's riddles. If you answer correctly, you do not have to fight them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MountKand",
+          "__TV": 10
+        }
+      ]
+    },
+    "13349528327226309": {
+      "flag": 0,
+      "PNAM": "24310115101398920473",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tharer rotheloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "I want you to make the Pilgrimage to Mount Kand, which is northwest of Molag Mar. It's on the left side of the trail. I will mark it on your map. On Mount Kand, Vivec won a contest of wits with three Daedra. There are few lights in the caverns. You may need these potions. If you are not good with riddles, you may want to find a copy of \"The Yellow Book of Riddles.\" Several booksellers have this book.",
+      "BNAM": "Journal TT_MountKand 10\r\nShowMap \"Mount Kand\"\r\nPlayer->AddItem \"p_night-eye_q\" 4",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_CuringTouch",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

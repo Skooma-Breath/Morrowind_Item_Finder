@@ -1,0 +1,62 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Merchant",
+  "ANAM": "",
+  "BNAM": "b_n_wood elf_m_head_01",
+  "KNAM": "b_n_wood elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Dead Body",
+  "SCRI": "Sound_Flies",
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 100,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "fenrick's doorjam",
+    "lock",
+    "bound helm",
+    "soul trap"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "health": 0,
+    "magicka": 86,
+    "fatigue": 206,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [47,43,54,51,41,54,44,40],
+    "skills": [5,5,5,5,5,10,5,19,39,5,15,19,5,5,10,5,5,34,7,36,36,26,17,41,7,21,21]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [0,0,0,0,0,0,0,0]
+    }
+  ]
+}

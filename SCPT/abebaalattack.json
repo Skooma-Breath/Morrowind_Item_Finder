@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 135,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin AbebaalAttack\r\n\r\n;makes all slaves in Abebaal attack at once\r\n;easier than making them all follow one another, etc.\r\n\r\n\"seen-rei\"->StartCombat Player\r\n\"dan_ru\"->StartCombat Player\r\n\"eleedal_lei\"->StartCombat Player\r\n\"ahnarra\"->StartCombat Player\r\n\"dro'zah\"->StartCombat Player\r\n\"j'dato\"->StartCombat Player\r\n\r\nStopScript AbebaalAttack\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [12,1,8,115,101,101,110,45,114,101,105,25,16,6,80,108,97,121,101,114,12,1,6,100,97,110,95,114,117,25,16,6,80,108,97,121,101,114,12,1,11,101,108,101,101,100,97,108,95,108,101,105,25,16,6,80,108,97,121,101,114,12,1,7,97,104,110,97,114,114,97,25,16,6,80,108,97,121,101,114,12,1,7,100,114,111,39,122,97,104,25,16,6,80,108,97,121,101,114,12,1,6,106,39,100,97,116,111,25,16,6,80,108,97,121,101,114,28,16,13,65,98,101,98,97,97,108,65,116,116,97,99,107,1,1]
+}

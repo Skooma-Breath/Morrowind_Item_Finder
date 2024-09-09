@@ -1,0 +1,140 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_f_head_02",
+  "KNAM": "b_n_dark elf_f_hair_14",
+  "MODL": null,
+  "FNAM": "Danoso Andrano",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bc_bungler's_bane"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bc_hypha_facia"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bc_coda_flower"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bc_spore_pod"
+    },
+    {
+      "count": -10,
+      "name": "ingred_wickwheat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_roobrush_01"
+    },
+    {
+      "count": -3,
+      "name": "ingred_pearl_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ectoplasm_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_dreugh_wax_01"
+    },
+    {
+      "count": 3,
+      "name": "p_disease_resistance_b"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_paralyzation_s"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_poison_s"
+    },
+    {
+      "count": 1,
+      "name": "p_fire_shield_c"
+    },
+    {
+      "count": -1,
+      "name": "apparatus_j_mortar_01"
+    },
+    {
+      "count": -1,
+      "name": "apparatus_j_retort_01"
+    },
+    {
+      "count": -1,
+      "name": "apparatus_j_alembic_01"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "cure poison",
+    "seryn's gift",
+    "resist fire",
+    "rest of st. merris",
+    "great heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 81,
+    "magicka": 160,
+    "fatigue": 213,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [60,80,51,65,59,37,59,40],
+    "skills": [26,6,6,6,41,11,6,6,11,36,62,17,17,17,22,36,52,17,41,6,6,31,16,11,10,26,6]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

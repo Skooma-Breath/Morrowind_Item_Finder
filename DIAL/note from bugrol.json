@@ -1,0 +1,104 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "403322501421313164": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "604422173542215240",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bashuk gra-bat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeah, I know I got note! And you gave him mine! Good for you, Big Hero. I find him when I damn good and ready!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_Bugrol",
+          "__TV": 100
+        }
+      ]
+    },
+    "604422173542215240": {
+      "flag": 0,
+      "PNAM": "403322501421313164",
+      "NNAM": "2315126544231858736",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bashuk gra-bat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeah, yeah, I got Bugrol's note, and you've got mine for him! What, you can't find him? You not a good finder like me?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_Bugrol",
+          "__TV": 35
+        }
+      ]
+    },
+    "2315126544231858736": {
+      "flag": 0,
+      "PNAM": "604422173542215240",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bashuk gra-bat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeah, that Bugrol always getting in trouble. Not me, though. I'm too smart. He a good hider, but I'm a better finder. I'll find him near tree and rock and other rock. No problem. He feel better if you take this note to him, if you can find him. I bet you not as good a finder as me. Not even close, I bet. But, give it a try, big shot.",
+      "BNAM": "player->addItem \"bk_NoteFromBashuk\" 1\r\nJournal \"MV_Bugrol\" 35\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_Bugrol",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_Bugrol",
+          "__TV": 35
+        }
+      ]
+    }
+  }
+}

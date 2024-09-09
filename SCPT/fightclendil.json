@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 165,
+    "local_var_size": 23
+  },
+  "SCTX": "Begin fightClendil\r\n\r\nShort NoLore\r\nshort doonceA\r\nshort doonceB\r\n \r\nif ( CellChanged == 0 )\r\n    Return\r\nendif\r\n\r\nif ( doonceA == 0 )\r\n\tif ( GetDeadCount \"Salvas Areleth\" == 0 )\r\n\t    StartCombat \"Salvas Areleth\"\r\n\t    set doonceA to 1\r\n\tendif\r\nendif\r\n\r\nif ( doonceB == 0 )\r\n\tif ( GetDeadCount \"Daral Thireloth\" == 0 )\r\n\t    StartCombat \"Daral Thireloth\"\r\n\t    set doonceB to 1\r\n\tendif\r\nendif\r\n\r\nEnd fightClendil",
+  "SCVR": [
+    "NoLore",
+    "doonceA",
+    "doonceB"
+  ],
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,4,9,32,115,2,0,32,61,61,32,48,6,1,2,26,32,88,254,16,32,111,14,83,97,108,118,97,115,32,65,114,101,108,101,116,104,32,61,61,32,48,25,16,14,83,97,108,118,97,115,32,65,114,101,108,101,116,104,5,1,115,2,0,2,32,49,9,1,9,1,6,1,4,9,32,115,3,0,32,61,61,32,48,6,1,2,27,32,88,254,16,32,111,15,68,97,114,97,108,32,84,104,105,114,101,108,111,116,104,32,61,61,32,48,25,16,15,68,97,114,97,108,32,84,104,105,114,101,108,111,116,104,5,1,115,3,0,2,32,49,9,1,9,1,1,1]
+}

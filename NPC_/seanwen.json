@@ -1,0 +1,103 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "",
+  "BNAM": "b_n_high elf_m_head_05",
+  "KNAM": "b_n_high elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Seanwen",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony longsword"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "ebony_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "ebony_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "ebony_shield"
+    },
+    {
+      "count": 1,
+      "name": "ebony_boots"
+    },
+    {
+      "count": 1,
+      "name": "ebony_greaves"
+    },
+    {
+      "count": 1,
+      "name": "ebony_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "ebony_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "ebony_cuirass"
+    }
+  ],
+  "NPCS": [
+    "curse agility",
+    "grave curse: fatigue",
+    "curse health",
+    "curse intelligence",
+    "curse speed",
+    "curse spell points",
+    "curse strength",
+    "weariness",
+    "strength leech",
+    "fire bite",
+    "flamebolt",
+    "alit bite",
+    "shockball"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 350,
+    "magicka": 140,
+    "fatigue": 335,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,70,60,75,78,100,55,40],
+    "skills": [52,20,52,100,68,68,68,68,20,18,18,12,12,12,8,8,18,8,8,8,8,40,55,8,8,8,40]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

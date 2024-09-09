@@ -1,0 +1,1634 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3223332,1056964608]
+  },
+  "NAME": "Mournhold, Trader",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [86,66,58,0],
+    "sunlight": [26,23,21,0],
+    "fog_color": [36,47,49,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "1-13788": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sunel Hlas",
+      "DATA": [5.605232238769531,431.7809753417969,-358.13262939453125,0,0,3.1831860542297363]
+    },
+    "1-24290": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator_mh_stationary",
+      "DATA": [-259.3612365722656,-47.426998138427734,-359.3169250488281,0,0,0.699999988079071]
+    },
+    "1-18026": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_01",
+      "DATA": [0.09735119342803955,-144.32327270507812,-256,0,0,3.1415927410125732]
+    },
+    "1-18027": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,512,0,0,0,3.141592502593994]
+    },
+    "1-18028": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [255.99996948242188,256,0,0,0,1.5707966089248657]
+    },
+    "1-18029": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [255.99996948242188,0.00006103515625,0,0,0,4.71238899230957]
+    },
+    "1-18030": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-0.00003814697265625,0.00006103515625,0,0,0,6.283185005187988]
+    },
+    "1-18031": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_02",
+      "DATA": [-0.00002288818359375,256.00006103515625,0,0,0,1.5707966089248657]
+    },
+    "1-18032": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [0.0000171661376953125,0.0000762939453125,-256,0,0,1.5707966089248657]
+    },
+    "1-18033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_01",
+      "DATA": [-0.00000762939453125,-128,-256,0,0,6.283185005187988]
+    },
+    "1-18034": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,512.0000610351562,0,0,0,1.5707966089248657]
+    },
+    "1-18035": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_stairs_01",
+      "DATA": [-256,256.00006103515625,-128,0,0,4.71238899230957]
+    },
+    "1-18036": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,512.0000610351562,-256,0,0,1.5707966089248657]
+    },
+    "1-18037": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [-0.00000762939453125,512,0,0,0,6.283185005187988]
+    },
+    "1-18038": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,512,-256,0,0,3.141592502593994]
+    },
+    "1-18039": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_center_01",
+      "DATA": [-0.00002288818359375,256.00006103515625,-256,0,0,3.141592502593994]
+    },
+    "1-18040": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [255.99996948242188,256,-256,0,0,1.5707966089248657]
+    },
+    "1-18041": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [255.99996948242188,0.00006103515625,-256,0,0,4.71238899230957]
+    },
+    "1-18042": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [-0.00000762939453125,512,-256,0,0,6.2831854820251465]
+    },
+    "1-18043": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256.00006103515625,0.0001220703125,-256,0,0,6.283185005187988]
+    },
+    "1-18044": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_window_01",
+      "DATA": [-228.85243225097656,-96.12378692626953,-254.61306762695312,0,0,4.71238899230957]
+    },
+    "1-18045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_rail_01",
+      "DATA": [-256,256.00006103515625,0,0,0,4.71238899230957]
+    },
+    "1-21468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bar_02",
+      "ANAM": "mevel fererus",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [94.6232681274414,407.5723571777344,-350.97674560546875,0,0,3.0831875801086426]
+    },
+    "1-21469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_03",
+      "ANAM": "mevel fererus",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [98.2270736694336,343.7075500488281,-350.9635009765625,0,0,3.0831875801086426]
+    },
+    "1-21470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_02_128",
+      "ANAM": "Sunel Hlas",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [74.25027465820312,361.2959899902344,-289.06231689453125,0,0,3.0831875801086426]
+    },
+    "1-21471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "mevel fererus",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [34.336143493652344,339.9718017578125,-350.976806640625,0,0,3.0831875801086426]
+    },
+    "1-21472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [31.907262802124023,347.063720703125,-301.0525207519531,0,0,0.9668147563934326]
+    },
+    "1-21473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_07",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [45.512794494628906,335.8407287597656,-311.7977294921875,0,0,1.133185625076294]
+    },
+    "1-21474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "mevel fererus",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-29.554973602294922,336.2359313964844,-350.976806640625,0,0,3.0831875801086426]
+    },
+    "1-21475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "mevel fererus",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-93.44584655761719,332.5001220703125,-350.976806640625,0,0,3.0831875801086426]
+    },
+    "1-21476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.0099999904632568,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [45.548702239990234,552.1868896484375,-103.11805725097656,0,0,2.8581855297088623]
+    },
+    "1-21477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [14.695394515991211,580.3429565429688,-92.6700439453125,0,0,2.2750000953674316]
+    },
+    "1-21478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [65.14956665039062,578.5018920898438,-92.6700439453125,0,0,2.825000524520874]
+    },
+    "1-21479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [324.31134033203125,285.8038635253906,-340.99945068359375,0,0,0.0853981003165245]
+    },
+    "1-21480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [328.3155822753906,330.9754333496094,-340.99945068359375,0,0,0.28539809584617615]
+    },
+    "1-21481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [326.1053466796875,308.3951110839844,-340.99945068359375,0,0,0.18539810180664062]
+    },
+    "1-21482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [323.38531494140625,261.8738098144531,-302.7992858886719,0,0,4.166372299194336]
+    },
+    "1-21483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [329.0400390625,326.3842468261719,-302.7992858886719,0,0,6.099111557006836]
+    },
+    "1-21484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [325.7114562988281,294.8481140136719,-302.7992858886719,0,0,5.515927314758301]
+    },
+    "1-21485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [323.45880126953125,218.05723571777344,-294.89691162109375,0,0,2.883188486099243]
+    },
+    "1-21486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [325.6650085449219,236.48643493652344,-294.89691162109375,0,0,3.4831881523132324]
+    },
+    "1-21487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [317.7378234863281,179.65602111816406,-308.8129577636719,0,0,3.734243869781494]
+    },
+    "1-21488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [319.25164794921875,198.19363403320312,-308.8129577636719,0,0,0.7663708925247192]
+    },
+    "1-21489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [330.9948425292969,264.2570495605469,-339.94866943359375,0,0,0.6495554447174072]
+    },
+    "1-21490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [314.9263000488281,265.6799621582031,-339.94866943359375,0,0,4.783186912536621]
+    },
+    "1-21491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [329.4781799316406,252.53318786621094,-339.94866943359375,0,0,4.2663726806640625]
+    },
+    "1-21492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [313.40960693359375,253.95616149902344,-339.94866943359375,0,0,0.31681424379348755]
+    },
+    "1-21493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [328.827880859375,240.25062561035156,-339.94866943359375,0,0,4.783186912536621]
+    },
+    "1-21494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [328.3948669433594,228.00930786132812,-339.94866943359375,0,0,4.066371917724609]
+    },
+    "1-21495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [327.348876953125,214.61265563964844,-339.94866943359375,0,0,4.783186912536621]
+    },
+    "1-21496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [311.28045654296875,216.0355682373047,-339.94866943359375,0,0,0.5168143510818481]
+    },
+    "1-21497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Wood_Bowl_05",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [318.54730224609375,223.15426635742188,-252.7084503173828,0,0,1.3831857442855835]
+    },
+    "1-21498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Wood_Bowl_05",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [315.3545837402344,186.67221069335938,-252.7084503173828,0,0,1.2831861972808838]
+    },
+    "1-21499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_04",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [325.2580261230469,300.1178894042969,-252.7084503173828,0,0,1.1668630838394165]
+    },
+    "1-21500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_04",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [322.06011962890625,261.2722473144531,-252.7084503173828,0,0,0.4999988377094269]
+    },
+    "1-21501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "DATA": [322.61907958984375,256.0389099121094,-304.4125671386719,0,0,1.6415936946868896]
+    },
+    "1-21502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [312.75933837890625,241.6735382080078,-339.94866943359375,0,0,2.216815948486328]
+    },
+    "1-21503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_08",
+      "XSCL": 0.89000004529953,
+      "DATA": [366.91180419921875,258.31719970703125,78.68087768554688,0,0,4.6831865310668945]
+    },
+    "1-21504": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "XSCL": 0.8700000643730164,
+      "DATA": [-352.894287109375,-2.945260524749756,-182.64474487304688,0,0,1.500000238418579]
+    },
+    "1-21505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_03",
+      "XSCL": 0.8400000333786011,
+      "DATA": [0.6855572462081909,619.6085815429688,76.93773651123047,0,0,3.183187246322632]
+    },
+    "1-21506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "XSCL": 0.9000000357627869,
+      "DATA": [-329.4443664550781,577.1561279296875,80.98306274414062,0,0,2.299999952316284]
+    },
+    "1-21507": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_12",
+      "XSCL": 0.9200000166893005,
+      "DATA": [366.1248474121094,269.2940673828125,-179.0652618408203,0,0,4.683186054229736]
+    },
+    "1-21508": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_08",
+      "DATA": [275.8643493652344,537.4024047851562,-99.21107482910156,0,0,3.999999523162842]
+    },
+    "1-21509": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [292.78082275390625,551.8306274414062,-49.105934143066406,0,0,5.483185768127441]
+    },
+    "1-21510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [323.9227294921875,443.7414245605469,-83.96088409423828,0,0,1.6000001430511475]
+    },
+    "1-21511": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [179.0196075439453,567.6954345703125,-83.96088409423828,0,0,0.000000014901161193847657]
+    },
+    "1-21512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_food",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-220.27493286132812,450.00079345703125,-342.3642578125,0,0,5.758184909820557]
+    },
+    "1-21513": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_food",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-243.73927307128906,502.6473693847656,-327.34930419921875,0,0,1.2000000476837158]
+    },
+    "1-21514": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 0.8600000143051147,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-152.31845092773438,532.4962158203125,-361.5069580078125,0,0,4.624999523162842]
+    },
+    "1-21515": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_mevelfererus",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-306.0264892578125,449.5606994628906,-351.9999694824219,0,0,1.500000238418579]
+    },
+    "1-21516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_random_pos",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-313.3492126464844,515.6421508789062,-351.9999694824219,0,0,1.500000238418579]
+    },
+    "1-21517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_food",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-314.1107482910156,482.83099365234375,-287.9999694824219,0,0,1.500000238418579]
+    },
+    "1-21518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_empty",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-239.38414001464844,564.8551635742188,-351.9999694824219,0,0,6.233185291290283]
+    },
+    "1-21519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 0.7700000405311584,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-253.13516235351562,564.8995971679688,-304.9291687011719,0,0,1.899999976158142]
+    },
+    "1-21520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 0.7700000405311584,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-254.47109985351562,567.3453979492188,-314.7876281738281,0,0,4.983185291290283]
+    },
+    "1-21521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [316.52581787109375,47.31056594848633,-235.2868194580078,0,0,6.183185577392578]
+    },
+    "1-21522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.440000057220459,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-171.66775512695312,573.6351928710938,-349.56048583984375,0,0,3.3499996662139893]
+    },
+    "1-21523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [168.324462890625,-65.15486145019531,-348.6700439453125,0,0,0.6499999761581421]
+    },
+    "1-21524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_armorbonemold_",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-60.587425231933594,191.62759399414062,-352,0,0,0]
+    },
+    "1-21525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_empty",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-60.451194763183594,264.3498229980469,-352,0,0,6.158185005187988]
+    },
+    "1-21526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.440000057220459,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3.1343095302581787,220.89175415039062,-346.3372497558594,0,0,1.3249999284744263]
+    },
+    "1-21527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [294.57281494140625,116.62503814697266,-348.6700439453125,0,0,0.44999977946281433]
+    },
+    "1-21528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [292.4337158203125,518.6476440429688,-306.1288757324219,0,0,2.9269909858703613]
+    },
+    "1-21529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [315.1097717285156,503.637451171875,-306.1288757324219,0,0,3.7123894691467285]
+    },
+    "1-21530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [292.4337158203125,518.6476440429688,-306.8876647949219,0,0,5.283185958862305]
+    },
+    "1-21531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [315.1097717285156,503.637451171875,-306.8876647949219,0,0,5.283185958862305]
+    },
+    "1-21532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_05",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [266.23883056640625,535.0912475585938,-306.1288757324219,0,0,6.176547050476074]
+    },
+    "1-21533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_05",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [244.5228729248047,549.0331420898438,-306.1288757324219,0,0,5.222565650939941]
+    },
+    "1-21534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_05",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [244.5228729248047,549.0331420898438,-306.8876647949219,0,0,5.283185958862305]
+    },
+    "1-21535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [237.23927307128906,556.795166015625,-257.0859375,0,0,4.883186340332031]
+    },
+    "1-21536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [204.83938598632812,574.9935913085938,-257.0859375,0,0,5.283185958862305]
+    },
+    "1-21537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [297.5736999511719,515.2487182617188,-257.271484375,0,0,4.583186626434326]
+    },
+    "1-21538": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [265.99041748046875,536.00390625,-257.271484375,0,0,5.283185958862305]
+    },
+    "1-21539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [201.5186767578125,588.5948486328125,-356.52239990234375,0,0,5.283185958862305]
+    },
+    "1-21540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [193.5644073486328,575.1439819335938,-356.52239990234375,0,0,5.283185958862305]
+    },
+    "1-21541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [216.04315185546875,579.5635986328125,-356.52239990234375,0,0,2.450444221496582]
+    },
+    "1-21542": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [206.97085571289062,566.5955200195312,-356.52239990234375,0,0,2.5336294174194336]
+    },
+    "1-21543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [228.98880004882812,570.09765625,-356.52239990234375,0,0,3.266371250152588]
+    },
+    "1-21544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [221.03451538085938,556.6467895507812,-356.52239990234375,0,0,5.283185958862305]
+    },
+    "1-21545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [245.6605224609375,560.5515747070312,-356.52239990234375,0,0,5.283185958862305]
+    },
+    "1-21546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [237.04856872558594,546.14599609375,-356.52239990234375,0,0,5.283185958862305]
+    },
+    "1-21547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [258.90570068359375,551.1121215820312,-356.52239990234375,0,0,6.149556636810303]
+    },
+    "1-21548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [250.293701171875,536.7066040039062,-356.52239990234375,0,0,5.283185958862305]
+    },
+    "1-21549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [272.6752014160156,541.1514892578125,-356.52239990234375,0,0,5.283185958862305]
+    },
+    "1-21550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [264.06317138671875,526.7459716796875,-356.52239990234375,0,0,5.566370964050293]
+    },
+    "1-21551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_04",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [312.5458984375,506.66986083984375,-355.56243896484375,0,0,1.5831857919692993]
+    },
+    "1-21552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_04",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [283.9053955078125,525.49951171875,-355.56243896484375,0,0,0.4336295425891876]
+    },
+    "1-21553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_04",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [297.7887268066406,516.16552734375,-355.56243896484375,0,0,3.766371726989746]
+    },
+    "1-21554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [215.9217529296875,560.5824584960938,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [189.3646697998047,577.4181518554688,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [197.0817108154297,588.1688232421875,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21557": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [205.7078857421875,582.8104858398438,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [198.10877990722656,571.859375,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [206.87557983398438,566.7797241210938,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [213.74981689453125,577.1070556640625,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21561": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [222.70132446289062,571.8369140625,-301.9013671875,0,0,5.283185958862305]
+    },
+    "1-21562": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "DATA": [258.25836181640625,541.0486450195312,-304.0849304199219,0,0,3.7123899459838867]
+    },
+    "1-21563": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_pants_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [231.36407470703125,-60.82470703125,-308.9041748046875,0,0,5.312389373779297]
+    },
+    "1-21564": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_pants_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [242.75973510742188,-43.697349548339844,-308.9041748046875,0,0,5.312389373779297]
+    },
+    "1-21565": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_pants_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [255.3572235107422,-21.962251663208008,-309.6033935546875,0,0,5.312389373779297]
+    },
+    "1-21566": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_pants_04",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [267.9038391113281,-7.755639553070068,-308.9041748046875,0,0,5.312389373779297]
+    },
+    "1-21567": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_shirt_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [281.3314208984375,11.712261199951172,-308.9041748046875,0,0,5.312389373779297]
+    },
+    "1-21568": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_shirt_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [293.5806579589844,30.392587661743164,-308.9041748046875,0,0,5.312389373779297]
+    },
+    "1-21569": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_shirt_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [305.4293212890625,48.87730407714844,-309.6033935546875,0,0,5.312389373779297]
+    },
+    "1-21570": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_shoes_04",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [262.6135559082031,-16.881559371948242,-356.9187927246094,0,0,6.097787380218506]
+    },
+    "1-21571": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_shoes_05",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [247.4893798828125,-38.76874542236328,-356.7771911621094,0,0,6.097787380218506]
+    },
+    "1-21572": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_shoes_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [235.12860107421875,-59.24641418457031,-356.8934020996094,0,0,6.097787380218506]
+    },
+    "1-21573": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_skirt_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [276.5529479980469,1.9050078392028809,-358.0750427246094,0,0,5.312389373779297]
+    },
+    "1-21574": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_skirt_02",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [288.8030090332031,21.83180809020996,-356.9412536621094,0,0,5.312389373779297]
+    },
+    "1-21575": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_skirt_03",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [302.8294982910156,40.78363800048828,-356.9412536621094,0,0,5.312389373779297]
+    },
+    "1-21576": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "common_skirt_05",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [315.8078308105469,61.583030700683594,-356.9412536621094,0,0,5.312389373779297]
+    },
+    "1-21577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "DATA": [272.68109130859375,-1.202531337738037,-304.5291748046875,0,0,5.312389850616455]
+    },
+    "1-21578": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.03000009059906,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [311.7180480957031,448.65087890625,-357.0606689453125,0,0,1.5750004053115845]
+    },
+    "1-21579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-112.4079818725586,234.98959350585938,-175.37155151367188,0,0,1.5499999523162842]
+    },
+    "1-21580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_11",
+      "XSCL": 0.8600000143051147,
+      "DATA": [-5.354914665222168,623.0023193359375,-178.26248168945312,0,0,3.124999523162842]
+    },
+    "1-21581": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [288.7419128417969,7.691933631896973,-236.3341522216797,0,0,4.7831854820251465]
+    },
+    "1-21582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [-309.12298583984375,558.5233154296875,5.978767395019531,0,0,1.4750001430511475]
+    },
+    "1-21583": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_01",
+      "XSCL": 1.4500000476837158,
+      "DATA": [122.74353790283203,331.6761169433594,-130.53326416015625,0,0,5.383186340332031]
+    },
+    "1-21584": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.03000009059906,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [94.28728485107422,-41.53195571899414,-68.03829956054688,0,0,4.833186626434326]
+    },
+    "1-21585": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_r_bed_06",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [126.33919525146484,26.08366584777832,-95.90999603271484,0,0,1.6123900413513184]
+    },
+    "1-21586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 0.9800000190734863,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [159.50320434570312,-44.44978713989258,-68.29244232177734,0,0,4.6331868171691895]
+    },
+    "1-21587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_fcloth01",
+      "XSCL": 0.9200000166893005,
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-63.208251953125,261.63250732421875,-51.458473205566406,0,0,4.799999713897705]
+    },
+    "1-21588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_drawers_01_fcloth",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [326.7735595703125,261.28179931640625,-79.32962036132812,0,0,1.6000008583068848]
+    },
+    "1-21589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09_64",
+      "DATA": [327.4989013671875,263.8692321777344,-12.379830360412598,0,0,1.3146015405654907]
+    },
+    "1-21590": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [-1.5569747686386108,-45.43716812133789,-63.96101760864258,0,0,2.7269906997680664]
+    },
+    "1-21591": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.8500000238418579,
+      "DATA": [257.6546630859375,-41.536949157714844,-103.39856719970703,0,0,5.883185386657715]
+    },
+    "1-21592": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [-320.0239562988281,-19.045120239257812,-250.02125549316406,0,0,2.375]
+    },
+    "1-21593": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.8500000238418579,
+      "DATA": [-16.116636276245117,-29.82895278930664,-106.21370697021484,0,0,0.7999998331069946]
+    },
+    "1-21594": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "XSCL": 0.8700000643730164,
+      "DATA": [-54.63203811645508,-82.05303955078125,78.10382843017578,0,0,0.6000001430511475]
+    },
+    "1-21595": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "XSCL": 0.8700000643730164,
+      "DATA": [324.80194091796875,-72.9189224243164,78.2491455078125,0,0,5.58318567276001]
+    },
+    "1-21596": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_01",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [247.72903442382812,-42.88672637939453,-72.21284484863281,0,0,5.283185958862305]
+    },
+    "1-21597": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "Sunel Hlas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [269.1317443847656,-46.07676315307617,-62.94627380371094,0,0,0.0853981003165245]
+    },
+    "1-21598": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [304.7787170410156,396.22802734375,-250.021240234375,0,0,2.7749996185302734]
+    },
+    "1-21599": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_01",
+      "XSCL": 1.4100000858306885,
+      "DATA": [83.10430908203125,279.6365661621094,-386.5332336425781,0,0,5.383186340332031]
+    },
+    "1-25337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [483.7281494140625,87.10124206542969,-44.73028564453125,0,0,3.1415927410125732]
+    },
+    "1-25338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [127.6418685913086,125.51087951660156,111.74803161621094,0,0,4.71238899230957]
+    },
+    "1-25339": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-127.981689453125,379.7021484375,113.30601501464844,0,0,4.71238899230957]
+    },
+    "1-25340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [128.08131408691406,123.55458068847656,-143.57496643066406,0,0,4.71238899230957]
+    },
+    "1-25341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [129.85105895996094,379.3406066894531,-145.2271270751953,0,0,4.71238899230957]
+    }
+  }
+}

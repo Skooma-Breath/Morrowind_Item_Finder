@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Redguard",
+  "CNAM": "Commoner",
+  "ANAM": "",
+  "BNAM": "b_n_redguard_f_head_04",
+  "KNAM": "b_n_redguard_f_hair_02",
+  "MODL": null,
+  "FNAM": "Lette",
+  "SCRI": "BILL_TT_Lette",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 70,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_ring_03"
+    },
+    {
+      "count": 1,
+      "name": "common_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    }
+  ],
+  "NPCS": [
+    "swamp fever"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 68,
+    "magicka": 68,
+    "fatigue": 176,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [45,34,43,36,54,52,69,40],
+    "skills": [19,5,10,10,10,20,10,5,39,5,5,5,5,5,5,5,5,34,21,21,21,7,26,7,36,36,36]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "269491314794623726": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "308873589585940",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Guard",
+      "FNAM": null,
+      "ANAM": "Moonmoth Legion Fort",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're the one Larrius Varro wanted to talk to. You'll find him in the fort.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_balmora",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "town_balmora",
+          "__TV": 15
+        }
+      ]
+    },
+    "308873589585940": {
+      "flag": 0,
+      "PNAM": "269491314794623726",
+      "NNAM": "1113269691042610640",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "1113269691042610640": {
+      "flag": 0,
+      "PNAM": "308873589585940",
+      "NNAM": "24085202841292028941",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "The Writ on Larrius Varro has been executed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritVarro",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "24085202841292028941": {
+      "flag": 0,
+      "PNAM": "1113269691042610640",
+      "NNAM": "1976331762827310505",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Oh? Larrius Varro is already dead? You must have heard about this Writ before me, %PCRank. The full payment is yours.",
+      "BNAM": "Journal MT_WritVarro 100\r\nPlayer->AddItem Gold_001 4000\r\nModPCFacRep 5 \"Morag Tong\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "larrius varro",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritVarro",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "1976331762827310505": {
+      "flag": 0,
+      "PNAM": "24085202841292028941",
+      "NNAM": "253313125156330802",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Excellent work, %PCRank. I heard how cleverly you killed Larrius Varro. As you are the Grandmaster and the executor of the Writ, the full payment must go to you.",
+      "BNAM": "Journal MT_WritVarro 100\r\nPlayer->AddItem Gold_001 4000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritVarro",
+          "__TV": 80
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "253313125156330802": {
+      "flag": 0,
+      "PNAM": "1976331762827310505",
+      "NNAM": "2899935162062922393",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_varro",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritVarro",
+          "__TV": 10
+        }
+      ]
+    },
+    "2899935162062922393": {
+      "flag": 0,
+      "PNAM": "253313125156330802",
+      "NNAM": "170116092516092",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_varro",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritVarro",
+          "__TV": 10
+        }
+      ]
+    },
+    "170116092516092": {
+      "flag": 0,
+      "PNAM": "2899935162062922393",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "With the recent troubles, we have had many Writs issued. The most challenging I have saved for you, %PCRank. This one is for Larrius Varro in Fort Moonmoth near Balmora.",
+      "BNAM": "Journal MT_WritVarro 10\r\nPlayer->AddItem \"writ_varro\" 1",
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBemis",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBrilnosu",
+          "__TV": 100
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritNavil",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

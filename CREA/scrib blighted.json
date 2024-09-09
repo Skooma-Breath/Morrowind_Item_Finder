@@ -1,0 +1,54 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\MineScrib.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 4,
+    "attributes": [30,30,10,30,13,30,30,30],
+    "health": 30,
+    "magicka": 12,
+    "fatigue": 400,
+    "soul_strength": 20,
+    "combat_skill": 50,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [4,12],
+      [4,12],
+      [4,12]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 50,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "scrib",
+  "FNAM": "Blighted Scrib",
+  "SCRI": "diseaseAshChancre",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_scrib_jelly"
+    }
+  ],
+  "NPCS": [
+    "ash-chancre",
+    "scrib_paralysis"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

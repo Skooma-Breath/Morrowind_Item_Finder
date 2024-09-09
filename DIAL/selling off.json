@@ -1,0 +1,813 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "319789851288521531": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "21197137535937144",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good grief, %PCName. Six of the best packrats ever to come out of my stable... dead! And you want me to sell you more? No, sera! I just can't stand it! All that work I put into training them, and you treating them like grocery items? No! It just won't do!",
+      "BNAM": "Journal \"MS_BadPets\" 150",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Rat_pack_rerlas",
+          "__TV": 6
+        }
+      ]
+    },
+    "21197137535937144": {
+      "flag": 0,
+      "PNAM": "319789851288521531",
+      "NNAM": "950336272971226737",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. I don't have any packrats in my stable, and I don't think I'll have any more in the foreseeable future.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "packrats",
+          "__TV": 6
+        }
+      ]
+    },
+    "950336272971226737": {
+      "flag": 0,
+      "PNAM": "21197137535937144",
+      "NNAM": "1592116638714226529",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here is one of my finest pack rats.  He'll follow you around, right behind you, wherever you go. AND he'll carry small burdens for you. But take good care of him. Seems a shame to eat the poor little fellows, after all the trouble I have in capturing them and training them. But.. the customer is always right, and they're yours to do with as you wish.",
+      "BNAM": "PlaceAtPC, rat_pack_rerlas, 1, 256, 0\r\nset packrats to packrats + 1\r\nmessagebox \"Just activate your pack rat to access its inventory.\"\r\nplayer->RemoveItem Gold_001 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Rat_pack_rerlas",
+          "__TV": 3
+        }
+      ]
+    },
+    "1592116638714226529": {
+      "flag": 0,
+      "PNAM": "950336272971226737",
+      "NNAM": "187517143312827253",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. I don't have any more in my stable, and it takes a while to train them. Tell you what. Check by with me later, and I'll see what can be done.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "packrats",
+          "__TV": 3
+        }
+      ]
+    },
+    "187517143312827253": {
+      "flag": 0,
+      "PNAM": "1592116638714226529",
+      "NNAM": "13909264062049812419",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks, %PCRace. Here is your very own pack rat. He'll follow you around, right behind you, wherever you go. AND he'll carry small burdens for you. But take good care of him. They don't grow on trees, you know.",
+      "BNAM": "PlaceAtPC, rat_pack_rerlas, 1, 256, 0\r\nset packrats to packrats + 1\r\nmessagebox \"Just activate your pack rat to access its inventory.\"\r\nplayer->RemoveItem Gold_001 100\r\nJournal \"MS_BadPets\" 110\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 100
+        }
+      ]
+    },
+    "13909264062049812419": {
+      "flag": 0,
+      "PNAM": "187517143312827253",
+      "NNAM": "22464101481207824727",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'd love to sell you one, %PCRace, but it doesn't look like you can afford it. Come back when you have the money and I'll have the creature packaged up and ready to go.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "22464101481207824727": {
+      "flag": 0,
+      "PNAM": "13909264062049812419",
+      "NNAM": "2342017405239945502",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good grief, %PCName. Six of the best rats ever to come out of my stable... dead! And you want me to sell you more? No, sera! I just can't stand it! All that work I put into training them, and you treating them like grocery items? No! It just won't do!",
+      "BNAM": "Journal \"MS_BadPets\" 150",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 25
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Rat_rerlas",
+          "__TV": 6
+        }
+      ]
+    },
+    "2342017405239945502": {
+      "flag": 0,
+      "PNAM": "22464101481207824727",
+      "NNAM": "56379601445614950",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. I don't have any pet rats in my stable, and I don't think I'll have any more in the foreseeable future.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 25
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "rats",
+          "__TV": 6
+        }
+      ]
+    },
+    "56379601445614950": {
+      "flag": 0,
+      "PNAM": "2342017405239945502",
+      "NNAM": "784549684363728",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here is one of my finest pet rats. He'll follow you around, right behind you, wherever you go. But take good care of him. They're hard to train, you know. Seems a shame to eat the poor little fellows, after all the trouble I have in capturing them and training them. But.. the customer is always right, and they're yours to do with as you wish.",
+      "BNAM": "PlaceAtPC, rat_rerlas, 1, 256, 0\r\nset rats to rats + 1\r\nplayer->RemoveItem Gold_001 25\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 25
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Rat_rerlas",
+          "__TV": 3
+        }
+      ]
+    },
+    "784549684363728": {
+      "flag": 0,
+      "PNAM": "56379601445614950",
+      "NNAM": "2969128699121477891",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. I don't have any more in my stable, and it takes a while to train them. Tell you what. Check by with me later, and I'll see what can be done.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 25
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "rats",
+          "__TV": 3
+        }
+      ]
+    },
+    "2969128699121477891": {
+      "flag": 0,
+      "PNAM": "784549684363728",
+      "NNAM": "37445675180273365",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks, %PCRace. Here is your very own rat. He'll follow you around, right behind you, wherever you go. Come back anytime if you need another or want a replacement!",
+      "BNAM": "PlaceAtPC, rat_rerlas, 1, 256, 0\r\nset rats to rats + 1\r\nplayer->RemoveItem Gold_001 25\r\nJournal \"MS_BadPets\" 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 25
+        }
+      ]
+    },
+    "37445675180273365": {
+      "flag": 0,
+      "PNAM": "2969128699121477891",
+      "NNAM": "21321158081103523926",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'd love to sell you one, %PCRace, but it doesn't look like you can afford it. Come back when you have the money and I'll have the creature packaged up and ready to go.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21321158081103523926": {
+      "flag": 0,
+      "PNAM": "37445675180273365",
+      "NNAM": "2632769132444425433",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good grief, %PCName. Six of the best scribs ever to come out of my stable... dead! And you want me to sell you more? No, sera! I just can't stand it! All that work I put into training them, and you treating them like grocery items? No! It just won't do!",
+      "BNAM": "Journal \"MS_BadPets\" 150\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 20
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "scrib_rerlas",
+          "__TV": 6
+        }
+      ]
+    },
+    "2632769132444425433": {
+      "flag": 0,
+      "PNAM": "21321158081103523926",
+      "NNAM": "26787131313203110902",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. I don't have any pet scribs in my stable, and I don't think I'll have any more in the foreseeable future.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 20
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "scribs",
+          "__TV": 6
+        }
+      ]
+    },
+    "26787131313203110902": {
+      "flag": 0,
+      "PNAM": "2632769132444425433",
+      "NNAM": "363712806108417571",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here is one of my finest pet scribs. He'll follow you around, right behind you, wherever you go. But take good care of him. They're hard to train, you know. Seems a shame to eat the poor little fellows, after all the trouble I have in capturing them and training them. But.. the customer is always right, and they're yours to do with as you wish.",
+      "BNAM": "PlaceAtPC, scrib_rerlas, 1, 256, 0\r\nset scribs to scribs + 1\r\nplayer->RemoveItem Gold_001 25\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 20
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "scrib_rerlas",
+          "__TV": 3
+        }
+      ]
+    },
+    "363712806108417571": {
+      "flag": 0,
+      "PNAM": "26787131313203110902",
+      "NNAM": "242467791458318626",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sorry, %PCRace. I don't have any more in my stable, and it takes a while to train them. Tell you what. Check by with me later, and I'll see what can be done.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 20
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "scribs",
+          "__TV": 3
+        }
+      ]
+    },
+    "242467791458318626": {
+      "flag": 0,
+      "PNAM": "363712806108417571",
+      "NNAM": "514524878766931543",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks, %PCRace. Here is your very own scrib. He'll follow you around, right behind you, wherever you go. Come back anytime if you need another or want a replacement!",
+      "BNAM": "PlaceAtPC, scrib_rerlas, 1, 256, 0\r\nset scribs to scribs + 1\r\nplayer->RemoveItem Gold_001 20\r\nJournal \"MS_BadPets\" 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 20
+        }
+      ]
+    },
+    "514524878766931543": {
+      "flag": 0,
+      "PNAM": "242467791458318626",
+      "NNAM": "9640224022394512284",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'd love to sell you one, %PCRace, but it doesn't look like you can afford it. Come back when you have the money and I'll have the creature packaged up and ready to go.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "9640224022394512284": {
+      "flag": 0,
+      "PNAM": "514524878766931543",
+      "NNAM": "2720616721142520270",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, come back anytime you think you need one. I sure could use the business.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2720616721142520270": {
+      "flag": 0,
+      "PNAM": "9640224022394512284",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rerlas mon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's right, you can have a scrib for the low, low price of 20 gold, or a rat for 25. They are trained to follow you and attack anyone who attacks you. OR you can buy my exclusive pack rat for 100 gold. They not only follow and fight, but also carry small burdens. And, in a pinch, you've got fresh meat on the hoof, whenever you need it. What do you say?  Would you like one?",
+      "BNAM": "Choice \"Yes, I'd like to buy a scrib.\" 1 \"Yes, I'd like to buy a rat.\" 2 \"Yes, I'd like to buy your exclusive pack rat.\" 3 \"No, thank you.\" 4",
+      "SCVR": null
+    }
+  }
+}

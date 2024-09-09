@@ -1,0 +1,4786 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [595772,1056964608]
+  },
+  "NAME": "Fort Frostmoth, Imperial Cult Shrine",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,60,60,0],
+    "sunlight": [48,36,12,0],
+    "fog_color": [60,23,9,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "2-10483": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "jeleen",
+      "DATA": [3607.25927734375,4570.1962890625,15875.2880859375,0,0,1.2915436029434204]
+    },
+    "2-19424": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Constans Atrius",
+      "DATA": [3411.280029296875,4092.682373046875,16401.3515625,0,0,1.5707963705062866]
+    },
+    "2-23706": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "antonius nuncius",
+      "DATA": [3754.7421875,3541.27978515625,15889.3515625,0,0,4.783186912536621]
+    },
+    "2-25972": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Carnius Magius",
+      "DATA": [3504.1201171875,4652.88720703125,16407.158203125,0,0,2.999999523162842]
+    },
+    "2-30801": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Imperial Guard",
+      "DATA": [3879.75927734375,3993.122802734375,15915.1220703125,0,0,0]
+    },
+    "2-30802": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Imperial Guard",
+      "DATA": [3458.007568359375,3556.774169921875,16427.123046875,0,0,0]
+    },
+    "2-12405": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_loaddoor_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3200,4096,16000,0,0,0]
+    },
+    "2-12406": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_trapdoor_01a",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4352,4096,16768,0,0,1.5707963705062866]
+    },
+    "2-15234": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_loaddoor_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3968,3328,16000,0,0,4.71238899230957]
+    },
+    "2-15400": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ac_furn_rug_colony",
+      "XSCL": 1.28000009059906,
+      "DATA": [3706.735595703125,4096.720703125,16381.701171875,0,0,0]
+    },
+    "2-32979": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_colony",
+      "XSCL": 1.290000081062317,
+      "DATA": [3316.738037109375,3924.536376953125,16415.880859375,0,0,1.5000001192092896]
+    },
+    "2-32980": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_colony",
+      "XSCL": 1.4100000858306885,
+      "DATA": [3300.037109375,3976.719482421875,16419.587890625,0,0,0.699999988079071]
+    },
+    "2-12407": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [3200,4096,16000,0,0,0]
+    },
+    "2-12408": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3328,4096,16000,0,0,0]
+    },
+    "2-12409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [4096,4096,16000,0,0,3.1415927410125732]
+    },
+    "2-12410": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_01",
+      "DATA": [4352,4096,16256,0,0,0]
+    },
+    "2-12411": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_bot_01",
+      "DATA": [4608,3968,16000,0,0,4.71238899230957]
+    },
+    "2-12412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [4352,4096,15872,0,0,1.5707963705062866]
+    },
+    "2-12413": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_01",
+      "DATA": [4352,4096,16512,0,0,0]
+    },
+    "2-12414": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_01",
+      "DATA": [4352,4096,16768,0,0,6.2831854820251465]
+    },
+    "2-12415": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [4344,4120,16128,0,0,1.5707963705062866]
+    },
+    "2-12416": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [4328,4080,16128,0,0,6.2831854820251465]
+    },
+    "2-12417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [4344,4120,16384,0,0,1.5707963705062866]
+    },
+    "2-12418": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [4096,4096,16512,0,0,3.1415927410125732]
+    },
+    "2-12419": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_end_01",
+      "DATA": [4352,4096,16640,0,0,4.71238899230957]
+    },
+    "2-12420": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [3845.15771484375,3209.05322265625,16084.384765625,0,0,1.5707963705062866]
+    },
+    "2-12421": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_imp_altar_cure_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3406.223388671875,4615.197265625,15872,0,0,1.583187222480774]
+    },
+    "2-12422": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_03_64",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [3418.00439453125,4662.79541015625,15955.3515625,0,0,1.583187222480774]
+    },
+    "2-12423": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_02",
+      "XSCL": 1.690000057220459,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3409.036376953125,4630.7978515625,15949.453125,0,0,1.583187222480774]
+    },
+    "2-12424": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3411.09814453125,4630.4892578125,15951.267578125,0,0,1.583187222480774]
+    },
+    "2-12425": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3388.114013671875,4609.17578125,15953.9345703125,0,0,1.583187222480774]
+    },
+    "2-12431": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_stendarr_01",
+      "DATA": [3260.87451171875,4615.95849609375,16073.576171875,0,0,1.5707963705062866]
+    },
+    "2-12432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_akatosh_01",
+      "DATA": [3461.3955078125,4413.0458984375,16073.7119140625,0,0,0]
+    },
+    "2-12433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3456,3584,16128,0,0,0.00000011920928955078125]
+    },
+    "2-12434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,3584,16128,0,0,0.00000011920928955078125]
+    },
+    "2-12435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3328,4096,16000,0,0,6.283185005187988]
+    },
+    "2-12436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3456,4096,16128,0,0,0.00000011920928955078125]
+    },
+    "2-12437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3968,4096,16128,0,0,3.1415929794311523]
+    },
+    "2-12438": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3968,3584,16128,0,0,3.1415929794311523]
+    },
+    "2-12439": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3968,4608,16128,0,0,3.1415929794311523]
+    },
+    "2-12441": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4608,16128,0,0,1.5707961320877075]
+    },
+    "2-12442": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3456,4608,16128,0,0,0.00000011920928955078125]
+    },
+    "2-12443": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4608,16128,0,0,3.1415929794311523]
+    },
+    "2-12444": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,3584,16128,0,0,4.7123894691467285]
+    },
+    "2-12445": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968.000244140625,4608,16128,0,0,4.71238899230957]
+    },
+    "2-12447": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,3584,16128,0,0,1.5707961320877075]
+    },
+    "2-12448": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3968,3968,16000,0,0,4.71238899230957]
+    },
+    "2-12449": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3968,3712,16000,0,0,1.5707961320877075]
+    },
+    "2-12450": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4096,16128,0,0,0.00000011920928955078125]
+    },
+    "2-12451": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,3584,16128,0,0,3.1415929794311523]
+    },
+    "2-12452": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4096,16128,0,0,3.1415929794311523]
+    },
+    "2-12453": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [3968,3840,16000,0,0,4.71238899230957]
+    },
+    "2-12455": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3456,3584,16640,0,0,0.00000011920928955078125]
+    },
+    "2-12456": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,3584,16640,0,0,0.00000011920928955078125]
+    },
+    "2-12457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3456,4096,16640,0,0,0.00000011920928955078125]
+    },
+    "2-12458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3968,4096,16640,0,0,3.1415929794311523]
+    },
+    "2-12459": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3968,3584,16640,0,0,3.1415929794311523]
+    },
+    "2-12460": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3968,4608,16640,0,0,3.1415929794311523]
+    },
+    "2-12461": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,4608,16640,0,0,3.1415929794311523]
+    },
+    "2-12462": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4608,16640,0,0,1.5707961320877075]
+    },
+    "2-12463": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_4way_01",
+      "DATA": [3456,4608,16640,0,0,0.00000011920928955078125]
+    },
+    "2-12464": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4608,16640,0,0,3.1415929794311523]
+    },
+    "2-12465": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,3584,16640,0,0,4.7123894691467285]
+    },
+    "2-12466": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968.000244140625,4608,16640,0,0,4.71238899230957]
+    },
+    "2-12467": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,3584,16640,0,0,0.00000011920928955078125]
+    },
+    "2-12468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,3584,16640,0,0,1.5707961320877075]
+    },
+    "2-12469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3456,4224,16512,0,0,1.5707961320877075]
+    },
+    "2-12470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3456,4480,16512,0,0,4.71238899230957]
+    },
+    "2-12471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3456,3968,16512,0,0,4.71238899230957]
+    },
+    "2-12472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3456,3712,16512,0,0,1.5707961320877075]
+    },
+    "2-12473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,4096,16640,0,0,0.00000011920928955078125]
+    },
+    "2-12474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,3584,16640,0,0,3.1415929794311523]
+    },
+    "2-12475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,4096,16640,0,0,3.1415929794311523]
+    },
+    "2-12476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,4608,16640,0,0,0.00000011920928955078125]
+    },
+    "2-12477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [3456,4352,16512,0,0,4.71238899230957]
+    },
+    "2-12479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [3456,3840,16512,0,0,4.71238899230957]
+    },
+    "2-12481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4096,16640,0,0,1.5707961320877075]
+    },
+    "2-12482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3456,4608,16128,0,0,6.2831854820251465]
+    },
+    "2-12483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_akatosh_01",
+      "DATA": [3462.220703125,4802.93994140625,16072.65625,0,0,3.1415927410125732]
+    },
+    "2-12484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bench_02",
+      "DATA": [3704.406982421875,4461.953125,15890.8427734375,0,0,3.1831870079040527]
+    },
+    "2-12487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bench_02",
+      "DATA": [3671.832763671875,4748.787109375,15890.8427734375,0,0,6.2663726806640625]
+    },
+    "2-12489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bench_02",
+      "DATA": [4118.74267578125,4353.00927734375,15890.8427734375,0,0,1.583187222480774]
+    },
+    "2-12492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_akatosh_01",
+      "DATA": [4162.71533203125,4604.46533203125,16072.1962890625,0,0,4.71238899230957]
+    },
+    "2-15235": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3967.54443359375,4096.30859375,16653.23828125,0,0,0.7853984832763672]
+    },
+    "2-15236": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3455.42626953125,4095.574951171875,16652.537109375,0,0,0.7853984832763672]
+    },
+    "2-15237": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3711.940673828125,4259.046875,16549.154296875,0,0,3.1415927410125732]
+    },
+    "2-15238": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3706.6123046875,4232.990234375,16428.654296875,0,0,6.239381790161133]
+    },
+    "2-15239": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3708.40234375,3966.8115234375,16428.654296875,0,0,3.3561954498291016]
+    },
+    "2-15240": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3712.057861328125,3932.912841796875,16548.423828125,0,0,0]
+    },
+    "2-15241": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_16",
+      "ANAM": "Carnius Magius",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [3286.91064453125,4574.43212890625,16451.6875,0,0,0.4707975387573242]
+    },
+    "2-15242": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_table_01",
+      "DATA": [3709.56787109375,3580.02978515625,16418.72265625,0,0,6.253982067108154]
+    },
+    "2-15243": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_closet_01_mclothes",
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4028.854248046875,4771.59521484375,16465.966796875,0,0,6.2831854820251465]
+    },
+    "2-15244": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_drawers_01_pos",
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3936.780029296875,4436.56884765625,16432.890625,0,0,3.1415927410125732]
+    },
+    "2-15245": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3711.932861328125,3933.086669921875,16035.6923828125,0,0,0]
+    },
+    "2-15246": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3712.833984375,3962.462646484375,15916.654296875,0,0,3.156195640563965]
+    },
+    "2-15247": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3711.52099609375,4232.03515625,15916.654296875,0,0,6.239381790161133]
+    },
+    "2-15248": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3712.12353515625,4259.0224609375,16036.4228515625,0,0,3.1415927410125732]
+    },
+    "2-15249": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3712.042724609375,4445.18896484375,16037.4443359375,0,0,0]
+    },
+    "2-15250": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3711.901123046875,4770.82177734375,16037.4091796875,0,0,3.1415927410125732]
+    },
+    "2-15251": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3711.8876953125,4445.150390625,16549.77734375,0,0,0]
+    },
+    "2-15252": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3712.223876953125,3747.077392578125,16553.07421875,0,0,3.1415927410125732]
+    },
+    "2-15253": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3712.09326171875,3421.02099609375,16553.359375,0,0,0]
+    },
+    "2-15254": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3967.964111328125,3583.7109375,16652.740234375,0,0,0.7853984832763672]
+    },
+    "2-15255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3456.16455078125,3583.637451171875,16652.70703125,0,0,0.7853984832763672]
+    },
+    "2-15256": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3455.492431640625,4608.6923828125,16653.24609375,0,0,0.7853984832763672]
+    },
+    "2-15257": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3967.659912109375,4608.109375,16652.419921875,0,0,0.7853984832763672]
+    },
+    "2-15258": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3456.059814453125,4608.0322265625,16141.56640625,0,0,0.7853984832763672]
+    },
+    "2-15259": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3968.6162109375,4606.4384765625,16140.865234375,0,0,0.7853984832763672]
+    },
+    "2-15260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3968.822021484375,4095.292236328125,16141.06640625,0,0,0.7853984832763672]
+    },
+    "2-15261": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3455.884521484375,4096.02392578125,16140.109375,0,0,0.7853984832763672]
+    },
+    "2-15262": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3456.0166015625,3583.83056640625,16140.279296875,0,0,0.7853984832763672]
+    },
+    "2-15263": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_RM_Chandelier_05_L_02",
+      "DATA": [3967.77685546875,3584.375732421875,16140.3125,0,0,0.7853984832763672]
+    },
+    "2-15264": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_zenithar_01",
+      "XSCL": 0.9600000381469727,
+      "DATA": [3460.26953125,4291.2841796875,16073.8251953125,0,0,3.1415927410125732]
+    },
+    "2-15265": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_kynareth_01",
+      "XSCL": 0.940000057220459,
+      "DATA": [3454.729248046875,3900.289794921875,16075.876953125,0,0,0]
+    },
+    "2-15266": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_arkay_01",
+      "XSCL": 0.9100000262260437,
+      "DATA": [3791.485595703125,4352.3623046875,16073.1181640625,0,0,1.5707963705062866]
+    },
+    "2-15267": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_dibella_01",
+      "XSCL": 1.2000000476837158,
+      "DATA": [3262.461181640625,4097.67822265625,16691.837890625,0,0,1.5707963705062866]
+    },
+    "2-15268": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_kynareth_01",
+      "XSCL": 0.9200000166893005,
+      "DATA": [3975.05224609375,3899.850341796875,16587.375,0,0,0]
+    },
+    "2-15269": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_ritual_01",
+      "XSCL": 0.8500000238418579,
+      "DATA": [3714.270751953125,4783.00927734375,16588.830078125,0,0,3.1415927410125732]
+    },
+    "2-15270": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_arkay_01",
+      "XSCL": 0.9200000166893005,
+      "DATA": [3971.298095703125,4292.2548828125,16588.78125,0,0,3.1415927410125732]
+    },
+    "2-15271": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01_77",
+      "DATA": [4353.44677734375,4185.63671875,16027.2890625,0,0,3.1415927410125732]
+    },
+    "2-15272": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01_77",
+      "DATA": [4343.41162109375,4209.50634765625,16286.796875,0,0,3.1415927410125732]
+    },
+    "2-15273": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01_77",
+      "DATA": [4351.9599609375,4185.26025390625,16796.8359375,0,0,3.1415927410125732]
+    },
+    "2-15274": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01_77",
+      "DATA": [4350.537109375,4209.857421875,16542.62109375,0,0,3.1415927410125732]
+    },
+    "2-15275": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [4130.94189453125,4352.17431640625,16041.1640625,0,0,4.71238899230957]
+    },
+    "2-15276": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bed_07",
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3711.452392578125,4675.57177734375,16415.298828125,0,0,4.71238899230957]
+    },
+    "2-15277": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [3849.646728515625,4750.99951171875,16411.744140625,0,0,4.612389087677002]
+    },
+    "2-15278": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_05_64",
+      "ANAM": "Carnius Magius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [3841.083251953125,4762.70361328125,16446.431640625,0,0,6.283185005187988]
+    },
+    "2-15279": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_misc01",
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [3710.693115234375,4549.6171875,16405.912109375,0,0,0.00000011920928955078125]
+    },
+    "2-15280": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.100000023841858,
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3673.002685546875,4741.1494140625,16439.41015625,0,0,1.6214114427566528]
+    },
+    "2-15281": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.100000023841858,
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3745.420166015625,4745.140625,16439.41015625,0,0,1.670796513557434]
+    },
+    "2-15282": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [3571.118408203125,4744.5703125,16411.744140625,0,0,4.71238899230957]
+    },
+    "2-15283": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_04",
+      "DATA": [3307.068115234375,4615.728515625,16413.048828125,0,0,4.71238899230957]
+    },
+    "2-15284": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3309.115234375,4742.54541015625,16428.951171875,0,0,5.439382553100586]
+    },
+    "2-15285": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3381.85107421875,4634.21728515625,16428.951171875,0,0,1.4393835067749023]
+    },
+    "2-15286": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3313.457275390625,4492.18115234375,16428.951171875,0,0,4.039382457733154]
+    },
+    "2-15287": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_04",
+      "DATA": [3518.637451171875,3572.025634765625,15901.048828125,0,0,1.5292035341262817]
+    },
+    "2-15288": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3444.688232421875,3550.443359375,15916.654296875,0,0,4.5393829345703125]
+    },
+    "2-15289": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_16",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [3537.06103515625,3614.125,15939.7421875,0,0,3.5707972049713135]
+    },
+    "2-15290": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3589.923095703125,3580.50341796875,15916.9521484375,0,0,1.5561968088150024]
+    },
+    "2-15291": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "XSCL": 1.7600001096725464,
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3316.32861328125,4612.1083984375,16446.783203125,0,0,1.0000001192092896]
+    },
+    "2-15292": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_025",
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 25,
+      "DATA": [3314.67236328125,4609.525390625,16443.748046875,0,0,1.0000001192092896]
+    },
+    "2-15293": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [3834.6787109375,4351.10693359375,15887.94140625,0,0,0]
+    },
+    "2-15294": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "XSCL": 2,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3835.2626953125,4349.96630859375,15921.3203125,0,0,0]
+    },
+    "2-15295": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3754.094970703125,3602.690185546875,16454.427734375,0,0,4.683186054229736]
+    },
+    "2-15296": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_025",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 25,
+      "DATA": [3748.321044921875,3603.942626953125,16454.15234375,0,0,2.183187961578369]
+    },
+    "2-15297": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_025",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 25,
+      "DATA": [3759.800537109375,3601.70556640625,16454.1484375,0,0,4.683186054229736]
+    },
+    "2-15298": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3285.388427734375,3617.373779296875,16413.703125,0,0,1.085398554801941]
+    },
+    "2-15299": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_endurance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.474609375,3592.4501953125,16493.822265625,0,0,1.085398554801941]
+    },
+    "2-15300": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_endurance_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3275.119140625,3608.44384765625,16493.822265625,0,0,0.30000001192092896]
+    },
+    "2-15301": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3278.828857421875,3633.960205078125,16413.703125,0,0,1.085398554801941]
+    },
+    "2-15302": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3284.52587890625,3571.825439453125,16413.703125,0,0,0]
+    },
+    "2-15303": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3279.93896484375,3639.904296875,16493.822265625,0,0,0]
+    },
+    "2-15304": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3284.27685546875,3623.34716796875,16493.822265625,0,0,0.5]
+    },
+    "2-15305": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3284.723388671875,3542.803955078125,16529.08203125,0,0,0]
+    },
+    "2-15306": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3279.588623046875,3521.464599609375,16529.08203125,0,0,0]
+    },
+    "2-15307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3276.109619140625,3531.865234375,16529.08203125,0,0,0]
+    },
+    "2-15308": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3278.540771484375,3630.73876953125,16523.345703125,0,0,0]
+    },
+    "2-15309": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3283.066650390625,3568.01953125,16523.345703125,0,0,0]
+    },
+    "2-15310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3287.421142578125,3596.74072265625,16523.345703125,0,0,0]
+    },
+    "2-15311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.029052734375,3536.794189453125,16400.482421875,0,0,0]
+    },
+    "2-15312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_03",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3281.784423828125,3536.747802734375,16398.494140625,0,0,0]
+    },
+    "2-15313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_cyro_brandy_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.683837890625,3530.752197265625,16448.24609375,0,0,0]
+    },
+    "2-15314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_comberry_wine_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3283.614501953125,3550.61962890625,16450.673828125,0,0,0]
+    },
+    "2-15315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [3282.241455078125,3581.0625,16475.20703125,0,0,4.71238899230957]
+    },
+    "2-15316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.130126953125,3601.0556640625,16453.138671875,0,0,5.8123884201049805]
+    },
+    "2-15317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3288.585205078125,3575.49365234375,16453.138671875,0,0,4.112389087677002]
+    },
+    "2-15318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.9892578125,3593.391845703125,16413.703125,0,0,0]
+    },
+    "2-15319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_table_01",
+      "DATA": [3308.493896484375,4094.53515625,16418.72265625,0,0,1.5707966089248657]
+    },
+    "2-15320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_04",
+      "DATA": [3458.453125,3429.3544921875,16412.708984375,0,0,3.183187484741211]
+    },
+    "2-15321": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_02",
+      "XSCL": 1.1700000762939453,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3411.127685546875,3429.72509765625,16443.19140625,0,0,4.083186626434326]
+    },
+    "2-15322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_02",
+      "XSCL": 1.1700000762939453,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3444.910888671875,3410.2861328125,16443.19140625,0,0,3.183187484741211]
+    },
+    "2-15323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3472.06640625,3424.689453125,16448.517578125,0,0,2.683187961578369]
+    },
+    "2-15324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3486.081787109375,3413.76904296875,16448.517578125,0,0,3.183187484741211]
+    },
+    "2-15325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3506.45361328125,3429.8251953125,16457.30859375,0,0,2.6979856491088867]
+    },
+    "2-15326": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_01_v_potion_p_02",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 45,
+      "DATA": [3576.421630859375,3408.22802734375,16399.65625,0,0,0.04159355163574219]
+    },
+    "2-15327": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01",
+      "DATA": [3297.97265625,3429.356201171875,16521.099609375,0,0,3.9685850143432617]
+    },
+    "2-15328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_03",
+      "XSCL": 1.1700000762939453,
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3312.75537109375,4645.4775390625,16442.94140625,0,0,3.783186912536621]
+    },
+    "2-15329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "XSCL": 0.8100000619888306,
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3312.51611328125,4645.59912109375,16445.33984375,0,0,3.983186721801758]
+    },
+    "2-15330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3301.629150390625,4664.703125,16448.734375,0,0,3.183187484741211]
+    },
+    "2-15331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4025.355712890625,3409.077880859375,16495.529296875,0,0,5.797787666320801]
+    },
+    "2-15332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_endurance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3994.025634765625,3412.922607421875,16493.71484375,0,0,5.797787666320801]
+    },
+    "2-15333": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_endurance_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3978.031982421875,3405.567138671875,16493.71484375,0,0,5.012389183044434]
+    },
+    "2-15334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4008.769287109375,3402.518310546875,16495.529296875,0,0,5.797787666320801]
+    },
+    "2-15335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3939.092041015625,3416.784423828125,16453.65625,0,0,4.71238899230957]
+    },
+    "2-15336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3932.00732421875,3408.654541015625,16493.71484375,0,0,4.71238899230957]
+    },
+    "2-15337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3948.564453125,3412.992431640625,16493.71484375,0,0,5.21238899230957]
+    },
+    "2-15338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4012.87744140625,3412.365966796875,16528.974609375,0,0,4.71238899230957]
+    },
+    "2-15339": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4034.216796875,3407.231201171875,16528.974609375,0,0,4.71238899230957]
+    },
+    "2-15340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4023.816162109375,3403.752197265625,16528.974609375,0,0,4.71238899230957]
+    },
+    "2-15341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3924.942626953125,3406.183349609375,16523.23828125,0,0,4.71238899230957]
+    },
+    "2-15342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3987.661865234375,3410.709228515625,16523.23828125,0,0,4.71238899230957]
+    },
+    "2-15343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3958.940673828125,3415.063720703125,16523.23828125,0,0,4.71238899230957]
+    },
+    "2-15344": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4018.88720703125,3409.671630859375,16400.375,0,0,4.71238899230957]
+    },
+    "2-15345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_03",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4018.93359375,3409.427001953125,16398.38671875,0,0,4.71238899230957]
+    },
+    "2-15346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_cyro_brandy_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4024.92919921875,3410.326416015625,16448.138671875,0,0,4.71238899230957]
+    },
+    "2-15347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_comberry_wine_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4005.061767578125,3411.257080078125,16450.56640625,0,0,4.71238899230957]
+    },
+    "2-15348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [3974.618896484375,3409.884033203125,16475.099609375,0,0,3.1415929794311523]
+    },
+    "2-15349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3954.625732421875,3413.772705078125,16412.09375,0,0,4.241591453552246]
+    },
+    "2-15350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3980.187744140625,3416.227783203125,16412.09375,0,0,2.541592597961426]
+    },
+    "2-15351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3917.525634765625,3413.247802734375,16453.65625,0,0,4.71238899230957]
+    },
+    "2-15352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_drawers_01_pos",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.091796875,3595.45751953125,16433.013671875,0,0,1.5707963705062866]
+    },
+    "2-15353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3928.11865234375,3761.4443359375,16495.484375,0,0,2.6561942100524902]
+    },
+    "2-15354": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_endurance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3989.186279296875,3760.57470703125,16411.736328125,0,0,2.6561942100524902]
+    },
+    "2-15355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_endurance_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3975.4423828125,3764.955078125,16493.669921875,0,0,1.870795726776123]
+    },
+    "2-15356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3944.705078125,3768.00390625,16495.484375,0,0,2.6561942100524902]
+    },
+    "2-15357": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4014.7275390625,3757.60791015625,16453.484375,0,0,1.5707964897155762]
+    },
+    "2-15358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4037.7294921875,3761.39794921875,16411.65625,0,0,1.5707964897155762]
+    },
+    "2-15359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_disease_resistance_b",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4021.17236328125,3757.06005859375,16411.65625,0,0,2.070796489715576]
+    },
+    "2-15360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3940.596923828125,3758.15625,16528.9296875,0,0,1.5707964897155762]
+    },
+    "2-15361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3919.257568359375,3763.291015625,16528.9296875,0,0,1.5707964897155762]
+    },
+    "2-15362": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3929.658203125,3766.77001953125,16528.9296875,0,0,1.5707964897155762]
+    },
+    "2-15363": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4028.53173828125,3764.3388671875,16523.193359375,0,0,1.5707964897155762]
+    },
+    "2-15364": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3965.8125,3759.81298828125,16523.193359375,0,0,1.5707964897155762]
+    },
+    "2-15365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3994.53369140625,3755.45849609375,16523.193359375,0,0,1.5707964897155762]
+    },
+    "2-15366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3934.587158203125,3760.8505859375,16400.330078125,0,0,1.5707964897155762]
+    },
+    "2-15367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_03",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3934.540771484375,3761.09521484375,16398.341796875,0,0,1.5707964897155762]
+    },
+    "2-15368": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_cyro_brandy_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3928.545166015625,3760.19580078125,16448.09375,0,0,1.5707964897155762]
+    },
+    "2-15369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_comberry_wine_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3948.41259765625,3759.26513671875,16450.521484375,0,0,1.5707964897155762]
+    },
+    "2-15370": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [3978.85546875,3760.63818359375,16475.0546875,0,0,6.283185005187988]
+    },
+    "2-15371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3957.0986328125,3757.3583984375,16412.048828125,0,0,1.0999979972839355]
+    },
+    "2-15372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3997.14892578125,3762.8876953125,16452.126953125,0,0,5.683184623718262]
+    },
+    "2-15373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4035.94873046875,3757.2744140625,16453.611328125,0,0,1.5707964897155762]
+    },
+    "2-15374": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "XSCL": 1.7600001096725464,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3730.666748046875,3588.654052734375,16458.55859375,0,0,5.71238899230957]
+    },
+    "2-15375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_025",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 25,
+      "DATA": [3733.249755859375,3586.997802734375,16455.5234375,0,0,5.71238899230957]
+    },
+    "2-15376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_03",
+      "XSCL": 1.1700000762939453,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3663.597412109375,3591.73681640625,16454.578125,0,0,2.2123899459838867]
+    },
+    "2-15377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3644.371826171875,3580.610595703125,16460.208984375,0,0,1.6123915910720825]
+    },
+    "2-15378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_16",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [3734.642822265625,3565.89208984375,16463.1484375,0,0,5.1831865310668945]
+    },
+    "2-15379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3284.067626953125,3536.56982421875,16483.376953125,0,0,0]
+    },
+    "2-15380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_03",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3283.822998046875,3536.5234375,16480.69921875,0,0,0]
+    },
+    "2-15381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3281.806396484375,3566.931640625,16483.10546875,0,0,0]
+    },
+    "2-15382": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_03",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3281.561767578125,3566.88525390625,16480.427734375,0,0,0]
+    },
+    "2-15383": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.596923828125,3638.907470703125,16444.349609375,0,0,0]
+    },
+    "2-15384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3273.983154296875,3627.96875,16444.349609375,0,0,0]
+    },
+    "2-15385": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Cup_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3277.462158203125,3617.568115234375,16444.349609375,0,0,0]
+    },
+    "2-15386": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "XSCL": 2,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3695.384765625,3565.318359375,16457.455078125,0,0,0]
+    },
+    "2-15387": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "XSCL": 0.8100000619888306,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3691.345458984375,3557.618408203125,16456.22265625,0,0,3.983186721801758]
+    },
+    "2-15388": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "XSCL": 0.9900000691413879,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3696.0927734375,3568.30712890625,16459.787109375,0,0,3.3831868171691895]
+    },
+    "2-15389": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_03_64",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [3298.6181640625,4046.537109375,16462.0390625,0,0,1.583187222480774]
+    },
+    "2-15390": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_03_64",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [3303.540283203125,4140.0849609375,16462.017578125,0,0,1.583187222480774]
+    },
+    "2-15391": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3315.3798828125,3732.721923828125,16428.951171875,0,0,5.439382076263428]
+    },
+    "2-15392": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3851.0185546875,3424.545166015625,16428.951171875,0,0,3.2393829822540283]
+    },
+    "2-15393": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01",
+      "DATA": [4131.83984375,3725.572509765625,16521.04296875,0,0,3.9685850143432617]
+    },
+    "2-15394": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "XSCL": 1.630000114440918,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4010.121337890625,3772.74072265625,16497.16796875,4.983186721801758,0,1.5707964897155762]
+    },
+    "2-15395": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_pitcher",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4136.02734375,3633.353271484375,16497.45703125,0,0,2.541592597961426]
+    },
+    "2-15396": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "XSCL": 1.7600001096725464,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4142.95947265625,3601.54150390625,16487.107421875,0,0,5.71238899230957]
+    },
+    "2-15397": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "XSCL": 1.7600001096725464,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.44384765625,3571.064208984375,16487.107421875,0,0,5.71238899230957]
+    },
+    "2-15398": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "XSCL": 2,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3321.705322265625,4091.549560546875,16455.5,0,0,0]
+    },
+    "2-15399": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [3835.170654296875,4349.05810546875,15916.8876953125,0,0,0.6831880211830139]
+    },
+    "2-15401": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "DATA": [3372.25732421875,4608.81494140625,16382.203125,0,0,1.3000000715255737]
+    },
+    "2-15402": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_02",
+      "XSCL": 0.9300000667572021,
+      "DATA": [3987.881103515625,4611.12255859375,16382.328125,0,0,5.783185958862305]
+    },
+    "2-15403": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_09",
+      "XSCL": 1.5800000429153442,
+      "DATA": [3708.14111328125,3592.080810546875,16384.083984375,0,0,0]
+    },
+    "2-15404": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_07",
+      "XSCL": 1.340000033378601,
+      "DATA": [3714.32373046875,3587.34716796875,15872.103515625,0,0,0]
+    },
+    "2-15405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.4000000953674316,
+      "DATA": [3686.568603515625,4610.103515625,15872.083984375,0,0,0]
+    },
+    "2-15406": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "XSCL": 1.1500000953674316,
+      "DATA": [3690.674560546875,4092.81494140625,15870.203125,0,0,0]
+    },
+    "2-15407": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [4119.86376953125,4604.9619140625,15899.7451171875,0,0,0]
+    },
+    "2-15408": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Imp_Silverware_Bowl",
+      "XSCL": 2,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4120.44775390625,4603.8212890625,15933.2373046875,0,0,0]
+    },
+    "2-15409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_08",
+      "DATA": [3991.974853515625,4321.46142578125,15870.203125,0,0,4.7831854820251465]
+    },
+    "2-15412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3521.012451171875,3407.648681640625,16024.98828125,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15413": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.89000004529953,
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3471.932861328125,3412.845458984375,16018.73046875,0,0,1.9146021604537964]
+    },
+    "2-15415": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3448.80419921875,3413.854736328125,15944.537109375,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15416": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_MysteriousAkavir",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3477.068603515625,3410.99951171875,15934.2216796875,0,0,1.5292037725448608]
+    },
+    "2-15417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_MysteriousAkavir",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3499.45703125,3412.73046875,15894.93359375,0,0,1.429203987121582]
+    },
+    "2-15418": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ArcanaRestored",
+      "XSCL": 0.7600000500679016,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3422.89013671875,3409.406982421875,15900.216796875,0,0,1.699999213218689]
+    },
+    "2-15419": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ArcanaRestored",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3427.57958984375,3410.968505859375,15888.919921875,0,0,4.58318567276001]
+    },
+    "2-15420": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_MysteriousAkavir",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3477.192626953125,3408.68359375,15928.220703125,0,0,1.5292037725448608]
+    },
+    "2-15421": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_MysteriousAkavir",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3502.302734375,3410.86181640625,15888.919921875,0,0,4.7123894691467285]
+    },
+    "2-15422": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ArcanaRestored",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3424.76025390625,3411.2861328125,15894.9287109375,0,0,1.5999995470046997]
+    },
+    "2-15423": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3473.54345703125,3407.591552734375,16013.3818359375,0,0,1.414602279663086]
+    },
+    "2-15424": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4132.82080078125,3567.891845703125,16023.91015625,4.71238899230957,0,0]
+    },
+    "2-15425": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_InvocationOfAzura",
+      "XSCL": 0.9300000667572021,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4138.57080078125,3506.19482421875,15940.9482421875,4.71238899230957,0,0]
+    },
+    "2-15426": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_reflectionsoncultworship...",
+      "XSCL": 0.800000011920929,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4141.12353515625,3511.00244140625,16026.3076171875,4.71238899230957,0,0]
+    },
+    "2-15427": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_specialfloraoftamriel",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4141.8349609375,3590.05810546875,16023.91015625,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-15428": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_specialfloraoftamriel",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4142.9609375,3611.100830078125,16023.91015625,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-15429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_specialfloraoftamriel",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4142.3515625,3605.797607421875,16023.91015625,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-15430": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_specialfloraoftamriel",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4141.57421875,3600.470703125,16023.91015625,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-15431": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_specialfloraoftamriel",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4141.455078125,3595.331787109375,16023.91015625,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-15432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4134.35888671875,3584.09619140625,16023.91015625,4.71238899230957,0,0]
+    },
+    "2-15433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4133.4296875,3578.807861328125,16023.91015625,4.71238899230957,0,0]
+    },
+    "2-15434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4133.8271484375,3573.4130859375,16023.91015625,4.71238899230957,0,0]
+    },
+    "2-15435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8200000524520874,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4133.58154296875,3562.426513671875,16023.91015625,4.71238899230957,0,0]
+    },
+    "2-15436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_reflectionsoncultworship...",
+      "XSCL": 0.800000011920929,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4140.56982421875,3535.667236328125,16026.3076171875,4.71238899230957,0,0]
+    },
+    "2-15437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_reflectionsoncultworship...",
+      "XSCL": 0.800000011920929,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.39306640625,3529.58642578125,16026.3076171875,4.71238899230957,0,0]
+    },
+    "2-15438": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_reflectionsoncultworship...",
+      "XSCL": 0.800000011920929,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4140.84130859375,3523.37646484375,16026.3076171875,4.71238899230957,0,0]
+    },
+    "2-15439": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_reflectionsoncultworship...",
+      "XSCL": 0.800000011920929,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.65625,3517.273193359375,16026.3076171875,4.71238899230957,0,0]
+    },
+    "2-15440": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_InvocationOfAzura",
+      "XSCL": 0.9300000667572021,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4137.06201171875,3481.158203125,15940.9482421875,4.71238899230957,0,0]
+    },
+    "2-15441": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_InvocationOfAzura",
+      "XSCL": 0.9300000667572021,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.31005859375,3487.689453125,15940.9482421875,4.71238899230957,0,0]
+    },
+    "2-15442": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_InvocationOfAzura",
+      "XSCL": 0.9300000667572021,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4137.34619140625,3493.98779296875,15940.9482421875,4.71238899230957,0,0]
+    },
+    "2-15443": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_InvocationOfAzura",
+      "XSCL": 0.9300000667572021,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.58740234375,3500.187255859375,15940.9482421875,4.71238899230957,0,0]
+    },
+    "2-15450": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_SaryonisSermons",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4138.255859375,3515.121826171875,15972.064453125,0,0,0]
+    },
+    "2-15458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrenOfTheSky",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3279.114013671875,3540.650146484375,16024.71484375,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15459": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrenOfTheSky",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.146240234375,3504.544189453125,16024.71484375,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15460": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrenOfTheSky",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3281.926025390625,3510.602294921875,16024.71484375,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15461": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrenOfTheSky",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.743408203125,3516.56689453125,16024.71484375,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15462": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrenOfTheSky",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.892578125,3522.478515625,16024.71484375,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15463": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrenOfTheSky",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3278.30810546875,3528.69921875,16024.71484375,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15464": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrenOfTheSky",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.486083984375,3534.794189453125,16024.71484375,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15465": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3281.69189453125,3583.593505859375,16024.6279296875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15466": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.90625,3547.05517578125,16024.6279296875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15467": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.8515625,3552.998779296875,16024.6279296875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.492431640625,3559.411865234375,16024.6279296875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.754150390625,3564.978515625,16024.6279296875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3279.441650390625,3570.939697265625,16024.6279296875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChildrensAnuad",
+      "XSCL": 0.8700000643730164,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3284.069580078125,3577.076904296875,16024.6279296875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChroniclesNchuleft",
+      "ANAM": "ordinator wander",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3283.05224609375,3564.58056640625,15983.8486328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChroniclesNchuleft",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.47607421875,3525.98291015625,15982.7421875,2.1707963943481445,0,3.1415927410125732]
+    },
+    "2-15474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChroniclesNchuleft",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.51953125,3540.67529296875,15983.8486328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChroniclesNchuleft",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.994140625,3546.42138671875,15983.8486328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChroniclesNchuleft",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.372802734375,3552.3291015625,15983.8486328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ChroniclesNchuleft",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.381591796875,3558.513427734375,15983.8486328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_darkestdarkness",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3284.33740234375,3530.37158203125,15890.5439453125,0,0,3.1415927410125732]
+    },
+    "2-15487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_easternprovincesimpartial",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3284.63671875,3587.2724609375,15942.5498046875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_easternprovincesimpartial",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3283.0986328125,3548.90478515625,15942.5498046875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_easternprovincesimpartial",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.250244140625,3555.0966796875,15942.5498046875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_easternprovincesimpartial",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3285.260009765625,3561.3173828125,15942.5498046875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_easternprovincesimpartial",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3282.337646484375,3567.3125,15942.5498046875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_easternprovincesimpartial",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3283.533203125,3573.085693359375,15942.5498046875,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3288.92333984375,3592.44287109375,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3290.0810546875,3598.48486328125,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3288.714599609375,3604.2900390625,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3290.993408203125,3570.349365234375,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3285.414794921875,3575.7041015625,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3292.558837890625,3581.43505859375,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3288.585693359375,3587.78955078125,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-15501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_fivesongsofkingwulfharth",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3279.86474609375,3609.14794921875,15888.916015625,6.2831854820251465,6.2831854820251465,3.1415927410125732]
+    },
+    "2-15510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [4140.60693359375,3544.197998046875,15963.59375,0,0,1.5707963705062866]
+    },
+    "2-15511": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [3279.66259765625,3568.74072265625,15963.59375,0,0,4.71238899230957]
+    },
+    "2-15512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3337.375244140625,3734.6201171875,15916.654296875,0,0,5.683186054229736]
+    },
+    "2-15514": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_akatosh_01",
+      "XSCL": 0.940000057220459,
+      "DATA": [3442.622314453125,3779.69580078125,16076.1142578125,0,0,3.1415927410125732]
+    },
+    "2-15515": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3712.1494140625,3420.985595703125,16040.5517578125,0,0,0]
+    },
+    "2-15516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_02_128",
+      "DATA": [3712.109619140625,3747.549560546875,16039.556640625,0,0,3.1415927410125732]
+    },
+    "2-15517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bookshelf_02",
+      "DATA": [3460.027099609375,3410.24072265625,15963.59375,0,0,3.1415927410125732]
+    },
+    "2-15518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3515.582763671875,3408.364990234375,16024.98828125,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3504.404052734375,3407.955322265625,16024.98828125,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3509.833740234375,3407.239013671875,16024.98828125,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3493.894287109375,3412.65185546875,16024.98828125,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3499.323974609375,3411.935546875,16024.98828125,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_onoblivion",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3437.20458984375,3410.5888671875,16027.54296875,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_onoblivion",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3431.07763671875,3406.92529296875,16027.54296875,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_onoblivion",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3424.951171875,3406.585205078125,16027.54296875,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_onoblivion",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3519.5087890625,3407.02734375,15984.68359375,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_onoblivion",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3525.6357421875,3410.69091796875,15984.68359375,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_onoblivion",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3513.38232421875,3406.687255859375,15984.68359375,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_onoblivion",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3507.429931640625,3407.12158203125,15984.68359375,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3497.47998046875,3410.677490234375,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3492.05029296875,3411.393798828125,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3486.30126953125,3410.267822265625,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3480.87158203125,3410.984130859375,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3475.79150390625,3414.96435546875,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3470.36181640625,3415.6806640625,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3456.64208984375,3409.384765625,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3451.21240234375,3410.10107421875,15986.072265625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15538": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3462.39111328125,3410.5107421875,15985.869140625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3417.13427734375,3410.025634765625,16028.728515625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3411.38525390625,3408.899658203125,16028.728515625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3405.95556640625,3409.615966796875,16028.728515625,3.1415927410125732,1.5707963705062866,4.71238899230957]
+    },
+    "2-15542": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3442.9755859375,3411.399658203125,15943.71484375,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3437.2294921875,3413.016357421875,15943.71484375,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3431.254638671875,3411.2646484375,15943.71484375,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3423.40966796875,3412.05517578125,15943.71484375,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3393.3701171875,3407.708984375,15943.720703125,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3399.344970703125,3409.460693359375,15943.720703125,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3405.091064453125,3407.843994140625,15943.720703125,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3412.13134765625,3411.2734375,15943.509765625,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BiographyBarenziah1",
+      "XSCL": 0.9100000262260437,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3417.87744140625,3409.65673828125,15943.720703125,0,4.71238899230957,1.5707963705062866]
+    },
+    "2-15551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_fivesongsofkingwulfharth",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4132.84033203125,3506.03515625,15888.919921875,0,0,0.058405399322509766]
+    },
+    "2-15552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_darkestdarkness",
+      "XSCL": 0.9300000667572021,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4136.09228515625,3577.970947265625,15890.2236328125,0,0,0.058405399322509766]
+    },
+    "2-15553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_darkestdarkness",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4135.76318359375,3574.957763671875,15898.837890625,0,0,6.241590976715088]
+    },
+    "2-15554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_darkestdarkness",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4138.4619140625,3519.223388671875,15895.8134765625,0,0,6.241590976715088]
+    },
+    "2-15555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_darkestdarkness",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4132.1201171875,3543.40185546875,15906.6171875,0,0,6.241590976715088]
+    },
+    "2-15556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4136.1884765625,3565.344970703125,15933.314453125,0,0,0.11460196226835251]
+    },
+    "2-15557": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4140.93896484375,3568.10791015625,15928.6494140625,0,0,5.897788047790527]
+    },
+    "2-15558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4142.43701171875,3567.429931640625,15944.00390625,0,0,0.014601707458496094]
+    },
+    "2-15559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4136.3037109375,3570.248046875,15938.6630859375,0,0,6.197787761688232]
+    },
+    "2-15560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_MysteriousAkavir",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3477.230712890625,3408.12353515625,15946.240234375,0,0,1.5292037725448608]
+    },
+    "2-15561": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_MysteriousAkavir",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3481.165283203125,3410.265869140625,15940.23046875,0,0,1.5292037725448608]
+    },
+    "2-15562": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [3822.896484375,3444.516357421875,15921.18359375,0,0,2.7561964988708496]
+    },
+    "2-15563": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01",
+      "DATA": [4102.90234375,3758.01220703125,16008.3095703125,0,0,3.9685850143432617]
+    },
+    "2-15564": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_r_chair_01",
+      "DATA": [4118.88330078125,3697.767333984375,15920.392578125,0,0,1.1561963558197021]
+    },
+    "2-15565": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_torch",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3866.353271484375,3748.971923828125,16417.25390625,0,0,0.30000001192092896]
+    },
+    "2-15566": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3582.91259765625,3752.848876953125,16419.330078125,0,0,0.30000001192092896]
+    },
+    "2-15567": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "XSCL": 1.3000000715255737,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3639.809326171875,3736.239990234375,16429.9296875,0,0,0.8000000715255737]
+    },
+    "2-15568": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "XSCL": 1.3000000715255737,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4128.9716796875,3490.057861328125,16429.814453125,0,0,5.983185768127441]
+    },
+    "2-15569": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4072.227294921875,3463.916748046875,16419.330078125,0,0,5.4831862449646]
+    },
+    "2-15570": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_torch",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4103.53955078125,3416.928955078125,16417.369140625,0,0,0.30000001192092896]
+    },
+    "2-15571": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "XSCL": 0.8400000333786011,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4101.0244140625,3420.758056640625,16475.40234375,0,0,6.08318567276001]
+    },
+    "2-15572": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "XSCL": 0.8400000333786011,
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4122.48974609375,3685.240234375,16413.677734375,0,0,0.5999999046325684]
+    },
+    "2-15573": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_torch",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3350.876708984375,3425.399169921875,16417.369140625,0,0,0.30000001192092896]
+    },
+    "2-15574": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_torch",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3332.177734375,3479.7900390625,16417.25390625,0,0,0.30000001192092896]
+    },
+    "2-15575": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_01",
+      "XSCL": 1.0099999904632568,
+      "ANAM": "Carnius Magius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3396.200927734375,4348,16480,0,0,4.71238899230957]
+    },
+    "2-15576": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_door_01",
+      "CNAM": {
+        "faction_id": "Imperial Legion",
+        "rank": 3
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 30,
+      "DATA": [3396,3836,16480,0,0,4.71238899230957]
+    },
+    "2-15577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [3968,3328,16000,0,0,4.71238899230957]
+    },
+    "2-15578": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_blend_01",
+      "DATA": [3968,3456,16000,0,0,4.712388038635254]
+    },
+    "2-15579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impbig_wall_01",
+      "DATA": [3968,4608,16128,0,0,3.1415929794311523]
+    },
+    "2-15580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_akatosh_01",
+      "DATA": [3971.53466796875,4802.71484375,16072.1962890625,0,0,3.1415929794311523]
+    },
+    "2-15581": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_bench_02",
+      "DATA": [3973.888671875,4769.03173828125,15890.8427734375,0,0,0]
+    },
+    "2-32169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bm_chest_mirisa",
+      "ANAM": "mirisa",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [3562.929931640625,4434.6181640625,15893.9130859375,0,0,3.0892326831817627]
+    },
+    "2-32722": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "DATA": [4137.544921875,3518.392333984375,15942.150390625,0,0,0]
+    },
+    "2-32723": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "XSCL": 0.8600000143051147,
+      "DATA": [3278.161376953125,3507.03662109375,15981.7578125,0,0,0]
+    },
+    "2-32724": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_cure_common_s",
+      "DATA": [3276.773193359375,3614.890380859375,15942.150390625,0,0,0]
+    },
+    "2-32725": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BookSkill_Axe5_open",
+      "DATA": [3505.0849609375,3585.6806640625,15944.0283203125,0,0,2.7831871509552]
+    },
+    "2-32757": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_progressoftruth",
+      "XSCL": 0.7400000095367432,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3526.921142578125,3410.16650390625,16028.2802734375,3.1415927410125732,4.71238899230957,4.7123894691467285]
+    },
+    "2-32758": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_vivecandmephala",
+      "XSCL": 0.8800000548362732,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3398.246826171875,3407.114990234375,16028.658203125,0,4.71238899230957,1.6292030811309814]
+    },
+    "2-32759": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_Anticipations",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3423.4169921875,3408.029052734375,15970.849609375,0,0,1.52920401096344]
+    },
+    "2-32760": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_vivecandmephala",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4140.64111328125,3543.7744140625,15943.330078125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32761": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_vivecandmephala",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.96630859375,3512.2529296875,15943.330078125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32762": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_vivecandmephala",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4138.744140625,3518.688232421875,15943.330078125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32763": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_vivecandmephala",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4137.48046875,3525.0693359375,15943.330078125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32764": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_vivecandmephala",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.32080078125,3531.11474609375,15943.330078125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32765": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_vivecandmephala",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4136.701171875,3537.231689453125,15943.330078125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32766": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_c",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4143.1650390625,3604.83642578125,15984.8486328125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32767": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_c",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4142.25146484375,3610.788818359375,15984.8486328125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32768": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_c",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4138.783203125,3574.707275390625,15984.8486328125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32769": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_c",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4142.9375,3598.80078125,15984.8486328125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32770": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_c",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4140.96630859375,3592.769287109375,15984.8486328125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32771": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_c",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4140.62353515625,3586.59814453125,15984.8486328125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32772": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_c",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4139.82861328125,3580.6455078125,15984.8486328125,4.71238899230957,0,6.2831854820251465]
+    },
+    "2-32773": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_CantatasOfVivec",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3280.43896484375,3610.1435546875,16013.712890625,0,0,3.1415927410125732]
+    },
+    "2-32774": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3287.6533203125,3542.532958984375,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32775": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.034912109375,3505.603759765625,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32776": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.970947265625,3511.628173828125,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32777": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3285.878662109375,3517.8115234375,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32778": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3287.285888671875,3523.9248046875,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32779": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.011962890625,3530.290771484375,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32780": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ConsolationsOfPrayer",
+      "XSCL": 0.8500000238418579,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3289.239990234375,3536.48681640625,15939.6611328125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32781": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_firmament",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3287.894287109375,3593.833251953125,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32782": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_graspingfortune",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.98193359375,3630.559326171875,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32783": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_graspingfortune",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.146484375,3600.120361328125,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32784": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_graspingfortune",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3287.361572265625,3606.023193359375,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32785": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_graspingfortune",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.3095703125,3612.383056640625,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32786": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_graspingfortune",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.096435546875,3618.551025390625,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32787": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_graspingfortune",
+      "XSCL": 0.89000004529953,
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3286.837646484375,3624.500732421875,15982.4892578125,1.5707963705062866,0,3.1415927410125732]
+    },
+    "2-32788": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_HouseOfTroubles_o",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3526.798828125,3529.204345703125,15934.048828125,0,0,0.49999988079071045]
+    },
+    "2-32789": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BookDawnAndDusk",
+      "ANAM": "BM_Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3496.58544921875,3592.38232421875,15932.5400390625,0,0,1.5707963705062866]
+    },
+    "2-33365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BookSkill_Axe5_open",
+      "DATA": [3514.197998046875,3586.40380859375,15937.71484375,0,0,3.0831868648529053]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Publican",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_f_head_02",
+  "KNAM": "b_n_dark elf_f_hair_11",
+  "MODL": null,
+  "FNAM": "Manara Othan",
+  "SCRI": "Pub_Vivec_Lizard",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8208
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_t"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": -10,
+      "name": "random_food"
+    },
+    {
+      "count": -4,
+      "name": "random_drinks_01"
+    },
+    {
+      "count": -6,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": -6,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -6,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": -6,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -4,
+      "name": "potion_cyro_brandy_01"
+    },
+    {
+      "count": -4,
+      "name": "Potion_Cyro_Whiskey_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 77,
+    "magicka": 126,
+    "fatigue": 188,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 350,
+    "attributes": [50,63,36,62,59,40,68,40],
+    "skills": [23,6,23,6,23,11,6,23,11,6,16,6,6,6,11,6,6,6,47,47,15,52,25,20,10,47,32]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 351,
+    "local_var_size": 29
+  },
+  "SCTX": "Begin GaminScript\r\n\r\nshort OnPCHitMe\r\nshort Gaminfollow\r\nshort nolore\r\n\r\nif ( GetJournalIndex \"CO_1\" < 10 )\r\n\treturn\r\nelseif ( GetJournalIndex \"CO_1\" < 30 )\r\n\tif ( Ondeath == 1 )\r\n\t\tJournal CO_1 300\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex \"CO_1\" == 20 )\r\n\tif ( Gaminfollow == 0 )\r\n\t\tAIfollow \"Gidar Verothan\" 0 -198017 160157 800 0\r\n\t\tset gaminfollow to 1\r\n\tendif\r\nendif\r\n\r\nif ( gaminfollow == 1 )\r\n\tif ( GetJournalIndex \"CO_1\" >= 30 )\r\n\t\tif ( GetDistance \"Gidar Verothan\" < 512 )\r\n\t\t\tAiWander 0 0 0 60 30 20 0 0 0 0 0 0\r\n\t\t\tsetalarm 50 \r\n\t\t\tset gaminfollow to 2\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( OnPCHitMe == 1 )\r\n\t\"Gidar Verothan\"->StartCombat Player\r\n\t\"Sabinus Oranius\"->StartCombat Player\r\n\tSetFight 100\r\n\tStartCombat Player\r\nendif\r\n\r\n\r\nEnd GaminScript",
+  "SCVR": [
+    "OnPCHitMe",
+    "Gaminfollow",
+    "nolore"
+  ],
+  "SCDT": [6,1,1,16,32,88,205,16,32,100,4,67,79,95,49,32,60,32,49,48,36,1,8,1,3,16,32,88,205,16,32,100,4,67,79,95,49,32,60,32,51,48,6,1,1,9,32,88,240,16,32,61,61,32,49,204,16,4,67,79,95,49,44,1,255,255,9,1,9,1,6,1,4,17,32,88,205,16,32,100,4,67,79,95,49,32,61,61,32,50,48,6,1,2,9,32,115,2,0,32,61,61,32,48,246,16,14,71,105,100,97,114,32,86,101,114,111,116,104,97,110,0,0,64,96,65,200,64,103,28,72,0,0,72,68,1,5,1,115,2,0,2,32,49,9,1,9,1,6,1,7,9,32,115,2,0,32,61,61,32,49,6,1,5,17,32,88,205,16,32,100,4,67,79,95,49,32,62,61,32,51,48,6,1,3,27,32,88,1,16,32,114,14,71,105,100,97,114,32,86,101,114,111,116,104,97,110,32,60,32,53,49,50,249,16,0,0,0,0,0,0,0,0,0,0,0,0,8,0,30,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,6,17,0,0,72,66,5,1,115,2,0,2,32,50,9,1,9,1,9,1,6,1,4,9,32,115,1,0,32,61,61,32,49,12,1,14,71,105,100,97,114,32,86,101,114,111,116,104,97,110,25,16,6,80,108,97,121,101,114,12,1,15,83,97,98,105,110,117,115,32,79,114,97,110,105,117,115,25,16,6,80,108,97,121,101,114,0,17,0,0,200,66,25,16,6,80,108,97,121,101,114,9,1,1,1]
+}

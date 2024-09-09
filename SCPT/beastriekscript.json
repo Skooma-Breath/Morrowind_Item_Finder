@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 206,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin beastriekScript\r\n\r\n;ENABLES/DISABLES, STARTS COMBAT, SETS RIEKKILLED VARIABLE\r\n\r\nshort doOnce\r\n\r\nif ( OnDeath == 1 )\r\n\tset riekkilled to ( riekkilled + 1 )\r\nendif\r\n\r\nif ( GetDisabled == 0 )\r\n\tif ( GetJournalIndex BM_Beasts < 10 )\r\n\t\tDisable\r\n\tendif\r\nelseif ( GetDisabled == 1 )\r\n\tif ( GetJournalIndex BM_Beasts >= 10 )\r\n\t\tEnable\r\n\tendif\r\nendif\r\n\r\nif ( GetDistance Player <= 1500 )\r\n\tif ( doOnce == 0 )\r\n\t\tStartCombat BM_bear_be_UNIQUE\r\n\t\tset doOnce to 1\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nEnd beastriekScript\r\n",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,1,9,32,88,240,16,32,61,61,32,49,5,1,71,10,114,105,101,107,107,105,108,108,101,100,17,32,71,10,114,105,101,107,107,105,108,108,101,100,32,49,32,43,9,1,6,1,3,9,32,88,220,16,32,61,61,32,48,6,1,1,21,32,88,205,16,32,100,9,66,77,95,66,101,97,115,116,115,32,60,32,49,48,219,16,9,1,8,1,3,9,32,88,220,16,32,61,61,32,49,6,1,1,22,32,88,205,16,32,100,9,66,77,95,66,101,97,115,116,115,32,62,61,32,49,48,218,16,9,1,9,1,6,1,4,21,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,49,53,48,48,6,1,2,9,32,115,1,0,32,61,61,32,48,25,16,17,66,77,95,98,101,97,114,95,98,101,95,85,78,73,81,85,69,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

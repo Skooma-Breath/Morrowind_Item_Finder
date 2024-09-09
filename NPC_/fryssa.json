@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Sorcerer",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_F_head_10",
+  "KNAM": "b_n_nord_f_hair_05",
+  "MODL": null,
+  "FNAM": "Fryssa  ",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_Nordic01_Robe_whitewalk"
+    },
+    {
+      "count": 1,
+      "name": "BM_Nordic02_shoes"
+    },
+    {
+      "count": 1,
+      "name": "bk_fryssajournal"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 0,
+    "magicka": 80,
+    "fatigue": 170,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [40,40,30,60,50,40,30,40],
+    "skills": [5,5,10,5,5,5,5,20,45,5,5,15,10,5,10,5,10,35,10,35,35,20,10,35,10,20,20]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "828715951384012138": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "378148362883618147",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have returned the Glove of Sanguine Swiftblade, one of the 27 Threads of the Webspinner.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_S_Swiftblade",
+          "__TV": 100
+        }
+      ]
+    },
+    "378148362883618147": {
+      "flag": 0,
+      "PNAM": "828715951384012138",
+      "NNAM": "290953272132517159",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "With the return of the Glove of Sanguine Swiftblade, all the Threads of Webspinner have been returned to the Morag Tong. Mephala will bless you with a portion of her skills.",
+      "BNAM": "Journal MT_S_Swiftblade 100\r\nPlayer->RemoveItem SanguineRGloveSwiftblade 1\r\nPlayer->AddSpell SkillMephala_SP\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 25 \"Morag Tong\"\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "ThreadsWebspinner",
+          "__TV": 25
+        }
+      ]
+    },
+    "290953272132517159": {
+      "flag": 0,
+      "PNAM": "378148362883618147",
+      "NNAM": "30630224821256923463",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "The Glove of Sanguine Swiftblade will take its place with the rest of the Threads of the Webspinner. Soon all these Threads will be returned to us by the machinations of Mephala, for all Threads lead to her black hands.",
+      "BNAM": "Journal MT_S_Swiftblade 100\r\nPlayer->RemoveItem SanguineRGloveSwiftblade 1\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "30630224821256923463": {
+      "flag": 0,
+      "PNAM": "290953272132517159",
+      "NNAM": "453812343147971309",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "So you do not truly care for our cause.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "453812343147971309": {
+      "flag": 0,
+      "PNAM": "30630224821256923463",
+      "NNAM": "10531282653014606",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Even though you have been expelled, you have the Glove of Sanguine Swiftblade one of the Threads of the Webspinner. Return the glove to me so that it may once again be dedicated to Mephala's service.",
+      "BNAM": "Choice \"Here it is\" 1 \"Keep it\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguinergloveswiftblade",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "10531282653014606": {
+      "flag": 0,
+      "PNAM": "453812343147971309",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have the Glove of Sanguine Swiftblade one of the Threads of the Webspinner. Return the glove to me so that it may once again be dedicated to Mephala's service.",
+      "BNAM": "Choice \"Here it is\" 1 \"Keep it\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguinergloveswiftblade",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

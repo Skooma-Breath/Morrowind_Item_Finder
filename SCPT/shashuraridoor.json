@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 168,
+    "local_var_size": 5
+  },
+  "SCTX": "Begin shashurariDoor\r\n\r\n;removed from door... assaba bentus now follow you instead.\r\n\r\nshort test\r\n\r\nif ( OnActivate == 0 )\r\n\treturn\r\nendif\r\n\r\nif ( test == -1 ) \r\n\tActivate\r\n\tReturn\r\nendif\r\n\r\nSet test to GetJournalIndex IL_RescueHermit\r\n\r\nif ( test != 25 ) \r\n\tActivate\r\n\tReturn\r\nendif\r\n\r\nif ( GetDeadCount \"Assaba-Bentus\" == 0 )\r\n\t\"Assaba-Bentus\"->Position 86960 -1024 640 225\r\n\tSet test to -1\r\n\tActivate\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "test"
+  ],
+  "SCDT": [6,1,1,9,32,88,24,16,32,61,61,32,48,36,1,9,1,6,1,2,10,32,115,1,0,32,61,61,32,45,49,23,16,36,1,9,1,5,1,115,1,0,23,32,88,205,16,32,100,15,73,76,95,82,101,115,99,117,101,72,101,114,109,105,116,0,6,1,2,10,32,115,1,0,32,33,61,32,50,53,23,16,36,1,9,1,6,1,3,25,32,88,254,16,32,111,13,65,115,115,97,98,97,45,66,101,110,116,117,115,32,61,61,32,48,12,1,13,97,115,115,97,98,97,45,98,101,110,116,117,115,4,16,0,216,169,71,0,0,128,196,0,0,32,68,0,0,97,67,5,1,115,1,0,7,32,45,49,32,49,32,42,23,16,9,1,1,1]
+}

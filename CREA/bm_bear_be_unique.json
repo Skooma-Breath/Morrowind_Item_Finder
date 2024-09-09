@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\bear_blond_larger.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 15,
+    "attributes": [70,50,50,100,15,50,50,80],
+    "health": 900,
+    "magicka": 50,
+    "fatigue": 800,
+    "soul_strength": 50,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 100,
+    "attacks": [
+      [10,40],
+      [10,40],
+      [10,40]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_bear_black",
+  "FNAM": "The Good Beast",
+  "SCRI": "beastbearScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_arrow_riekling_uni"
+    }
+  ],
+  "NPCS": [
+    "BM_bearregen_unique"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

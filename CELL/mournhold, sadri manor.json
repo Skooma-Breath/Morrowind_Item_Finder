@@ -1,0 +1,919 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3223332,1056964608]
+  },
+  "NAME": "Mournhold, Sadri Manor",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [86,66,58,0],
+    "sunlight": [26,23,21,0],
+    "fog_color": [36,47,49,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "1-22864": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Golena Sadri",
+      "DATA": [160.6631317138672,111.2332992553711,-364.02166748046875,0,0,4.58318567276001]
+    },
+    "1-22865": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator_MH_Sadri",
+      "DATA": [-136.0569305419922,124.9068832397461,-107.33961486816406,0,0,1.983185887336731]
+    },
+    "1-22866": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Alvan Llarys",
+      "DATA": [-28.29586410522461,63.6572265625,-368.4093322753906,0,0,5.783184051513672]
+    },
+    "1-22867": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Tadera Andules",
+      "DATA": [118.83489227294922,162.1386260986328,-124.26939392089844,0,0,3.083185911178589]
+    },
+    "1-8571": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-0.27981987595558167,-143.05706787109375,0,0,0,3.1415927410125732]
+    },
+    "1-16832": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_MH_sewer_trapdoor_sadri",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [256,512,-384.1279602050781,0,0,1.5707963705062866]
+    },
+    "1-24288": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_wall_01_sadri",
+      "DATA": [253.49459838867188,399.4093933105469,-256,0,0,4.783186435699463]
+    },
+    "1-8573": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "1-8574": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,0,0,0,0,4.71238899230957]
+    },
+    "1-8575": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,0,0,0,0,6.2831854820251465]
+    },
+    "1-8576": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,512,0,0,0,3.1415929794311523]
+    },
+    "1-8577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,256,0,0,0,1.5707963705062866]
+    },
+    "1-8579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_01",
+      "DATA": [0,-128,0,0,0,0]
+    },
+    "1-8580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_window_01",
+      "DATA": [-223.71768188476562,-94.56002044677734,-8.39279556274414,0,0,4.71238899230957]
+    },
+    "1-8581": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_window_01",
+      "DATA": [348.12078857421875,257.8607177734375,0,0,0,3.1415927410125732]
+    },
+    "1-8582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [256,256,0,0,0,1.5707963705062866]
+    },
+    "1-15980": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [0,0,-256,0,0,3.1415927410125732]
+    },
+    "1-15981": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [-256,256,-256,0,0,4.71238899230957]
+    },
+    "1-15982": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_stairs_01",
+      "DATA": [0,512,-128,0,0,0]
+    },
+    "1-15983": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,512,-256,0,0,1.5707963705062866]
+    },
+    "1-15984": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,0,-256,0,0,0]
+    },
+    "1-15985": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_center_01",
+      "DATA": [0,256,-256,0,0,0]
+    },
+    "1-15986": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,512,-256,0,0,3.141592502593994]
+    },
+    "1-15987": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [256,255.99993896484375,-256,0,0,1.5707966089248657]
+    },
+    "1-15988": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [255.99993896484375,-0.00006103515625,-256,0,0,4.71238899230957]
+    },
+    "1-15989": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_02",
+      "DATA": [0,256,0,0,0,3.1415927410125732]
+    },
+    "1-15990": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_rail_01",
+      "DATA": [0,512,0,0,0,0]
+    },
+    "1-15991": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-55.74492263793945,226.01222229003906,-83.96089935302734,0,0,3.700003147125244]
+    },
+    "1-15992": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_03",
+      "DATA": [21.24066162109375,300.3550720214844,-92.74311065673828,0,0,0.000000476837158203125]
+    },
+    "1-15993": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [107.80982971191406,241.0211639404297,-83.96087646484375,0,0,2.4000003337860107]
+    },
+    "1-15994": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [-163.78062438964844,-12.047256469726562,-127.45002746582031,0,0,4.683187007904053]
+    },
+    "1-15995": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 0.7200000286102295,
+      "DATA": [-224.33168029785156,157.400146484375,-127.93953704833984,0,0,1.6999998092651367]
+    },
+    "1-15996": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [301.01751708984375,561.2584838867188,5.978759765625,0,0,2.2750000953674316]
+    },
+    "1-15997": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "XSCL": 0.9000000357627869,
+      "DATA": [-282.3424987792969,284.6970520019531,-56.101871490478516,0,0,2.4000000953674316]
+    },
+    "1-15998": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-3.152587413787842,364.5758361816406,-182.5279083251953,0,0,3.0831868648529053]
+    },
+    "1-15999": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_02",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-253.84889221191406,309.70404052734375,-14.800910949707031,0,0,3.6831870079040527]
+    },
+    "1-16000": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-289.56072998046875,290.807861328125,-60.06264114379883,0,0,6.183185577392578]
+    },
+    "1-16001": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-300.7441101074219,274.8298645019531,-60.657833099365234,0,0,6.183185577392578]
+    },
+    "1-16002": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-317.73370361328125,258.1095886230469,-58.666812896728516,0,0,6.183185577392578]
+    },
+    "1-16003": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-277.2225341796875,283.3053894042969,-14.800910949707031,0,0,1.100000023841858]
+    },
+    "1-16004": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-323.9004821777344,243.8898162841797,-7.392011642456055,0,0,1.100000023841858]
+    },
+    "1-16005": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-311.4250183105469,255.0204315185547,-7.392011642456055,0,0,4.283186912536621]
+    },
+    "1-16006": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "XSCL": 0.6500000357627869,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-272.7992858886719,293.7685546875,-99.3869400024414,0,0,1.7674291133880615]
+    },
+    "1-16007": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "XSCL": 0.6500000357627869,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-250.0634307861328,304.2789306640625,-99.3869400024414,0,0,1.7674291133880615]
+    },
+    "1-16008": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-293.6472473144531,268.813232421875,-96.71167755126953,0,0,3.1999998092651367]
+    },
+    "1-16009": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-292.025634765625,282.31732177734375,-96.71167755126953,0,0,3.1999998092651367]
+    },
+    "1-16010": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-312.8955078125,248.1457977294922,-96.71167755126953,0,0,3.3999996185302734]
+    },
+    "1-16011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-308.62335205078125,261.0585632324219,-96.71167755126953,0,0,3.3999996185302734]
+    },
+    "1-16012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-269.46234130859375,289.16033935546875,-60.657833099365234,0,0,6.183185577392578]
+    },
+    "1-16013": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-263.4329833984375,307.0606689453125,-60.657833099365234,0,0,6.183185577392578]
+    },
+    "1-16014": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_02",
+      "XSCL": 0.8300000429153442,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [66.27568817138672,374.14373779296875,-2.722424268722534,0,0,0.20000000298023224]
+    },
+    "1-16015": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.6700000166893005,
+      "DATA": [63.438785552978516,379.42388916015625,-40.39870834350586,0,0,0.20000000298023224]
+    },
+    "1-16016": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_plant_01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [21.221799850463867,379.37677001953125,-9.87066650390625,0,0,0]
+    },
+    "1-16017": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.5400000214576721,
+      "DATA": [17.5485897064209,381.82672119140625,-43.27278518676758,0,0,0]
+    },
+    "1-16018": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_drink01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [214.1570281982422,-72.9084701538086,-106.2442855834961,0,0,2.90000057220459]
+    },
+    "1-16019": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_gold_50",
+      "XSCL": 1.090000033378601,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [210.516845703125,-84.4363021850586,-7.504236221313477,0,0,3.1000001430511475]
+    },
+    "1-16020": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_shelf_01",
+      "DATA": [210.123779296875,-86.05792999267578,-3.7242279052734375,0,0,3.1415932178497314]
+    },
+    "1-16021": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-207.3677215576172,-52.843788146972656,-83.84889221191406,0,0,6.15818452835083]
+    },
+    "1-16022": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-265.4488525390625,-56.47547912597656,-92.6700439453125,0,0,0.37499934434890747]
+    },
+    "1-16023": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-299.0068664550781,-12.984062194824219,-92.6700439453125,0,0,4.624999046325684]
+    },
+    "1-16024": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-314.93182373046875,28.37550163269043,-83.84889221191406,0,0,6.15818452835083]
+    },
+    "1-16025": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "XSCL": 0.7500000596046448,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-321.4600830078125,73.71770477294922,-94.88665771484375,0,0,1.774999737739563]
+    },
+    "1-16026": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-245.90444946289062,-12.530326843261719,-101.84530639648438,0,0,0.8668134212493896]
+    },
+    "1-16027": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_fcloth01",
+      "XSCL": 0.940000057220459,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [267.3810729980469,-9.283418655395508,-309.0107421875,0,0,2.200000047683716]
+    },
+    "1-16028": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [308.1827087402344,72.4229736328125,-83.96087646484375,0,0,0.9000004529953003]
+    },
+    "1-16029": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [360.33416748046875,30.272674560546875,79.3435287475586,0,0,4.6831865310668945]
+    },
+    "1-16030": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.7000000476837158,
+      "DATA": [312.3074035644531,-11.67205810546875,-107.739990234375,0,0,4.69999885559082]
+    },
+    "1-16031": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.9000000357627869,
+      "DATA": [1.0735516548156738,309.3746032714844,-357.9514465332031,0,0,3.0999999046325684]
+    },
+    "1-16032": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [-7.727437973022461,319.2295227050781,-313.46014404296875,0,0,0.1438046395778656]
+    },
+    "1-16033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_drawers_01_fcloth",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-0.32974016666412354,-68.7994384765625,-335.3296203613281,0,0,3.099999189376831]
+    },
+    "1-16034": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09_64",
+      "DATA": [-19.06742286682129,-70.52814483642578,-267.8654479980469,0,0,1.4146010875701904]
+    },
+    "1-16035": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [-109.62663269042969,280.2800598144531,-127.4500503540039,0,0,4.8831868171691895]
+    },
+    "1-16036": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09_64",
+      "DATA": [11.898427963256836,316.8359375,-38.883155822753906,0,0,1.814601182937622]
+    },
+    "1-16037": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [314.36114501953125,-12.486944198608398,-68.88788604736328,0,0,0.643804669380188]
+    },
+    "1-16038": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_02",
+      "DATA": [-69.6993637084961,288.802978515625,-365.26434326171875,0,0,6.08318567276001]
+    },
+    "1-16039": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_02",
+      "DATA": [65.5517578125,287.3087158203125,-365.26434326171875,0,0,0.20000001788139343]
+    },
+    "1-16040": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_r_bed_06",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-231.55348205566406,48.85108947753906,-353.0592041015625,0,0,2.1000001430511475]
+    },
+    "1-16042": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [367.8160095214844,476.3562927246094,75.35718536376953,0,0,4.6831865310668945]
+    },
+    "1-16043": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [221.2758026123047,618.8515625,81.31607055664062,0,0,3.0831868648529053]
+    },
+    "1-16044": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [363.4664306640625,251.7413787841797,-180.362548828125,0,0,4.683186054229736]
+    },
+    "1-16045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [1.7018258571624756,-109.66634368896484,-182.68328857421875,0,0,6.28318452835083]
+    },
+    "1-16046": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-364.8724670410156,255.6959228515625,-182.85971069335938,0,0,1.5831867456436157]
+    },
+    "1-16047": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-292.9183044433594,-67.01438903808594,-180.31597900390625,0,0,3.6831862926483154]
+    },
+    "1-16048": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "XSCL": 1.290000081062317,
+      "DATA": [83.16976928710938,155.84779357910156,-130.3176727294922,0,0,0.6999999284744263]
+    },
+    "1-16049": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "XSCL": 0.6500000357627869,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-18.050960540771484,280.082763671875,-53.577178955078125,0,0,2.367428779602051]
+    },
+    "1-16050": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-33.3536262512207,297.8692626953125,-50.90190124511719,0,0,3.799999237060547]
+    },
+    "1-16051": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.3000000715255737,
+      "DATA": [20.56230354309082,155.1096954345703,-383.890869140625,0,0,0.30000001192092896]
+    },
+    "1-16052": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_drink01",
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [318.28790283203125,283.78076171875,-361.39862060546875,0,0,1.5000008344650269]
+    },
+    "1-21011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-235.6566619873047,-32.374481201171875,-327.1121520996094,0,0,4.983186721801758]
+    },
+    "1-21012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 0.8400000333786011,
+      "ANAM": "Golena Sadri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-283.492431640625,-2.378480911254883,-327.01409912109375,0,0,5.283186435699463]
+    },
+    "1-22875": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [131.983154296875,278.844970703125,-383.45001220703125,0,0,4.083188056945801]
+    },
+    "1-25203": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [14.391101837158203,-311.9989318847656,-45.155029296875,0,0,3.1415927410125732]
+    },
+    "1-25204": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [129.58059692382812,123.19698333740234,112.17021942138672,0,0,4.71238899230957]
+    },
+    "1-25205": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-125.90025329589844,122.24370574951172,112.75794219970703,0,0,4.71238899230957]
+    },
+    "1-25206": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-131.31338500976562,123.85984802246094,-142.71475219726562,0,0,4.71238899230957]
+    },
+    "1-25207": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [124.16744232177734,124.81312561035156,-143.30245971679688,0,0,4.71238899230957]
+    }
+  }
+}

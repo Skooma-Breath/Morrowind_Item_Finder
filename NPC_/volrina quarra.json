@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Imperial",
+  "CNAM": "Rogue",
+  "ANAM": "Clan Quarra",
+  "BNAM": "B_V_Imperial_F_Head_01",
+  "KNAM": "b_n_imperial_f_hair_01",
+  "MODL": null,
+  "FNAM": "Volrina Quarra",
+  "SCRI": "Vampire_Quarra",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "glass poisonsword"
+    },
+    {
+      "count": 1,
+      "name": "glass_boots"
+    },
+    {
+      "count": 1,
+      "name": "glass_greaves"
+    },
+    {
+      "count": 1,
+      "name": "glass_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "glass_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "glass_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "l_m_potion"
+    },
+    {
+      "count": 1,
+      "name": "l_b_rings"
+    },
+    {
+      "count": 1,
+      "name": "key_volrina_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "disposition": 50,
+    "reputation": 20,
+    "rank": 9,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

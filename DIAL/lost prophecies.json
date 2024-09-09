@@ -1,0 +1,322 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "113381081227819570": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1756732638309928813",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have told me of these lost prophecies.",
+      "BNAM": ";Nibani Maesa ;Journal \"A2_6_Incarnate\" >= 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 1
+        }
+      ]
+    },
+    "1756732638309928813": {
+      "flag": 0,
+      "PNAM": "113381081227819570",
+      "NNAM": "1522532721216974818",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have these lost prophecies? You will tell me these things, over and over, until I have them by heart. And then you will tell me what these priests say, what they see in these words. And then, you must leave me. Hunt. Sleep. Train. Feed. Learn the land. I must bring these things into me, and place them before my ancestors, and listen to them, and to the skies and stars of my dreams. And then, when the moons have come and gone, return, and I will give you my judgement.",
+      "BNAM": ";Nibani Maesa ;Journal \"A2_4_MiloGone\" >= 50; \r\nmodDisposition 10\r\nplayer->modReputation 1\r\nJournal \"A2_6_Incarnate\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 50
+        }
+      ]
+    },
+    "1522532721216974818": {
+      "flag": 0,
+      "PNAM": "1756732638309928813",
+      "NNAM": "1989213207236428662",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gilvas barelo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We have given you copies of 'Kagrenac's Tools', 'The Lost Prophecy', and 'The Seven Curses'. From what you tell me, you may now have the Lost Prophecies the Wise Woman Nibani Maesa asked you to seek. Perhaps you should share your new knowledge with her.",
+      "BNAM": ";Gilvas Barelo; Journal \"A2_4_MiloGone\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 50
+        }
+      ]
+    },
+    "1989213207236428662": {
+      "flag": 0,
+      "PNAM": "1522532721216974818",
+      "NNAM": "2503712409524725855",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gilvas barelo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We have also prepared a document for you called 'Kagrenac's Tools'. This document will explain to you, and to others, the terrible secret that the Temple conceals about the true history of the Tribunal and the corrupt nature of their divine powers. It is to conceal this secret that the Temple persecutes the Nerevarine and the Dissident Priests. This persecution must stop. We must be united against the true enemy, Dagoth Ur. And if you are the Nerevarine, you must lead us against him.",
+      "BNAM": ";Gilvas Barelo; Journal \"A2_4_MiloGone\" >= 20; 1; \r\nJournal \"A2_4_MiloGone\" 50\r\nJournal \"A2_4_MiloGone\" 49\r\nPlayer->AddItem \"bk_TheLostProphecy\" 1\r\nPlayer->AddItem \"bk_TheSevenCurses\" 1\r\nPlayer->AddItem \"bk_Kagrenac'sTools\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2503712409524725855": {
+      "flag": 0,
+      "PNAM": "1989213207236428662",
+      "NNAM": "1732342042317219446",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gilvas barelo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have reviewed the Apographa, and have found two passages of particular interest. We've made copies of these passages to give you. Many are familiar with the two Nerevarine prophecies current among the Ashlanders called 'The Stranger' and 'The Seven Vision'. We have two other prophecies, 'The Lost Prophecy' and 'The Seven Curses', that may offer additional insights into the riddles surrounding the coming of the Incarnate. Perhaps these are the Lost Prophecies that your friend Nibani Maesa told you about.",
+      "BNAM": ";Gilvas Barelo; Journal \"A2_4_MiloGone\" >= 20; ;Gilvas Barelo; \r\nChoice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 20
+        }
+      ]
+    },
+    "1732342042317219446": {
+      "flag": 0,
+      "PNAM": "2503712409524725855",
+      "NNAM": "28695142411120824609",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ministry of Truth, Holding Cells",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We can't talk now, but in the 'Apographa' -- the hidden teachings of the Temple -- there are several extensive references to 'lost prophecies' -- prophecies no longer current among the Ashlanders, but recorded by earlier Temple pilgrims and scholars. And I think you'll find what you're looking for in the libraries of Holamayan.",
+      "BNAM": ";Mehra Milo;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 1
+        }
+      ]
+    },
+    "28695142411120824609": {
+      "flag": 0,
+      "PNAM": "1732342042317219446",
+      "NNAM": "107302854487736557",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We can't talk now, but in the 'Apographa' -- the hidden teachings of the Temple -- there are several extensive references to 'lost prophecies' -- prophecies no longer current among the Ashlanders, but recorded by earlier Temple pilgrims and scholars. Caius thinks you'll find what you're looking for in the Apographa. And I'm trying to get you access to the Apographa through the Dissident priests.",
+      "BNAM": ";Mehra Milo;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        }
+      ]
+    },
+    "107302854487736557": {
+      "flag": 0,
+      "PNAM": "28695142411120824609",
+      "NNAM": "1389779942076114045",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mehra Milo says the Dissident Priests do have records of Ashlander Nerevarine prophecies, and she has an idea how we might get a look at them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        }
+      ]
+    },
+    "1389779942076114045": {
+      "flag": 0,
+      "PNAM": "107302854487736557",
+      "NNAM": "2619330914230387314",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This sounds like something that Mehra Milo can help me with. I'll have to be careful. I don't want to risk getting her in trouble. But she may be able to find out whether the Dissident Priests do have any records of Ashlander Nerevarine prophecies, and, if so, how we might get a look at them. It may take some time. But I'll let you know when I find out.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        }
+      ]
+    },
+    "2619330914230387314": {
+      "flag": 0,
+      "PNAM": "1389779942076114045",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There are Nerevarine prophecies that have been lost. The Seven Curses. And others. Some are forgotten. Some hidden. Some deliberately lost. The wise women are the memory of the Velothi people. But it is a faulty memory, and we are mortal, and our knowledge dies with us. But we hear that the Dissident Priests of the Temple study our Nerevarine prophecies, and record them in books. Such written words never die. You must go to them and ask for these books, and bring what you find to me.",
+      "BNAM": "Journal \"A2_1_MeetSulMatuul\" 56",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    }
+  }
+}

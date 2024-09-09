@@ -1,0 +1,54 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Kwama Warior.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 7,
+    "attributes": [50,50,50,50,18,50,50,50],
+    "health": 60,
+    "magicka": 30,
+    "fatigue": 400,
+    "soul_strength": 30,
+    "combat_skill": 70,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [7,21],
+      [7,21],
+      [7,21]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "kwama warrior",
+  "FNAM": "Blighted Kwama Warrior",
+  "SCRI": "kwamaShurdan1",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_kwama_cuttle"
+    }
+  ],
+  "NPCS": [
+    "spark",
+    "chanthrax blight"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

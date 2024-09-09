@@ -1,0 +1,126 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Healer Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "B_N_Imperial_M_Head_06",
+  "KNAM": "b_n_imperial_m_hair_00",
+  "MODL": null,
+  "FNAM": "Scelian Plebo",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": -5,
+      "name": "ingred_green_lichen_01"
+    },
+    {
+      "count": -2,
+      "name": "ingred_emerald_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_corprus_weepings_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_chokeweed_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_saltrice_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_rat_meat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_comberry_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bonemeal_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bittergreen_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ash_salts_01"
+    },
+    {
+      "count": 1,
+      "name": "p_disease_resistance_b"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_health_c"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "fire shield",
+    "lightning shield",
+    "frost shield",
+    "Zenithar_gospel",
+    "balyna's antidote",
+    "calm creature",
+    "calm humanoid",
+    "charisma",
+    "feet of notorgo",
+    "fortitude",
+    "wisdom",
+    "jack of trades",
+    "iron will",
+    "vigor",
+    "resist fire",
+    "resist frost",
+    "resist poison",
+    "resist magicka",
+    "resist paralysis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 64,
+    "magicka": 94,
+    "fatigue": 188,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [48,47,59,37,51,44,70,40],
+    "skills": [6,6,6,6,26,16,6,6,6,14,14,44,29,14,44,44,29,29,6,6,6,26,6,6,10,46,41]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

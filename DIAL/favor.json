@@ -1,0 +1,1067 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "23066108981558011850": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "17006234403263719357",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. The box was just what I was looking for.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 10
+        }
+      ]
+    },
+    "17006234403263719357": {
+      "flag": 0,
+      "PNAM": "23066108981558011850",
+      "NNAM": "3236710700194205911",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perfect. Just what I was looking for. Just let me take this Dwemer puzzle box, and then I'll tell you what Caius will want to know about the Sixth House. And about the Nerevarine. By the way, the inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If you're interested, after you've delivered your report to Caius, come back, and maybe I'll have a key you can take back to Arkngthand.",
+      "BNAM": "Player->RemoveItem, \"misc_dwrv_Ark_cube00\", 1\r\nJournal, \"A1_2_AntabolisInformant\", 10\r\nmoddisposition 10",
+      "SCVR": [
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_dwrv_ark_cube00",
+          "__TV": 1
+        }
+      ]
+    },
+    "3236710700194205911": {
+      "flag": 0,
+      "PNAM": "17006234403263719357",
+      "NNAM": "266351095457551500",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Right. As I said, get me the Dwemer puzzle box from Arkngthand, and I'll tell you what you want to know.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "266351095457551500": {
+      "flag": 0,
+      "PNAM": "3236710700194205911",
+      "NNAM": "1427024818124768213",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There are Dwemer ruins nearby called Arkngthand. I need you to run over there and find me a little cube with a circular design and some symbols on one side. It's called 'a Dwemer puzzle box'. Bring me back the Dwemer puzzle box, and I'll tell you what you want to know.",
+      "BNAM": "Journal, \"A1_2_AntabolisInformant\", 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "1427024818124768213": {
+      "flag": 0,
+      "PNAM": "266351095457551500",
+      "NNAM": "21620292953016531237",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must REALLY think I'm dense, %PCRace. Like YOU could put together a whole suit of Daedric Armor! I'm sure you just think you're so funny, don't you? Well, I'll teach you to laugh at me! You just wait, %PCName. I'll get you when you least expect it!!!",
+      "BNAM": "Journal MS_Natural 10\r\nStartScript GaenorTimer\r\nsetdisposition 10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 16
+        }
+      ]
+    },
+    "21620292953016531237": {
+      "flag": 0,
+      "PNAM": "1427024818124768213",
+      "NNAM": "1077923272908815004",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry, what? Oh, come on. Look at you! I'm sure you've got a whole stash of ebony weapons someplace! Probably have your own Ebony mine! I know you can spare it, so hand it over!",
+      "BNAM": "Choice: \"Fine, take it.\" 14 \"I said no.\" 12",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 15
+        }
+      ]
+    },
+    "1077923272908815004": {
+      "flag": 0,
+      "PNAM": "21620292953016531237",
+      "NNAM": "26515240481753828440",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wow. What a great sword. I've held a few swords in my lifetime, but this... this is exquisite. Okay, clearly you've got some connections. How about getting me, your good friend, a full suit of Daedric armor? I'm sure there's enough floating around that you can find it, and get it for me. What do you say?",
+      "BNAM": "player->removeitem \"ebony shortsword\" 1\r\nChoice: \"Sure, I'll do that.\" 16 \"No, I don't think so.\" 12",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 14
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ebony shortsword",
+          "__TV": 0
+        }
+      ]
+    },
+    "26515240481753828440": {
+      "flag": 0,
+      "PNAM": "1077923272908815004",
+      "NNAM": "24729302372747010443",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What, you don't have one? Well, then don't offer me something you don't have! Sheesh. Some people. But listen. I don't need the sword all that badly, so it's okay. What I could REALLY use is a full suit of Daedric armor. I'm sure you've got an extra lying around someplace, right? Or you could dig one up for me? How about it, %PCName?",
+      "BNAM": "Choice: \"Sure, I'll get right on that.\" 16 \"No. Sorry.\" 12",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 14
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ebony shortsword",
+          "__TV": 0
+        }
+      ]
+    },
+    "24729302372747010443": {
+      "flag": 0,
+      "PNAM": "26515240481753828440",
+      "NNAM": "19686209801618223790",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you really think I'm that stupid? No one walks around with a million gold on them; that's ludicrous! I won't stand for this kind of patronizing! I WILL NOT BE MOCKED! You'll see, %PCName. You'll ALL see. I'll get you!",
+      "BNAM": "Journal MS_Natural 10\r\nStartScript GaenorTimer\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 13
+        }
+      ]
+    },
+    "19686209801618223790": {
+      "flag": 0,
+      "PNAM": "24729302372747010443",
+      "NNAM": "33095906142065911",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No?....   NO? You don't say \"no\" to me! NO ONE SAYS \"NO\" TO GAENOR! Oh, don't you think I'll forget this. I'll remember you, %PCRace, and I'll get you for it. I promise you that!",
+      "BNAM": "Journal MS_Natural 10\r\nStartScript GaenorTimer\r\nsetdisposition 10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 12
+        }
+      ]
+    },
+    "33095906142065911": {
+      "flag": 0,
+      "PNAM": "19686209801618223790",
+      "NNAM": "15591283942662814665",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I AM speaking the same language, right? I mean, you understand what I'm saying? Well, then why can't you seem to understand that I need this money? Give it to me!",
+      "BNAM": "Choice: \"Fine, take it.\" 5 \"No. Stop asking.\" 12",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 11
+        }
+      ]
+    },
+    "15591283942662814665": {
+      "flag": 0,
+      "PNAM": "33095906142065911",
+      "NNAM": "2235218479785929814",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? Wait - let's try that again. I need ten thousand gold from you. You're going to give it to me, right?",
+      "BNAM": "Choice: \"Oh, okay. Here.\" 9 \"No. Sorry.\" 12",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 10
+        }
+      ]
+    },
+    "2235218479785929814": {
+      "flag": 0,
+      "PNAM": "15591283942662814665",
+      "NNAM": "6718108301769924924",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't even know what to say. I'll never be able to truly pay you back for this. You've restored my faith in the world, %PCName. And boy, are you ever rich! I bet you've got a million gold. In fact, I bet you've got ten million! You must be the richest %PCRace ever! You should give me a million, don't you think? Then we can both be millionaires!",
+      "BNAM": "player->removeitem \"gold_001\" 10000\r\nStartScript GetPCGold\r\nChoice: \"Sure. Here it is.\" 13 \"Not a chance.\" 12",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 9
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "3",
+          "identifier": "PCGold",
+          "__TV": 10000
+        }
+      ]
+    },
+    "6718108301769924924": {
+      "flag": 0,
+      "PNAM": "2235218479785929814",
+      "NNAM": "20718143721639116037",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, I see. You think this is all just some kind of joke. Offering me money you don't have. Well, I won't be laughed at. DO YOU HEAR ME? I won't stand for it! I'll get you, %PCRace. I'll get you back for this, and then we'll see who's laughing!",
+      "BNAM": "Journal MS_Natural 10\r\nStartScript GaenorTimer\r\nsetdisposition 10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 9
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "4",
+          "identifier": "PCGold",
+          "__TV": 100000
+        }
+      ]
+    },
+    "20718143721639116037": {
+      "flag": 0,
+      "PNAM": "6718108301769924924",
+      "NNAM": "29910251821498311074",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you some kind of miser or something? I mean, seriously. A hundred gold, and you can't part with it? I've given away ten times as much in my day; a hundred gold is nothing! Now really, just hand it over already!",
+      "BNAM": "Choice: \"Fine. Take it.\" 3 \"No means no.\" 12\r\nmoddisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        }
+      ]
+    },
+    "29910251821498311074": {
+      "flag": 0,
+      "PNAM": "20718143721639116037",
+      "NNAM": "2523348661641021446",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ha ha. Quite the communication break-down we're having here, isn't it? I can see I'm just not getting through to you. Let me try this one last time, okay? It's ten gold. I know you have it. You won't miss it. I need it more than you do! Give it to me, okay?",
+      "BNAM": "Choice: \"Fine, take it.\" 1 \"No. I'm not kidding.\" 12\r\nmoddisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "2523348661641021446": {
+      "flag": 0,
+      "PNAM": "29910251821498311074",
+      "NNAM": "2241912665309717701",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, come on. We've come this far with it. You've already proven yourself to be the generous type; why not go that extra step and really impress me? It's not like I'm asking for your first-born child here... Seriously. Think about it for a moment.",
+      "BNAM": "Choice: \"Well, okay.\" 5 \"No, I really mean it.\" 11\r\nmoddisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "2241912665309717701": {
+      "flag": 0,
+      "PNAM": "2523348661641021446",
+      "NNAM": "9667147082712717734",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Wow! You have no idea what this means to me, %PCName. I've never held this much gold in my life! Well, heck. You've just got money to burn, don't you? I bet you could spare another 10000 gold, couldn't you? C'mon. I know you've got it. Let's have it!",
+      "BNAM": "player->removeitem \"gold_001\" 1000\r\nStartScript GetPCGold\r\nChoice: \"Okay, here you are.\" 9 \"No way.\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "3",
+          "identifier": "PCGold",
+          "__TV": 1000
+        }
+      ]
+    },
+    "9667147082712717734": {
+      "flag": 0,
+      "PNAM": "2241912665309717701",
+      "NNAM": "164070102684613596",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Umm, you don't seem to have that much. Well, I'm not particular. I'll just as easily take an ebony shortsword. Got one of those you can give me?",
+      "BNAM": "Choice: \"Okay, here you go.\"  14 \"Not a chance.\" 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "4",
+          "identifier": "PCGold",
+          "__TV": 1000
+        }
+      ]
+    },
+    "164070102684613596": {
+      "flag": 0,
+      "PNAM": "9667147082712717734",
+      "NNAM": "9350226882929132340",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Heh. Umm, maybe I'm not being clear here. I'm trying to say that I'd REALLY appreciate it if you could just help me out a little bit. It's only a hundred gold. I'm sure you've got that much, and I'm sure you wouldn't even miss it. So come on. Really. Help me out!",
+      "BNAM": "Choice: \"Okay, here you go.\" 3 \"No, really. I mean it.\" 8\r\nmoddisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "9350226882929132340": {
+      "flag": 0,
+      "PNAM": "164070102684613596",
+      "NNAM": "184559762346714804",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You really are something, %PCName. I can see we're going to get along famously! Okay, I'll be up front with you. If I could just have another, oh, thousand gold or so, I can really make it here. I just know it. You've been so good to me, and it's clear that you've got the money...  Just a little more help, that's all I ask for.  You'll do it, right?",
+      "BNAM": "player->removeitem \"gold_001\" 100\r\nStartScript GetPCGold\r\nChoice: \"Okay. Here you are.\" 5 \"No, that's too much. Sorry.\" 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "3",
+          "identifier": "PCGold",
+          "__TV": 100
+        }
+      ]
+    },
+    "184559762346714804": {
+      "flag": 0,
+      "PNAM": "9350226882929132340",
+      "NNAM": "1749437732779125280",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I love it that you want to help, but you don't have that much? Are you sure? Hmm. Well, perhaps we could work out some other sort of deal. Have you got maybe, I don't know, a nice ebony shortsword I could have? I mean, that'd be worth more than fifty gold, I know, but the value of that alone would solve all my problems. What do you say?",
+      "BNAM": "Choice: \"Okay, here you go.\" 14 \"No, I don't think so.\" 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "4",
+          "identifier": "PCGold",
+          "__TV": 100
+        }
+      ]
+    },
+    "1749437732779125280": {
+      "flag": 0,
+      "PNAM": "184559762346714804",
+      "NNAM": "2076874752574127188",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you sure about that? I mean, to look at you, it's obvious that you're a %PCRace of means. I imagine you wouldn't even know that the gold was gone. Think about it for another second or two. Think about how much it'd mean to me, about what a great help it would be.",
+      "BNAM": "Choice: \"Well, okay. Here.\" 1 \"No, I really don't think so.\" 7\r\nmoddisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2076874752574127188": {
+      "flag": 0,
+      "PNAM": "1749437732779125280",
+      "NNAM": "1821522740927813172",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Splendid! I really do appreciate it, and I must say, you're quite the generous soul. In fact, as long as we're talking, and getting along so well, do you think maybe you could spot me another hundred? I'm quite sure that I can pay you back in just a few days time. I've always had excellent luck when it comes to these sort of things. So, what do you say?",
+      "BNAM": "player->removeitem \"gold_001\" 50\r\nStartScript GetPCGold\r\nChoice: \"I suppose so.\" 3 \"No, I don't think so. Sorry.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "3",
+          "identifier": "PCGold",
+          "__TV": 50
+        }
+      ]
+    },
+    "1821522740927813172": {
+      "flag": 0,
+      "PNAM": "2076874752574127188",
+      "NNAM": "1225621782201019766",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I love it that you want to help, but you don't have that much? Are you sure? Hmm. Well, perhaps we could work out some other sort of deal. Have you got maybe, I don't know, a nice ebony shortsword I could have? I mean, that'd be worth more than fifty gold, I know, but the value of that alone would solve all my problems. What do you say?",
+      "BNAM": "Choice: \"Okay, here you go.\"  14 \"Not a chance.\" 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "lX",
+          "operator": "4",
+          "identifier": "PCGold",
+          "__TV": 50
+        }
+      ]
+    },
+    "1225621782201019766": {
+      "flag": 0,
+      "PNAM": "1821522740927813172",
+      "NNAM": "16126113032611217218",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Gaenor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Glad you asked. As you may have noticed, I'm not looking my best at the moment. I'm a little, shall we say, down on my luck, which is NOT something I'm used to, let me tell you. At any rate, I'm looking for a little starting capital to get things rolling here in Mournhold - I've recently arrived myself, as well - and I thought you might be able to help me out. Think you could part with, say, fifty gold?",
+      "BNAM": "Choice: \"Sure, here you are.\" 1 \"No, I don't think so. Sorry.\" 2\r\nStartScript GetPCGold",
+      "SCVR": null
+    },
+    "16126113032611217218": {
+      "flag": 0,
+      "PNAM": "1225621782201019766",
+      "NNAM": "20109703929214667",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've no more favors to ask of you, %PCName. You've done more than enough.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 170
+        }
+      ]
+    },
+    "20109703929214667": {
+      "flag": 0,
+      "PNAM": "16126113032611217218",
+      "NNAM": "31347164141689419920",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for aiding me, %PCName. I'm afraid there's more serious work to be done, now that I've determined the Crimson Plague is behind all this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 60
+        }
+      ]
+    },
+    "31347164141689419920": {
+      "flag": 0,
+      "PNAM": "20109703929214667",
+      "NNAM": "69713042325132634",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know, I know. It's a menial task. I do apologize, but it needs to be done.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 50
+        }
+      ]
+    },
+    "69713042325132634": {
+      "flag": 0,
+      "PNAM": "31347164141689419920",
+      "NNAM": "3270259621624513081",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hope it's not too much of an imposition, but there's another sick individual that needs healing. Athelyn Malas is out in the Temple Courtyard; the Ordinators won't let him come in. They've seen the increase in people requesting healing from the Temple, and fear that allowing him access will only spread whatever disease it is he carries. Can you take a Cure Disease Potion to him?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 40
+        }
+      ]
+    },
+    "3270259621624513081": {
+      "flag": 0,
+      "PNAM": "69713042325132634",
+      "NNAM": "3019210122399819207",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for delivering the potion, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 30
+        }
+      ]
+    },
+    "3019210122399819207": {
+      "flag": 0,
+      "PNAM": "3270259621624513081",
+      "NNAM": "467429055423419646",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you could just deliver that potion, %PCName, I'd be most appreciative. Things have been so busy here that I simply can't do it myself.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 20
+        }
+      ]
+    },
+    "467429055423419646": {
+      "flag": 0,
+      "PNAM": "3019210122399819207",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. Well. It's not much, really. A simple delivery that needs to be made, actually. Geon Auline reported being ill earlier this week, yet refuses to come to the Temple for healing. Some nonsense about a collection of his. At any rate, if he will not come to us, then we must take the initiative and go to him. Will you deliver this Cure Disease Potion to him?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "PlagueActivate",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

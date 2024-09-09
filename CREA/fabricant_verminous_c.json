@@ -1,0 +1,58 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Fabricant.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [100,50,70,70,28,50,50,50],
+    "health": 300,
+    "magicka": 10,
+    "fatigue": 400,
+    "soul_strength": 0,
+    "combat_skill": 90,
+    "magic_skill": 50,
+    "stealth_skill": 20,
+    "attacks": [
+      [18,30],
+      [18,30],
+      [18,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "fabricant_verminous",
+  "FNAM": "Verminous Fabricant",
+  "SCRI": "fab_cent_fight_die",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "verminous_fabricant_elixir"
+    }
+  ],
+  "NPCS": [
+    "weakness shock_25",
+    "resist paralysis_50",
+    "immune to poison",
+    "resist magicka_50"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "fabricant_hulking_C_L"
+      },
+      "CNDT": null
+    }
+  ]
+}

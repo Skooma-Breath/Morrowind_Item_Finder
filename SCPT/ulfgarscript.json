@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 119,
+    "local_var_size": 17
+  },
+  "SCTX": "Begin UlfgarScript\r\n\r\nShort NoLore\r\n\r\n;This script gets Ulfgar to utter his dying words to the player\r\n\r\nshort greetonce\r\n\r\nif ( greetonce == -1 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex BM_BrodirGrove >= 40 )\r\n\tif ( GetHealth <=50 )\r\n\t\tif ( greetonce == 0 )\r\n\t\tJournal BM_BrodirGrove 90\r\n\t\tForceGreeting\r\n\t\tset greetonce to -1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nEnd\r\n\r\n",
+  "SCVR": [
+    "NoLore",
+    "greetonce"
+  ],
+  "SCDT": [6,1,1,10,32,115,2,0,32,61,61,32,45,49,36,1,9,1,6,1,7,27,32,88,205,16,32,100,14,66,77,95,66,114,111,100,105,114,71,114,111,118,101,32,62,61,32,52,48,6,1,5,9,32,88,140,16,32,60,61,53,48,6,1,3,9,32,115,2,0,32,61,61,32,48,204,16,14,66,77,95,66,114,111,100,105,114,71,114,111,118,101,90,0,255,255,232,16,5,1,115,2,0,7,32,45,49,32,49,32,42,9,1,9,1,9,1,1,1]
+}

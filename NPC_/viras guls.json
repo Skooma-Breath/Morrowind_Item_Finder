@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_10",
+  "MODL": null,
+  "FNAM": "Hetman Guls",
+  "SCRI": "virasGulsScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel longsword"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "chitin_shield"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin pauldron - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 197,
+    "magicka": 102,
+    "fatigue": 287,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [98,51,61,50,57,78,48,40],
+    "skills": [36,13,36,36,51,56,51,51,18,6,16,6,6,6,11,6,6,6,6,6,6,55,54,11,10,6,29]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

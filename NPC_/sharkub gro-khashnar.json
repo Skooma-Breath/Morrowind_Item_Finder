@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Drillmaster Service",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_orc_m_head_03",
+  "KNAM": "b_n_orc_m_hair_04",
+  "MODL": null,
+  "FNAM": "Sharkub gro-Khashnar",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_coif_helm"
+    },
+    {
+      "count": 46,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 108,
+    "magicka": 94,
+    "fatigue": 243,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [69,47,57,59,62,58,35,40],
+    "skills": [58,25,25,25,34,34,38,34,48,6,6,6,6,6,6,6,6,39,6,6,39,6,24,6,10,6,39]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,10,0,0,0,0]
+    }
+  ]
+}

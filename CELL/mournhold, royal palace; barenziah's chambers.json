@@ -1,0 +1,756 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3223332,1056964608]
+  },
+  "NAME": "Mournhold, Royal Palace: Barenziah's Chambers",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [28,21,19,0],
+    "sunlight": [26,23,21,0],
+    "fog_color": [36,47,49,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "1-8477": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Alusannah",
+      "DATA": [-61.958335876464844,129.33802795410156,-112.64360046386719,0,0,2.983185291290283]
+    },
+    "1-18046": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barenziah",
+      "DATA": [-105.025634765625,-134.78701782226562,-112.26498413085938,0,0,0.9831868410110474]
+    },
+    "1-22241": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hels_assassin1",
+      "DATA": [1210.636962890625,-5.052130699157715,-114.44538879394531,0,0,4.71238899230957]
+    },
+    "1-22242": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hels_assassin2",
+      "DATA": [1280.5648193359375,-6.896003246307373,-122.74609375,0,0,4.71238899230957]
+    },
+    "1-22243": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hels_assassin3",
+      "DATA": [1356.8248291015625,-9.360488891601562,-120.91170501708984,0,0,4.71238899230957]
+    },
+    "1-17041": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_02_bar4_uni",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1408,-64,0,0,0,4.71238899230957]
+    },
+    "1-17046": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar8_unique",
+      "DATA": [1068.541015625,-305.4629211425781,9.443511962890625,0,0,1.399999737739563]
+    },
+    "1-17047": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar6_unique",
+      "DATA": [203.40487670898438,303.75848388671875,9.44351577758789,0,0,4.483187198638916]
+    },
+    "1-20951": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar5_unique",
+      "DATA": [208.13442993164062,-300.9903564453125,9.443513870239258,0,0,3.0831878185272217]
+    },
+    "1-22248": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_assassin_unique",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [371.60491943359375,-350.3716125488281,-91.287841796875,0,0,0]
+    },
+    "1-24343": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar1_unique",
+      "DATA": [376.26141357421875,-127.62525939941406,97.43647766113281,0,0,0]
+    },
+    "1-24344": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar2_unique",
+      "DATA": [376.2193603515625,127.61357116699219,96.86969757080078,0,0,0]
+    },
+    "1-24345": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar3_unique",
+      "DATA": [895.2366943359375,-127.51034545898438,97.59408569335938,0,0,0]
+    },
+    "1-24346": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar1_OUT_unique",
+      "DATA": [896.635986328125,128.106689453125,97.40374755859375,0,0,0]
+    },
+    "1-24347": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar4_unique",
+      "DATA": [896.6593627929688,127.98844909667969,97.12478637695312,0,0,0]
+    },
+    "1-24348": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar4_OUT_unique",
+      "DATA": [376.8624267578125,127.46438598632812,97.40374755859375,0,0,0]
+    },
+    "1-24349": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar2_OUT_unique",
+      "DATA": [895.9326782226562,-127.28334045410156,97.40374755859375,0,0,0]
+    },
+    "1-24350": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar3_OUT_unique",
+      "DATA": [376.2679748535156,-127.54949188232422,97.40374755859375,0,0,0]
+    },
+    "1-24351": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar7_unique",
+      "DATA": [1069.205078125,300.1492004394531,9.278605461120605,0,0,6.18318510055542]
+    },
+    "1-24352": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar5_OUT_unique",
+      "DATA": [207.97613525390625,-301.0216979980469,9.443511962890625,0,0,3.0839967727661133]
+    },
+    "1-24353": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar6_OUT_unique",
+      "DATA": [203.30126953125,303.96490478515625,9.444000244140625,0,0,4.483750820159912]
+    },
+    "1-24354": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar7_OUT_unique",
+      "DATA": [1069.583251953125,300.35064697265625,9.279000282287598,0,0,6.183701515197754]
+    },
+    "1-24355": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_bar8_OUT_unique",
+      "DATA": [1068.3897705078125,-305.3324890136719,9.443511962890625,0,0,1.3997540473937988]
+    },
+    "1-15909": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_palace_room_01",
+      "DATA": [-128,0,0,0,0,1.5707963705062866]
+    },
+    "1-15910": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [128,0,0,0,0,4.71238899230957]
+    },
+    "1-15913": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_rm_chandelier_05",
+      "DATA": [-130.36839294433594,128.06253051757812,113.07621002197266,0,0,0]
+    },
+    "1-15914": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_r_bed_20",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-226.6965789794922,-0.06275177001953125,-108.77593994140625,0,0,3.0831878185272217]
+    },
+    "1-15915": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_fcloth01",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-257.1519775390625,266.5076904296875,-48.22412109375,0,0,5.58318567276001]
+    },
+    "1-15916": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-270.38531494140625,-292.9931640625,-83.96086120605469,0,0,3.8831872940063477]
+    },
+    "1-15917": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.03000009059906,
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-311.6357727050781,27.00545883178711,-82.02445983886719,0,0,0.050000451505184174]
+    },
+    "1-15918": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 0.9800000190734863,
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-309.9330749511719,-38.253665924072266,-81.90248107910156,0,0,6.133185863494873]
+    },
+    "1-15919": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "XSCL": 1.630000114440918,
+      "DATA": [-133.30612182617188,44.89485168457031,-130.92852783203125,0,0,5.1831865310668945]
+    },
+    "1-15920": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.7600000500679016,
+      "DATA": [-289.54693603515625,-128.96591186523438,-106.65303802490234,0,0,1.2000000476837158]
+    },
+    "1-15921": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [-299.41973876953125,-118.53961944580078,-66.02702331542969,0,0,4.526991367340088]
+    },
+    "1-15922": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_drawers_01_fcloth",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [11.792014122009277,-297.9612731933594,-79.32958984375,0,0,2.583186626434326]
+    },
+    "1-15923": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_gold_50",
+      "XSCL": 0.7500000596046448,
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [42.22125244140625,-289.35626220703125,-25.93423843383789,0,0,1.7831861972808838]
+    },
+    "1-15925": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [-293.5745849609375,116.27471923828125,-65.51439666748047,0,0,4.4269914627075195]
+    },
+    "1-15926": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.7600000500679016,
+      "DATA": [-287.2422790527344,123.51307678222656,-106.1404037475586,0,0,2.000000238418579]
+    },
+    "1-15928": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_01",
+      "XSCL": 0.940000057220459,
+      "DATA": [-366.2669982910156,-6.403112888336182,69.50885009765625,0,0,1.6000001430511475]
+    },
+    "1-15929": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "XSCL": 0.800000011920929,
+      "DATA": [-327.58349609375,-327.7662353515625,69.63345336914062,0,0,0.8000000715255737]
+    },
+    "1-15930": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_010",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 10,
+      "DATA": [25.07398796081543,-306.8154296875,-30.63498306274414,0,0,0]
+    },
+    "1-15931": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [25.64539909362793,-299.43011474609375,-30.63763999938965,0,0,0]
+    },
+    "1-15932": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [20.72943687438965,-301.90966796875,-30.63763999938965,0,0,0]
+    },
+    "1-17044": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [1408,0,0,0,0,4.71238899230957]
+    },
+    "1-17045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "XSCL": 0.8600000143051147,
+      "DATA": [1097.8941650390625,-321.2320861816406,87.37998962402344,0,0,5.412388801574707]
+    },
+    "1-17048": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "XSCL": 0.8600000143051147,
+      "DATA": [173.18154907226562,317.7875671386719,77.06295013427734,0,0,2.2123894691467285]
+    },
+    "1-17049": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_09",
+      "XSCL": 0.800000011920929,
+      "DATA": [66.9874267578125,331.33544921875,79.84146118164062,0,0,3.8831872940063477]
+    },
+    "1-17050": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BookDawnAndDusk",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-164.53097534179688,-12.54427719116211,-83.85597229003906,0,0,4.999999523162842]
+    },
+    "1-17051": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_silverwa",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [-31.27189826965332,312.511474609375,-76.88191223144531,0,0,5.58318567276001]
+    },
+    "1-17052": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-281.5465393066406,-142.60145568847656,-70.74043273925781,0,0,2.8853976726531982]
+    },
+    "1-17053": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "XSCL": 0.6500000357627869,
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [7.723886489868164,-307.4901428222656,-26.750167846679688,0,0,0.6674289107322693]
+    },
+    "1-17054": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-276.1236877441406,-124.7410888671875,-78.07215881347656,0,0,0.5999999046325684]
+    },
+    "1-20945": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [256,0,0,0,0,3.1415927410125732]
+    },
+    "1-20947": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,-256,0,0,0,0]
+    },
+    "1-20948": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [1024,-256,0,0,0,4.71238899230957]
+    },
+    "1-20949": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,256,0,0,0,1.5707963705062866]
+    },
+    "1-20950": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [1024,256,0,0,0,3.1415927410125732]
+    },
+    "1-20952": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "XSCL": 0.8600000143051147,
+      "DATA": [189.17245483398438,-328.38946533203125,77.68014526367188,0,0,0.8123891949653625]
+    },
+    "1-20954": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "XSCL": 0.8600000143051147,
+      "DATA": [1087.010986328125,328.3132629394531,87.21503448486328,0,0,3.9123902320861816]
+    },
+    "1-20955": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [406.06640625,-268.78857421875,-127.55552673339844,0,0,4.383187294006348]
+    },
+    "1-20956": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [368.0298156738281,-127.82241821289062,-127.4500732421875,0,0,4.683187007904053]
+    },
+    "1-20957": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [768,-256,0,0,0,3.1415927410125732]
+    },
+    "1-20958": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [768,256,0,0,0,6.2831854820251465]
+    },
+    "1-20959": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_center_01",
+      "DATA": [768,0,0,0,0,0]
+    },
+    "1-20960": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [982.51318359375,-313.7483215332031,-84.40882873535156,0,0,3.383187770843506]
+    },
+    "1-20961": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [1076.903564453125,-206.30020141601562,-84.40882873535156,0,0,1.2831875085830688]
+    },
+    "1-20962": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_02",
+      "XSCL": 2,
+      "DATA": [665.1641845703125,-5.468262672424316,-131.59329223632812,0,0,0.8999996185302734]
+    },
+    "1-20963": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [203.6082305908203,244.82371520996094,-84.40882873535156,0,0,4.583187103271484]
+    },
+    "1-20964": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [284.65533447265625,311.45166015625,-84.40882873535156,0,0,6.266373157501221]
+    },
+    "1-20965": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [196.13668823242188,-243.1629180908203,-84.40882873535156,0,0,4.766374111175537]
+    },
+    "1-20966": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [276.4355773925781,-316.5638732910156,-84.40882873535156,0,0,2.883187770843506]
+    },
+    "1-22244": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [1024,0,0,0,0,6.2831854820251465]
+    },
+    "1-22245": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_hall_01",
+      "DATA": [1280,0,0,0,0,1.5707963705062866]
+    },
+    "1-22246": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [1152,0,0,0,0,4.71238899230957]
+    },
+    "1-22247": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_02_bar1_uni",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [1152,64,0,0,0,1.5707963705062866]
+    },
+    "1-24356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [512,-256,0,0,0,3.1415927410125732]
+    },
+    "1-24357": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [512,256,0,0,0,6.2831854820251465]
+    },
+    "1-24358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_center_01",
+      "DATA": [512,0,0,0,0,0]
+    },
+    "1-24359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_rm_chandelier_05",
+      "DATA": [-128.22511291503906,-130.32162475585938,113.26427459716797,0,0,0]
+    },
+    "1-24360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_02_bar2_uni",
+      "ANAM": "barenziah",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [128,-64,0,0,0,4.71238899230957]
+    },
+    "1-25154": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [1313.565185546875,371.1569519042969,-43.5892333984375,0,0,0]
+    },
+    "1-25611": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_mcloth2",
+      "FLTV": 50,
+      "DATA": [58.688899993896484,240.44747924804688,-105.38687896728516,0,0,1.399999976158142]
+    },
+    "1-25612": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_gold1",
+      "FLTV": 75,
+      "DATA": [-35.958045959472656,316.68572998046875,-105.3868637084961,0,0,0]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 89,
+    "local_var_size": 7
+  },
+  "SCTX": "begin poisonsteam\r\n\r\nshort doOnce\r\n\r\nif ( MenuMode == 1)\r\nreturn\r\nendif\r\n\r\nif doOnce == 0\r\n\t\tset doOnce to 1\r\nendif\r\n\t\r\n\tif ( doOnce ==1)\r\n\t\tif ( GetDistance, player == 500 )\r\n\t\r\n\t\t\tModHealth -100\r\n\t\tendif\r\n\tendif\r\n\r\nend poisonsteam",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,115,1,0,32,61,61,32,48,5,1,115,1,0,2,32,49,9,1,6,1,3,8,32,115,1,0,32,61,61,49,6,1,1,21,32,88,1,16,44,32,114,6,112,108,97,121,101,114,32,61,61,32,53,48,48,142,16,0,0,200,194,9,1,9,1,1,1]
+}

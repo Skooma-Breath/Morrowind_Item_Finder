@@ -1,0 +1,106 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Khajiit",
+  "CNAM": "Alchemist Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_khajiit_f_head_03",
+  "KNAM": "b_n_khajiit_f_hair02",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ajira",
+  "SCRI": "ajiraScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 24848
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_amulet_02"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05_a"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_willow_anther_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scales_01"
+    },
+    {
+      "count": -5,
+      "name": "food_kwama_egg_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kwama_cuttle_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_hound_meat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_heather_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_crab_meat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_comberry_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_black_anther_01"
+    }
+  ],
+  "NPCS": [
+    "strong feather",
+    "ulms juicedaw's feather",
+    "fifth barrier",
+    "bound cuirass",
+    "bound helm",
+    "bound gauntlets",
+    "bound boots",
+    "bound shield",
+    "summon ancestral ghost",
+    "calm creature",
+    "spell absorption",
+    "dispel"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 67,
+    "magicka": 138,
+    "fatigue": 183,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 800,
+    "attributes": [38,69,44,57,48,44,45,50],
+    "skills": [21,6,6,6,21,6,6,6,11,48,14,44,14,48,44,14,48,29,11,11,21,11,11,6,10,21,26]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

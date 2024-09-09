@@ -1,0 +1,84 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Imperial",
+  "CNAM": "Guard",
+  "ANAM": "Royal Guard",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_02",
+  "MODL": null,
+  "FNAM": "Tienius Delitian",
+  "SCRI": "karrodfightstopScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "Gravedigger"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_boots"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_greaves"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_cuirass"
+    },
+    {
+      "count": 5,
+      "name": "p_restore_health_e"
+    }
+  ],
+  "NPCS": [
+    "Royal_Blood",
+    "Royal_Resistance"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 45,
+    "health": 364,
+    "magicka": 150,
+    "fatigue": 365,
+    "disposition": 40,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,75,65,100,100,100,56,40],
+    "skills": [100,86,100,100,86,100,86,86,100,9,19,9,9,9,14,9,9,9,9,9,9,14,19,64,9,9,9]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

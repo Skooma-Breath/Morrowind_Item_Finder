@@ -1,0 +1,270 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "5549258341209411614": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2760712338141454142",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_Failed_Nerevarine",
+          "__TV": 1
+        }
+      ]
+    },
+    "2760712338141454142": {
+      "flag": 0,
+      "PNAM": "5549258341209411614",
+      "NNAM": "15192301459513027",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been named Nerevarine by the four tribes of Vvardenfell. You have fulfilled that part of the prophecy. Urshilaku, Ahemmusa, Zainab, and Erabenimsun, all have named you Nerevarine. You have fulfilled the Fifth Trial of the Seven Visions.",
+      "BNAM": "Journal \"B8_All_Nerevarine\" 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B1_UnifyUrshilaku",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 50
+        }
+      ]
+    },
+    "15192301459513027": {
+      "flag": 0,
+      "PNAM": "2760712338141454142",
+      "NNAM": "45823035250529325",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been named Urshilaku Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by all four Ashlander tribes, Urshilaku, Ahemmusa, Zainab, and Erabenimsun, before you have fulfilled the Fifth Trial.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B1_UnifyUrshilaku",
+          "__TV": 50
+        }
+      ]
+    },
+    "45823035250529325": {
+      "flag": 0,
+      "PNAM": "15192301459513027",
+      "NNAM": "14409236331790110459",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must go to Ashkhan Sul-Matuul to be named Urshilaku Nerevarine. I am confident that he will approve you, but I am sure he has things he wishes to say beforehand.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "14409236331790110459": {
+      "flag": 0,
+      "PNAM": "45823035250529325",
+      "NNAM": "31000125462503519757",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I have named you Urshilaku Nerevarine, War Leader of the Urshilaku, and Protector of the People, and so you shall be known to all Ashlander tribes.",
+      "BNAM": "; Sul-Matuul; Journal \"B1_UnifyUrshilaku\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B1_UnifyUrshilaku",
+          "__TV": 50
+        }
+      ]
+    },
+    "31000125462503519757": {
+      "flag": 0,
+      "PNAM": "14409236331790110459",
+      "NNAM": "1973532583132638276",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Before my hearth and kin, and before the People of the Wastes, I name you Urshilaku Nerevarine, War Leader of the Urshilaku, and Protector of the People. In token of this, I give you the Teeth, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Urshilaku shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead, or until you give this back into my hand.",
+      "BNAM": "; Sul-Matuul; Journal \"B1_UnifyUrshilaku\" >= 25; \r\nJournal \"B1_UnifyUrshilaku\" 50\r\nModDisposition 10\r\nPlayer->ModReputation 2\r\nPlayer->AddItem \"Teeth\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B1_UnifyUrshilaku",
+          "__TV": 25
+        }
+      ]
+    },
+    "1973532583132638276": {
+      "flag": 0,
+      "PNAM": "31000125462503519757",
+      "NNAM": "17854953246811355",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. You wish to be called 'Nerevarine.' I know you, and am disposed to do so. But first we must speak of need and duty. Before I name you 'Nerevarine,' you must understand why a war leader is needed, so you may tell others. And before I name you 'Nerevarine,' I must see that you know your duty. Only when we have spoken of these things shall you be called Nerevarine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B1_UnifyUrshilaku",
+          "__TV": 1
+        }
+      ]
+    },
+    "17854953246811355": {
+      "flag": 0,
+      "PNAM": "1973532583132638276",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First, you should hear the counsel of Sul-Matuul.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

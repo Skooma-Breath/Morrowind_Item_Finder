@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_05",
+  "MODL": null,
+  "FNAM": "Driloru Uvaram",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 80,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 2,
+      "name": "l_m_potion"
+    },
+    {
+      "count": 25,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 95,
+    "magicka": 25,
+    "fatigue": 232,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [53,51,92,41,59,46,57,40],
+    "skills": [6,6,6,6,25,11,6,6,11,11,21,45,30,11,50,45,30,30,6,6,6,30,16,11,6,40,40]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

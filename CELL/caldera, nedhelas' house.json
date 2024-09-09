@@ -1,0 +1,847 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1321040,1061158912]
+  },
+  "NAME": "Caldera, Nedhelas' House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,65,65,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [80,40,20,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-165309": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_door_01",
+      "DATA": [144.3404541015625,-353.3994140625,2.1530535221099854,0,0,3.1415927410125732]
+    },
+    "0-351149": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_com_traptop_01",
+      "ANAM": "nedhelas",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 20,
+      "KNAM": "key_nedhelas",
+      "DATA": [-304,-96,-128,0,0,0]
+    },
+    "0-324751": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-359.8738098144531,51.866737365722656,-119.18383026123047,0,0,0.75]
+    },
+    "0-165287": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01",
+      "DATA": [-204.54624938964844,46.62942886352539,99.38099670410156,0,0,0.7853981852531433]
+    },
+    "0-165289": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bed_04",
+      "ANAM": "nedhelas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-262.7785949707031,123.39126586914062,-93.18017578125,0,0,3.15000057220459]
+    },
+    "0-165290": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Gold_05",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-217.373291015625,-135.52603149414062,-101.2239990234375,0,0,1.6702800989151]
+    },
+    "0-165291": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "XSCL": 1.1299999952316284,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-294.2456359863281,-122.47624969482422,-98.84034729003906,0,0,0.7853981852531433]
+    },
+    "0-165292": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-128.922119140625,-133.11573791503906,-118,0,0,0.03775835037231445]
+    },
+    "0-165293": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-128.56295776367188,-137.80792236328125,-103.00822448730469,0.10000000149011612,0,2.9317102432250977]
+    },
+    "0-165294": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "XSCL": 1.100000023841858,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-129.10536193847656,160.1077880859375,-87.00218963623047,0,0,5.683186054229736]
+    },
+    "0-165300": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [109,86.24199676513672,-56.71699905395508,0,0,1.5707963705062866]
+    },
+    "0-165301": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [350,-82,-107,0,0,0]
+    },
+    "0-165302": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_broom_01",
+      "XSCL": 1.1200000047683716,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [364.640380859375,-115.0396499633789,-69.52898406982422,0,5.997786998748779,5.397787570953369]
+    },
+    "0-165303": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [132.75442504882812,68.91854858398438,-51.6285400390625,0,0,1.5707963705062866]
+    },
+    "0-165304": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [100.64053344726562,44.97853088378906,-51.6285400390625,0,0,1.5707963705062866]
+    },
+    "0-165305": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-13.769790649414062,-318.1507568359375,-92.4801025390625,0,0,0]
+    },
+    "0-165306": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-12.107276916503906,-245.4422149658203,-92.4801025390625,0,0,0.20000000298023224]
+    },
+    "0-165307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_eggs",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-20,-320,-28,0,0,5.98647928237915]
+    },
+    "0-165308": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-338.24603271484375,-2.4957563877105713,-60,0,0,0]
+    },
+    "0-165312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [124.99951171875,38.24168395996094,-56.716529846191406,0,0,1.5707963705062866]
+    },
+    "0-165313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [126.99951171875,91.2416763305664,-57.25156784057617,0,0,1.5707963705062866]
+    },
+    "0-165314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [107.99951171875,36.24168395996094,-57.25156784057617,0,0,4.71238899230957]
+    },
+    "0-165315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [286,184,41.936214447021484,0,0,1.5707963705062866]
+    },
+    "0-165316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [250,184,41.936214447021484,0,0,2.356194496154785]
+    },
+    "0-165317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [268,182,41.936214447021484,0,0,3.9269909858703613]
+    },
+    "0-165318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [130,186,38.004093170166016,0,0,1.5707963705062866]
+    },
+    "0-165319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [130,186,35.936214447021484,0,0,1.5707963705062866]
+    },
+    "0-165322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [98,60,-56,0,0,0]
+    },
+    "0-165323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [139,88,-56,0,0,0]
+    },
+    "0-165324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [162,183,38.26529312133789,0,0,0]
+    },
+    "0-165325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [162,183,37.1150016784668,0,0,0]
+    },
+    "0-165328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_basket_02",
+      "XSCL": 0.5,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [303.4017639160156,-296.8675537109375,26.722129821777344,0,0,0.29670608043670654]
+    },
+    "0-165329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "food_kwama_egg_01",
+      "XSCL": 0.5,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [302.656982421875,-297.6036376953125,23.66982650756836,0,0,0.29670608043670654]
+    },
+    "0-165330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "XSCL": 0.7900000214576721,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [303.67095947265625,-271.72918701171875,31.84273910522461,0,0,1.9024088382720947]
+    },
+    "0-165331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [148,56,-44,0,0,0]
+    },
+    "0-165332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "nedhelas",
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [171.05418395996094,77.72743225097656,-51,0,0,0]
+    },
+    "0-165333": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [194,189,40.93620681762695,0,0,1.5707963705062866]
+    },
+    "0-165334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [184,183,40.93620681762695,0,0,1.5707963705062866]
+    },
+    "0-165336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1299999952316284,
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-327.5096740722656,122.68388366699219,-70.16997528076172,0,0,3.15000057220459]
+    },
+    "0-148088": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_house_02",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-165283": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [362.78936767578125,14.91107177734375,144,0,0,3.1415927410125732]
+    },
+    "0-165284": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [-277.989013671875,-181.2779998779297,32.88800048828125,0,0,3.1415927410125732]
+    },
+    "0-165285": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [-153.44998168945312,-181.2783660888672,32.88818359375,0,0,3.1415927410125732]
+    },
+    "0-165286": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_doorf_01",
+      "DATA": [128.34054565429688,-369.3998718261719,-13.847066879272461,0,0,0]
+    },
+    "0-165295": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_table_01",
+      "DATA": [132.8540802001953,65.40650939941406,-91,0,0,6.2539825439453125]
+    },
+    "0-165296": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [128.1222381591797,134.23780822753906,-103.432861328125,0,0,0.07079696655273438]
+    },
+    "0-165297": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "DATA": [127.55561828613281,-1.0601028203964233,-100.5669174194336,0,0,0.07079696655273438]
+    },
+    "0-165298": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [311.6907043457031,-270.29693603515625,3.53857421875,0,0,1.5707963705062866]
+    },
+    "0-165310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [160,192,18.936214447021484,0,0,0]
+    },
+    "0-165311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [288,192,18.936214447021484,0,0,0]
+    },
+    "0-291177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-340.5339050292969,-621.4747924804688,-45.78204345703125,0,0,3.9269907474517822]
+    },
+    "0-324744": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_09",
+      "XSCL": 1.540000081062317,
+      "DATA": [160.06106567382812,-108.87885284423828,-127.48199462890625,0,0,1.5750000476837158]
+    },
+    "0-324745": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "nedhelas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-336.0634765625,-124.89676666259766,-88.96044921875,0,0,2.7561943531036377]
+    },
+    "0-324746": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "nedhelas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-336.46661376953125,-71.14103698730469,-88.43413543701172,0,0,1.945796251296997]
+    },
+    "0-324747": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-377.8849182128906,117.82765197753906,-92.39891052246094,0,0,0]
+    },
+    "0-324748": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-381.7027893066406,96.32171630859375,-94.29573822021484,0,0,4.758185863494873]
+    },
+    "0-324749": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-380.90765380859375,105.92950439453125,-94.29573822021484,0,0,0]
+    },
+    "0-324750": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-362.4729309082031,64.0479507446289,-108.88096618652344,0,0,5.683186054229736]
+    },
+    "0-324752": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_01_pos",
+      "ANAM": "nedhelas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-61.6510009765625,165.322998046875,-109.11100006103516,0,0,0]
+    },
+    "0-389822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "DATA": [346.5023193359375,23.229061126708984,-109.3147201538086,0,0,0]
+    },
+    "0-389823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_02",
+      "XSCL": 0.8200000524520874,
+      "DATA": [335.0786437988281,23.501502990722656,-110.04509735107422,0,0,0]
+    },
+    "0-389824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_03",
+      "DATA": [338.6376647949219,23.881032943725586,-101.43724060058594,6.08318567276001,0,0.40000003576278687]
+    },
+    "0-389825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [334.37188720703125,30.898332595825195,-98.70280456542969,0.4000000059604645,0,2.8000004291534424]
+    },
+    "0-389826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "nedhelas",
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [304.5406188964844,-237.32823181152344,26.041894912719727,0,0,2.6000003814697266]
+    },
+    "0-389827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Com_Planter",
+      "DATA": [255.8600311279297,-318.86163330078125,-108.324462890625,0,0,0]
+    },
+    "0-389828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bush_01",
+      "XSCL": 0.7000000476837158,
+      "DATA": [257.8658752441406,-318.7051086425781,-56.72368240356445,0,0,0]
+    },
+    "0-389829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_cupboard_01_pos",
+      "ANAM": "nedhelas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [379.5466613769531,132.29190063476562,22.996610641479492,0,0,1.5707963705062866]
+    },
+    "0-389830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_cupboard_01_booze",
+      "ANAM": "nedhelas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [378.1335754394531,-92.07394409179688,20.048919677734375,0,0,1.5707963705062866]
+    },
+    "0-389831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_01",
+      "XSCL": 1.2600001096725464,
+      "DATA": [-6.5,197.2689971923828,114.59400177001953,0,0,3.1415927410125732]
+    },
+    "0-389832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_02",
+      "XSCL": 1.2600001096725464,
+      "DATA": [-376.3746337890625,13.715030670166016,114.37751770019531,0,0,1.5707963705062866]
+    },
+    "0-389833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_02",
+      "XSCL": 1.2600001096725464,
+      "DATA": [-260.2880554199219,194.09410095214844,114.37751770019531,0,0,3.1415927410125732]
+    },
+    "0-389834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "DATA": [-379.9626159667969,138.9043426513672,-110.25252532958984,0,0,1.5707963705062866]
+    },
+    "0-389835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "DATA": [-376.2789001464844,128.6897430419922,-110.25252532958984,0,0,0]
+    },
+    "0-389836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "DATA": [-381.6499938964844,132.22885131835938,-110.25252532958984,0,0,0]
+    },
+    "0-389837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_010",
+      "DATA": [-381.3071594238281,127.09856414794922,-110.24987030029297,0,0,4.297788143157959]
+    },
+    "0-389838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [-375.5634765625,154.10081481933594,-110.27590942382812,0,0,6.08318567276001]
+    },
+    "0-389839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [-374.94476318359375,134.8728485107422,-110.27590942382812,0,0,0.800000011920929]
+    },
+    "0-389840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [-381.5905456542969,145.1300811767578,-110.27590942382812,0,0,0.800000011920929]
+    },
+    "0-389841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron tanto",
+      "ANAM": "nedhelas",
+      "INTV": 200,
+      "NAM9": 1,
+      "DATA": [-379.6189880371094,161.44882202148438,-109.40608215332031,0,0,0.20000000298023224]
+    },
+    "0-389842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Fire_NoSmoke_128",
+      "DATA": [343.44244384765625,26.533506393432617,-133.30235290527344,0,0,0]
+    },
+    "0-464033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "key_nedhelas",
+      "DATA": [302.81597900390625,-256.96978759765625,19.095727920532227,0,0,3.983187675476074]
+    },
+    "0-481307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_Lava_Blacksquare",
+      "DATA": [-321.6646423339844,-420.6442565917969,-119.600341796875,0,0,0]
+    },
+    "0-483353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bookskill_security2",
+      "ANAM": "nedhelas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-383.0868835449219,70.00359344482422,-83.56991577148438,1.5707963705062866,1.5707963705062866,4.71238899230957]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\AncestorGhost.NIF",
+  "FLAG": 1130,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 1,
+    "attributes": [100,50,30,80,18,20,90,20],
+    "health": 220,
+    "magicka": 280,
+    "fatigue": 400,
+    "soul_strength": 280,
+    "combat_skill": 70,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,10],
+      [1,10],
+      [1,10]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "ancestor_ghost",
+  "FNAM": "Mansilamat Vabdas",
+  "SCRI": "vabdasGhostScript",
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

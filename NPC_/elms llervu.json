@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Savant Service",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_14",
+  "MODL": null,
+  "FNAM": "Elms Llervu",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "last wish"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "bk_guide_to_vivec"
+    },
+    {
+      "count": 100,
+      "name": "random gold"
+    },
+    {
+      "count": -3,
+      "name": "random_book_dunmer"
+    },
+    {
+      "count": 1,
+      "name": "random_book_wizard_all"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 120,
+    "magicka": 38,
+    "fatigue": 217,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [58,77,61,50,68,48,81,40],
+    "skills": [29,6,6,6,6,11,6,6,49,6,16,6,6,6,11,6,44,44,36,36,36,18,46,18,51,51,13]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

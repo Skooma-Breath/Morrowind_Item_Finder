@@ -1,0 +1,83 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Bookseller",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_m_head_01",
+  "KNAM": "b_n_imperial_m_hair_01",
+  "MODL": null,
+  "FNAM": "Codus Callonus",
+  "SCRI": "codusScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 10,
+    "alarm": 100,
+    "flags": 8
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "bk_guide_to_ald_ruhn"
+    },
+    {
+      "count": 1,
+      "name": "bk_guide_to_balmora"
+    },
+    {
+      "count": 1,
+      "name": "bk_guide_to_vivec"
+    },
+    {
+      "count": 1,
+      "name": "bookskill_medium armor1"
+    },
+    {
+      "count": 1,
+      "name": "bk_ABCs"
+    },
+    {
+      "count": 1,
+      "name": "key_chest_coduscallonus_01"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "almalexia's grace",
+    "divine intervention",
+    "soul trap",
+    "telekinesis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 79,
+    "magicka": 126,
+    "fatigue": 186,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 600,
+    "attributes": [50,63,43,48,51,45,78,40],
+    "skills": [23,6,6,6,28,16,6,6,6,6,6,6,6,6,38,6,6,23,47,47,15,37,15,15,20,57,37]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,60,40,10,10,0,0,0]
+    }
+  ]
+}

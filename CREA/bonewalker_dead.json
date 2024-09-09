@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Bonewalker.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 4,
+    "attributes": [100,50,50,50,12,50,50,50],
+    "health": 0,
+    "magicka": 80,
+    "fatigue": 350,
+    "soul_strength": 75,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [4,12],
+      [4,12],
+      [4,12]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "bonewalker",
+  "FNAM": "Bonewalker",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_bonemeal"
+    }
+  ],
+  "NPCS": [
+    "grave curse: endurance",
+    "brown rot",
+    "resist frost_75",
+    "resist shock_75",
+    "resist poison_75"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

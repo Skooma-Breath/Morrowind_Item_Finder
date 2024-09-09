@@ -1,0 +1,329 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "8643598839316330": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "8615663153723166",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hainab lasamsi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I guess you were serious about wanting those pants.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_HentusPants",
+          "__TV": 50
+        }
+      ]
+    },
+    "8615663153723166": {
+      "flag": 0,
+      "PNAM": "8643598839316330",
+      "NNAM": "2268524931304865024",
+      "DATA": {
+        "value": 80,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hainab lasamsi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you wanted the pants that bad, why didn't you say so? Here, take 'em. It was a stupid joke anyway.",
+      "BNAM": "Journal MS_HentusPants 50\r\nPlayer->AddItem \"common_pants_02_hentus\" 1\r\nRemoveItem \"common_pants_02_hentus\" 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_HentusPants",
+          "__TV": 10
+        }
+      ]
+    },
+    "2268524931304865024": {
+      "flag": 0,
+      "PNAM": "8615663153723166",
+      "NNAM": "2212525530191638887",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hainab lasamsi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Why do you want Hentus' pants? That s'wit couldn't put them on without help.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_HentusPants",
+          "__TV": 10
+        }
+      ]
+    },
+    "2212525530191638887": {
+      "flag": 0,
+      "PNAM": "2268524931304865024",
+      "NNAM": "579518698603310335",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hentus yansurnummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks for getting my pants back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_HentusPants",
+          "__TV": 100
+        }
+      ]
+    },
+    "579518698603310335": {
+      "flag": 0,
+      "PNAM": "2212525530191638887",
+      "NNAM": "24947233273144713010",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hentus yansurnummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't have much to give you, but I have some hackle-lo. Here, take it. Thanks for getting my pants back.",
+      "BNAM": "Journal MS_HentusPants 100\r\nPlayer->AddItem \"ingred_hackle-lo_leaf_01\" 3\r\nPlayer->RemoveItem Common_Pants_02_Hentus 1\r\nAddItem common_pants_02_hentus 1\r\nStartScript HentusTravel",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "24947233273144713010": {
+      "flag": 0,
+      "PNAM": "579518698603310335",
+      "NNAM": "11867255282126410807",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hentus yansurnummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You too? What did I ever do to you?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "11867255282126410807": {
+      "flag": 0,
+      "PNAM": "24947233273144713010",
+      "NNAM": "14484204373059628561",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hentus yansurnummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You got my pants back? I didn't like Hainab, but I didn't want him dead.",
+      "BNAM": "Choice \"Give him his pants.\" 1 \"Keep his pants.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "common_pants_02_hentus",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "hainab lasamsi",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_HentusPants",
+          "__TV": 10
+        }
+      ]
+    },
+    "14484204373059628561": {
+      "flag": 0,
+      "PNAM": "11867255282126410807",
+      "NNAM": "5751149062981413306",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hentus yansurnummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You got my pants back? I wish I could stand up to Hainab like you did.",
+      "BNAM": "Choice \"Give him his pants.\" 1 \"Keep his pants.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "common_pants_02_hentus",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_HentusPants",
+          "__TV": 10
+        }
+      ]
+    },
+    "5751149062981413306": {
+      "flag": 0,
+      "PNAM": "14484204373059628561",
+      "NNAM": "23090175533196824191",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hentus yansurnummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Those aren't my pants. Hainab Lasamsi has my pants.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "common_pants_02",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_HentusPants",
+          "__TV": 10
+        }
+      ]
+    },
+    "23090175533196824191": {
+      "flag": 0,
+      "PNAM": "5751149062981413306",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hentus yansurnummu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I was taking a bath and Hainab Lasamsi stole my pants. Maybe you could talk to him and get my pants back.",
+      "BNAM": "Journal MS_HentusPants 10",
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1157296521238521742": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "919718656635721429",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris tharen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I feel much better, thank you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_FindTharen",
+          "__TV": 70
+        }
+      ]
+    },
+    "919718656635721429": {
+      "flag": 0,
+      "PNAM": "1157296521238521742",
+      "NNAM": "16781174671716532581",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris tharen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you. Yes, I think I feel better already.",
+      "BNAM": "Player->RemoveItem p_cure_common_s 1\r\nRemoveSpell \"chills\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16781174671716532581": {
+      "flag": 0,
+      "PNAM": "919718656635721429",
+      "NNAM": "181518787389124731",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris tharen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go get help, please. I don't know how long I can hold on.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "181518787389124731": {
+      "flag": 0,
+      "PNAM": "16781174671716532581",
+      "NNAM": "276715302147786476",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris tharen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have something that could help me?",
+      "BNAM": "Choice \"Give Fedris a potion of cure disease.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "p_cure_common_s",
+          "__TV": 0
+        }
+      ]
+    },
+    "276715302147786476": {
+      "flag": 0,
+      "PNAM": "181518787389124731",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fedris tharen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go get help, please. I don't know how long I can hold on.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

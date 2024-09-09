@@ -1,0 +1,286 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "274888305336717482": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "684126774112120405",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sondryn irathi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr is a Telvanni tower on an island to the southwest, close to the mainland. Let me mark it on your map. Look for a tall tower, a dock, and a ship. The entrance to the tower is at water level, on the northern tip of the island, near the dock. In good weather, by day, the tower is easy to see. If you miss the tower and hit the beaches of the mainland, walk back and forth along the beaches and look for the tower; it's clearly visible from the beach. Bring levitation potions. No stairs in the tower.",
+      "BNAM": "ShowMap \"Tel Fyr\"",
+      "SCVR": null
+    },
+    "684126774112120405": {
+      "flag": 0,
+      "PNAM": "274888305336717482",
+      "NNAM": "21305261013183016692",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I told you. Tel Fyr is southwest of Sadrith Mora, on an island. Look at a map. There's a dock, but no boat service, so water-walk or swim from Sadrith Mora. Use the Guild Guide service at the Balmora Mages Guild to reach Sadrith Mora. At Sadrith Mora, find Wolverine Hall, Fighters Guild, and ask the scout Sondryn Irathi for detailed directions to Tel Fyr. And remember: Telvanni wizards don't use stairs in their towers, so bring levitation potions.",
+      "BNAM": "ShowMap \"Tel Fyr\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 50
+        }
+      ]
+    },
+    "21305261013183016692": {
+      "flag": 0,
+      "PNAM": "684126774112120405",
+      "NNAM": "3005512198183517780",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr, Divayth Fyr's tower, is southwest of Sadrith Mora, on an island on the southwestern edge of Zafirbel Bay. Here. Let me mark it on your map. There's a dock, but no boat service, so you must water-walk or swim from Sadrith Mora. Use the Guild Guide service at the Balmora Mages Guild to reach Sadrith Mora. At Sadrith Mora, find Wolverine Hall, Fighters Guild, and ask the scout Sondryn Irathi for detailed directions to Tel Fyr.",
+      "BNAM": ";Caius; Journal A2-2_6thHouse >= 50\r\nJournal A2_3_CorprusCure 5\r\nShowMap \"Tel Fyr\"\r\nShowMap \"Sadrith Mora\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_2_6thHouse",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A2_3_CorprusCure",
+          "__TV": 50
+        }
+      ]
+    },
+    "3005512198183517780": {
+      "flag": 0,
+      "PNAM": "21305261013183016692",
+      "NNAM": "20222304101869527217",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No easy way to get there. Not a popular place. You'll have to swim, fly, or water-walk. Most direct route, straight southwest from Sadrith Mora, is over open water all the way. Keep an eye out for a Telvanni tower on an island. If you miss it, and hit land, go back and forth along the coast looking back across the bay for a tower on a small island. And buy flying potions or scrolls from the Mages Guild when you visit wizard towers. No stairs inside.",
+      "BNAM": ";Scout ;Sadrith Mora\r\nShowMap \"Tel Fyr\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "20222304101869527217": {
+      "flag": 0,
+      "PNAM": "3005512198183517780",
+      "NNAM": "2923923898876320174",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llerar mandas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr is Divayth Fyr's tower. The only way to get there is to swim straight southwest from Sadrith Mora. Let me mark it on your map in case you get lost.",
+      "BNAM": "ShowMap \"Tel Fyr\"",
+      "SCVR": null
+    },
+    "2923923898876320174": {
+      "flag": 0,
+      "PNAM": "20222304101869527217",
+      "NNAM": "11822143701769616883",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Tel Fyr\"",
+      "SCVR": null
+    },
+    "11822143701769616883": {
+      "flag": 0,
+      "PNAM": "2923923898876320174",
+      "NNAM": "322253683531122972",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Tel Fyr\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "322253683531122972": {
+      "flag": 0,
+      "PNAM": "11822143701769616883",
+      "NNAM": "17355103502646228063",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Tel Fyr\"",
+      "SCVR": null
+    },
+    "17355103502646228063": {
+      "flag": 0,
+      "PNAM": "322253683531122972",
+      "NNAM": "6320218361768920673",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Tel Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Tel Fyr\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "6320218361768920673": {
+      "flag": 0,
+      "PNAM": "17355103502646228063",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Scout",
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.",
+      "BNAM": ";scout; savant;\r\nShowMap \"Tel Fyr\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

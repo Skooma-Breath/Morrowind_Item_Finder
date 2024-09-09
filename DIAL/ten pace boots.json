@@ -1,0 +1,332 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "250621175200305950": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1911429497207094310",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? How is it you have these? They were part of the museum's collection! GUARDS!",
+      "BNAM": "SetPCCrimeLevel 140000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bootstenpace",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "tenpaceboots",
+          "__TV": 0
+        }
+      ]
+    },
+    "1911429497207094310": {
+      "flag": 0,
+      "PNAM": "250621175200305950",
+      "NNAM": "3229325541087125853",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you for allowing us to add them to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "bootstenpace",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "tenpaceboots",
+          "__TV": 0
+        }
+      ]
+    },
+    "3229325541087125853": {
+      "flag": 0,
+      "PNAM": "1911429497207094310",
+      "NNAM": "684714322212789860",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, %PCName. Please don't wear them out - they're too valuable for that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "684714322212789860": {
+      "flag": 0,
+      "PNAM": "3229325541087125853",
+      "NNAM": "3096922269256759809",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.",
+      "BNAM": "set bootstenpace to 2\r\nplayer->removeitem \"tenpaceboots\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"tenpaceboots_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "tenpaceboots",
+          "__TV": 1
+        }
+      ]
+    },
+    "3096922269256759809": {
+      "flag": 0,
+      "PNAM": "684714322212789860",
+      "NNAM": "19014312051658415151",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hope they are content to be here in the museum, rather than running through Morrowind's countryside. Thank you, %PCName.",
+      "BNAM": "set bootstenpace to 2\r\nplayer->removeitem \"tenpaceboots\" 1\r\nplayer->additem \"gold_001\" 30000\r\n\"tenpaceboots_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "tenpaceboots",
+          "__TV": 1
+        }
+      ]
+    },
+    "19014312051658415151": {
+      "flag": 0,
+      "PNAM": "3096922269256759809",
+      "NNAM": "3153725287242754114",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Ten Pace Boots with you? Then come back with them, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "tenpaceboots",
+          "__TV": 0
+        }
+      ]
+    },
+    "3153725287242754114": {
+      "flag": 0,
+      "PNAM": "19014312051658415151",
+      "NNAM": "472643062081716165",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Ten Pace Boots with you? Then come back with them, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "tenpaceboots",
+          "__TV": 0
+        }
+      ]
+    },
+    "472643062081716165": {
+      "flag": 0,
+      "PNAM": "3153725287242754114",
+      "NNAM": "62476443301524096",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Remarkable boots... what the wind must feel like while running in them! Do you wish to part with them, %PCName? I can offer you 30000 gold in exchange for them.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bootstenpace",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "62476443301524096": {
+      "flag": 0,
+      "PNAM": "472643062081716165",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Remarkable boots... what the wind must feel like while running in them! Do you wish to part with them, %PCName? I can offer you 30000 gold for them.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "bootstenpace",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Enchanter Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_06",
+  "MODL": null,
+  "FNAM": "Ilen Faveran",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 70671
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_03_a"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "shield_of_light"
+    },
+    {
+      "count": 1,
+      "name": "velothian_helm"
+    },
+    {
+      "count": -1,
+      "name": "sc_ondusisunhinging"
+    },
+    {
+      "count": -5,
+      "name": "sc_daydenespanacea"
+    },
+    {
+      "count": -2,
+      "name": "sc_almsiviintervention"
+    },
+    {
+      "count": -1,
+      "name": "sc_fphyggisgemfeeder"
+    },
+    {
+      "count": -2,
+      "name": "sc_vitality"
+    },
+    {
+      "count": -2,
+      "name": "sc_oathfast"
+    },
+    {
+      "count": -2,
+      "name": "sc_mageweal"
+    },
+    {
+      "count": -2,
+      "name": "sc_insight"
+    },
+    {
+      "count": -2,
+      "name": "sc_celerity"
+    },
+    {
+      "count": -1,
+      "name": "sc_bloodthief"
+    },
+    {
+      "count": -2,
+      "name": "sc_telvinscourage"
+    },
+    {
+      "count": -1,
+      "name": "sc_restoration"
+    },
+    {
+      "count": -6,
+      "name": "random_scroll_all"
+    }
+  ],
+  "NPCS": [
+    "sleep",
+    "deadly poison",
+    "poisonbloom",
+    "viperbolt",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "frenzy humanoid",
+    "demoralize creature",
+    "demoralize humanoid",
+    "noise",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "almalexia's grace",
+    "divine intervention",
+    "soul trap",
+    "telekinesis",
+    "righteousness",
+    "balyna's perfect balm",
+    "strong heal companion",
+    "veloth's benison",
+    "mother's kiss"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 77,
+    "magicka": 148,
+    "fatigue": 210,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 750,
+    "attributes": [56,74,62,47,64,45,38,40],
+    "skills": [6,6,6,6,39,11,6,6,11,48,58,34,34,34,38,34,48,48,6,6,6,11,16,11,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,10,0]
+    }
+  ]
+}

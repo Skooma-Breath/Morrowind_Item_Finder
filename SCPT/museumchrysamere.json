@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 181,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin MuseumChrysamere\r\n\r\nif (\"Torasa Aram\".chrysamere < 2)\r\n\tDisable\r\nendif\r\n\r\nif (\"Torasa Aram\".chrysamere == 2)\r\n\tEnable\r\nendif\r\n\r\nif (OnActivate == 1)\r\n\tset \"Torasa Aram\".chrysamere to 3\r\n\tActivate\r\n\tplayer->removeitem \"claymore_chrysamere_unique_x\" 1\r\n\tplayer->additem \"claymore_chrysamere_unique\" 1\r\nendif\r\n\r\n\r\nEnd MuseumChrysamere",
+  "SCVR": null,
+  "SCDT": [6,1,1,21,32,114,11,84,111,114,97,115,97,32,65,114,97,109,115,12,0,32,60,32,50,219,16,9,1,6,1,1,22,32,114,11,84,111,114,97,115,97,32,65,114,97,109,115,12,0,32,61,61,32,50,218,16,9,1,6,1,4,9,32,88,24,16,32,61,61,32,49,5,1,114,11,84,111,114,97,115,97,32,65,114,97,109,115,12,0,2,32,51,23,16,12,1,6,112,108,97,121,101,114,213,16,28,99,108,97,121,109,111,114,101,95,99,104,114,121,115,97,109,101,114,101,95,117,110,105,113,117,101,95,120,1,0,12,1,6,112,108,97,121,101,114,212,16,26,99,108,97,121,109,111,114,101,95,99,104,114,121,115,97,109,101,114,101,95,117,110,105,113,117,101,1,0,9,1,1,1]
+}

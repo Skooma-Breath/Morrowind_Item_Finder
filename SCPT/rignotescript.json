@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 195,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin rignoteScript\r\n\r\nshort doOnce\r\n\r\nif ( GetDisabled == 0 )\r\n\tif ( GetJournalIndex BM_Trial < 20 )\r\n\t\tDisable\r\n\tendif\r\nelseif ( GetDisabled == 1 )\r\n\tif (GetJournalIndex BM_Trial >= 20 )\r\n\t\tEnable\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex BM_Trial >= 20 )\r\n\tif ( GetJournalIndex BM_Trial < 50 )\r\n\t\tif ( OnActivate == 1 )\r\n\t\t\tif ( doOnce == 0 )\r\n\t\t\t\tActivate\r\n\t\t\t\tJournal BM_Trial 50\r\n\t\t\t\tset doOnce to 1\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\nEnd rignoteScript",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,3,9,32,88,220,16,32,61,61,32,48,6,1,1,20,32,88,205,16,32,100,8,66,77,95,84,114,105,97,108,32,60,32,50,48,219,16,9,1,8,1,3,9,32,88,220,16,32,61,61,32,49,6,1,1,21,32,88,205,16,32,100,8,66,77,95,84,114,105,97,108,32,62,61,32,50,48,218,16,9,1,9,1,6,1,9,21,32,88,205,16,32,100,8,66,77,95,84,114,105,97,108,32,62,61,32,50,48,6,1,7,20,32,88,205,16,32,100,8,66,77,95,84,114,105,97,108,32,60,32,53,48,6,1,5,9,32,88,24,16,32,61,61,32,49,6,1,3,9,32,115,1,0,32,61,61,32,48,23,16,204,16,8,66,77,95,84,114,105,97,108,50,0,255,255,5,1,115,1,0,2,32,49,9,1,9,1,9,1,9,1,1,1]
+}

@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Redguard",
+  "CNAM": "Guard",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_redguard_m_head_04",
+  "KNAM": "B_N_Redguard_M_Hair_06",
+  "MODL": null,
+  "FNAM": "Raccan",
+  "SCRI": "fortloreboozeScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver spear"
+    },
+    {
+      "count": 1,
+      "name": "imperial boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial cuirass_armor"
+    },
+    {
+      "count": 1,
+      "name": "Imperial Guard Random Helmet"
+    },
+    {
+      "count": 1,
+      "name": "Imperial Guard Random LPauldron"
+    },
+    {
+      "count": 1,
+      "name": "Imperial Guard Random RPauldron"
+    },
+    {
+      "count": 1,
+      "name": "torch_infinite_time"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 244,
+    "magicka": 112,
+    "fatigue": 327,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,56,49,78,74,100,52,40],
+    "skills": [71,24,76,76,76,86,29,75,61,7,7,7,7,7,7,7,7,7,39,7,39,7,12,7,7,39,39]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

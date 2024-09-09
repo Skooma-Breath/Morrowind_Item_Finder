@@ -1,0 +1,214 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2954199812008424482": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3133521781172368081",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "paur maston",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, Vanjirra. She's always been a good partner.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "vanjirra",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_TraderMissed",
+          "__TV": 100
+        }
+      ]
+    },
+    "3133521781172368081": {
+      "flag": 0,
+      "PNAM": "2954199812008424482",
+      "NNAM": "1299818210450917823",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "paur maston",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, Vanjirra. She's in Molag Mar waiting for me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_TraderMissed",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_TraderMissed",
+          "__TV": 100
+        }
+      ]
+    },
+    "1299818210450917823": {
+      "flag": 0,
+      "PNAM": "3133521781172368081",
+      "NNAM": "320805212119311183",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "paur maston",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, my partner Vanjirra and I were going to do some business in Molag Mar. I was detained, though, and it seems she's gone ahead without me. I'm a bit surprised, because it's a fairly dangerous trip.",
+      "BNAM": "Journal \"MV_TraderMissed\" 10",
+      "SCVR": null
+    },
+    "320805212119311183": {
+      "flag": 0,
+      "PNAM": "1299818210450917823",
+      "NNAM": "18500209911864819544",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vanjirra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I have a business partner named Paur Maston. He was supposed to meet me a while back and travel here with me, but I suppose he was detained.",
+      "BNAM": "Journal \"MV_TraderMissed\" 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_TraderMissed",
+          "__TV": 10
+        }
+      ]
+    },
+    "18500209911864819544": {
+      "flag": 0,
+      "PNAM": "320805212119311183",
+      "NNAM": "276425104824718235",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vanjirra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What's that? Oh, no! I can't believe he's gone! It is good of you to come all this way to tell me of his passing, though.",
+      "BNAM": "RemoveItem \"Gold_001\" 50\r\nPlayer->AddItem \"Gold_001\" 50\r\nJournal \"MV_TraderMissed\" 130",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_TraderMissed",
+          "__TV": 90
+        }
+      ]
+    },
+    "276425104824718235": {
+      "flag": 0,
+      "PNAM": "18500209911864819544",
+      "NNAM": "185051072051301",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vanjirra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I'll miss him terribly. He was a good partner and a good friend.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_TraderMissed",
+          "__TV": 130
+        }
+      ]
+    },
+    "185051072051301": {
+      "flag": 0,
+      "PNAM": "276425104824718235",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vanjirra",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Paur Maston and I are business partners and have been for years.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

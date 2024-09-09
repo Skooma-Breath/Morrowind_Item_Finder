@@ -1,0 +1,572 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "28841294413029625935": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "249493202032721949",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's good to finally get my hands on some good merchandise.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Shipment",
+          "__TV": 40
+        }
+      ]
+    },
+    "249493202032721949": {
+      "flag": 0,
+      "PNAM": "28841294413029625935",
+      "NNAM": "215443041394626711",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've gotten it! Well done, %PCName. I was beginning to think we'd never see this kind of merchandise again. As promised, here is your reward. I hope it wasn't too much trouble for you.",
+      "BNAM": "Journal \"EB_Shipment\" 40\r\nPlayer->RemoveItem \"misc_lw_bowl\" 5\r\nPlayer->RemoveItem \"misc_lw_cup\" 5\r\nAddItem \"misc_lw_bowl\" 5\r\nAddItem \"misc_lw_cup\" 5\r\nPlayer->AddItem \"Gold_001\" 1500",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Shipment",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Shipment",
+          "__TV": 40
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        }
+      ]
+    },
+    "215443041394626711": {
+      "flag": 0,
+      "PNAM": "249493202032721949",
+      "NNAM": "18328210343169811341",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm...I'm sure you were. Perhaps you'd better leave right now.",
+      "BNAM": "Journal EB_Shipment 35\r\nModDisposition -10\r\nModFight 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Shipment",
+          "__TV": 40
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "18328210343169811341": {
+      "flag": 0,
+      "PNAM": "215443041394626711",
+      "NNAM": "3896279642778817723",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You were able to take this from one of our ships? I'll have the guards' heads for this! It's good you are an honest person, %PCName, and it is good that I know about the holes in my security at the docks. Here, take this as a reward. I would suggest you stay off my ships in the future.",
+      "BNAM": "Journal \"EB_Shipment\" 50\r\nPlayer->RemoveItem \"misc_lw_bowl\" 5\r\nPlayer->RemoveItem \"misc_lw_cup\" 5\r\nAddItem \"misc_lw_bowl\" 5\r\nAddItem \"misc_lw_cup\" 5\r\nPlayer->AddItem \"Gold_001\" 500",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Shipment",
+          "__TV": 40
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "3896279642778817723": {
+      "flag": 0,
+      "PNAM": "18328210343169811341",
+      "NNAM": "275628341705728341",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I would be good to get my hands on that shipment. Let me know when you get the pieces.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Shipment",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "EB_Shipment",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        }
+      ]
+    },
+    "275628341705728341": {
+      "flag": 0,
+      "PNAM": "3896279642778817723",
+      "NNAM": "7590303962039429024",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You got the bowls, but where are the cups? Come back when you have it all.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Shipment",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "EB_Shipment",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        }
+      ]
+    },
+    "7590303962039429024": {
+      "flag": 0,
+      "PNAM": "275628341705728341",
+      "NNAM": "21063259111914917915",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You got the cups, but where are the bowls? Come back when you have everything.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Shipment",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "EB_Shipment",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        }
+      ]
+    },
+    "21063259111914917915": {
+      "flag": 0,
+      "PNAM": "7590303962039429024",
+      "NNAM": "32753167563088719719",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I suppose I shouldn't have expected your help.",
+      "BNAM": "Journal \"EB_Shipment\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "32753167563088719719": {
+      "flag": 0,
+      "PNAM": "21063259111914917915",
+      "NNAM": "13414303251953815124",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent. You can find the limeware aboard the Chun-Ook, docked in Ebonheart. It is likely to be very well guarded, so take care. There should be at least ten pieces of it...bowls and cups, I believe. Anything else you find -- flasks, plates, or platters -- is probably fake, so leave it behind.",
+      "BNAM": "Journal \"EB_Shipment\" 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "13414303251953815124": {
+      "flag": 0,
+      "PNAM": "32753167563088719719",
+      "NNAM": "141663227849129654",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alarvyne indalas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It didn't used to be as much of a problem, but Bolryn at the East Empire Company has been manipulating the prices; I'm sure of it. And he won't give most of us a license to sell the stuff. Actually, I know for a fact that there's a shipment of limeware being held up on a ship in Ebonheart. If you'd be willing to...recover it for me...I would be willing to reward you very generously. Perhaps 1,500 drakes?",
+      "BNAM": "Journal \"EB_Shipment\" 10\r\nChoice \"I'll get the limeware for you.\" 1 \"I can't help you.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Shipment",
+          "__TV": 0
+        }
+      ]
+    },
+    "141663227849129654": {
+      "flag": 0,
+      "PNAM": "13414303251953815124",
+      "NNAM": "547432752123113499",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A shipment of limeware? I know nothing about it. There are strict regulations on that kind of material entering Vvardenfell. You'd have to show me some proof for me to believe that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Shipment",
+          "__TV": 35
+        }
+      ]
+    },
+    "547432752123113499": {
+      "flag": 0,
+      "PNAM": "141663227849129654",
+      "NNAM": "25898318151220821495",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A shipment of limeware? I know nothing about it. There are strict regulations on that kind of material entering Vvardenfell. You'd have to show me some proof for me to believe that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Shipment",
+          "__TV": 35
+        }
+      ]
+    },
+    "25898318151220821495": {
+      "flag": 0,
+      "PNAM": "547432752123113499",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Bolrin",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You say that the limeware you have was on one of my ships? And you managed to get on board to steal it? What are we to do about this?",
+      "BNAM": "Choice \"You should be more careful with your security. Take your limeware.\" 3 \"I must be mistaken.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_bowl",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_lw_cup",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Shipment",
+          "__TV": 40
+        }
+      ]
+    }
+  }
+}

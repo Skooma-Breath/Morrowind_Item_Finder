@@ -1,0 +1,267 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "12593256011267619344": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "20592162652859231730",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already cured the kwama queen.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_MineCure",
+          "__TV": 100
+        }
+      ]
+    },
+    "20592162652859231730": {
+      "flag": 0,
+      "PNAM": "12593256011267619344",
+      "NNAM": "16507158082901630395",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So, the queen is no longer blighted? Very good work, %PCName. As your patron, I suppose I should give you some lessons. This book, though somewhat simplistic, has a good lesson on the school of Alteration.",
+      "BNAM": "Journal HT_MineCure 100\r\nPlayer->AddItem BookSkill_Alteration1 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 5\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_MineCure",
+          "__TV": 70
+        }
+      ]
+    },
+    "16507158082901630395": {
+      "flag": 0,
+      "PNAM": "20592162652859231730",
+      "NNAM": "19182271931778711031",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have killed the queen? That is unfortunate. Wait a few days and return to the mind to see if a new queen has been born If not, the mine is lost forever and I will be somewhat disappointed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "kwama queen_mudan",
+          "__TV": 0
+        }
+      ]
+    },
+    "19182271931778711031": {
+      "flag": 0,
+      "PNAM": "16507158082901630395",
+      "NNAM": "13951190932475731227",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I have taught you the spell. Now you just need to go find the queen and cure her of the blight.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_MineCure",
+          "__TV": 20
+        }
+      ]
+    },
+    "13951190932475731227": {
+      "flag": 0,
+      "PNAM": "19182271931778711031",
+      "NNAM": "23285136902751329926",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is a rather complicated spell. [Aryon teaches you a targeted cure blight spell.] You should understand the principle now. You will find this spell is much more efficient than most. If you want, you can also buy scrolls of cure blight from Hetman Abelmawia in Gnisis.",
+      "BNAM": "Journal HT_MineCure 20\r\nPlayer->AddSpell \"cure_blight_target\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "23285136902751329926": {
+      "flag": 0,
+      "PNAM": "13951190932475731227",
+      "NNAM": "3810172492017319811",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I trust you can already cast this spell, then. If not, speak with Hetman Abelmawia in Gnisis. He sells scrolls of cure blight.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3810172492017319811": {
+      "flag": 0,
+      "PNAM": "23285136902751329926",
+      "NNAM": "5663292173125928939",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This mine is due west of my tower here in Tel Vos, just a few minutes from here. There's also a shortcut if you go through the dungeon. The Kwama queen there has a blight disease. If you wish, I can teach you a spell of cure blight that you can cast on the queen.",
+      "BNAM": "Journal HT_MineCure 10\r\nChoice \"Yes, teach me the spell.\" 1 \"Nevermind.\" 2",
+      "SCVR": null
+    },
+    "5663292173125928939": {
+      "flag": 0,
+      "PNAM": "3810172492017319811",
+      "NNAM": "260528338201089886",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Tel Vos",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's due west of here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "260528338201089886": {
+      "flag": 0,
+      "PNAM": "5663292173125928939",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vos",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's northwest of here. Due west of Tel Vos.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

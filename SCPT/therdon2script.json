@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 96,
+    "local_var_size": 31
+  },
+  "SCTX": "Begin Therdon2Script\r\n\r\nshort giveitem\r\nshort nolore\r\nshort doonce\r\nshort doonceB\r\n\r\nif ( therdon.change == 1 )\r\n\tif ( getdeadcount therdon < 1 )\r\n\t\tif ( doonce = 0 )\r\n\t\t\tEnable\r\n\t\t\tset doonce to 1\r\n\t\tendif\r\n\tendif\r\nelseif ( doonceB = 0 )\r\n\tDisable\r\n\tset doonceB to 1\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "giveitem",
+    "nolore",
+    "doonce",
+    "doonceB"
+  ],
+  "SCDT": [6,1,6,18,32,114,7,116,104,101,114,100,111,110,115,1,0,32,61,61,32,49,6,1,4,18,32,88,254,16,32,111,7,116,104,101,114,100,111,110,32,60,32,49,6,1,2,8,32,115,3,0,32,61,32,48,218,16,5,1,115,3,0,2,32,49,9,1,9,1,8,1,2,8,32,115,4,0,32,61,32,48,219,16,5,1,115,4,0,2,32,49,9,1,1,1]
+}

@@ -1,0 +1,78 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_10",
+  "MODL": null,
+  "FNAM": "Niras Farys",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver staff of shaming"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_03_a"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 5,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "divine aid",
+    "enrichment",
+    "blood gift",
+    "powerwell",
+    "Quicksilver",
+    "wisdom",
+    "fortitude",
+    "seryn's blessing",
+    "magickguard",
+    "holy touch",
+    "energy leech",
+    "righteousness"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 86,
+    "magicka": 110,
+    "fatigue": 237,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [60,55,78,52,68,47,50,40],
+    "skills": [6,6,6,6,41,11,6,6,11,17,46,52,17,36,56,52,36,52,6,6,6,31,16,11,10,26,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

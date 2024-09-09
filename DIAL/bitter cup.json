@@ -1,0 +1,525 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1012332167164624965": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "571622831199792296",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, %PCName. Make amends and speak with me again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "571622831199792296": {
+      "flag": 0,
+      "PNAM": "1012332167164624965",
+      "NNAM": "16578980663722852",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There's nothing more we can do about this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BitterBribe",
+          "__TV": 120
+        }
+      ]
+    },
+    "16578980663722852": {
+      "flag": 0,
+      "PNAM": "571622831199792296",
+      "NNAM": "13021215577055203",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's not bring that one up again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BitterBribe",
+          "__TV": 110
+        }
+      ]
+    },
+    "13021215577055203": {
+      "flag": 0,
+      "PNAM": "16578980663722852",
+      "NNAM": "633952621839018214",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Eydis Fire-Eye has the Bitter Cup now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BitterBribe",
+          "__TV": 100
+        }
+      ]
+    },
+    "633952621839018214": {
+      "flag": 0,
+      "PNAM": "13021215577055203",
+      "NNAM": "81581064827739327",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Eydis Fire-Eye is dead? That is a problem. Well, she can't hurt us now, but neither can she help us. We'll have to move on to other jobs.",
+      "BNAM": "Journal TG_BitterBribe 120",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "eydis fire-eye",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TG_BitterBribe",
+          "__TV": 100
+        }
+      ]
+    },
+    "81581064827739327": {
+      "flag": 0,
+      "PNAM": "633952621839018214",
+      "NNAM": "25741119422478130116",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Eydis took the Bitter Cup. Good. She's likely to betray us, too, but only if she thinks we think she won't. Anyway, I found some good lockpicks the other day and thought you might could find a use for them.",
+      "BNAM": "Journal TG_BitterBribe 100\r\nPlayer->AddItem Pick_Grandmaster 1\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BitterBribe",
+          "__TV": 50
+        }
+      ]
+    },
+    "25741119422478130116": {
+      "flag": 0,
+      "PNAM": "81581064827739327",
+      "NNAM": "14744287973221728391",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the Bitter Cup. You need to take it to Eydis Fire-Eye. She's in the Fighters Guild in Balmora.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "artifact_bittercup_01",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BitterBribe",
+          "__TV": 10
+        }
+      ]
+    },
+    "14744287973221728391": {
+      "flag": 0,
+      "PNAM": "25741119422478130116",
+      "NNAM": "2860023908295722419",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Now please go get it. Time is of the essence.",
+      "BNAM": "ModDisposition -2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BitterBribe",
+          "__TV": 30
+        }
+      ]
+    },
+    "2860023908295722419": {
+      "flag": 0,
+      "PNAM": "14744287973221728391",
+      "NNAM": "14173313601480630406",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fool! You used it?! Well, I can't say as I blame you. Scratch one bribery attempt, though. But things might still work to our advantage.",
+      "BNAM": "Journal TG_BitterBribe 110\r\nModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BitterBribe",
+          "__TV": 30
+        }
+      ]
+    },
+    "14173313601480630406": {
+      "flag": 0,
+      "PNAM": "2860023908295722419",
+      "NNAM": "158212426355315409",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Fool! You used it?! Well, I can't say as I blame you. Scratch one bribery attempt, though. But things might still work to our advantage.",
+      "BNAM": "Journal TG_BitterBribe 110\r\nModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BitterBribe",
+          "__TV": 25
+        }
+      ]
+    },
+    "158212426355315409": {
+      "flag": 0,
+      "PNAM": "14173313601480630406",
+      "NNAM": "204069051240527734",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Where's the Bitter Cup? You didn't succumb to its power, did you?",
+      "BNAM": "choice \"No way. Not me.\" 1 \"Yeah. I blew it.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_BitterBribe",
+          "__TV": 30
+        }
+      ]
+    },
+    "204069051240527734": {
+      "flag": 0,
+      "PNAM": "158212426355315409",
+      "NNAM": "8383215591806511210",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Percius Mercius told us that Eydis Fire-Eye worships Clavicus Vile. Perhaps she would betray Sjoring Hard-Heart for the Bitter Cup, an artifact sacred to Clavicus Vile. The Bitter Cup was lost in the ruins of Ald Redaynia, which is on an island north of the Urshilaku Camp.",
+      "BNAM": "Journal TG_BitterBribe 10",
+      "SCVR": null
+    },
+    "8383215591806511210": {
+      "flag": 0,
+      "PNAM": "204069051240527734",
+      "NNAM": "30272251543206015838",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you gave me the Bitter Cup. I have not forgotten.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BitterBribe",
+          "__TV": 50
+        }
+      ]
+    },
+    "30272251543206015838": {
+      "flag": 0,
+      "PNAM": "8383215591806511210",
+      "NNAM": "62822159696622307",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So be it. I take this Bitter Cup and pledge to support you against Sjoring Hard-Heart. I never liked the way the Camonna Tong was using an Imperial Guild to destroy another Imperial Guild. Tell the Master Thief to contact me when he's ready.",
+      "BNAM": "Journal TG_BitterBribe 50\r\nPlayer->RemoveItem Artifact_bittercup_01 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "62822159696622307": {
+      "flag": 0,
+      "PNAM": "30272251543206015838",
+      "NNAM": "21232238463232921194",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know that some gifts of Clavicus Vile can be hard to part with. If you change your mind, you know where to find me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21232238463232921194": {
+      "flag": 0,
+      "PNAM": "62822159696622307",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you think you can bribe me to betray Sjoring Hard-Heart? Well, you might be right. If you give me the Bitter Cup, I'll pledge my support to the Thieves Guild.",
+      "BNAM": "Choice \"Give her the cup\" 1 \"Keep the cup\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "artifact_bittercup_01",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_BitterBribe",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

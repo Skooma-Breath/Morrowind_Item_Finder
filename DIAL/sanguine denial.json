@@ -1,0 +1,202 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "206802147221039148": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "674154801802524559",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have returned the Belt of Sanguine Denial.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_S_Denial",
+          "__TV": 100
+        }
+      ]
+    },
+    "674154801802524559": {
+      "flag": 0,
+      "PNAM": "206802147221039148",
+      "NNAM": "229924319105306354",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "With this, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.",
+      "BNAM": "Journal MT_S_Denial 100\r\nPlayer->RemoveItem SanguineBeltDenial 1\r\nPlayer->AddSpell SkillMephala_SP\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 25 \"Morag Tong\"\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "ThreadsWebspinner",
+          "__TV": 25
+        }
+      ]
+    },
+    "229924319105306354": {
+      "flag": 0,
+      "PNAM": "674154801802524559",
+      "NNAM": "151241739912283531",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Thus do Mephala's Threads return to us one by one.",
+      "BNAM": "Journal MT_S_Denial 100\r\nPlayer->RemoveItem SanguineBeltDenial 1\r\nSet ThreadsWebspinner to ThreadsWebspinner + 1\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "151241739912283531": {
+      "flag": 0,
+      "PNAM": "229924319105306354",
+      "NNAM": "28132165522812625",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "So you do not truly believe in our cause. I shall remember this.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "28132165522812625": {
+      "flag": 0,
+      "PNAM": "151241739912283531",
+      "NNAM": "19449303251641231983",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguinebeltdenial",
+          "__TV": 1
+        }
+      ]
+    },
+    "19449303251641231983": {
+      "flag": 0,
+      "PNAM": "28132165522812625",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eno hlaalu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "So Movis Darys had this belt. Shall it be returned to Mephala's black hands?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sanguinebeltdenial",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

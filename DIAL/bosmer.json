@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1557323984507231624": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2768312471171738349",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Bosmer are foreigners, outlanders. They live in trees and eat nothing but meat. We have no forests here. Why don't they go back where they came from?",
+      "BNAM": ";ashlanders",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2768312471171738349": {
+      "flag": 0,
+      "PNAM": "1557323984507231624",
+      "NNAM": "270821422106013908",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Wood Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We're small, sharp, and smart. We love wild creatures, wild beauty, and wild life, unlike our dull cousins. We are not very polite, but don't have to be, since we shoot straight and run like the wind.",
+      "BNAM": ";Bosmer ;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "270821422106013908": {
+      "flag": 0,
+      "PNAM": "2768312471171738349",
+      "NNAM": "5804186103149014641",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Savant",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Bosmer are the clanfolk of the Western Valenwood forests. In the Empire, they are called \"Wood Elves,\" but they call themselves the Bosmer, or the 'Tree-Sap' people. They scorn pretense and formality, preferring a romantic, simple existence in harmony with the wild beauty of nature. They are nimble and quick in body and wit, and there are no finer archers in all of Tamriel.",
+      "BNAM": "; bard, bookseller, savant",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "A",
+          "details": "RX",
+          "operator": "0",
+          "identifier": "Wood Elf",
+          "__TV": 1
+        }
+      ]
+    },
+    "5804186103149014641": {
+      "flag": 0,
+      "PNAM": "270821422106013908",
+      "NNAM": "3120721708920825240",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Bosmer are the clanfolk of the Western Valenwood forests. In the Empire, they are called \"Wood Elves,\" but they call themselves the Bosmer, or the 'Tree-Sap' people. They scorn pretense and formality, preferring a romantic, simple existence in harmony with the wild beauty of nature. They are nimble and quick in body and wit, and there are no finer archers in all of Tamriel.",
+      "BNAM": "; bard, bookseller, savant",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "3120721708920825240": {
+      "flag": 0,
+      "PNAM": "5804186103149014641",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": "Noble",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Bosmer are a light, careless, insubstantial people. They are barely civilized barbarians, living in unheated communal huts in the middle of empty forest wastelands. They are marvelous archers and cunning hunters, but they are worthless as hirelings, having no concept of contract, obligation, or loyalty. They are passionate and spiritually alive, but befuddled by primitive superstitions and shamanistic spirit worship.",
+      "BNAM": ";Dunmer;not Bosmer",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "1",
+          "identifier": "PCRace",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

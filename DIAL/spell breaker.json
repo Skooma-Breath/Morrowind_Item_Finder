@@ -1,0 +1,353 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "156044058427417824": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "22356163842721019050",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mastrius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is a shield of immense power, known for its resistance to even the most arcane magic. I have heard it lies in Bthuand, a Dwemer ruin north of here. The former owner now lies there as well, unable to control it's enchantments.",
+      "BNAM": "Journal \"VA_VampCurse\" 55",
+      "SCVR": null
+    },
+    "22356163842721019050": {
+      "flag": 0,
+      "PNAM": "156044058427417824",
+      "NNAM": "2565020123127955397",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!",
+      "BNAM": "SetPCCrimeLevel 100000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "spellbreaker",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "spell_breaker_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "2565020123127955397": {
+      "flag": 0,
+      "PNAM": "22356163842721019050",
+      "NNAM": "2575816023434916",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, we do thank you for selling it to the Museum.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "spellbreaker",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "spell_breaker_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "2575816023434916": {
+      "flag": 0,
+      "PNAM": "2565020123127955397",
+      "NNAM": "7411251422061528740",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So be it.  Should you change your mind, you know where to find me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "7411251422061528740": {
+      "flag": 0,
+      "PNAM": "2575816023434916",
+      "NNAM": "1544112589268919606",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName.",
+      "BNAM": "player->removeitem \"spell_breaker_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\nset spellbreaker to 2\r\n\"spell_breaker_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "spell_breaker_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "1544112589268919606": {
+      "flag": 0,
+      "PNAM": "7411251422061528740",
+      "NNAM": "28548300551487621743",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have Spell Breaker with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "spell_breaker_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "28548300551487621743": {
+      "flag": 0,
+      "PNAM": "1544112589268919606",
+      "NNAM": "223752499985296945",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName.",
+      "BNAM": "player->removeitem \"spell_breaker_unique\" 1\r\nplayer->additem \"gold_001\" 30000\r\nset spellbreaker to 2\r\n\"spell_breaker_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "spell_breaker_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "223752499985296945": {
+      "flag": 0,
+      "PNAM": "28548300551487621743",
+      "NNAM": "144398162662511070",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have Spell Breaker with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "spell_breaker_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "144398162662511070": {
+      "flag": 0,
+      "PNAM": "223752499985296945",
+      "NNAM": "8460317492075730605",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A wonderful shield, and very resistant to magicka, from what I understand.  May we add this to our collection? I can offer you 30000 gold in exchange for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "spellbreaker",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "8460317492075730605": {
+      "flag": 0,
+      "PNAM": "144398162662511070",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A wonderful shield, and very resistant to magicka, from what I understand.  May we add this to our collection? I can offer you 30000 gold in exchange for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "spellbreaker",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

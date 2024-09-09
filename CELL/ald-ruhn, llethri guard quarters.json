@@ -1,0 +1,1355 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [729418,1061158912]
+  },
+  "NAME": "Ald-ruhn, Llethri Guard Quarters",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,65,65,0],
+    "sunlight": [80,40,20,0],
+    "fog_color": [74,33,11,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-472790": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "redoran guard female",
+      "DATA": [199.47023010253906,-6.437764644622803,56.53305435180664,0,0,4.4831862449646]
+    },
+    "0-472791": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "redoran guard male",
+      "DATA": [436.8708190917969,-31.00653839111328,-366.0051574707031,0,0,0]
+    },
+    "0-472792": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "redoran guard male",
+      "DATA": [-486.2873229980469,-16.037206649780273,-366.0051574707031,0,0,0]
+    },
+    "0-80154": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_door_01",
+      "DATA": [1792,-64,-256,0,0,4.71238899230957]
+    },
+    "0-80147": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_door_01",
+      "DATA": [1280,-64,128,0,0,4.71238899230957]
+    },
+    "0-80018": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-385.6916198730469,-597.0324096679688,-338,0,0,4.750000476837158]
+    },
+    "0-80030": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-372.8926086425781,598.9783935546875,-338,0,0,1.5396019220352173]
+    },
+    "0-80031": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [399.6611022949219,-587.1968994140625,-338.3179626464844,0,0,4.698426246643066]
+    },
+    "0-80032": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [396.7738952636719,590.9497680664062,-338,0,0,1.6221975088119507]
+    },
+    "0-80033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-118.52457427978516,598.9752197265625,-338,0,0,1.563962697982788]
+    },
+    "0-80065": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_mcloth2",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-15.560999870300293,-692.47998046875,-361.3869934082031,0,0,3.1503193378448486]
+    },
+    "0-80066": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [582.0180053710938,-598.7849731445312,-218,0,0,0.27576202154159546]
+    },
+    "0-80067": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [625.8775024414062,-528.0366821289062,-210,0,0,2.4749999046325684]
+    },
+    "0-80068": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_08",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [608.0072631835938,-565.59521484375,-218,0,0,0.8750000596046448]
+    },
+    "0-80069": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_08",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [620.9896240234375,-545.3604736328125,-218,0,0,0.2750000059604645]
+    },
+    "0-80070": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_08",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [614.424560546875,-553.8984985351562,-218,0,0,6.257988452911377]
+    },
+    "0-80071": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_mcloth2",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 10,
+      "DATA": [520.6929931640625,-667.4630126953125,-361.3869934082031,0,0,2.633701801300049]
+    },
+    "0-80072": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_red_grd3",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 15,
+      "DATA": [622.708984375,-548.447998046875,-304,0,0,2.083923101425171]
+    },
+    "0-80073": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-375.0429992675781,661.8410034179688,-329,0,0,4.658283710479736]
+    },
+    "0-80075": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-130.427978515625,-292.7073974609375,-224.4483642578125,0,0,5.9081902503967285]
+    },
+    "0-80076": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-128.07510375976562,-267.7980651855469,-224.4483642578125,0,0,0.9250004291534424]
+    },
+    "0-80077": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "extravagant_skirt_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-164.94308471679688,-282.8228454589844,-224.42251586914062,0,0,0.32500022649765015]
+    },
+    "0-80078": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "eindel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-528.6027221679688,-618.4010009765625,-212.6531219482422,0,0,0.34999945759773254]
+    },
+    "0-80079": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_red_grd3",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [671.3679809570312,410.6579895019531,-304,0,0,1.583013653755188]
+    },
+    "0-80080": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_mcloth2",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-368.90399169921875,466.739990234375,-361.3869934082031,0,0,6.225589275360107]
+    },
+    "0-80081": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_local_liquor_01",
+      "ANAM": "eindel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-538.1266479492188,-649.1630249023438,-212.6531219482422,0,0,1.8500001430511475]
+    },
+    "0-80082": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "short bow",
+      "ANAM": "eindel",
+      "INTV": 50,
+      "NAM9": 1,
+      "DATA": [-572.2537841796875,-584.5695190429688,-223.30078125,0.02617993950843811,0,4.734586238861084]
+    },
+    "0-80083": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [101.01144409179688,-598.5035400390625,-338.31793212890625,0,0,4.725001335144043]
+    },
+    "0-80084": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_red_grd3",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-578.489013671875,-588.3280029296875,-304.2239990234375,0,0,3.9165189266204834]
+    },
+    "0-80086": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [98.86481475830078,-664.291748046875,-329.29730224609375,0,0,4.708187580108643]
+    },
+    "0-80087": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-122.53365325927734,-668.4068603515625,-329,0,0,1.6081864833831787]
+    },
+    "0-80090": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [109.33157348632812,601.1431274414062,-342.9405822753906,0,0,1.5641348361968994]
+    },
+    "0-80092": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_red_grd3",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-110.58899688720703,-277.760009765625,-304.2239990234375,0,0,0.006981316953897476]
+    },
+    "0-80093": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_mcloth2",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [186.81700134277344,-657.1400146484375,-361.3869934082031,0,0,4.750786304473877]
+    },
+    "0-80095": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [401.0307312011719,-650.990966796875,-329.2973327636719,0,0,4.6831865310668945]
+    },
+    "0-80096": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_mcloth4",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 50,
+      "TNAM": "alit bite",
+      "DATA": [-2.8929998874664307,697.10498046875,-361.3869934082031,0,0,0]
+    },
+    "0-80097": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "extravagant_shoes_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-513.921875,577.5864868164062,-384.23931884765625,0,0,4.783186912536621]
+    },
+    "0-80098": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [110.91971588134766,665.3623657226562,-333.9405822753906,0,0,1.5331871509552002]
+    },
+    "0-80099": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_red_grd3",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-95.67256927490234,276.8470153808594,-304,0,0,3.157716751098633]
+    },
+    "0-80101": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "extravagant_shirt_01_r",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-623.70556640625,534.4329833984375,-224.42251586914062,0,0,5.4081854820251465]
+    },
+    "0-80102": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "extravagant_belt_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-592.8422241210938,580.1328125,-224.44833374023438,0,0,5.408185958862305]
+    },
+    "0-80103": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_red_grd3",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-591.218017578125,572.4929809570312,-304.22418212890625,0,0,5.391322135925293]
+    },
+    "0-80104": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-118.7043228149414,662.00048828125,-329,0,0,4.732719898223877]
+    },
+    "0-80105": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_chest_01_mcloth2",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [526.8779907226562,662.6010131835938,-361.3869934082031,0,0,0.5427973866462708]
+    },
+    "0-80108": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-555.76171875,317.14544677734375,-321.9058837890625,0,0,5.983186721801758]
+    },
+    "0-80109": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-557.3552856445312,-166.25254821777344,-322.77423095703125,0,0,6.258185863494873]
+    },
+    "0-80112": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_06",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-561.75244140625,283.30596923828125,-316.9058837890625,0,0,5.883185386657715]
+    },
+    "0-80113": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_06",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-525.5154418945312,-204.38673400878906,-316.4037170410156,0,0,1.5750000476837158]
+    },
+    "0-80114": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_06",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-576.8721313476562,-289.1715393066406,-316.4037170410156,0,0,1.5750000476837158]
+    },
+    "0-80119": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-562.365478515625,262.31488037109375,-308.9058837890625,0,0,1.5168137550354004]
+    },
+    "0-80121": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-571.2606201171875,197.54698181152344,-316.9058837890625,0,0,0.399999737739563]
+    },
+    "0-80122": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-575.758544921875,-262.1759948730469,-316.4037170410156,0,0,1.5750000476837158]
+    },
+    "0-80144": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_01_64",
+      "DATA": [-584.6031494140625,-225.13844299316406,-304.8509826660156,0,0,1.5750000476837158]
+    },
+    "0-80148": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "key_llethrimanor_01",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-103.68441009521484,-298.1639099121094,-224,0,0,3.125000476837158]
+    },
+    "0-80149": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [401.8250427246094,652.8551025390625,-329,0,0,1.725000023841858]
+    },
+    "0-249525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dart_uniq_judgement",
+      "ANAM": "eindel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-400.6873779296875,-549.8162841796875,-334.2666015625,0,0,4.7353973388671875]
+    },
+    "0-249526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dart_uniq_judgement",
+      "ANAM": "eindel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-373.6377868652344,-568.1942138671875,-334.2666015625,0,0,3.785398244857788]
+    },
+    "0-249527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dart_uniq_judgement",
+      "ANAM": "eindel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-387.36676025390625,-566.3256225585938,-334.2666015625,0,0,3.8753981590270996]
+    },
+    "0-249528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dart_uniq_judgement",
+      "ANAM": "eindel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-391.80694580078125,-560.8224487304688,-334.2666015625,0,0,0.9853990077972412]
+    },
+    "0-249529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_01_64",
+      "DATA": [-531.05322265625,236.9141387939453,-305.3531494140625,0,0,1.5999997854232788]
+    },
+    "0-80003": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lcorner_01",
+      "DATA": [512,-512,0,0,0,3.1415927410125732]
+    },
+    "0-80005": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_bridge_01",
+      "DATA": [512,0,-128,0,0,1.5707963705062866]
+    },
+    "0-80006": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lcorner_01",
+      "DATA": [-512,-512,0,0,0,4.71238899230957]
+    },
+    "0-80008": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lcorner_01",
+      "DATA": [512,512,0,0,0,1.5707963705062866]
+    },
+    "0-80009": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lcorner_01",
+      "DATA": [-512,512,0,0,0,6.2831854820251465]
+    },
+    "0-80011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_stairs_02",
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "0-80013": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lwall_01",
+      "DATA": [0,-512,0,0,0,3.1415927410125732]
+    },
+    "0-80020": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lwall_01",
+      "DATA": [0,512,0,0,0,6.2831854820251465]
+    },
+    "0-80022": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lwall_01",
+      "DATA": [-512,0,0,0,0,4.71238899230957]
+    },
+    "0-80045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [118.00650024414062,-104.32601928710938,-384,0,0,1.5090457201004028]
+    },
+    "0-80049": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [-605.618408203125,437.77801513671875,-384,0,0,0.013962633907794952]
+    },
+    "0-80058": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_07",
+      "DATA": [-555.6494750976562,-236.26025390625,-351.4037170410156,0,0,4.716592788696289]
+    },
+    "0-80059": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_07",
+      "DATA": [-544.7236328125,249.79440307617188,-351.9058837890625,0,0,1.5825462341308594]
+    },
+    "0-80060": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [-607.025146484375,274.62408447265625,-358.9058837890625,0,0,1.5999997854232788]
+    },
+    "0-80062": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [-624.6236572265625,-229.9703369140625,-358.4037170410156,0,0,1.5750000476837158]
+    },
+    "0-80063": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [-482.0010681152344,256.9359436035156,-358.9058837890625,0,0,1.5]
+    },
+    "0-80088": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [151.298583984375,-106.6993408203125,-384,0,0,1.5090457201004028]
+    },
+    "0-80089": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [133.14939880371094,-118.17131042480469,-384,0,0,1.5090457201004028]
+    },
+    "0-80127": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [-486.31292724609375,-232.60006713867188,-358.4037170410156,0,0,1.5400935411453247]
+    },
+    "0-80133": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [-697.1113891601562,-108.79859924316406,-361.6025390625,0,0,1.5882495641708374]
+    },
+    "0-80135": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.5800000429153442,
+      "DATA": [-546.641357421875,-245.40219116210938,-385.5126953125,0,0,4.71238899230957]
+    },
+    "0-80136": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.600000023841858,
+      "DATA": [422.081298828125,457.9612121582031,-386.16558837890625,0,0,6.283185005187988]
+    },
+    "0-80137": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.630000114440918,
+      "DATA": [-55.71027755737305,489.13421630859375,-386.2071228027344,0,0,6.283185005187988]
+    },
+    "0-80146": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_l_doorjamb_01",
+      "DATA": [1280,0,128,0,0,4.7123894691467285]
+    },
+    "0-80151": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_l_hall_01",
+      "DATA": [1024,0,128,0,0,1.5707963705062866]
+    },
+    "0-80152": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_l_hall_01",
+      "DATA": [1024,0,-256,0,0,1.5707963705062866]
+    },
+    "0-80153": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_l_doorjamb_01",
+      "DATA": [1792,0,-256,0,0,4.7123894691467285]
+    },
+    "0-308057": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lentrance_01",
+      "DATA": [512,0,0,0,0,1.5707963705062866]
+    },
+    "0-308058": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.5800000429153442,
+      "DATA": [-549.693603515625,225.99862670898438,-385.5126953125,0,0,4.71238899230957]
+    },
+    "0-308059": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_l_int_lcenter_01",
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "0-308060": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-387.5639953613281,-662.4650268554688,-329,0,0,1.5585789680480957]
+    },
+    "0-308061": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_pr_bed_25",
+      "ANAM": "garisa llethri",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-122.50088500976562,-603.0834350585938,-338,0,0,4.725000381469727]
+    },
+    "0-308062": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.630000114440918,
+      "DATA": [418.673095703125,-474.5225524902344,-387.7053527832031,0,0,6.283185005187988]
+    },
+    "0-308063": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.630000114440918,
+      "DATA": [-110.1697006225586,-483.17742919921875,-386.11614990234375,0,0,6.283185005187988]
+    },
+    "0-308064": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [-296.79168701171875,-649.1038818359375,-255.5098876953125,0,0,4.533185958862305]
+    },
+    "0-308065": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [303.0880126953125,-647.9326171875,-255.50982666015625,0,0,5.683186054229736]
+    },
+    "0-308066": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [-475.75225830078125,661.3250122070312,-255.5098876953125,0,0,4.533185958862305]
+    },
+    "0-308067": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [-700.0291137695312,87.7387466430664,-361.6025390625,0,0,1.5132496356964111]
+    },
+    "0-308068": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [688.0152587890625,-168.8897705078125,-255.50982666015625,0,0,0.7853981852531433]
+    },
+    "0-308069": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [204.48348999023438,650.7567138671875,-255.5098876953125,0,0,4.533185958862305]
+    },
+    "0-308070": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.6700000762939453,
+      "DATA": [915.2412719726562,-5.7913336753845215,2.2275826930999756,0,0,3.125]
+    },
+    "0-308071": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron longsword",
+      "ANAM": "garisa llethri",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [333.8578796386719,123.4609375,67.6688461303711,0,0,0.05000001937150955]
+    },
+    "0-308072": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [327.9581604003906,148.3149871826172,36.79482650756836,0,0,0.05000001937150955]
+    },
+    "0-308073": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron longsword",
+      "ANAM": "garisa llethri",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [346.23297119140625,121.31937408447266,67.6688461303711,0,0,0.05000001937150955]
+    },
+    "0-308074": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "garisa llethri",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [320.4305114746094,126.92123413085938,67.8619613647461,0,0,0.17499998211860657]
+    },
+    "0-308075": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "garisa llethri",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [327.6578369140625,157.514892578125,67.8619613647461,0,0,0.05000001937150955]
+    },
+    "0-308076": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "garisa llethri",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [207.6199951171875,141.20899963378906,73.53126525878906,0,0,6.2587504386901855]
+    },
+    "0-308077": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [420.0338439941406,170.90982055664062,46.674842834472656,4.758185386657715,0,6.183185577392578]
+    },
+    "0-308078": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Spearholder_01",
+      "DATA": [423.6356506347656,167.0308380126953,50.983192443847656,0,0,0.40000003576278687]
+    },
+    "0-308079": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [421.2028503417969,172.54428100585938,46.674842834472656,4.758185386657715,0,0]
+    },
+    "0-308080": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [428.846923828125,171.85983276367188,46.674842834472656,4.758185386657715,0,0.02500009536743164]
+    },
+    "0-308081": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [425.932373046875,173.73167419433594,46.674842834472656,4.758185386657715,0,0]
+    },
+    "0-308082": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [1167.26904296875,143.51576232910156,128.07400512695312,0,0,0.7243116497993469]
+    },
+    "0-308083": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_steel_weapons",
+      "ANAM": "garisa llethri",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [185.7144012451172,156.14642333984375,40.305023193359375,0,0,0]
+    },
+    "0-308084": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "garisa llethri",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [314.02447509765625,145.25732421875,67.8619613647461,0,0,0.05000001937150955]
+    },
+    "0-308085": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_shield",
+      "ANAM": "garisa llethri",
+      "INTV": 300,
+      "NAM9": 1,
+      "DATA": [171.1904296875,155.434326171875,73.29496765136719,0,0,4.158185005187988]
+    },
+    "0-308086": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_cuirass",
+      "ANAM": "garisa llethri",
+      "INTV": 480,
+      "NAM9": 1,
+      "DATA": [133.29437255859375,173.77711486816406,9.229057312011719,0,0,6.108184814453125]
+    },
+    "0-308087": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_boots",
+      "ANAM": "garisa llethri",
+      "INTV": 150,
+      "NAM9": 1,
+      "DATA": [236.03688049316406,118.29844665527344,9.607200622558594,0,0,4.983184337615967]
+    },
+    "0-308088": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_cuirass",
+      "ANAM": "garisa llethri",
+      "INTV": 480,
+      "NAM9": 1,
+      "DATA": [105.06983947753906,177.4298095703125,9.229057312011719,0,0,6.233185291290283]
+    },
+    "0-308089": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Spearholder_01",
+      "DATA": [383.5373840332031,163.7179718017578,50.983192443847656,0,0,0.40000003576278687]
+    },
+    "0-308090": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [382.8198547363281,163.4918975830078,46.674842834472656,4.758185386657715,0,6.083185195922852]
+    },
+    "0-308091": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [381.1045837402344,169.23141479492188,46.674842834472656,4.758185386657715,0,0]
+    },
+    "0-308092": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [384.5497131347656,170.70602416992188,46.674842834472656,4.758185386657715,0,0]
+    },
+    "0-308093": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "garisa llethri",
+      "INTV": 250,
+      "NAM9": 1,
+      "DATA": [389.8781433105469,166.2321319580078,46.674842834472656,4.758185386657715,0,0.05000000447034836]
+    },
+    "0-308094": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.7500001192092896,
+      "DATA": [439.5558166503906,-11.273951530456543,-386.1748352050781,0,0,6.2831854820251465]
+    },
+    "0-311539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [1278.2374267578125,718.02001953125,92.2529296875,0,0,0.7853981852531433]
+    },
+    "0-311540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_l_hall_01",
+      "DATA": [1536,0,-256,0,0,1.5707963705062866]
+    },
+    "0-387554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [261.2341003417969,165.9097900390625,136.7952117919922,0,0,0.32500001788139343]
+    },
+    "0-387555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [1167.2686767578125,-140.6864776611328,128.07363891601562,0,0,0.7250000238418579]
+    },
+    "0-387556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.6700000762939453,
+      "DATA": [322.40081787109375,-5.9598612785339355,4.7401533126831055,0,0,3.125]
+    },
+    "0-387557": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.6700000762939453,
+      "DATA": [975.4191284179688,-8.053998947143555,-386.1054992675781,0,0,3.125]
+    },
+    "0-387558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [1656.8406982421875,141.2530975341797,-255.5098876953125,0,0,0.7243116497993469]
+    },
+    "0-387559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [1656.84033203125,-142.94918823242188,-255.5098876953125,0,0,0.7250000238418579]
+    },
+    "0-387560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.6700000762939453,
+      "DATA": [1487.5272216796875,-8.053998947143555,-386.1054992675781,0,0,3.125]
+    },
+    "0-468803": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [688.0152587890625,168.88755798339844,-255.50985717773438,0,0,3.9081857204437256]
+    },
+    "0-483306": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bookskill_marksman4",
+      "ANAM": "eindel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-535.897705078125,-293.6268005371094,-319.22119140625,0,0,4.993184566497803]
+    }
+  }
+}

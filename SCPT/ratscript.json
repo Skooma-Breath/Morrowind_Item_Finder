@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 169,
+    "local_var_size": 18
+  },
+  "SCTX": "Begin ratScript\r\n\r\nshort ratskilled\r\nshort doonce\r\n\r\nif ( doonce == -1 )\r\n\treturn\r\nendif\r\n\r\nIf ( OnDeath == 1 )\r\n\tset ratskilled to ratskilled + 1\r\nendif\r\n\r\nif ( GetJournalIndex EB_Pest >=25 )\r\n\tif ( GetJournalIndex EB_Pest <= 30 )\r\n\t\tif ( GetJournalIndex EB_Pest != 26 )\r\n\t\t\tif ( ratskilled == 10 )\r\n\t\t\t\tJournal \"EB_Pest\" 10\r\n\t\t\t\tset doonce to -1\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\nEnd ratScript",
+  "SCVR": [
+    "ratskilled",
+    "doonce"
+  ],
+  "SCDT": [6,1,1,10,32,115,2,0,32,61,61,32,45,49,36,1,9,1,6,1,1,9,32,88,240,16,32,61,61,32,49,5,1,115,1,0,8,32,115,1,0,32,49,32,43,9,1,6,1,8,19,32,88,205,16,32,100,7,69,66,95,80,101,115,116,32,62,61,50,53,6,1,6,20,32,88,205,16,32,100,7,69,66,95,80,101,115,116,32,60,61,32,51,48,6,1,4,20,32,88,205,16,32,100,7,69,66,95,80,101,115,116,32,33,61,32,50,54,6,1,2,10,32,115,1,0,32,61,61,32,49,48,204,16,7,69,66,95,80,101,115,116,10,0,255,255,5,1,115,2,0,7,32,45,49,32,49,32,42,9,1,9,1,9,1,9,1,1,1]
+}

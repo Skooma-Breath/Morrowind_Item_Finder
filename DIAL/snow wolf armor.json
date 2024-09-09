@@ -1,0 +1,1901 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "848823097148716349": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14824115881174823039",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Helm.  It came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_helmet_snow\" 1\r\nset SnowWolfHelm to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfHelm",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "14824115881174823039": {
+      "flag": 0,
+      "PNAM": "848823097148716349",
+      "NNAM": "294127740238363199",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Helm isn't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfHelm",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "294127740238363199": {
+      "flag": 0,
+      "PNAM": "14824115881174823039",
+      "NNAM": "32016149432863622601",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom armor is ready!  Here you go, %PCName, one expertly crafted pair of Snow Wolf Boots.  They came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_boots_snow\" 1\r\nset SnowWolfBoots to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfBoots",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "32016149432863622601": {
+      "flag": 0,
+      "PNAM": "294127740238363199",
+      "NNAM": "710616531067416788",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Boots aren't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfBoots",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "710616531067416788": {
+      "flag": 0,
+      "PNAM": "32016149432863622601",
+      "NNAM": "15758235182619120363",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom armor is ready!  Here you go, %PCName, one expertly crafted set of Snow Wolf Greaves.  They came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_greaves_snow\" 1\r\nset SnowWolfGreaves to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfGreaves",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "15758235182619120363": {
+      "flag": 0,
+      "PNAM": "710616531067416788",
+      "NNAM": "1955124027608129240",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Greaves aren't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfGreaves",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "1955124027608129240": {
+      "flag": 0,
+      "PNAM": "15758235182619120363",
+      "NNAM": "1250413083117636835",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Left Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_left_gauntlet_snow\" 1\r\nset SnowWolfLeftGauntlet to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfLeftGauntlet",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "1250413083117636835": {
+      "flag": 0,
+      "PNAM": "1955124027608129240",
+      "NNAM": "1764328551172574490",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Left Gauntlet isn't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfLeftGauntlet",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "1764328551172574490": {
+      "flag": 0,
+      "PNAM": "1250413083117636835",
+      "NNAM": "12729231211106222386",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Right Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_right_gauntlet_snow\" 1\r\nset SnowWolfRightGauntlet to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfRightGauntlet",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "12729231211106222386": {
+      "flag": 0,
+      "PNAM": "1764328551172574490",
+      "NNAM": "2986731801154257214",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Right Gauntlet isn't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfRightGauntlet",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "2986731801154257214": {
+      "flag": 0,
+      "PNAM": "12729231211106222386",
+      "NNAM": "20018737301356078",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Left Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_left_pauldron_snow\" 1\r\nset SnowWolfLeftPauldron to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfLeftPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "20018737301356078": {
+      "flag": 0,
+      "PNAM": "2986731801154257214",
+      "NNAM": "27001163382273820938",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Left Pauldron isn't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfLeftPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "27001163382273820938": {
+      "flag": 0,
+      "PNAM": "20018737301356078",
+      "NNAM": "325292433550669039",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Right Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_right_pauldron_snow\" 1\r\nset SnowWolfRightPauldron to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfRightPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "325292433550669039": {
+      "flag": 0,
+      "PNAM": "27001163382273820938",
+      "NNAM": "390417542306632395",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Right Pauldron isn't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfRightPauldron",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "390417542306632395": {
+      "flag": 0,
+      "PNAM": "325292433550669039",
+      "NNAM": "2028918180152718725",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Cuirass.  It came out even better than I expected.  If you need anything else, I'm your man!",
+      "BNAM": "player->additem \"BM_wolf_cuirass_snow\" 1\r\nset SnowWolfCuirass to 0\r\nset localDayspassed to 0\r\nset busy to 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfCuirass",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "localdaysPassed",
+          "__TV": 1
+        }
+      ]
+    },
+    "2028918180152718725": {
+      "flag": 0,
+      "PNAM": "390417542306632395",
+      "NNAM": "16258214972433221663",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your custom Snow Wolf Cuirass isn't ready yet, %PCName.  Come back later.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "SnowWolfCuirass",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "localdaysPassed",
+          "__TV": 2
+        }
+      ]
+    },
+    "16258214972433221663": {
+      "flag": 0,
+      "PNAM": "2028918180152718725",
+      "NNAM": "2137324268882516639",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So be it, %PCName.  Come talk to me again if you change your mind.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 9
+        }
+      ]
+    },
+    "2137324268882516639": {
+      "flag": 0,
+      "PNAM": "16258214972433221663",
+      "NNAM": "840455041025321946",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Helm ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 2\r\nplayer->removeitem \"gold_001\" 2000\r\nset SnowWolfHelm to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        }
+      ]
+    },
+    "840455041025321946": {
+      "flag": 0,
+      "PNAM": "2137324268882516639",
+      "NNAM": "453030616165777395",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        }
+      ]
+    },
+    "453030616165777395": {
+      "flag": 0,
+      "PNAM": "840455041025321946",
+      "NNAM": "22111273601087119604",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        }
+      ]
+    },
+    "22111273601087119604": {
+      "flag": 0,
+      "PNAM": "453030616165777395",
+      "NNAM": "4643154831355419099",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Boots ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 3\r\nplayer->removeitem \"gold_001\" 3000\r\nset SnowWolfBoots to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 3
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 3000
+        }
+      ]
+    },
+    "4643154831355419099": {
+      "flag": 0,
+      "PNAM": "22111273601087119604",
+      "NNAM": "32607312792971922119",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 3000
+        }
+      ]
+    },
+    "32607312792971922119": {
+      "flag": 0,
+      "PNAM": "4643154831355419099",
+      "NNAM": "17682046270139523",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 3
+        }
+      ]
+    },
+    "17682046270139523": {
+      "flag": 0,
+      "PNAM": "32607312792971922119",
+      "NNAM": "1701219282424031859",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Greaves ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 4\r\nplayer->removeitem \"gold_001\" 5000\r\nset SnowWolfGreaves to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 4
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 5000
+        }
+      ]
+    },
+    "1701219282424031859": {
+      "flag": 0,
+      "PNAM": "17682046270139523",
+      "NNAM": "1725931054297325758",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 5000
+        }
+      ]
+    },
+    "1725931054297325758": {
+      "flag": 0,
+      "PNAM": "1701219282424031859",
+      "NNAM": "1691928969498423932",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 4
+        }
+      ]
+    },
+    "1691928969498423932": {
+      "flag": 0,
+      "PNAM": "1725931054297325758",
+      "NNAM": "100325179369718577",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Left Gauntlet ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 2\r\nplayer->removeitem \"gold_001\" 1000\r\nset SnowWolfLeftGauntlet to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "100325179369718577": {
+      "flag": 0,
+      "PNAM": "1691928969498423932",
+      "NNAM": "25133101652421726441",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "25133101652421726441": {
+      "flag": 0,
+      "PNAM": "100325179369718577",
+      "NNAM": "1276257861747026436",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        }
+      ]
+    },
+    "1276257861747026436": {
+      "flag": 0,
+      "PNAM": "25133101652421726441",
+      "NNAM": "1265920722211678229",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Right Gauntlet ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 2\r\nplayer->removeitem \"gold_001\" 1000\r\nset SnowWolfRightGauntlet to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "1265920722211678229": {
+      "flag": 0,
+      "PNAM": "1276257861747026436",
+      "NNAM": "2739526482146129110",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "2739526482146129110": {
+      "flag": 0,
+      "PNAM": "1265920722211678229",
+      "NNAM": "9228262821543895",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        }
+      ]
+    },
+    "9228262821543895": {
+      "flag": 0,
+      "PNAM": "2739526482146129110",
+      "NNAM": "3116419568134887112",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Left Pauldron ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 2\r\nplayer->removeitem \"gold_001\" 1000\r\nset SnowWolfLeftPauldron to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "3116419568134887112": {
+      "flag": 0,
+      "PNAM": "9228262821543895",
+      "NNAM": "14123149242597923500",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "14123149242597923500": {
+      "flag": 0,
+      "PNAM": "3116419568134887112",
+      "NNAM": "7094281642054316287",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        }
+      ]
+    },
+    "7094281642054316287": {
+      "flag": 0,
+      "PNAM": "14123149242597923500",
+      "NNAM": "8346149541054423361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Right Pauldron ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 2\r\nplayer->removeitem \"gold_001\" 1000\r\nset SnowWolfRightPauldron to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "8346149541054423361": {
+      "flag": 0,
+      "PNAM": "7094281642054316287",
+      "NNAM": "14803113642871124357",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "14803113642871124357": {
+      "flag": 0,
+      "PNAM": "8346149541054423361",
+      "NNAM": "2002218491222351564",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 2
+        }
+      ]
+    },
+    "2002218491222351564": {
+      "flag": 0,
+      "PNAM": "14803113642871124357",
+      "NNAM": "252912854419113702",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Cuirass ready.",
+      "BNAM": "player->removeitem \"ingred_snowwolf_pelt_unique\" 5\r\nplayer->removeitem \"gold_001\" 6000\r\nset SnowWolfCuirass to 1\r\nset LocalDaysPassed to 0\r\nset busy to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 6000
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        }
+      ]
+    },
+    "252912854419113702": {
+      "flag": 0,
+      "PNAM": "2002218491222351564",
+      "NNAM": "1367974482607723483",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 6000
+        }
+      ]
+    },
+    "1367974482607723483": {
+      "flag": 0,
+      "PNAM": "252912854419113702",
+      "NNAM": "17064242641141122709",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got my list of armor requirements and prices, %PCName.  I can't make you a custom piece without the right materials.  Come back when you have enough snow wolf pelts.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_snowwolf_pelt_unique",
+          "__TV": 5
+        }
+      ]
+    },
+    "17064242641141122709": {
+      "flag": 0,
+      "PNAM": "1367974482607723483",
+      "NNAM": "29386163853098932001",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm already crafting you a piece of custom armor. Just be patient. You can't rush quality.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "busy",
+          "__TV": 1
+        }
+      ]
+    },
+    "29386163853098932001": {
+      "flag": 0,
+      "PNAM": "17064242641141122709",
+      "NNAM": "2721026021117127366",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You bring me the snow wolf pelts and gold, and I'll make a piece of custom snow wolf armor.  I'll have it ready in twenty-four hours.  You've got my list of prices and pelt requirements.  Which piece of armor were you interested in?",
+      "BNAM": "Choice \"Snow Wolf Cuirass\" 1 \"Snow Wolf Right Pauldron\" 2 \"Snow Wolf Left Pauldron\" 3 \"Snow Wolf Right Gauntlet\" 4 \"Snow Wolf Left Gauntlet\" 5 \"Snow Wolf Greaves\" 6 \"Snow Wolf Boots\" 7 \"Snow Wolf Helm\" 8 \"Nothing Right Now\" 9",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_FurArmor",
+          "__TV": 10
+        }
+      ]
+    },
+    "2721026021117127366": {
+      "flag": 0,
+      "PNAM": "29386163853098932001",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "brynjolfr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's simple.  You bring me the snow wolf pelts and gold, and I'll make a piece of custom light snow wolf armor.  I even have a special method of treating the fur that will enhance the natural protective properties against frost.  Whatever you order will be ready in twenty-four hours.  Take this scroll.  It lists my prices and requirements for each piece of armor.  If you're interested, and you have enough pelts and gold, talk to me again.  I'll fire up my forge, and you'll have your new armor in a day.",
+      "BNAM": "player->additem \"sc_fur_armor\" 1\r\nJournal BM_FurArmor 10\r\nGoodbye",
+      "SCVR": null
+    }
+  }
+}

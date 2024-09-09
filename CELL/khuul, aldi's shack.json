@@ -1,0 +1,398 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 7,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Khuul, Aldi's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [60,60,60,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-113118": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "aldi",
+      "DATA": [4109.1171875,4193.1513671875,15100.0869140625,0,0,2.5831849575042725]
+    },
+    "0-101867": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [4315,4095.175048828125,15173.7958984375,0,0,4.71238899230957]
+    },
+    "0-101833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "aldi",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4001.34619140625,4147.27294921875,15177.166015625,0,0,1.6004669666290283]
+    },
+    "0-101838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4003.697021484375,4264.01318359375,15125.1640625,5.700245380401611,1.8116517066955566,3.7838737964630127]
+    },
+    "0-101839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4042.127197265625,4245.0654296875,15101.5986328125,0,0,5.083184719085693]
+    },
+    "0-101840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4041.506103515625,4294.7587890625,15122.0546875,0,0,4.483184814453125]
+    },
+    "0-101841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4120.208984375,4274.244140625,15158.4208984375,0,0,0]
+    },
+    "0-101844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4301.1533203125,3998.1962890625,15122.927734375,0,0,0.5831848382949829]
+    },
+    "0-101845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4272.35302734375,3994.1025390625,15124.177734375,0,0,1.3831855058670044]
+    },
+    "0-101846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4259.82861328125,4013.901123046875,15112.046875,0,0,0]
+    },
+    "0-101847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4233.25048828125,3996.64599609375,15111.1064453125,0,0,3.983187198638916]
+    },
+    "0-101849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_200",
+      "DATA": [4044.329345703125,4069.9560546875,15261.5517578125,0,0,4.6831865310668945]
+    },
+    "0-101851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_06_128",
+      "ANAM": "aldi",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [4260.7919921875,4210.41259765625,15183.9677734375,0,0,4.583309173583984]
+    },
+    "0-101852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3995.663818359375,4057.419677734375,15099.4091796875,1.4000000953674316,4.783185005187988,4.566373825073242]
+    },
+    "0-101853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4098.88720703125,4019.757080078125,15175.8896484375,0,0,1.583013653755188]
+    },
+    "0-101854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4085.841552734375,4025.7392578125,15127.080078125,0,0,5.983185768127441]
+    },
+    "0-101855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4222.60693359375,4211.77880859375,15156.05859375,0,0,5.283187389373779]
+    },
+    "0-101856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Wood_Bowl_01",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4194.478515625,4251.02099609375,15157.833984375,0,0,0]
+    },
+    "0-101857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4211.55517578125,4249.982421875,15161.62109375,0,0,0]
+    },
+    "0-101858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4242.09375,4195.10546875,15158.01953125,4.800002574920654,1.5000005960464478,5.483185768127441]
+    },
+    "0-101859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4206.81103515625,4225.310546875,15155.92578125,0,0,0]
+    },
+    "0-101860": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4232.98681640625,4246.06396484375,15172.521484375,0,0,5.983185768127441]
+    },
+    "0-101861": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.2000000476837158,
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4272.6494140625,4279.90673828125,15120.5595703125,0,0,3.0831844806671143]
+    },
+    "0-101862": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_fishing_pole",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4303.53759765625,4255.7958984375,15152.5126953125,0,6.183185577392578,5.683185577392578]
+    },
+    "0-101863": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_broom_01",
+      "ANAM": "aldi",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4310.63037109375,4021.505615234375,15147.53125,0,6.183185577392578,3.383186101913452]
+    },
+    "0-101832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_05",
+      "DATA": [4126.6259765625,4154.31640625,15204.203125,0,0,0]
+    },
+    "0-101834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [4004.0341796875,4295.14453125,15147.5439453125,6.183185577392578,0,5.283186435699463]
+    },
+    "0-101835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [3997.0390625,3998.7998046875,15148.2353515625,0.10000049322843552,0,2.683187484741211]
+    },
+    "0-101836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [4233.625,4222.625,15122.244140625,0,0,0.883185863494873]
+    },
+    "0-101837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [4207.26171875,4180.4541015625,15113.24609375,0,0,0.983185887336731]
+    },
+    "0-101842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [4149.35693359375,4026.893798828125,15129.51953125,0,0,1.1000001430511475]
+    },
+    "0-101843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [4198.6474609375,4016.7021484375,15117.8583984375,4.583186626434326,3.7831854820251465,2.9831860065460205]
+    },
+    "0-101848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [4040.30615234375,4073.7099609375,15280.7607421875,0,0.20000000298023224,4.58318567276001]
+    },
+    "0-101864": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [4243.70263671875,4256.80029296875,15313.3173828125,0,0.20000000298023224,1.3000000715255737]
+    },
+    "0-101865": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [4247.068359375,4257.11865234375,15280.9541015625,0,0,0]
+    },
+    "0-101866": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [4249.6953125,4245.11474609375,15239.7216796875,2.7831878662109375,2.9831862449645996,2.6831862926483154]
+    },
+    "0-303566": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [4088.16357421875,4458.24365234375,15176.40625,0,0,4.71238899230957]
+    },
+    "0-101850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_06_64",
+      "DATA": [4119.0498046875,4269.3798828125,15196.865234375,0,0,4.883431434631348]
+    },
+    "0-465837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Boat_Creak00",
+      "DATA": [4208.57177734375,4267.3466796875,15055.8857421875,0,0,0]
+    }
+  }
+}

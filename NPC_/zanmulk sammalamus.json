@@ -1,0 +1,86 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_04",
+  "KNAM": "b_n_dark elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Zanmulk Sammalamus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": -10,
+      "name": "food_kwama_egg_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_hound_meat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_rat_meat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_ash_yam_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_bittergreen_petals_01"
+    }
+  ],
+  "NPCS": [
+    "first barrier",
+    "reflect",
+    "blood gift",
+    "seryn's gift",
+    "rilm's cure",
+    "restore agility",
+    "restore intelligence",
+    "restore willpower",
+    "restore endurance",
+    "sanctuary",
+    "stamina",
+    "heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 4,
+    "health": 52,
+    "magicka": 86,
+    "fatigue": 179,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [44,43,50,43,56,42,45,40],
+    "skills": [5,5,5,5,18,10,5,5,10,12,22,40,24,12,44,40,24,24,5,5,5,23,15,10,10,33,33]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

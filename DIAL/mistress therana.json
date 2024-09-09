@@ -1,0 +1,356 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "313852664655001203": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "247698252299479832",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "247698252299479832": {
+      "flag": 0,
+      "PNAM": "313852664655001203",
+      "NNAM": "7274274631860609",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "The Writ on Mistress Therana has been executed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritTherana",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "7274274631860609": {
+      "flag": 0,
+      "PNAM": "247698252299479832",
+      "NNAM": "2789416162641318477",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Mistress Therana is already dead? Our Hlaalu client will be pleased. As %PCRank, you deserve the full payment.",
+      "BNAM": "Journal MT_WritTherana 100\r\nPlayer->AddItem Gold_001 10000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "therana",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritTherana",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 1
+        }
+      ]
+    },
+    "2789416162641318477": {
+      "flag": 0,
+      "PNAM": "7274274631860609",
+      "NNAM": "147277169554925860",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "You have honorably executed Mistress Therana, a most dangerous foe. I am impressed, %PCRank. Please accept the payment for this Writ.",
+      "BNAM": "Journal MT_WritTherana 100\r\nPlayer->AddItem Gold_001 10000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritTherana",
+          "__TV": 80
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "147277169554925860": {
+      "flag": 0,
+      "PNAM": "2789416162641318477",
+      "NNAM": "32462209701798021522",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_therana",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritTherana",
+          "__TV": 10
+        }
+      ]
+    },
+    "32462209701798021522": {
+      "flag": 0,
+      "PNAM": "147277169554925860",
+      "NNAM": "2648132871790518611",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_therana",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritTherana",
+          "__TV": 10
+        }
+      ]
+    },
+    "2648132871790518611": {
+      "flag": 0,
+      "PNAM": "32462209701798021522",
+      "NNAM": "2660710564261635495",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Mistress Therana is a dangerous and unstable Telvanni wizard. She lives in the Tower of Tel Branora. Take this Writ and end her insanity.",
+      "BNAM": "Journal MT_WritTherana 10\r\nPlayer->AddItem \"writ_therana\" 1\r\nShowMap \"Tel Branora\"",
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBemis",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBrilnosu",
+          "__TV": 100
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritNavil",
+          "__TV": 100
+        }
+      ]
+    },
+    "2660710564261635495": {
+      "flag": 0,
+      "PNAM": "2648132871790518611",
+      "NNAM": "396022123252623382",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She has not aged well and becomes more eccentric every year. Her tower is in Tel Branora, which on Azura's Coast far to the southeast.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "therana",
+          "__TV": 0
+        }
+      ]
+    },
+    "396022123252623382": {
+      "flag": 0,
+      "PNAM": "2660710564261635495",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She is my patron in House Telvanni, and I am her Mouth. She can be... difficult at times. Be very careful if you must speak with her.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "therana",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

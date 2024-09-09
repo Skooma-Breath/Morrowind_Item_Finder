@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Shipmaster",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_08",
+  "KNAM": "b_n_dark elf_f_hair_03",
+  "MODL": null,
+  "FNAM": "Daynas Darys",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 22,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [100663.21875,114038.5078125,254.08958435058594,0,0,3.8831851482391357],
+      "DNAM": null
+    },
+    {
+      "destination": [106924.6796875,117168.7578125,263.70416259765625,0,0,0.6000000238418579],
+      "DNAM": null
+    },
+    {
+      "destination": [62677.796875,184289.765625,186.2369842529297,0,0,3.1415927410125732],
+      "DNAM": null
+    }
+  ],
+  "NPDT": {
+    "level": 4,
+    "health": 63,
+    "magicka": 21,
+    "fatigue": 183,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [48,43,53,38,61,44,47,40],
+    "skills": [21,7,21,7,7,26,36,7,26,5,15,5,5,5,10,5,5,5,5,5,5,39,44,10,34,19,34]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

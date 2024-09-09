@@ -1,0 +1,62 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\GreatBonewalker.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 7,
+    "attributes": [100,50,60,50,18,50,50,50],
+    "health": 100,
+    "magicka": 75,
+    "fatigue": 400,
+    "soul_strength": 75,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": null,
+  "FNAM": "Greater Bonewalker",
+  "SCRI": "diseaseBrownRot",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 5,
+      "name": "random_bonemeal"
+    },
+    {
+      "count": 1,
+      "name": "random_loot_bonewalker_greater"
+    }
+  ],
+  "NPCS": [
+    "brown rot",
+    "resist frost_75",
+    "resist shock_75",
+    "resist poison_75",
+    "dread curse: endurance",
+    "dread curse: strength"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [30,50,30,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Archer",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_M_Head_12",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Reaver",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "cruel frostarrow"
+    },
+    {
+      "count": 20,
+      "name": "dire frostarrow"
+    },
+    {
+      "count": 50,
+      "name": "steel arrow"
+    },
+    {
+      "count": 1,
+      "name": "steel longbow"
+    },
+    {
+      "count": 1,
+      "name": "steel shortsword"
+    },
+    {
+      "count": 1,
+      "name": "fur_boots"
+    },
+    {
+      "count": 1,
+      "name": "fur_greaves"
+    },
+    {
+      "count": 1,
+      "name": "fur_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bm_random_reaver_helm"
+    },
+    {
+      "count": 1,
+      "name": "bm_random_healthpotions"
+    },
+    {
+      "count": 1,
+      "name": "bm_randomloot_smugglers"
+    }
+  ],
+  "NPCS": [
+    "masterful fleetness",
+    "masterful denial",
+    "masterful nimble armor",
+    "masterful hewing",
+    "masterful sureflight"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 50,
+    "health": 345,
+    "magicka": 138,
+    "fatigue": 394,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,69,94,100,100,100,59,40],
+    "skills": [100,39,100,44,49,80,49,98,100,10,10,10,10,10,10,64,10,1,10,64,10,79,50,100,10,10,10]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

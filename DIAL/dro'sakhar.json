@@ -1,0 +1,367 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1285313042877624077": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2273119457622526861",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'sakhar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes? What is it?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2273119457622526861": {
+      "flag": 0,
+      "PNAM": "1285313042877624077",
+      "NNAM": "2657517022116112845",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard of this Khajiit, and he is a known outlaw. I believe that this bounty is a legitimate one, %PCRank.",
+      "BNAM": "Journal FG_KhajiitBounty 60",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "FG_KhajiitBounty",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_KhajiitBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "2657517022116112845": {
+      "flag": 0,
+      "PNAM": "2273119457622526861",
+      "NNAM": "23376145162848111688",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, and I don't have to talk to you about any contracts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "23376145162848111688": {
+      "flag": 0,
+      "PNAM": "2657517022116112845",
+      "NNAM": "605342961734514737",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You sure got that Khajiit, %PCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_KhajiitBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "605342961734514737": {
+      "flag": 0,
+      "PNAM": "23376145162848111688",
+      "NNAM": "1748015982406012139",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "So Dro'Sakhar is already dead. You get his bounty then. Here's the 500 septims.",
+      "BNAM": "Journal FG_KhajiitBounty 100\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10\r\nPlayer->AddItem Gold_001 500",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_KhajiitBounty",
+          "__TV": 0
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dro'sakhar",
+          "__TV": 1
+        }
+      ]
+    },
+    "1748015982406012139": {
+      "flag": 0,
+      "PNAM": "605342961734514737",
+      "NNAM": "22399301022664217471",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I heard you got that Khajiit. Here's the 500 septim bounty.",
+      "BNAM": "Journal FG_KhajiitBounty 100\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10\r\nPlayer->AddItem Gold_001 500",
+      "SCVR": [
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dro'sakhar",
+          "__TV": 1
+        }
+      ]
+    },
+    "22399301022664217471": {
+      "flag": 0,
+      "PNAM": "1748015982406012139",
+      "NNAM": "242138384466729627",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I got a bounty on this Khajiit outlaw Dro'Sakhar. He's hiding here in Vivec. In St. Olms, I think.",
+      "BNAM": "Journal FG_KhajiitBounty 10",
+      "SCVR": null
+    },
+    "242138384466729627": {
+      "flag": 0,
+      "PNAM": "22399301022664217471",
+      "NNAM": "2353774952895012947",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, St. Olms",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name knows nothing of this.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2353774952895012947": {
+      "flag": 0,
+      "PNAM": "242138384466729627",
+      "NNAM": "27935143102985715674",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, St. Olms Canal South-Two",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Look around. I think he's been here recently.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "27935143102985715674": {
+      "flag": 0,
+      "PNAM": "2353774952895012947",
+      "NNAM": "22442061226824352",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, St. Olms",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name knows nothing of this.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "22442061226824352": {
+      "flag": 0,
+      "PNAM": "27935143102985715674",
+      "NNAM": "2834821698897115878",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec, St. Olms",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There's a Khajiit in one of the homes off the south-side canal. He looked suspicious.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "2834821698897115878": {
+      "flag": 0,
+      "PNAM": "22442061226824352",
+      "NNAM": "271897381568517740",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name does not know this person.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "271897381568517740": {
+      "flag": 0,
+      "PNAM": "2834821698897115878",
+      "NNAM": "",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Don't know that one. Check over in St. Olms. Lots of shady characters in that part of Vivec.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

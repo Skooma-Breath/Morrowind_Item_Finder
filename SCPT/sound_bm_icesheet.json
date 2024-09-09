@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 70,
+    "local_var_size": 0
+  },
+  "SCTX": "begin Sound_BM_IceSheet\r\n\r\nif ( CellChanged == 0 )\r\n\tif ( GetSoundPlaying \"BM_Ice_Sheet\" == 0 )\r\n\t\tPlayLoopSound3DVP \"BM_Ice_Sheet\", 1.0, 1.0\r\n\tendif\r\nendif\r\n\r\nend\r\n",
+  "SCVR": null,
+  "SCDT": [6,1,3,9,32,88,31,16,32,61,61,32,48,6,1,1,24,32,88,136,17,32,98,12,66,77,95,73,99,101,95,83,104,101,101,116,32,61,61,32,48,47,17,12,66,77,95,73,99,101,95,83,104,101,101,116,0,0,128,63,0,0,128,63,9,1,9,1,1,1]
+}

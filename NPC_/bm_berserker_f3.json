@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Acrobat",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_F_Head_08",
+  "KNAM": "b_n_nord_f_hair_05",
+  "MODL": null,
+  "FNAM": "Berserker",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM bear boots"
+    },
+    {
+      "count": 1,
+      "name": "BM Bear Helmet"
+    },
+    {
+      "count": 1,
+      "name": "bm_randomweapon_berserker"
+    },
+    {
+      "count": 1,
+      "name": "random_drinks_nord"
+    }
+  ],
+  "NPCS": [
+    "buoyancy",
+    "fenrick's doorjam",
+    "lock"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 60,
+    "health": 175,
+    "magicka": 90,
+    "fatigue": 313,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,45,61,91,91,100,47,40],
+    "skills": [7,7,17,12,17,90,90,39,49,7,7,34,7,7,7,7,7,0,21,64,64,100,21,64,21,48,48]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

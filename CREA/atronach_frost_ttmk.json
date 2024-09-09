@@ -1,0 +1,56 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Atronach_Frost.NIF",
+  "FLAG": 74,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 9,
+    "attributes": [50,50,50,50,14,50,50,50],
+    "health": 140,
+    "magicka": 135,
+    "fatigue": 600,
+    "soul_strength": 138,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [9,27],
+      [9,27],
+      [9,27]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 30,
+    "fight": 0,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "atronach_frost",
+  "FNAM": "Frost  Atronach",
+  "SCRI": "atronachMountKand",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_frost_salts"
+    }
+  ],
+  "NPCS": [
+    "frostbloom",
+    "immune to frost",
+    "weakness fire_50",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

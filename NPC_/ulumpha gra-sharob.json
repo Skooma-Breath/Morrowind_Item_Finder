@@ -1,0 +1,105 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Orc",
+  "CNAM": "Healer Service",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_orc_f_head_02",
+  "KNAM": "b_n_orc_f_hair05",
+  "MODL": null,
+  "FNAM": "Ulumpha gra-Sharob",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 24848
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_cuirass"
+    },
+    {
+      "count": -10,
+      "name": "food_kwama_egg_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_hound_meat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_frost_salts_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bonemeal_01"
+    },
+    {
+      "count": 7,
+      "name": "random_alchemy_diff"
+    }
+  ],
+  "NPCS": [
+    "strong feather",
+    "ulms juicedaw's feather",
+    "fourth barrier",
+    "fifth barrier",
+    "calm creature",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "seryn's blessing",
+    "strong resist fire",
+    "strong resist frost",
+    "strong resist magicka",
+    "strong resist poison",
+    "strong resist shock",
+    "dispel"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 79,
+    "magicka": 98,
+    "fatigue": 215,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [55,49,66,54,40,40,74,40],
+    "skills": [16,16,45,16,23,6,11,6,6,10,10,42,27,10,42,42,27,7,6,6,6,23,6,6,10,38,38]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,10,0,0,0,0]
+    }
+  ]
+}

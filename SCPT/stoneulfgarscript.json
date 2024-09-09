@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 250,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin stoneUlfgarScript\r\n\r\nif ( menumode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex \"BM_BrodirGrove\" < 90 )\r\n\tDisable\r\nendif\r\n\r\nif ( GetJournalIndex \"BM_BrodirGrove\" >= 90 )\r\n\t\tEnable\r\nendif\r\n\r\n\r\nif ( GetJournalIndex BM_BrodirGrove < 90 )\r\n\treturn\r\nendif\r\n\r\n\r\nif ( OnActivate == 1 )\r\n\tif ( GetJournalIndex BM_BrodirGrove >= 10 )\r\n\t\tCast \"stone_ulfgar\" Player\t\t\t\t\t;fortify strength 10\r\n\t\tMessageBox \"You have been granted the gift of Ulfgar's strength.\"\r\n\tendif\r\nendif\r\n\r\nend\r\n\r\n",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,26,32,88,205,16,32,100,14,66,77,95,66,114,111,100,105,114,71,114,111,118,101,32,60,32,57,48,219,16,9,1,6,1,1,27,32,88,205,16,32,100,14,66,77,95,66,114,111,100,105,114,71,114,111,118,101,32,62,61,32,57,48,218,16,9,1,6,1,1,26,32,88,205,16,32,100,14,66,77,95,66,114,111,100,105,114,71,114,111,118,101,32,60,32,57,48,36,1,9,1,6,1,4,9,32,88,24,16,32,61,61,32,49,6,1,2,27,32,88,205,16,32,100,14,66,77,95,66,114,111,100,105,114,71,114,111,118,101,32,62,61,32,49,48,35,17,12,115,116,111,110,101,95,117,108,102,103,97,114,6,80,108,97,121,101,114,0,16,52,0,89,111,117,32,104,97,118,101,32,98,101,101,110,32,103,114,97,110,116,101,100,32,116,104,101,32,103,105,102,116,32,111,102,32,85,108,102,103,97,114,39,115,32,115,116,114,101,110,103,116,104,46,0,0,9,1,9,1,1,1]
+}

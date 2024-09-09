@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Monk Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Tharer Rotheloth",
+  "SCRI": "templeStewards",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "bookskill_hand to hand3"
+    }
+  ],
+  "NPCS": [
+    "righteousness",
+    "balyna's perfect balm",
+    "strong heal companion",
+    "veloth's benison",
+    "mother's kiss"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 141,
+    "magicka": 110,
+    "fatigue": 290,
+    "disposition": 50,
+    "reputation": 18,
+    "rank": 8,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [80,55,61,98,100,51,41,40],
+    "skills": [34,7,7,7,34,12,7,7,54,7,17,7,7,7,12,34,7,49,21,64,64,54,31,54,10,21,64]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

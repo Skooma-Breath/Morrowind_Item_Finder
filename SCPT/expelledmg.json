@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 324,
+    "local_var_size": 11
+  },
+  "SCTX": "Begin expelledMG\r\n\r\n;this is just a model\r\n;it is supposed to be on an item in each of the Mages Guilds.\r\n\r\nshort myDay\r\nshort temp\r\n\r\nif ( PCExpelled \"Mages Guild\" == 0 )\r\n\treturn\r\nendif\r\n\r\nif ( ExpMagesGuild == 0 )\r\n\tSet ExpMagesGuild to 1\r\nendif\r\n\r\nif ( myDay == 0 )\r\n\tSet myDay to Day\r\nendif\r\n\r\nif ( myDay == Day )\r\n\treturn\r\nendif\r\n\r\nif ( Day > myDay )\r\n\tSet temp to ( Day - myDay )\r\nelse\r\n\tSet temp to ( myDay - Day )\r\nendif\r\n\r\nSet myDay to Day\r\n\r\nSet temp to ( temp + 2 )\r\n\r\nSet ExpMagesGuild to ( ExpMagesGuild + temp )\r\n\r\nif ( ExpMagesGuild > 30 )\r\n\tSet ExpMagesGuild to 0\r\n\tPCClearExpelled \"Mages Guild\"\r\n\treturn\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "myDay",
+    "temp"
+  ],
+  "SCDT": [6,1,1,23,32,88,159,16,32,116,11,77,97,103,101,115,32,71,117,105,108,100,32,61,61,32,48,36,1,9,1,6,1,1,21,32,71,13,69,120,112,77,97,103,101,115,71,117,105,108,100,32,61,61,32,48,5,1,71,13,69,120,112,77,97,103,101,115,71,117,105,108,100,2,32,49,9,1,6,1,1,9,32,115,1,0,32,61,61,32,48,5,1,115,1,0,8,32,71,4,68,97,121,0,0,9,1,6,1,1,15,32,115,1,0,32,61,61,32,71,4,68,97,121,0,0,36,1,9,1,6,1,1,14,32,71,4,68,97,121,0,32,62,32,115,1,0,0,5,1,115,2,0,13,32,71,4,68,97,121,0,32,115,1,0,32,45,7,1,1,5,1,115,2,0,13,32,115,1,0,32,71,4,68,97,121,0,32,45,9,1,5,1,115,1,0,8,32,71,4,68,97,121,0,0,5,1,115,2,0,8,32,115,2,0,32,50,32,43,5,1,71,13,69,120,112,77,97,103,101,115,71,117,105,108,100,22,32,71,13,69,120,112,77,97,103,101,115,71,117,105,108,100,32,115,2,0,32,43,6,1,3,21,32,71,13,69,120,112,77,97,103,101,115,71,117,105,108,100,32,62,32,51,48,5,1,71,13,69,120,112,77,97,103,101,115,71,117,105,108,100,2,32,48,211,16,11,77,97,103,101,115,32,71,117,105,108,100,36,1,9,1,1,1]
+}

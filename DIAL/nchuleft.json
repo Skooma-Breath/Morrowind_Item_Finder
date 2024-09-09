@@ -1,0 +1,194 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "183334574215068207": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1050229730214181415",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mallam ryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already found the plans in Nchuleft.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_NchuleftKey",
+          "__TV": 100
+        }
+      ]
+    },
+    "1050229730214181415": {
+      "flag": 0,
+      "PNAM": "183334574215068207",
+      "NNAM": "96971868859129593",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mallam ryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. If you were successful, Archmagister Gothren wanted you to have this.",
+      "BNAM": "Journal HT_NchuleftKey 100\r\nPlayer->RemoveItem misc_dwrv_artifact40 1\r\nPlayer->AddItem \"cephalopod_helm_HTNK\" 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "misc_dwrv_artifact40",
+          "__TV": 0
+        }
+      ]
+    },
+    "96971868859129593": {
+      "flag": 0,
+      "PNAM": "1050229730214181415",
+      "NNAM": "32578150651382923996",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mallam ryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not appreciate any %PCRank who tries to trick me. Bring me the plans or else.",
+      "BNAM": "ModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "32578150651382923996": {
+      "flag": 0,
+      "PNAM": "96971868859129593",
+      "NNAM": "288358785201856523",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mallam ryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Archmagister Gothren was right to question your loyalty and rapid advance in House Telvanni.",
+      "BNAM": "ModDisposition -5\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "288358785201856523": {
+      "flag": 0,
+      "PNAM": "32578150651382923996",
+      "NNAM": "1957282521308731186",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mallam ryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you found the plans Archmagister Gothren was looking for?",
+      "BNAM": "Choice \"Yes, here they are.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_NchuleftKey",
+          "__TV": 10
+        }
+      ]
+    },
+    "1957282521308731186": {
+      "flag": 0,
+      "PNAM": "288358785201856523",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mallam ryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This Dwemer ruin lies west of the town of Vos. Apparently these ruins are what Archmagister Gothren wanted Ainat Sanababi to look for. Archmagister Gothren wants some plans or blueprints from from Nchuleft. Find these plans and return them to me.",
+      "BNAM": "Journal HT_NchuleftKey 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SpyBaladas",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

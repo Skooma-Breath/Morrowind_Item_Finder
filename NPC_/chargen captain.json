@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Guard",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_04",
+  "MODL": null,
+  "FNAM": "Sellus Gravius",
+  "SCRI": "CharGenDialogueMessage",
+  "AIDT": {
+    "greet": 30,
+    "fight": 40,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "templar belt"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer right"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer left"
+    },
+    {
+      "count": 1,
+      "name": "templar boots"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "templar_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "disposition": 50,
+    "reputation": 12,
+    "rank": 5,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

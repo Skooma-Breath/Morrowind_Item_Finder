@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Tiras Sadus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    }
+  ],
+  "NPCS": [
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "dispel",
+    "detect_creature"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 118,
+    "magicka": 118,
+    "fatigue": 228,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 799,
+    "attributes": [69,59,49,63,67,47,66,40],
+    "skills": [38,17,17,17,38,22,17,17,22,6,16,6,6,6,47,6,6,28,42,42,27,11,16,11,20,42,27]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,10,10,0,0,0]
+    }
+  ]
+}

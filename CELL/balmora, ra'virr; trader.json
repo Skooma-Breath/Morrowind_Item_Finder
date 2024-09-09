@@ -1,0 +1,1570 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [2241090,1061158912]
+  },
+  "NAME": "Balmora, Ra'Virr: Trader",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,65,65,0],
+    "sunlight": [80,40,20,0],
+    "fog_color": [66,50,34,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-132059": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ra'virr",
+      "DATA": [-305.8944396972656,-353.18572998046875,15.085474967956543,0,0,0]
+    },
+    "0-131988": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_door",
+      "DATA": [192,-448,384,0,0,1.5707963705062866]
+    },
+    "0-131950": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_door",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-384,-128,128,0,0,6.2831854820251465]
+    },
+    "0-131949": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_door",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 40,
+      "DATA": [192,-448,128,0,0,1.5707963705062866]
+    },
+    "0-131953": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_10",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-288.81500244140625,-92.65982818603516,292.72113037109375,0,0,4.71238899230957]
+    },
+    "0-131955": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_01_64",
+      "DATA": [-186.92507934570312,-16.149513244628906,340.5230712890625,0,0,0]
+    },
+    "0-131956": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-211.88082885742188,-31.52547836303711,330.5531921386719,0,0,0]
+    },
+    "0-131957": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-190.81890869140625,-40.51858139038086,340.04534912109375,0,0,0.5853981971740723]
+    },
+    "0-131958": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1400001049041748,
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-287.72100830078125,-22.554000854492188,319.0580139160156,0,0,4.747295379638672]
+    },
+    "0-131961": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-303.53106689453125,-374.11737060546875,405.87933349609375,0,0,0.6999999284744263]
+    },
+    "0-131962": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-178.34254455566406,-383.4561767578125,392.22760009765625,0,0,1.9000005722045898]
+    },
+    "0-131963": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-225.8173828125,-387.68292236328125,392.22760009765625,0,0,5.7838239669799805]
+    },
+    "0-131964": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-203.95272827148438,-370.55242919921875,392.22784423828125,0,0,1.9000005722045898]
+    },
+    "0-131965": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-266.13323974609375,-378.2119140625,397.8441162109375,0,0,1.1000005006790161]
+    },
+    "0-131966": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-299.613525390625,-374.3447265625,349.558349609375,0,0,1.1000005006790161]
+    },
+    "0-131967": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-175.20286560058594,-377.7037353515625,348.134765625,0,0,1.1000005006790161]
+    },
+    "0-131968": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_pot_redware_03",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-226.60693359375,-375.25390625,347.2674560546875,0,0,2.0500004291534424]
+    },
+    "0-131969": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_04",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-262.4123840332031,-370.3521728515625,347.98883056640625,0,0,1.1000005006790161]
+    },
+    "0-131970": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_04",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-250.0759735107422,-383.38714599609375,347.8006286621094,0,0,1.1000005006790161]
+    },
+    "0-131971": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-303.0026550292969,-365.244384765625,301.5478210449219,0,0,1.1000005006790161]
+    },
+    "0-131972": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-289.8407897949219,-365.4814453125,301.5478210449219,0,0,1.1000005006790161]
+    },
+    "0-131973": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-299.08319091796875,-382.92742919921875,301.5478210449219,0,0,1.1000005006790161]
+    },
+    "0-131974": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-314.50372314453125,-382.53875732421875,301.5478210449219,0,0,1.1000005006790161]
+    },
+    "0-131975": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-267.7108459472656,-368.7442626953125,302.1694641113281,0,0,0.4991646707057953]
+    },
+    "0-131976": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-255.3014373779297,-387.599609375,302.1690673828125,0,0,1.1000005006790161]
+    },
+    "0-131977": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-281.71502685546875,-386.8446044921875,302.1690673828125,0,0,1.6000005006790161]
+    },
+    "0-131978": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_white_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-200.72764587402344,-378.5802001953125,313.1181335449219,0,0,0.700000524520874]
+    },
+    "0-131982": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_plate_06",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [307.9601745605469,-205.73353576660156,323.496337890625,0,0,0]
+    },
+    "0-131983": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_fork",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [291.10430908203125,-208.21485900878906,322.0830078125,0,0,4.683187007904053]
+    },
+    "0-131984": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_knife",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [324.18267822265625,-204.58839416503906,322.4177551269531,0,0,4.883185863494873]
+    },
+    "0-131985": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [327.5848388671875,-174.8311309814453,336.4551086425781,0,0,3.799999713897705]
+    },
+    "0-131986": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_03",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [291.8888854980469,-187.8970184326172,326.8170166015625,0,0,1]
+    },
+    "0-131990": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [34.16877746582031,-377.7090759277344,93.52841186523438,0,0,0.10000000149011612]
+    },
+    "0-131991": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-65.43685150146484,-369.7745056152344,46.84038162231445,0,0,0.10000000149011612]
+    },
+    "0-131992": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-67.01007080078125,-367.3022766113281,93.84510803222656,0,0,0.10000000149011612]
+    },
+    "0-131993": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-36.68978500366211,-376.0148010253906,47.82986831665039,0,0,1.8000003099441528]
+    },
+    "0-131994": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-94.36640167236328,-380.7905578613281,47.82986831665039,0,0,1.8000003099441528]
+    },
+    "0-131995": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-98.87406158447266,-385.5253601074219,93.91375732421875,0,0,0.10000000149011612]
+    },
+    "0-131996": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-90.2828598022461,-367.3730163574219,93.85234069824219,0,0,0.10000000149011612]
+    },
+    "0-131997": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-79.83767700195312,-382.0238952636719,94.78103637695312,0,0,0.10000000149011612]
+    },
+    "0-131998": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-26.141963958740234,-365.6674499511719,93.57514953613281,0,0,0.10000000149011612]
+    },
+    "0-131999": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_pot_redware_03",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-15.918200492858887,-373.4318542480469,138.0516815185547,0,0,0.10000000149011612]
+    },
+    "0-132000": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-85.51592254638672,-369.9966735839844,137.44876098632812,0,0,1.0000001192092896]
+    },
+    "0-132001": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-102.06424713134766,-379.9552307128906,138.30511474609375,0,0,0.10000000149011612]
+    },
+    "0-132002": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [10.317249298095703,-371.04425048828125,138.6316680908203,0,0,0.10000000149011612]
+    },
+    "0-132003": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [43.80558776855469,-370.06549072265625,138.93594360351562,0,0,1.0000001192092896]
+    },
+    "0-132004": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [26.28947639465332,-374.6639404296875,139.0290985107422,0,0,0.10000000149011612]
+    },
+    "0-132005": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-49.943450927734375,-363.29864501953125,137.5885467529297,0,0,1.0005898475646973]
+    },
+    "0-132006": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-63.07464599609375,-368.99090576171875,137.5889129638672,0,0,0.10000000149011612]
+    },
+    "0-132007": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-42.07256317138672,-373.78302001953125,137.5889129638672,0,0,0.3999999761581421]
+    },
+    "0-132008": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-54.54108428955078,-378.6234130859375,137.5889129638672,0,0,0.3999999761581421]
+    },
+    "0-132009": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-3.5321083068847656,-378.4301452636719,55.206546783447266,0,0,0.10000000149011612]
+    },
+    "0-132010": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [35.614166259765625,-377.3141174316406,49.50461196899414,0,0,0.10000000149011612]
+    },
+    "0-132011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [1.756333827972412,-382.7322692871094,93.57514953613281,0,0,0.10000000149011612]
+    },
+    "0-132013": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "steel tanto",
+      "ANAM": "ra'virr",
+      "INTV": 200,
+      "NAM9": 1,
+      "DATA": [200.2853546142578,-3.8381259441375732,132.19517517089844,0,0,1.2000000476837158]
+    },
+    "0-132014": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver throwing star",
+      "ANAM": "ra'virr",
+      "INTV": 40,
+      "NAM9": 1,
+      "DATA": [277.9122314453125,-12.488207817077637,133.6736602783203,0,0,0.5]
+    },
+    "0-132015": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver throwing star",
+      "ANAM": "ra'virr",
+      "INTV": 40,
+      "NAM9": 1,
+      "DATA": [295.7693176269531,-11.261910438537598,134.2400360107422,0,0,0]
+    },
+    "0-132016": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "steel dart",
+      "ANAM": "ra'virr",
+      "INTV": 30,
+      "NAM9": 1,
+      "DATA": [248.87059020996094,-3.851379632949829,131.32774353027344,0,0,1.4000000953674316]
+    },
+    "0-132017": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "ra'virr",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [305.53692626953125,-4.319730758666992,88.64395904541016,0,0,1.1000007390975952]
+    },
+    "0-132018": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron shortsword",
+      "ANAM": "ra'virr",
+      "INTV": 300,
+      "NAM9": 1,
+      "DATA": [193.28355407714844,-6.588882923126221,90.43192291259766,0,0,1.2000001668930054]
+    },
+    "0-132019": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "silver dagger",
+      "ANAM": "ra'virr",
+      "INTV": 80,
+      "NAM9": 1,
+      "DATA": [253.2904510498047,-8.383842468261719,89.02976989746094,0,0,1.2000000476837158]
+    },
+    "0-132020": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chitin guantlet - left",
+      "ANAM": "ra'virr",
+      "INTV": 50,
+      "NAM9": 1,
+      "DATA": [183.28111267089844,-1.3683375120162964,44.711734771728516,0,0,2.1000001430511475]
+    },
+    "0-132021": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chitin guantlet - right",
+      "ANAM": "ra'virr",
+      "INTV": 50,
+      "NAM9": 1,
+      "DATA": [198.8965301513672,-1.3955858945846558,44.30168151855469,0,0,1.5000001192092896]
+    },
+    "0-132022": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "netch_leather_greaves",
+      "ANAM": "ra'virr",
+      "INTV": 50,
+      "NAM9": 1,
+      "DATA": [231.69187927246094,-1.041207194328308,44.840641021728516,0,0,0.7000000476837158]
+    },
+    "0-132024": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "nordic_iron_helm",
+      "ANAM": "ra'virr",
+      "INTV": 160,
+      "NAM9": 1,
+      "DATA": [274.01446533203125,-6.58758544921875,53.08787155151367,0.3853982090950012,0,0]
+    },
+    "0-132025": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "fur_helm",
+      "ANAM": "ra'virr",
+      "INTV": 50,
+      "NAM9": 1,
+      "DATA": [292.4893798828125,-12.584885597229004,53.87310791015625,0,0,0]
+    },
+    "0-132026": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "nordic_leather_shield",
+      "ANAM": "ra'virr",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [325.175048828125,2.082458019256592,44.574440002441406,0,6.08318567276001,5.783185958862305]
+    },
+    "0-132033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-288.08343505859375,30.014509201049805,123.92253112792969,0,0,0]
+    },
+    "0-132034": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_cloth10",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-235.21424865722656,38.693843841552734,123.70590209960938,0,0,0.20000000298023224]
+    },
+    "0-132035": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_cloth10",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-257.5162353515625,36.70072937011719,123.70590209960938,0,0,5.983185768127441]
+    },
+    "0-132037": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [28.49174690246582,-201.7088165283203,123.95563507080078,0,0,0]
+    },
+    "0-132038": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [12.55854320526123,-197.2483367919922,123.95563507080078,0,0,6.08318567276001]
+    },
+    "0-132039": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [18.967790603637695,-213.64053344726562,123.95563507080078,0,0,0.4000000059604645]
+    },
+    "0-132040": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [63.62883758544922,-214.52615356445312,124.07926940917969,0,0,0]
+    },
+    "0-132041": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [47.79188919067383,-210.32589721679688,124.07926940917969,0,0,0]
+    },
+    "0-132042": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [57.30467224121094,-195.28236389160156,124.07926940917969,0,0,0]
+    },
+    "0-132043": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [72.89358520507812,-195.94818115234375,124.07926940917969,0,0,0]
+    },
+    "0-132044": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [330.8968200683594,-635.5199584960938,38.37077331542969,0,0,0]
+    },
+    "0-132045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [227.102783203125,-642.204833984375,40.254364013671875,0,0,5.283186435699463]
+    },
+    "0-132046": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [324.58319091796875,-572.128662109375,33.15488052368164,0,0,4.766374111175537]
+    },
+    "0-132047": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [322.22882080078125,-571.1627807617188,11.958717346191406,0,0,4.8831868171691895]
+    },
+    "0-132048": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [320.3640441894531,-575.1644287109375,22.87534523010254,0,0,5.233185768127441]
+    },
+    "0-132049": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [186.1060333251953,-584.8275146484375,30.24768829345703,0,0,0.8500000834465027]
+    },
+    "0-132050": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [187.89117431640625,-625.6063842773438,30.104969024658203,0,0,0]
+    },
+    "0-132051": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_de_fclothes",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [104.95330810546875,-371.985107421875,36.99992370605469,0,0,0]
+    },
+    "0-132052": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_de_mclothes",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [310.4880065917969,-107.0739974975586,36.99974060058594,0,0,0]
+    },
+    "0-132054": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_04_157",
+      "DATA": [228.396728515625,-156.92247009277344,218.20191955566406,0,0,1.899999976158142]
+    },
+    "0-132055": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_04_157",
+      "DATA": [293.7803039550781,-351.86346435546875,470.8553161621094,0,0,1.9000002145767212]
+    },
+    "0-132057": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_04_157",
+      "DATA": [-254.36026000976562,-42.504722595214844,212.4562225341797,0,0,1.899999976158142]
+    },
+    "0-132060": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_05",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-236.42178344726562,-376.62261962890625,38.022987365722656,0,0,0]
+    },
+    "0-132061": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_13_64",
+      "ANAM": "ra'virr",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-244.66506958007812,-389.056640625,75.33799743652344,0,0,0]
+    },
+    "0-131934": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [-256,-320,384,0,0,0]
+    },
+    "0-131935": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_3way",
+      "DATA": [0,-320,384,0,0,6.2831854820251465]
+    },
+    "0-131936": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_stairsl",
+      "DATA": [0,-64,256,0,0,0]
+    },
+    "0-131938": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [256,-64,384,0,0,3.1415927410125732]
+    },
+    "0-131940": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_3way",
+      "DATA": [256,-320,384,0,0,4.71238899230957]
+    },
+    "0-131941": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_corner_01",
+      "DATA": [-256,-320,128,0,0,6.2831854820251465]
+    },
+    "0-131943": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_3way",
+      "DATA": [0,-320,128,0,0,0]
+    },
+    "0-131944": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb",
+      "DATA": [256,-448,128,0,0,4.71238899230957]
+    },
+    "0-131945": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_3way",
+      "DATA": [-256,-64,128,0,0,3.1415927410125732]
+    },
+    "0-131947": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_3way",
+      "DATA": [256,-320,128,0,0,4.71238899230957]
+    },
+    "0-131948": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_end",
+      "DATA": [256,-576,128,0,0,3.1415927410125732]
+    },
+    "0-131951": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_rail",
+      "DATA": [0,-192,384,0,0,0]
+    },
+    "0-131954": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_02",
+      "DATA": [-197.81600952148438,-24.2222843170166,292.063232421875,0,0,0]
+    },
+    "0-131959": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "DATA": [-2.6919310092926025,-316.7904968261719,260.1700134277344,0,0,0]
+    },
+    "0-131960": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [-244.90887451171875,-380.64495849609375,336.3909606933594,0,0,0]
+    },
+    "0-131979": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [307.4504699707031,-188.8482666015625,292.0268249511719,0,0,0]
+    },
+    "0-131980": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [312.37396240234375,-121.49696350097656,293.9337158203125,0,0,0.5831875205039978]
+    },
+    "0-131981": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [307.3216857910156,-260.0745544433594,293.9337158203125,0,0,2.483187675476074]
+    },
+    "0-131989": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "XSCL": 0.9600000381469727,
+      "DATA": [255.49502563476562,-0.7739452123641968,77.66815185546875,0,0,0]
+    },
+    "0-132012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [-26.870874404907227,-378.8388977050781,82.08145141601562,0,0,0]
+    },
+    "0-132028": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "DATA": [255.73516845703125,-247.444091796875,3.082512378692627,0,0,4.71238899230957]
+    },
+    "0-132029": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [30.230846405029297,-202.54026794433594,113.93617248535156,0,0,0]
+    },
+    "0-132030": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [-255.51028442382812,35.604549407958984,113.93617248535156,0,0,0]
+    },
+    "0-290520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [619.898193359375,-104.35132598876953,340.9997863769531,0,0,0]
+    },
+    "0-311255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_pot_redware_03",
+      "ANAM": "hlaalu guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-202.04722595214844,-387.9144592285156,346.951416015625,0,0,1.1000005006790161]
+    },
+    "0-311257": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "DATA": [-258.3851013183594,-135.74530029296875,2.9687933921813965,0,0,4.71238899230957]
+    },
+    "0-332062": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_v_weapon02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [309.7359924316406,-107.27100372314453,90.91200256347656,0,0,1.2007864713668823]
+    },
+    "0-311258": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_ingred",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [278.09100341796875,-642.6160278320312,61.6510009765625,0,0,0.05061454698443413]
+    },
+    "0-332061": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_v_armor02",
+      "ANAM": "ra'virr",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [-164.73500061035156,-378.7869873046875,26.913000106811523,0,0,3.1834805011749268]
+    },
+    "0-378819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb_load",
+      "DATA": [256,-448,384,0,0,1.5707963705062866]
+    },
+    "0-378820": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hall_end",
+      "DATA": [-256,-64,384,0,0,0]
+    },
+    "0-378821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_doorjamb_load",
+      "DATA": [-384,-64,128,0,0,3.1415927410125732]
+    },
+    "0-378822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-255.98675537109375,-46.168113708496094,233.4624786376953,0,0,4.71238899230957]
+    },
+    "0-378823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [292.4759521484375,-355.4789123535156,491.5561828613281,0,0,4.71238899230957]
+    },
+    "0-378824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [226.13400268554688,-159.72021484375,239.66136169433594,0,0,4.71238899230957]
+    },
+    "0-378825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "XSCL": 1.5200001001358032,
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-231.22425842285156,-365.44354248046875,71.5804672241211,0,0,1.770796298980713]
+    },
+    "0-378826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_010",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 10,
+      "DATA": [-224.5103759765625,-366.2256774902344,71.60472106933594,0,0,5.883185863494873]
+    },
+    "0-378827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [-227.62611389160156,-359.5578308105469,71.60206604003906,0,0,4.6831865310668945]
+    },
+    "0-378828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [-228.9171905517578,-368.385986328125,71.60206604003906,0,0,4.883186340332031]
+    },
+    "0-378829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-238.89378356933594,-366.2073059082031,71.65737915039062,0,0,0.40000003576278687]
+    },
+    "0-378830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-232.50534057617188,-361.3101501464844,71.65737915039062,0,0,0.6000000238418579]
+    },
+    "0-378831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "ra'virr",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-221.78973388671875,-393.2590637207031,88.92140197753906,0,0,5.283186435699463]
+    },
+    "0-378832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_13_64",
+      "ANAM": "ra'virr",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-13.815364837646484,-203.81246948242188,127.71763610839844,0,0,4.083187103271484]
+    },
+    "0-378833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_06_128",
+      "ANAM": "ra'virr",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [325.0797119140625,-1.162163496017456,160.90145874023438,0,0,0.20000000298023224]
+    },
+    "0-378834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_13_64",
+      "ANAM": "hlaalu guard",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [306.2268371582031,-175.0225830078125,325.76727294921875,0,0,0.4000000059604645]
+    },
+    "0-378835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-115.17900085449219,-384.9280090332031,396.1499938964844,0,0,2.2008602619171143]
+    },
+    "0-378836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0200001001358032,
+      "DATA": [-150.2491455078125,-84.6298599243164,475.8407897949219,0,0,4.71238899230957]
+    },
+    "0-378837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-109.84555053710938,-74.14095306396484,490.156005859375,0,0,1.5707963705062866]
+    },
+    "0-378838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-247.36196899414062,-428.2015686035156,490.156005859375,0,0,0]
+    },
+    "0-378839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-257.29266357421875,45.104248046875,490.156005859375,0,0,3.1415927410125732]
+    },
+    "0-378840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0200001001358032,
+      "DATA": [-362.26092529296875,-84.6298599243164,475.8407897949219,0,0,1.5707963705062866]
+    },
+    "0-378841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-365.59783935546875,-311.4407043457031,490.156005859375,0,0,1.5707963705062866]
+    },
+    "0-378842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [3.7110676765441895,-428.2015686035156,490.156005859375,0,0,0]
+    },
+    "0-378843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [364.7120666503906,-317.9869384765625,490.156005859375,0,0,4.71238899230957]
+    },
+    "0-378844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [364.7120666503906,-69.86107635498047,490.156005859375,0,0,4.71238899230957]
+    },
+    "0-378845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [244.90548706054688,45.38505554199219,490.156005859375,0,0,3.1415927410125732]
+    },
+    "0-378846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [1.579801082611084,45.38505554199219,490.156005859375,0,0,3.1415927410125732]
+    },
+    "0-378847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_hlaalu_hallway_end",
+      "DATA": [256,-64,128,0,0,0]
+    },
+    "0-378848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-363.78265380859375,-315.5603942871094,235.48910522460938,0,0,1.5707963705062866]
+    },
+    "0-378849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-248.4866180419922,-428.2015686035156,235.48910522460938,0,0,0]
+    },
+    "0-378850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [3.7110676765441895,-428.2015686035156,235.48910522460938,0,0,0]
+    },
+    "0-378851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [362.930419921875,-315.6152648925781,235.48910522460938,0,0,4.71238899230957]
+    },
+    "0-378852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.0800000429153442,
+      "DATA": [254.79998779296875,45.58145523071289,235.48910522460938,0,0,3.1415927410125732]
+    }
+  }
+}

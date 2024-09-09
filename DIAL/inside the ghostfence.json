@@ -1,0 +1,66 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1915457372872124847": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "19737113301854929492",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Buoyant Armiger",
+      "FNAM": null,
+      "ANAM": "Ghostgate",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All our intelligence is old. No one has ventured far inside the fence for years. Sixth House creatures have become more numerous and powerful, and the most powerful can conjure powerful daedra. Until recently, we've been able to clear routes and keep them clean with raids, but no longer. There are no safe refuges or services inside the fence; you must return here to rest and heal. I'm sorry. That's all we can tell you.",
+      "BNAM": ";buoyant armigers; ghostfence; Journal C0_Act_C_Expo >= 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C0_Act_C_Expo",
+          "__TV": 1
+        }
+      ]
+    },
+    "19737113301854929492": {
+      "flag": 0,
+      "PNAM": "1915457372872124847",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Buoyant Armiger",
+      "FNAM": null,
+      "ANAM": "Ghostgate",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All our intelligence is old. No one has ventured far inside the fence for years. This map shows the locations of the citadels of the various ash vampires. Sixth House creatures have become more numerous and powerful, and the most powerful can conjure powerful daedra. Until recently, we've been able to clear routes and keep them clean with raids, but no longer. There are no safe refuges or services inside the fence; you must return here to rest and heal.",
+      "BNAM": ";buoyant armigers; ghostfence; Journal B8_MeetVivec >= 50; \r\nplayer->additem \"bk_red_mountain_map\" 1\r\nJournal C0_Act_C_Expo 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Khajiit",
+  "CNAM": "Assassin",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_m_head_01",
+  "KNAM": "b_n_khajiit_m_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Dro'Zaymar",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "sanguineshoesleaping"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "l_m_wpn_melee_short blade"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

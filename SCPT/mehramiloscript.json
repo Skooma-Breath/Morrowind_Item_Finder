@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 219,
+    "local_var_size": 28
+  },
+  "SCTX": "begin MehraMiloScript\r\n\r\nshort travelDone\r\nshort travelNow\r\nshort noLore\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( travelDone == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetCurrentAiPackage == 1 )\r\n\t;if travel is the current package, set travelNow and continue\\\r\n\tset travelNow to 1\r\n\tSetHello 0\r\n\r\n\tif ( GetAIPackageDone == 1 )\r\n\t\tset travelDone to 1\r\n\t\tset travelNow to 0\r\n\t\tAiWander 128 6 0 40 30 20 0 0 0 0 0 0\r\n\t\tSetHello 30\r\n\t endif\r\n\r\n\tif ( GetPos Y > 1730 )\r\n\t\t;failsafe\r\n\t\tset travelDone to 1\r\n\t\tset travelNow to 0\r\n\t\tAiWander 128 6 0 40 30 20 0 0 0 0 0 0\t\t\t\r\n\t\tSetHello 30\r\n\tendif\r\n\r\nelse\r\n\t;if travel is NOT the current package, make sure travelNow is zero\r\n\tset travelNow to 0\r\nendif\r\n\r\nEnd\r\n\r\n\r\n",
+  "SCVR": [
+    "travelDone",
+    "travelNow",
+    "noLore"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,115,1,0,32,61,61,32,49,36,1,9,1,6,1,14,9,32,88,250,16,32,61,61,32,49,5,1,115,2,0,2,32,49,9,17,0,0,0,0,6,1,4,9,32,88,251,16,32,61,61,32,49,5,1,115,1,0,2,32,49,5,1,115,2,0,2,32,48,249,16,0,0,0,67,0,0,192,64,0,0,0,0,8,0,30,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,9,17,0,0,240,65,9,1,6,1,4,12,32,88,10,16,89,32,62,32,49,55,51,48,5,1,115,1,0,2,32,49,5,1,115,2,0,2,32,48,249,16,0,0,0,67,0,0,192,64,0,0,0,0,8,0,30,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,9,17,0,0,240,65,9,1,7,1,1,5,1,115,2,0,2,32,48,9,1,1,1]
+}

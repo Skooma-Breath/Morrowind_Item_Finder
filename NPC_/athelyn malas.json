@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Commoner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_04",
+  "MODL": null,
+  "FNAM": "Athelyn Malas",
+  "SCRI": "PlagueAthelyn",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_06"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_06"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_06"
+    }
+  ],
+  "NPCS": [
+    "crimson_plague"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 187,
+    "magicka": 132,
+    "fatigue": 258,
+    "disposition": 20,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [71,66,49,74,100,64,93,40],
+    "skills": [39,7,7,7,7,12,7,7,59,7,17,7,7,7,12,7,7,54,56,56,56,29,66,29,71,71,71]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

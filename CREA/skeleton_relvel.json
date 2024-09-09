@@ -1,0 +1,60 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 10,
+    "attributes": [200,50,80,50,60,100,50,80],
+    "health": 300,
+    "magicka": 30,
+    "fatigue": 1000,
+    "soul_strength": 300,
+    "combat_skill": 100,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [15,20],
+      [15,20],
+      [15,20]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Skeleton Champion",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 4,
+      "name": "random_bonemeal"
+    },
+    {
+      "count": 1,
+      "name": "random_silver_weapon"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "immune to frost",
+    "resist shock_50"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

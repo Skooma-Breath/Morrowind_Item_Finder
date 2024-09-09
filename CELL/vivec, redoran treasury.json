@@ -1,0 +1,669 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [2241090,1061158912]
+  },
+  "NAME": "Vivec, Redoran Treasury",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [61,40,20,0],
+    "fog_color": [66,50,34,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-188406": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator stationary",
+      "DATA": [-634.69677734375,313.09521484375,-287.9999694824219,0,0,1.5707963705062866]
+    },
+    "0-188407": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator stationary",
+      "DATA": [-28.429277420043945,296.4193420410156,-276.2611083984375,0,0,4.71238899230957]
+    },
+    "0-188408": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator wander",
+      "DATA": [128,0,-256,0,0,4.71238899230957]
+    },
+    "0-188414": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "faral retheran",
+      "DATA": [-264.1974792480469,-4.435723304748535,-263.63519287109375,0,0,6.08318567276001]
+    },
+    "0-281684": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Redoran_treas_chest_01",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 60,
+      "KNAM": "key_redoran_treasury",
+      "DATA": [-156.281005859375,-98.44200134277344,-223.3509979248047,0,0,5.883504867553711]
+    },
+    "0-188371": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-416,416,-288,0,0,4.71238899230957]
+    },
+    "0-188374": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [480,-352,-288,0,0,1.5707963705062866]
+    },
+    "0-188383": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [-544,-864,-544,0,0,1.5707963705062866]
+    },
+    "0-188401": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "XSCL": 1.3300000429153442,
+      "DATA": [-553.310302734375,-827.096923828125,-296.11480712890625,0,0,0.7853981852531433]
+    },
+    "0-188369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-96,288,-160,0,0,6.283185005187988]
+    },
+    "0-188370": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_entrance_01",
+      "DATA": [-351.99951171875,288,-160,0,0,1.5707964897155762]
+    },
+    "0-188372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [-352,415.99951171875,-288,0,0,4.7123894691467285]
+    },
+    "0-188373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_02",
+      "DATA": [-96,31.99951171875,-160,0,0,0]
+    },
+    "0-188375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [415.99951171875,-352,-288,0,0,4.712389945983887]
+    },
+    "0-188376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_02",
+      "DATA": [-608,32,-160,0,0,3.1415927410125732]
+    },
+    "0-188377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [-96,-224,-160,0,0,4.71238899230957]
+    },
+    "0-188378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-352,-224,-160,0,0,3.1415927410125732]
+    },
+    "0-188379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [160,31.999267578125,-160,0,0,6.283185005187988]
+    },
+    "0-188380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_stairslong_01",
+      "DATA": [-608,-352,-160,0,0,1.5707963705062866]
+    },
+    "0-188381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_wall_column_02",
+      "DATA": [160,-224.00048828125,-160,0,0,1.5707963705062866]
+    },
+    "0-188382": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_02",
+      "DATA": [-352,32,-160,0,0,3.1415927410125732]
+    },
+    "0-188384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [-608,-864,-544,0,0,4.71238899230957]
+    },
+    "0-188385": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_hall_04",
+      "DATA": [-608,-736,-416,0,0,4.71238899230957]
+    },
+    "0-188386": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_corner_01",
+      "DATA": [416,-224.00048828125,-160,0,0,6.2831854820251465]
+    },
+    "0-188387": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-607.999267578125,288,-160,0,0,4.7123894691467285]
+    },
+    "0-188402": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_column_01",
+      "DATA": [-384,-80,-160,0,0,0]
+    },
+    "0-188403": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_rail_01",
+      "DATA": [-656,176,-160,0,0,0]
+    },
+    "0-188404": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_column_01",
+      "DATA": [-80,-80,-160,0,0,0]
+    },
+    "0-188405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_rail_01",
+      "DATA": [-112,176,-160,0,0,0]
+    },
+    "0-188409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "XSCL": 0.9100000262260437,
+      "DATA": [-615.4297485351562,216.3597869873047,-267.78204345703125,0,0,0]
+    },
+    "0-188410": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "XSCL": 0.940000057220459,
+      "DATA": [-100.72175598144531,217.70616149902344,-266.9464111328125,0,0,0]
+    },
+    "0-188411": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_07",
+      "DATA": [-384.9006652832031,-179.58700561523438,-258.82550048828125,0,0,1.5707963705062866]
+    },
+    "0-188412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-82.82826232910156,-178.25096130371094,-244.4088592529297,0,0,2.9561939239501953]
+    },
+    "0-188413": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [-293.2093811035156,-233.53549194335938,-244.4088592529297,0,0,2.356194496154785]
+    },
+    "0-281665": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_07",
+      "DATA": [-91.73662567138672,-97.20958709716797,-258.82550048828125,0,0,3.1415927410125732]
+    },
+    "0-281666": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AntecedantsDwemerLaw",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-99.1449966430664,-109.02300262451172,-226.64300537109375,0,0,0]
+    },
+    "0-281667": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09",
+      "DATA": [-97.01632690429688,-71.22886657714844,-210.85720825195312,0,0,0]
+    },
+    "0-281668": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AncestorsAndTheDunmer",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-390.6140441894531,-245.7692108154297,-211.14776611328125,0,1.5707963705062866,1.5707963705062866]
+    },
+    "0-281669": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AffairsOfWizards",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-384.334716796875,-245.67872619628906,-212.64776611328125,0,1.5707963705062866,1.5707963705062866]
+    },
+    "0-281670": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BriefHistoryEmpire1",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-396.7070007324219,-244.5327606201172,-205.90025329589844,0,1.5707963705062866,1.5707963705062866]
+    },
+    "0-281671": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_easternprovincesimpartial",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-402.79376220703125,-245.10496520996094,-210.14779663085938,6.2831854820251465,1.5707963705062866,1.5707963705062866]
+    },
+    "0-281672": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_graspingfortune",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-378.2572937011719,-238.1593475341797,-213.5477294921875,0,1.5707963705062866,1.5707963705062866]
+    },
+    "0-281673": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_LivesOfTheSaints",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-372.19183349609375,-244.9972686767578,-212.64776611328125,0,1.5707963705062866,1.5707963705062866]
+    },
+    "0-281674": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_tamrielicreligions",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-366.15081787109375,-246.59927368164062,-213.64776611328125,0,1.5707963705062866,1.5707963705062866]
+    },
+    "0-281675": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_01",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-356.0084228515625,-247.91583251953125,-229.65103149414062,0,0,0]
+    },
+    "0-281676": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-412.7557678222656,-246.18655395507812,-229.65103149414062,0,0,5.4977874755859375]
+    },
+    "0-281677": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "XSCL": 1.5100001096725464,
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-371.29669189453125,-180.72848510742188,-229.54441833496094,0,0,4.312389373779297]
+    },
+    "0-281678": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09",
+      "DATA": [-409.4903259277344,-198.88491821289062,-210.85720825195312,0,0,0]
+    },
+    "0-281679": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-2.1558704376220703,277.2806701660156,-64,0,0,4.71238899230957]
+    },
+    "0-281680": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-257.99530029296875,-320,-64,0,0,0]
+    },
+    "0-281681": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [385.93841552734375,-130.51776123046875,-64,0,0,3.1415927410125732]
+    },
+    "0-281682": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 2,
+      "DATA": [-96,-96,-291.8661804199219,0,0,0]
+    },
+    "0-281685": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Redoran_treas_chest_02",
+      "ANAM": "faral retheran",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 60,
+      "KNAM": "key_redoran_treasury",
+      "DATA": [-398.0989074707031,-134.1424102783203,-223.3510284423828,0,0,5.08318567276001]
+    },
+    "0-281686": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [860.7780151367188,56.9056396484375,-236.97760009765625,0,0,0]
+    },
+    "0-337054": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-54.47478103637695,-320,-64,0,0,0]
+    },
+    "0-337055": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [150.21826171875,-320,-64,0,0,0]
+    },
+    "0-337056": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_77",
+      "DATA": [-272.254638671875,171.5131072998047,-152.942626953125,0,0,5.4977874755859375]
+    },
+    "0-337057": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [211.89730834960938,-0.8717401623725891,-154.28463745117188,0,0,5.258186340332031]
+    },
+    "0-337058": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [450.5604248046875,-178.85215759277344,-154.28463745117188,0,0,5.433187007904053]
+    },
+    "0-337059": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_77",
+      "DATA": [-445.4656066894531,180.93162536621094,-154.29782104492188,0,0,5.433187007904053]
+    },
+    "0-337060": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_velothi_window_01",
+      "DATA": [-155.35853576660156,376.7889099121094,-129.8101348876953,5.783185005187988,0,4.71238899230957]
+    },
+    "0-423270": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Inkwell",
+      "ANAM": "faral retheran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-369.6633605957031,-176.48822021484375,-223.99099731445312,0,0,0.4000000059604645]
+    },
+    "0-423271": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Quill",
+      "ANAM": "faral retheran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-368.6584777832031,-187.11410522460938,-228.3447723388672,0,0,4.583186149597168]
+    },
+    "0-423272": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.5,
+      "DATA": [-32.02737045288086,-85.5104751586914,-229.65103149414062,0,0,0]
+    },
+    "0-423273": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_grass_02",
+      "XSCL": 0.5,
+      "DATA": [-29.754533767700195,-83.55059814453125,-203.9794158935547,0,0,1.3000001907348633]
+    },
+    "0-423274": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_grass_02",
+      "XSCL": 0.5,
+      "DATA": [-29.754533767700195,-83.55059814453125,-203.9794158935547,0,0,0]
+    },
+    "0-423275": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [508.9855041503906,-254.2403106689453,-64,0,0,4.71238899230957]
+    },
+    "0-423276": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-704,32,-64,0,0,1.5707963705062866]
+    },
+    "0-423277": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-580.7779541015625,381.1303405761719,-64,0,0,3.1415927410125732]
+    },
+    "0-423278": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [-704,283.65625,-64,0,0,1.5707963705062866]
+    },
+    "0-423279": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [256,0,-64,0,0,4.71238899230957]
+    },
+    "0-423280": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "DATA": [132.95289611816406,123.72251892089844,-64,0,0,3.1415927410125732]
+    },
+    "0-423281": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "XSCL": 1.3300000429153442,
+      "DATA": [-351.15911865234375,351.64886474609375,-39.005393981933594,0,0,0.7853981852531433]
+    },
+    "0-423282": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-56.29672622680664,-273.9360656738281,-154.28463745117188,0,0,5.433187007904053]
+    }
+  }
+}

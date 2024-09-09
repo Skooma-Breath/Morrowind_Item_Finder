@@ -1,0 +1,19 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 5,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 429,
+    "local_var_size": 35
+  },
+  "SCTX": "begin BILL_TT_MountKand05\r\n; modifies fight settings on critters in the mount kand caverns\r\n;  if the player has completed some or all of the riddles.\r\n;\r\n; script location: should be placed on 'common_ring_01_tt_mountkand'\r\n\r\n;Doug sez: No longer used. Ring deleted from world.\r\n\r\n; variables\r\nshort questTest\r\nshort distTest\r\nshort once\r\nshort check\r\nshort doit\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( OnActivate == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( once == 0 )\r\n\tset questTest to ( Player->GetJournalIndex \"TT_MountKand\" )\r\n\tif ( questTest > 25 )\r\n\t\t; ... this happens only if the player has answered some of the riddles correctly\r\n\t\tset check to 1\r\n\tendif\r\n\tset once to 1\r\nendif\r\n\r\nif ( check == 1 )\r\n\tset distTest to ( GetDistance, Player )\r\n\tif ( distTest > 300 )\r\n\t\treturn\r\n\telse\r\n\t\tset check to 0\r\n\t\tset doit to 1\r\n\tendif\r\nendif\r\n\r\nif ( doit == 1 )\r\n\tif ( questTest >= 25 )\r\n\t\t; first riddle answered, flame atronach is now immediately violent\r\n\t\tatronach_flame_ttmk->setfight 100\r\n\tendif\r\n\tif ( questTest >= 50 )\r\n\t\t; first and second riddles answered, flame and frost atronachs are\r\n\t\t;  now immediately violent\r\n\t\tatronach_flame_ttmk->setfight 100\r\n\t\tatronach_frost_ttmk->setfight 100\r\n\tendif\r\n\tif ( questTest >= 75 )\r\n\t\t; all riddles answered, all atronachs are now immediately violent\r\n\t\tatronach_flame_ttmk->setfight 100\r\n\t\tatronach_frost_ttmk->setfight 100\r\n\t\tatronach_storm_ttmk->setfight 100\r\n\tendif\r\n\tset doit to 0\r\n;removed \"stop script self\" line to search & catch all these.\r\nendif\r\n\r\nend BILL_TT_MountKand05",
+  "SCVR": [
+    "questTest",
+    "distTest",
+    "once",
+    "check",
+    "doit"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,88,24,16,32,61,61,32,49,36,1,9,1,6,1,5,9,32,115,3,0,32,61,61,32,48,12,1,6,112,108,97,121,101,114,5,1,115,1,0,20,32,88,205,16,32,100,12,84,84,95,77,111,117,110,116,75,97,110,100,0,6,1,1,9,32,115,1,0,32,62,32,50,53,5,1,115,4,0,2,32,49,9,1,5,1,115,3,0,2,32,49,9,1,6,1,7,9,32,115,4,0,32,61,61,32,49,5,1,115,2,0,15,32,88,1,16,44,32,114,6,80,108,97,121,101,114,0,6,1,1,10,32,115,2,0,32,62,32,51,48,48,36,1,7,1,2,5,1,115,4,0,2,32,48,5,1,115,5,0,2,32,49,9,1,9,1,6,1,13,9,32,115,5,0,32,61,61,32,49,6,1,1,10,32,115,1,0,32,62,61,32,50,53,12,1,19,97,116,114,111,110,97,99,104,95,102,108,97,109,101,95,116,116,109,107,0,17,0,0,200,66,9,1,6,1,2,10,32,115,1,0,32,62,61,32,53,48,12,1,19,97,116,114,111,110,97,99,104,95,102,108,97,109,101,95,116,116,109,107,0,17,0,0,200,66,12,1,19,97,116,114,111,110,97,99,104,95,102,114,111,115,116,95,116,116,109,107,0,17,0,0,200,66,9,1,6,1,3,10,32,115,1,0,32,62,61,32,55,53,12,1,19,97,116,114,111,110,97,99,104,95,102,108,97,109,101,95,116,116,109,107,0,17,0,0,200,66,12,1,19,97,116,114,111,110,97,99,104,95,102,114,111,115,116,95,116,116,109,107,0,17,0,0,200,66,12,1,19,97,116,114,111,110,97,99,104,95,115,116,111,114,109,95,116,116,109,107,0,17,0,0,200,66,9,1,5,1,115,5,0,2,32,48,9,1,1,1]
+}

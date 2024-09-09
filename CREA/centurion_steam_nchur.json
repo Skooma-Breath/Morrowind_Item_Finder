@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Steam_Centurions.NIF",
+  "FLAG": 2120,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [100,25,70,50,12,100,25,50],
+    "health": 150,
+    "magicka": 30,
+    "fatigue": 1000,
+    "soul_strength": 0,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 60,
+    "flags": 0
+  },
+  "CNAM": "centurion_steam",
+  "FNAM": "Steam Centurion",
+  "SCRI": "BILL_FG_Nchurdamz_Centurions",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ingred_scrap_metal_01"
+    },
+    {
+      "count": 1,
+      "name": "random_scrap_metal"
+    }
+  ],
+  "NPCS": [
+    "resist frost_75",
+    "resist poison_75",
+    "resist shock_75",
+    "resist fire_75"
+  ],
+  "DODT": null,
+  "AI_": []
+}

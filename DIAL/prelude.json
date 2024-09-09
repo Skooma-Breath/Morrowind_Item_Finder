@@ -1,0 +1,224 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "241819190228828098": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "68021249100582380",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled. I cannot discuss business with you unless you make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "68021249100582380": {
+      "flag": 0,
+      "PNAM": "241819190228828098",
+      "NNAM": "1444219234163709208",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already brought me the Wakizashi.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_SunkenTreasure",
+          "__TV": 100
+        }
+      ]
+    },
+    "1444219234163709208": {
+      "flag": 0,
+      "PNAM": "68021249100582380",
+      "NNAM": "308027921344728955",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is the one. Here, take these 500 drakes as a finders fee.",
+      "BNAM": "Journal HH_SunkenTreasure 100\r\nPlayer->RemoveItem \"daedric wakizashi_hhst\" 1\r\nAddItem \"daedric wakizashi_hhst\" 1\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "daedric wakizashi_hhst",
+          "__TV": 0
+        }
+      ]
+    },
+    "308027921344728955": {
+      "flag": 0,
+      "PNAM": "1444219234163709208",
+      "NNAM": "16581276391588414095",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You found the Wakizashi? What did you do with it? Bring it here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "16581276391588414095": {
+      "flag": 0,
+      "PNAM": "308027921344728955",
+      "NNAM": "60092734933329946",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You can keep everything else, but that Wakizashi is mine.",
+      "BNAM": "ModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "60092734933329946": {
+      "flag": 0,
+      "PNAM": "16581276391588414095",
+      "NNAM": "212118874212127267",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you found the Wakizashi?",
+      "BNAM": "Choice \"Give her the Wakizashi.\" 1 \"Keep the Wakizashi.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_SunkenTreasure",
+          "__TV": 10
+        }
+      ]
+    },
+    "212118874212127267": {
+      "flag": 0,
+      "PNAM": "60092734933329946",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The ship was trying to land at a secret dock and is likely to be hard to find. I believe they crashed on an island east of Bal Fell. Start there, head due east, and look around the islands you pass. It should be within two or three islands of Bal Fell. The ship was carrying a Daedric Wakizashi when it sank. Bring that Wakizashi to me. You can keep anything else you find there.",
+      "BNAM": "Journal HH_SunkenTreasure 10\r\nShowMap \"Bal Fell\"",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_AshlanderEbony",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

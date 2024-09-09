@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 26,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Tholer Saryoni",
+  "SCRI": "templeStewards",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony staff"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "key_vivec_secret"
+    },
+    {
+      "count": 1,
+      "name": "key_archcanon_private"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 26,
+    "disposition": 50,
+    "reputation": 20,
+    "rank": 9,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

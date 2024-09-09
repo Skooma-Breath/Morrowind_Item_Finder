@@ -1,0 +1,79 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Breton",
+  "CNAM": "Nightblade Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_breton_m_head_02",
+  "KNAM": "b_n_breton_m_hair_03",
+  "MODL": null,
+  "FNAM": "Orrent Geontene",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02_r"
+    },
+    {
+      "count": 1,
+      "name": "l_n_wpn_melee_short blade"
+    },
+    {
+      "count": 40,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "hide",
+    "hex",
+    "ondusi's open door",
+    "detect_key",
+    "detect_creature",
+    "silence",
+    "slowfall",
+    "clumsy touch",
+    "absorb agility",
+    "absorb personality",
+    "alad's caliginy",
+    "black hand",
+    "paralysis",
+    "sotha's mirror",
+    "sotha's grace",
+    "telekinesis",
+    "night-eye"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 58,
+    "magicka": 114,
+    "fatigue": 199,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [46,57,76,43,51,34,48,40],
+    "skills": [6,6,6,6,6,6,6,6,6,14,29,49,49,24,54,24,19,29,21,36,6,21,36,21,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

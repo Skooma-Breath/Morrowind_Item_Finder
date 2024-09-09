@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Nord",
+  "CNAM": "Warrior",
+  "ANAM": "Skaal",
+  "BNAM": "B_N_Nord_M_Head_08",
+  "KNAM": "b_n_nord_m_hair01",
+  "MODL": null,
+  "FNAM": "Skaal Honor Guard",
+  "SCRI": "skaalGuardScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM_NordicMail_gauntletR"
+    },
+    {
+      "count": 1,
+      "name": "BM_NordicMail_gauntletL"
+    },
+    {
+      "count": 1,
+      "name": "BM_NordicMail_Boots"
+    },
+    {
+      "count": 1,
+      "name": "BM_NordicMail_greaves"
+    },
+    {
+      "count": 1,
+      "name": "BM_NordicMail_PauldronR"
+    },
+    {
+      "count": 1,
+      "name": "BM_NordicMail_PauldronL"
+    },
+    {
+      "count": 1,
+      "name": "BM_NordicMail_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "BM_NordicMail_Helmet"
+    },
+    {
+      "count": 1,
+      "name": "bm_random_nordhuntweap"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 50,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

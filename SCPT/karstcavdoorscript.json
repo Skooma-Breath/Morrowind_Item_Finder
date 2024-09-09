@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 83,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin karstcavdoorScript\r\n\r\nif ( GetDisabled == 0 )\r\n\tif ( GetJournalIndex BM_FrostGiant1 >= 30 )\r\n\t\tDisable\r\n\telseif ( GetJournalIndex BM_WildHunt >= 100 )\r\n\t\tDisable\r\n\tendif\r\nendif\r\n\r\n\r\nEnd karstcavdoorScript",
+  "SCVR": null,
+  "SCDT": [6,1,5,9,32,88,220,16,32,61,61,32,48,6,1,1,27,32,88,205,16,32,100,14,66,77,95,70,114,111,115,116,71,105,97,110,116,49,32,62,61,32,51,48,219,16,8,1,1,25,32,88,205,16,32,100,11,66,77,95,87,105,108,100,72,117,110,116,32,62,61,32,49,48,48,219,16,9,1,9,1,1,1]
+}

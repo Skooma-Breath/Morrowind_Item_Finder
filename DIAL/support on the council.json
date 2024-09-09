@@ -1,0 +1,322 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1506513024518912120": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "30394187651137910123",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How can I support you if you've been expelled?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "30394187651137910123": {
+      "flag": 0,
+      "PNAM": "1506513024518912120",
+      "NNAM": "309242245816442169",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes you have my support.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 100
+        }
+      ]
+    },
+    "309242245816442169": {
+      "flag": 0,
+      "PNAM": "30394187651137910123",
+      "NNAM": "60374343133924659",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Normally I would support you, but you have killed my champion, Garding. Since you did this without any provocation, I will not offer you my support. That is final.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 200
+        }
+      ]
+    },
+    "60374343133924659": {
+      "flag": 0,
+      "PNAM": "309242245816442169",
+      "NNAM": "6596156161856024898",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You killed Garding, which is quite disappointing, but I agree that it was a fair fight. I will support you on the Council.",
+      "BNAM": "Journal HH_BeroSupport 100\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "garding",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 70
+        }
+      ]
+    },
+    "6596156161856024898": {
+      "flag": 0,
+      "PNAM": "60374343133924659",
+      "NNAM": "2997320526937610949",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You defeated my champion fairly. I will support you on the Council.",
+      "BNAM": "Journal HH_BeroSupport 100\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 70
+        }
+      ]
+    },
+    "2997320526937610949": {
+      "flag": 0,
+      "PNAM": "6596156161856024898",
+      "NNAM": "2861326008142821974",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Speak with my champion, Garding the Bold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 50
+        }
+      ]
+    },
+    "2861326008142821974": {
+      "flag": 0,
+      "PNAM": "2997320526937610949",
+      "NNAM": "18291421547496585",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. You may use any tactics at your disposal. I would prefer that you spare his life, but I will not insist upon it. When you are ready, speak with my champion, Garding the Bold. Then meet him in the Arena.",
+      "BNAM": "Journal HH_BeroSupport 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "18291421547496585": {
+      "flag": 0,
+      "PNAM": "2861326008142821974",
+      "NNAM": "124521385026209050",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I expected more spirit, %PCName, from what Crassius Curio has said of you. Speak with me again if you change your mind.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "124521385026209050": {
+      "flag": 0,
+      "PNAM": "18291421547496585",
+      "NNAM": "5625214941255225342",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have supported you as Hortator, but pledging my support on the Hlaalu Council in another matter. If I am to risk supporting you, I must know that you are strong as well as clever. I will offer my support if you best my champion, Garding the Bold. Are you willing?",
+      "BNAM": "Choice \"Yes.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B6_BeroHort",
+          "__TV": 50
+        }
+      ]
+    },
+    "5625214941255225342": {
+      "flag": 0,
+      "PNAM": "124521385026209050",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dram bero",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am impressed that you found my manor. If I am to risk supporting you, I must know that you are strong as well as clever. I will offer my support if you best my champion, Garding the Bold. Are you willing?",
+      "BNAM": "Choice \"Yes.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "12081556374155920": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3190416226829188",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dro'zhirr is done talking about her.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_BanditVictim",
+          "__TV": 50
+        }
+      ]
+    },
+    "3190416226829188": {
+      "flag": 0,
+      "PNAM": "12081556374155920",
+      "NNAM": "30730297309815675",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmmm...an interesting bargain. If the woman pays you what she says, that would be a great deal better than what Dro'zhirr can get for them from our associates. Sounds like a fair deal, friend. Make sure you come back with my share, though. Dro'zhirr has friends who wouldn't be happy to know he's been cheated.",
+      "BNAM": "Journal \"MV_BanditVictim\" 50\r\nRemoveItem \"expensive_amulet_aeta\" 1\r\nRemoveItem \"expensive_ring_aeta\" 1\r\nPlayer->AddItem \"expensive_amulet_aeta\" 1\r\nPlayer->AddItem \"expensive_ring_aeta\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "30730297309815675": {
+      "flag": 0,
+      "PNAM": "3190416226829188",
+      "NNAM": "1333416029989022865",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nothing else to say? Then as far as I'm concerned, you're just another victim, trespassing on my property. You'd better leave. Now.",
+      "BNAM": "ModDisposition -20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1333416029989022865": {
+      "flag": 0,
+      "PNAM": "30730297309815675",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've met her, huh? What has that got to do with me? Dro'zhirr is in this for the cash, not for some ridiculous sentiment. No more to say to you, unless you've got a better offer.",
+      "BNAM": "Choice \"I'll bring them back to her, then give you half of what she pays me.\" 1 \"I just want the jewels.\" 2",
+      "SCVR": null
+    }
+  }
+}

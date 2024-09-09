@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "MODL": "r\\DwarvenSpecter.NIF",
+  "FLAG": 1096,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 10,
+    "attributes": [50,50,50,50,30,50,50,50],
+    "health": 120,
+    "magicka": 200,
+    "fatigue": 400,
+    "soul_strength": 400,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,20],
+      [5,20],
+      [5,20]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "dwarven ghost",
+  "FNAM": "Dahrk Mezalf",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ring_dahrkmezalf_uniq"
+    },
+    {
+      "count": 3,
+      "name": "random_ectoplasm"
+    }
+  ],
+  "NPCS": [
+    "chameleon_60",
+    "immune to normal weapons",
+    "grave curse: luck",
+    "grave curse: willpower",
+    "frostbloom",
+    "frost bolt",
+    "frost storm",
+    "reflect_20"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,0,0,0,0,0]
+    }
+  ]
+}

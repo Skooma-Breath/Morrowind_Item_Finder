@@ -1,0 +1,482 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 7,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Khuul, Helga's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [60,60,60,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-113116": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "helga",
+      "DATA": [4110.22119140625,4148.81884765625,15433.5087890625,0,0,3.8831872940063477]
+    },
+    "0-101770": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [3925.168212890625,3916.05224609375,15498.1513671875,0,0,0]
+    },
+    "0-101732": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_paper_lantern_01",
+      "DATA": [3914.515869140625,4107.642578125,15581.40625,0,0,2.8685848712921143]
+    },
+    "0-101734": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "helga",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [3970.73193359375,4144.08203125,15500.6796875,0,0,2.5813419818878174]
+    },
+    "0-101737": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3883.675048828125,4221.2861328125,15449.9248046875,0,0,3.1503193378448486]
+    },
+    "0-101738": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3950.575927734375,4223.9169921875,15457.13671875,3.600614309310913,5.466371059417725,6.04931116104126]
+    },
+    "0-101739": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3867.1826171875,4169.64404296875,15445.7060546875,0,0,1.666374683380127]
+    },
+    "0-101740": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_5",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3938.98779296875,4168.1142578125,15421.390625,0,0,3.6663737297058105]
+    },
+    "0-101741": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_5",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3916.658935546875,4160.29736328125,15429.548828125,6.18318510055542,0.30000001192092896,2.066375494003296]
+    },
+    "0-101742": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3862.6884765625,4161.96337890625,15489.392578125,0,0,4.166373252868652]
+    },
+    "0-101743": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3860.994384765625,4177.46484375,15489.525390625,0,0,3.2663733959198]
+    },
+    "0-101745": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4194.90966796875,3935.955810546875,15441.3486328125,0,0,2.8831865787506104]
+    },
+    "0-101747": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4210.65478515625,4180.7666015625,15481.0009765625,0,0,0.3809754252433777]
+    },
+    "0-101748": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4210.89453125,4163.30029296875,15480.30859375,0,0,5.780974864959717]
+    },
+    "0-101753": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Chest_11_k01",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [4049.64990234375,3951.827880859375,15432.17578125,0,0,5.850343704223633]
+    },
+    "0-101754": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4116.841796875,3946.9599609375,15481.3427734375,0,0,0]
+    },
+    "0-101755": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4160.478515625,3951.7353515625,15448.4765625,0.39968040585517883,5.183627605438232,5.784020900726318]
+    },
+    "0-101756": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4145.541015625,3984.954833984375,15449.3291015625,1.1164954900741577,6.083627223968506,4.884022235870361]
+    },
+    "0-101757": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4109.24951171875,3986.720703125,15443.0732421875,0,0,1.399999976158142]
+    },
+    "0-101759": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_01",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4128.38330078125,3939.811279296875,15513.5673828125,0,0,0]
+    },
+    "0-101760": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4224.59130859375,4206.03466796875,15482.0390625,0,0,0]
+    },
+    "0-101761": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4207.40185546875,4198.32470703125,15484.5419921875,0,0,0]
+    },
+    "0-101762": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4200.357421875,4193.48388671875,15481.7529296875,0,0.4000000059604645,0.8000000715255737]
+    },
+    "0-101763": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4239.14453125,4190.48095703125,15494.0634765625,0,0,3.283186912536621]
+    },
+    "0-261716": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "helga",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3855.36962890625,3949.8056640625,15453.59765625,0,0,5.083186626434326]
+    },
+    "0-101733": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Firepit_F_200",
+      "DATA": [4266.38623046875,4009.6591796875,15486.8388671875,0,0,5.4831862449646]
+    },
+    "0-101735": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [3846.833984375,4067.067626953125,15486.861328125,0.10000049322843552,6.183186054229736,0.9663742780685425]
+    },
+    "0-101736": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [4102.17333984375,4225.109375,15497.0107421875,6.183185577392578,0.3999999165534973,6.149561882019043]
+    },
+    "0-101746": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [4191.177734375,4164.80029296875,15437.0869140625,0,0,1.48097562789917]
+    },
+    "0-101749": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [4227.55029296875,4174.49462890625,15447.83203125,0,0,4.480972766876221]
+    },
+    "0-101750": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [4277.4482421875,4189.6748046875,15433.2275390625,0,0,4.764161109924316]
+    },
+    "0-101751": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_De_Shack_04",
+      "DATA": [4087.73681640625,4083.814208984375,15534.068359375,0,0,1.5707963705062866]
+    },
+    "0-101752": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [3917.070068359375,4094.917724609375,15633.9609375,0.30000001192092896,0,2.9831881523132324]
+    },
+    "0-101765": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [3852.001708984375,4004.44482421875,15450.62890625,0,0,0.6000000238418579]
+    },
+    "0-101766": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [4156.3525390625,3960.734619140625,15657.3330078125,6.283185005187988,6.183185577392578,1.6831884384155273]
+    },
+    "0-101767": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [4276.8994140625,3944.220458984375,15622.8408203125,6.283185005187988,5.983185768127441,1.6831884384155273]
+    },
+    "0-101768": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [4155.84375,3961.891357421875,15624.9990234375,0,0,0]
+    },
+    "0-101769": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [4155.74853515625,3972.858642578125,15580.2763671875,0.6000009775161743,6.183185577392578,5.783185958862305]
+    },
+    "0-303564": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [3593.103515625,3968.857666015625,15499.2353515625,0,0,3.1999995708465576]
+    },
+    "0-398624": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "helga",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4019.057373046875,4176.66845703125,15480.47265625,5.983185768127441,0.4000000059604645,5.483185768127441]
+    },
+    "0-398625": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bucket_Metal",
+      "ANAM": "helga",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4247.35009765625,4161.8115234375,15497.38671875,0,0,0.10000000149011612]
+    },
+    "0-398626": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_02",
+      "ANAM": "helga",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4240.9873046875,4159.41796875,15494.34765625,0.30000004172325134,5.283186435699463,0]
+    },
+    "0-398627": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [4283.34765625,4010.03759765625,15436.80859375,0.10000000149011612,2.599998712539673,2.7000012397766113]
+    },
+    "0-398628": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [4267.4892578125,4006.5322265625,15432.806640625,3.3000011444091797,3.6831858158111572,2.7000012397766113]
+    },
+    "0-398629": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [4263.353515625,4005.7666015625,15438.044921875,2.999999523162842,5.6831841468811035,2.600001096725464]
+    },
+    "0-398630": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [4279.955078125,4010.80078125,15430.466796875,0.4000000059604645,5.6831841468811035,2.7000012397766113]
+    },
+    "0-465839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Boat_Creak00",
+      "DATA": [4113.9501953125,3984.595458984375,15381.22265625,0,0,0]
+    },
+    "0-483425": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BookSkill_Short Blade3",
+      "ANAM": "helga",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4224.39501953125,4130.53759765625,15482.435546875,0,0,1.4099998474121094]
+    }
+  }
+}

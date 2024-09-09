@@ -1,0 +1,220 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "27366302862729421428": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "12936104522626427784",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "balur salvu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hope you find the book useful. I did.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 15
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 50
+        }
+      ]
+    },
+    "12936104522626427784": {
+      "flag": 0,
+      "PNAM": "27366302862729421428",
+      "NNAM": "227490943195926577",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "balur salvu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, now. With this fine Strength potion you brung me, won't take no time at all to grub out those roots for the new marshmerrow plot. Thank you kindly. Why don't you take this book? I know it by heart already. Experience and practice is the real stuff, but there's nothing wrong with a little book learning. Well, then. Reckon I better get back to work. Good day. And my regards to Sera Synnolian.",
+      "BNAM": ";Balur Salvu; journal IC1_marshmerrow >= 10;  journal IC1_marshmerrow < 50;  CHOICE 2; \r\nplayer->additem BookSkill_Alchemy2 1\r\nJournal IC1_marshmerrow 15\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "227490943195926577": {
+      "flag": 0,
+      "PNAM": "12936104522626427784",
+      "NNAM": "1498326917873123975",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "balur salvu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm more than a little busy today. Besides, doubt there's much I could teach such a clever fellow as yourself. Good day.",
+      "BNAM": ";Balur Salvu; journal IC1_marshmerrow >= 1;  journal IC1_marshmerrow < 50;  CHOICE 2; \r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1498326917873123975": {
+      "flag": 0,
+      "PNAM": "227490943195926577",
+      "NNAM": "21026226012933321579",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "balur salvu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're welcome. And good day.",
+      "BNAM": ";Balur Salvu; journal IC1_marshmerrow >= 1;  journal IC1_marshmerrow < 50;  CHOICE 1; \r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "21026226012933321579": {
+      "flag": 0,
+      "PNAM": "1498326917873123975",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "balur salvu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sera Synnolian needs marshmerrow, eh? Not a problem. There's a little field of marshmerrow growing right here next to my house. Help yourself. And my regards to Sera Synnolian. And that's all you need?",
+      "BNAM": ";Balur Salvu; journal IC1_marshmerrow >= 1;  journal IC1_marshmerrow < 50;  \r\nChoice \"That's all, thanks.\" 1 \"Teach me something?\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC1_marshmerrow",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

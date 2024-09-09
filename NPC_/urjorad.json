@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Khajiit",
+  "CNAM": "Healer",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_khajiit_m_head_01",
+  "KNAM": "b_n_khajiit_m_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Urjorad",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 80,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 24576
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "divine judgement silver staff"
+    },
+    {
+      "count": 1,
+      "name": "chameleon ring"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_s"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 0,
+    "magicka": 25,
+    "fatigue": 216,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [42,50,79,40,57,55,65,40],
+    "skills": [6,6,6,6,24,6,6,6,11,10,10,44,28,10,44,44,28,28,11,11,21,29,11,6,6,39,43]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

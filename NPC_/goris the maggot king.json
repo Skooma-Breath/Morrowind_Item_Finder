@@ -1,0 +1,106 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Necromancer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_15",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Goris the Maggot King",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony staff"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": 100,
+      "name": "Gold_001"
+    },
+    {
+      "count": 1,
+      "name": "Misc_SoulGem_Grand"
+    }
+  ],
+  "NPCS": [
+    "absorb health [ranged]",
+    "armor eater",
+    "black hand",
+    "blood sacrifice",
+    "curse personality",
+    "deadly poison [ranged]",
+    "dragon skin",
+    "eye of fear",
+    "far silence",
+    "Fireball_large",
+    "ghost guard",
+    "lightning storm",
+    "summon bonelord",
+    "summon greater bonewalker",
+    "summon least bonewalker",
+    "summon skeletal minion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 190,
+    "magicka": 180,
+    "fatigue": 255,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [62,84,78,55,65,48,50,40],
+    "skills": [6,6,6,6,29,11,6,6,11,56,66,41,56,56,61,18,18,41,6,29,29,11,16,11,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

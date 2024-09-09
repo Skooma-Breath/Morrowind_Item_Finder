@@ -1,0 +1,116 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 11,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_03",
+  "MODL": null,
+  "FNAM": "Danso Indules",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": -2,
+      "name": "p_disease_resistance_s"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_paralyzation_s"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": 2,
+      "name": "p_fortify_health_c"
+    },
+    {
+      "count": -2,
+      "name": "p_cure_poison_s"
+    },
+    {
+      "count": -2,
+      "name": "p_restore_fatigue_b"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_fatigue_c"
+    },
+    {
+      "count": 2,
+      "name": "p_disease_resistance_c"
+    },
+    {
+      "count": -5,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": -5,
+      "name": "p_restore_health_b"
+    },
+    {
+      "count": -1,
+      "name": "p_levitation_b"
+    },
+    {
+      "count": 50,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "energy leech",
+    "seryn's gift",
+    "vivec's feast",
+    "almsivi intervention",
+    "hearth heal",
+    "mother's kiss",
+    "restore willpower",
+    "restore strength",
+    "restore speed",
+    "restore personality",
+    "restore luck",
+    "restore intelligence",
+    "restore endurance",
+    "restore agility"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 82,
+    "magicka": 106,
+    "fatigue": 224,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [56,53,78,53,73,37,70,40],
+    "skills": [6,6,6,6,27,11,6,6,11,17,27,53,38,17,58,53,38,38,6,6,6,32,16,11,10,42,42]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,10,0,0,0,0]
+    }
+  ]
+}

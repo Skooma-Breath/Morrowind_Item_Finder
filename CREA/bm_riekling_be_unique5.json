@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\IceMinion.NIF",
+  "FLAG": 76,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 1,
+    "attributes": [80,50,50,50,50,50,50,50],
+    "health": 100,
+    "magicka": 50,
+    "fatigue": 800,
+    "soul_strength": 100,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [1,5],
+      [1,5],
+      [1,5]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 70,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_riekling",
+  "FNAM": "Riekling",
+  "SCRI": "beastriekScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM riekling sword_rusted"
+    },
+    {
+      "count": 1,
+      "name": "BM_Ice minion_Shield1"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

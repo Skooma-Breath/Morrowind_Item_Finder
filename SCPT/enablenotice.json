@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 119,
+    "local_var_size": 0
+  },
+  "SCTX": "begin enableNotice\r\n\r\nif ( GetJournalIndex A2_6_Incarnate < 50 )\r\n    if ( GetDisabled == 0 )\r\n        Disable\r\n    endif\r\n    Return\r\nendif\r\n \r\nif ( GetJournalIndex B8_MeetVivec < 50 )\r\n    if ( GetDisabled == 1 )\r\n        Enable\r\n    endif\r\n    Return\r\nendif\r\n \r\nif ( GetDisabled == 0 )\r\n    Disable\r\nendif\r\n\r\nend enableNotice",
+  "SCVR": null,
+  "SCDT": [6,1,4,26,32,88,205,16,32,100,14,65,50,95,54,95,73,110,99,97,114,110,97,116,101,32,60,32,53,48,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,36,1,9,1,6,1,4,24,32,88,205,16,32,100,12,66,56,95,77,101,101,116,86,105,118,101,99,32,60,32,53,48,6,1,1,9,32,88,220,16,32,61,61,32,49,218,16,9,1,36,1,9,1,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,1,1]
+}

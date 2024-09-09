@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "568655991130923386": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "31861149012312711138",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go there and find out what you can about the Captain's disappearance. It is on the northeastern tip of the island.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_CariusGone",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_CariusGone",
+          "__TV": 100
+        }
+      ]
+    },
+    "31861149012312711138": {
+      "flag": 0,
+      "PNAM": "568655991130923386",
+      "NNAM": "1891112258348110301",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "saenus lusius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is on the northeastern tip of Solstheim. These Skaal are nature-worshippers, and they seem to have a special commune with the creatures of this island. If anyone knows what attacked the fort, it will be these Nords. I will mark their location on your map. I would like you to earn their trust and find out what you can. You may have to remain with them for many days, but I believe you are up to the task. Here, take this--it was found in one of their tombs. Perhaps they will take it as a sign of good faith.",
+      "BNAM": "AiWander 0 0 0 0 0 0\r\n\"gaea artoria\"->AiWander 0 0 0 0 0 0\r\nJournal BM_CariusGone 25\r\nPlayer->AddItem misc_Skull_Skaal 1\r\nShowMap \"Skaal Village\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_CariusGone",
+          "__TV": 20
+        }
+      ]
+    },
+    "1891112258348110301": {
+      "flag": 0,
+      "PNAM": "31861149012312711138",
+      "NNAM": "2667819882822310011",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go find those savages and see what they've done with the Cap'n.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_CariusGone",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_CariusGone",
+          "__TV": 100
+        }
+      ]
+    },
+    "2667819882822310011": {
+      "flag": 0,
+      "PNAM": "1891112258348110301",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gaea artoria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They're a bunch of savages that live on the northeast tip of the island. The Skaal, they call themselves. I'll mark their village on your map. A bunch of animal spirit-worshipping freaks...wolves especially. What does that tell you? I'm sure they know what happened to the Captain. Now you go find out. They're not likely to trust you, so take this. They'll like it. You should stay with them until you find out what's happened. Get in good with them, earn their trust.",
+      "BNAM": "AiWander 0 0 0 0 0 0\r\n\"saenus lusius\"->AiWander 0 0 0 0 0 0\r\nJournal BM_CariusGone 20\r\nPlayer->AddItem misc_Skull_Skaal 1\r\nShowMap \"Skaal Village\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_CariusGone",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

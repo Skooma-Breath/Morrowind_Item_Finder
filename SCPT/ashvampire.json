@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 316,
+    "local_var_size": 0
+  },
+  "SCTX": "begin ashvampire\r\n\r\n;on each ash vampire; when each ash vampire dies, Dagoth Ur is weakened\r\n;based on Dagoth Ur base stats: Strength, Willpower, Speed = 100; \r\n;Health, Fatigue = 1000\r\n;Magica = 5000\r\n\r\n;when Dagoth-Ur dies, the ashvampires also die\r\n\r\nif ( GetJournalIndex c3_DestroyDagoth >= 50 )\r\n\tif ( GetHealth > 0 )\r\n\t\tSetHealth 0\r\n\tendif\r\n\tReturn\r\nendif\r\n\r\nif ( OnDeath == 0 )\r\n\tReturn\r\nendif\r\n\r\n\"dagoth_ur_1\"->modStrength -5\r\n\"dagoth_ur_2\"->modStrength -5\r\n\"dagoth_ur_1\"->modWillpower -5\r\n\"dagoth_ur_2\"->modWillpower -5\r\n\"dagoth_ur_1\"->modSpeed -5\r\n\"dagoth_ur_2\"->modSpeed -5\r\n\"dagoth_ur_1\"->modHealth -50\r\n\"dagoth_ur_2\"->modHealth -50\r\n\"dagoth_ur_1\"->modFatigue -50\r\n\"dagoth_ur_2\"->modFatigue -50\r\n\"dagoth_ur_1\"->modMagicka -250\r\n\"dagoth_ur_2\"->modMagicka -250\r\n\r\nEnd ashvampire",
+  "SCVR": null,
+  "SCDT": [6,1,4,29,32,88,205,16,32,100,16,99,51,95,68,101,115,116,114,111,121,68,97,103,111,116,104,32,62,61,32,53,48,6,1,1,8,32,88,140,16,32,62,32,48,141,16,0,0,0,0,9,1,36,1,9,1,6,1,1,9,32,88,240,16,32,61,61,32,48,36,1,9,1,12,1,11,100,97,103,111,116,104,95,117,114,95,49,37,16,0,0,160,192,12,1,11,100,97,103,111,116,104,95,117,114,95,50,37,16,0,0,160,192,12,1,11,100,97,103,111,116,104,95,117,114,95,49,43,16,0,0,160,192,12,1,11,100,97,103,111,116,104,95,117,114,95,50,43,16,0,0,160,192,12,1,11,100,97,103,111,116,104,95,117,114,95,49,49,16,0,0,160,192,12,1,11,100,97,103,111,116,104,95,117,114,95,50,49,16,0,0,160,192,12,1,11,100,97,103,111,116,104,95,117,114,95,49,142,16,0,0,72,194,12,1,11,100,97,103,111,116,104,95,117,114,95,50,142,16,0,0,72,194,12,1,11,100,97,103,111,116,104,95,117,114,95,49,148,16,0,0,72,194,12,1,11,100,97,103,111,116,104,95,117,114,95,50,148,16,0,0,72,194,12,1,11,100,97,103,111,116,104,95,117,114,95,49,145,16,0,0,122,195,12,1,11,100,97,103,111,116,104,95,117,114,95,50,145,16,0,0,122,195,1,1]
+}

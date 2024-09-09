@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Pawnbroker",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_nord_m_head_04",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Allding",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 14071
+  },
+  "NPCO": [
+    {
+      "count": -75,
+      "name": "iron arrow"
+    },
+    {
+      "count": -20,
+      "name": "iron throwing knife"
+    },
+    {
+      "count": -1,
+      "name": "iron war axe"
+    },
+    {
+      "count": -1,
+      "name": "iron spear"
+    },
+    {
+      "count": -1,
+      "name": "iron warhammer"
+    },
+    {
+      "count": -1,
+      "name": "iron longsword"
+    },
+    {
+      "count": -1,
+      "name": "iron shortsword"
+    },
+    {
+      "count": 1,
+      "name": "expensive_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_b"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": -3,
+      "name": "torch"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 81,
+    "magicka": 100,
+    "fatigue": 200,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [60,50,45,41,53,54,43,50],
+    "skills": [21,6,16,11,31,11,16,11,36,6,6,6,6,6,6,6,6,21,44,44,29,14,14,14,10,44,29]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

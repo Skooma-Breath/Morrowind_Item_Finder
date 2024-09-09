@@ -1,0 +1,72 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Shipmaster",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_14",
+  "MODL": null,
+  "FNAM": "Gals Arethi",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 30,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [119153.3984375,-102116.171875,159.79312133789062,0,0,2.7831857204437256],
+      "DNAM": null
+    },
+    {
+      "destination": [20362.787109375,-102424.5,185.2707977294922,0,0,0],
+      "DNAM": null
+    },
+    {
+      "destination": [106927.875,117172.4140625,262.775390625,0,0,0.6000000238418579],
+      "DNAM": null
+    },
+    {
+      "destination": [62681.5078125,184288.640625,188.3982696533203,0,0,3.1415927410125732],
+      "DNAM": null
+    }
+  ],
+  "NPDT": {
+    "level": 4,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

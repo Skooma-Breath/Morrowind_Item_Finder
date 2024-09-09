@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 110,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin hircinekeyScript\r\n\r\nshort doOnce\r\n\r\nif ( doOnce == 0 )\r\n\tif ( player->GetItemCount key_hircine1 > 0 )\r\n\t\tif ( GetJournalIndex BM_WildHunt < 50 )\r\n\t\t\tJournal BM_WildHunt 50\r\n\t\t\tset doOnce to 1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nEnd hircinekeyScript",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,6,9,32,115,1,0,32,61,61,32,48,12,1,6,112,108,97,121,101,114,6,1,4,23,32,88,253,16,32,111,12,107,101,121,95,104,105,114,99,105,110,101,49,32,62,32,48,6,1,2,23,32,88,205,16,32,100,11,66,77,95,87,105,108,100,72,117,110,116,32,60,32,53,48,204,16,11,66,77,95,87,105,108,100,72,117,110,116,50,0,255,255,5,1,115,1,0,2,32,49,9,1,9,1,9,1,1,1]
+}

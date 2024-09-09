@@ -1,0 +1,1330 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [2241090,1061158912]
+  },
+  "NAME": "Vivec, Tervur Braven: Trader",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [61,40,20,0],
+    "fog_color": [66,50,34,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-260120": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "tervur braven",
+      "DATA": [127.23680114746094,139.9376983642578,-102.87979125976562,0,0,3.408186197280884]
+    },
+    "0-260143": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "DATA": [64,-128,-128,0,0,1.5707963705062866]
+    },
+    "0-260202": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_trapdoor_01",
+      "DATA": [256,256,-130.05763244628906,0,0,3.1415927410125732]
+    },
+    "0-260132": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_trapdoor_02",
+      "DATA": [4956.72265625,182.65869140625,128,0,0,0]
+    },
+    "0-260155": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_07_64",
+      "DATA": [-284.94622802734375,19.081199645996094,-49.679874420166016,0,0,0]
+    },
+    "0-260156": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [308.7057189941406,116.6654052734375,5.978759765625,0,0,5.633184909820557]
+    },
+    "0-260157": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_14",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4683.92236328125,143.2300262451172,-96.27859497070312,0,0,4.7331862449646]
+    },
+    "0-260160": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4993.18603515625,-43.1851806640625,-96.56773376464844,0,0,0.20000000298023224]
+    },
+    "0-260161": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4995.33984375,-114.89532470703125,-96.73200225830078,0,0,0]
+    },
+    "0-260162": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4992.8525390625,-75.59072875976562,-31.312915802001953,0,0,4.08318567276001]
+    },
+    "0-260164": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1700000762939453,
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4689.8046875,217.63314819335938,-69.169921875,0,0,4.733185768127441]
+    },
+    "0-260165": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4715.44287109375,-115.82101440429688,-65.17118072509766,0,0,2.4831860065460205]
+    },
+    "0-260166": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4714.4599609375,-99.92904663085938,-65.70622253417969,0,0,6.18318510055542]
+    },
+    "0-260167": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4716.7998046875,-131.8130340576172,-65.98786163330078,0,0,6.166370868682861]
+    },
+    "0-260168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4737.35302734375,-132.27317810058594,-64.01061248779297,0,0,3.883185625076294]
+    },
+    "0-260169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4729.0498046875,-91.28450012207031,-50.67586135864258,0,0,3.083186388015747]
+    },
+    "0-260170": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_64",
+      "DATA": [4746.703125,-108.23782348632812,-46.07966613769531,0,0,2.6831862926483154]
+    },
+    "0-260171": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-4.561232566833496,303.28997802734375,-32.63766860961914,0,0,4.08318567276001]
+    },
+    "0-260172": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-4.319092750549316,303.75732421875,-37.17529296875,0,0,1.416814923286438]
+    },
+    "0-260173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-4.319092750549316,303.75732421875,-35.535667419433594,0,0,3.066370964050293]
+    },
+    "0-260174": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-4.26984167098999,304.1068420410156,-33.89604187011719,0,0,0]
+    },
+    "0-260175": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_07",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [26.788557052612305,305.6191101074219,-32.34169387817383,0,0,0.6831855773925781]
+    },
+    "0-260176": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_07",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [26.596445083618164,305.64617919921875,-37.387115478515625,0,0,0]
+    },
+    "0-260177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_07",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [26.788557052612305,305.6191101074219,-35.70530700683594,0,0,0.08318569511175156]
+    },
+    "0-260178": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_07",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [26.788557052612305,305.6191101074219,-34.02349853515625,0,0,2.566370964050293]
+    },
+    "0-260181": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [39.143531799316406,315.6814270019531,10.427970886230469,0,0,0]
+    },
+    "0-260182": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [144.68768310546875,78.69231414794922,-56.40570068359375,0,0,0]
+    },
+    "0-260183": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [28.369911193847656,315.77490234375,10.502510070800781,0,0,0]
+    },
+    "0-260184": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [28.41439437866211,304.0044250488281,10.501502990722656,0,0,0]
+    },
+    "0-260185": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-56.135921478271484,316.09112548828125,-110.2081527709961,0,0,1.100000023841858]
+    },
+    "0-260186": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_broom_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-32.06774139404297,328.2235107421875,-79.3350830078125,0.5,6.183186054229736,6.08318567276001]
+    },
+    "0-260187": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-5.089494705200195,319.3631896972656,-69.89546966552734,0,0,0]
+    },
+    "0-260188": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-5.964932918548584,301.1910095214844,-69.89546966552734,0,0,4.483185291290283]
+    },
+    "0-260189": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [118.6915512084961,308.76861572265625,-70.33805847167969,0,0,0]
+    },
+    "0-260190": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [118.73194122314453,304.624267578125,-80.05523681640625,0,0,0]
+    },
+    "0-260191": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [50.80500030517578,309.6239929199219,-70.1449966430664,0,0,6.183701515197754]
+    },
+    "0-260192": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [46.93165588378906,305.67755126953125,-80.3338394165039,0,0,0]
+    },
+    "0-260193": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 1.350000023841858,
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [260.5323181152344,153.714599609375,-110.77344512939453,0,0,5.883184909820557]
+    },
+    "0-260194": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "XSCL": 1.350000023841858,
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [261.1346435546875,151.21231079101562,-122.62232971191406,0,0,5.883184909820557]
+    },
+    "0-260195": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "XSCL": 1.350000023841858,
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [304.32586669921875,171.19564819335938,-103.3957290649414,0,0.7853981852531433,3.1415927410125732]
+    },
+    "0-260196": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [132.17572021484375,305.6572570800781,10.33465576171875,0,0,4.70818567276001]
+    },
+    "0-260197": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [67.50596618652344,301.6690673828125,-32.86932373046875,0,0,1.7831858396530151]
+    },
+    "0-260198": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [68.14401245117188,315.80462646484375,-32.86899948120117,0,0,0]
+    },
+    "0-260199": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [55.51934051513672,316.7522888183594,-32.86932373046875,0,0,0]
+    },
+    "0-260200": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [54.481014251708984,301.9643859863281,-32.86932373046875,0,0,2.200000286102295]
+    },
+    "0-260203": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [63.46520233154297,305.4936218261719,10.335000038146973,0,0,0.550000011920929]
+    },
+    "0-260121": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_entrance_01",
+      "DATA": [0,0,0,0,0,4.71238899230957]
+    },
+    "0-260122": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [4956.72265625,-73.34132385253906,0,0,0,1.5707963705062866]
+    },
+    "0-260123": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [256,0,0,0,0,1.5707963705062866]
+    },
+    "0-260124": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-256,0,0,0,0,3.1415927410125732]
+    },
+    "0-260125": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [-256,256,0,0,0,4.71238899230957]
+    },
+    "0-260126": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [0,256,0,0,0,1.5707963705062866]
+    },
+    "0-260127": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [0,-128,-128,0,0,4.71238899230957]
+    },
+    "0-260128": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [256,256,0,0,0,6.2831854820251465]
+    },
+    "0-260129": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [4700.72216796875,-73.34132385253906,0,0,0,3.1415927410125732]
+    },
+    "0-260130": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [4956.72265625,182.65869140625,0,0,0,6.2831854820251465]
+    },
+    "0-260131": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [4700.72216796875,182.65869140625,0,0,0,4.71238899230957]
+    },
+    "0-260144": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [63.14674377441406,310.137451171875,-51.20650863647461,0,0,6.2831854820251465]
+    },
+    "0-260145": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_01",
+      "DATA": [292.7948303222656,-58.203094482421875,-90.67723846435547,0,0,2.356194496154785]
+    },
+    "0-260146": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [-290.95416259765625,10.674674987792969,-96.97296142578125,0,0,0]
+    },
+    "0-260147": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_01",
+      "DATA": [-294.7000732421875,-56.33716583251953,-88.10192108154297,0,0,3.5415923595428467]
+    },
+    "0-260148": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_01",
+      "DATA": [-259.6642150878906,85.66332244873047,-90.67721557617188,0,0,0.30000001192092896]
+    },
+    "0-260150": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_01",
+      "XSCL": 0.9200000166893005,
+      "DATA": [-0.9702603816986084,-64.18633270263672,-127.40645599365234,0,0,0.008408069610595703]
+    },
+    "0-260158": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_02",
+      "DATA": [4728.32275390625,-113.7666015625,-97.71771240234375,0,0,3.883185625076294]
+    },
+    "0-260159": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [4663.107421875,-133.21893310546875,-95.06617736816406,0,0,4.4081854820251465]
+    },
+    "0-260201": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [863.371337890625,112.42711639404297,119.66193389892578,0,0,4.71238899230957]
+    },
+    "0-260204": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [5052.72314453125,-41.88475036621094,96,0,0,4.71238899230957]
+    },
+    "0-338349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [224,64,-96,0,0,6.2831854820251465]
+    },
+    "0-338350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [160,64,-96,0,0,6.2831854820251465]
+    },
+    "0-338351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_04",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [288,64,-96,0,0,4.71238899230957]
+    },
+    "0-338352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bar_06",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [32,64,-96,0,0,4.71238899230957]
+    },
+    "0-338353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [96,64,-96,0,0,6.2831854820251465]
+    },
+    "0-338354": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bar_02",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [32,128,-96,0,0,3.1415927410125732]
+    },
+    "0-338355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_02_128",
+      "ANAM": "tervur braven",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [61.01346969604492,82.58074951171875,-34.151344299316406,0,0,0.6000000238418579]
+    },
+    "0-338356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [-306.4787902832031,129.07638549804688,5.978759765625,0,0,5.508184432983398]
+    },
+    "0-338357": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [223.7050018310547,-93.59518432617188,95.73719787597656,0,0,0]
+    },
+    "0-338358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [-354.1497497558594,225.87420654296875,95.73719787597656,0,0,1.5707963705062866]
+    },
+    "0-338359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [-257.9440612792969,350.6593933105469,95.73719787597656,0,0,3.1415927410125732]
+    },
+    "0-338360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [76.16876220703125,350.6593933105469,95.73719787597656,0,0,3.1415927410125732]
+    },
+    "0-338361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [242.3927459716797,350.6593933105469,95.73719787597656,0,0,3.1415927410125732]
+    },
+    "0-338362": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_ingred",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-315.66925048828125,303.411376953125,-71.34931182861328,0,0,5.608185768127441]
+    },
+    "0-338363": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_01_food",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-314.64691162109375,249.43565368652344,-78.7902603149414,0,0,2.0249998569488525]
+    },
+    "0-338364": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_ingred",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-267.5699768066406,310.3248291015625,-83.84892272949219,0,0,1.4999998807907104]
+    },
+    "0-338365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_01_food",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-216.47378540039062,307.82012939453125,-78.79027557373047,0,0,5.908185005187988]
+    },
+    "0-338366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_ingred",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-265.33917236328125,265.5679016113281,-86.36426544189453,0,0,0.949999988079071]
+    },
+    "0-338367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.2300000190734863,
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-273.0657653808594,220.96096801757812,-101.84532165527344,0,0,2.6750001907348633]
+    },
+    "0-338369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-174.5478515625,314.21514892578125,-105.3958740234375,0,0,2.558184862136841]
+    },
+    "0-338371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_02",
+      "XSCL": 1.3700001239776611,
+      "DATA": [-181.46278381347656,134.5054168701172,-132.2940216064453,0,0,1.5500000715255737]
+    },
+    "0-338372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [353.17901611328125,228.75086975097656,95.73719787597656,0,0,4.71238899230957]
+    },
+    "0-338374": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "XSCL": 0.8600000143051147,
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [99.80230712890625,321.6170654296875,-26.61933135986328,0,0,0.4750000238418579]
+    },
+    "0-338375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_restore_health_c",
+      "XSCL": 0.8600000143051147,
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [84.89049530029297,316.7822570800781,-26.61933135986328,0,0,0.30000001192092896]
+    },
+    "0-338376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [135.1626739501953,318.0379638671875,-29.050764083862305,0,0,5.0331854820251465]
+    },
+    "0-338377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [97.33927154541016,302.8737487792969,-29.050764083862305,0,0,0]
+    },
+    "0-338378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [116.72111511230469,323.0029602050781,-29.050764083862305,0,0,0.6499999761581421]
+    },
+    "0-338379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [120.98087310791016,305.9812927246094,-29.050764083862305,0,0,0.6499999761581421]
+    },
+    "0-338380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [98.41777801513672,302.39410400390625,10.33465576171875,0,0,4.58318567276001]
+    },
+    "0-338381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ash_yam_01",
+      "XSCL": 1.1100000143051147,
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [127.26707458496094,75.76676940917969,-64.08842468261719,0,0,0.17499999701976776]
+    },
+    "0-338382": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ash_yam_01",
+      "XSCL": 1.2000000476837158,
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [119.52696990966797,69.75596618652344,-64.08842468261719,0,0,6.008185386657715]
+    },
+    "0-338383": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [38.53188705444336,304.02374267578125,10.411972045898438,0,0,0]
+    },
+    "0-338384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [156.2665557861328,78.06117248535156,-46.99839782714844,0,0,1.874999761581421]
+    },
+    "0-338385": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "DATA": [116.17214965820312,87.2734375,-62.95500183105469,0,0,2.250688076019287]
+    },
+    "0-338386": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "DATA": [121.34854125976562,85.29737091064453,-62.9551887512207,0,0,1.0499999523162842]
+    },
+    "0-338387": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [95.35684967041016,89.96641540527344,-62.978572845458984,0,0,3.625]
+    },
+    "0-338388": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [111.58522033691406,84.58760833740234,-62.978572845458984,0,0,1.0500000715255737]
+    },
+    "0-338389": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [108.50198364257812,87.80987548828125,-62.978572845458984,0,0,3.500000238418579]
+    },
+    "0-338390": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [103.23487091064453,86.61139678955078,-62.978572845458984,0,0,5.175000190734863]
+    },
+    "0-338391": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [120.95198059082031,90.83255004882812,-62.978572845458984,0,0,5.175000190734863]
+    },
+    "0-338392": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [107.58848571777344,82.3707504272461,-62.978572845458984,0,0,3.625]
+    },
+    "0-338393": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [4920.58935546875,-168.25787353515625,96,0,0,0]
+    },
+    "0-338394": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_77",
+      "DATA": [4943.06689453125,-76.68669891357422,5.7153778076171875,0,0,1.5000001192092896]
+    },
+    "0-338395": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "XSCL": 1.3600000143051147,
+      "DATA": [4858.759765625,55.29010772705078,-132.2084503173828,0,0,4.833185195922852]
+    },
+    "0-338396": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [5052.72314453125,161.2437286376953,96,0,0,4.71238899230957]
+    },
+    "0-338397": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [4932.89990234375,276.4833068847656,96,0,0,3.1415927410125732]
+    },
+    "0-338398": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [4729.84716796875,276.4830017089844,96,0,0,3.1415927410125732]
+    },
+    "0-338399": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_mclothes3",
+      "ANAM": "ordinator stationary",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 20,
+      "DATA": [4684.6552734375,12.402667999267578,-110.51200103759766,0,0,0]
+    },
+    "0-338400": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "XSCL": 1.2300000190734863,
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4936.19970703125,-125.67173767089844,-101.55438995361328,0,0,5.4977874755859375]
+    },
+    "0-338402": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_velothi_window_01",
+      "DATA": [-183.67576599121094,-91.23343658447266,33.480918884277344,0.47499966621398926,0,1.5623887777328491]
+    },
+    "0-341071": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_v_trader02",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [-114.4229965209961,311.9330139160156,-106.91300201416016,0,0,0]
+    },
+    "0-390650": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_gold_25",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 25,
+      "DATA": [39.237998962402344,119.43699645996094,-56.676998138427734,0,0,4.426990509033203]
+    },
+    "0-390651": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_drain_agility_q",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [243.7897491455078,77.70266723632812,-50.0880012512207,0,0,5.883185863494873]
+    },
+    "0-390652": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_drain_luck_q",
+      "ANAM": "tervur braven",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [256.45306396484375,65.93721008300781,-50.0880012512207,0,0,1.170796275138855]
+    },
+    "0-338401": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "tervur braven",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4772.703125,234.33099365234375,-93.62300109863281,0,0,5.832890510559082]
+    },
+    "0-444195": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [353.17901611328125,36.57193374633789,95.73719787597656,0,0,4.71238899230957]
+    },
+    "0-444196": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [-89.08622741699219,350.6593933105469,95.73719787597656,0,0,3.1415927410125732]
+    },
+    "0-444197": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_05",
+      "DATA": [-354.1497497558594,26.72521209716797,95.73719787597656,0,0,1.5707963705062866]
+    },
+    "0-444198": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [4735.06396484375,-168.25787353515625,96,0,0,0]
+    },
+    "0-444199": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [4606.2392578125,147.63021850585938,96,0,0,1.5707963705062866]
+    },
+    "0-444200": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "DATA": [4606.2392578125,-55.42338562011719,96,0,0,1.5707963705062866]
+    },
+    "0-444201": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_02",
+      "XSCL": 0.5700000524520874,
+      "DATA": [4828.43896484375,-115.84229278564453,-127.99996185302734,0,0,6.183185577392578]
+    },
+    "0-444202": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_fern_04",
+      "DATA": [4984.93701171875,52.092586517333984,-61.75054168701172,0,0,5.897787094116211]
+    },
+    "0-444203": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_02",
+      "XSCL": 0.5700000524520874,
+      "DATA": [4985.21240234375,53.29774475097656,-127.99996185302734,0,0,6.183185577392578]
+    },
+    "0-444204": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_grass_02",
+      "DATA": [4828.9853515625,-112.1576919555664,-74.22654724121094,0,0,2.000000238418579]
+    },
+    "0-444205": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_grass_02",
+      "DATA": [4828.9853515625,-112.1576919555664,-76.51637268066406,0,0,0]
+    },
+    "0-444206": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [4829.55419921875,233.023193359375,5.7153778076171875,0,0,0.9000000357627869]
+    },
+    "0-444207": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_07_64",
+      "DATA": [4.774816989898682,308.2655944824219,21.56303596496582,0,0,5.283186435699463]
+    }
+  }
+}

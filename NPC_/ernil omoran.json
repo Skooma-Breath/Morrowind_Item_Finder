@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Smuggler",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_12",
+  "KNAM": "b_n_dark elf_m_hair_10",
+  "MODL": null,
+  "FNAM": "Ernil Omoran",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "bk_notefromernil"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_a_spipe_tsiya"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 0,
+    "magicka": 88,
+    "fatigue": 188,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [52,44,54,38,51,44,61,40],
+    "skills": [8,8,8,8,38,28,22,22,28,6,16,6,6,6,10,6,6,6,6,35,6,10,45,10,35,35,20]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

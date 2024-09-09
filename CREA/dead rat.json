@@ -1,0 +1,46 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "MODL": "r\\Rust rat.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 1,
+    "attributes": [25,25,0,30,6,70,100,75],
+    "health": 0,
+    "magicka": 50,
+    "fatigue": 200,
+    "soul_strength": 25,
+    "combat_skill": 80,
+    "magic_skill": 25,
+    "stealth_skill": 90,
+    "attacks": [
+      [1,10],
+      [1,10],
+      [1,10]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "Rat",
+  "FNAM": "Dead Rat",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

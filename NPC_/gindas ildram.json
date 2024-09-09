@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_12",
+  "KNAM": "b_n_dark elf_m_hair_23",
+  "MODL": null,
+  "FNAM": "Gindas Ildram",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_amulet_03"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    }
+  ],
+  "NPCS": [
+    "demoralize beast",
+    "rally beast",
+    "demoralize creature",
+    "demoralize humanoid",
+    "rally creature",
+    "rally humanoid",
+    "almsivi intervention",
+    "detect enchantment",
+    "tevral's hawkshaw",
+    "almalexia's grace",
+    "divine intervention",
+    "mark",
+    "recall",
+    "telekinesis",
+    "detect_creature"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 77,
+    "magicka": 100,
+    "fatigue": 195,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 70,
+    "attributes": [58,50,40,53,58,44,43,40],
+    "skills": [24,9,9,9,24,14,9,9,14,6,16,6,6,6,41,6,6,25,36,36,6,10,16,11,15,36,21]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

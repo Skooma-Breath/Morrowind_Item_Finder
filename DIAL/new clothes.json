@@ -1,0 +1,365 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2995477702150928555": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "15325090245307514",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ra'zahr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Give %Name the skirt. Yes, %Name wears the skirt.",
+      "BNAM": "Journal HT_TheranaClothes 72\r\nPlayer->RemoveItem \"Therana's Skirt\" 1\r\nAddItem \"Therana's Skirt\" 1\r\nTherana->StartCombat \"Ra'Zahr\"\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "15325090245307514": {
+      "flag": 0,
+      "PNAM": "2995477702150928555",
+      "NNAM": "1474919062366228919",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ra'zahr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name does whatever %PCName says.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1474919062366228919": {
+      "flag": 0,
+      "PNAM": "15325090245307514",
+      "NNAM": "367810844623014655",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ra'zahr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want me to wear that skirt?",
+      "BNAM": "Choice \"Yes, wear it.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "therana's skirt",
+          "__TV": 0
+        }
+      ]
+    },
+    "367810844623014655": {
+      "flag": 0,
+      "PNAM": "1474919062366228919",
+      "NNAM": "20576138042911313219",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "New clothes? What new clothes? Oh, yes, I wanted a Khajiit fur skirt. Are you listening? Yes, pay attention. A Khajiit fur skirt. Tell Felisa that I already have one, thank you.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_TheranaClothes",
+          "__TV": 72
+        }
+      ]
+    },
+    "20576138042911313219": {
+      "flag": 0,
+      "PNAM": "367810844623014655",
+      "NNAM": "1981624180393829501",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, is that my new skirt? How do I know it's not cursed? Why don't you put it on.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "therana's skirt",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_TheranaClothes",
+          "__TV": 10
+        }
+      ]
+    },
+    "1981624180393829501": {
+      "flag": 0,
+      "PNAM": "20576138042911313219",
+      "NNAM": "627630832154226541",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First, you must set a Mark. Then you can use Recall to return to that Mark at any time. [Felisa teaches you how to cast these spells.]",
+      "BNAM": "Player->AddSpell \"Mark\"\r\nPlayer->AddSpell \"Recall\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "627630832154226541": {
+      "flag": 0,
+      "PNAM": "1981624180393829501",
+      "NNAM": "21227137021368528657",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your choice, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "21227137021368528657": {
+      "flag": 0,
+      "PNAM": "627630832154226541",
+      "NNAM": "36537283597219742",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not have anything else for you to deliver to Mistress Therana.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_TheranaClothes",
+          "__TV": 100
+        }
+      ]
+    },
+    "36537283597219742": {
+      "flag": 0,
+      "PNAM": "21227137021368528657",
+      "NNAM": "1516171072954725739",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I trust you did not have any trouble... Well, in any case, I owe you 500 drakes for the delivery. Perhaps I could also teach you how to Mark and Recall if you don't know how already.",
+      "BNAM": "Journal HT_TheranaClothes 100\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 10\r\nChoice \"Teach me Mark and Recall.\" 3 \"Nevermind.\" 4",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_TheranaClothes",
+          "__TV": 70
+        }
+      ]
+    },
+    "1516171072954725739": {
+      "flag": 0,
+      "PNAM": "36537283597219742",
+      "NNAM": "2023129157225922498",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know Mistress Therana can be difficult. If you have any trouble, just use the scroll I gave you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_TheranaClothes",
+          "__TV": 50
+        }
+      ]
+    },
+    "2023129157225922498": {
+      "flag": 0,
+      "PNAM": "1516171072954725739",
+      "NNAM": "23843270377156302",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I gave you the skirt. Deliver it to Mistress Therana in Tel Branora. You have to deliver it to her personally, not just put it somewhere in Tel Branora.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_TheranaClothes",
+          "__TV": 10
+        }
+      ]
+    },
+    "23843270377156302": {
+      "flag": 0,
+      "PNAM": "2023129157225922498",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Take this skirt and deliver it to Mistress Therana. She lives in Tel Branora and can be... eccentric at times. Take these ALMSIVI Intervention scrolls. Don't hesitate to use them if Therana becomes... difficult.",
+      "BNAM": "Journal HT_TheranaClothes 10\r\nPlayer->AddItem \"therana's skirt\" 1\r\nPlayer->AddItem \"sc_almsiviintervention\" 2\r\nShowMap \"Tel Branora\"",
+      "SCVR": null
+    }
+  }
+}

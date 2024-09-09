@@ -1,0 +1,76 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Hunter",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_18",
+  "MODL": null,
+  "FNAM": "Assaba-Bentus",
+  "SCRI": "assabaScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "chitin arrow"
+    },
+    {
+      "count": 1,
+      "name": "chitin short bow"
+    },
+    {
+      "count": 1,
+      "name": "chitin spear"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_t"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_e"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    }
+  ],
+  "NPCS": [
+    "veloth's benison",
+    "veloth's gift"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 87,
+    "magicka": 92,
+    "fatigue": 217,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [53,46,39,78,75,47,35,40],
+    "skills": [23,6,23,6,6,11,23,57,90,6,16,6,6,6,11,23,6,6,15,47,32,52,57,52,15,15,15]
+  },
+  "AI_": [
+    {
+      "distance": 2000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

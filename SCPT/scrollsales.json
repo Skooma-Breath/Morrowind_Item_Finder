@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 328,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin ScrollSales\r\n\r\nshort doonce\r\n\r\nif ( GetJournalIndex \"MS_ScrollSales\" >= 30 )\r\n\tif ( \"bk_ahnia\"->GetDisabled == 1 )\r\n\t\t\"bk_ahnia\"->enable\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex \"MS_ScrollSales\" == 30 )\r\n\tif ( \"bk_ahnia\"->OnActivate == 1 )\r\n\t\tJournal MS_ScrollSales 35\r\n\t\tActivate\r\n\tendif\r\nendif\r\n\r\nif ( doonce == 0 )\r\n\tif ( MenuMode != 1 )\r\n\t\tif ( GetJournalIndex \"MS_ScrollSales\" == 35 )\r\n\t\t\t\"ahnia\"->ForceGreeting\r\n\t\t\tset doonce to 1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( \"Ahnia\"->OnDeath == 1 )\r\n\tJournal MS_ScrollSales 40\r\nendif\r\n\r\nif ( GetJournalIndex \"MS_ScrollSales\" == 40 )\r\n\tStopScript ScrollSales\r\nendif\r\n\r\n\r\nEnd ScrollSales\r\n\t",
+  "SCVR": [
+    "doonce"
+  ],
+  "SCDT": [6,1,3,27,32,88,205,16,32,100,14,77,83,95,83,99,114,111,108,108,83,97,108,101,115,32,62,61,32,51,48,12,1,8,98,107,95,97,104,110,105,97,6,1,1,9,32,88,220,16,32,61,61,32,49,12,1,8,98,107,95,97,104,110,105,97,218,16,9,1,9,1,6,1,4,27,32,88,205,16,32,100,14,77,83,95,83,99,114,111,108,108,83,97,108,101,115,32,61,61,32,51,48,12,1,8,98,107,95,97,104,110,105,97,6,1,2,9,32,88,24,16,32,61,61,32,49,204,16,14,77,83,95,83,99,114,111,108,108,83,97,108,101,115,35,0,255,255,23,16,9,1,9,1,6,1,6,9,32,115,1,0,32,61,61,32,48,6,1,4,9,32,88,32,16,32,33,61,32,49,6,1,2,27,32,88,205,16,32,100,14,77,83,95,83,99,114,111,108,108,83,97,108,101,115,32,61,61,32,51,53,12,1,5,65,104,110,105,97,232,16,5,1,115,1,0,2,32,49,9,1,9,1,9,1,12,1,5,65,104,110,105,97,6,1,1,9,32,88,240,16,32,61,61,32,49,204,16,14,77,83,95,83,99,114,111,108,108,83,97,108,101,115,40,0,255,255,9,1,6,1,1,27,32,88,205,16,32,100,14,77,83,95,83,99,114,111,108,108,83,97,108,101,115,32,61,61,32,52,48,28,16,11,83,99,114,111,108,108,83,97,108,101,115,9,1,1,1]
+}

@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Assassin",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_12",
+  "KNAM": "b_n_dark elf_m_hair_06",
+  "MODL": null,
+  "FNAM": "Guril Retheran",
+  "SCRI": "BILL_MT_WritGuril",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "fiend tanto"
+    },
+    {
+      "count": 1,
+      "name": "sanguinerglovehornyfist"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer right"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 119,
+    "magicka": 136,
+    "fatigue": 251,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [67,68,60,76,65,48,48,40],
+    "skills": [28,6,6,6,6,33,6,6,33,6,16,6,6,6,11,6,28,6,34,50,50,54,50,54,13,13,60]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Buoyant Armiger",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Irer Nervion",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "Expensive_Ring_01_HRDT"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "glass_boots"
+    },
+    {
+      "count": 1,
+      "name": "glass_greaves"
+    },
+    {
+      "count": 1,
+      "name": "glass_cuirass"
+    }
+  ],
+  "NPCS": [
+    "clumsiness",
+    "strain",
+    "wearying touch",
+    "torpor",
+    "wild torpor",
+    "temptation",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "daedric bite",
+    "poison_powerful",
+    "vivec's_wrath",
+    "trap_poison00"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "health": 0,
+    "magicka": 106,
+    "fatigue": 281,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [61,53,70,100,80,50,44,40],
+    "skills": [31,7,7,7,7,12,7,7,36,7,56,7,7,7,12,31,7,7,20,59,44,64,69,64,20,44,20]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

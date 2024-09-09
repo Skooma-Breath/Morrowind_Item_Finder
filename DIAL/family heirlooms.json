@@ -1,0 +1,426 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "13699262521609031449": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "13029261261931418583",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dro'zhirr thinks you owe him some money, friend. You'd better get that to me soon. Dro'zhirr knows those jewels were worth at least 150 septims. Now, go get my money!",
+      "BNAM": "ModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_BanditVictim",
+          "__TV": 110
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 150
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "expensive_amulet_aeta",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "expensive_ring_aeta",
+          "__TV": 1
+        }
+      ]
+    },
+    "13029261261931418583": {
+      "flag": 0,
+      "PNAM": "13699262521609031449",
+      "NNAM": "12874167382123131938",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ahhh...she made good on her promise then! Nice dealing with you, %PCName. Perhaps we can do business again sometime.",
+      "BNAM": "Journal \"MV_BanditVictim\" 120\r\nAddItem \"Gold_001\" 150\r\nPlayer->RemoveItem \"Gold_001\" 150\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_BanditVictim",
+          "__TV": 110
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 150
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "expensive_amulet_aeta",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "expensive_ring_aeta",
+          "__TV": 1
+        }
+      ]
+    },
+    "12874167382123131938": {
+      "flag": 0,
+      "PNAM": "13029261261931418583",
+      "NNAM": "117012109166621226",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I thought you were going to return those things to the Nord woman? You'd better get going, or Dro'zhirr will have to take the jewels back from you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_BanditVictim",
+          "__TV": 50
+        }
+      ]
+    },
+    "117012109166621226": {
+      "flag": 0,
+      "PNAM": "12874167382123131938",
+      "NNAM": "25411176202983810436",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dro'zhirr",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Heirlooms? Hah! Dro'zhirr has found plenty of heirlooms. They just seem to fall into his pockets! In fact, Dro'zhirr just found a few new pieces earlier today. Took them from some Nord woman. Cried like a baby, she did. \"Oh, my precious jewelry!\"",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_BanditVictim",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_BanditVictim",
+          "__TV": 50
+        }
+      ]
+    },
+    "25411176202983810436": {
+      "flag": 0,
+      "PNAM": "117012109166621226",
+      "NNAM": "36289612230810856",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aeta wave-breaker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!",
+      "BNAM": "Journal \"MV_BanditVictim\" 105\r\nPlayer->RemoveItem \"expensive_amulet_aeta\" 1\r\nPlayer->RemoveItem \"expensive_ring_aeta\" 1\r\nAddItem \"expensive_amulet_aeta\" 1\r\nAddItem \"expensive_ring_aeta\" 1\r\nRemoveItem \"Gold_001\" 300\r\nPlayer->AddItem \"Gold_001\" 300\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_BanditVictim",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "expensive_amulet_aeta",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "expensive_ring_aeta",
+          "__TV": 0
+        }
+      ]
+    },
+    "36289612230810856": {
+      "flag": 0,
+      "PNAM": "25411176202983810436",
+      "NNAM": "2542930563131077074",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aeta wave-breaker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!",
+      "BNAM": "Journal \"MV_BanditVictim\" 100\r\nRemoveItem \"Gold_001\" 300\r\nPlayer->AddItem \"Gold_001\" 300\r\nPlayer->RemoveItem \"expensive_amulet_aeta\" 1\r\nPlayer->RemoveItem \"expensive_ring_aeta\" 1\r\nAddItem \"expensive_amulet_aeta\" 1\r\nAddItem \"expensive_ring_aeta\" 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_BanditVictim",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "expensive_amulet_aeta",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "expensive_ring_aeta",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "1",
+          "identifier": "MV_BanditVictim",
+          "__TV": 50
+        }
+      ]
+    },
+    "2542930563131077074": {
+      "flag": 0,
+      "PNAM": "36289612230810856",
+      "NNAM": "208336131591419275",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aeta wave-breaker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!",
+      "BNAM": "Journal \"MV_BanditVictim\" 110\r\nRemoveItem \"Gold_001\" 300\r\nPlayer->RemoveItem \"expensive_amulet_aeta\" 1\r\nPlayer->RemoveItem \"expensive_ring_aeta\" 1\r\nAddItem \"expensive_amulet_aeta\" 1\r\nAddItem \"expensive_ring_aeta\" 1\r\nPlayer->AddItem \"Gold_001\" 300\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_BanditVictim",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "expensive_amulet_aeta",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "expensive_ring_aeta",
+          "__TV": 0
+        }
+      ]
+    },
+    "208336131591419275": {
+      "flag": 0,
+      "PNAM": "2542930563131077074",
+      "NNAM": "18805279852651516009",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aeta wave-breaker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you can retrieve them for me, I'd be eternally grateful.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_BanditVictim",
+          "__TV": 25
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_BanditVictim",
+          "__TV": 100
+        }
+      ]
+    },
+    "18805279852651516009": {
+      "flag": 0,
+      "PNAM": "208336131591419275",
+      "NNAM": "1095648453241622360",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aeta wave-breaker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it was a ring and an amulet. They're both inscribed, so it shouldn't be tough to tell which ones are mine.",
+      "BNAM": "Journal \"MV_BanditVictim\" 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_BanditVictim",
+          "__TV": 50
+        }
+      ]
+    },
+    "1095648453241622360": {
+      "flag": 0,
+      "PNAM": "18805279852651516009",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aeta wave-breaker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's good to have my jewelry back.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_BanditVictim",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

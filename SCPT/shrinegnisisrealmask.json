@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 124,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin shrineGnisisRealMask\r\n\r\nif ( OnActivate == 0 )\r\n\tReturn\r\nendif\r\n\r\nCast \"shrine_gnisis_sp\" Player\r\n\r\nif ( Player->GetSpell \"HealingTouch_SP_uniq\" == 0 )\r\n\tPlayer->AddSpell \"HealingTouch_SP_uniq\"\r\nendif\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,24,16,32,61,61,32,48,36,1,9,1,35,17,16,115,104,114,105,110,101,95,103,110,105,115,105,115,95,115,112,6,80,108,97,121,101,114,12,1,6,112,108,97,121,101,114,6,1,1,32,32,88,31,17,32,111,20,72,101,97,108,105,110,103,84,111,117,99,104,95,83,80,95,117,110,105,113,32,61,61,32,48,12,1,6,112,108,97,121,101,114,29,17,20,72,101,97,108,105,110,103,84,111,117,99,104,95,83,80,95,117,110,105,113,9,1,1,1]
+}

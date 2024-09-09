@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 27,
+  "RNAM": "Khajiit",
+  "CNAM": "Thief",
+  "ANAM": "Thieves Guild",
+  "BNAM": "b_n_khajiit_f_head_01",
+  "KNAM": "b_n_khajiit_f_hair01",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Addhiranirr",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 50,
+    "fight": 0,
+    "flee": 100,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel wakizashi"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

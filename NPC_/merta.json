@@ -1,0 +1,69 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Enforcer",
+  "ANAM": "",
+  "BNAM": "b_n_nord_f_head_03",
+  "KNAM": "b_n_nord_f_hair_04",
+  "MODL": null,
+  "FNAM": "Merta",
+  "SCRI": "mertaScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "demon tanto"
+    },
+    {
+      "count": 1,
+      "name": "poisonmirror robe"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 100,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "strong feather",
+    "ulms juicedaw's feather",
+    "fifth barrier",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "daedric bite",
+    "vivec's_wrath"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 27,
+    "health": 211,
+    "magicka": 118,
+    "fatigue": 331,
+    "disposition": 20,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [76,59,99,100,99,56,53,40],
+    "skills": [41,8,18,13,18,13,18,13,41,8,56,41,8,8,8,8,8,74,59,74,26,74,74,74,59,26,26]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

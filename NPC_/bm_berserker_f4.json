@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Nord",
+  "CNAM": "Acrobat",
+  "ANAM": "",
+  "BNAM": "B_N_Nord_F_Head_08",
+  "KNAM": "b_n_nord_f_hair_05",
+  "MODL": null,
+  "FNAM": "Berserker Denmother",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM bear right gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "bm bear left gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "BM bear boots"
+    },
+    {
+      "count": 1,
+      "name": "BM Bear Helmet_ber"
+    },
+    {
+      "count": 1,
+      "name": "random_drinks_nord"
+    },
+    {
+      "count": 900,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "dire weary",
+    "strong fire shield",
+    "strong frost shield",
+    "second barrier",
+    "strong shock shield"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 80,
+    "health": 495,
+    "magicka": 186,
+    "fatigue": 400,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,93,100,100,100,100,100,40],
+    "skills": [13,13,23,18,23,18,23,99,100,13,13,94,13,13,13,13,13,20,57,100,100,100,57,100,57,100,100]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

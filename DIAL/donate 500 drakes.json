@@ -1,0 +1,992 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "123131596230923589": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "293482712263012746",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know what you're talking about. I have reliable information indicating that you are no longer involved in this matter in any official capacity. Leave me immediately. Or I shall be forced to conclude that your intentions are criminal.",
+      "BNAM": "moddisposition -30\r\nmodFight 30\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "IC13_rich",
+          "__TV": 5
+        }
+      ]
+    },
+    "293482712263012746": {
+      "flag": 0,
+      "PNAM": "123131596230923589",
+      "NNAM": "3966221861591615741",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Our business is concluded. You will leave me in peace.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 40
+        }
+      ]
+    },
+    "3966221861591615741": {
+      "flag": 0,
+      "PNAM": "293482712263012746",
+      "NNAM": "1393132009206505543",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is most awkward. Since you confront me with this, I presume you intend blackmail? If you hope for cash, I must disappoint you -- I have no ready cash at present. You must content yourself with these pieces of raw ebony. I'm sure you can get your 500 drakes for them... and more. Now, leave me.",
+      "BNAM": "player->additem ingred_raw_ebony_01 3\r\njournal IC13_rich 42\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 9
+        }
+      ]
+    },
+    "1393132009206505543": {
+      "flag": 0,
+      "PNAM": "3966221861591615741",
+      "NNAM": "3165523743834030874",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is most awkward. Since you confront me with this, I presume you intend blackmail? If you hope for cash, I must disappoint you -- I have no ready cash at present. You must content yourself with these pieces of raw ebony. I'm sure you can get your 500 drakes for them... and more. Now, leave me.",
+      "BNAM": "player->additem ingred_raw_ebony_01 3\r\njournal IC13_rich 40\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        }
+      ]
+    },
+    "3165523743834030874": {
+      "flag": 0,
+      "PNAM": "1393132009206505543",
+      "NNAM": "574864501164710019",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are a fool to listen to idle rumor, and a greater fool to confront me with it. Leave me, ser.",
+      "BNAM": "journal IC13_rich 15\r\nmodDisposition -10\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "574864501164710019": {
+      "flag": 0,
+      "PNAM": "3165523743834030874",
+      "NNAM": "323017355327213468",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I said... I am busy. Excuse me.",
+      "BNAM": "goodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "323017355327213468": {
+      "flag": 0,
+      "PNAM": "574864501164710019",
+      "NNAM": "2176253323006810316",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am busy. Excuse me.",
+      "BNAM": "Choice \"Press him for a commitment.\" 6 \"Thank him for his attention.\" 6 \"Threaten to reveal his skimming from the ebony mines\" 7 \"Threaten with slave's testimony about stolen ebony.\" 8",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_slave",
+          "__TV": 1
+        }
+      ]
+    },
+    "2176253323006810316": {
+      "flag": 0,
+      "PNAM": "323017355327213468",
+      "NNAM": "23155168961530026512",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am busy. Excuse me.",
+      "BNAM": "Choice \"Press him for a commitment.\" 6 \"Thank him for his attention.\" 6 \"Threaten to reveal his skimming from the ebony mines\" 7 \"Show him the Secret Caldera Ledger.\" 9",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_CalderaRecordBook2",
+          "__TV": 1
+        }
+      ]
+    },
+    "23155168961530026512": {
+      "flag": 0,
+      "PNAM": "2176253323006810316",
+      "NNAM": "442725540210426598",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am busy. Excuse me.",
+      "BNAM": "Choice \"Press him for a commitment.\" 6 \"Thank him for his attention.\" 6 \"Threaten to reveal his skimming from the ebony mines\" 7",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rumor",
+          "__TV": 1
+        }
+      ]
+    },
+    "442725540210426598": {
+      "flag": 0,
+      "PNAM": "23155168961530026512",
+      "NNAM": "4588207528511505",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am busy. Excuse me.",
+      "BNAM": "Choice \"Press him for a commitment.\" 6 \"Thank him for his attention.\" 6",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 10
+        }
+      ]
+    },
+    "4588207528511505": {
+      "flag": 0,
+      "PNAM": "442725540210426598",
+      "NNAM": "301521725910747345",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is most awkward. Since you confront me with this, I presume you intend blackmail? If you hope for cash, I must disappoint you -- I have no ready cash at present. You must content yourself with these pieces of raw ebony. I'm sure you can get your 500 drakes for them... and more. Now, leave me.",
+      "BNAM": "player->additem ingred_raw_ebony_01 3\r\njournal IC13_rich 42\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "301521725910747345": {
+      "flag": 0,
+      "PNAM": "4588207528511505",
+      "NNAM": "429326505275521989",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is most awkward. Since you confront me with this, I presume you intend blackmail? If you hope for cash, I must disappoint you -- I have no ready cash at present. You must content yourself with these pieces of raw ebony. I'm sure you can get your 500 drakes for them... and more. Now, leave me.",
+      "BNAM": "player->additem ingred_raw_ebony_01 3\r\njournal IC13_rich 40\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "429326505275521989": {
+      "flag": 0,
+      "PNAM": "301521725910747345",
+      "NNAM": "24001541486741632",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are a fool to listen to idle rumor, and a greater fool to confront me with it. Leave me, ser.",
+      "BNAM": "journal IC13_rich 15\r\nmodDisposition -10\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "24001541486741632": {
+      "flag": 0,
+      "PNAM": "429326505275521989",
+      "NNAM": "123230411848513637",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank me? What for? Are you still here?",
+      "BNAM": "Journal IC13_rich 10\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "123230411848513637": {
+      "flag": 0,
+      "PNAM": "24001541486741632",
+      "NNAM": "2097528165111130958",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your views are unwelcome, ser. I have said I will be happy to discuss this matter at a later date. We will not discuss this further.",
+      "BNAM": "Journal IC13_rich 10\r\nmodDisposition -10\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2097528165111130958": {
+      "flag": 0,
+      "PNAM": "123230411848513637",
+      "NNAM": "30414152393112717643",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You impertinent hound! Do you doubt my honor? Defend yourself, knave!",
+      "BNAM": "journal IC13_fight 1\r\nSetFight 90\r\nsetDisposition 0\r\n\"cunius pelelius\"->StartCombat Player\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "30414152393112717643": {
+      "flag": 0,
+      "PNAM": "2097528165111130958",
+      "NNAM": "317397797188695026",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. I recall speaking with someone about a donation to the Widows and Orphans Fund. I am very busy at the moment, but I would be happy to discuss this matter at a later date. Now, if you'll excuse me?",
+      "BNAM": "Choice \"Demand the money he promised.\" 1 \"Press him for a commitment.\" 2 \"Thank him for his attention.\" 3 \"Threaten to reveal his skimming from the ebony mines\" 4 \"Threaten with slave's testimony about stolen ebony.\" 5",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_slave",
+          "__TV": 1
+        }
+      ]
+    },
+    "317397797188695026": {
+      "flag": 0,
+      "PNAM": "30414152393112717643",
+      "NNAM": "190991283251925956",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. I recall speaking with someone about a donation to the Widows and Orphans Fund. I am very busy at the moment, but I would be happy to discuss this matter at a later date. Now, if you'll excuse me?",
+      "BNAM": "Choice \"Demand the money he promised.\" 1 \"Press him for a commitment.\" 2 \"Thank him for his attention.\" 3 \"Threaten to reveal his skimming from the ebony mines\" 4 \"Show him the Secret Caldera Ledger.\" 6",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bk_CalderaRecordBook2",
+          "__TV": 1
+        }
+      ]
+    },
+    "190991283251925956": {
+      "flag": 0,
+      "PNAM": "317397797188695026",
+      "NNAM": "23075179022236825180",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. I recall speaking with someone about a donation to the Widows and Orphans Fund. I am very busy at the moment, but I would be happy to discuss this matter at a later date. Now, if you'll excuse me?",
+      "BNAM": "Choice \"Demand the money he promised.\" 1 \"Press him for a commitment.\" 2 \"Thank him for his attention.\" 3 \"Threaten to reveal his skimming from the ebony mines\" 4",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rumor",
+          "__TV": 1
+        }
+      ]
+    },
+    "23075179022236825180": {
+      "flag": 0,
+      "PNAM": "190991283251925956",
+      "NNAM": "5733209191262622421",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. I recall speaking with someone about a donation to the Widows and Orphans Fund. I am very busy at the moment, but I would be happy to discuss this matter at a later date. Now, if you'll excuse me?",
+      "BNAM": "Choice \"Demand the money he promised.\" 1 \"Press him for a commitment.\" 2 \"Thank him for his attention.\" 3",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC14_Ponius",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC13_rich",
+          "__TV": 1
+        }
+      ]
+    },
+    "5733209191262622421": {
+      "flag": 0,
+      "PNAM": "23075179022236825180",
+      "NNAM": "27746161881283032689",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Caldera, Governor's Hall",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If this is about a donation from Cunius Pelelius, you'd best talk directly to him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "27746161881283032689": {
+      "flag": 0,
+      "PNAM": "5733209191262622421",
+      "NNAM": "161531253318219831",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Iulus Truptor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Unfortunately, every time we ask Cunius Pelelius for the donation, he says he is very busy at the moment, but he will be happy to discuss the donation at a later date. I suppose he plans to keep deferring the obligation indefinitely until we abandon hope. We must have that money for the Widows and Orphans Fund. You'll just have to find some way to impress upon him the urgency of our cause. We have the greatest faith in you. We know you'll succeed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC13_rich",
+          "__TV": 40
+        }
+      ]
+    },
+    "161531253318219831": {
+      "flag": 0,
+      "PNAM": "27746161881283032689",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Iulus Truptor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is a large sum, but the Widows and Orphans Fund needs it badly. And Cunius Pelelius is a part of the trust who received the exclusive Imperial charter to exploit the rich ebony deposits of Caldera Mine, so he must be a very wealthy man, and more than able to spare 500 drakes for such a worthy cause.",
+      "BNAM": "Choice \"Continue\" 10",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC13_rich",
+          "__TV": 40
+        }
+      ]
+    }
+  }
+}

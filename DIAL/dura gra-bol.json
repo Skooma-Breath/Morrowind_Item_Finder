@@ -1,0 +1,295 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "56015168105932404": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "707086312421931867",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dura gra-bol",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yeah, what? You're wasting my time.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "707086312421931867": {
+      "flag": 0,
+      "PNAM": "56015168105932404",
+      "NNAM": "622229347284449845",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You've already killed Dura gra-Bol. If you have questions about any other contract, ask them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dura gra-bol",
+          "__TV": 1
+        }
+      ]
+    },
+    "622229347284449845": {
+      "flag": 0,
+      "PNAM": "707086312421931867",
+      "NNAM": "26042105572811029665",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "It seems straightforward to me. Dura gra-Bol really is wanted for murder.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "26042105572811029665": {
+      "flag": 0,
+      "PNAM": "622229347284449845",
+      "NNAM": "18053319961634615767",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "18053319961634615767": {
+      "flag": 0,
+      "PNAM": "26042105572811029665",
+      "NNAM": "27281154712155116942",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have any more bounty contracts right now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_OrcBounty",
+          "__TV": 100
+        }
+      ]
+    },
+    "27281154712155116942": {
+      "flag": 0,
+      "PNAM": "18053319961634615767",
+      "NNAM": "1315817146980114093",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already killed Dura gra-Bol? Well, then, these 250 septims are yours.",
+      "BNAM": "Journal FG_OrcBounty 100\r\nPlayer->AddItem Gold_001 250\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_OrcBounty",
+          "__TV": 0
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dura gra-bol",
+          "__TV": 1
+        }
+      ]
+    },
+    "1315817146980114093": {
+      "flag": 0,
+      "PNAM": "27281154712155116942",
+      "NNAM": "22810386257729208",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I heard that Dura gra-Bol is dead. Here's your 250 septims.",
+      "BNAM": "Journal FG_OrcBounty 100\r\nPlayer->AddItem Gold_001 250\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_OrcBounty",
+          "__TV": 10
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dura gra-bol",
+          "__TV": 1
+        }
+      ]
+    },
+    "22810386257729208": {
+      "flag": 0,
+      "PNAM": "1315817146980114093",
+      "NNAM": "26697146411173217957",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "This Orc is an outlaw, living openly in a house here in Balmora. I have a contract here that says 250 septims are yours if you bring her to justice.",
+      "BNAM": "Journal FG_OrcBounty 10",
+      "SCVR": null
+    },
+    "26697146411173217957": {
+      "flag": 0,
+      "PNAM": "22810386257729208",
+      "NNAM": "173965674313098995",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I think he lives by the river, on the east side of town.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "nolore",
+          "__TV": 0
+        }
+      ]
+    },
+    "173965674313098995": {
+      "flag": 0,
+      "PNAM": "26697146411173217957",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He lives in town somewhere. Look around, you lazy fetcher.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "nolore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

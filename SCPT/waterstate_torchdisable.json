@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 107,
+    "local_var_size": 33
+  },
+  "SCTX": "begin waterstate_torchdisable\r\n\r\nshort initialized\r\nshort myheight\r\nshort enablestate\r\n\r\nif ( initialized == 0 )\r\n\tset initialized to 1\r\n\tset myheight to GetPos Z\r\nendif\r\n\r\nif ( GetWaterLevel > myheight )\r\n\tif ( enablestate != 1 )\r\n\t\tDisable\r\n\t\tset enablestate to 1\r\n\t\r\n\tendif\r\nelse\r\n\tif ( enablestate != 2 )\r\n\t\tEnable\r\n\t\tset enablestate to 2\r\n\t\t\r\n\tendif\r\nendif\r\n\r\nend",
+  "SCVR": [
+    "initialized",
+    "myheight",
+    "enablestate"
+  ],
+  "SCDT": [6,1,2,9,32,115,1,0,32,61,61,32,48,5,1,115,1,0,2,32,49,5,1,115,2,0,6,32,88,10,16,90,0,9,1,6,1,4,11,32,88,144,17,32,62,32,115,2,0,0,6,1,2,9,32,115,3,0,32,33,61,32,49,219,16,5,1,115,3,0,2,32,49,9,1,7,1,4,6,1,2,9,32,115,3,0,32,33,61,32,50,218,16,5,1,115,3,0,2,32,50,9,1,9,1,1,1]
+}

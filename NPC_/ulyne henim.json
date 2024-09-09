@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Witchhunter",
+  "ANAM": "Fighters Guild",
+  "BNAM": "b_n_dark elf_f_head_06",
+  "KNAM": "b_n_dark elf_f_hair_11",
+  "MODL": null,
+  "FNAM": "Ulyne Henim",
+  "SCRI": "ulyneFollow",
+  "AIDT": {
+    "greet": 40,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel staff"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    },
+    {
+      "count": 1,
+      "name": "chitin helm"
+    }
+  ],
+  "NPCS": [
+    "saintly word",
+    "summon ancestral ghost",
+    "almsivi intervention",
+    "tevral's hawkshaw",
+    "almalexia's grace",
+    "divine intervention",
+    "telekinesis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 11,
+    "health": 74,
+    "magicka": 164,
+    "fatigue": 210,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [53,82,41,80,90,36,46,40],
+    "skills": [25,6,6,6,25,11,6,6,50,50,26,16,16,50,40,16,50,35,6,25,6,45,16,45,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

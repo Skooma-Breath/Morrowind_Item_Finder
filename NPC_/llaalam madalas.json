@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Nightblade Service",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Llaalam Madalas",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "p_chameleon_q"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_magicka_q"
+    },
+    {
+      "count": 1,
+      "name": "p_invisibility_s"
+    },
+    {
+      "count": 3,
+      "name": "p_restore_health_s"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "great feather",
+    "strong reflect",
+    "drain blood",
+    "blood despair",
+    "poison_powerful",
+    "charming touch",
+    "concealment",
+    "shadow weave",
+    "shalidor's mirror",
+    "detect enchantment",
+    "detect_key",
+    "purge magic",
+    "rally beast",
+    "rallying touch",
+    "medusa's gaze",
+    "telekinesis",
+    "far silence",
+    "night-eye"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 89,
+    "magicka": 108,
+    "fatigue": 245,
+    "disposition": 50,
+    "reputation": 12,
+    "rank": 5,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [53,54,75,69,85,48,48,40],
+    "skills": [6,6,6,6,6,11,6,6,11,18,50,54,54,18,60,18,18,40,28,43,6,33,53,33,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Khuul, Brurid's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,75,75,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-113117": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "brurid",
+      "DATA": [4068.853271484375,4121.16552734375,14615.509765625,0,0,2.8831849098205566]
+    },
+    "0-101830": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [3963.756103515625,3849.825927734375,14672.5712890625,0,0.01745329238474369,0.02094395086169243]
+    },
+    "0-101831": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [4420.453125,4228.73486328125,14671.2197265625,0,0.01745329238474369,4.705407619476318]
+    },
+    "0-101774": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "brurid",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4304.109375,3958.50927734375,14719.810546875,0,0,5.417501926422119]
+    },
+    "0-101775": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_29",
+      "ANAM": "brurid",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4297.2236328125,3962.39404296875,14644.7265625,0,0,5.383579254150391]
+    },
+    "0-101777": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4357.5302734375,3821.60595703125,14627.251953125,0,0,5.3831868171691895]
+    },
+    "0-101778": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4285.49951171875,3808.236083984375,14628.380859375,0,0,1.6004669666290283]
+    },
+    "0-101781": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_msugar2",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4402.59130859375,3853.922119140625,14614.9150390625,0,0,0]
+    },
+    "0-101782": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "XSCL": 0.690000057220459,
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4166.14208984375,4053.9208984375,14620.8701171875,0,0,4.483186721801758]
+    },
+    "0-101783": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_mclothes3",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 10,
+      "DATA": [4091.361083984375,3878.993896484375,14614.1064453125,6.230825424194336,6.253514766693115,3.1834805011749268]
+    },
+    "0-101785": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4162.14794921875,4024.942138671875,14616.01171875,0,0,0.9000000357627869]
+    },
+    "0-101786": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4139.955078125,4037.082763671875,14614.02734375,0,0,0.7000000476837158]
+    },
+    "0-101787": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_04",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4136.912109375,4049.639892578125,14616.2890625,0,0,5.1831865310668945]
+    },
+    "0-101788": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4163.3984375,4038.85205078125,14648.947265625,0,0,0]
+    },
+    "0-101792": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4380.19384765625,4341.162109375,14630.5078125,0,0,1.6004669666290283]
+    },
+    "0-101793": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4292.76708984375,4323.02685546875,14658.162109375,0,0,0]
+    },
+    "0-101794": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_moon_sugar_01",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4292.71630859375,4323.240234375,14657.322265625,0,0,0]
+    },
+    "0-101795": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4193.978515625,4295.19091796875,14658.2177734375,0,0,0]
+    },
+    "0-101796": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4177.88134765625,4305.49560546875,14672.478515625,0,0,1.5000001192092896]
+    },
+    "0-101797": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4193.8388671875,4295.24072265625,14659.9716796875,0,0,0]
+    },
+    "0-101798": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4204.8974609375,4309.31591796875,14661.533203125,0,0,0]
+    },
+    "0-101799": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4177.87060546875,4291.03076171875,14657.91015625,0,0,4.983186721801758]
+    },
+    "0-101800": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4200.5283203125,4297.72607421875,14661.9267578125,0,0.5,2.9831864833831787]
+    },
+    "0-101801": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_64",
+      "DATA": [4242.35546875,4329.69970703125,14676.9580078125,0,0,5.366372108459473]
+    },
+    "0-101805": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4083.865478515625,3880.8642578125,14628.416015625,0,0,0]
+    },
+    "0-101807": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4093.2783203125,3868.180908203125,14645.607421875,0,0,0]
+    },
+    "0-101808": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3857.50146484375,4205.17431640625,14619.005859375,0,0.20000000298023224,3.0663745403289795]
+    },
+    "0-101809": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3874.09423828125,4181.20361328125,14615.2822265625,0.2000000774860382,0.6000003218650818,3.666374683380127]
+    },
+    "0-101810": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3843.619384765625,4194.30029296875,14618.4609375,0,0.20000000298023224,3.3663744926452637]
+    },
+    "0-101811": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_empty",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3866.527587890625,4139.65673828125,14629.560546875,0,0,4.9831862449646]
+    },
+    "0-101812": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_moonsugar",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3872.040283203125,4261.60888671875,14622.9853515625,0,0,4.683187007904053]
+    },
+    "0-101813": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_iron_weapons",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3878.43701171875,4330.47314453125,14627.0673828125,0,0,0]
+    },
+    "0-101814": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food_misc01",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3953.52197265625,4338.6591796875,14624.619140625,0,0,4.483750820159912]
+    },
+    "0-101815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_food_misc01",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3921.201904296875,4331.93017578125,14690.3076171875,0,6.2186079025268555,0]
+    },
+    "0-101816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3863.881103515625,4314.10302734375,14682.2958984375,0,0,5.784020900726318]
+    },
+    "0-101817": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3935.6552734375,4265.25830078125,14655.9951171875,0,0,0]
+    },
+    "0-101820": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [3910.24267578125,4157.896484375,14765.8681640625,0,0,2.883283853530884]
+    },
+    "0-101823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3859.345458984375,3877.688720703125,14631.16015625,0,0,0]
+    },
+    "0-101824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3858.072265625,3938.58251953125,14603.7861328125,0,0,4.883186340332031]
+    },
+    "0-101825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3865.89404296875,3979.15771484375,14611.5,0,5.983185768127441,5.583186149597168]
+    },
+    "0-101826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4380.47021484375,3899.465087890625,14655.361328125,0,0,0]
+    },
+    "0-101827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4325.53759765625,3883.752197265625,14600.4072265625,0,0,5.083186149597168]
+    },
+    "0-101828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4377.92236328125,3897.687744140625,14688.283203125,0,0,0]
+    },
+    "0-101829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_basket_01",
+      "ANAM": "brurid",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4351.08056640625,3822.62939453125,14659.1875,0,0,4.283186435699463]
+    },
+    "0-101771": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_01",
+      "DATA": [4116.890625,4079.048095703125,14696.6025390625,0,0,0]
+    },
+    "0-101772": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Firepit_F_200",
+      "DATA": [4075.126708984375,4284.951171875,14667.318359375,0,0,5.183186054229736]
+    },
+    "0-101773": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "XSCL": 1.1500000953674316,
+      "DATA": [4415.1650390625,4114.6279296875,14672.7265625,5.683382511138916,0.1991640031337738,1.9823261499404907]
+    },
+    "0-101776": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [4187.15185546875,3823.38427734375,14693.66015625,0.44795912504196167,5.883505344390869,4.783186912536621]
+    },
+    "0-101789": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [4239.55859375,4315.00048828125,14623.669921875,0,0,3.1000006198883057]
+    },
+    "0-101790": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [4262.845703125,4254.43017578125,14620.7353515625,0,0,2.883188247680664]
+    },
+    "0-101791": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [4192.17138671875,4246.08056640625,14620.564453125,0,0,3.083185911178589]
+    },
+    "0-101802": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [4254.6767578125,3914.229736328125,14836.009765625,0,0,5.4831862449646]
+    },
+    "0-101818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [3926.04248046875,4030.197021484375,14788.8310546875,0,0,2.6831862926483154]
+    },
+    "0-101819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [3913.60400390625,4158.39404296875,14786.3251953125,0,0,0]
+    },
+    "0-101821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [3869.166015625,4085.601806640625,14631.9716796875,0,0,0]
+    },
+    "0-101822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [3866.814697265625,4037.967529296875,14623.8837890625,0,4.8831868171691895,5.883185863494873]
+    },
+    "0-303565": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [4066.40576171875,4654.99072265625,14735.021484375,0,0,5.097787380218506]
+    },
+    "0-101784": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_Carry",
+      "DATA": [4169.80712890625,4061.931640625,14677.916015625,0,0,5.283111572265625]
+    },
+    "0-398612": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [4090.577392578125,4289.8056640625,14610,0.4000000059604645,5.6831841468811035,2.7000012397766113]
+    },
+    "0-398613": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [4078.11181640625,4285.537109375,14612.33984375,3.3000011444091797,3.6831858158111572,2.7000012397766113]
+    },
+    "0-398614": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [4073.976318359375,4284.771484375,14617.578125,2.999999523162842,5.6831841468811035,2.600001096725464]
+    },
+    "0-398615": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [3971.463134765625,4235.4541015625,14607.7841796875,3.100001811981201,3.1831862926483154,0.016814708709716797]
+    },
+    "0-398616": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [3963.439208984375,4231.6220703125,14600.0205078125,0.016815185546875,3.083186388015747,3.100001096725464]
+    },
+    "0-398617": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [3979.68994140625,4236.21875,14603.24609375,3.100001811981201,3.1831862926483154,0.016814708709716797]
+    },
+    "0-398618": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [3979.32470703125,4233.8994140625,14613.7265625,0.11681566387414932,3.4831860065460205,6.2168145179748535]
+    },
+    "0-398619": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [3989.380615234375,4234.1162109375,14609.8017578125,3.2000017166137695,3.1831862926483154,3.3168137073516846]
+    },
+    "0-398620": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [3996.949462890625,4237.33740234375,14602.919921875,3.2000017166137695,3.1831862926483154,0.1168132796883583]
+    },
+    "0-398621": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "brurid",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4254.0400390625,3908.0634765625,14643.3623046875,0.4000000059604645,5.983185768127441,5.4831862449646]
+    },
+    "0-398622": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "brurid",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4262.40185546875,3914.0849609375,14699.7314453125,0.30000001192092896,5.983185768127441,2.2000014781951904]
+    },
+    "0-398623": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_rndgold",
+      "XSCL": 0.7400000095367432,
+      "FLTV": 25,
+      "TNAM": "shocking touch",
+      "DATA": [4380.419921875,4340.828125,14663.5244140625,0,0,0.9005898833274841]
+    }
+  }
+}

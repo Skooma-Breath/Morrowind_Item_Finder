@@ -1,0 +1,266 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1506613382645324485": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "30120308861557115251",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dangor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks for the flin, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 50
+        }
+      ]
+    },
+    "30120308861557115251": {
+      "flag": 0,
+      "PNAM": "1506613382645324485",
+      "NNAM": "547712891263456534",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dangor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks, %PCName. I've been looking forward to this shipment.",
+      "BNAM": "Player->RemoveItem Potion_Cyro_Whiskey_01 20\r\nAddItem Potion_Cyro_Whiskey_01 20\r\nJournal FG_ElithPalSupply 50",
+      "SCVR": null
+    },
+    "547712891263456534": {
+      "flag": 0,
+      "PNAM": "30120308861557115251",
+      "NNAM": "1733819314779529785",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dangor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then why did you come all this way with all that flin? Are you feeling okay?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1733819314779529785": {
+      "flag": 0,
+      "PNAM": "547712891263456534",
+      "NNAM": "2673227129691028931",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dangor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you here to deliver the flin?",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Potion_Cyro_Whiskey_01",
+          "__TV": 20
+        }
+      ]
+    },
+    "2673227129691028931": {
+      "flag": 0,
+      "PNAM": "1733819314779529785",
+      "NNAM": "1953941672849226799",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dangor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have some flin? Where?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1953941672849226799": {
+      "flag": 0,
+      "PNAM": "2673227129691028931",
+      "NNAM": "308597046954614026",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Elith-Pal Mine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've got a shipment for us? You'll want to talk to Dangor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 10
+        }
+      ]
+    },
+    "308597046954614026": {
+      "flag": 0,
+      "PNAM": "1953941672849226799",
+      "NNAM": "47475302963219783",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Publican",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imported Cyrodiilic whiskey is called flin. This stimulating beverage is imported and expensive, but has none of the unpleasant side effects of other intoxicating beverages. A sharp boost in strength and willpower is what most people experience.",
+      "BNAM": ";publican; trader;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "47475302963219783": {
+      "flag": 0,
+      "PNAM": "308597046954614026",
+      "NNAM": "29911218162853331413",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Trader Service",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imported Cyrodiilic whiskey is called flin. This stimulating beverage is imported and expensive, but has none of the unpleasant side effects of other intoxicating beverages. A sharp boost in strength and willpower is what most people experience.",
+      "BNAM": ";publican; trader;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "29911218162853331413": {
+      "flag": 0,
+      "PNAM": "47475302963219783",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Trader",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Imported Cyrodiilic whiskey is called flin. This stimulating beverage is imported and expensive, but has none of the unpleasant side effects of other intoxicating beverages. A sharp boost in strength and willpower is what most people experience.",
+      "BNAM": ";publican; trader;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

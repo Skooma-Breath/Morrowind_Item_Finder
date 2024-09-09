@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Orc",
+  "CNAM": "Warrior",
+  "ANAM": "",
+  "BNAM": "B_N_Orc_M_Head_04",
+  "KNAM": "b_n_orc_m_hair_04",
+  "MODL": null,
+  "FNAM": "Dreggs",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 10,
+    "fight": 60,
+    "flee": 10,
+    "alarm": 60,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver shardsword"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "key_gro-bagrat"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

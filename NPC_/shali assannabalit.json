@@ -1,0 +1,78 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mabrigash",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_04",
+  "KNAM": "b_n_dark elf_f_hair_20",
+  "MODL": null,
+  "FNAM": "Shali Assannabalit",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "chitin war axe"
+    },
+    {
+      "count": 1,
+      "name": "expensive_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_01_e"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "chitin_shield"
+    }
+  ],
+  "NPCS": [
+    "sixth barrier",
+    "great resist common disease",
+    "great resist fire",
+    "flameguard",
+    "great resist frost",
+    "frostguard",
+    "great resist magicka",
+    "shockguard",
+    "greater resist poison",
+    "magickguard",
+    "great resist shock",
+    "ghost_snake"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 11,
+    "health": 120,
+    "magicka": 98,
+    "fatigue": 266,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [60,49,98,51,55,57,40,40],
+    "skills": [41,6,6,6,6,11,41,6,31,12,56,46,12,12,36,46,12,32,6,26,6,11,16,11,6,26,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

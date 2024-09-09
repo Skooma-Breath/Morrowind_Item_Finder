@@ -1,0 +1,797 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1581612,1061158912]
+  },
+  "NAME": "Dagon Fel, Onmi Hard-mouth's House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [55,50,45,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [44,34,24,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-232794": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "onmi hard-mouth",
+      "DATA": [2.519918918609619,66.9097671508789,30.883880615234375,0,0,4.683186054229736]
+    },
+    "0-232796": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [-155.57699584960938,-228.91900634765625,106.21099853515625,0,0,6.2831854820251465]
+    },
+    "0-232797": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [307.0249938964844,152.14599609375,101.5770034790039,0,0,4.71238899230957]
+    },
+    "0-232800": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [195.05712890625,-115.876953125,153.150390625,0,0,5.417501926422119]
+    },
+    "0-232802": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [248.47802734375,-252.7802734375,60.5908203125,0,0,5.3831868171691895]
+    },
+    "0-232803": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [176.447265625,-266.150146484375,61.720703125,0,0,1.6004670858383179]
+    },
+    "0-232804": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [298.18310546875,-287.456787109375,57.4814453125,0,0,1.2007863521575928]
+    },
+    "0-232805": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [290.8212890625,-278.426513671875,64.48828125,4.4994587898254395,2.4993114471435547,2.1834073066711426]
+    },
+    "0-232806": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [293.5390625,-220.464111328125,50.4580078125,0,0,0]
+    },
+    "0-232807": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [181.5390625,253.5029296875,57.65713119506836,0.10000000149011612,0,4.483187198638916]
+    },
+    "0-232808": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_fclothes3",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [23.35530662536621,-16.788480758666992,47.231346130371094,0,0.04014257341623306,0.6003932356834412]
+    },
+    "0-232809": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [188.52850341796875,259.534423828125,124.35372924804688,0.10000001639127731,0,5.283186435699463]
+    },
+    "0-232810": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [175.72216796875,229.83203125,109.42214965820312,0,0,0.40000003576278687]
+    },
+    "0-232811": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [188.09033203125,236.455078125,107.76203155517578,0,0,0]
+    },
+    "0-232812": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_04",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [167.74951171875,266.5283203125,106.72298431396484,0,0,5.83318567276001]
+    },
+    "0-232813": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [162.41357421875,250.587890625,96.18093872070312,0,0,0]
+    },
+    "0-232817": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [271.1416015625,266.775390625,63.84765625,0,0,1.6004670858383179]
+    },
+    "0-232818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-215.701171875,89.142578125,91.501953125,0,0,4.783186912536621]
+    },
+    "0-232819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-219.001953125,6.68359375,91.5576171875,0,0,3.4831879138946533]
+    },
+    "0-232820": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-230.41943359375,-8.64453125,105.818359375,0,0,0.000000476837158203125]
+    },
+    "0-232821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-219.382080078125,39.3232421875,93.3115234375,0,0,4.783186912536621]
+    },
+    "0-232822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-232.319091796875,18.574462890625,94.873046875,0,0,4.783186912536621]
+    },
+    "0-232823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-215.99169921875,-9.6787109375,91.25,0,0,3.4831883907318115]
+    },
+    "0-232824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-208.666748046875,26.534423828125,95.2666015625,0,0,2.499999761581421]
+    },
+    "0-232825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "XSCL": 0.690000057220459,
+      "DATA": [-247.2450714111328,74.60023498535156,103.46696472167969,0,0,3.4663732051849365]
+    },
+    "0-232827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [166.70530700683594,-187.29159545898438,266.6497802734375,0,0,5.283186435699463]
+    },
+    "0-232829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_glass_yellow_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [139.560546875,286.3369140625,155.7470703125,0,0,3.1000008583068848]
+    },
+    "0-232830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [116.66943359375,289.798828125,173.5810546875,0,0,3.1000008583068848]
+    },
+    "0-232831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_empty",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [260.4912109375,-24.6865234375,62.900390625,0,0,4.9831862449646]
+    },
+    "0-232832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_moonsugar",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-237.01171875,187.22265625,56.3251953125,0,0,4.683187007904053]
+    },
+    "0-232833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-230.61474609375,256.0869140625,60.40625,0,0,0]
+    },
+    "0-232834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-155.530029296875,264.2724609375,57.9580078125,0,0,4.483187198638916]
+    },
+    "0-232835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-187.849365234375,257.5439453125,123.54325866699219,0,6.230825424194336,0]
+    },
+    "0-232836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-241.10336303710938,241.396240234375,115.6357421875,0,0,5.783186435699463]
+    },
+    "0-232837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-173.396728515625,190.8720703125,89.3349609375,0,0,0]
+    },
+    "0-232840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [-217.73741149902344,-180.44662475585938,215.6897735595703,0,0,1.9831866025924683]
+    },
+    "0-232843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-249.70654296875,-196.697509765625,64.5,0,0,0]
+    },
+    "0-232844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-250.9794921875,-135.8037109375,37.125,0,0,4.8831868171691895]
+    },
+    "0-232845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-243.15771484375,-95.228515625,44.83984375,0,5.983185768127441,5.58318567276001]
+    },
+    "0-232846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [271.41845703125,-174.921142578125,88.701171875,0,0,0]
+    },
+    "0-232847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [216.48583984375,-190.634033203125,33.74609375,0,0,5.08318567276001]
+    },
+    "0-232848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [268.87060546875,-176.698486328125,121.623046875,0,0,0]
+    },
+    "0-232850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-249.818359375,199.6298828125,103.994140625,0,0,0]
+    },
+    "0-232851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-244.77978515625,168.880859375,106.2001953125,0,0,0]
+    },
+    "0-232852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-229.7353515625,181.951171875,106.2001953125,0,0,0]
+    },
+    "0-232853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_drum_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [57.73291015625,-205.035888671875,41.1650390625,0,0,0]
+    },
+    "0-232854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_drum_02",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [72.0322265625,-225.015869140625,37.025390625,0,0,0]
+    },
+    "0-232855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "XSCL": 1.290000081062317,
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [8.92249584197998,-7.2439117431640625,62.391422271728516,0,0,3.6000001430511475]
+    },
+    "0-232856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_lute_01",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [298.42498779296875,236.906005859375,59.33300018310547,5.497786998748779,0.7853981852531433,0.7853981852531433]
+    },
+    "0-232861": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "XSCL": 0.690000057220459,
+      "ANAM": "onmi hard-mouth",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [27.13427734375,-193.774658203125,72.1044921875,0,0,0]
+    },
+    "0-232795": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_01",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-232798": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_firepit",
+      "DATA": [-35.704345703125,211.86328125,98.77232360839844,0,0,6.083185195922852]
+    },
+    "0-232799": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [301.14599609375,29.582275390625,120.703125,5.683382511138916,0.1991640031337738,1.9823260307312012]
+    },
+    "0-232801": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [78.099609375,-251.001953125,127,0.44795912504196167,5.883505344390869,4.783186435699463]
+    },
+    "0-232814": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [-235.53759765625,53.55078125,57.0087890625,0,0,1.600001335144043]
+    },
+    "0-232815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-173.471923828125,72.494140625,47.892452239990234,0,0,1.3831888437271118]
+    },
+    "0-232816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [129.337890625,200.7197265625,50.33333206176758,0,0,1.1831860542297363]
+    },
+    "0-232826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [145.625,-160.156494140625,274.1265869140625,0,6.008185386657715,5.6831865310668945]
+    },
+    "0-232828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [118.50859069824219,294.539794921875,146.294921875,0,0,6.241591930389404]
+    },
+    "0-232838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [-190.470703125,-47.661865234375,232.611328125,0,0,2.6831858158111572]
+    },
+    "0-232839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-216.8554229736328,-176.5847625732422,236.3667755126953,0,0,5.383186340332031]
+    },
+    "0-232841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-157.4390106201172,-87.12430572509766,183.95553588867188,0.6000000238418579,5.883185863494873,0.10000000149011612]
+    },
+    "0-232842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [82.556640625,249.736328125,56.4521484375,0,4.8831868171691895,5.883185863494873]
+    },
+    "0-232849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [-167.3498992919922,-91.66922760009766,221.55514526367188,0,0,1.170796275138855]
+    },
+    "0-232857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-235.245849609375,117.8251953125,108.6025390625,0,0,0]
+    },
+    "0-232858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "XSCL": 0.8600000143051147,
+      "DATA": [-24.380084991455078,-232.91835021972656,247.7900390625,0,0,0]
+    },
+    "0-232859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_cushion_square_02",
+      "XSCL": 0.690000057220459,
+      "DATA": [-28.9853515625,-192.785888671875,27.6708984375,0,0,0]
+    },
+    "0-232860": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_cushion_square_03",
+      "XSCL": 0.64000004529953,
+      "DATA": [-46.1162109375,-167.718505859375,35.2431640625,0.3000003695487976,0.10000000149011612,5.983185768127441]
+    },
+    "0-291255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-29.79590606689453,556.281982421875,134.92626953125,0,0,4.71238899230957]
+    },
+    "0-441588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_05_128_S",
+      "DATA": [-227.66908264160156,89.68169403076172,202.0589599609375,0,0,2.8831865787506104]
+    },
+    "0-441589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-224.09567260742188,91.39141082763672,222.7359619140625,0,0,0]
+    },
+    "0-441590": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-50.128700256347656,197.17599487304688,48.91335678100586,6.099998474121094,1,2.700000524520874]
+    },
+    "0-441591": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-44.91167449951172,199.9654541015625,41.48189926147461,0,0,0]
+    },
+    "0-441592": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_03",
+      "DATA": [-37.698394775390625,205.46572875976562,47.9790153503418,0,0,0]
+    },
+    "0-441593": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_02",
+      "DATA": [-28.53367042541504,217.47174072265625,41.70038986206055,0.10000000894069672,0,0]
+    },
+    "0-441594": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-23.768007278442383,205.26922607421875,51.57954788208008,0.10000000149011612,0,6.083186149597168]
+    },
+    "0-441595": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-31.030851364135742,202.8480224609375,54.63302993774414,3.0999996662139893,0,0.10000047832727432]
+    },
+    "0-441596": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-13.121746063232422,199.55661010742188,42.33234786987305,0.10000000149011612,0,3.3831865787506104]
+    },
+    "0-441597": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Fire_NoSmoke_128",
+      "DATA": [-37.56990051269531,205.39309692382812,19.886207580566406,0,0,0]
+    },
+    "0-483361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bookskill_illusion5",
+      "ANAM": "onmi hard-mouth",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-103.64702606201172,-190.2471466064453,29.327369689941406,0,0,4.543187141418457]
+    }
+  }
+}

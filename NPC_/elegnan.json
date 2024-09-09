@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Wood Elf",
+  "CNAM": "Clothier",
+  "ANAM": "",
+  "BNAM": "b_n_wood elf_f_head_04",
+  "KNAM": "b_n_wood elf_f_hair_02",
+  "MODL": null,
+  "FNAM": "Elegnan",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 4
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "exquisite_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_ring_02"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shoes_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 62,
+    "magicka": 120,
+    "fatigue": 185,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [43,60,35,73,58,34,53,40],
+    "skills": [21,6,6,6,21,6,6,6,6,6,6,6,6,6,6,6,11,21,44,54,49,39,14,29,18,44,29]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

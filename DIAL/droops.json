@@ -1,0 +1,299 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2188411447268774056": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "32759257106118391",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assantushansar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have cured me, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TT_MinistryHeathen",
+          "__TV": 50
+        }
+      ]
+    },
+    "32759257106118391": {
+      "flag": 0,
+      "PNAM": "2188411447268774056",
+      "NNAM": "786781362014924543",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assantushansar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then go away.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "786781362014924543": {
+      "flag": 0,
+      "PNAM": "32759257106118391",
+      "NNAM": "266388080399910889",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assantushansar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you a potion or will you cure me with a spell?",
+      "BNAM": "Choice \"I shall use a spell.\", 3, \"I offer you this potion.\", 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "266388080399910889": {
+      "flag": 0,
+      "PNAM": "786781362014924543",
+      "NNAM": "3222975013028217360",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assantushansar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go ahead.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "3222975013028217360": {
+      "flag": 0,
+      "PNAM": "266388080399910889",
+      "NNAM": "93317260727926727",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assantushansar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks. <drinks>",
+      "BNAM": "; script takes care of the journal entry mod\r\nPlayer->RemoveItem \"p_cure_common_s\" 1\r\nRemoveSpell \"droops\"\r\nModdisposition 20\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "p_cure_common_s",
+          "__TV": 1
+        }
+      ]
+    },
+    "93317260727926727": {
+      "flag": 0,
+      "PNAM": "3222975013028217360",
+      "NNAM": "703250352059519093",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assantushansar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What potion? You are mocking me.",
+      "BNAM": "ModDisposition -10\r\nModFight 10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "703250352059519093": {
+      "flag": 0,
+      "PNAM": "93317260727926727",
+      "NNAM": "177318650666414432",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "assantushansar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, but I am outcast. The Wise Women will not cure me.",
+      "BNAM": "Choice \"Not my problem.\", 1, \"May I try to cure you?\", 2",
+      "SCVR": null
+    },
+    "177318650666414432": {
+      "flag": 0,
+      "PNAM": "703250352059519093",
+      "NNAM": "14648475210684080",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "maela kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "14648475210684080": {
+      "flag": 0,
+      "PNAM": "177318650666414432",
+      "NNAM": "2582821838293230459",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "artisa arelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    },
+    "2582821838293230459": {
+      "flag": 0,
+      "PNAM": "14648475210684080",
+      "NNAM": "5228245061319112791",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tendris vedran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    },
+    "5228245061319112791": {
+      "flag": 0,
+      "PNAM": "2582821838293230459",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ygfa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.",
+      "BNAM": ";healers; apothecaries; pilgrims; wise woman;",
+      "SCVR": null
+    }
+  }
+}

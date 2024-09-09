@@ -1,0 +1,550 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3157537,1061997773]
+  },
+  "NAME": "Skaal Village, Rigmor's Hut",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,40,0],
+    "sunlight": [80,60,40,0],
+    "fog_color": [33,46,48,0],
+    "fog_density": 0.800000011920929
+  },
+  "FRMR": {
+    "2-11550": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "rigmor halfhand",
+      "DATA": [-76.27350616455078,-0.09880954027175903,-220.0947265625,0,0,5.4831862449646]
+    },
+    "2-11551": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_door",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [60.89072036743164,260.1298828125,-144,0,0,3.1415927410125732]
+    },
+    "2-11552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_doorjam",
+      "DATA": [81.39605712890625,268.79876708984375,-121.0396728515625,0,0,3.1415927410125732]
+    },
+    "2-11553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-572.8403930664062,-359.2883605957031,-107.48417663574219,0,0,0]
+    },
+    "2-11555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [300,-240,32,0,0,3.9269907474517822]
+    },
+    "2-11556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [288,-212,-224,0,0,5.497786998748779]
+    },
+    "2-11558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_128",
+      "DATA": [-40.53239059448242,278.8634338378906,-115.2496337890625,0,0,4.297788143157959]
+    },
+    "2-11559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_16_64",
+      "ANAM": "rigmor halfhand",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [355.3346862792969,146.88560485839844,-127.24739837646484,0,0,5.083186626434326]
+    },
+    "2-11560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_longhouse_small",
+      "DATA": [6.993762969970703,-5.026045799255371,0,0,0,0]
+    },
+    "2-11761": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_cauldron_02",
+      "XSCL": 0.6200000047683716,
+      "DATA": [188.8191680908203,-188.94482421875,-218.64561462402344,0,0,0.9999991655349731]
+    },
+    "2-11762": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [-341.67340087890625,86.89032745361328,-61.360740661621094,0,0,4.71238899230957]
+    },
+    "2-11764": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [121.33995056152344,-214.2947235107422,-217.31289672851562,0,0,6.183185577392578]
+    },
+    "2-11765": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_01",
+      "DATA": [-288.8511962890625,210.84471130371094,-214.1061248779297,0,0,4.083187103271484]
+    },
+    "2-11766": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "XSCL": 0.8800000548362732,
+      "DATA": [93.97586822509766,-233.57606506347656,31.779523849487305,0,0,4.083187103271484]
+    },
+    "2-11767": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Rope_06",
+      "XSCL": 0.6200000047683716,
+      "DATA": [-264.98419189453125,-238.9990692138672,45.82442092895508,0,0,2.983187198638916]
+    },
+    "2-11768": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_05",
+      "XSCL": 0.8200000524520874,
+      "DATA": [-89.07002258300781,240.3318328857422,44.49552917480469,0.20000001788139343,6.183185577392578,5.283187389373779]
+    },
+    "2-11769": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-265.8084716796875,231.7073974609375,-24.04642105102539,1.1831867694854736,0.2168123424053192,0.09999942779541016]
+    },
+    "2-11770": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [112.47716522216797,-220.6068572998047,15.14095687866211,0,0,5.883185863494873]
+    },
+    "2-11771": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-242.76126098632812,238.45742797851562,45.49138259887695,0,0,1.3831862211227417]
+    },
+    "2-11772": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [195.05210876464844,192.36305236816406,39.65386962890625,0,0,3.6831865310668945]
+    },
+    "2-11773": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_04_64",
+      "XSCL": 0.9800000190734863,
+      "DATA": [-286.8014221191406,211.6193084716797,-169.5731201171875,0,0,2.8831868171691895]
+    },
+    "2-11774": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-332.74273681640625,-317.7630920410156,-107.07746887207031,0,0,4.083187103271484]
+    },
+    "2-11775": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-270.1332702636719,235.83038330078125,17.491382598876953,0,0,5.883185863494873]
+    },
+    "2-11777": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [235.14044189453125,202.3028106689453,-217.95303344726562,0,0,3.199998617172241]
+    },
+    "2-11779": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-307.3157958984375,-235.10548400878906,-220,0,0,0.6831849813461304]
+    },
+    "2-11780": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_broom_01",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-296.99053955078125,-266.7881774902344,-184.79632568359375,6.08318567276001,0.20000001788139343,4.566371917724609]
+    },
+    "2-11781": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.2400000095367432,
+      "DATA": [-226.31895446777344,240.42315673828125,13.491381645202637,0,0,2.883185863494873]
+    },
+    "2-13792": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_03_128",
+      "DATA": [2.300096273422241,26.42417335510254,-21.623397827148438,0,0,0]
+    },
+    "2-13793": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_16_64",
+      "ANAM": "rigmor halfhand",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [264.23101806640625,208.0823516845703,-177.7018585205078,0,0,5.4831862449646]
+    },
+    "2-13794": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_16_64",
+      "ANAM": "rigmor halfhand",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [357.2840576171875,164.88558959960938,-127.24739837646484,0,0,5.4831862449646]
+    },
+    "2-13795": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_04",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-213.45169067382812,87.08399963378906,-204.51185607910156,0,0,3.099998950958252]
+    },
+    "2-13796": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Chest_11_clothing",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-199.44224548339844,229.0454559326172,-220.05076599121094,0,0,0.10000000149011612]
+    },
+    "2-13797": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BookSkill_Acrobatics2",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-198.3679962158203,230.28512573242188,-201.24710083007812,0,0,0]
+    },
+    "2-13798": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [279.7085266113281,-27.116788864135742,-217.95303344726562,0,0,1.5999993085861206]
+    },
+    "2-13800": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [200.535888671875,220.7074737548828,-171.80235290527344,0,0,0]
+    },
+    "2-13801": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [217.4775390625,212.85165405273438,-180.6578369140625,0,0,0]
+    },
+    "2-13802": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_04",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [233.26426696777344,185.0155487060547,-180.54981994628906,0,0,0]
+    },
+    "2-13803": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_nord_mead",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [283.392822265625,-89.67224884033203,-199.3893585205078,0,0,0]
+    },
+    "2-19095": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window_closed",
+      "DATA": [-107.2044677734375,295.2673645019531,-43.67817306518555,0,0,3.1415927410125732]
+    },
+    "2-19096": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window_closed",
+      "DATA": [266.86065673828125,292.845947265625,-41.13633728027344,0,0,3.1415927410125732]
+    },
+    "2-19097": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [9.224773406982422,-232.066162109375,-226.74974060058594,4.683185577392578,1.9000002145767212,1.6000003814697266]
+    },
+    "2-19098": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_gold_50",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-274.6061706542969,-33.74309539794922,-218.56028747558594,0,0,4.600000381469727]
+    },
+    "2-19099": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Wool02_pants",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-282.58026123046875,-59.40458679199219,-201.09649658203125,0,0,4.58318567276001]
+    },
+    "2-19100": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Wool01_shirt",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-272.8150939941406,-31.969106674194336,-202.71881103515625,0,0,0]
+    },
+    "2-19101": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fortify_health_q",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-280.8639221191406,48.8507194519043,-231.21189880371094,0,1.500000238418579,0]
+    },
+    "2-25863": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.5700000524520874,
+      "DATA": [184.00875854492188,-17.169315338134766,-230.969970703125,0,0,2.6000006198883057]
+    },
+    "2-25864": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.5700000524520874,
+      "DATA": [-181.61318969726562,-70.29859924316406,-230.67437744140625,0,0,0.00000011920928955078125]
+    },
+    "2-25865": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.4100000858306885,
+      "DATA": [-83.11908721923828,-270.4958801269531,-49.78216552734375,1.5707963705062866,0,0]
+    },
+    "2-25866": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-32.234474182128906,-287.35498046875,14.091885566711426,1.6000001430511475,3.183185577392578,6.26858377456665]
+    },
+    "2-25867": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-120.86071014404297,-279.5562438964844,13.23786735534668,1.6000001430511475,3.183185577392578,6.26858377456665]
+    },
+    "2-25868": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [149.82177734375,-288.0207824707031,10.853970527648926,1.6000001430511475,3.183185577392578,6.26858377456665]
+    },
+    "2-25869": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.4100000858306885,
+      "DATA": [98.9371337890625,-271.1617126464844,-53.02008056640625,1.5707963705062866,0,0]
+    },
+    "2-25870": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [61.19551467895508,-280.2220458984375,9.99995231628418,1.6000001430511475,3.183185577392578,6.26858377456665]
+    },
+    "2-25871": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [70.73755645751953,-266.4932556152344,-207.76344299316406,0,0,1.2000000476837158]
+    },
+    "2-25872": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [36.98970031738281,-268.0538635253906,-207.76344299316406,0,0,1.5000001192092896]
+    },
+    "2-25873": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "rigmor halfhand",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [49.864105224609375,-230.9185791015625,-226.74974060058594,4.683185577392578,3.0999996662139893,1.5000003576278687]
+    }
+  }
+}

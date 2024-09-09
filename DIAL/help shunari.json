@@ -1,0 +1,266 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "7931232901996815422": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2629646727342806",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%PCName is wise and good, to have helped poor, sick Shunari.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 110
+        }
+      ]
+    },
+    "2629646727342806": {
+      "flag": 0,
+      "PNAM": "7931232901996815422",
+      "NNAM": "1477522018224665813",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good, good. Shunari is so weak, and needs curing. Use your spell, %PCName, and then Shunari will help.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1477522018224665813": {
+      "flag": 0,
+      "PNAM": "2629646727342806",
+      "NNAM": "28713313641746727811",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No? Why does %PCName not help Shunari? Once Shunari is better, she can help %PCName.",
+      "BNAM": "moddisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "28713313641746727811": {
+      "flag": 0,
+      "PNAM": "1477522018224665813",
+      "NNAM": "104727280798029011",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Is %PCName going to help now? Cure Shunari, and then Shunari will help %PCName in return.",
+      "BNAM": "Choice: \"I will cure you now.\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 105
+        }
+      ]
+    },
+    "104727280798029011": {
+      "flag": 0,
+      "PNAM": "28713313641746727811",
+      "NNAM": "902622966480916085",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Shunari Eye-Fly",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, yes, %PCName helps now! Shunari saw %PCName go into tomb under temple. When %PCName left, Shunari went in to see if treasure was left. And then... Shunari will not say more. She is sick, and needs help. %PCName will cure her of bad disease, and then Shunari will tell more. Hurry, hurry, before poor Shunari dies! Meet Shunari in Temple Gardens with spell or scroll; Shunari does not trust potions that could be poison. Go see Nerile Andaren. She knows Shunari; she will help.",
+      "BNAM": "Journal MS_CrimsonPlague 100",
+      "SCVR": null
+    },
+    "902622966480916085": {
+      "flag": 0,
+      "PNAM": "104727280798029011",
+      "NNAM": "231855751244098981",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "She may not be the most lawful of Mournhold's citizens, but she often has valuable information. I do my best not to judge her actions. I'm glad you've been able to help her, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 105
+        }
+      ]
+    },
+    "231855751244098981": {
+      "flag": 0,
+      "PNAM": "902622966480916085",
+      "NNAM": "3005229102982111946",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you been able to aid Shunari? If she has information, you must make sure she is safe. Without her, we may never find out what's happened. I do hope she's all right.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 105
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Shunari Eye-Fly",
+          "__TV": 1
+        }
+      ]
+    },
+    "3005229102982111946": {
+      "flag": 0,
+      "PNAM": "231855751244098981",
+      "NNAM": "277526556427025368",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, attend to her needs as soon as possible. She may have information that will benefit us.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_CrimsonPlague",
+          "__TV": 105
+        }
+      ]
+    },
+    "277526556427025368": {
+      "flag": 0,
+      "PNAM": "3005229102982111946",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Nerile Andaren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Shunari? Yes, I know her. But keep your voice down. The guards have been looking for her. She's quite the accomplished thief, it seems. Here, take this scroll. If she needs curing, she won't have anything to do with potions. She thinks they're all poison, or at least they could be. If you have a spell you can use, that will work too. I believe Galsa offers something that might work. Go quickly, %PCName. We need all the information we can get!",
+      "BNAM": "player->additem \"sc_chridittepanacea\" 1\r\nJournal MS_CrimsonPlague 105",
+      "SCVR": null
+    }
+  }
+}

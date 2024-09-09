@@ -1,0 +1,186 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2495197041127214592": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "7984216862523425252",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galsa gindu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Indarys Manor will have more settlers soon enough.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 270
+        }
+      ]
+    },
+    "7984216862523425252": {
+      "flag": 0,
+      "PNAM": "2495197041127214592",
+      "NNAM": "27792235692012361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galsa gindu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So, Hetman Guls is satisfied. I will give the orders to begin the last stage of your stronghold.",
+      "BNAM": "Journal HR_Stronghold 270\r\nStartScript Strong_Build3_R\r\nPlayer->ModReputation 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 250
+        }
+      ]
+    },
+    "27792235692012361": {
+      "flag": 0,
+      "PNAM": "7984216862523425252",
+      "NNAM": "1770530849447717108",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "galsa gindu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "So, Hetman Guls believes there should be more women there. I am inclined to agree with him. A stronghold cannot grow and prosper with so few women there. I am spoken for, of course, but if the men at Indarys Manor need wives, there are a few here in town.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 220
+        }
+      ]
+    },
+    "1770530849447717108": {
+      "flag": 0,
+      "PNAM": "27792235692012361",
+      "NNAM": "850775252952223238",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "galsa gindu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Yes, speak with Hetman Guls at your stronghold of Indarys Manor. He can tell you of anything troubling your settlers.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 200
+        }
+      ]
+    },
+    "850775252952223238": {
+      "flag": 0,
+      "PNAM": "1770530849447717108",
+      "NNAM": "22013240734418870",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "viras guls",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, you have found wives for us. Now the settlement around Indarys Manor will grow and prosper.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 250
+        }
+      ]
+    },
+    "22013240734418870": {
+      "flag": 0,
+      "PNAM": "850775252952223238",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "viras guls",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We are happy here, but the town would prosper if there were more women. Most men here are single and need wives.",
+      "BNAM": "Journal HR_Stronghold 220",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Stronghold",
+          "__TV": 200
+        }
+      ]
+    }
+  }
+}

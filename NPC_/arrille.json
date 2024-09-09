@@ -1,0 +1,134 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_high elf_m_head_03",
+  "KNAM": "b_n_high elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Arrille",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 16383
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scrib_jerky_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_shalk_resin_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_corkbulb_root_01"
+    },
+    {
+      "count": -2,
+      "name": "sc_drathiswinterguest"
+    },
+    {
+      "count": -2,
+      "name": "sc_almsiviintervention"
+    },
+    {
+      "count": -2,
+      "name": "sc_heartwise"
+    },
+    {
+      "count": -2,
+      "name": "sc_ondusisunhinging"
+    },
+    {
+      "count": -2,
+      "name": "sc_summonskeletalservant"
+    },
+    {
+      "count": -2,
+      "name": "sc_vigor"
+    },
+    {
+      "count": -2,
+      "name": "sc_vitality"
+    },
+    {
+      "count": -2,
+      "name": "sc_argentglow"
+    },
+    {
+      "count": -2,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": -2,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -2,
+      "name": "Potion_Cyro_Whiskey_01"
+    },
+    {
+      "count": -2,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -2,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": 1,
+      "name": "key_arrile"
+    }
+  ],
+  "NPCS": [
+    "absorb fatigue",
+    "spark",
+    "jack of trades",
+    "father's hand",
+    "resist magicka",
+    "hearth heal",
+    "fireball",
+    "frostbite"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 141,
+    "magicka": 42,
+    "fatigue": 230,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 800,
+    "attributes": [66,84,54,56,56,54,83,40],
+    "skills": [14,52,30,14,38,38,14,14,14,16,16,12,12,12,6,45,16,50,45,6,6,30,6,6,20,45,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

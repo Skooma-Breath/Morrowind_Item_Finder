@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 574,
+    "local_var_size": 37
+  },
+  "SCTX": "Begin MirisaFollow\r\n\r\nshort noLore\r\nshort followNow\r\nshort distanceCheck\r\nfloat timer\r\n;global NPCVoiceDistance\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\nif ( OnDeath == 1 ) \r\n\tif ( GetJournalIndex BM_Missionary >= 10 )\r\n\t\tif ( GetJournalIndex BM_Missionary < 100 )\r\n\t\t\tJournal BM_Missionary 120\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex BM_Missionary = 100 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex \"BM_Missionary\" < 60 )\r\n\tReturn\r\nendif\r\n \r\n\r\nif ( GetHealth <= 0 )\r\n\treturn\r\nendif\r\n\r\nif ( GetCurrentAiPackage == 3 )\r\n;if follow is the current package, set followNow and continue...\r\n\r\n\tset followNow to 1\r\n\tSetHello 0\r\n\r\n\tif ( timer < 2 )\r\n\t\tset timer to ( timer + GetSecondsPassed )\r\n\t\treturn\r\n\tendif\r\n\r\n\tif ( GetPCCell \"Fort Frostmoth, Imperial Cult Shrine\" == 1 )\r\n\t\tJournal BM_Missionary 100\r\n\t\tset followNow to 0\r\n\t\tAiWander 256 0 0 40 20 20 0 0 0 0 0 0\r\n\t\tSay \"Vo\\R\\F\\Flw_RF006.mp3\" \"Thank you.\"\r\n\t\tSetHello 30\r\n\tendif\r\n\r\n\tif ( GetDistance Player < NPCVoiceDistance )\r\n\t\tif ( GetDistance Player < 500 )\r\n\t\t\tset distanceCheck to 0\r\n\t\tendif\r\n\t\tset timer to 0\r\n\t\treturn\r\n\tendif\r\n\r\n\tif ( distanceCheck == 0 )\r\n\t\tSay \"Vo\\R\\F\\Flw_RF004.mp3\" \"Wait for me!\"\r\n\t\tset distanceCheck to 1\r\n\tendif\r\n\r\nelse\r\n\t;if follow is NOT the current package, make sure followNow is zero\r\n\tset followNow to 0\r\nendif\r\n\r\nEnd MirisaFollow\r\n",
+  "SCVR": [
+    "noLore",
+    "followNow",
+    "distanceCheck",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,5,9,32,88,240,16,32,61,61,32,49,6,1,3,26,32,88,205,16,32,100,13,66,77,95,77,105,115,115,105,111,110,97,114,121,32,62,61,32,49,48,6,1,1,26,32,88,205,16,32,100,13,66,77,95,77,105,115,115,105,111,110,97,114,121,32,60,32,49,48,48,204,16,13,66,77,95,77,105,115,115,105,111,110,97,114,121,120,0,255,255,9,1,9,1,9,1,6,1,1,26,32,88,205,16,32,100,13,66,77,95,77,105,115,115,105,111,110,97,114,121,32,61,32,49,48,48,36,1,9,1,6,1,1,25,32,88,205,16,32,100,13,66,77,95,77,105,115,115,105,111,110,97,114,121,32,60,32,54,48,36,1,9,1,6,1,1,9,32,88,140,16,32,60,61,32,48,36,1,9,1,6,1,24,9,32,88,250,16,32,61,61,32,51,5,1,115,2,0,2,32,49,9,17,0,0,0,0,6,1,2,8,32,102,1,0,32,60,32,50,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,36,1,9,1,6,1,5,48,32,88,18,17,32,99,36,70,111,114,116,32,70,114,111,115,116,109,111,116,104,44,32,73,109,112,101,114,105,97,108,32,67,117,108,116,32,83,104,114,105,110,101,32,61,61,32,49,204,16,13,66,77,95,77,105,115,115,105,111,110,97,114,121,100,0,255,255,5,1,115,2,0,2,32,48,249,16,0,0,128,67,0,0,0,0,0,0,0,0,8,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,27,17,20,86,111,92,82,92,70,92,70,108,119,95,82,70,48,48,54,46,109,112,51,10,0,84,104,97,110,107,32,121,111,117,46,9,17,0,0,240,65,9,1,6,1,5,35,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,71,16,78,80,67,86,111,105,99,101,68,105,115,116,97,110,99,101,0,6,1,1,19,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,53,48,48,5,1,115,3,0,2,32,48,9,1,5,1,102,1,0,2,32,48,36,1,9,1,6,1,2,9,32,115,3,0,32,61,61,32,48,27,17,20,86,111,92,82,92,70,92,70,108,119,95,82,70,48,48,52,46,109,112,51,12,0,87,97,105,116,32,102,111,114,32,109,101,33,5,1,115,3,0,2,32,49,9,1,7,1,1,5,1,115,2,0,2,32,48,9,1,1,1]
+}

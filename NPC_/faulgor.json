@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Agent",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_wood elf_m_head_04",
+  "KNAM": "b_n_wood elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Faulgor",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "dire flameblade"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_hh"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boiled_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "health": 113,
+    "magicka": 116,
+    "fatigue": 242,
+    "disposition": 50,
+    "reputation": 12,
+    "rank": 5,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,58,43,100,80,40,82,40],
+    "skills": [31,7,7,7,7,7,7,7,7,7,7,7,31,31,7,7,12,31,20,69,64,69,59,35,10,59,20]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

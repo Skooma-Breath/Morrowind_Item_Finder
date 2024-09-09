@@ -1,0 +1,900 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 3,
+    "grid": [2635046,1065353216]
+  },
+  "NAME": "Ald Daedroth, Left Wing",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [25,25,30,0],
+    "sunlight": [17,28,28,0],
+    "fog_color": [38,53,40,0],
+    "fog_density": 1
+  },
+  "FRMR": {
+    "0-298829": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bovkinna",
+      "DATA": [-666.696533203125,560.4159545898438,241.8207550048828,0,0,1.600000262260437]
+    },
+    "0-298830": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "clendil",
+      "DATA": [-622.7137451171875,500.5228271484375,248.65293884277344,0,0,1.4831862449645996]
+    },
+    "0-298831": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "salvas areleth",
+      "DATA": [40.07307434082031,478.8953857421875,231.59271240234375,0,0,4.6831865310668945]
+    },
+    "0-298833": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "daral thireloth",
+      "DATA": [28.518291473388672,371.41485595703125,231.59271240234375,0,0,4.8831868171691895]
+    },
+    "0-298834": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_door_load_oval",
+      "DATA": [2048,-1080,-32,0,0,3.1415927410125732]
+    },
+    "0-298835": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_door_load_oval",
+      "DATA": [-256,-824,472,0,0,3.1415927410125732]
+    },
+    "0-298836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "DATA": [1,601,224,0,0,0]
+    },
+    "0-298838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_endcap_01",
+      "DATA": [2048,-768,-32,0,0,0]
+    },
+    "0-298839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_3way_01",
+      "DATA": [0,512,224,0,0,4.71238899230957]
+    },
+    "0-298840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_01",
+      "DATA": [-512,512,224,0,0,4.71238899230957]
+    },
+    "0-298841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_01",
+      "DATA": [512,512,224,0,0,4.71238899230957]
+    },
+    "0-298842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_entry_01",
+      "DATA": [-1536,256,-32,0,0,3.1415927410125732]
+    },
+    "0-298843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_corner_01",
+      "DATA": [-2560,768,-32,0,0,0]
+    },
+    "0-298844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_side_01",
+      "DATA": [-2048,768,-32,0,0,1.5707963705062866]
+    },
+    "0-298845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_corner_01",
+      "DATA": [-1536,768,-32,0,0,1.5707963705062866]
+    },
+    "0-298846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_ruin_side_01",
+      "DATA": [-2560,256,-32,0,0,0]
+    },
+    "0-298847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_r_corner_01",
+      "DATA": [-2560,-256,-32,0,0,4.71238899230957]
+    },
+    "0-298848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_corner_01",
+      "DATA": [-1536,-256,-32,0,0,3.1415927410125732]
+    },
+    "0-298849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_ruin_side_01",
+      "DATA": [-2048,-256,-32,0,0,4.71238899230957]
+    },
+    "0-298850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "DATA": [-2048,256,-32,0,0,0]
+    },
+    "0-298851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_azura",
+      "DATA": [-2140,268,56,0,0,4.71238899230957]
+    },
+    "0-298852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_ruin_roof_03",
+      "DATA": [-2048,256,-32,0,0,0]
+    },
+    "0-298853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_entry_01",
+      "DATA": [2048,-256,-32,0,0,4.71238899230957]
+    },
+    "0-298854": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_corner_01",
+      "DATA": [2559.99853515625,-256.0029602050781,-32,0,0,3.141592502593994]
+    },
+    "0-298855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_corner_01",
+      "DATA": [1535.9986572265625,-255.99981689453125,-32,0,0,4.7123894691467285]
+    },
+    "0-298856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_ruin_side_01",
+      "DATA": [2560,255.996826171875,-32,0,0,3.141592502593994]
+    },
+    "0-298857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_r_corner_01",
+      "DATA": [2560.0009765625,767.996826171875,-32,0,0,1.570796012878418]
+    },
+    "0-298858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_corner_01",
+      "DATA": [1536.0010986328125,767.99951171875,-32,0,0,0]
+    },
+    "0-298859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_ruin_side_01",
+      "DATA": [2048.00146484375,767.9984130859375,-32,0,0,1.570796012878418]
+    },
+    "0-298860": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "DATA": [2048,256,-32,0,0,3.141592502593994]
+    },
+    "0-298861": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_ruin_roof_03",
+      "DATA": [2048,255.9984130859375,-32,0,0,3.141592502593994]
+    },
+    "0-298862": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_entry_01",
+      "DATA": [1536,256,-32,0,0,0]
+    },
+    "0-298863": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_staircurve1",
+      "DATA": [0,0,480,0,0,3.1415927410125732]
+    },
+    "0-298864": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_staircurve1",
+      "DATA": [1024,256,224,0,0,4.71238899230957]
+    },
+    "0-298865": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_staircurve2",
+      "DATA": [-1024,256,224,0,0,1.5707963705062866]
+    },
+    "0-298866": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_malacath_attack",
+      "DATA": [2112,256,349.06427001953125,0,0,1.5707963705062866]
+    },
+    "0-298867": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_endcap_01",
+      "DATA": [-256,-512,480,0,0,0]
+    },
+    "0-298868": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_doorjamb_load",
+      "DATA": [2048,-968,-32,0,0,3.1415927410125732]
+    },
+    "0-298869": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_doorjamb_load",
+      "DATA": [-256,-728,480,0,0,3.1415927410125732]
+    },
+    "0-298870": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01a",
+      "DATA": [2385.9384765625,-263.55419921875,-32,0,0,3.3495562076568604]
+    },
+    "0-298871": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_03a",
+      "DATA": [2372,568,-8,0,0,4.015927314758301]
+    },
+    "0-298872": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01b",
+      "DATA": [-2271.74853515625,339.9379577636719,-32,0,0,4.366371154785156]
+    },
+    "0-298873": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01c",
+      "DATA": [-2350.295166015625,282.34893798828125,-32,0,0,5.6495561599731445]
+    },
+    "0-298874": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01b",
+      "DATA": [-1528.4453125,719.9481201171875,-32,0,0,1.7991132736206055]
+    },
+    "0-298875": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01a",
+      "DATA": [609.8695068359375,394.89801025390625,224.00006103515625,0,0,2.666370391845703]
+    },
+    "0-298876": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01b",
+      "DATA": [-350.0428771972656,394.8033142089844,224.0001220703125,0,0,0.39911210536956787]
+    },
+    "0-298877": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01b",
+      "DATA": [-1404.440673828125,108.95348358154297,-32,0,0,1.1495559215545654]
+    },
+    "0-298878": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_doorjamb_01",
+      "DATA": [0,256,224,0,0,0]
+    },
+    "0-298879": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_doorjamb_01",
+      "DATA": [2048,-512,0,0,0,0]
+    },
+    "0-298880": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_platform_512_01",
+      "DATA": [2164,252,-32,0,0,0.7853981852531433]
+    },
+    "0-298881": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_platform_stairs",
+      "DATA": [2164,268,40,0,0,2.356194496154785]
+    },
+    "0-298882": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_platform_stairs",
+      "DATA": [2164,260,40,0,0,0.7853981852531433]
+    },
+    "0-298884": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_platform_512_01",
+      "DATA": [-2204,259.99993896484375,-28,0,0,3.9269909858703613]
+    },
+    "0-298885": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_04a",
+      "DATA": [-1816,252,-31.51958465576172,0,0,3.9269909858703613]
+    },
+    "0-298886": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "DATA": [-1816,252,68,0,0,3.9269909858703613]
+    },
+    "0-298887": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_platform_stairs",
+      "DATA": [-2204,244.00006103515625,44,0,0,3.9269909858703613]
+    },
+    "0-298888": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_platform_stairs",
+      "DATA": [-2204,244.00006103515625,44,0,0,5.497786998748779]
+    },
+    "0-298895": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [-2452.92431640625,732.8599243164062,105.6856460571289,0,0,0]
+    },
+    "0-298896": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_censer",
+      "DATA": [-2304.246826171875,507.23846435546875,438.0815124511719,0,0,5.833184719085693]
+    },
+    "0-298897": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_censer",
+      "DATA": [-2292.82177734375,7.341965675354004,438.0815124511719,0,0,5.833184719085693]
+    },
+    "0-354900": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [2859.087646484375,-1078.2314453125,736.6051025390625,0,0,5.483184814453125]
+    },
+    "0-364250": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [-2184,-208,105.6856460571289,0,0,0]
+    },
+    "0-364251": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [1563.4317626953125,803.4588012695312,105.6856460571289,0,0,0]
+    },
+    "0-364252": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [-1548.3895263671875,667.7530517578125,105.6856460571289,0,0,0]
+    },
+    "0-364253": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [-1572.2896728515625,-201.0068817138672,105.6856460571289,0,0,0]
+    },
+    "0-364254": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [1651.593017578125,-140.03369140625,105.6856460571289,0,0,0]
+    },
+    "0-364255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [2445.520263671875,-138.41317749023438,105.6856460571289,0,0,0]
+    },
+    "0-364256": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "blue water ref 256_ripple",
+      "DATA": [2480.7900390625,711.8196411132812,105.6856460571289,0,0,0]
+    },
+    "0-408194": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ruby_01",
+      "DATA": [-1747.2633056640625,233.74705505371094,71.51399993896484,0,0,0]
+    },
+    "0-408196": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ruby_01",
+      "DATA": [-1718.9072265625,264.6296081542969,71.51399993896484,0,0,0.25]
+    },
+    "0-408197": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ruby_01",
+      "DATA": [-1769.009765625,301.9741516113281,71.51399993896484,0,0,0.39968040585517883]
+    },
+    "0-408198": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_ruby_01",
+      "DATA": [-1744.9622802734375,211.10948181152344,71.51399993896484,0,0,6.18318510055542]
+    },
+    "0-408199": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_emerald_01",
+      "DATA": [-1771.2939453125,309.7560119628906,71.51399993896484,0,0,0]
+    },
+    "0-408200": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_emerald_01",
+      "DATA": [-1761.7039794921875,296.7200622558594,71.51429748535156,0,0,0.75]
+    },
+    "0-408201": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_emerald_01",
+      "DATA": [-1756.6925048828125,206.57086181640625,71.51429748535156,0,0,6.133185386657715]
+    },
+    "0-408202": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_emerald_01",
+      "DATA": [-1737.1644287109375,274.89404296875,71.51399993896484,0,0,5.583308219909668]
+    },
+    "0-408203": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_diamond_01",
+      "DATA": [-1742.6102294921875,225.92816162109375,72.45921325683594,0,2.6999998092651367,5.133185386657715]
+    },
+    "0-408204": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_diamond_01",
+      "DATA": [-1772.1771240234375,198.28526306152344,72.30257415771484,0,5.432644844055176,0]
+    },
+    "0-408205": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_diamond_01",
+      "DATA": [-1732.876220703125,267.77276611328125,72.45921325683594,0,0.9500001072883606,0]
+    },
+    "0-408206": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_fire_petal_01",
+      "DATA": [-1727.5888671875,249.283935546875,70.76541137695312,0,0,5.233186721801758]
+    },
+    "0-408207": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_fire_petal_01",
+      "DATA": [-1757.835693359375,212.46743774414062,70.76541137695312,0,0,0.25]
+    },
+    "0-408208": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_fire_petal_01",
+      "DATA": [-1751.90478515625,291.0703125,70.76541137695312,0,0,4.4831862449646]
+    },
+    "0-408209": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_gold_kanet_01",
+      "DATA": [-1769.592529296875,197.53836059570312,70.73766326904297,0,0,5.1831841468811035]
+    },
+    "0-408210": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_gold_kanet_01",
+      "DATA": [-1730.9776611328125,264.7056579589844,70.73766326904297,0,0,5.333184719085693]
+    },
+    "0-408211": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_heather_01",
+      "DATA": [-1748.21240234375,225.49508666992188,70.7178955078125,0,0,4.033185005187988]
+    },
+    "0-408212": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_heather_01",
+      "DATA": [-1783.9521484375,319.2337341308594,71.22067260742188,0,0,3.5831849575042725]
+    },
+    "0-408213": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_stoneflower_petals_01",
+      "DATA": [-1798.48828125,173.1277618408203,70.9540023803711,0,0,1.899139404296875]
+    },
+    "0-408214": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_stoneflower_petals_01",
+      "DATA": [-1733.7386474609375,238.7780303955078,70.95407104492188,0,0,2.049999952316284]
+    },
+    "0-408215": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_stoneflower_petals_01",
+      "DATA": [-1745.87744140625,280.6771240234375,70.95407104492188,0,0,1.350000262260437]
+    },
+    "0-408216": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "shockbite battle axe",
+      "DATA": [1687.9571533203125,247.25955200195312,71.97830200195312,0,0,6.233185291290283]
+    },
+    "0-408217": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "imperial helmet armor_Dae_curse",
+      "DATA": [1701.556640625,293.6521301269531,79.48001861572266,0,0,2.4999992847442627]
+    },
+    "0-408218": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_skull00",
+      "XSCL": 0.9000000357627869,
+      "DATA": [1701.4317626953125,293.760498046875,78.06692504882812,0,0,2.4999992847442627]
+    },
+    "0-408219": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_imp_silverware_plate_01",
+      "DATA": [1704.27880859375,226.4779815673828,71.27660369873047,0,0,0]
+    },
+    "0-408220": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_daedras_heart_01",
+      "DATA": [1702.0673828125,227.64012145996094,70.98506164550781,0,0,0.30000001192092896]
+    },
+    "0-408221": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_025",
+      "DATA": [1694.8890380859375,246.36117553710938,70.27123260498047,0,0,1.600000023841858]
+    },
+    "0-408222": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_100",
+      "DATA": [1728.6219482421875,309.3309326171875,70.09526062011719,0,0,0.7000000476837158]
+    },
+    "0-408224": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fortify_strength_e",
+      "DATA": [1766.315673828125,342.25958251953125,86.42689514160156,0,0,0]
+    },
+    "0-408225": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_fortify_magicka_q",
+      "DATA": [1722.4287109375,212.872314453125,83.13825225830078,0,0,0]
+    },
+    "0-408226": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Daedric_Chant00",
+      "DATA": [-1927.3372802734375,137.89503479003906,412.7742614746094,0,0,0]
+    },
+    "0-408227": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Cave_Drip00",
+      "DATA": [-1153.494873046875,205.27662658691406,314.4265441894531,0,0,0]
+    },
+    "0-408228": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Cave_Drip00",
+      "DATA": [1321.6234130859375,401.0575866699219,199.85630798339844,0,0,0]
+    },
+    "0-408229": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Daedric_Chant00",
+      "DATA": [1793.4039306640625,-15.873316764831543,594.7782592773438,0,0,0]
+    },
+    "0-409647": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Daedric_Chant00",
+      "DATA": [-2129.08740234375,253.509765625,452.6895446777344,0,0,0]
+    },
+    "0-409648": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Daedric_Chant00",
+      "DATA": [2136.52197265625,252.3900604248047,278.2290954589844,0,0,0]
+    },
+    "0-445173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "p_detect_enchantment_s",
+      "DATA": [1734.8929443359375,198.70297241210938,86.42688751220703,0,0,0]
+    },
+    "0-476631": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_Dae_cursed_ruby_01",
+      "DATA": [-1775.335693359375,183.8030548095703,71.51429748535156,0,0,0.7000000476837158]
+    },
+    "0-481167": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "DATA": [1776,260,68,0,0,0.7853981852531433]
+    },
+    "0-481168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_04a",
+      "DATA": [1776,260,-32,0,0,0.7853981852531433]
+    },
+    "0-481169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_256",
+      "DATA": [-150.85269165039062,-304.1891784667969,613.3912963867188,0,0,5.083186149597168]
+    },
+    "0-481170": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_256",
+      "DATA": [-375.8386535644531,-507.62762451171875,613.3912963867188,0,0,0]
+    }
+  }
+}

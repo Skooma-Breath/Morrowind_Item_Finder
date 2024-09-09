@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Orc",
+  "CNAM": "Agent",
+  "ANAM": "",
+  "BNAM": "b_n_orc_f_head_03",
+  "KNAM": "b_n_orc_f_hair01",
+  "MODL": null,
+  "FNAM": "Lambug gra-Lurn",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron war axe"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_b"
+    },
+    {
+      "count": 1,
+      "name": "iron boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 3,
+    "health": 58,
+    "magicka": 84,
+    "fatigue": 197,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [49,42,47,50,34,51,39,40],
+    "skills": [27,15,15,15,5,5,10,5,5,5,5,5,17,17,5,5,5,17,11,38,38,38,38,11,15,38,11]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

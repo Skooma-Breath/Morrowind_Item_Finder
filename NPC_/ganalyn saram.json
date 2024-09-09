@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Alchemist Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_13",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Ganalyn Saram",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": -5,
+      "name": "ingred_corkbulb_root_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_hound_meat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kwama_cuttle_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scales_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_willow_anther_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_bungler's_bane"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_spore_pod"
+    }
+  ],
+  "NPCS": [
+    "frost_shield",
+    "heavy burden touch",
+    "strong feather",
+    "ulms juicedaw's feather",
+    "saintly word",
+    "summon ancestral ghost",
+    "calm creature",
+    "calm humanoid",
+    "reflect",
+    "sotha's mirror",
+    "weak spelldrinker",
+    "vivec's feast",
+    "spell absorption",
+    "dispel",
+    "Swimmer's_Blessing"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 71,
+    "magicka": 152,
+    "fatigue": 193,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 350,
+    "attributes": [50,76,49,49,61,45,37,50],
+    "skills": [23,6,6,6,23,11,6,6,11,47,25,47,15,47,52,15,47,32,6,6,6,11,16,11,10,23,23]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Assassin",
+  "ANAM": "Dark Brotherhood",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_19",
+  "MODL": null,
+  "FNAM": "Dark Brotherhood Assassin",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 100,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "adamantium_shortsword_db"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood gauntlet_R"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood gauntlet_L"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood Boots"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood greaves"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood pauldron_R"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood pauldron_L"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood Cuirass"
+    },
+    {
+      "count": 1,
+      "name": "DarkBrotherhood Helm"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

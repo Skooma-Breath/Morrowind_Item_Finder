@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 247,
+    "local_var_size": 10
+  },
+  "SCTX": "Begin bardoor2Script\r\n\r\nshort door2open\r\n\r\nif ( GetJournalIndex TR_Assassins == 85 )\r\n\tif ( OnActivate == 1 )\r\n\t\tPlaySound \"LockedDoor\"\r\n\t\tMessageBox \"This door has been magically sealed, and is impossible to open.\"\r\n\t\treturn\r\n\tendif\r\nendif\r\n\r\nif ( OnActivate == 1 )\r\n\tif ( door2open == 0 )\r\n\t\tset door2open to 1\r\n\t\tset \"active_assassin_unique\".door2check to 1\r\n\telse\r\n\t\tset door2open to 0\r\n\t\tset \"active_assassin_unique\".door2check to 0\r\n\tendif\t\r\n\tActivate\r\nendif\r\n\t\r\n\r\n\r\nEnd bardoor2Script",
+  "SCVR": [
+    "door2open"
+  ],
+  "SCDT": [6,1,5,25,32,88,205,16,32,100,12,84,82,95,65,115,115,97,115,115,105,110,115,32,61,61,32,56,53,6,1,3,9,32,88,24,16,32,61,61,32,49,2,16,10,76,111,99,107,101,100,68,111,111,114,0,16,63,0,84,104,105,115,32,100,111,111,114,32,104,97,115,32,98,101,101,110,32,109,97,103,105,99,97,108,108,121,32,115,101,97,108,101,100,44,32,97,110,100,32,105,115,32,105,109,112,111,115,115,105,98,108,101,32,116,111,32,111,112,101,110,46,0,0,36,1,9,1,9,1,6,1,8,9,32,88,24,16,32,61,61,32,49,6,1,2,9,32,115,1,0,32,61,61,32,48,5,1,115,1,0,2,32,49,5,1,114,22,97,99,116,105,118,101,95,97,115,115,97,115,115,105,110,95,117,110,105,113,117,101,115,4,0,2,32,49,7,1,2,5,1,115,1,0,2,32,48,5,1,114,22,97,99,116,105,118,101,95,97,115,115,97,115,115,105,110,95,117,110,105,113,117,101,115,4,0,2,32,48,9,1,23,16,9,1,1,1]
+}

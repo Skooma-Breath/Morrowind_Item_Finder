@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 87,
+    "local_var_size": 9
+  },
+  "SCTX": "Begin heartfangChangeScript\r\n\r\nshort fangtalk\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( fangtalk == 0 )\r\n\treturn\r\nendif\r\n\r\nif ( fangtalk == 1 )\r\n\tif ( GetDistance Player <= 512 )\r\n\t\tset fangtalk to 2\r\n\t\tForceGreeting\r\n\tendif\r\nendif\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nend hearfangChangeScript",
+  "SCVR": [
+    "fangtalk"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,115,1,0,32,61,61,32,48,36,1,9,1,6,1,4,9,32,115,1,0,32,61,61,32,49,6,1,2,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,53,49,50,5,1,115,1,0,2,32,50,232,16,9,1,9,1,1,1]
+}

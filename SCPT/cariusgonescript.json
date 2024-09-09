@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 232,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin cariusgoneScript\r\n\r\nshort doOnce\r\n\r\nif ( doOnce == 0 )\r\n\tif ( GetJournalIndex BM_Smugglers >= 93 )\r\n\t\tif ( GetJournalIndex BM_Smugglers < 100 )\r\n\t\t\tif ( GetDistance Player <=1028 )\r\n\t\t\t\tJournal BM_Smugglers 100\r\n\t\t\t\t\"falx carius\"->Disable\r\n\t\t\t\tif ( luciuschosen > 0 )\r\n\t\t\t\t\t\"gaea artoria\"->Enable\r\n\t\t\t\telseif ( artoriachosen > 0 )\r\n\t\t\t\t\t\"saenus lusius\"->Enable\r\n\t\t\t\tendif\r\n\t\t\t\tset doOnce to 1\r\n\t\t\tendif\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\n\r\n\r\n\r\nEnd cariusgoneScript",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,14,9,32,115,1,0,32,61,61,32,48,6,1,12,25,32,88,205,16,32,100,12,66,77,95,83,109,117,103,103,108,101,114,115,32,62,61,32,57,51,6,1,10,25,32,88,205,16,32,100,12,66,77,95,83,109,117,103,103,108,101,114,115,32,60,32,49,48,48,6,1,8,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,49,48,50,56,204,16,12,66,77,95,83,109,117,103,103,108,101,114,115,100,0,255,255,12,1,11,102,97,108,120,32,99,97,114,105,117,115,219,16,6,1,1,19,32,71,12,108,117,99,105,117,115,99,104,111,115,101,110,32,62,32,48,12,1,12,103,97,101,97,32,97,114,116,111,114,105,97,218,16,8,1,1,20,32,71,13,97,114,116,111,114,105,97,99,104,111,115,101,110,32,62,32,48,12,1,13,115,97,101,110,117,115,32,108,117,115,105,117,115,218,16,9,1,5,1,115,1,0,2,32,49,9,1,9,1,9,1,9,1,1,1]
+}

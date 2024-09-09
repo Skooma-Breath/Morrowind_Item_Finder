@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mage",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_24",
+  "MODL": null,
+  "FNAM": "Reynel Uvirith",
+  "SCRI": "reynelUvirithScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 80,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "dire viperblade"
+    },
+    {
+      "count": 1,
+      "name": "amulet of balyna's antidote"
+    },
+    {
+      "count": 1,
+      "name": "ring of fireballs"
+    },
+    {
+      "count": 1,
+      "name": "ring of ice bolts"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

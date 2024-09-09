@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Breton",
+  "CNAM": "Spellsword",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_breton_f_head_05",
+  "KNAM": "b_n_breton_f_hair_03",
+  "MODL": null,
+  "FNAM": "Emusette Bracques",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "demon katana"
+    },
+    {
+      "count": 1,
+      "name": "red despair amulet"
+    },
+    {
+      "count": 1,
+      "name": "shockguard robe"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_towershield"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_armun-an_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "demon mole crab"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "heavy burden",
+    "great burden of sin",
+    "crushing burden touch",
+    "weary",
+    "tinur's hoptoad",
+    "sixth barrier",
+    "absorb willpower",
+    "powerwell",
+    "poet's whim",
+    "great resist common disease",
+    "variable resist corprus disease",
+    "great resist fire",
+    "flameguard",
+    "great resist frost",
+    "frostguard"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 85,
+    "magicka": 122,
+    "fatigue": 225,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [49,61,86,43,46,47,45,40],
+    "skills": [38,6,23,6,23,38,23,6,6,32,47,52,20,25,25,57,37,15,6,6,6,6,6,6,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,10]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Imperial",
+  "CNAM": "Guard",
+  "ANAM": "Imperial Legion",
+  "BNAM": "B_N_Imperial_F_Head_07",
+  "KNAM": "b_n_imperial_f_hair_03",
+  "MODL": null,
+  "FNAM": "Gaea Artoria",
+  "SCRI": "artoriaScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver flamesword"
+    },
+    {
+      "count": 1,
+      "name": "imperial shield"
+    },
+    {
+      "count": 1,
+      "name": "imperial right gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "imperial left gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "imperial boots"
+    },
+    {
+      "count": 1,
+      "name": "imperial_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial right pauldron"
+    },
+    {
+      "count": 1,
+      "name": "imperial left pauldron"
+    },
+    {
+      "count": 1,
+      "name": "imperial cuirass_armor"
+    },
+    {
+      "count": 112,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "BM_resistpara_UNIQUE"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 50,
+    "health": 394,
+    "magicka": 158,
+    "fatigue": 379,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,79,79,100,100,100,79,40],
+    "skills": [100,94,100,100,98,100,94,94,100,10,10,10,10,10,10,10,10,10,10,10,10,15,10,64,20,20,15]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Imperial",
+  "CNAM": "Shipmaster",
+  "ANAM": "",
+  "BNAM": "b_n_imperial_f_head_04",
+  "KNAM": "B_N_Imperial_F_Hair_07",
+  "MODL": null,
+  "FNAM": "Cinia Urtius",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_04_b"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04_b"
+    }
+  ],
+  "NPCS": [
+    "demoralize beast",
+    "demoralizing touch",
+    "rallying touch",
+    "demoralize creature",
+    "demoralize humanoid"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 131,
+    "magicka": 142,
+    "fatigue": 243,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,71,61,72,81,51,100,40],
+    "skills": [34,7,100,7,12,17,7,7,49,7,7,7,7,7,34,7,7,34,48,64,21,54,64,21,40,74,26]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

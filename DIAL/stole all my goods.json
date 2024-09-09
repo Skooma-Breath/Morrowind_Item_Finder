@@ -1,0 +1,347 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "11953306463129123950": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "23830139732576429134",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Come back when you've got all my glass.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_AngryTrader",
+          "__TV": 23
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_AngryTrader",
+          "__TV": 100
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "ingred_raw_glass_tinos",
+          "__TV": 10
+        }
+      ]
+    },
+    "23830139732576429134": {
+      "flag": 0,
+      "PNAM": "11953306463129123950",
+      "NNAM": "124578435416012955",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've got my glass, and you've gained some knowledge. Not a bad bargain. Off with you now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_AngryTrader",
+          "__TV": 100
+        }
+      ]
+    },
+    "124578435416012955": {
+      "flag": 0,
+      "PNAM": "23830139732576429134",
+      "NNAM": "1016458152883123224",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My glass, and those fetchers left to rot...excellent! Teach criminals like that to meddle with an honest trader. Now, let me tell you about a few tricks of the trade. I think they'll come in handy for you....",
+      "BNAM": "Player->RemoveItem \"Ingred_Raw_Glass_Tinos\" 10\r\nAddItem \"Ingred_Raw_Glass_Tinos\" 10\r\nPlayer->ModMercantile 5\r\nMessageBox \"Your Mercantile skill has increased.\"\r\nJournal \"MV_AngryTrader\" 110\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_tinos",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "dondir",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "alvur hleran",
+          "__TV": 0
+        }
+      ]
+    },
+    "1016458152883123224": {
+      "flag": 0,
+      "PNAM": "124578435416012955",
+      "NNAM": "12955751791531361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've gotten my glass back. Excellent. Too bad you didn't kill them both, but one is better than none. Well, a deal's a deal, so let me tell you a little about the merchant trade....",
+      "BNAM": "Player->RemoveItem \"Ingred_Raw_Glass_Tinos\" 10\r\nAddItem \"Ingred_Raw_Glass_Tinos\" 10\r\nPlayer->ModMercantile 3\r\nMessageBox \"Your Mercantile skill has increased.\"\r\nJournal \"MV_AngryTrader\" 105\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_tinos",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "dondir",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "alvur hleran",
+          "__TV": 0
+        }
+      ]
+    },
+    "12955751791531361": {
+      "flag": 0,
+      "PNAM": "1016458152883123224",
+      "NNAM": "2211828993356731823",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've gotten my glass back. Excellent. Too bad you didn't kill them both, but one is better than none. Well, a deal's a deal, so let me tell you a little about the merchant trade....",
+      "BNAM": "Player->RemoveItem \"Ingred_Raw_Glass_Tinos\" 10\r\nAddItem \"Ingred_Raw_Glass_Tinos\" 10\r\nPlayer->ModMercantile 3\r\nMessageBox \"Your Mercantile skill has increased.\"\r\nJournal \"MV_AngryTrader\" 105\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_tinos",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "dondir",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "alvur hleran",
+          "__TV": 0
+        }
+      ]
+    },
+    "2211828993356731823": {
+      "flag": 0,
+      "PNAM": "12955751791531361",
+      "NNAM": "32452274732759623696",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've gotten my glass back. Excellent. Damn shame you didn't kill those traitorous sons of bitches, but I'll take what I can get. Well, a deal's a deal, so let me tell you a little about the merchant trade....",
+      "BNAM": "Player->RemoveItem \"Ingred_Raw_Glass_Tinos\" 10\r\nAddItem \"Ingred_Raw_Glass_Tinos\" 10\r\nPlayer->ModMercantile 2\r\nMessageBox \"Your Mercantile skill has increased.\"\r\nJournal \"MV_AngryTrader\" 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_raw_glass_tinos",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "alvur hleran",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "dondir",
+          "__TV": 0
+        }
+      ]
+    },
+    "32452274732759623696": {
+      "flag": 0,
+      "PNAM": "2211828993356731823",
+      "NNAM": "245311060310745346",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, get moving, then. Go on! Go!",
+      "BNAM": "Journal \"MV_AngryTrader\" 23",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "245311060310745346": {
+      "flag": 0,
+      "PNAM": "32452274732759623696",
+      "NNAM": "247051467517838384",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lord, Mother, and Wizard! What are you still doing here? Go away!",
+      "BNAM": "Journal \"MV_AngryTrader\" 25\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "247051467517838384": {
+      "flag": 0,
+      "PNAM": "245311060310745346",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinos drothan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, a whole shipment of raw glass. If you can return my goods, and kill those bastards who took them, I'd be willing to teach you a couple trader's secrets that could save you plenty of money in the future. My \"guards,\" Alvur Hleran and Dondir, probably haven't gone far. Stupid fetchers are probably holed up somewhere near here, counting my loot! Check to the southeast. That's the direction they headed.",
+      "BNAM": "Journal \"MV_AngryTrader\" 20\r\nChoice \"I can help you recover your goods.\" 1 \"Sorry, I don't have time for you right now.\" 2",
+      "SCVR": null
+    }
+  }
+}

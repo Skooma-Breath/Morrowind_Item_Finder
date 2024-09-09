@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 155,
+    "local_var_size": 19
+  },
+  "SCTX": "begin marksmanToggle\r\n\r\nshort counter\r\nshort myMarksman\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( counter < 20 )\r\n\tSet counter to counter + 1\r\n\tReturn\r\nendif\r\n\r\nif ( myMarksman == 0 )\r\n\tset myMarksman to GetMarksman\r\nendif\r\n\r\nif ( GetMarksman > 0 )\r\n\tif ( GetDistance Player < 400 )\r\n\t\tSetMarksman 0\r\n\tendif\r\nelse\r\n\tif ( GetDistance Player > 600 )\r\n\t\tSetMarksman myMarksman\r\n\tendif\r\nendif\r\n\r\n;for level desginers... forces AI to do what it ought to do\r\n;when they are near, they use melee weapons\r\n;when they are far, they use missile weapons\r\n;checks every 20 frames for speed\r\n;Note: does not affect spellcasting AI\r\n\r\nEnd",
+  "SCVR": [
+    "counter",
+    "myMarksman"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,2,9,32,115,1,0,32,60,32,50,48,5,1,115,1,0,8,32,115,1,0,32,49,32,43,36,1,9,1,6,1,1,9,32,115,2,0,32,61,61,32,48,5,1,115,2,0,5,32,88,128,16,0,9,1,6,1,3,8,32,88,128,16,32,62,32,48,6,1,1,19,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,52,48,48,129,16,0,0,0,0,9,1,7,1,3,6,1,1,19,32,88,1,16,32,114,6,80,108,97,121,101,114,32,62,32,54,48,48,129,16,115,2,0,0,9,1,9,1,1,1]
+}

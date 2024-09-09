@@ -1,0 +1,935 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [4160,1061158912]
+  },
+  "NAME": "Caldera, Mining Bunkhouse",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,65,65,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [64,16,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-173006": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_com_trapbottom_01",
+      "XSCL": 1.040000081062317,
+      "DATA": [173.947998046875,-516.39697265625,151.654052734375,0,0,1.5707963705062866]
+    },
+    "0-173007": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_common_door_01",
+      "DATA": [-168.0744171142578,-831.7960815429688,128,0,0,4.71238899230957]
+    },
+    "0-173050": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_com_traptop_01",
+      "DATA": [6.130000114440918,-522.5789794921875,465.8110046386719,0,0,1.5707963705062866]
+    },
+    "0-173052": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_common_door_01",
+      "DATA": [-196.77200317382812,-476.3970031738281,560.8770141601562,0,0,0]
+    },
+    "0-324914": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-147.54258728027344,-641.646240234375,70.41922760009766,0,0,0.5250000357627869]
+    },
+    "0-324915": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-160.8684539794922,-644.7013549804688,70.41922760009766,0,0,0]
+    },
+    "0-173009": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bunk_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-248.01136779785156,-826.4806518554688,535.9609985351562,0,0,1.5707957744598389]
+    },
+    "0-173010": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bunk_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [99.58184051513672,-822.1640625,535.9609985351562,0,0,1.5707963705062866]
+    },
+    "0-173012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bunk_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-64.79045867919922,-537.8453979492188,95.99978637695312,0,0,6.2831854820251465]
+    },
+    "0-173013": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bunk_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [249.05177307128906,-825.3822021484375,96,0,0,1.5707957744598389]
+    },
+    "0-173014": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_closet_01_g1",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [267.3169860839844,-577.5427856445312,113.80201721191406,0,0,1.5707963705062866]
+    },
+    "0-173020": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [43.26869201660156,-771.438720703125,90.69978332519531,0,0,0]
+    },
+    "0-173021": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [83.14484405517578,-857.5128784179688,90.69978332519531,0,0,0]
+    },
+    "0-173022": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-5.392206192016602,-927.6207885742188,136.84078979492188,0,0,0]
+    },
+    "0-173023": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [75.07061767578125,-828.1153564453125,90.69978332519531,0,0,0]
+    },
+    "0-173024": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [81.57946014404297,-793.9788208007812,90.69978332519531,0,0,0]
+    },
+    "0-173025": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [41.660186767578125,-813.85302734375,90.69978332519531,0,0,0]
+    },
+    "0-173026": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [43.90240478515625,-853.0629272460938,90.69976806640625,0,0,0]
+    },
+    "0-173027": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [14.33955192565918,-938.3374633789062,136.84072875976562,0,0,0]
+    },
+    "0-173028": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [45.71858215332031,-884.2731323242188,94.05359649658203,0,0,0]
+    },
+    "0-173029": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [49.84603500366211,-788.2909545898438,94.05359649658203,0,0,0]
+    },
+    "0-173030": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [67.8841552734375,-803.107666015625,94.05359649658203,0,0,0]
+    },
+    "0-173031": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [54.772029876708984,-825.805419921875,94.05359649658203,0,0,0]
+    },
+    "0-173032": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-32.958866119384766,-934.7246704101562,140.19454956054688,0,0,0]
+    },
+    "0-173033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [68.44084167480469,-869.1864624023438,94.05359649658203,0,0,0]
+    },
+    "0-173034": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [82.57543182373047,-848.5724487304688,88.72251892089844,0,0,2.9707963466644287]
+    },
+    "0-173035": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [43.60308837890625,-762.107177734375,88.72251892089844,0,0,0.3707961440086365]
+    },
+    "0-173036": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [37.18367004394531,-805.2911376953125,88.72251892089844,0,0,5.753982067108154]
+    },
+    "0-173037": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [80.39119720458984,-835.7313842773438,88.72251892089844,0,0,2.4707961082458496]
+    },
+    "0-173038": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [40.114479064941406,-845.5095825195312,88.72251892089844,0,0,0.07079615443944931]
+    },
+    "0-173039": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [87.33394622802734,-805.6481323242188,88.72251892089844,0,0,2.7539825439453125]
+    },
+    "0-173040": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [64.42579650878906,-844.0366821289062,94.05359649658203,0,0,0]
+    },
+    "0-173041": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-48.08161926269531,-922.2835083007812,140.19454956054688,0,0,0]
+    },
+    "0-173042": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [87.0265884399414,-891.7630004882812,103.90702056884766,0,0,0]
+    },
+    "0-173043": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [100.51839447021484,-793.2997436523438,36.39931106567383,1.5707963705062866,5.883185863494873,0]
+    },
+    "0-173045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [9.80967903137207,-941.8436889648438,211.59671020507812,0,0,0]
+    },
+    "0-173046": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_13",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1.403036117553711,-929.7243041992188,211.28810119628906,0,0,0]
+    },
+    "0-173047": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-13.823137283325195,-936.4497680664062,211.28810119628906,0,0,0]
+    },
+    "0-173048": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-48.142852783203125,-930.4086303710938,211.46922302246094,0,0,1.3000000715255737]
+    },
+    "0-173049": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_iron_ladle",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-8.507169723510742,-918.4506225585938,53.313663482666016,0,0,0.9999999403953552]
+    },
+    "0-173054": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01",
+      "DATA": [2.049473524093628,-704.0812377929688,228.9382781982422,0,0,5.4977874755859375]
+    },
+    "0-173061": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_notetocalderamages",
+      "XSCL": 2,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-98.26499938964844,-951.8480224609375,176.07000732421875,1.5707963705062866,0,0]
+    },
+    "0-173065": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [110.0536117553711,-621.5083618164062,488.19976806640625,0,0,1.5707963705062866]
+    },
+    "0-172998": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_stone_room_corner",
+      "DATA": [192,-576,32,0,0,1.5707963705062866]
+    },
+    "0-172999": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_stone_room_corner",
+      "DATA": [-63.99951171875,-576.0004272460938,31.999786376953125,0,0,0]
+    },
+    "0-173000": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_stone_room_corner",
+      "DATA": [-64,-832,32,0,0,4.71238899230957]
+    },
+    "0-173001": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_stone_room_corner",
+      "DATA": [192.00048828125,-832.0004272460938,31.999786376953125,0,0,3.1415927410125732]
+    },
+    "0-173002": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_thatch_room_pcorner",
+      "DATA": [-196.77206420898438,-828.396728515625,464.87664794921875,0,0,4.71238899230957]
+    },
+    "0-173003": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_thatch_room_pcorner",
+      "DATA": [-196.77206420898438,-572.3967895507812,464.87664794921875,0,0,0]
+    },
+    "0-173004": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_thatch_room_pcorner",
+      "DATA": [59.228057861328125,-572.3967895507812,464.87664794921875,0,0,1.5707963705062866]
+    },
+    "0-173005": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_thatch_room_pcorner",
+      "DATA": [59.228057861328125,-828.396728515625,464.87664794921875,0,0,3.1415927410125732]
+    },
+    "0-173008": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_djamb_stone_square",
+      "DATA": [-192,-832,32,0,0,1.5707963705062866]
+    },
+    "0-173015": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_table_01",
+      "XSCL": 0.8400000333786011,
+      "DATA": [62.92830276489258,-829.8110961914062,60.503787994384766,0,0,1.5707963705062866]
+    },
+    "0-173016": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "XSCL": 0.8400000333786011,
+      "DATA": [17.371095657348633,-833.9782104492188,50.62322235107422,0,0,1.4707963466644287]
+    },
+    "0-173017": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_bench_01",
+      "XSCL": 0.8400000333786011,
+      "DATA": [118.9759750366211,-839.0210571289062,50.62321853637695,0,0,1.6707963943481445]
+    },
+    "0-173018": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [-21.66168975830078,-937.3336791992188,180.0830078125,0,0,3.1415927410125732]
+    },
+    "0-173019": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_p_shelf_03",
+      "DATA": [-21.66168975830078,-937.3336791992188,118.66177368164062,0,0,3.1415927410125732]
+    },
+    "0-173044": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_cauldron_01",
+      "DATA": [-13.246831893920898,-913.7600708007812,76.10086822509766,0,0,0.4000000059604645]
+    },
+    "0-173051": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_c_doorframe_01",
+      "DATA": [-196.77206420898438,-460.3967590332031,592.8767700195312,0,0,4.71238899230957]
+    },
+    "0-173057": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-247.23695373535156,-613.1575317382812,501.30096435546875,0,0,0.5561947226524353]
+    },
+    "0-173058": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [-262.61737060546875,-668.110107421875,492.62164306640625,0,0,0]
+    },
+    "0-173060": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "XSCL": 0.5300000309944153,
+      "DATA": [-98.1573486328125,-956.2544555664062,194.45919799804688,0,0,2.9999992847442627]
+    },
+    "0-173062": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [319.95123291015625,-821.3497924804688,177.36651611328125,0,0,1.5707963705062866]
+    },
+    "0-173063": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [132.79428100585938,-958.7979736328125,175.9773406982422,0,0,3.1415927410125732]
+    },
+    "0-173064": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [134.39657592773438,-629.1951904296875,747.247802734375,0,0,3.1415927410125732]
+    },
+    "0-173066": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [188.90472412109375,-767.2001953125,560.7463989257812,0,0,1.5707963705062866]
+    },
+    "0-173067": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [186.39114379882812,-878.5999755859375,559.7233276367188,0,0,1.5707963705062866]
+    },
+    "0-291189": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-730.0758666992188,-1104.839599609375,681.9631958007812,0,0,1]
+    },
+    "0-295044": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "miner's pick",
+      "ANAM": "stlennius vibato",
+      "INTV": 400,
+      "NAM9": 1,
+      "DATA": [-287.6777648925781,-674.7252197265625,521.0925903320312,0,0.03490658476948738,0.19987687468528748]
+    },
+    "0-324900": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2400000095367432,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3.8013722896575928,-538.6875,165.3280029296875,0,0,0]
+    },
+    "0-324901": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [251.09410095214844,-891.6162719726562,70.93177032470703,0,0,4.741592884063721]
+    },
+    "0-324902": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [251.09410095214844,-891.6162719726562,165.3284912109375,0,0,4.741592884063721]
+    },
+    "0-324903": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.28000009059906,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3.426860809326172,-542.1019287109375,70.93177032470703,0,0,0]
+    },
+    "0-324904": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [88.83116149902344,-480.84796142578125,500.1310729980469,0,0,0.17499999701976776]
+    },
+    "0-324905": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [142.66253662109375,-504.91693115234375,506.4768981933594,0,0,1.5707963705062866]
+    },
+    "0-324906": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1600000858306885,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-250.7183380126953,-898.1436157226562,510.4322509765625,0,0,4.591592788696289]
+    },
+    "0-324907": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1400001049041748,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [99.38032531738281,-892.1094970703125,511.0613098144531,0,0,1.524999976158142]
+    },
+    "0-324908": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1400001049041748,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [100.13500213623047,-891.4190063476562,605.698974609375,0,0,1.6004669666290283]
+    },
+    "0-324909": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-248.39915466308594,-896.5457153320312,605.69921875,0,0,4.741592884063721]
+    },
+    "0-324910": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_01_pos",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [230.7310028076172,-692.5150146484375,48.66999816894531,0,0,3.0839967727661133]
+    },
+    "0-324911": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_01_pos",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 15,
+      "DATA": [-153.99000549316406,-631.1519775390625,48.66999816894531,0,0,4.757767677307129]
+    },
+    "0-324912": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-157.82667541503906,-617.66455078125,80.7122802734375,0,0,0.8999999761581421]
+    },
+    "0-324913": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-158.1219940185547,-630.9869995117188,79.49099731445312,0,0,0.6754423975944519]
+    },
+    "0-173011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_closet_01_g1",
+      "ANAM": "stlennius vibato",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 25,
+      "DATA": [-69.68565368652344,-898.7823486328125,546.6790161132812,0,0,3.1415927410125732]
+    },
+    "0-389777": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.440000057220459,
+      "DATA": [63.94817352294922,-718.7897338867188,30.222721099853516,0,0,1.5707963705062866]
+    },
+    "0-389778": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.2000000476837158,
+      "DATA": [-71.78020477294922,-761.5009765625,463.0343017578125,0,0,1.5707963705062866]
+    },
+    "0-389779": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_01",
+      "DATA": [-193.59356689453125,-618.6942138671875,165.79461669921875,0,0,4.71238899230957]
+    },
+    "0-389780": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_nord_win_02",
+      "DATA": [-193.2887420654297,-524.951904296875,164.8316650390625,0,0,4.71238899230957]
+    },
+    "0-392915": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_CalderaRecordBook1",
+      "XSCL": 0.7700000405311584,
+      "ANAM": "stlennius vibato",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-248.1165008544922,-669.5043334960938,523.1316528320312,0,0,6.183185577392578]
+    },
+    "0-173059": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "stlennius vibato",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-273.3420104980469,-683.5130004882812,555.2509765625,0,0,0.6003932356834412]
+    },
+    "0-484073": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "key_calderaslaves_01",
+      "ANAM": "stlennius vibato",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [85.06117248535156,-768.452392578125,88.07797241210938,0,0,0.6299988031387329]
+    }
+  }
+}

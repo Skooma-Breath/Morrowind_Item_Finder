@@ -1,0 +1,68 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Dark Elf",
+  "CNAM": "Caravaner",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_09",
+  "KNAM": "b_n_dark elf_f_hair_15",
+  "MODL": null,
+  "FNAM": "Folsi Thendas",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [-21322.697265625,-18234.54296875,1183.242431640625,0,0,0],
+      "DNAM": null
+    },
+    {
+      "destination": [-8680.6005859375,-70135.7890625,919.5939331054688,0,0,0.38539817929267883],
+      "DNAM": null
+    },
+    {
+      "destination": [32206.376953125,-72225.1171875,1006.6583251953125,0,0,4.71238899230957],
+      "DNAM": null
+    },
+    {
+      "destination": [103449.015625,-58402.7890625,1545.5377197265625,0,0,1.2000001668930054],
+      "DNAM": null
+    }
+  ],
+  "NPDT": {
+    "level": 5,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1637761982177931739": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3113587232413124358",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teris raledran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Certainly! The two of us are more than glad to give you your fee. We'd like to thank you again for your companionship. It gets a bit lonely on the road, and sometimes Rollie gets awfully quiet on long trips. (He's getting a little moody in his old age.) Take care, stranger!",
+      "BNAM": "RemoveItem \"Gold_001\" 200\r\nPlayer->AddItem \"Gold_001\" 200\r\nJournal \"MV_RichTrader\" 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_RichTrader",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "guar_rollie_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "3113587232413124358": {
+      "flag": 0,
+      "PNAM": "1637761982177931739",
+      "NNAM": "15577461303487",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teris raledran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I'm afraid I can't pay you all of what I promised, with the loss of my beloved Rollie. Here, take this. I'll use the rest to have a proper burial for my one true friend, perhaps build him a memorial. At least most of the goods got here, though. He would have wanted it that way. Farewell.",
+      "BNAM": "RemoveItem \"Gold_001\" 100\r\nPlayer->AddItem \"Gold_001\" 100\r\nJournal \"MV_RichTrader\" 105\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_RichTrader",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "guar_rollie_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "15577461303487": {
+      "flag": 0,
+      "PNAM": "3113587232413124358",
+      "NNAM": "321386794501911914",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "teris raledran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I figure that 200 septims would be fair. Sounds about right, doesn't it? Yes, that's a fair arrangement. Again, thank you for your trouble. You'll be paid when we arrive at the store.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_RichTrader",
+          "__TV": 100
+        }
+      ]
+    },
+    "321386794501911914": {
+      "flag": 0,
+      "PNAM": "15577461303487",
+      "NNAM": "21445224882320713163",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Museum has been compensated quite well. Thank you for your donations.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "MuseumDonations",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TR_Blade",
+          "__TV": 45
+        }
+      ]
+    },
+    "21445224882320713163": {
+      "flag": 0,
+      "PNAM": "321386794501911914",
+      "NNAM": "108842202568024816",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've already been quite a friend to the Museum. I'll give you the piece. I'm classifying it as a Dwemer Battle Shield. As I said, I'm not sure what to make of it. The spike attached to the front of the shield seems to be loose, but a competent smith can probably take care of that for you. Good luck to you, and if you're able to recreate the Blade of Nerevar, I'd love to see the finished product.",
+      "BNAM": "Journal TR_Blade 45\r\nPlayer->AddItem \"dwemer_shield_battle_unique\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "MuseumDonations",
+          "__TV": 2
+        }
+      ]
+    },
+    "108842202568024816": {
+      "flag": 0,
+      "PNAM": "21445224882320713163",
+      "NNAM": "1690280142105732407",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bring me a couple quality pieces, and I'll be able to help you, friend.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "MuseumDonations",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bladepiece_03",
+          "__TV": 0
+        }
+      ]
+    },
+    "1690280142105732407": {
+      "flag": 0,
+      "PNAM": "108842202568024816",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm always looking for new pieces for the Museum of Artifacts. Unique items, armor and weapons of lore--you know the stuff. If you would be willing to donate a couple to the Museum, I'd be willing to part with the shield.",
+      "BNAM": "Journal TR_Blade 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bladepiece_03",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "TR_Blade",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

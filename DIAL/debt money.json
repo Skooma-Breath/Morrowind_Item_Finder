@@ -1,0 +1,999 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "8643021019685310": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2028648376706951",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Murudius Flaeus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I thought that was all settled. What are you talking to me for?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 100
+        }
+      ]
+    },
+    "2028648376706951": {
+      "flag": 0,
+      "PNAM": "8643021019685310",
+      "NNAM": "114698745452818588",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Murudius Flaeus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I gave you the key to the chest. It's under Fadila's house here in Hla Oad.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 50
+        }
+      ]
+    },
+    "114698745452818588": {
+      "flag": 0,
+      "PNAM": "2028648376706951",
+      "NNAM": "1620397351920020402",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Murudius Flaeus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alright, you don't have to say it again. Look, here's a key. There's a chest under Fadila's house, near the docks. Just leave me in peace.",
+      "BNAM": "Journal HH_BuriedTreasure 50\r\nPlayer->AddItem key_murudius_01 1\r\nRemoveItem key_murudius_01 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        }
+      ]
+    },
+    "1620397351920020402": {
+      "flag": 0,
+      "PNAM": "114698745452818588",
+      "NNAM": "22960141892631023693",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Murudius Flaeus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Look around, %PCRace. Do you see 800 drakes anywhere?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        }
+      ]
+    },
+    "22960141892631023693": {
+      "flag": 0,
+      "PNAM": "1620397351920020402",
+      "NNAM": "199283766113515439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Murudius Flaeus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I said I didn't have it. and I'm not giving you anything.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        }
+      ]
+    },
+    "199283766113515439": {
+      "flag": 0,
+      "PNAM": "22960141892631023693",
+      "NNAM": "2211149172736620736",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lirielle stoine",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm glad it's settled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 100
+        }
+      ]
+    },
+    "2211149172736620736": {
+      "flag": 0,
+      "PNAM": "199283766113515439",
+      "NNAM": "784113912128543820",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lirielle stoine",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My brother Ruran Stoine is dead. The Camonna Tong said he owed them money, which I don't dispute. But now they say that I owe my brother's debts, and I just don't have the money. I can't pay what I don't have, can I?",
+      "BNAM": "Journal FG_DebtStoine 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_DebtStoine",
+          "__TV": 100
+        }
+      ]
+    },
+    "784113912128543820": {
+      "flag": 0,
+      "PNAM": "2211149172736620736",
+      "NNAM": "630726895399225402",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dialog placeholder",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Elethus Tobor owed money to the Camonna Tong for gambling debts. He's very poor and probably can't pay the money. If you want to complete this contract, you'll have to either kill him or pay the debt yourself.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "630726895399225402": {
+      "flag": 0,
+      "PNAM": "784113912128543820",
+      "NNAM": "2994726567212753712",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It was not Lirielle Stoine who owed the money, but her brother Ranus Stoine. Ranus was murdered, and I don't think Lirielle has 2000 septims. You'll have to either find the gold Ranus Stoine had or pay the 2000 septims yourself.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 10
+        }
+      ]
+    },
+    "2994726567212753712": {
+      "flag": 0,
+      "PNAM": "630726895399225402",
+      "NNAM": "10927266601152921413",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You didn't have to kill her, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "helviane desele",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 100
+        }
+      ]
+    },
+    "10927266601152921413": {
+      "flag": 0,
+      "PNAM": "2994726567212753712",
+      "NNAM": "6780164372886024634",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you have questions about any other orders you get, just ask.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 100
+        }
+      ]
+    },
+    "6780164372886024634": {
+      "flag": 0,
+      "PNAM": "10927266601152921413",
+      "NNAM": "101357008325855117",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You can get the debt money from her, or you can pay it yourself. Manos Othreleth works for Orvas Dren, so I suspect this may not be a legitimate Fighters Guild contract.",
+      "BNAM": "Journal FG_DeseleDebt 30",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 10
+        }
+      ]
+    },
+    "101357008325855117": {
+      "flag": 0,
+      "PNAM": "6780164372886024634",
+      "NNAM": "71754111306213991",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, and I don't have to talk to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "71754111306213991": {
+      "flag": 0,
+      "PNAM": "101357008325855117",
+      "NNAM": "194112542032469572",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I don't have any more debtor contracts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 100
+        }
+      ]
+    },
+    "194112542032469572": {
+      "flag": 0,
+      "PNAM": "71754111306213991",
+      "NNAM": "2200812764190782308",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "It looks like it's all here. Good work, %PCName. Here, you keep half of it.",
+      "BNAM": "Journal FG_DebtStoine 100\r\nPlayer->RemoveItem Gold_001 1000\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2200812764190782308": {
+      "flag": 0,
+      "PNAM": "194112542032469572",
+      "NNAM": "21564143391758710573",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Then go get it, %PCRank or you'll never make it to %NextPCRank.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "21564143391758710573": {
+      "flag": 0,
+      "PNAM": "2200812764190782308",
+      "NNAM": "2558015744247827008",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You got the debt money from Lirielle Stoine?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        }
+      ]
+    },
+    "2558015744247827008": {
+      "flag": 0,
+      "PNAM": "21564143391758710573",
+      "NNAM": "13738279612447218855",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I told you to go get me that 2,000 septims from Lirielle Stoine. Now go get it, %PCRank!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DebtStoine",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        }
+      ]
+    },
+    "13738279612447218855": {
+      "flag": 0,
+      "PNAM": "2558015744247827008",
+      "NNAM": "1149524464188626912",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lorbumol gro-aglakh",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Lirielle Stoine can be found at The Rat in the Pot in Ald'ruhn. Go there and get the 2000 septims she owes us and report back to me.",
+      "BNAM": "Journal FG_DebtStoine 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_DebtStoine",
+          "__TV": 5
+        }
+      ]
+    },
+    "1149524464188626912": {
+      "flag": 0,
+      "PNAM": "13738279612447218855",
+      "NNAM": "2774378772350515075",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Manos Othreleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard you killed Desele for the debt money she owed money. You don't understand business, %PCName. If you kill them, they can't keep giving you money.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "helviane desele",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 100
+        }
+      ]
+    },
+    "2774378772350515075": {
+      "flag": 0,
+      "PNAM": "1149524464188626912",
+      "NNAM": "13570239811135027242",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Manos Othreleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're the one I got to thank for doing that? I couldn't get anywhere with Desele. You got a real way with people, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 100
+        }
+      ]
+    },
+    "13570239811135027242": {
+      "flag": 0,
+      "PNAM": "2774378772350515075",
+      "NNAM": "1486429195812220189",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Manos Othreleth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I gave the Fighters Guild orders to get that money, and they better get if for me or the House of Earthly Delights is going out of business.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 10
+        }
+      ]
+    },
+    "1486429195812220189": {
+      "flag": 0,
+      "PNAM": "13570239811135027242",
+      "NNAM": "393113866159579372",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I already gave you the debt money.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 70
+        }
+      ]
+    },
+    "393113866159579372": {
+      "flag": 0,
+      "PNAM": "1486429195812220189",
+      "NNAM": "2473762911441110245",
+      "DATA": {
+        "value": 75,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right, you've convinced me. Here's the 200 gold. Take it and tell those thugs to leave me alone.",
+      "BNAM": "Journal FG_DeseleDebt 70\r\nPlayer->AddItem Gold_001 200",
+      "SCVR": null
+    },
+    "2473762911441110245": {
+      "flag": 0,
+      "PNAM": "393113866159579372",
+      "NNAM": "700411741835323230",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I try and run a respectable business and the Camonna Tong keeps asking for this money \"for my safety.\" What is it really for? To keep me safe from Orvas Dren's thugs, that's what it's for, and I'm not paying it.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "700411741835323230": {
+      "flag": 0,
+      "PNAM": "2473762911441110245",
+      "NNAM": "22629256431571612884",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "helviane desele",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't see why it's any business of yours. I don't like speaking of these things with my friends, much less someone I hardly know.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "22629256431571612884": {
+      "flag": 0,
+      "PNAM": "700411741835323230",
+      "NNAM": "1647329830903415364",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild. Until you make amends, I cannot discuss contracts with you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1647329830903415364": {
+      "flag": 0,
+      "PNAM": "22629256431571612884",
+      "NNAM": "146064383830129504",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I'll pass any debt collection contracts your way.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 100
+        }
+      ]
+    },
+    "146064383830129504": {
+      "flag": 0,
+      "PNAM": "1647329830903415364",
+      "NNAM": "23282114771894816170",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You killed Helviane Desele? Well, that's the way it is sometimes. Some people won't pay their debts.",
+      "BNAM": "Journal FG_DeseleDebt 100\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "helviane desele",
+          "__TV": 1
+        }
+      ]
+    },
+    "23282114771894816170": {
+      "flag": 0,
+      "PNAM": "146064383830129504",
+      "NNAM": "150757717112957176",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good work, %PCName. Here's your share.",
+      "BNAM": "Journal FG_DeseleDebt 100\r\nPlayer->RemoveItem Gold_001 200\r\nPlayer->AddItem Gold_001 100\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "150757717112957176": {
+      "flag": 0,
+      "PNAM": "23282114771894816170",
+      "NNAM": "2069178102422725560",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go get it then.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2069178102422725560": {
+      "flag": 0,
+      "PNAM": "150757717112957176",
+      "NNAM": "1902598261730910628",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Do you have the 200 septims Desele owes our client?",
+      "BNAM": "Choice \"Yes, here it is\" 1 \"No, not yet\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_DeseleDebt",
+          "__TV": 30
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 200
+        }
+      ]
+    },
+    "1902598261730910628": {
+      "flag": 0,
+      "PNAM": "2069178102422725560",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eydis fire-eye",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Helviane Desele runs a cornerclub in Suran. She owes Manos Othreleth, one of our clients, 200 septims. Bring this money to me and I'll let you keep half of it.",
+      "BNAM": "Journal FG_DeseleDebt 10",
+      "SCVR": null
+    }
+  }
+}

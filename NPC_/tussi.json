@@ -1,0 +1,76 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_f_head_03",
+  "KNAM": "b_n_dark elf_f_hair_15",
+  "MODL": null,
+  "FNAM": "Tussi",
+  "SCRI": "ZainabKill",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 8208
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01_z"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_z"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "crushing burden",
+    "cruel weary",
+    "dire weary",
+    "great feather",
+    "second barrier",
+    "strong reflect",
+    "strong spelldrinker",
+    "wild spelldrinker",
+    "blood gift",
+    "powerwell",
+    "vivec's mercy",
+    "poet's whim",
+    "slowfall"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 70,
+    "magicka": 100,
+    "fatigue": 206,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 75,
+    "attributes": [52,50,69,50,67,35,65,40],
+    "skills": [6,6,6,6,24,11,6,6,11,15,25,48,34,15,54,48,34,34,6,6,6,29,16,11,10,39,39]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

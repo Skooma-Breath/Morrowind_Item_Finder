@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Thief Service",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_06",
+  "KNAM": "b_n_dark elf_m_hair_15",
+  "MODL": null,
+  "FNAM": "Lliryn Fendyn",
+  "SCRI": "strongholdServices",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16480
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel jinkblade"
+    },
+    {
+      "count": 1,
+      "name": "ring of shadow form"
+    },
+    {
+      "count": 1,
+      "name": "ring of lightning storm"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": -10,
+      "name": "pick_apprentice_01"
+    },
+    {
+      "count": -5,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": -10,
+      "name": "probe_apprentice_01"
+    },
+    {
+      "count": -5,
+      "name": "probe_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 13,
+    "health": 102,
+    "magicka": 118,
+    "fatigue": 231,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 100,
+    "attributes": [62,59,40,82,86,47,44,40],
+    "skills": [6,6,6,6,6,11,6,6,32,6,16,6,6,6,11,6,6,6,53,53,53,58,63,43,10,38,38]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

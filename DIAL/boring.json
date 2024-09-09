@@ -1,0 +1,202 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "26630408133142918": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1312622174627579",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Aldam Berendus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Funny how a little alcohol can make just about anything seem more interesting.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_6a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "aldammove",
+          "__TV": 1
+        }
+      ]
+    },
+    "1312622174627579": {
+      "flag": 0,
+      "PNAM": "26630408133142918",
+      "NNAM": "13330291462925414299",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Aldam Berendus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, sorry - I don't drink. I mean, aside from the occasional whiskey. You wouldn't....  you don't happen to have any, do you?",
+      "BNAM": "Choice: \"I do, in fact. Here you are.\" 3 \"No, sorry.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "13330291462925414299": {
+      "flag": 0,
+      "PNAM": "1312622174627579",
+      "NNAM": "47868462177818176",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Aldam Berendus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, that's okay. I should be concentrating on this job, anyway.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "47868462177818176": {
+      "flag": 0,
+      "PNAM": "13330291462925414299",
+      "NNAM": "13262352819572651",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Aldam Berendus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mmmm....thanks, %PCName. I better not drink this here where anyone can see me, though. Uhh... I'll be back in a few minutes.",
+      "BNAM": "player->removeitem \"potion_cyro_whiskey_01\" 1\r\nadditem \"potion_cyro_whiskey_01\" 1\r\nModDisposition 40\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "13262352819572651": {
+      "flag": 0,
+      "PNAM": "47868462177818176",
+      "NNAM": "307772688437787115",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Aldam Berendus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nothing entertaining has happened since I got here. You have any ideas?",
+      "BNAM": "Choice: \"How about a drink?\" 1 \"I don't have any suggestions. Sorry.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_6a",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Potion_Cyro_Whiskey_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "307772688437787115": {
+      "flag": 0,
+      "PNAM": "13262352819572651",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Aldam Berendus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If Falco says it's important, then I guess it is, but all I do is just stand around.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_6a",
+          "__TV": 10
+        }
+      ]
+    }
+  }
+}

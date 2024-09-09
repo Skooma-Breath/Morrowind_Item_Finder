@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Barbarian",
+  "ANAM": "",
+  "BNAM": "b_n_nord_m_head_03",
+  "KNAM": "b_n_nord_m_hair03",
+  "MODL": null,
+  "FNAM": "Alfhedil Elf-Hewer",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "nordic battle axe"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 1,
+      "name": "fur_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "fur_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "fur_boots"
+    },
+    {
+      "count": 1,
+      "name": "fur_greaves"
+    },
+    {
+      "count": 1,
+      "name": "fur_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "fur_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "fur_cuirass"
+    }
+  ],
+  "NPCS": [
+    "absorb health [ranged]",
+    "absorb spell points [ranged]",
+    "rilm's gift",
+    "seryn's blessing",
+    "variable resist common disease",
+    "strong resist fire",
+    "variable resist fire",
+    "strong resist frost",
+    "variable resist frost",
+    "strong resist magicka",
+    "variable resist magicka",
+    "strong resist poison",
+    "variable resist poison",
+    "strong resist shock",
+    "variable resist shock"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 244,
+    "magicka": 100,
+    "fatigue": 328,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,50,68,95,80,65,65,40],
+    "skills": [68,52,78,25,78,25,100,25,68,8,8,8,8,8,8,40,8,8,8,8,40,40,8,40,40,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

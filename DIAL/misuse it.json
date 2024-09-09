@@ -1,0 +1,66 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "29069300061194713139": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "10044103771892030405",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "graring",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not believe you will put these things to a bad use, %PCName. You are not like the others.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8",
+          "__TV": 50
+        }
+      ]
+    },
+    "10044103771892030405": {
+      "flag": 0,
+      "PNAM": "29069300061194713139",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "graring",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We learned that Stalhrim can be forged much like iron or steel. We were made outcasts for it; the Skaal are too narrow-minded to understand its practical value. Some, like this woman, hear of it and come seeking it, but will not get it from us. You, however, have earned my respect. We will now see if you can truly be trusted - take this pick axe, and use it to chip off a piece of Stalhrim. Bring that piece to me.",
+      "BNAM": "removeitem \"BM Nordic Pick\" 1\r\nplayer->additem \"BM Nordic Pick\" 1\r\nJournal CO_8 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_8",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "High Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "",
+  "BNAM": "b_n_high elf_f_head_04",
+  "KNAM": "b_n_high elf_f_hair_03",
+  "MODL": null,
+  "FNAM": "Sondaale of Shimmerene",
+  "SCRI": "sondaaleFollow",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_amulet_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "imperial_studded_cuirass"
+    }
+  ],
+  "NPCS": [
+    "strong feather",
+    "ulms juicedaw's feather",
+    "saintly word",
+    "distraction",
+    "shockbite",
+    "weakness to blight disease",
+    "weakness to corpus disease",
+    "calm creature",
+    "calm humanoid",
+    "daedric bite",
+    "Swimmer's_Blessing",
+    "ash feast",
+    "vivec's_wrath",
+    "weakness to corprus disease"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 55,
+    "magicka": 140,
+    "fatigue": 176,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [34,70,53,44,75,45,44,40],
+    "skills": [5,5,19,19,5,5,5,5,50,51,51,46,31,46,41,12,22,12,5,5,5,5,19,19,5,5,5]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,10]
+    }
+  ]
+}

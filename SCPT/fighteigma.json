@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 87,
+    "local_var_size": 15
+  },
+  "SCTX": "Begin fightEigma\r\n\r\nShort NoLore\r\nshort doonceA\r\n\r\nif ( CellChanged == 0 )\r\n    Return\r\nendif\r\n \r\nif ( doonceA == 0 )\r\n\tif ( GetDeadCount \"Nals Indrano\" == 0 )\r\n\t    StartCombat \"Nals Indrano\"\r\n\t    set doonceA to 1\r\n\tendif\r\nendif\r\n\r\nEnd fightEigma",
+  "SCVR": [
+    "NoLore",
+    "doonceA"
+  ],
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,4,9,32,115,2,0,32,61,61,32,48,6,1,2,24,32,88,254,16,32,111,12,78,97,108,115,32,73,110,100,114,97,110,111,32,61,61,32,48,25,16,12,78,97,108,115,32,73,110,100,114,97,110,111,5,1,115,2,0,2,32,49,9,1,9,1,1,1]
+}

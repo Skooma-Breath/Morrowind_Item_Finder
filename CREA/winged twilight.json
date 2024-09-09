@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\WingedTwilight.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 15,
+    "attributes": [50,50,100,50,8,50,50,50],
+    "health": 220,
+    "magicka": 210,
+    "fatigue": 800,
+    "soul_strength": 300,
+    "combat_skill": 70,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [15,45],
+      [15,45],
+      [15,45]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Winged Twilight",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_void_salts"
+    }
+  ],
+  "NPCS": [
+    "resist fire_50",
+    "resist frost_50",
+    "resist poison_75",
+    "resist shock_50",
+    "reflect_20"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

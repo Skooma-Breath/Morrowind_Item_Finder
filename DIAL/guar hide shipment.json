@@ -1,0 +1,792 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "8083108423229214523": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "139545371908222455",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "marsus tullius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, now that it's all resolved, I'd best get on my way.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 100
+        }
+      ]
+    },
+    "139545371908222455": {
+      "flag": 0,
+      "PNAM": "8083108423229214523",
+      "NNAM": "11082198441326114665",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "marsus tullius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They were from the Erabenimsun herds? I had no idea! I hope you sent my apologies, friend. I have no quarrel with those people, and I do not wish one. I suppose I'll have to find some other guar, then. I'd tell you to visit my father for your reward, but he was the one paying for this trip. Without those hides, I don't think he'll be able to pay you. Thank you again.",
+      "BNAM": "AddTopic \"Marsus Tullius' hides\"\r\nJournal \"MV_InnocentAshlanders\" 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 80
+        }
+      ]
+    },
+    "11082198441326114665": {
+      "flag": 0,
+      "PNAM": "139545371908222455",
+      "NNAM": "11577176101811226318",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "marsus tullius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've already got my hides? Amazing! Thanks for your help. Don't know what I would have done without this shipment. Would have taken quite a loss. Make sure you visit my father, Stentus Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.",
+      "BNAM": "AddTopic \"Marsus Tullius' hides\"\r\nJournal \"MV_InnocentAshlanders\" 105\r\nPlayer->RemoveItem \"Ingred_Guar_Hide_Marsus\" 10\r\nAddItem \"Ingred_Guar_Hide_Marsus\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 75
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_guar_hide_marsus",
+          "__TV": 10
+        }
+      ]
+    },
+    "11577176101811226318": {
+      "flag": 0,
+      "PNAM": "11082198441326114665",
+      "NNAM": "3046519316269584068",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "marsus tullius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thanks for your help. Don't know what I would have done without this shipment. Would have taken quite a loss. Make sure you visit my father, Stentus Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.",
+      "BNAM": "AddTopic \"Marsus Tullius' hides\"\r\nJournal \"MV_InnocentAshlanders\" 105\r\nPlayer->RemoveItem \"Ingred_Guar_Hide_Marsus\" 10\r\nAddItem \"Ingred_Guar_Hide_Marsus\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 75
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ingred_guar_hide_marsus",
+          "__TV": 10
+        }
+      ]
+    },
+    "3046519316269584068": {
+      "flag": 0,
+      "PNAM": "11577176101811226318",
+      "NNAM": "32261124232014829492",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "marsus tullius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, my. I didn't realize...I just figured it was a herd of wild guar. Well, no danger of me heading back that way. I've no desire to make any more enemies with those folk. Thanks for your help. Make sure you visit my father, Stents Tullius, in Tel Aruhn. I'll make sure to send word ahead about what a help you were to me. I'm sure he'll reward you well.",
+      "BNAM": "AddTopic \"Marsus Tullius' hides\"\r\nJournal \"MV_InnocentAshlanders\" 100\r\nPlayer->RemoveItem \"Ingred_Guar_Hide_Marsus\" 10\r\nAddItem \"Ingred_Guar_Hide_Marsus\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 85
+        }
+      ]
+    },
+    "32261124232014829492": {
+      "flag": 0,
+      "PNAM": "3046519316269584068",
+      "NNAM": "1158265851207817610",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "marsus tullius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You found them? Well, go get them back for me!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "1158265851207817610": {
+      "flag": 0,
+      "PNAM": "32261124232014829492",
+      "NNAM": "568031035161126426",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "marsus tullius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They would be easy enough to recognize as mine. I made sure to put my stamp on them immediately.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "568031035161126426": {
+      "flag": 0,
+      "PNAM": "1158265851207817610",
+      "NNAM": "27523249782809726636",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinti",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We will abide by your decision.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 80
+        }
+      ]
+    },
+    "27523249782809726636": {
+      "flag": 0,
+      "PNAM": "568031035161126426",
+      "NNAM": "10978552115465249",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinti",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, %PCName. Let this trader know that should he step foot on our lands again, we will not be so generous with him, be he your friend or not. Travel with speed, my friend.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 85\r\nRemoveItem \"Ingred_Guar_Hide_Marsus\" 5\r\nHairan->RemoveItem \"Ingred_Guar_Hide_Marsus\" 5\r\nPlayer->AddItem \"Ingred_Guar_Hide_Marsus\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "10978552115465249": {
+      "flag": 0,
+      "PNAM": "27523249782809726636",
+      "NNAM": "12375534273582296",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinti",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If this is your decision, %PCName, so be it. Here, take this as a token of our friendship. I hope to meet you again. Travel with the winds, my friend.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 80\r\nRemoveItem \"Herder's Belt\" 1\r\nPlayer->AddItem \"Herder's Belt\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "12375534273582296": {
+      "flag": 0,
+      "PNAM": "10978552115465249",
+      "NNAM": "19728522333519971",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinti",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These are the lands of our people, and the guar hides this trader carried were of our herds. It was our right to take back these hides, and we deny his claim on them. Why has he sent you on this errand? Is he not man enough to defend himself? But...since you take this man's part, for friendship, we will return the hides to you.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 60\r\nJournal \"MV_InnocentAshlanders\" 70\r\nChoice \"Thank you, friends. I will return the hides to the trader.\" 1 \"No, these hides clearly belong to you and your people. The trader was wrong to take them.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "19728522333519971": {
+      "flag": 0,
+      "PNAM": "12375534273582296",
+      "NNAM": "34869153249527509",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinti",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have heard our stance on this issue, and it will not waver.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 75
+        }
+      ]
+    },
+    "34869153249527509": {
+      "flag": 0,
+      "PNAM": "19728522333519971",
+      "NNAM": "2158532528900332511",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tinti",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These are the lands of our people, and the guar hides this trader carried were of our herds. It was our right to take back these hides, and we deny his claim on them. Why has he sent you on this errand? Is he not man enough to defend himself? We will die before seeing that Imperial dog get our hides.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 60\r\nJournal \"MV_InnocentAshlanders\" 75",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "2158532528900332511": {
+      "flag": 0,
+      "PNAM": "34869153249527509",
+      "NNAM": "18488254321437729617",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hairan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We will abide by your decision.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 80
+        }
+      ]
+    },
+    "18488254321437729617": {
+      "flag": 0,
+      "PNAM": "2158532528900332511",
+      "NNAM": "2575881562722713761",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hairan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, %PCName. Let this trader know that should he step foot on our lands again, we will not be so generous with him, be he your friend or not. Travel with speed, my friend.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 85\r\nRemoveItem \"Ingred_Guar_Hide_Marsus\" 5\r\nTinti->RemoveItem \"Ingred_Guar_Hide_Marsus\" 5\r\nPlayer->AddItem \"Ingred_Guar_Hide_Marsus\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2575881562722713761": {
+      "flag": 0,
+      "PNAM": "18488254321437729617",
+      "NNAM": "24627443908314285",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hairan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If this is your decision, %PCName, so be it. Here, take this as a token of our friendship. I hope to meet you again. Travel with the winds, my friend.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 80\r\nRemoveItem \"Herder's Belt\" 1\r\nPlayer->AddItem \"Herder's Belt\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "24627443908314285": {
+      "flag": 0,
+      "PNAM": "2575881562722713761",
+      "NNAM": "2661929332129984516",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hairan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These are the lands of our people, and the guar hides this trader carried were of our herds. It was our right to take back these hides, and we deny his claim on them. Why has he sent you on this errand? Is he not man enough to defend himself? But...since you take this man's part, for friendship, we will return the hides to you.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 60\r\nJournal \"MV_InnocentAshlanders\" 70\r\nChoice \"Thank you, friends. I will return the hides to the trader.\" 1 \"No, these hides clearly belong to you and your people. The trader was wrong to take them.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "2661929332129984516": {
+      "flag": 0,
+      "PNAM": "24627443908314285",
+      "NNAM": "384823126282574911",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hairan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have heard our stance on this issue, and it will not waver.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 75
+        }
+      ]
+    },
+    "384823126282574911": {
+      "flag": 0,
+      "PNAM": "2661929332129984516",
+      "NNAM": "3154164802064822044",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hairan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These are the lands of our people, and the guar hides this trader carried were of our herds. It was our right to take back these hides, and we deny his claim on them. Why has he sent you on this errand? Is he not man enough to defend himself? We will die before seeing that Imperial dog get our hides.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 60\r\nJournal \"MV_InnocentAshlanders\" 75\r\nStartCombat Player",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "3154164802064822044": {
+      "flag": 0,
+      "PNAM": "384823126282574911",
+      "NNAM": "198316576180527547",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "None of our tribe would have done this thing, %PCRace. We are an honorable people, and have no needs beyond what we have.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 45",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "198316576180527547": {
+      "flag": 0,
+      "PNAM": "3154164802064822044",
+      "NNAM": "26654989450409849",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "None of our tribe would have done this thing, %PCRace. We are an honorable people, and have no needs beyond what we have.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 47",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "26654989450409849": {
+      "flag": 0,
+      "PNAM": "198316576180527547",
+      "NNAM": "268643198792019947",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "None of our tribe would have done this thing, %PCRace. We are an honorable people, and have no needs beyond what we have.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 46",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 60
+        }
+      ]
+    },
+    "268643198792019947": {
+      "flag": 0,
+      "PNAM": "26654989450409849",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Erabenimsun Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We know of the incident of which you speak. Tinti and Hairan are honorable warriors, and would never steal. Perhaps this trader offended them in some way, or tried to steal from our herds. Speak with them and make your charges, if you have the courage. They are here in camp, should you wish to speak with them.",
+      "BNAM": "Journal \"MV_InnocentAshlanders\" 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_InnocentAshlanders",
+          "__TV": 80
+        },
+        {
+          "index": "2",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "tinti",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "7",
+          "details": "XX",
+          "operator": "0",
+          "identifier": "hairan",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

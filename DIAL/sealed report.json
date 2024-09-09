@@ -1,0 +1,394 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2938014119877632517": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2460174521348913213",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baren alen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already gave me the sealed report, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankCourier",
+          "__TV": 50
+        }
+      ]
+    },
+    "2460174521348913213": {
+      "flag": 0,
+      "PNAM": "2938014119877632517",
+      "NNAM": "28720144861272210269",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baren alen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The seal on this has been broken, %PCName. I will tell Edryno Arethi not to use you as a courier again.",
+      "BNAM": "Journal HH_BankCourier 50\r\nPlayer->RemoveItem bk_TreasuryReport 1\r\nAddItem bk_TreasuryReport 1\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "UnsealedEdryno1",
+          "__TV": 1
+        }
+      ]
+    },
+    "28720144861272210269": {
+      "flag": 0,
+      "PNAM": "2460174521348913213",
+      "NNAM": "98777283760725765",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baren alen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good, good. You can tell Edryno Arethi that you delivered it.",
+      "BNAM": "Journal HH_BankCourier 50\r\nPlayer->RemoveItem bk_TreasuryReport 1\r\nAddItem bk_TreasuryReport 1\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "98777283760725765": {
+      "flag": 0,
+      "PNAM": "28720144861272210269",
+      "NNAM": "31477120381910716734",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baren alen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, thank Almalexia. I'm tired of dealing with all the reports I get.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "31477120381910716734": {
+      "flag": 0,
+      "PNAM": "98777283760725765",
+      "NNAM": "577557432208111956",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baren alen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Is that report for me?",
+      "BNAM": "Choice \"Yes, take it.\" 1 \"No, nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_treasuryreport",
+          "__TV": 0
+        }
+      ]
+    },
+    "577557432208111956": {
+      "flag": 0,
+      "PNAM": "31477120381910716734",
+      "NNAM": "60848537344015698",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "baren alen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Another treasury report? Do you have it with you?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "60848537344015698": {
+      "flag": 0,
+      "PNAM": "577557432208111956",
+      "NNAM": "104117681333725076",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled. I cannot discuss business with you unless you make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "104117681333725076": {
+      "flag": 0,
+      "PNAM": "60848537344015698",
+      "NNAM": "8376251091577311713",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already delivered the sealed report, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankCourier",
+          "__TV": 100
+        }
+      ]
+    },
+    "8376251091577311713": {
+      "flag": 0,
+      "PNAM": "104117681333725076",
+      "NNAM": "265722432261529432",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? Are you saying that Baren Alen is dead? This is a major blow to House Hlaalu. I am not sure what kinds of business I can give you now that he's dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "baren alen",
+          "__TV": 0
+        }
+      ]
+    },
+    "265722432261529432": {
+      "flag": 0,
+      "PNAM": "8376251091577311713",
+      "NNAM": "430820087111742358",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm glad you delivered the report, but you should not have opened it. That kind of unreliability is why I must send all my messages in code.",
+      "BNAM": "Journal HH_BankCourier 100\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "UnsealedEdryno1",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankCourier",
+          "__TV": 50
+        }
+      ]
+    },
+    "430820087111742358": {
+      "flag": 0,
+      "PNAM": "265722432261529432",
+      "NNAM": "27787190841023416114",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm glad you were able to get that report to Baren Alen in time. Here, take these 50 drakes for your trouble.",
+      "BNAM": "Journal HH_BankCourier 100\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10\r\nPlayer->AddItem Gold_001 50",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankCourier",
+          "__TV": 50
+        }
+      ]
+    },
+    "27787190841023416114": {
+      "flag": 0,
+      "PNAM": "430820087111742358",
+      "NNAM": "275181379550130399",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Like I said, deliver the sealed report to Baren Alen at the Hlaalu Treasury.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankCourier",
+          "__TV": 10
+        }
+      ]
+    },
+    "275181379550130399": {
+      "flag": 0,
+      "PNAM": "27787190841023416114",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take this sealed report to Baren Alen, the clerk of the Hlaalu Treasury in Vivec.",
+      "BNAM": "Journal HH_BankCourier 10\r\nPlayer->AddItem \"bk_TreasuryReport\" 1",
+      "SCVR": null
+    }
+  }
+}

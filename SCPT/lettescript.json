@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 122,
+    "local_var_size": 0
+  },
+  "SCTX": "begin letteScript\r\n\r\nif ( GetJournalIndex TT_CuringTouch >= 50 )\r\n\treturn\r\nendif\r\n\r\nif ( GetSpell \"Swamp Fever\" == 0 )\r\n\tsay, \"vo\\r\\f\\Flw_RF003.mp3\", \"Thank you.\"\r\n\tJournal TT_CuringTouch 50\r\nendif\r\n\r\nend letteScript",
+  "SCVR": null,
+  "SCDT": [6,1,1,27,32,88,205,16,32,100,14,84,84,95,67,117,114,105,110,103,84,111,117,99,104,32,62,61,32,53,48,36,1,9,1,6,1,2,23,32,88,31,17,32,111,11,83,119,97,109,112,32,70,101,118,101,114,32,61,61,32,48,27,17,20,118,111,92,114,92,102,92,70,108,119,95,82,70,48,48,51,46,109,112,51,10,0,84,104,97,110,107,32,121,111,117,46,204,16,14,84,84,95,67,117,114,105,110,103,84,111,117,99,104,50,0,255,255,9,1,1,1]
+}

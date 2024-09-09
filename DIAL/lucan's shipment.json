@@ -1,0 +1,596 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1633422571577321463": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "15348395254621997",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Yeah, good weapons. Good you brought them.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 100
+        }
+      ]
+    },
+    "15348395254621997": {
+      "flag": 0,
+      "PNAM": "1633422571577321463",
+      "NNAM": "2631730557255437957",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I got it. You got your gold. Leave me alone.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 100
+        }
+      ]
+    },
+    "2631730557255437957": {
+      "flag": 0,
+      "PNAM": "15348395254621997",
+      "NNAM": "10602291441046027734",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Heard Lucan didn't think you were delivering his shipment. He gets that way. Deal's off as far as I'm concerned. If you still got it, you keep the stuff.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 90
+        }
+      ]
+    },
+    "10602291441046027734": {
+      "flag": 0,
+      "PNAM": "2631730557255437957",
+      "NNAM": "167413689259947108",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Expected Lucan a while back. Good he send you, though, brother. Not bad stuff. Here's your gold.",
+      "BNAM": "Journal \"MV_ThiefTrader\" 105\r\nModPCFacRep 5 \"Thieves Guild\"\r\nPlayer->RemoveItem \"Silver War Axe\" 1\r\nPlayer->RemoveItem \"Silver Flameblade\" 1\r\nPlayer->RemoveItem \"Steel Shortsword\" 1\r\nPlayer->RemoveItem \"Steel Staff\" 1\r\nAddItem \"Silver War Axe\" 1\r\nAddItem \"Silver Flameblade\" 1\r\nAddItem \"Steel Staff\" 1\r\nAddItem \"Steel Shortsword\" 1\r\nRemoveItem \"Gold_001\" 100\r\nPlayer->AddItem \"Gold_001\" 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "silver staff",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "silver flameblade",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "silver war axe",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "steel shortsword",
+          "__TV": 1
+        }
+      ]
+    },
+    "167413689259947108": {
+      "flag": 0,
+      "PNAM": "10602291441046027734",
+      "NNAM": "2814559022850731348",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Lucan don't show when he supposed to. Now you don't have weapons he gave you, brother? You better find the weapons. Quick.",
+      "BNAM": "ModPCFacRep -5 \"Thieves Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "silver staff",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "steel shortsword",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "silver flameblade",
+          "__TV": 0
+        },
+        {
+          "index": "5",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "silver war axe",
+          "__TV": 0
+        }
+      ]
+    },
+    "2814559022850731348": {
+      "flag": 0,
+      "PNAM": "167413689259947108",
+      "NNAM": "115301334438127271",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Supposed to meet me with shipment. Didn't show. Don't like that. Good that you brought them, though. Good weapons. Here.",
+      "BNAM": "Journal \"MV_ThiefTrader\" 100\r\nModPCFacRep 5 \"Thieves Guild\"\r\nPlayer->RemoveItem \"Silver War Axe\" 1\r\nPlayer->RemoveItem \"Silver Flameblade\" 1\r\nPlayer->RemoveItem \"Steel Shortsword\" 1\r\nPlayer->RemoveItem \"Steel Staff\" 1\r\nAddItem \"Silver War Axe\" 1\r\nAddItem \"Silver Flameblade\" 1\r\nAddItem \"Steel Staff\" 1\r\nAddItem \"Steel Shortsword\" 1\r\nRemoveItem \"Gold_001\" 100\r\nPlayer->AddItem \"Gold_001\" 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "silver war axe",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "silver flameblade",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "steel shortsword",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "steel staff",
+          "__TV": 1
+        }
+      ]
+    },
+    "115301334438127271": {
+      "flag": 0,
+      "PNAM": "2814559022850731348",
+      "NNAM": "5951276441287013861",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.",
+      "BNAM": "ModPCFacRep -5 \"Thieves Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 30
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "silver staff",
+          "__TV": 1
+        }
+      ]
+    },
+    "5951276441287013861": {
+      "flag": 0,
+      "PNAM": "115301334438127271",
+      "NNAM": "794319906187539269",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.",
+      "BNAM": "ModPCFacRep -5 \"Thieves Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 30
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "silver flameblade",
+          "__TV": 1
+        }
+      ]
+    },
+    "794319906187539269": {
+      "flag": 0,
+      "PNAM": "5951276441287013861",
+      "NNAM": "2230522408757827574",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.",
+      "BNAM": "ModPCFacRep -5 \"Thieves Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 30
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "steel shortsword",
+          "__TV": 1
+        }
+      ]
+    },
+    "2230522408757827574": {
+      "flag": 0,
+      "PNAM": "794319906187539269",
+      "NNAM": "185921096601618193",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yak gro-skandar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.",
+      "BNAM": "ModPCFacRep -5 \"Thieves Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 30
+        },
+        {
+          "index": "5",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "steel staff",
+          "__TV": 1
+        }
+      ]
+    },
+    "185921096601618193": {
+      "flag": 0,
+      "PNAM": "2230522408757827574",
+      "NNAM": "2152925381916717176",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucan ostorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good thing that you were able to deliver it. Could have been a problem.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 100
+        }
+      ]
+    },
+    "2152925381916717176": {
+      "flag": 0,
+      "PNAM": "185921096601618193",
+      "NNAM": "29901477152808146",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucan ostorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You killed my contact. I'll have your head for that.",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "yak gro-skandar",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 20
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_ThiefTrader",
+          "__TV": 25
+        }
+      ]
+    },
+    "29901477152808146": {
+      "flag": 0,
+      "PNAM": "2152925381916717176",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucan ostorius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's right. Just tell Yak gro-Skandar that's what you have. And hurry up about it. Those weapons will get to Ald-ruhn quickly, or there will be trouble.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "yak gro-skandar",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

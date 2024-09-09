@@ -1,0 +1,589 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "21619199473197426476": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14927152532648817997",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have already given you the dues you claim I owe. What more do you want of me?",
+      "BNAM": "ModDisposition -3",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_PayDues",
+          "__TV": 50
+        }
+      ]
+    },
+    "14927152532648817997": {
+      "flag": 0,
+      "PNAM": "21619199473197426476",
+      "NNAM": "3183338626561254",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here. Take the gold and leave me to my work. I would advise that you leave here now. We are engaged in very serious research here and if you disturb my colleagues, they may not be very understanding.",
+      "BNAM": "Journal MG_PayDues 50\r\nPlayer->AddItem Gold_001 2000\r\nRemoveItem Gold_001 2000",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3183338626561254": {
+      "flag": 0,
+      "PNAM": "14927152532648817997",
+      "NNAM": "1912939382230810016",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Your lack of civility is astonishing. Are you sure your ancestors have no Cyrodiil blood?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "45",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1912939382230810016": {
+      "flag": 0,
+      "PNAM": "3183338626561254",
+      "NNAM": "243031030209198541",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I should have expected such discourteous behavior from one of the lower races.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "243031030209198541": {
+      "flag": 0,
+      "PNAM": "1912939382230810016",
+      "NNAM": "1575816178192723028",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Will you leave me alone if I give you the 2000 septims? I cannot leave my research unattended.",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2",
+      "SCVR": null
+    },
+    "1575816178192723028": {
+      "flag": 0,
+      "PNAM": "243031030209198541",
+      "NNAM": "32562187111284224375",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manwe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I left the Mages Guild and dedicated my life to studying the adaptive responses of quaternary variations in Oblivion streams. If Ranis Athrys wants the dues that much, why don't you just pay them yourself? I am unconcerned with such petty financial matters.",
+      "BNAM": "Journal MG_PayDues 40",
+      "SCVR": null
+    },
+    "32562187111284224375": {
+      "flag": 0,
+      "PNAM": "1575816178192723028",
+      "NNAM": "30482104332862610215",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have not had word that you were in good standing again. If you persist in this behavior, I will be forced to make a formal complaint to Arch-Mage Trebonius.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 20
+        }
+      ]
+    },
+    "30482104332862610215": {
+      "flag": 0,
+      "PNAM": "32562187111284224375",
+      "NNAM": "934732062485717848",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You were expelled some time ago. Do not expect me to help you now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 10
+        }
+      ]
+    },
+    "934732062485717848": {
+      "flag": 0,
+      "PNAM": "30482104332862610215",
+      "NNAM": "16586257162452527940",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled. I can't say I am surprised. There are so few truly dedicated to our cause here in Vvardenfell.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "ExpMagesGuild",
+          "__TV": 0
+        }
+      ]
+    },
+    "16586257162452527940": {
+      "flag": 0,
+      "PNAM": "934732062485717848",
+      "NNAM": "177783598283630258",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll let you know if anyone else hasn't paid their dues. Once word of this gets around, I shouldn't have any more trouble from these less dedicated wizards.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "manwe",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_PayDues",
+          "__TV": 100
+        }
+      ]
+    },
+    "177783598283630258": {
+      "flag": 0,
+      "PNAM": "16586257162452527940",
+      "NNAM": "2761815316271922463",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll let you know if anyone else hasn't paid their dues.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_PayDues",
+          "__TV": 100
+        }
+      ]
+    },
+    "2761815316271922463": {
+      "flag": 0,
+      "PNAM": "177783598283630258",
+      "NNAM": "128565411267027790",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You killed Manwe? Hmm... The lost income is unfortunate, but perhaps it will serve as a lesson to others.",
+      "BNAM": "Journal MG_PayDues 100\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "manwe",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_JoinUs",
+          "__TV": 100
+        }
+      ]
+    },
+    "128565411267027790": {
+      "flag": 0,
+      "PNAM": "2761815316271922463",
+      "NNAM": "5554327322441623692",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You killed Manwe? Hmm... The lost income is unfortunate, but perhaps it will serve as a lesson to others. What happened with Llarar Bereloth? Did you convince him to join us or not?",
+      "BNAM": "Journal MG_PayDues 100\r\nModPCFacRep 5 \"Mages Guild\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "manwe",
+          "__TV": 0
+        }
+      ]
+    },
+    "5554327322441623692": {
+      "flag": 0,
+      "PNAM": "128565411267027790",
+      "NNAM": "26207289852195416322",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good work, %PCName. You are the first %PCRank to get Manwe to pay her dues. I knew I could rely on you.",
+      "BNAM": "Journal MG_PayDues 100\r\nPlayer->RemoveItem Gold_001 1000\r\nModDisposition 15\r\nModPCFacRep 5 \"Mages Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_JoinUs",
+          "__TV": 100
+        }
+      ]
+    },
+    "26207289852195416322": {
+      "flag": 0,
+      "PNAM": "5554327322441623692",
+      "NNAM": "216047938293154011",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good work, %PCName. You are the first %PCRank to get Manwe to pay her dues. I knew I could rely on you. Did you also convince Llarar Bereloth to join us?",
+      "BNAM": "Journal MG_PayDues 100\r\nPlayer->RemoveItem Gold_001 1000\r\nModDisposition 15\r\nModPCFacRep 5 \"Mages Guild\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "216047938293154011": {
+      "flag": 0,
+      "PNAM": "26207289852195416322",
+      "NNAM": "16847177657230130",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then go back to Manwe and get the dues from her. If you can't convince her, kill her. Don't come back here again until you get some results.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "16847177657230130": {
+      "flag": 0,
+      "PNAM": "216047938293154011",
+      "NNAM": "1366544201128732001",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have the 2000 septims that Manwe owes?",
+      "BNAM": "Choice \"Yes.\" 1 \"No.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_PayDues",
+          "__TV": 30
+        },
+        {
+          "index": "4",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        }
+      ]
+    },
+    "1366544201128732001": {
+      "flag": 0,
+      "PNAM": "16847177657230130",
+      "NNAM": "8733205942846520537",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I've already told you what I want done. Find Manwe in Punabi and get the dues she owes us.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_PayDues",
+          "__TV": 10
+        }
+      ]
+    },
+    "8733205942846520537": {
+      "flag": 0,
+      "PNAM": "1366544201128732001",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 2
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Manwe has failed to pay her dues for several years, and she now owes us over 2000 septims. Allegedly she is researching something in Punabi, near Llarar Bereloth in Sulipund. If you can convince her to pay the dues, I will split them with you. Otherwise, kill her.",
+      "BNAM": "Journal MG_PayDues 10",
+      "SCVR": null
+    }
+  }
+}

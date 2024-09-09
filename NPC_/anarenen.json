@@ -1,0 +1,101 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Alchemist Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_high elf_m_head_04",
+  "KNAM": "b_n_high elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Anarenen",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 24848
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": -1,
+      "name": "ingred_vampire_dust_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bloat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bonemeal_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_comberry_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_crab_meat_01"
+    },
+    {
+      "count": -2,
+      "name": "ingred_diamond_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_fire_salts_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_heather_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_retort_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_mortar_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_calcinator_01"
+    },
+    {
+      "count": 1,
+      "name": "apparatus_j_alembic_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 71,
+    "magicka": 41,
+    "fatigue": 178,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [39,82,47,48,50,44,46,50],
+    "skills": [22,6,6,6,22,6,6,6,6,50,19,46,14,50,40,9,50,26,6,6,6,6,6,6,10,22,22]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

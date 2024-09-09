@@ -1,0 +1,112 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "27477236391621315910": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "7101222872264716142",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's going to be fabulous, my little sweetroll. \"The Lusty Argonian Maid\" will stir the soul, touch the heart, and rouse the...masses from their slumber.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "EB_Actor",
+          "__TV": 60
+        }
+      ]
+    },
+    "7101222872264716142": {
+      "flag": 0,
+      "PNAM": "27477236391621315910",
+      "NNAM": "122821007766032083",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is almost completed. I call it \"The Lusty Argonian Maid.\" It's a rather bawdy tale, but I think it will play well with the people. Be sweet to Uncle Crassius, and there's something in it for you, sweetcakes. Here, take a look at some of the work so far. I think it's scrumptious!",
+      "BNAM": "Player->AddItem \"bk_lustyargonianmaid\" 1\r\nRemoveItem \"bk_lustyargonianmaid\" 1\r\nJournal EB_Actor 55",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Actor",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "EB_Actor",
+          "__TV": 60
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bk_lustyargonianmaid",
+          "__TV": 0
+        }
+      ]
+    },
+    "122821007766032083": {
+      "flag": 0,
+      "PNAM": "7101222872264716142",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, it's probably no better than Crassius' old plays, which were awful. \"Dance of the Three-Legged Guar\" was quite a sight, though.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

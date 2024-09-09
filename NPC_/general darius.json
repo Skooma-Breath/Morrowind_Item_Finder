@@ -1,0 +1,79 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Knight",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_05",
+  "KNAM": "B_N_Imperial_M_Hair_08",
+  "MODL": null,
+  "FNAM": "Darius",
+  "SCRI": "dariusScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "imperial broadsword"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer right"
+    },
+    {
+      "count": 1,
+      "name": "templar bracer left"
+    },
+    {
+      "count": 1,
+      "name": "templar boots"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "templar_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "templar_cuirass"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "key_standard_darius_chest"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

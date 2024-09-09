@@ -1,0 +1,353 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "191304562205788": {
+      "flag": 0,
+      "PNAM": "21415172682913914434",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Lalatia Varian",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Evil Archmage Almion Celmo of the Summerset Isles created the blade for a warrior, Thurgnarr Assi, who was to assassinate a king. The assassination failed, Thurgnarr Assi was slain, Almion Celmo was imprisoned, and the Ice Blade fell into the hands of a series of malefactors. The weapon is a claymore enchanted to cause frost damage, and is rumored to pass from owner to owner of its own volition.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "7072316452306422316": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1591210140138271985",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!",
+      "BNAM": "SetPCCrimeLevel 100000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "iceblade",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "claymore_iceblade_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "1591210140138271985": {
+      "flag": 0,
+      "PNAM": "7072316452306422316",
+      "NNAM": "274221403269647718",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "iceblade",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "claymore_iceblade_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "274221403269647718": {
+      "flag": 0,
+      "PNAM": "1591210140138271985",
+      "NNAM": "2247223941848930002",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I personally don't believe the rumors that the blade chooses who wields it, and I think it will be quite safe here in our display case.  Thank you, %PCName.",
+      "BNAM": "set iceblade to 2\r\nplayer->removeitem \"claymore_iceblade_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"claymore_iceblade_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "claymore_iceblade_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "2247223941848930002": {
+      "flag": 0,
+      "PNAM": "274221403269647718",
+      "NNAM": "46457291234615217",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I personally don't believe the rumors that the blade chooses who wields it, and I think it will be quite safe here in our display case.  Thank you, %PCName.",
+      "BNAM": "set iceblade to 2\r\nplayer->removeitem \"claymore_iceblade_unique\" 1\r\nplayer->additem \"gold_001\" 30000\r\n\"claymore_iceblade_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "claymore_iceblade_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "46457291234615217": {
+      "flag": 0,
+      "PNAM": "2247223941848930002",
+      "NNAM": "140315531016222265",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Ice Blade of the Monarch with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "claymore_iceblade_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "140315531016222265": {
+      "flag": 0,
+      "PNAM": "46457291234615217",
+      "NNAM": "303403252776353821",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the Ice Blade of the Monarch with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "claymore_iceblade_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "303403252776353821": {
+      "flag": 0,
+      "PNAM": "140315531016222265",
+      "NNAM": "1637423502208768062",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well, %PCName.  But do keep an eye on it -- they say the blade passes from owner to owner of its own accord.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1637423502208768062": {
+      "flag": 0,
+      "PNAM": "303403252776353821",
+      "NNAM": "21415172682913914434",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, the Ice Blade.  Often have I heard tales of it...  one wonders what might have become of it, had the assassination succeeded.  Well, no matter.  Do you wish to sell it? Or maybe donate it? I can offer you 30000 gold if you choose to sell.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "iceblade",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "21415172682913914434": {
+      "flag": 0,
+      "PNAM": "1637423502208768062",
+      "NNAM": "191304562205788",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah, the Ice Blade.  Often have I heard tales of it...  one wonders what might have become of it, had the assassination succeeded.  Well, no matter.  Do you wish to sell it? I'm prepared to offer you 30000 gold for it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "iceblade",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

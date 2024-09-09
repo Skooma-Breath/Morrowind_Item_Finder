@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Priest",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_imperial_m_head_02",
+  "KNAM": "b_n_imperial_m_hair_05",
+  "MODL": null,
+  "FNAM": "Glallian Maraennius",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "imperial shield"
+    },
+    {
+      "count": 1,
+      "name": "imperial_chain_coif_helm"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_poison_s"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_paralyzation_s"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_health_e"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

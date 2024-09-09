@@ -1,0 +1,109 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_f_head_09",
+  "KNAM": "b_n_dark elf_f_hair_16",
+  "MODL": null,
+  "FNAM": "Llathyno Hlaalu",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel staff of divine judgement"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": -5,
+      "name": "ingred_willow_anther_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_trama_root_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_stoneflower_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scuttle_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scrib_jelly_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_resin_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_muck_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kresh_fiber_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_gravedust_01"
+    }
+  ],
+  "NPCS": [
+    "tranasa's spelltrap",
+    "shalidor's mirror",
+    "absorb fatigue [ranged]",
+    "crimson despair",
+    "vivec's tears",
+    "daedric fatigue",
+    "recall",
+    "almsivi intervention",
+    "vivec's mercy",
+    "magickguard",
+    "vitality",
+    "powerwell",
+    "vigor",
+    "cure common disease",
+    "free action"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 16,
+    "health": 98,
+    "magicka": 122,
+    "fatigue": 254,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [67,61,92,56,74,39,64,40],
+    "skills": [6,6,6,6,45,12,6,6,12,19,52,58,19,42,62,58,42,58,6,6,6,35,16,12,10,30,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

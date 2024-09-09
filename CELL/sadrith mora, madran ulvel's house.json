@@ -1,0 +1,698 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [1122867,1061158912]
+  },
+  "NAME": "Sadrith Mora, Madran Ulvel's House",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [15,25,25,0],
+    "sunlight": [15,25,25,0],
+    "fog_color": [51,34,17,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-78365": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "madran ulvel",
+      "DATA": [27.78033447265625,9.493064880371094,139.11862182617188,0,0,1.8000000715255737]
+    },
+    "0-77246": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_door_exit",
+      "DATA": [352,0,128,0,0,1.5707963705062866]
+    },
+    "0-78328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-38.34089279174805,121.44781494140625,208.0021209716797,0,0,0]
+    },
+    "0-78329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-25.621580123901367,91.59939575195312,191.52273559570312,0,0,0]
+    },
+    "0-78330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-7.6794819831848145,96.77021789550781,190.1269073486328,0,0,5.683186054229736]
+    },
+    "0-78331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_06",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-19.419164657592773,117.73625946044922,196.28277587890625,0,0,0]
+    },
+    "0-78332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_06",
+      "DATA": [-75.01527404785156,158.29359436035156,263.76202392578125,0,0,0]
+    },
+    "0-78334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "XSCL": 1.2600001096725464,
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-192.05430603027344,37.32490158081055,154.15463256835938,0,0,2.125000476837158]
+    },
+    "0-78335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-193.0655975341797,-23.932844161987305,133.22613525390625,0,0,1.1750001907348633]
+    },
+    "0-78336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-184.99131774902344,-26.348060607910156,146.6919708251953,0,0,1.2750002145767212]
+    },
+    "0-78337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_28",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-156.97926330566406,-47.30657196044922,432.0989074707031,0,0,0.4000000059604645]
+    },
+    "0-78339": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_03",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-143.39981079101562,-163.77053833007812,461.3879699707031,0,0,0]
+    },
+    "0-78340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-156.057861328125,-198.54269409179688,454.96405029296875,0,0,0]
+    },
+    "0-78341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-165.34716796875,-178.31329345703125,454.96405029296875,0,0,0]
+    },
+    "0-78342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "apparatus_a_spipe_01",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-71.19053649902344,-57.48231887817383,392.87451171875,0,0,2.4749999046325684]
+    },
+    "0-78346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_01",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [124.51197052001953,-219.92982482910156,479.5930480957031,0,0,0.9831879138946533]
+    },
+    "0-78347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [127.34737396240234,-222.5462646484375,443.2079162597656,0,0,1.1831880807876587]
+    },
+    "0-78348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [139.10491943359375,-226.6461944580078,443.2079162597656,0,0,0.8581879734992981]
+    },
+    "0-78349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_flask",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [127.78201293945312,-235.6537322998047,443.2079162597656,0,0,0.3581880033016205]
+    },
+    "0-78350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [87.19065856933594,-233.2930450439453,449.6285705566406,0,0,6.116373538970947]
+    },
+    "0-78351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [102.75960540771484,-221.49107360839844,448.0610046386719,0,0,1.1576204299926758]
+    },
+    "0-78352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [87.48306274414062,-226.09365844726562,478.8577575683594,0,0,0.9831879138946533]
+    },
+    "0-78353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [51.73878479003906,-228.39344787597656,478.8577575683594,0,0,0.9831879138946533]
+    },
+    "0-78355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_glass_yellow_01",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4.799937725067139,-241.54869079589844,524.2630004882812,0,0,6.266373634338379]
+    },
+    "0-78356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [108.22000122070312,-228.7760009765625,528.3319702148438,0,0,0.20071285963058472]
+    },
+    "0-78357": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [46.6666259765625,-235.73390197753906,536.8051147460938,0,0,0.650001049041748]
+    },
+    "0-78358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_gold_ran",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [5.786377429962158,-243.7300262451172,484.3852844238281,0,0,2.9831864833831787]
+    },
+    "0-78359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_03_64",
+      "ANAM": "madran ulvel",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [130.83126831054688,-211.79949951171875,525.3027954101562,0,0,0]
+    },
+    "0-78364": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_02",
+      "ANAM": "madran ulvel",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-171.83567810058594,-155.23777770996094,483.1217346191406,0,0,3.583188056945801]
+    },
+    "0-77245": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_01",
+      "DATA": [0,0,128,0,0,0]
+    },
+    "0-78322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_2flr_stair",
+      "DATA": [32,0,384,0,0,3.099998950958252]
+    },
+    "0-78323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_03",
+      "DATA": [64.60107421875,-300.1466064453125,147.00906372070312,0,0,1.2000001668930054]
+    },
+    "0-78324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_04",
+      "DATA": [151.67465209960938,-182.79400634765625,127.21322631835938,0,0,0.6000000238418579]
+    },
+    "0-78325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_02",
+      "DATA": [-29.969402313232422,103.56875610351562,159.06344604492188,0,0,0]
+    },
+    "0-78326": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [-46.882049560546875,59.63607406616211,147.72381591796875,0,0,5.4831862449646]
+    },
+    "0-78327": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [-17.855382919311523,152.48422241210938,147.72381591796875,0,0,0]
+    },
+    "0-78338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_02",
+      "DATA": [-159.29248046875,-176.98486328125,423.90057373046875,0,0,0]
+    },
+    "0-78343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [140.0040283203125,21.122669219970703,522.6239013671875,0,0,5.4831862449646]
+    },
+    "0-78344": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [45.64930725097656,-42.89902114868164,522.6239013671875,0,0,5.983185768127441]
+    },
+    "0-78345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [60.67845153808594,-232.38426208496094,466.95208740234375,0,0,2.9831881523132324]
+    },
+    "0-78362": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_01",
+      "DATA": [-102.66651153564453,-193.82559204101562,430.15985107421875,0,0,3.183187961578369]
+    },
+    "0-78363": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "DATA": [-46.02530288696289,-4.157979965209961,320.0139465332031,0,0,3.683187484741211]
+    },
+    "0-315113": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [482.534912109375,-86.30094909667969,472.8371276855469,0,0,2.9831860065460205]
+    },
+    "0-330360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_02",
+      "ANAM": "madran ulvel",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-38.06498336791992,1.3416733741760254,306.0498046875,0,0,3.583188056945801]
+    },
+    "0-330361": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [75.849853515625,-228.72976684570312,528.1732177734375,0,0,1.0749999284744263]
+    },
+    "0-330362": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_06",
+      "DATA": [-25.656457901000977,5.389148712158203,655.685546875,0,0,5.683184623718262]
+    },
+    "0-330363": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_01",
+      "DATA": [-49.4333610534668,35.02615737915039,675.3472900390625,0,0,0]
+    },
+    "0-330364": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_07",
+      "DATA": [-109.06490325927734,109.46856689453125,648.6972045898438,0,0,0]
+    },
+    "0-330365": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_03",
+      "XSCL": 1.0600000619888306,
+      "DATA": [8.206645011901855,92.2795639038086,124.84537506103516,0,0,0.09999965131282806]
+    },
+    "0-330366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_ingred",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-152.193603515625,139.35264587402344,170.41041564941406,0,0,5.308185577392578]
+    },
+    "0-330368": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_bc_vine_01",
+      "DATA": [-13.988287925720215,99.12821960449219,723.8216552734375,0,0,2.9749999046325684]
+    },
+    "0-330369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [100.1956558227539,-237.18817138671875,448.0610046386719,0,0,0.18262039124965668]
+    },
+    "0-330370": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_15",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [111.9908447265625,-234.45741271972656,449.6285705566406,0,0,0.9831879138946533]
+    },
+    "0-330371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_glass_peach_01",
+      "ANAM": "madran ulvel",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [1.158408761024475,-238.8964080810547,434.6238708496094,0,0,0.9831879138946533]
+    },
+    "0-330372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.3900001049041748,
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-116.15438079833984,-248.73831176757812,421.13104248046875,0,0,0.30000048875808716]
+    },
+    "0-330373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.540000081062317,
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-59.84415054321289,-249.91224670410156,427.64556884765625,0,0,5.733185768127441]
+    },
+    "0-330374": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_mclothes3",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [193.11904907226562,-205.43008422851562,410.32464599609375,0,0,2.674999952316284]
+    },
+    "0-330375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_005",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 5,
+      "DATA": [168.15255737304688,-206.55386352539062,426.187744140625,0,0,0]
+    },
+    "0-330376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [162.19895935058594,-206.35491943359375,426.16436767578125,0,0,2.3331856727600098]
+    },
+    "0-330377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [173.2559814453125,-202.0352325439453,426.16436767578125,0,0,5.08318567276001]
+    },
+    "0-330378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [172.44577026367188,-209.13111877441406,426.16436767578125,0,0,4.058185577392578]
+    },
+    "0-330367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_food",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-167.33200073242188,87.375,170.76199340820312,0,0,5.907939434051514]
+    },
+    "0-442670": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-219.83106994628906,-18.20865821838379,437.0301513671875,6.183185577392578,6.08318567276001,0.4000000059604645]
+    },
+    "0-469272": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_01",
+      "DATA": [-51.2861213684082,170.60231018066406,423.76055908203125,0,0,4.312389373779297]
+    },
+    "0-469273": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_t_housepod_pole_02",
+      "DATA": [-216.57406616210938,84.87725067138672,104.39025115966797,0,0,0]
+    },
+    "0-469274": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 1.2000000476837158,
+      "DATA": [-251.5294647216797,179.34130859375,516.320556640625,0,0,2.1999998092651367]
+    },
+    "0-483457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BookSkill_Acrobatics5",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [47.363773345947266,-231.18121337890625,436.432373046875,0,0,2.9699995517730713]
+    },
+    "0-483458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_poisonsong7",
+      "ANAM": "madran ulvel",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [48.817352294921875,-234.0187225341797,442.4336242675781,0,0,2.609999418258667]
+    }
+  }
+}

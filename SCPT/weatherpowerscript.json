@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 175,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin weatherpowerScript\r\n\r\nshort doOnce\r\n\r\nif ( act_dwe_powerbox00.PowerOn == 1 )\r\n\tif ( OnActivate == 1 )\r\n\t\tMessageBox \"The Dwemer Coherer may not be removed from the Power Box.\"\r\n\tendif\r\nendif\r\n\r\nif ( act_dwe_powerbox00.PowerOn == 0 )\r\n\tif ( doOnce == 0 )\r\n\t\tDisable\r\n\t\tset doOnce to 1\r\n\tendif\r\nendif\r\n\r\n\r\n\r\nEnd weatherpowerScript",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,3,29,32,114,18,97,99,116,95,100,119,101,95,112,111,119,101,114,98,111,120,48,48,115,3,0,32,61,61,32,49,6,1,1,9,32,88,24,16,32,61,61,32,49,0,16,57,0,84,104,101,32,68,119,101,109,101,114,32,67,111,104,101,114,101,114,32,109,97,121,32,110,111,116,32,98,101,32,114,101,109,111,118,101,100,32,102,114,111,109,32,116,104,101,32,80,111,119,101,114,32,66,111,120,46,0,0,9,1,9,1,6,1,4,29,32,114,18,97,99,116,95,100,119,101,95,112,111,119,101,114,98,111,120,48,48,115,3,0,32,61,61,32,48,6,1,2,9,32,115,1,0,32,61,61,32,48,219,16,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

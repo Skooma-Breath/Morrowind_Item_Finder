@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\LordVivec.NIF",
+  "FLAG": 137,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 100,
+    "attributes": [100,100,100,100,70,100,100,100],
+    "health": 3000,
+    "magicka": 10000,
+    "fatigue": 2000,
+    "soul_strength": 1000,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 100,
+    "attacks": [
+      [100,400],
+      [100,400],
+      [100,400]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Vivec",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "misc_wraithguard_no_equip"
+    }
+  ],
+  "NPCS": [
+    "Vivec_Abilities",
+    "hand of vivec",
+    "wrath of vivec"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

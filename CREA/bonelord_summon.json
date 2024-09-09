@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\BoneLord.NIF",
+  "FLAG": 1096,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 8,
+    "attributes": [100,100,80,50,40,50,50,50],
+    "health": 90,
+    "magicka": 400,
+    "fatigue": 500,
+    "soul_strength": 100,
+    "combat_skill": 60,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [8,24],
+      [8,24],
+      [8,24]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 50,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "bonelord",
+  "FNAM": "Bonelord",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": [
+    "resist frost_75",
+    "resist poison_75",
+    "resist shock_75",
+    "second barrier",
+    "grave curse: speed",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,0,0,0,0,0]
+    }
+  ]
+}

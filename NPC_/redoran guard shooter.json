@@ -1,0 +1,117 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 12,
+  "RNAM": "Dark Elf",
+  "CNAM": "Guard",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Sharpshooter Redoran Guard",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 10,
+      "name": "ebony arrow"
+    },
+    {
+      "count": 1,
+      "name": "expensive_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_helm"
+    },
+    {
+      "count": 1,
+      "name": "l_n_wpn_missle_bow"
+    }
+  ],
+  "NPCS": [
+    "deadly poison [ranged]",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "daedric bite"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 193,
+    "magicka": 172,
+    "fatigue": 294,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [65,86,66,96,71,67,47,40],
+    "skills": [21,21,64,21,21,26,21,21,54,49,59,7,7,7,12,34,7,7,34,49,34,12,17,54,7,34,7]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,60,100,10,0,0,0,0]
+    }
+  ]
+}

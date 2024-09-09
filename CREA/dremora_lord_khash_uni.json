@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "MODL": "r\\Dremora.NIF",
+  "FLAG": 13,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 12,
+    "attributes": [95,70,80,80,90,75,70,70],
+    "health": 480,
+    "magicka": 200,
+    "fatigue": 700,
+    "soul_strength": 300,
+    "combat_skill": 100,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [12,36],
+      [12,36],
+      [12,36]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "dremora",
+  "FNAM": "Khash-Ti Dhrur",
+  "SCRI": null,
+  "XSCL": 1.25,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random excellent melee weapon"
+    },
+    {
+      "count": 1,
+      "name": "random_daedra_heart"
+    },
+    {
+      "count": 1,
+      "name": "pyroil_tar_unique"
+    }
+  ],
+  "NPCS": [
+    "fire storm",
+    "fourth barrier",
+    "reflect_20",
+    "immune to normal weapons"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

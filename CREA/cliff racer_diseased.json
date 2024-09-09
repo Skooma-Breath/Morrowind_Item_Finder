@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\CliffRacer.NIF",
+  "FLAG": 40,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 4,
+    "attributes": [50,50,30,50,255,50,50,50],
+    "health": 45,
+    "magicka": 20,
+    "fatigue": 400,
+    "soul_strength": 20,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [3,8],
+      [3,8],
+      [3,8]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "cliff racer",
+  "FNAM": "Diseased Cliff Racer",
+  "SCRI": "diseaseHelljoint",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_racer_plumes"
+    }
+  ],
+  "NPCS": [
+    "helljoint"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 2000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,0,0,0,0,0,0,0]
+    }
+  ]
+}

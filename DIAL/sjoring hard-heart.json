@@ -1,0 +1,443 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "10598195842914226196": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1368823450872210624",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Regretably, you broke the rules of the Fighters Guild and you have been expelled. Make amends, and then I can speak with you about this again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1368823450872210624": {
+      "flag": 0,
+      "PNAM": "10598195842914226196",
+      "NNAM": "239495628700830035",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Although Sjoring Hard-Heart is dead, we must not rest easily. I fear there are troubling times ahead, not just for the Fighters Guild, but for all of Tamriel. Be wary and always ready for the threats yet to come. Use your position as Guildmaster to try and protect the Fighters Guild, not by allying with such as the Camonna Tong, but with hard work and high standards.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillHardHeart",
+          "__TV": 100
+        }
+      ]
+    },
+    "239495628700830035": {
+      "flag": 0,
+      "PNAM": "1368823450872210624",
+      "NNAM": "2601311142807014922",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Sjoring is already dead? I'm glad to hear it, %PCName. You've saved the Fighters Guild from the corruption of the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.",
+      "BNAM": "Journal FG_KillHardHeart 100\r\nPCRaiseRank\r\nPCRaiseRank\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_KillHardHeart",
+          "__TV": 0
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sjoring hard-heart",
+          "__TV": 1
+        }
+      ]
+    },
+    "2601311142807014922": {
+      "flag": 0,
+      "PNAM": "239495628700830035",
+      "NNAM": "2571320421097520523",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You have saved the Fighters Guild from Sjoring Hard-Heart and his allies in the Camonna Tong. As I promised, I am naming you the new Guildmaster. Congratulations, Master %PCName.",
+      "BNAM": "Journal FG_KillHardHeart 100\r\nPCRaiseRank\r\nPCRaiseRank\r\nModDisposition 25",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillHardHeart",
+          "__TV": 10
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sjoring hard-heart",
+          "__TV": 1
+        }
+      ]
+    },
+    "2571320421097520523": {
+      "flag": 0,
+      "PNAM": "2601311142807014922",
+      "NNAM": "830160843218527715",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You must kill the Guildmaster Sjoring Hard-Heart. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillHardHeart",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_KillHardHeart",
+          "__TV": 100
+        }
+      ]
+    },
+    "830160843218527715": {
+      "flag": 0,
+      "PNAM": "2571320421097520523",
+      "NNAM": "13713468844885334",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "There is one more step to freeing the Fighters Guild from corruption. You must kill the Guildmaster Sjoring Hard-Heart. Take this key, %PCName. It will let you into my private rooms. In the chests you will find two suits of armor. They were mine from years ago. They may help you fight Sjoring Hard-Heart. In spite of his faults, he's one of the best warriors in Vvardenfell, so be careful. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.",
+      "BNAM": "Player->AddItem \"Key_Persius Mercius\" 1\r\nJournal FG_KillHardHeart 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "FG_KillHardHeart",
+          "__TV": 10
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_KillCronies",
+          "__TV": 100
+        }
+      ]
+    },
+    "13713468844885334": {
+      "flag": 0,
+      "PNAM": "830160843218527715",
+      "NNAM": "31547305661085429731",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, %PCName. Make amends and speak with me again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "31547305661085429731": {
+      "flag": 0,
+      "PNAM": "13713468844885334",
+      "NNAM": "157232741256349268",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Sjoring Hard-Heart is dead. His vendetta is over.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_KillHardHeart",
+          "__TV": 100
+        }
+      ]
+    },
+    "157232741256349268": {
+      "flag": 0,
+      "PNAM": "31547305661085429731",
+      "NNAM": "240612790302534091",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "So Sjoring Hard-Heart is dead. Whatever his personal vendetta, he won't trouble our Guild again. The remaining leaders of the Fighters Guild are more sympathetic to us. Since you've saved the Thieves Guild here in Vvardenfell, I think you deserve this. It's the Skeleton Key--the most perfect tool ever created for lockpicking. I found it when I lived in Hammerfell. Use it wisely. Now, I have new jobs for you to do.",
+      "BNAM": "Journal TG_KillHardHeart 100\r\nPlayer->AddItem Skeleton_key 1\r\nModPCFacRep 15 \"Thieves Guild\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sjoring hard-heart",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_KillHardHeart",
+          "__TV": 10
+        }
+      ]
+    },
+    "240612790302534091": {
+      "flag": 0,
+      "PNAM": "157232741256349268",
+      "NNAM": "30204235622024525152",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "You already killed Sjoring, too, %PCName? What? You're the new Master of the Fighters Guild, too? Oh, what luck! With you in charge, I'm sure both guilds will prosper. Since you've saved the Thieves Guild here in Vvardenfell, I think you deserve this. It's the Skeleton Key--the most perfect tool ever created for lockpicking. I found it when I lived in Hammerfell. Use it wisely. Now, I have new jobs for you to do.",
+      "BNAM": "Journal TG_KillHardHeart 100\r\nPlayer->AddItem Skeleton_key 1\r\nModPCFacRep 15 \"Thieves Guild\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sjoring hard-heart",
+          "__TV": 1
+        }
+      ]
+    },
+    "30204235622024525152": {
+      "flag": 0,
+      "PNAM": "240612790302534091",
+      "NNAM": "140814791369423678",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "You already killed Sjoring, too, %PCName? Well, then. I guess that's settled. Sjoring Hard-Heart won't trouble our Guild again. Since you've saved the Thieves Guild here in Vvardenfell, I think you deserve this. It's the Skeleton Key--the most perfect tool ever created for lockpicking. I found when I lived in Hammerfell. Use it wisely. Now, I have new jobs for you to do.",
+      "BNAM": "Journal TG_KillHardHeart 100\r\nPlayer->AddItem Skeleton_key 1\r\nModPCFacRep 15 \"Thieves Guild\"\r\nModDisposition 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "sjoring hard-heart",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TG_KillHardHeart",
+          "__TV": 0
+        }
+      ]
+    },
+    "140814791369423678": {
+      "flag": 0,
+      "PNAM": "30204235622024525152",
+      "NNAM": "1289228943189657075",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "He's the head of the Fighters Guild here in Vvardenfell. We've tried bribes, blackmail, and even diplomacy. Sjoring has some personal stake in this. I don't know what, but even without the Camonna Tong's backing, he's already planning an attack on all our Guild halls. Go to the Fighters Guild here in Vivec. Kill Sjoring Hard-Heart and report back to me.",
+      "BNAM": "Journal TG_KillHardHeart 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_KillIenith",
+          "__TV": 100
+        }
+      ]
+    },
+    "1289228943189657075": {
+      "flag": 0,
+      "PNAM": "140814791369423678",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "stacey",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "We'll get back to him another time. For now, concentrate on your tasks at hand.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

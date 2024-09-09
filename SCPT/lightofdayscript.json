@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 298,
+    "local_var_size": 24
+  },
+  "SCTX": "Begin lightofdayScript\r\n\r\nfloat damage\r\nshort OnPCEquip\r\nshort doOnce\r\n\r\nif ( menumode == 1)\r\n\treturn\r\nendif\r\n\r\nif ( OnPCEquip == 1 )\r\n\tif ( PCVampire == 1 )\r\n\t\tset damage to -7\r\n\t\tset damage to ( damage * GetSecondsPassed )\r\n\t\tPlayer->ModCurrentHealth, Damage\r\n\t\t\tif ( doOnce == 0 )\r\n\t\t\t\tMessageBox \"Your had begins to blister and burn with the pain of a thousand suns. A voice echoes in your mind, 'Never shall you wield this, evil thing.'\"\t\r\n\t\t\t\tset doOnce to -1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( OnPCEquip != 1 )\r\n\tset doOnce to 0\r\nendif\r\n\r\nEnd lightofdayScript",
+  "SCVR": [
+    "OnPCEquip",
+    "doOnce",
+    "damage"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,9,9,32,115,1,0,32,61,61,32,49,6,1,7,17,32,71,9,80,67,86,97,109,112,105,114,101,32,61,61,32,49,5,1,102,1,0,7,32,45,49,32,55,32,42,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,42,12,1,6,112,108,97,121,101,114,50,17,102,1,0,0,6,1,2,9,32,115,2,0,32,61,61,32,48,0,16,140,0,89,111,117,114,32,104,97,100,32,98,101,103,105,110,115,32,116,111,32,98,108,105,115,116,101,114,32,97,110,100,32,98,117,114,110,32,119,105,116,104,32,116,104,101,32,112,97,105,110,32,111,102,32,97,32,116,104,111,117,115,97,110,100,32,115,117,110,115,46,32,65,32,118,111,105,99,101,32,101,99,104,111,101,115,32,105,110,32,121,111,117,114,32,109,105,110,100,44,32,39,78,101,118,101,114,32,115,104,97,108,108,32,121,111,117,32,119,105,101,108,100,32,116,104,105,115,44,32,101,118,105,108,32,116,104,105,110,103,46,39,0,0,5,1,115,2,0,7,32,45,49,32,49,32,42,9,1,9,1,9,1,6,1,1,9,32,115,1,0,32,33,61,32,49,5,1,115,2,0,2,32,48,9,1,1,1]
+}

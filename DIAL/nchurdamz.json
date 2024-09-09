@@ -1,0 +1,177 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "29024290244592357": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2090302034490291",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild. Until you make amends name, I can't talk to you about this contract.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2090302034490291": {
+      "flag": 0,
+      "PNAM": "29024290244592357",
+      "NNAM": "288663578786817540",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "There's no more to say about this.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_Nchurdamz",
+          "__TV": 110
+        }
+      ]
+    },
+    "288663578786817540": {
+      "flag": 0,
+      "PNAM": "2090302034490291",
+      "NNAM": "13255560723683523",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I heard Larienna has left Vvardenfell. She's allegedly looking for an unplundered Dwemer ruin near Blacklight. Some work unfinished I think.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Nchurdamz",
+          "__TV": 100
+        }
+      ]
+    },
+    "13255560723683523": {
+      "flag": 0,
+      "PNAM": "288663578786817540",
+      "NNAM": "9195317552314821510",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Larienna is dead? You were supposed to protect her, %PCName. Obviously I can't trust you. This is very disappointing.",
+      "BNAM": "Journal FG_Nchurdamz 110",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Larienna Macrina",
+          "__TV": 1
+        }
+      ]
+    },
+    "9195317552314821510": {
+      "flag": 0,
+      "PNAM": "13255560723683523",
+      "NNAM": "30319907730021203",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I heard Larienna was pleased with your work. Here's the 500 septims I owe you for this contract.",
+      "BNAM": "Journal FG_Nchurdamz 100\r\nModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 10\r\nPlayer->AddItem Gold_001 500",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_Nchurdamz",
+          "__TV": 90
+        }
+      ]
+    },
+    "30319907730021203": {
+      "flag": 0,
+      "PNAM": "9195317552314821510",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hrundi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Go to Nchurdamz, a Dwemer ruin far south of Sadrith Mora, and talk to Larienna Macrina. Help her clear out the necromancers there and report back to me. I'll mark the position on your map.",
+      "BNAM": "Journal FG_Nchurdamz 10\r\nShowMap Nchurdamz\r\n\"Larienna Macrina\"->Enable\r\ndaedroth_fg_nchur->Enable",
+      "SCVR": null
+    }
+  }
+}

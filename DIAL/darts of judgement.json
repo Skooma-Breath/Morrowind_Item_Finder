@@ -1,0 +1,320 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2804248222450826609": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1302832359562832012",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been kicked out of the Guild, %PCName. Better make amends, or no one's going to talk to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1302832359562832012": {
+      "flag": 0,
+      "PNAM": "2804248222450826609",
+      "NNAM": "253522969535623419",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've already reported back to me about the Darts of Judgement.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "TG_DartsJudgement",
+          "__TV": 100
+        }
+      ]
+    },
+    "253522969535623419": {
+      "flag": 0,
+      "PNAM": "1302832359562832012",
+      "NNAM": "254145780283283149",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's 2000 septims for the Darts. You've done pretty good work for me, %PCRank. If you've got a price on your head, I'll see if I can't take care of it.",
+      "BNAM": "Journal TG_DartsJudgement 100\r\nPlayer->RemoveItem dart_uniq_Judgement 4\r\nPlayer->AddItem Gold_001 2000\r\nModPCFacRep 5 \"Thieves Guild\"\r\nModDisposition 15\r\nSetPCCrimeLevel 0\r\nPayFineThief",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "dart_uniq_judgement",
+          "__TV": 4
+        }
+      ]
+    },
+    "254145780283283149": {
+      "flag": 0,
+      "PNAM": "253522969535623419",
+      "NNAM": "1486412527258484984",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's 1500 septims for the Darts. You've done pretty good work for me, %PCRank. If you've got a price on your head, I'll see if I can't take care of it.",
+      "BNAM": "Journal TG_DartsJudgement 100\r\nPlayer->RemoveItem dart_uniq_Judgement 3\r\nPlayer->AddItem Gold_001 1500\r\nModPCFacRep 4 \"Thieves Guild\"\r\nModDisposition 10\r\nSetPCCrimeLevel 0\r\nPayFineThief",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "dart_uniq_judgement",
+          "__TV": 3
+        }
+      ]
+    },
+    "1486412527258484984": {
+      "flag": 0,
+      "PNAM": "254145780283283149",
+      "NNAM": "25742108381534816858",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's 1000 septims for the Darts. You've done pretty good work for me, %PCRank. If you've got a price on your head, I'll see if I can't take care of it.",
+      "BNAM": "Journal TG_DartsJudgement 100\r\nPlayer->RemoveItem dart_uniq_Judgement 2\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 3 \"Thieves Guild\"\r\nModDisposition 7\r\nSetPCCrimeLevel 0\r\nPayFineThief",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "dart_uniq_judgement",
+          "__TV": 2
+        }
+      ]
+    },
+    "25742108381534816858": {
+      "flag": 0,
+      "PNAM": "1486412527258484984",
+      "NNAM": "128451230346628089",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's 500 septims for the Dart. You've done pretty good work for me, %PCRank. If you've got a price on your head, I'll see if I can't take care of it.",
+      "BNAM": "Journal TG_DartsJudgement 100\r\nPlayer->RemoveItem dart_uniq_Judgement 1\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 2 \"Thieves Guild\"\r\nModDisposition 5\r\nSetPCCrimeLevel 0\r\nPayFineThief",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "dart_uniq_judgement",
+          "__TV": 1
+        }
+      ]
+    },
+    "128451230346628089": {
+      "flag": 0,
+      "PNAM": "25742108381534816858",
+      "NNAM": "2324377901351912514",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "You put them to good use, then. You've done pretty good work for me, %PCRank. If you've got a price on your head, I'll see if I can't take care of it.",
+      "BNAM": "Journal TG_DartsJudgement 105\r\nSetPCCrimeLevel 0\r\nPayFineThief",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2324377901351912514": {
+      "flag": 0,
+      "PNAM": "128451230346628089",
+      "NNAM": "255911509131683354",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "So you found the Darts of Judgement. Do you want to keep them or sell them to the Guild?",
+      "BNAM": "Choice \"Give him the darts\" 1 \"Keep the darts\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "dart_uniq_judgement",
+          "__TV": 1
+        }
+      ]
+    },
+    "255911509131683354": {
+      "flag": 0,
+      "PNAM": "2324377901351912514",
+      "NNAM": "3254929206812423775",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aengoth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "Eindel has four Darts of Judgement. They're very rare arrows made in my home province of Valenwood. Eindel is a guard at Llethri Manor in Ald'ruhn. If you find the Darts there, feel free to use them, but the Guild will pay good money if you don't want them.",
+      "BNAM": "Journal TG_DartsJudgement 10",
+      "SCVR": null
+    },
+    "3254929206812423775": {
+      "flag": 0,
+      "PNAM": "255911509131683354",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eindel",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's none of your business.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

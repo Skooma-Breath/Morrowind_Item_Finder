@@ -1,0 +1,82 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Noble",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Baren Alen",
+  "SCRI": "barenAlenScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 8
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "bk_stronghold_ld_hlaalu"
+    },
+    {
+      "count": 1,
+      "name": "key_hvaults1"
+    }
+  ],
+  "NPCS": [
+    "righteousness",
+    "blood gift",
+    "balyna's efficacious balm",
+    "balyna's perfect balm",
+    "balyna's soothing balm",
+    "regenerate",
+    "rapid regenerate",
+    "strong heal companion",
+    "veloth's benison",
+    "veloth's gift",
+    "heal companion",
+    "mother's kiss"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 83,
+    "magicka": 106,
+    "fatigue": 188,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [50,53,39,54,69,45,58,50],
+    "skills": [32,15,15,15,15,20,15,15,52,6,16,6,6,6,11,23,6,6,38,23,23,28,48,11,55,38,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

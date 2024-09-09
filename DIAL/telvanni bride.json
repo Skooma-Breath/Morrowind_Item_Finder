@@ -1,0 +1,590 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "18294124081883425261": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "23585283422667725",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Indeed, she is charming, outlander. Thank you again.",
+      "BNAM": ";Ashkhan Kaushad; Journal \"B3_ZainabBride\" >= 60",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 60
+        }
+      ]
+    },
+    "23585283422667725": {
+      "flag": 0,
+      "PNAM": "18294124081883425261",
+      "NNAM": "173684618123225277",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "[whispering] Psst! Outlander! Do not think me such a fool. Of course I realize you have tricked me. I do not mind. In fact, I think you are very clever to hoodwink the chief of the Zainab, and I think that maybe a clever Nerevarine is not such a bad thing at all. Besides, now I am MUCH happier with this fine young woman than I would have been with a stuck-up Telvanni lady. And here is a little gift. From me. Perhaps when you wear it, you will think of Falura Llervu and me.",
+      "BNAM": ";Ashkhan Kaushad; Journal \"B3_ZainabBride\" >= 55; \r\nJournal \"B3_ZainabBride\" 60\r\nplayer->additem \"Exquisite_Shirt_01_Wedding\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 55
+        }
+      ]
+    },
+    "173684618123225277": {
+      "flag": 0,
+      "PNAM": "23585283422667725",
+      "NNAM": "1772430844181427661",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have named you Zainab Nerevarine and given you the Zainab Thong.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "1772430844181427661": {
+      "flag": 0,
+      "PNAM": "173684618123225277",
+      "NNAM": "1357831872547726721",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is my new bride? I am very pleased with your gift, %PCName... though she is not so generous in the hips as I would like. I promise to make her a happy bride, and to do her honor as a high-born Telvanni lady. And, as I have said, I will now name you Zainab Nerevarine, War Leader of the Zainab, and Protector of the People. I must also give you the Zainab Thong, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Zainab have named you Nerevarine.",
+      "BNAM": ";Ashkhan Kaushad; Journal \"B3_ZainabBride\" >= 47; \r\nJournal \"B3_ZainabBride\" 50\r\nModDisposition 20\r\nPlayer->ModReputation 1\r\nPlayer->additem \"Thong\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 47
+        }
+      ]
+    },
+    "1357831872547726721": {
+      "flag": 0,
+      "PNAM": "1772430844181427661",
+      "NNAM": "2929320962185013745",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There are preparations to make for my marriage, but everything will be ready when you return with my high-born Telvanni bride.",
+      "BNAM": ";Ashkhan Kaushad; Journal \"B3_ZainabBride\" >= 22",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        }
+      ]
+    },
+    "2929320962185013745": {
+      "flag": 0,
+      "PNAM": "1357831872547726721",
+      "NNAM": "717026031309014817",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "therana",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's lovely, dear, but I don't think so. I have so much to do around here. Besides, I'm already married. I'm fairly sure. Avos. Or Aven. I think. Little fellow. He's around here somewhere. Some sort of magic thing. Quite funny, actually. Did I tell you? About how easy it is to get those caretellian coordinates mixed up? Oh, dear... really quite a laugh. Quite funny. Yes, indeed. Ehr.... What were we talking about?",
+      "BNAM": "; Therana;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "717026031309014817": {
+      "flag": 0,
+      "PNAM": "2929320962185013745",
+      "NNAM": "231186656100951150",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "felisa ulessen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't think so. Not even as a joke. No. Definitely. Not funny.",
+      "BNAM": ";Felisa Ulessen",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "231186656100951150": {
+      "flag": 0,
+      "PNAM": "717026031309014817",
+      "NNAM": "89523009797168803",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dratha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are not thinking clearly. Or you could never say such a thing. I may forgive you, but please do not bring the subject up again.",
+      "BNAM": "; Dratha; PC = female; \r\nmodDisposition -10\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "89523009797168803": {
+      "flag": 0,
+      "PNAM": "231186656100951150",
+      "NNAM": "22402153241365531136",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dratha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you. I don't think I realized that, after a long life like mine, I might ever hear something as stupid and offensive as that. If I had, I would have prepared more carefully -- perhaps by burning you to a crisp before you could speak. I believe you will leave now.",
+      "BNAM": "; Dratha; PC = Male; \r\nmodDisposition -40\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "22402153241365531136": {
+      "flag": 0,
+      "PNAM": "89523009797168803",
+      "NNAM": "1022621123501912804",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have some advice for you. Do not even think of bringing this subject up with Mistress Dratha. I don't believe I can put this strongly enough. Do. Not.",
+      "BNAM": "; Raven Omayn",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "1022621123501912804": {
+      "flag": 0,
+      "PNAM": "22402153241365531136",
+      "NNAM": "27581296172054727784",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "aryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. Well. No one can say you are too conventional. No. On careful reflection, I believe that a marriage of a Telvanni noble to an Ashlander ashkhan is impossible for all known definitions of possible. [Chuckle.] Sorry. Didn't mean to... [Chuckle.] Well.... You must admit, it does sound a rather silly idea, doesn't it?",
+      "BNAM": ";aryon",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "27581296172054727784": {
+      "flag": 0,
+      "PNAM": "1022621123501912804",
+      "NNAM": "1560681102485914094",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galos mathendis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's a very original idea. I don't believe it has ever existed before. It is an idea that ought to go out of existence. Immediately.",
+      "BNAM": "; Galos Mathendis;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "1560681102485914094": {
+      "flag": 0,
+      "PNAM": "27581296172054727784",
+      "NNAM": "2501518882903012633",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is completely stupid. Remarkably stupid. You must shut up more often.",
+      "BNAM": ";neloth\r\nmodDisposition 10\r\ngoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "2501518882903012633": {
+      "flag": 0,
+      "PNAM": "1560681102485914094",
+      "NNAM": "20430318221345016206",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "arara uvulas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't think you should even discuss that with Master Neloth. I don't think it's a good idea at all.",
+      "BNAM": ";Arara Uvulas",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "20430318221345016206": {
+      "flag": 0,
+      "PNAM": "2501518882903012633",
+      "NNAM": "22186287112069725708",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gothren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A Telvanni noble wed an Ashlander? If this is the beginning of a joke, I am not amused.",
+      "BNAM": "; Gothren;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "22186287112069725708": {
+      "flag": 0,
+      "PNAM": "20430318221345016206",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mallam ryon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is absurd. A Telvanni noble wed an Ashlander? Never.",
+      "BNAM": "; Mallam Ryon",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 22
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Guard",
+  "ANAM": "Royal Guard",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_17",
+  "MODL": null,
+  "FNAM": "Royal Guard",
+  "SCRI": "karrodguardScript",
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony longsword"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_boots"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_greaves"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_Helmet"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 45,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

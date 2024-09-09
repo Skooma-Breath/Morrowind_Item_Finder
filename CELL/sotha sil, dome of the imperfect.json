@@ -1,0 +1,667 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 1,
+    "grid": [1315880,1065353216]
+  },
+  "NAME": "Sotha Sil, Dome of the Imperfect",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,40,40,0],
+    "sunlight": [40,30,30,0],
+    "fog_color": [40,20,20,0],
+    "fog_density": 1
+  },
+  "FRMR": {
+    "1-21662": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Imperfect",
+      "DATA": [4125.69140625,4852.84033203125,12289.7060546875,0,0,3.3999998569488525]
+    },
+    "1-11681": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "door_sotha_load",
+      "DATA": [3904,3168,12384,0,0,0]
+    },
+    "1-11682": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "door_sotha_imp_door",
+      "DATA": [3904,5024,12384,0,0,0]
+    },
+    "1-25622": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_fabsteam",
+      "DATA": [4154.39697265625,5026.40576171875,12526.7138671875,0,0,0.30000001192092896]
+    },
+    "1-11683": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_dome00",
+      "DATA": [3904,4096,12288,0,0,0]
+    },
+    "1-11685": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_doorjam00",
+      "DATA": [3904,5056,12288,0,0,3.1415927410125732]
+    },
+    "1-11686": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_sotha_doorjam00",
+      "DATA": [3904,3136,12288,0,0,0]
+    },
+    "1-14194": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_sotha_sparks_hi",
+      "DATA": [3904,4096,13400,0,0,0]
+    },
+    "1-14195": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3098.82373046875,4261.35546875,12915.8876953125,0.5,3.983187198638916,0]
+    },
+    "1-14196": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3188.3935546875,4387.2626953125,12903.8837890625,5.783185958862305,0.8000000715255737,6.08318567276001]
+    },
+    "1-14197": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [3086.61181640625,3828.319091796875,12831.13671875,1.100000023841858,4.883184432983398,0.7000000476837158]
+    },
+    "1-14198": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3167.3681640625,4015.564453125,12999.9189453125,5.883185863494873,3.983185052871704,3.500000238418579]
+    },
+    "1-14199": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3167.572509765625,3853.262939453125,12969.91796875,1.000001311302185,4.299998760223389,0]
+    },
+    "1-14200": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3110.489501953125,4100.35400390625,12785.8427734375,0.10000000149011612,1.100000023841858,6.183185577392578]
+    },
+    "1-14201": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "XSCL": 1.53000009059906,
+      "DATA": [3233.503662109375,4223.57080078125,12990.841796875,0,4.099999904632568,0]
+    },
+    "1-14202": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3223.6416015625,3611.0595703125,12845.248046875,1.6999995708465576,5.783185958862305,4.366373062133789]
+    },
+    "1-14203": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3428.48681640625,3783.26806640625,13171.6953125,2.4000003337860107,5.883184909820557,0]
+    },
+    "1-14204": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3353.524169921875,3954.482177734375,13125.462890625,0,1.0000001192092896,0]
+    },
+    "1-14205": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [3300.17822265625,3718.656494140625,13026.794921875,2.500000238418579,5.399998664855957,4.283185958862305]
+    },
+    "1-14206": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3316.892578125,4418.833984375,13091.833984375,0.9000000953674316,4.099999904632568,0]
+    },
+    "1-14207": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3209.639404296875,4600.63037109375,12814.4716796875,4.283187389373779,5.5,0.20000000298023224]
+    },
+    "1-14208": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "XSCL": 0.7200000286102295,
+      "DATA": [3281.439208984375,4536.32568359375,12912.552734375,1.2000001668930054,0.7000000476837158,1]
+    },
+    "1-14209": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [3379.45263671875,4120.833984375,13201.0517578125,3.583188056945801,5.683185577392578,0]
+    },
+    "1-14210": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3666.160888671875,4590.6669921875,13220.0458984375,0.8000000715255737,3.1831860542297363,1.8000000715255737]
+    },
+    "1-14211": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3486.90283203125,4675.39892578125,13055.4111328125,1.1000001430511475,3.5831878185272217,5.683185577392578]
+    },
+    "1-14212": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3634.84765625,4717.3701171875,13014.40625,3.983186721801758,2.6999998092651367,0.3999999165534973]
+    },
+    "1-14213": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [3789.527587890625,4613.72021484375,13198.4697265625,4.083187103271484,0,0.10000000149011612]
+    },
+    "1-14214": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3442.354736328125,4830.70263671875,12862.6142578125,1.2000001668930054,3.483187675476074,0.10000000149011612]
+    },
+    "1-14215": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3265.890869140625,4125.93359375,13109.75,3.2831878662109375,5.09999942779541,5.983185768127441]
+    },
+    "1-14216": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3612.610107421875,4887.15625,12849.767578125,1.1000001430511475,0.1000000461935997,6.183185577392578]
+    },
+    "1-14217": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [3705.842529296875,4868.05908203125,12961.080078125,3.9831857681274414,0.01681232452392578,3.1831858158111572]
+    },
+    "1-14218": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3832.85205078125,4778.1396484375,13043.4560546875,4.383187294006348,6.099998950958252,0]
+    },
+    "1-14219": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3911.2275390625,4675.61328125,13167.080078125,4.283187389373779,5.999999523162842,0.30000001192092896]
+    },
+    "1-14220": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [4039.0947265625,4607.49658203125,13149.2294921875,0.6999999284744263,0.10000000149011612,0]
+    },
+    "1-14221": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [4175.85205078125,4516.61279296875,13214.37109375,4.583187103271484,0.40000003576278687,6.183185577392578]
+    },
+    "1-14222": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [4203.54248046875,4611.9560546875,13097.0966796875,0.7000000476837158,2.8999996185302734,6.183185577392578]
+    },
+    "1-14223": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [4021.802734375,4819.88330078125,13022.623046875,4.283186435699463,6.08318567276001,0]
+    },
+    "1-14224": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3854.5927734375,4921.61376953125,12839.6923828125,1.2000000476837158,0.01681375503540039,0.8000000715255737]
+    },
+    "1-14225": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [4150.900390625,4786.7412109375,13005.05078125,4.383186340332031,0.19999989867210388,6.183185577392578]
+    },
+    "1-14226": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [4363.6845703125,4808.1162109375,12904.4697265625,4.383187294006348,0.3999999761581421,6.183185577392578]
+    },
+    "1-14227": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "XSCL": 1.3200000524520874,
+      "DATA": [4181.75341796875,4891.41015625,12851.455078125,4.4831862449646,0.39999985694885254,0]
+    },
+    "1-14228": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [4027.2607421875,4861.3076171875,12789.6748046875,1.1000001430511475,6.183185577392578,0]
+    },
+    "1-14229": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "XSCL": 1.540000081062317,
+      "DATA": [4606.193359375,4596.087890625,12819.64453125,4.499998569488525,0.9831863641738892,1.2000000476837158]
+    },
+    "1-14230": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [4687.7998046875,4458.87890625,12786.9453125,1.2000001668930054,2.083188056945801,5.983185768127441]
+    },
+    "1-14231": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [4755.8095703125,4279.435546875,12801.0341796875,2.1000001430511475,1.999999761581421,0.10000000149011612]
+    },
+    "1-14232": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [4704.1904296875,4141.41259765625,12806.4921875,0.7000000476837158,4.499999523162842,0.20000000298023224]
+    },
+    "1-14233": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [4789.2919921875,3976.174072265625,12777.265625,4.299999713897705,1.4831879138946533,0]
+    },
+    "1-14234": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [4747.90625,3856.863037109375,12780.30078125,1.4000002145767212,1.3831857442855835,6.183185577392578]
+    },
+    "1-14235": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "XSCL": 1.7300001382827759,
+      "DATA": [4591.1416015625,3639.419921875,12805.208984375,4.683186054229736,2.499999523162842,0]
+    },
+    "1-14236": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [4604.994140625,3804.90380859375,12962.28515625,0,5.183186054229736,5.7831854820251465]
+    },
+    "1-14237": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [4700.119140625,3993.382080078125,12925.251953125,1.3000001907348633,1.2831885814666748,5.583186149597168]
+    },
+    "1-14238": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [4696.0478515625,4274.85986328125,12929.974609375,1.3000001907348633,1.7831882238388062,6.183185577392578]
+    },
+    "1-14239": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [4592.9560546875,4465.79638671875,12940.4931640625,4.583186149597168,1,0]
+    },
+    "1-14240": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [4461.455078125,4433.27587890625,13061.9267578125,0.7000000476837158,5.283186435699463,6.08318567276001]
+    },
+    "1-14241": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [4656.8349609375,4104.95361328125,12997.78125,1.3000001907348633,1.7831863164901733,6.08318567276001]
+    },
+    "1-14242": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [4536.595703125,4210.42822265625,13180.185546875,3.1999990940093994,0.8831875324249268,0]
+    },
+    "1-14243": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [4626.86328125,3972.649658203125,13030.95703125,1.4000000953674316,1.0831860303878784,6.183185577392578]
+    },
+    "1-14244": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [4394.0458984375,3817.363037109375,13164.220703125,5.583186149597168,5.783185958862305,6.183185577392578]
+    },
+    "1-14245": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [4498.580078125,3992.601318359375,13168.1650390625,0,2.299999952316284,0]
+    },
+    "1-14246": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "XSCL": 1.78000009059906,
+      "DATA": [3945.271240234375,3253.557861328125,12818.2568359375,4.983186721801758,3.0999996662139893,0]
+    },
+    "1-14247": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3621.869140625,3275.147705078125,12796.107421875,2.1000001430511475,5.783185958862305,6.08318567276001]
+    },
+    "1-14248": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3452.071533203125,3397.462890625,12822.154296875,5.083186626434326,0.8000000715255737,0.10000000149011612]
+    },
+    "1-14249": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [3620.3896484375,3331.535400390625,12906.3095703125,2.1000001430511475,5.783185958862305,0]
+    },
+    "1-14250": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3478.2744140625,3463.524658203125,12997.970703125,1.8831875324249268,5.383186340332031,0.10000000149011612]
+    },
+    "1-14251": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [3664.16455078125,3493.30419921875,13071.3779296875,2.200000047683716,0,0]
+    },
+    "1-14252": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [3667.490966796875,3637.32861328125,13178.603515625,5.383186340332031,0.5,0]
+    },
+    "1-14253": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [3726.2919921875,3319.318115234375,12981.7373046875,2.299999952316284,0,0]
+    },
+    "1-14254": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [3861.624755859375,3522.47998046875,13198.849609375,2.499999761581421,5.983185768127441,5.883185863494873]
+    },
+    "1-14255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "XSCL": 1.5600000619888306,
+      "DATA": [4034.3525390625,3456.389404296875,13075.2333984375,2.200000047683716,0.30000001192092896,0]
+    },
+    "1-14256": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "XSCL": 1.1100000143051147,
+      "DATA": [4305.119140625,3435.377197265625,12797.5068359375,5.4831862449646,5.383186340332031,0.20000000298023224]
+    },
+    "1-14257": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear02",
+      "DATA": [4187.85107421875,3350.993408203125,12949.919921875,2.1000001430511475,0.5000009536743164,0]
+    },
+    "1-14258": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear03",
+      "DATA": [4296.5244140625,3467.8330078125,13034.0322265625,2.383188009262085,0.4000000059604645,0.20000000298023224]
+    },
+    "1-14259": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear00",
+      "DATA": [4228.2734375,3614.875244140625,13167.5712890625,2.299999952316284,0.20000001788139343,5.883185863494873]
+    },
+    "1-14260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "act_sotha_long_gear01",
+      "DATA": [4065.36669921875,3654.503662109375,13133.5654296875,5.283185005187988,6.083186149597168,0.10000000149011612]
+    },
+    "1-21771": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [4728.64599609375,4033.1611328125,12718.7529296875,0,0,0]
+    },
+    "1-21772": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [3897.467041015625,3379.273193359375,12718.7529296875,0,0,0]
+    },
+    "1-21773": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [3141.890380859375,4100.501953125,12718.7529296875,0,0,0]
+    },
+    "1-21774": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Gears",
+      "DATA": [3917.734619140625,4911.71826171875,12718.7529296875,0,0,0]
+    },
+    "1-24752": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Sotha_Amb",
+      "DATA": [3843.32763671875,4052.41552734375,12529.8642578125,0,0,0]
+    },
+    "1-26405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Broken_Imperfect",
+      "DATA": [3618.90869140625,4891.2958984375,12285.7373046875,0,0,2.799999475479126]
+    }
+  }
+}

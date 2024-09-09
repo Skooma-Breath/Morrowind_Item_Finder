@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 66,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin voduniusScript \r\nif ( CellChanged == 0 ) \r\n\tReturn \r\nendif \r\nif ( GetJournalIndex MS_Nuccius >= 100 ) \r\n\tif ( GetDisabled == 0 ) \r\n\t\tDisable \r\n\tendif \r\nendif \r\nEnd\r\n",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,3,24,32,88,205,16,32,100,10,77,83,95,78,117,99,99,105,117,115,32,62,61,32,49,48,48,6,1,1,9,32,88,220,16,32,61,61,32,48,219,16,9,1,9,1,1,1]
+}

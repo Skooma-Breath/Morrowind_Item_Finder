@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Assassin",
+  "ANAM": "Morag Tong",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Eno Hlaalu",
+  "SCRI": "enoHlaaluScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "glass dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_l_moragtong"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_r_moragtong"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_03_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 28,
+    "health": 227,
+    "magicka": 176,
+    "fatigue": 305,
+    "disposition": 50,
+    "reputation": 20,
+    "rank": 9,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [97,88,52,100,100,56,46,40],
+    "skills": [42,8,8,8,8,47,8,8,47,8,18,8,8,8,13,8,42,80,60,76,76,80,86,80,26,26,26]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

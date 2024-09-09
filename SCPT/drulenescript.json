@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 139,
+    "local_var_size": 20
+  },
+  "SCTX": "Begin druleneScript\r\n\r\n;Checks for the player to sell \"Corky.\"\r\n;Corky must be nearby (1000 units) and must be following the player.\r\n;Might need some revision...\r\n\r\nshort corkyFollow\r\n;same name as llovyn andus' thing... is 1 when Corky meets sale conditions\r\n\r\nfloat counter\r\n;keeps the distance check overhead at a minimum\r\n\r\nif ( corkyFollow == 2 )\r\n\tReturn\r\n\t;set in dialogue when you \"sell\" Corky... script does not run again\r\nendif\r\n\r\nif ( counter < 3 )\r\n\tSet counter to ( counter + GetSecondsPassed )\r\nendif\r\n\r\nSet counter to 0\r\n\r\nif ( \"guar_llovyn_unique\"->GetCurrentAiPackage == 3 )\r\n\tif ( GetDistance \"guar_llovyn_unique\" < 1000 )\r\n\t\tSet corkyFollow to 1\r\n\tendif\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "corkyFollow",
+    "counter"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,50,36,1,9,1,6,1,1,8,32,102,1,0,32,60,32,51,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,9,1,5,1,102,1,0,2,32,48,12,1,18,103,117,97,114,95,108,108,111,118,121,110,95,117,110,105,113,117,101,6,1,3,9,32,88,250,16,32,61,61,32,51,6,1,1,32,32,88,1,16,32,114,18,103,117,97,114,95,108,108,111,118,121,110,95,117,110,105,113,117,101,32,60,32,49,48,48,48,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

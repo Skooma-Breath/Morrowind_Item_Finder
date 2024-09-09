@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 101,
+    "local_var_size": 0
+  },
+  "SCTX": "begin BILL_TT_Tanusea_Veloth\r\n; quest behaveour for TT_DiseaseCarrier quest\r\n; basically checks to see if she's been killed\r\n\r\n; script location: should be placed on Tanusea Veloth\r\n\r\n; variables\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\t; when we are killed...\r\n\tif ( GetJournalIndex \"TT_DiseaseCarrier\" > 0 )\r\n\t\t; ... and if the player is on the quest ...\r\n\t\tPlayer->Journal \"TT_DiseaseCarrier\" 40\t\t; killed us\r\n\tendif\r\nendif\r\n\r\nend BILL_TT_Tanusea_Veloth",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,3,9,32,88,240,16,32,61,61,32,49,6,1,1,28,32,88,205,16,32,100,17,84,84,95,68,105,115,101,97,115,101,67,97,114,114,105,101,114,32,62,32,48,12,1,6,112,108,97,121,101,114,204,16,17,84,84,95,68,105,115,101,97,115,101,67,97,114,114,105,101,114,40,0,255,255,9,1,9,1,1,1]
+}

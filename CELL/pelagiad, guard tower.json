@@ -1,0 +1,631 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [2241090,1061158912]
+  },
+  "NAME": "Pelagiad, Guard Tower",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [75,60,60,0],
+    "sunlight": [80,60,20,0],
+    "fog_color": [66,50,34,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-311390": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Imperial Guard",
+      "DATA": [640.8345947265625,-257.4023742675781,-755.8910522460938,0,0,4.583186626434326]
+    },
+    "0-14201": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_loaddoor_01",
+      "DATA": [256,-512,-384,0,0,4.71238899230957]
+    },
+    "0-22859": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_trapdoor_01a",
+      "DATA": [256,-384,128,0,0,4.71238899230957]
+    },
+    "0-14202": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_imp_weapons",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-14.47187614440918,-219.89892578125,-736,0,0,5.097787857055664]
+    },
+    "0-14207": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_imp_arms",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 40,
+      "DATA": [631.588134765625,-110.59037017822266,-746.9130859375,0,0,1.5707963705062866]
+    },
+    "0-14211": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01",
+      "DATA": [435.8896484375,-256.39483642578125,-625.50390625,0,0,1.5707963705062866]
+    },
+    "0-14212": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "imperial helmet armor",
+      "ANAM": "Imperial Guard",
+      "INTV": 150,
+      "NAM9": 1,
+      "DATA": [735.5659790039062,-353.2699890136719,-708.5,6.230825424194336,6.213372230529785,2.2008602619171143]
+    },
+    "0-22856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "key_standard_01_pel_guard_tower",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [709.65087890625,-426.4051208496094,-713.2681884765625,0,0,4.483187198638916]
+    },
+    "0-22857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_com_bed_04",
+      "ANAM": "Imperial Guard",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [760.173583984375,-111.07939147949219,-736.7001342773438,0,0,0]
+    },
+    "0-22858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01",
+      "DATA": [135.346435546875,-459.41778564453125,-624.2949829101562,0,0,0]
+    },
+    "0-14186": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_01",
+      "DATA": [256,-384,-128,0,0,3.1415927410125732]
+    },
+    "0-14187": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_01",
+      "DATA": [256,-384,128,0,0,3.1415927410125732]
+    },
+    "0-14188": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_bot_01",
+      "DATA": [0,-256,-640,0,0,1.5707963705062866]
+    },
+    "0-14189": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_end_01",
+      "DATA": [256,-384,0,0,0,1.5707963705062866]
+    },
+    "0-14190": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [280,-384,-256,0,0,3.1415927410125732]
+    },
+    "0-14191": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [256,-384,-256,0,0,4.71238899230957]
+    },
+    "0-14192": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [280,-384,-512,0,0,3.1415927410125732]
+    },
+    "0-14193": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_wall_01",
+      "DATA": [256,-384,-768,0,0,4.71238899230957]
+    },
+    "0-14195": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [384,-384,-640,0,0,6.2831854820251465]
+    },
+    "0-14196": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_doorjam_01",
+      "DATA": [256,-512,-384,0,0,1.5707963705062866]
+    },
+    "0-14197": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_spiral_01",
+      "DATA": [256,-384,-384,0,0,3.1415927410125732]
+    },
+    "0-14198": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_r_corner_01",
+      "DATA": [768,-384,-640,0,0,3.1415927410125732]
+    },
+    "0-14199": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_r_corner_01",
+      "DATA": [512,-128,-640,0,0,6.2831854820251465]
+    },
+    "0-14200": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_r_corner_01",
+      "DATA": [768,-128,-640,0,0,1.5707963705062866]
+    },
+    "0-14203": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_impsmall_r_entr_03",
+      "DATA": [512,-384,-640,0,0,0]
+    },
+    "0-14208": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_03",
+      "DATA": [726.9396362304688,-383.8417053222656,-743.4227294921875,0,0,0]
+    },
+    "0-14209": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [644.4797973632812,-435.75885009765625,-731.5756225585938,0,0,3.231194257736206]
+    },
+    "0-14210": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [777.182373046875,-281.2369384765625,-731.9511108398438,0,0,0.7853981852531433]
+    },
+    "0-311391": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [382.8041076660156,-772.26171875,-687.9998779296875,0,0,0]
+    },
+    "0-320983": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01",
+      "DATA": [814.0736694335938,-217.11239624023438,-631.0341796875,0,0,0]
+    },
+    "0-320984": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.1700000762939453,
+      "DATA": [538.9983520507812,-255.9189910888672,-769.4384765625,0,0,1.5749996900558472]
+    },
+    "0-320985": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_redware_bowl",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [762.1804809570312,-394.3278503417969,-710.768798828125,0,0,0]
+    },
+    "0-320986": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [707.5819702148438,-413.2117919921875,-698.8886108398438,0,0,0.8499999642372131]
+    },
+    "0-320987": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [725.273681640625,-413.33697509765625,-699.9387817382812,0,0,1.7250001430511475]
+    },
+    "0-320988": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [705.3594360351562,-401.8410339355469,-698.8886108398438,0,0,0.675000011920929]
+    },
+    "0-320989": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_01",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [730.0517578125,-395.0977783203125,-700.119873046875,0,0,6.08318567276001]
+    },
+    "0-320990": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [691.1820068359375,-381.5710144042969,-709.218994140625,0,0,0]
+    },
+    "0-320991": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_01",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [750.0874633789062,-367.6664123535156,-709.2185668945312,0,0,0]
+    },
+    "0-320992": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [423.29071044921875,-80.50773620605469,-732.74560546875,0,0,5.808185577392578]
+    },
+    "0-320993": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [452.79693603515625,-41.178466796875,-732.7456665039062,0,0,0]
+    },
+    "0-320994": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [504.4298400878906,-36.149757385253906,-732.74560546875,0,0,5.808185577392578]
+    },
+    "0-320995": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [415.67572021484375,-118.24166107177734,-747.7757568359375,0,0,3.1000003814697266]
+    },
+    "0-320996": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [460.2521057128906,-78.29493713378906,-745.4954223632812,0,0,2.3000001907348633]
+    },
+    "0-320998": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [555.8617553710938,-35.18158721923828,-762.3152465820312,0,0,0]
+    },
+    "0-320999": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [558.607666015625,-30.263713836669922,-752.6432495117188,0,0,0.07500000298023224]
+    },
+    "0-320997": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [557.1110229492188,-29.6299991607666,-744.6389770507812,0,0,3.159045934677124]
+    },
+    "0-367998": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01",
+      "DATA": [135.5678253173828,-459.8893127441406,142.9815673828125,0,0,0]
+    },
+    "0-367999": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01",
+      "DATA": [135.19248962402344,-459.75286865234375,-368.1148986816406,0,0,6.2831854820251465]
+    },
+    "0-368000": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_sconce_01",
+      "DATA": [135.5678253173828,-459.8893127441406,-111.07913970947266,0,0,0]
+    },
+    "0-368001": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dark_128",
+      "DATA": [61.42731475830078,-86.35960388183594,-756.7962646484375,0,0,0]
+    },
+    "0-368002": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "Imperial Guard",
+      "INTV": 3212836864,
+      "NAM9": 1,
+      "DATA": [714.84814453125,-372.0880432128906,-708.1708984375,0,0,0]
+    },
+    "0-368003": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Weaponrack_01",
+      "DATA": [455.7407531738281,-496.4874572753906,-657.1060180664062,0,0,3.1415927410125732]
+    },
+    "0-368004": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Weaponrack_01",
+      "DATA": [570.9501342773438,-496.4874572753906,-657.1060180664062,0,0,3.1415927410125732]
+    },
+    "0-368005": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Weaponrack_01",
+      "DATA": [479.6417236328125,-496.4874572753906,-657.1060180664062,0,0,3.1415927410125732]
+    },
+    "0-368006": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "steel staff",
+      "ANAM": "Imperial Guard",
+      "INTV": 300,
+      "NAM9": 1,
+      "DATA": [523.056396484375,-493.7291259765625,-683.0538940429688,0,0,1.5707963705062866]
+    },
+    "0-368007": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "steel broadsword",
+      "ANAM": "Imperial Guard",
+      "INTV": 600,
+      "NAM9": 1,
+      "DATA": [518.575439453125,-494.2012939453125,-658.5845947265625,1.0000004768371582,0,1.5707963705062866]
+    },
+    "0-368008": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Weaponrack_01",
+      "DATA": [541.9000244140625,-496.4874572753906,-657.1060180664062,0,0,3.1415927410125732]
+    },
+    "0-368009": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Weaponrack_01",
+      "DATA": [514.1292114257812,-496.4874572753906,-657.1060180664062,0,0,3.1415927410125732]
+    },
+    "0-368010": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron longsword",
+      "ANAM": "Imperial Guard",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [460.916259765625,-493.4269714355469,-633.0265502929688,0.40000003576278687,0,1.5707963705062866]
+    },
+    "0-368011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "imperial shortsword",
+      "ANAM": "Imperial Guard",
+      "INTV": 400,
+      "NAM9": 1,
+      "DATA": [537.4363403320312,-493.72967529296875,-632.6671142578125,0.7853981852531433,0,1.5707963705062866]
+    },
+    "0-368012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "Imperial Guard",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [465.5180969238281,-493.5655822753906,-658.4154052734375,0.7853981852531433,0,1.5707963705062866]
+    },
+    "0-368013": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "DATA": [767.5731811523438,-30.130708694458008,-564.1199951171875,0,0,3.1415927410125732]
+    },
+    "0-368014": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "DATA": [767.8126831054688,-480.80419921875,-564.1201171875,0,0,0]
+    },
+    "0-368015": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "DATA": [866.7221069335938,-382.26922607421875,-564.1199951171875,0,0,4.71238899230957]
+    },
+    "0-368016": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_tapestry_04",
+      "DATA": [866.7221069335938,-127.95016479492188,-564.1199951171875,0,0,4.71238899230957]
+    },
+    "0-14205": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "Imperial Guard",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [826.1400146484375,-111.10800170898438,-714.3309936523438,0,0,0.05061454698443413]
+    }
+  }
+}

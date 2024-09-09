@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Smith",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_03",
+  "MODL": null,
+  "FNAM": "Tuveso Beleth",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 100,
+    "flags": 131587
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "glass claymore"
+    },
+    {
+      "count": 1,
+      "name": "common_skirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_rr"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "key_tuvesobeleth_01"
+    },
+    {
+      "count": -10,
+      "name": "repair_master_01"
+    },
+    {
+      "count": -10,
+      "name": "repair_journeyman_01"
+    },
+    {
+      "count": -10,
+      "name": "repair_prongs"
+    },
+    {
+      "count": 10,
+      "name": "repair_grandmaster_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 18,
+    "health": 182,
+    "magicka": 108,
+    "fatigue": 276,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 2200,
+    "attributes": [100,54,44,72,91,60,50,40],
+    "skills": [60,60,46,46,60,50,46,20,25,7,17,7,7,7,12,7,7,47,7,7,7,37,17,12,10,7,47]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

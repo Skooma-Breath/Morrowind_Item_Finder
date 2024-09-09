@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\SlaughterFish.NIF",
+  "FLAG": 24,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 2,
+    "attributes": [50,50,50,50,50,50,50,50],
+    "health": 68,
+    "magicka": 10,
+    "fatigue": 400,
+    "soul_strength": 5,
+    "combat_skill": 75,
+    "magic_skill": 20,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,25],
+      [1,25],
+      [1,25]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "slaughterfish",
+  "FNAM": "Old Blue Fin",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "random_scales"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 6,
+      "time_of_day": 0,
+      "idles": [0,0,0,0,0,0,0,0]
+    }
+  ]
+}

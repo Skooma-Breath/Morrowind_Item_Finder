@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Nightblade",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_08",
+  "KNAM": "b_n_dark elf_f_hair_05",
+  "MODL": null,
+  "FNAM": "Raynasa Rethan",
+  "SCRI": "raynasaRethanScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 2,
+      "name": "glass stormblade"
+    },
+    {
+      "count": 1,
+      "name": "amulet of far silence"
+    },
+    {
+      "count": 1,
+      "name": "ring of lightning storm"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    }
+  ],
+  "NPCS": [
+    "cruel weary",
+    "sleep",
+    "wizard rend",
+    "blood despair"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 24,
+    "health": 154,
+    "magicka": 130,
+    "fatigue": 298,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [63,65,100,91,100,44,72,40],
+    "skills": [7,7,7,7,7,12,7,7,12,24,64,70,70,24,74,24,24,54,38,53,7,43,63,43,7,7,7]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

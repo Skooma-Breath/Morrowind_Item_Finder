@@ -1,0 +1,740 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1924519053318415149": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "26979153932857923908",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Devil is dead, and the Blight is gone. Praise Almsivi, and bless you, Nerevarine. Now we must set ourselves to work on reconciling the Dissident Priests with the Temple hierarchy. It should be difficult. We have been greatly at fault. But, with energy and goodwill, we must make a start. It is strange, however. that I have not heard from Lord Vivec. From time to time he does disappear, for reasons of his own, but it seems odd that he should be absent now in the moment of his triumph.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "vivec_god",
+          "__TV": 1
+        }
+      ]
+    },
+    "26979153932857923908": {
+      "flag": 0,
+      "PNAM": "1924519053318415149",
+      "NNAM": "22523186191635524906",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Devil is dead, and the Blight is gone. Praise Almsivi, and bless you, Nerevarine. Now we must set ourselves to work on reconciling the Dissident Priests with the Temple hierarchy. It should be difficult. We have been greatly at fault. But, with energy and goodwill, we must make a start.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "22523186191635524906": {
+      "flag": 0,
+      "PNAM": "26979153932857923908",
+      "NNAM": "718332585208131798",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard that Lord Vivec and you have spoken. And now it appears that the Temple and the Dissident Priests shall be reconciled, and that we shall all be working together towards a common end. It is more than I could have hoped.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "718332585208131798": {
+      "flag": 0,
+      "PNAM": "22523186191635524906",
+      "NNAM": "10658323971332023788",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lord Vivec is expecting you. His Lordship is remarkably patient, but perhaps it would be better not to keep him waiting.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_MeetVivec",
+          "__TV": 30
+        }
+      ]
+    },
+    "10658323971332023788": {
+      "flag": 0,
+      "PNAM": "718332585208131798",
+      "NNAM": "2797614330243724767",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry that is the position you choose to take. It is important that we trust one another, and, at present, I do not feel I can trust you. Perhaps we are not ready yet to discuss changing the Temple's position towards you.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; CHOICE 2; \r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2797614330243724767": {
+      "flag": 0,
+      "PNAM": "10658323971332023788",
+      "NNAM": "30632297411848924833",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you. I know these are just words, and it is naive to trust words, but I feel it is time to risk trusting one another. I believe we are ready to discuss changing the Temple's doctrine concerning the Nerevarine prophecies and your claim to them.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; CHOICE 1;\r\nJournal \"B8_MeetVivec\" 25",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "30632297411848924833": {
+      "flag": 0,
+      "PNAM": "2797614330243724767",
+      "NNAM": "8316152461540717795",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have said all the right things, and yet... I do not feel I can trust you. Perhaps we are not ready yet to discuss changing the Temple's position towards you.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; CHOICE 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "8316152461540717795": {
+      "flag": 0,
+      "PNAM": "30632297411848924833",
+      "NNAM": "14850115581371211982",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is most unfortunate that you have killed more of the Temple's faithful Ordinators. It is not that you were unprovoked. But the fact that you do not make more of an effort to spare the lives of these earnest, innocent servants of the Temple that disturbs us. Surely it is within your power to avoid them, or avoid killing them. What do you have to say to that?",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; dead \"Ordinator_High_Fane\" >= 1; \r\nChoice \"Apologize, and promise to avoid bloodshed in the future\" 1 \"Insist on your right to defend yourself when attacked\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ordinator_high fane",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B8_MeetVivec",
+          "__TV": 25
+        }
+      ]
+    },
+    "14850115581371211982": {
+      "flag": 0,
+      "PNAM": "8316152461540717795",
+      "NNAM": "2426176451479913065",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Here are two keys: one to the private back entrance to my quarters, the other to a locked entrance to Lord Vivec's palace. I regret that, at present, the Ordinators are not completely under my control, so, for now, I'll ask you to avoid confrontations with them. Lord Vivec is expecting you. His Lordship is remarkably patient, but perhaps it would be better not to keep him waiting.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; CHOICE 4; \r\nplayer->additem \"key_Archcanon_private\" 1\r\nplayer->additem \"Key_Vivec_secret\" 1\r\nremoveitem \"Key_Vivec_secret\" 1\r\nJournal \"B8_MeetVivec\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2426176451479913065": {
+      "flag": 0,
+      "PNAM": "14850115581371211982",
+      "NNAM": "246461430041054536",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. I understand. Then we have nothing further to discuss at this time. I will not apologize for the Temple's actions against you, or against the Dissident Priests. But I do believe it is time for such hostilities to stop. I regret that, at present, the Ordinators are not completely under my control, so I cannot guarantee that you will not be harmed. But if you change your mind, and are willing to meet with Vivec, please return to me at any time.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; CHOICE 5;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "246461430041054536": {
+      "flag": 0,
+      "PNAM": "2426176451479913065",
+      "NNAM": "31552175137823012",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Our situation is desperate. But I would rather have you hear the details of our situation, and the circumstances leading up to that situation, from Lord Vivec himself. He has asked to see you. Would you agree to a private meeting with him, and hear in person what he has to say?",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; CHOICE 3; \r\nChoice \"Yes, I will meet with Vivec\" 4 \"No, I don't trust you\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "31552175137823012": {
+      "flag": 0,
+      "PNAM": "246461430041054536",
+      "NNAM": "2271520319176686029",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Temple must protect the people from false doctrines. And your association with Imperial intelligence makes your motivations and integrity suspect. But you have been chosen Hortator and Nerevarine by the Dunmer people. And we have reached a crisis with Dagoth Ur. We can no longer defend the people against the awakened Sixth House. You and your prophecies may represent our last hope.",
+      "BNAM": "; Tholer Saryoni; Journal \"B8_All_Hortator\" >= 50; Journal \"B8_All_Nerevarine\" >= 50; \r\nChoice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Hortator",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_All_Nerevarine",
+          "__TV": 50
+        }
+      ]
+    },
+    "2271520319176686029": {
+      "flag": 0,
+      "PNAM": "31552175137823012",
+      "NNAM": "8324178951345231004",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. I understand. Then we have nothing further to discuss at this time. I will not apologize for the Temple's actions against you, or against the Dissident Priests. But I do believe it is time for such hostilities to stop. I regret that, at present, the Ordinators are not completely under my control, so I cannot guarantee that you will not be harmed. But if you change your mind, and are willing to meet with Vivec, please return to me at any time.",
+      "BNAM": "; Tholer Saryoni; ;Journal A2_6_Incarnate >= 50, PC Reputation >= 50; PC Level >= 20; CHOICE 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 20
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "8324178951345231004": {
+      "flag": 0,
+      "PNAM": "2271520319176686029",
+      "NNAM": "1639989341758330774",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Here are two keys: one to the private back entrance to my quarters, the other to a locked entrance to Lord Vivec's palace. I regret that, at present, the Ordinators are not completely under my control, so, for now, I'll ask you to avoid confrontations with them. Lord Vivec is expecting you. His Lordship is remarkably patient, but perhaps it would be better not to keep him waiting.",
+      "BNAM": "; Tholer Saryoni; ;Journal A2_6_Incarnate >= 50, PC Reputation >= 50; PC Level >= 20; CHOICE 4\r\nplayer->additem \"key_Archcanon_private\" 1\r\nplayer->additem \"Key_Vivec_secret\" 1\r\nremoveitem \"Key_Vivec_secret\" 1\r\nJournal \"B8_MeetVivec\" 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 20
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "1639989341758330774": {
+      "flag": 0,
+      "PNAM": "8324178951345231004",
+      "NNAM": "2043824236701111823",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Our situation is desperate. But I would rather have you hear the details of our situation, and the circumstances leading up to that situation, from Lord Vivec himself. He has asked to see you. Would you agree to a private meeting with him, and hear in person what he has to say?",
+      "BNAM": "; Tholer Saryoni; ;Journal A2_6_Incarnate >= 50, PC Reputation >= 50; PC Level >= 20\r\nChoice \"Yes, I will meet with Vivec\" 4 \"No, I don't trust you\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 20
+        },
+        {
+          "index": "3",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "2043824236701111823": {
+      "flag": 0,
+      "PNAM": "1639989341758330774",
+      "NNAM": "18439160708791703",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Temple must protect the people from false doctrines. And your association with Imperial intelligence makes your motivations and integrity suspect. But we have reached a crisis with Dagoth Ur. We can no longer defend the people against the awakened Sixth House. You and your prophecies may represent our last hope.",
+      "BNAM": "; Tholer Saryoni; ;Journal A2_6_Incarnate >= 50, PC Reputation >= 50; PC Level >= 20\r\nChoice \"Continue\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 20
+        }
+      ]
+    },
+    "18439160708791703": {
+      "flag": 0,
+      "PNAM": "2043824236701111823",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tholer saryoni",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Temple's doctrine on the Nerevarine is clear. The Nerevarine prophecies are evil superstitions, based on lies and delusions. Attacks on the Temple cannot be tolerated. The people's faith in the Tribunal is all that protects us from the hosts of Dagoth Ur. And your association with the Emperor's Intelligence service makes your motivations and integrity suspect. We believe you to be a False Incarnate, and a danger to the Temple and the Dunmer people, and our Ordinators will treat you as an enemy.",
+      "BNAM": "; Tholer Saryoni; Journal \"A2_6_Incarnate\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

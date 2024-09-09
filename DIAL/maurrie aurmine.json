@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "482124058322145462": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "18467256072786617284",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "barnand erelie",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah...so you're the one who brought Maurrie and Nelos together. Nothing has been seen or heard of them since then, but the bards are singing songs of their love. Well, done %PCName! Please, take these as a token of my gratitude.",
+      "BNAM": "ModDisposition 20\r\nAddTopic \"Maurrie and Nelos\"\r\nJournal \"MV_VictimRomance\" 110\r\nPlayer->AddItem \"p_restore_health_e\" 3\r\nStartScript maurrieScript",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "38",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_VictimRomance",
+          "__TV": 100
+        }
+      ]
+    },
+    "18467256072786617284": {
+      "flag": 0,
+      "PNAM": "482124058322145462",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "emusette bracques",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah...so you're the one who brought Maurrie and Nelos together. Nothing has been seen or heard of them since then, but the bards are singing songs of their love. Well, done %PCName! Please, take these as a token of my gratitude.",
+      "BNAM": "ModDisposition 20\r\nAddTopic \"Maurrie and Nelos\"\r\nJournal \"MV_VictimRomance\" 115\r\nPlayer->AddItem \"p_restore_health_e\" 3\r\nStartScript maurrieScript",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_VictimRomance",
+          "__TV": 105
+        }
+      ]
+    }
+  }
+}

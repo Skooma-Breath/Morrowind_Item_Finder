@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_wood elf_m_head_02",
+  "KNAM": "b_n_wood elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Peragon",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_spore_pod"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_coda_flower"
+    },
+    {
+      "count": -5,
+      "name": "ingred_russula_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_sload_soap_01"
+    },
+    {
+      "count": -2,
+      "name": "ingred_pearl_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_heather_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_gold_kanet_01"
+    }
+  ],
+  "NPCS": [
+    "fire storm",
+    "firebloom",
+    "flamebolt",
+    "frostbloom",
+    "frost bolt"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 63,
+    "magicka": 144,
+    "fatigue": 195,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 300,
+    "attributes": [44,72,45,71,56,35,54,40],
+    "skills": [23,6,6,6,38,6,6,6,6,32,47,15,15,15,15,32,52,15,38,16,11,33,6,21,10,23,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

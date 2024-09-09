@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Orc",
+  "CNAM": "Knight",
+  "ANAM": "",
+  "BNAM": "b_n_orc_m_head_01",
+  "KNAM": "b_n_orc_m_hair_01",
+  "MODL": null,
+  "FNAM": "Umug gro-Mashnar",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "orcish battle axe"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_b"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_b"
+    },
+    {
+      "count": 1,
+      "name": "orcish_boots"
+    },
+    {
+      "count": 1,
+      "name": "orcish_greaves"
+    },
+    {
+      "count": 1,
+      "name": "orcish_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

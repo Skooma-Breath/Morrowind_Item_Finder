@@ -1,0 +1,90 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "31873192271755619515": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14275283801331826815",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ghost_npc_peakstar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must go before the Councilors of the Great Houses and satisfy them, for only the Councils of the Great Houses can name you 'Hortator.' I do not know the settled people of the Great Houses, and can offer you no counsel.",
+      "BNAM": ";Peakstar; Journal \"A2_6_Incarnate\" <= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "14275283801331826815": {
+      "flag": 0,
+      "PNAM": "31873192271755619515",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "When a greater enemy threatens, the Great Houses put aside their quarrels and choose a Hortator, a single war leader to lead all the Houses. Only a Great House council can name a Hortator, and all councils must agree. Speak with the Redoran councilors, Hlaalu councilors, and Telvanni councilors. Prove to them that Dagoth Ur threatens. When you are named Redoran Hortator, Hlaalu Hortator, and Telvanni Hortator, only then will you be the Hortator named in prophecy.",
+      "BNAM": ";Nibani Maesa ;Journal \"A2_6_Incarnate\" ;Nibani Maesa ;Journal \"A2_6_Incarnate\" >= 50; \r\nJournal \"A2_6_Incarnate\" 62",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B5_RedoranHort",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B7_TelvanniHort",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B6_HlaaluHort",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

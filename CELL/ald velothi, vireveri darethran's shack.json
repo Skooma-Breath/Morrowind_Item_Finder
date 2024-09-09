@@ -1,0 +1,398 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 7,
+    "grid": [1776411,1061158912]
+  },
+  "NAME": "Ald Velothi, Vireveri Darethran's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,50,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [27,27,27,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-68406": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [3.500999927520752,-158.1959991455078,3.250999927520752,6.248278617858887,0,0]
+    },
+    "0-68430": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-58.044918060302734,10.381412506103516,-10.346494674682617,0,0,0]
+    },
+    "0-68407": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [85.2189712524414,118.49881744384766,6.815682888031006,0,0,0.5853981375694275]
+    },
+    "0-68410": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [134.42234802246094,183.12936401367188,-42.910072326660156,0,0,0]
+    },
+    "0-68411": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_empty",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [182.8353729248047,151.34429931640625,-42.910072326660156,0,0,0]
+    },
+    "0-68412": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_random_pos",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [169.92616271972656,169.6196746826172,23.697521209716797,0,0,0]
+    },
+    "0-68414": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_bottle05_5",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-64.76209259033203,160.7808837890625,-43.69017028808594,0,0,0.20000000298023224]
+    },
+    "0-68415": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [163.89999389648438,-122.25399780273438,-40.9370002746582,0,0,0.39968040585517883]
+    },
+    "0-68416": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [105.56826782226562,-120.98970794677734,-40.93687438964844,0,0,6.08318567276001]
+    },
+    "0-68420": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_saltrice_10",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [182.90924072265625,47.809940338134766,-52.862876892089844,0,0,2.200000286102295]
+    },
+    "0-68421": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [183.17041015625,106.43555450439453,-59.27835464477539,0,5.583186149597168,0]
+    },
+    "0-68422": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [204.11972045898438,104.26426696777344,-54.605220794677734,0,5.883185863494873,0]
+    },
+    "0-68423": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "XSCL": 1.2200000286102295,
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [7.45157527923584,145.48011779785156,-70.56504821777344,0,0,1.2000000476837158]
+    },
+    "0-68424": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "XSCL": 1.1200000047683716,
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [67.96168518066406,160.1221160888672,-69.79674530029297,0,0,2.700000047683716]
+    },
+    "0-68425": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "XSCL": 1.1200000047683716,
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [68.41963195800781,159.6354217529297,-57.48787307739258,0,0,2.9000000953674316]
+    },
+    "0-68426": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_04",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-66.56743621826172,-0.9438807964324951,0.9086165428161621,0,0,0]
+    },
+    "0-68427": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-45.506771087646484,26.384008407592773,-15.461509704589844,0,0,0]
+    },
+    "0-68428": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-69.60711669921875,65.68496704101562,-3.362873077392578,0,0,5.283185958862305]
+    },
+    "0-68429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-73.90637969970703,21.644914627075195,-15.079204559326172,0,0,0.30000001192092896]
+    },
+    "0-68431": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-46.864566802978516,18.082937240600586,-13.385602951049805,0.10000000149011612,6.08318567276001,5.083186626434326]
+    },
+    "0-68432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-44.04507064819336,43.726966857910156,-16.40459632873535,0,0,3.483186721801758]
+    },
+    "0-68433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_02_128",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 1130102784,
+      "NAM9": 1,
+      "DATA": [-68.36941528320312,153.73374938964844,23.107261657714844,0,0,2.1008353233337402]
+    },
+    "0-68435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_08_128",
+      "DATA": [128.74842834472656,27.910905838012695,110.9085693359375,0,0,0]
+    },
+    "0-68438": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_fishing_pole",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [76.11876678466797,-149.2793426513672,-14.264457702636719,6.183186054229736,0,0.21681275963783264]
+    },
+    "0-68408": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [214.7862548828125,46.549312591552734,-12.586907386779785,6.183185577392578,0.20000001788139343,1.3000000715255737]
+    },
+    "0-68409": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [-33.09626770019531,215.66969299316406,-25.84815788269043,5.983185768127441,0,0]
+    },
+    "0-68413": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [-61.16093444824219,13.085314750671387,-50.31786346435547,0,0,1.6707963943481445]
+    },
+    "0-68417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-74.21373748779297,-107.83502960205078,-53.67911148071289,4.883187294006348,5.383185863494873,0.6000000238418579]
+    },
+    "0-68418": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [174.1978302001953,-14.76824951171875,-53.332420349121094,1.4000000953674316,0.5999999046325684,0.10000000149011612]
+    },
+    "0-68419": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [178.35470581054688,-72.62068176269531,-44.11006546020508,0,0,1]
+    },
+    "0-68434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [132.28697204589844,29.862651824951172,130.29006958007812,0.10000001639127731,0,0]
+    },
+    "0-68436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-3.143406867980957,21.217063903808594,-58.60891342163086,0,0,4.983186721801758]
+    },
+    "0-68437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-72.72919464111328,-42.862770080566406,1.4571094512939453,0,0,4.8831868171691895]
+    },
+    "0-68405": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_05",
+      "DATA": [64,32,32,0,0,1.5707963705062866]
+    },
+    "0-287936": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [243.0250701904297,-272.93487548828125,3.112579345703125,0,0,1.6000001430511475]
+    },
+    "0-398445": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_pearl_01",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [168.05796813964844,-66.72950744628906,-74.64314270019531,0,0,0]
+    },
+    "0-398446": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_pearl_01",
+      "ANAM": "Vireveri Darethran",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [171.91102600097656,-63.70481491088867,-74.64314270019531,0,0,0]
+    },
+    "0-465805": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Boat_Creak00",
+      "DATA": [-50.334800720214844,34.338565826416016,-139.73658752441406,0,0,0]
+    }
+  }
+}

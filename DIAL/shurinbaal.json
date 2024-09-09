@@ -1,0 +1,241 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "827268082364222974": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "51288631815310381",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "We don't want any involvement with the Thieves Guild. Talk all you want, but I'm not joining.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "51288631815310381": {
+      "flag": 0,
+      "PNAM": "827268082364222974",
+      "NNAM": "221546470299811993",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know what you're talking about.",
+      "BNAM": "ModDisposition -20",
+      "SCVR": null
+    },
+    "221546470299811993": {
+      "flag": 0,
+      "PNAM": "51288631815310381",
+      "NNAM": "1706026348196635874",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Take your questions somewhere else, guar fetcher.",
+      "BNAM": "ModDisposition -20",
+      "SCVR": null
+    },
+    "1706026348196635874": {
+      "flag": 0,
+      "PNAM": "221546470299811993",
+      "NNAM": "2092630895215812011",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drinar varyon",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get out of my house.",
+      "BNAM": "ModDisposition -20\r\nGoodbye",
+      "SCVR": null
+    },
+    "2092630895215812011": {
+      "flag": 0,
+      "PNAM": "1706026348196635874",
+      "NNAM": "4945159601662816461",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You stopped the smugglers in Shurinbaal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Shurinbaal",
+          "__TV": 100
+        }
+      ]
+    },
+    "4945159601662816461": {
+      "flag": 0,
+      "PNAM": "2092630895215812011",
+      "NNAM": "13188310301546525646",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Oh, you already took care of their smuggling operation? Good. You'll do well in House Redoran.",
+      "BNAM": "Journal HR_Shurinbaal 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Daroder Helni",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Enjine",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HR_Shurinbaal",
+          "__TV": 0
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_HonorChallenge",
+          "__TV": 100
+        }
+      ]
+    },
+    "13188310301546525646": {
+      "flag": 0,
+      "PNAM": "4945159601662816461",
+      "NNAM": "72492464926110428",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So the leaders of Shurinbaal are dead? Good. They shall trouble House Redoran no longer.",
+      "BNAM": "Journal HR_Shurinbaal 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Daroder Helni",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "Enjine",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Shurinbaal",
+          "__TV": 10
+        }
+      ]
+    },
+    "72492464926110428": {
+      "flag": 0,
+      "PNAM": "13188310301546525646",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Redoran",
+      "SNAM": null,
+      "NAME": "Shurinbaal is a cave southwest of Gnaar Mok. I'll mark this town on your map. I have heard that the smugglers are led by a Dunmer named Daroder and the Redguard Enjine. Kill the leaders and report back to me. I believe the smugglers have a local contact somewhere here in Ald'ruhn. It may be worth your time to investigate here as well.",
+      "BNAM": "Journal HR_Shurinbaal 10\r\nShowMap \"Gnaar Mok\"",
+      "SCVR": null
+    }
+  }
+}

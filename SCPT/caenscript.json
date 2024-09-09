@@ -1,0 +1,20 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 5,
+    "script_data_size": 298,
+    "local_var_size": 36
+  },
+  "SCTX": "Begin caenScript\r\n\r\nfloat posx\r\nfloat posy\r\nfloat posz\r\nfloat poszrot\r\nfloat timer\r\nshort doOnce\r\n\r\nif ( OnDeath == 1 )\r\n\tset caenlornDead to  ( caenlornDead + 1 )\r\nendif\r\n\r\nset posy to ( GetPos y )\r\nset posx to ( GetPos x )\r\nset posz to ( GetPos z )\r\nset poszrot to ( GetAngle z )\r\n\r\n\r\nif ( GetDeadCount \"rigmor halfhand\" == 1 )\r\n\tif ( doOnce == 0 )\r\n\t\tset timer to ( timer + GetSecondsPassed )\r\n\t\tif ( timer > 3 )\r\n\t\t\tAiWander 0 0 0 0 0 0\r\n\t\t\tPlaceItem \"bm_wereeffect2\" posx posy posz poszrot\r\n\t\t\tset doOnce to 1\r\n\t\t\tset timer to 0\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( doOnce == 1 )\r\n\tset timer to ( timer + GetSecondsPassed )\r\n\tif ( timer > 1.2 )\r\n\t\tDisable\r\n\tendif\r\nendif\r\n\t\r\n\t\r\n\r\nEnd caenScript",
+  "SCVR": [
+    "doOnce",
+    "posx",
+    "posy",
+    "posz",
+    "poszrot",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,240,16,32,61,61,32,49,5,1,71,12,99,97,101,110,108,111,114,110,100,101,97,100,19,32,71,12,99,97,101,110,108,111,114,110,100,101,97,100,32,49,32,43,9,1,5,1,102,2,0,6,32,88,10,16,89,0,5,1,102,1,0,6,32,88,10,16,88,0,5,1,102,3,0,6,32,88,10,16,90,0,5,1,102,4,0,6,32,88,12,16,90,0,6,1,9,27,32,88,254,16,32,111,15,114,105,103,109,111,114,32,104,97,108,102,104,97,110,100,32,61,61,32,49,6,1,7,9,32,115,1,0,32,61,61,32,48,5,1,102,5,0,10,32,102,5,0,32,88,18,16,32,43,6,1,4,8,32,102,5,0,32,62,32,51,249,16,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,149,17,14,98,109,95,119,101,114,101,101,102,102,101,99,116,50,102,1,0,0,102,2,0,0,102,3,0,0,102,4,0,0,5,1,115,1,0,2,32,49,5,1,102,5,0,2,32,48,9,1,9,1,9,1,6,1,4,9,32,115,1,0,32,61,61,32,49,5,1,102,5,0,10,32,102,5,0,32,88,18,16,32,43,6,1,1,10,32,102,5,0,32,62,32,49,46,50,219,16,9,1,9,1,1,1]
+}

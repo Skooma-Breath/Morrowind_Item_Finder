@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Argonian",
+  "CNAM": "Healer",
+  "ANAM": "Twin Lamps",
+  "BNAM": "b_n_argonian_m_head_03",
+  "KNAM": "b_n_argonian_m_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ukawei",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_robe_02"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "l_m_potion"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

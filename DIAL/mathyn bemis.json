@@ -1,0 +1,278 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "7727342055120196": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2417319689634202",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2417319689634202": {
+      "flag": 0,
+      "PNAM": "7727342055120196",
+      "NNAM": "315667839711017992",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mathyn Bemis is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBemis",
+          "__TV": 100
+        }
+      ]
+    },
+    "315667839711017992": {
+      "flag": 0,
+      "PNAM": "2417319689634202",
+      "NNAM": "11728214551281420013",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You say Mathyn Bemis is already dead by your hand. Very well, the credit for this Writ will go to you.",
+      "BNAM": "Journal MT_WritBemis 100\r\nModPCFacRep 5 \"Morag Tong\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "mathyn bemis",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritBemis",
+          "__TV": 0
+        }
+      ]
+    },
+    "11728214551281420013": {
+      "flag": 0,
+      "PNAM": "315667839711017992",
+      "NNAM": "2218261821697210243",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Mathyn Bemis is dead. No trouble? Good. Here is your payment.",
+      "BNAM": "Journal MT_WritBemis 100\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritBemis",
+          "__TV": 90
+        }
+      ]
+    },
+    "2218261821697210243": {
+      "flag": 0,
+      "PNAM": "11728214551281420013",
+      "NNAM": "931582331855524837",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Mathyn Bemis is dead. No trouble? Good. Here is your payment.",
+      "BNAM": "Journal MT_WritBemis 100\r\nPlayer->AddItem Gold_001 1000\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritBemis",
+          "__TV": 80
+        }
+      ]
+    },
+    "931582331855524837": {
+      "flag": 0,
+      "PNAM": "2218261821697210243",
+      "NNAM": "1090615686256334293",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_bemis",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBemis",
+          "__TV": 10
+        }
+      ]
+    },
+    "1090615686256334293": {
+      "flag": 0,
+      "PNAM": "931582331855524837",
+      "NNAM": "3189777171047519509",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_bemis",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBemis",
+          "__TV": 10
+        }
+      ]
+    },
+    "3189777171047519509": {
+      "flag": 0,
+      "PNAM": "1090615686256334293",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mathyn Bemis may be found in the Ancestral Vaults in the Hlaalu Canalworks. He is the head of a gang of outlaws who will defend him from Morag Tong justice. Swiftness and accuracy to you.",
+      "BNAM": "Journal MT_WritBemis 10\r\nPlayer->AddItem \"writ_bemis\" 1",
+      "SCVR": [
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritMavon",
+          "__TV": 100
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritBelvayn",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

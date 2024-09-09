@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 157,
+    "local_var_size": 31
+  },
+  "SCTX": "Begin fightDomba\r\n \r\nshort counter\r\nShort NoLore\r\nshort doonceA\r\nshort doonceB\r\n\r\nif ( CellChanged == 0 )\r\n    Return\r\nendif\r\n\r\n;if ( counter < 20 )\r\n;    Set counter to counter + 1\r\n;    Return\r\n    ;for speed...\r\n;endif\r\n \r\n;Set counter to 0\r\n\r\nif ( doonceA == 0 )\r\n\tif ( GetDeadCount \"Endroni Dalas\" == 0 )\r\n\t        StartCombat \"Endroni Dalas\"\r\n\t        set doonceA to 1\r\n\tendif\r\nendif\r\n\r\nif ( doonceB == 0 )\r\n\tif ( GetDeadCount \"Uresa Omoril\" == 0 )\r\n\t        StartCombat \"Uresa Omoril\"\r\n\t        set doonceB to 1\r\n\tendif\r\nendif\r\n\r\nend fightDomba",
+  "SCVR": [
+    "counter",
+    "NoLore",
+    "doonceA",
+    "doonceB"
+  ],
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,4,9,32,115,3,0,32,61,61,32,48,6,1,2,25,32,88,254,16,32,111,13,69,110,100,114,111,110,105,32,68,97,108,97,115,32,61,61,32,48,25,16,13,69,110,100,114,111,110,105,32,68,97,108,97,115,5,1,115,3,0,2,32,49,9,1,9,1,6,1,4,9,32,115,4,0,32,61,61,32,48,6,1,2,24,32,88,254,16,32,111,12,85,114,101,115,97,32,79,109,111,114,105,108,32,61,61,32,48,25,16,12,85,114,101,115,97,32,79,109,111,114,105,108,5,1,115,4,0,2,32,49,9,1,9,1,1,1]
+}

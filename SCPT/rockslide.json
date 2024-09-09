@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 188,
+    "local_var_size": 21
+  },
+  "SCTX": "Begin rockslide\r\n\r\nshort doOnce\r\nshort disOnce\r\nfloat timer\t\r\n\r\nif  (disOnce == 0 )\r\n\tif ( GetJournalIndex TR_MazedBand >= 20 )\r\n\t\tif ( GetDisabled == 0 )\r\n\t\tdisable\r\n\t\tset disOnce to 1\r\n\t\tEndif\r\n\tEndif\r\nEndif\r\n\r\n\r\nIf ( GetPCCell \"Old Mournhold: Abandoned Crypt\" == 1 )\r\n\r\n\r\n\tif ( doOnce == 0 )\r\n\t\tset timer to timer + GetSecondsPassed\r\n\t\tif ( timer > 1 )\r\n\t\t\tPlaygroup \"death1\"\r\n\t\t\tPlaySound \"cavein\" \r\n\t\t\tSet DoOnce to 1\r\n\r\n\t\tendif\r\n\tendif\r\nEndif\r\n\r\n\t\r\n\r\nEnd",
+  "SCVR": [
+    "doOnce",
+    "disOnce",
+    "timer"
+  ],
+  "SCDT": [6,1,6,9,32,115,2,0,32,61,61,32,48,6,1,4,25,32,88,205,16,32,100,12,84,82,95,77,97,122,101,100,66,97,110,100,32,62,61,32,50,48,6,1,2,9,32,88,220,16,32,61,61,32,48,219,16,5,1,115,2,0,2,32,49,9,1,9,1,9,1,6,1,8,42,32,88,18,17,32,99,30,79,108,100,32,77,111,117,114,110,104,111,108,100,58,32,65,98,97,110,100,111,110,101,100,32,67,114,121,112,116,32,61,61,32,49,6,1,6,9,32,115,1,0,32,61,61,32,48,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,3,8,32,102,1,0,32,62,32,49,20,16,27,0,0,2,16,6,99,97,118,101,105,110,5,1,115,1,0,2,32,49,9,1,9,1,9,1,1,1]
+}

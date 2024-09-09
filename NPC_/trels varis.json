@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Journalist",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_07",
+  "KNAM": "b_n_dark elf_m_hair_13",
+  "MODL": null,
+  "FNAM": "Trels Varis",
+  "SCRI": "VarisDead",
+  "AIDT": {
+    "greet": 30,
+    "fight": 50,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02_h"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_q"
+    }
+  ],
+  "NPCS": [
+    "mark",
+    "recall",
+    "absorb health",
+    "detect_creature",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 120,
+    "magicka": 130,
+    "fatigue": 188,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [49,65,47,47,74,45,60,40],
+    "skills": [6,6,6,6,6,11,6,6,29,24,16,6,6,6,44,24,24,80,34,15,15,20,25,80,48,48,80]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

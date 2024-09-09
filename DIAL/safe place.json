@@ -1,0 +1,126 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1856323442151927010": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2506946612893128418",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have made Ald Daedroth a safe refuge for the Ahemmusa. Thank you, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 40
+        }
+      ]
+    },
+    "2506946612893128418": {
+      "flag": 0,
+      "PNAM": "1856323442151927010",
+      "NNAM": "292442930812206363",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "In seasons past, when threatened, the Ahemmusa could take shelter in the ruins of Ald Daedroth. But now the priestess Hlireni Indavel has come and restored the Daedric shrine, and worshippers of Sheogorath dwell there, protected by terrible sorceries and summonings. First, you will go to Ald Daedroth and make it safe for the Ahemmusa. Then you will return, and I will accompany you there, and if Ald Daedroth is a safe place for my people, then I will name you Nerevarine.",
+      "BNAM": "; Sinnammu Mirpal; Journal \"A2-6_Incarnate\" >= 50; \r\nJournal \"B2_AhemmusaSafe\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "292442930812206363": {
+      "flag": 0,
+      "PNAM": "2506946612893128418",
+      "NNAM": "10585218822349710444",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yenammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have made Ald Daedroth a safe refuge for the Ahemmusa. Thank you, %PCName.",
+      "BNAM": ";Yenammu; Journal \"B2_AhemmusaSafe\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 40
+        }
+      ]
+    },
+    "10585218822349710444": {
+      "flag": 0,
+      "PNAM": "292442930812206363",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yenammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We need a place to go where our herds and people can be safe from the blight and blight monsters. For us, it is a matter of life and death. We hope some happy day the Nerevarine of prophecy will defeat Dagoth Ur, and cast down the false gods, and the blight will be gone, and there will be no more sick animals or monsters, and we can live here in peace. But if we do not find a safe place now, we will not survive to see that happy day.",
+      "BNAM": ";Yenammu; Journal \"A2-6_Incarnate\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

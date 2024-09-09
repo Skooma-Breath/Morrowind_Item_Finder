@@ -1,0 +1,126 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1684621533206349550": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2012632121258661882",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I gave you the Dwemer key, didn't I? The one i made from the instructions I found on the puzzle box you brought me?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 25
+        }
+      ]
+    },
+    "2012632121258661882": {
+      "flag": 0,
+      "PNAM": "1684621533206349550",
+      "NNAM": "19882142971327022854",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What? Oh. Yes, I'd forgotten. Here's a Dwemer key, made according to the instructions I found on the puzzle box you brought me. I've no idea what it's good for. But if you take it back to Arkngthand, maybe you'll find the lock it opens.",
+      "BNAM": "Player->AddItem, misc_dwrv_Ark_key00, 1\r\nJournal A1_2_AntabolisInformant 25",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 20
+        }
+      ]
+    },
+    "19882142971327022854": {
+      "flag": 0,
+      "PNAM": "2012632121258661882",
+      "NNAM": "77156629161556592",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. The inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. If you're interested, after you've delivered your report to Caius, come back, and maybe I'll have a key you can take back to Arkngthand.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 10
+        }
+      ]
+    },
+    "77156629161556592": {
+      "flag": 0,
+      "PNAM": "19882142971327022854",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hasphat antabolis",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The little cube I'm looking for is about the size of a fist, maybe a little bigger. It will be made of a coppery metal, with a circular design and symbols on one side and some lined marks on the other sides. That's all I want, that little cube.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_2_AntabolisInformant",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

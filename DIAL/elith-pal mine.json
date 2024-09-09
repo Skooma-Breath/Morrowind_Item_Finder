@@ -1,0 +1,360 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2547818411818817634": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "10583300472912820903",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from the Fighters Guild, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "10583300472912820903": {
+      "flag": 0,
+      "PNAM": "2547818411818817634",
+      "NNAM": "1421915513303888575",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I heard you killed Dangor. Get out of here before I lose my temper.",
+      "BNAM": "ModDisposition -30\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 10
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dangor",
+          "__TV": 1
+        }
+      ]
+    },
+    "1421915513303888575": {
+      "flag": 0,
+      "PNAM": "10583300472912820903",
+      "NNAM": "25126301662018720770",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I heard you killed Dangor. Get out of here before I lose my temper.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 10
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dangor",
+          "__TV": 1
+        }
+      ]
+    },
+    "25126301662018720770": {
+      "flag": 0,
+      "PNAM": "1421915513303888575",
+      "NNAM": "1839729140436710481",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No point in delivering any supplies if Dangor is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 200
+        }
+      ]
+    },
+    "1839729140436710481": {
+      "flag": 0,
+      "PNAM": "25126301662018720770",
+      "NNAM": "815312965344517174",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dangor is dead? Are you sure? That's sad news indeed. Seems like the Empire's under attack wherever you go.",
+      "BNAM": "Journal FG_ElithPalSupply 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "dangor",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 0
+        }
+      ]
+    },
+    "815312965344517174": {
+      "flag": 0,
+      "PNAM": "1839729140436710481",
+      "NNAM": "288922933456666301",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Thanks for delivering the flin, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 100
+        }
+      ]
+    },
+    "288922933456666301": {
+      "flag": 0,
+      "PNAM": "815312965344517174",
+      "NNAM": "23855136412586923070",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here you go, %PCName. And here's the 500 septims I owe you for the contract. Check with me again if you need more orders.",
+      "BNAM": "Player->AddItem Potion_Cyro_Brandy_01 1\r\nPlayer->AddItem Gold_001 500\r\nJournal FG_ElithPalSupply 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "23855136412586923070": {
+      "flag": 0,
+      "PNAM": "288922933456666301",
+      "NNAM": "203517166171138628",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, any time, %PCName. Here's 500 septims for the delivery.",
+      "BNAM": "Player->AddItem Gold_001 500\r\nJournal FG_ElithPalSupply 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "203517166171138628": {
+      "flag": 0,
+      "PNAM": "23855136412586923070",
+      "NNAM": "2824311695442117091",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Good work, %PCName. A load of flin can get heavy after a few steps. I prefer brandy myself. Could I offer you some? Something to wet your throat after the load trip?",
+      "BNAM": "ModPCFacRep 5 \"Fighters Guild\"\r\nModDisposition 5\r\nChoice Yes 1 No 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 50
+        }
+      ]
+    },
+    "2824311695442117091": {
+      "flag": 0,
+      "PNAM": "203517166171138628",
+      "NNAM": "2869728211889817692",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Just deliver the flin to Dangor at the Elith-Pal Mine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_ElithPalSupply",
+          "__TV": 10
+        }
+      ]
+    },
+    "2869728211889817692": {
+      "flag": 0,
+      "PNAM": "2824311695442117091",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "persius mercius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "Here's the flin. Deliver it to Dangor. He's a Bosmer who works at the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.",
+      "BNAM": "Journal FG_ElithPalSupply 10\r\nPlayer->AddItem Potion_Cyro_Whiskey_01 20",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "FG_SuranBandits",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 12,
+  "RNAM": "Dark Elf",
+  "CNAM": "Guard",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_02",
+  "MODL": null,
+  "FNAM": "Ordinator",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony mace"
+    },
+    {
+      "count": 1,
+      "name": "indoril_belt"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "indoril shield"
+    },
+    {
+      "count": 1,
+      "name": "indoril right gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "indoril left gauntlet"
+    },
+    {
+      "count": 1,
+      "name": "indoril boots"
+    },
+    {
+      "count": 1,
+      "name": "indoril pauldron right"
+    },
+    {
+      "count": 1,
+      "name": "indoril pauldron left"
+    },
+    {
+      "count": 1,
+      "name": "indoril cuirass"
+    },
+    {
+      "count": 1,
+      "name": "indoril helmet"
+    }
+  ],
+  "NPCS": [
+    "wild clumsiness",
+    "exhausting touch",
+    "ordeal of st. olms",
+    "sleep",
+    "gash spirit",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "drain blood",
+    "blood despair",
+    "Ghost Curse"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 20,
+    "health": 181,
+    "magicka": 122,
+    "fatigue": 318,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,61,76,70,71,72,41,40],
+    "skills": [64,21,48,64,64,68,21,21,26,7,59,7,7,7,12,34,7,7,34,7,34,12,17,12,7,7,34]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

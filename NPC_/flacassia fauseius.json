@@ -1,0 +1,68 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Imperial",
+  "CNAM": "Guild Guide",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_imperial_f_head_04",
+  "KNAM": "b_n_imperial_f_hair_05",
+  "MODL": null,
+  "FNAM": "Flacassia Fauseius",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_c"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 40,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": null,
+  "DODT": [
+    {
+      "destination": [2597.31982421875,-509.36541748046875,-264.2757263183594,0,0,4.71238899230957],
+      "DNAM": "Ald-ruhn, Guild of Mages"
+    },
+    {
+      "destination": [-755.8966064453125,-1002.732666015625,-644.6278686523438,0,0,0.7853981852531433],
+      "DNAM": "Balmora, Guild of Mages"
+    },
+    {
+      "destination": [-30.27954864501953,212.14183044433594,158.23793029785156,0,0,0.7853983044624329],
+      "DNAM": "Sadrith Mora, Wolverine Hall: Mage's Guild"
+    },
+    {
+      "destination": [523.163330078125,335.72705078125,487.87213134765625,0,0,1.5707963705062866],
+      "DNAM": "Caldera, Guild of Mages"
+    }
+  ],
+  "NPDT": {
+    "level": 12,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

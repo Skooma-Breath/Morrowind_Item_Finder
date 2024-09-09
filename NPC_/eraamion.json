@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Nightblade Service",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_high elf_m_head_01",
+  "KNAM": "b_n_high elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Eraamion",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 2048
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel spider blade"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 35,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "burden of sin",
+    "great feather",
+    "sleep",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "poison_powerful",
+    "brevusa's averted eyes",
+    "charming touch",
+    "golanar's eye-maze",
+    "light",
+    "dire earwig",
+    "recall"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 65,
+    "magicka": 118,
+    "fatigue": 213,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [38,59,72,58,55,45,51,40],
+    "skills": [6,6,6,6,6,6,6,6,6,25,42,52,52,20,47,15,25,32,23,38,6,23,38,23,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

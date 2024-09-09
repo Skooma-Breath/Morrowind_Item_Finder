@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Publican",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_10",
+  "KNAM": "b_n_dark elf_f_hair_12",
+  "MODL": null,
+  "FNAM": "Sorosi Radobar",
+  "SCRI": "Pub_Vivec_Flower",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8208
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": -15,
+      "name": "random_food"
+    },
+    {
+      "count": -10,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -10,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": -10,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -10,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": -5,
+      "name": "potion_cyro_brandy_01"
+    },
+    {
+      "count": -5,
+      "name": "Potion_Cyro_Whiskey_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 92,
+    "magicka": 136,
+    "fatigue": 206,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [54,68,39,70,62,43,74,40],
+    "skills": [26,6,26,6,26,11,6,26,11,6,16,6,6,6,11,6,6,6,52,52,17,56,27,22,20,52,36]
+  },
+  "AI_": [
+    {
+      "distance": 32,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "70761743163833078": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1982225914140222963",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sure she hasn't gotten far. When I find her, I'll tear off her legs and break them over her head!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_RecoverWidowmaker",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MV_RecoverWidowmaker",
+          "__TV": 40
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "iveri llothri",
+          "__TV": 0
+        }
+      ]
+    },
+    "1982225914140222963": {
+      "flag": 0,
+      "PNAM": "70761743163833078",
+      "NNAM": "18785221863248311369",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Excellent! Let us go, stranger. I think she headed to the northwest, but I can't be sure. Let's find her! I'll tear her head off and spit in the stump!",
+      "BNAM": "Journal \"MV_RecoverWidowmaker\" 30\r\n\"Botrir\"->AiFollow Player 0 0 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "18785221863248311369": {
+      "flag": 0,
+      "PNAM": "1982225914140222963",
+      "NNAM": "8740270002906713552",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bah! I'll find her myself then!",
+      "BNAM": "Journal \"MV_RecoverWidowmaker\" 40\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "8740270002906713552": {
+      "flag": 0,
+      "PNAM": "18785221863248311369",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aye, I was escorting this...woman, Iveri Llothri, to Tel Aruhn, and she seemed real friendly. Then for no reason, she turned on me! Put me under some spell, and by the time I realized what was happening, she had taken off with my gold, my armor, and my axe, Widowmaker! Damn her for even laying hands on the axe of my fathers! I'll tear her throat out and wear it as a belt! Come with me, stranger; help me find this devil and end her pitiful existence!",
+      "BNAM": "Journal \"MV_RecoverWidowmaker\" 20\r\nChoice \"I'll help you recover your axe.\" 1 \"Sorry. You're on your own.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_RecoverWidowmaker",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

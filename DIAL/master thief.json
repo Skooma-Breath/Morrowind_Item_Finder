@@ -1,0 +1,189 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "117554496636022409": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "18779117464824373",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, %PCName. You must make amends before I'll discuss Guild matters with you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "18779117464824373": {
+      "flag": 0,
+      "PNAM": "117554496636022409",
+      "NNAM": "2088116236291913216",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That information will help a great deal when I take over the Thieves Guild and the Camonna Tong myself. Now who's the \"Master Thief,\" %PCName?",
+      "BNAM": "Journal FG_BigBosses 110\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2088116236291913216": {
+      "flag": 0,
+      "PNAM": "18779117464824373",
+      "NNAM": "1108822922702429812",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's too bad, %PCName. We could have worked together. Instead, you'll die alone.",
+      "BNAM": "Journal FG_BigBosses 110\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1108822922702429812": {
+      "flag": 0,
+      "PNAM": "2088116236291913216",
+      "NNAM": "272228573618720353",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Thieves Guild",
+      "SNAM": null,
+      "NAME": "What? You're the Master Thief? Well, why didn't you say so from the start? Tell you what, %PCName, between you and me and Camonna Tong, we've got a good deal here. Let's start by you telling me everything you know about the Thieves Guild operations in Vvardenfell.",
+      "BNAM": "Choice \"Tell All\" 1 \"Refuse\" 2",
+      "SCVR": null
+    },
+    "272228573618720353": {
+      "flag": 0,
+      "PNAM": "1108822922702429812",
+      "NNAM": "6500325681567321531",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "I hear you killed the Master Thief. Great work, %PCName. Thanks for taking care of the Thieves Guild for me. Now the only one who can threaten my position...is you. You showed promise, but a bit too much ambition. You will not be missed.",
+      "BNAM": "Journal FG_BigBosses 100\r\nSetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "stacey",
+          "__TV": 1
+        }
+      ]
+    },
+    "6500325681567321531": {
+      "flag": 0,
+      "PNAM": "272228573618720353",
+      "NNAM": "20614234792904519769",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 8
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "The Master Thief and his second-in-command are in Simine Fralinie's bookstore. Get rid of Gentleman Jim Stacey, the Redguard. He's in charge. I wouldn't mind if you took out his lackey as well. Once you have crippled the Thieves Guild, I will make you the new Guildmaster and retire.",
+      "BNAM": "Journal FG_BigBosses 10",
+      "SCVR": null
+    },
+    "20614234792904519769": {
+      "flag": 0,
+      "PNAM": "6500325681567321531",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "sjoring hard-heart",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Fighters Guild",
+      "SNAM": null,
+      "NAME": "First you need to advance to the rank of Champion.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "94852024318024031": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "199854045245617089",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Finally, it's in the proper hands again!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_RecoverWidowmaker",
+          "__TV": 70
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "widowmaker_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "199854045245617089": {
+      "flag": 0,
+      "PNAM": "94852024318024031",
+      "NNAM": "273691502665574168",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's better. Now keep your hands off my axe.",
+      "BNAM": "ModDisposition -20\r\nModFight 10\r\nBotrir->AddItem \"widowmaker_unique\" 1\r\nPlayer->RemoveItem \"widowmaker_unique\" 1\r\nAiWander 128 6 0 40 30 20 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_RecoverWidowmaker",
+          "__TV": 80
+        }
+      ]
+    },
+    "273691502665574168": {
+      "flag": 0,
+      "PNAM": "199854045245617089",
+      "NNAM": "9171283732884432720",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah...it feels good to hold it in my hands again! Truly, this is an axe of legend, and they will sing songs and write tales of my adventures with it. I think I shall begin by killing all the witches I can find. But first, allow me to teach you something of the way of the axe.",
+      "BNAM": "Botrir->AddItem \"widowmaker_unique\" 1\r\nPlayer->RemoveItem \"widowmaker_unique\" 1\r\nPlayer->ModAxe 1\r\nMessageBox \"Your Axe skill has increased by 1.\"\r\nAiWander 128 6 0 40 30 20 0 0 0 0 0 0\r\nJournal \"MV_RecoverWidowmaker\" 80",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "9171283732884432720": {
+      "flag": 0,
+      "PNAM": "273691502665574168",
+      "NNAM": "1845925555276067852",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is a mistake, friend. I'll have that axe, and if I have to pry it from your bloody, lifeless hands, so be it!",
+      "BNAM": "Journal \"MV_RecoverWidowmaker\" 60\r\nSetFight 100\r\nAiWander 128 6 0 40 30 20 0 0 0 0 0 0\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1845925555276067852": {
+      "flag": 0,
+      "PNAM": "9171283732884432720",
+      "NNAM": "28648325852482428545",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't know why you think you can take that axe back from me, friend, but I'll need it now.",
+      "BNAM": "Choice \"Here is your axe, Botrir.\" 1 \"I've decided to keep it for myself.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "widowmaker_unique",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "iveri llothri",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MV_RecoverWidowmaker",
+          "__TV": 80
+        }
+      ]
+    },
+    "28648325852482428545": {
+      "flag": 0,
+      "PNAM": "1845925555276067852",
+      "NNAM": "26722117261119711575",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Finally, it is out of the hands of that witch. If you'll just give me my axe, friend, I'd be willing to teach you a few things I've learned about the proper way to use one!",
+      "BNAM": "Choice \"Here is your axe, Botrir. Wield it wisely.\" 1 \"This is truly an axe fit for a warrior. That warrior is me.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "widowmaker_unique",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "iveri llothri",
+          "__TV": 0
+        }
+      ]
+    },
+    "26722117261119711575": {
+      "flag": 0,
+      "PNAM": "28648325852482428545",
+      "NNAM": "4813160631683428362",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My axe. It's been in my family for generations. A powerful axe, and tainted by the touch of that unholy spawn! I need it in my hands again!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "widowmaker_unique",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "iveri llothri",
+          "__TV": 0
+        }
+      ]
+    },
+    "4813160631683428362": {
+      "flag": 0,
+      "PNAM": "26722117261119711575",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "botrir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My axe. It's been in my family for generations. A powerful axe, and tainted by the touch of that unholy spawn! I'll get it back, and use it to cleave her in two!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "widowmaker_unique",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

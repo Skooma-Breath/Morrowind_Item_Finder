@@ -1,0 +1,163 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3162020397223455243": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "29046164932916014389",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Holamayan Monastery",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Of course, normally I only use Almsivi Intervention scrolls. But for my escape from the Ministry of Truth, a Divine Intervention scroll was just what I needed.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "29046164932916014389": {
+      "flag": 0,
+      "PNAM": "3162020397223455243",
+      "NNAM": "133612291843529903",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have the scroll. I'll meet you at Holamayan. Goodbye, and good luck.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 20
+        }
+      ]
+    },
+    "133612291843529903": {
+      "flag": 0,
+      "PNAM": "29046164932916014389",
+      "NNAM": "1345913876324724030",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "When you get out of here, look for a woman named Blatta Hateria on the East Docks of Ebonheart. Tell her I sent you, and that you want to 'go fishing.' She'll bring you to Holamayan by boat. I'll meet you there, and we'll get the lost prophecies from Gilvas Barelo, the leader of the Dissident priests. And magic conceals the Holamayan entrance -- speak to Vevrana Aryon, a monk at the dock at Holamayan, about the hidden entrance.",
+      "BNAM": ";Mehra Milo; 1;\r\nJournal \"A2_4_MiloGone\" 20\r\nmoddisposition 40\r\nPlayer->RemoveItem \"sc_divineintervention\" 1\r\nShowMap Holamayan\r\nStartScript MoveMehra",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1345913876324724030": {
+      "flag": 0,
+      "PNAM": "133612291843529903",
+      "NNAM": "15942158561727328187",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll need one Divine Intervention scroll myself for my escape plan. Getting out will be a lot faster and safer for you if you have one, but if you haven't got one for yourself, maybe you can find some other way out. Now, listen. Here's my plan. Give me a Divine Intervention scroll. I'll meet you at the secret Dissident priests monastery at Holamayan. For safety, we'll travel separately....",
+      "BNAM": ";Mehra Milo; item \"sc_divineintervention\" >= 1; \r\nChoice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 1
+        }
+      ]
+    },
+    "15942158561727328187": {
+      "flag": 0,
+      "PNAM": "1345913876324724030",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I left a note for you that told you I needed Divine Intervention scrolls. I need at least one for my escape plan. If you haven't got one, you'll have to go get me one.",
+      "BNAM": ";Mehra Milo; item \"Divine Intervention scroll\" < 1;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_4_MiloGone",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

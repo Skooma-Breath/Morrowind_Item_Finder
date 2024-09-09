@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Rogue",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_04",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Favel Gobor",
+  "SCRI": "racistSafe",
+  "AIDT": {
+    "greet": 30,
+    "fight": 60,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_hh"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_boots"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "health": 40,
+    "magicka": 80,
+    "fatigue": 160,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [40,40,50,30,40,40,50,40],
+    "skills": [15,5,15,5,5,20,30,5,20,5,15,5,5,5,10,5,5,5,5,5,5,35,40,10,30,15,30]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 1,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,10,0,0]
+    }
+  ]
+}

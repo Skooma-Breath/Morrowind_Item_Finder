@@ -1,0 +1,395 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "673831780100131603": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "14581122272701019103",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled, but maybe you can join the Imperial Legion again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14581122272701019103": {
+      "flag": 0,
+      "PNAM": "673831780100131603",
+      "NNAM": "457248072609226505",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The matter has been settled. No good can come from speaking of it again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_MaidenToken",
+          "__TV": 100
+        }
+      ]
+    },
+    "457248072609226505": {
+      "flag": 0,
+      "PNAM": "14581122272701019103",
+      "NNAM": "208093104199499030",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Varona Nelas is dead? Then this secret dies with her.",
+      "BNAM": "Journal IL_MaidenToken 120\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "varona nelas",
+          "__TV": 1
+        }
+      ]
+    },
+    "208093104199499030": {
+      "flag": 0,
+      "PNAM": "457248072609226505",
+      "NNAM": "20849587027259109",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You gave the glove back to Ilmeni Dren? I did not want anyone else to know who the glove belonged to, but thank you.",
+      "BNAM": "Journal IL_MaidenToken 110\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_MaidenToken",
+          "__TV": 70
+        }
+      ]
+    },
+    "20849587027259109": {
+      "flag": 0,
+      "PNAM": "208093104199499030",
+      "NNAM": "794119896190795305",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you. I will return the glove to it's proper owner.",
+      "BNAM": "Journal IL_MaidenToken 100\r\nPlayer->RemoveItem expensive_glove_left_ilmeni 1\r\nModPCFacRep 5 \"Imperial Legion\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "794119896190795305": {
+      "flag": 0,
+      "PNAM": "20849587027259109",
+      "NNAM": "158754466219649698",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Assumanu and recover the maiden's glove. Hurry before Varona Nelas uses the glove for blackmail.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "158754466219649698": {
+      "flag": 0,
+      "PNAM": "794119896190795305",
+      "NNAM": "1296039112203820838",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Do you have the glove?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "expensive_glove_left_ilmeni",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueKnight",
+          "__TV": 10
+        }
+      ]
+    },
+    "1296039112203820838": {
+      "flag": 0,
+      "PNAM": "158754466219649698",
+      "NNAM": "151952058819421217",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "imsin the dreamer",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The outcast Telvanni Varona Nelas is blackmailing a Buoyant Armiger. Varona Nelas has an embroidered glove which was given to this Buoyant Armiger as a token of affection. It would cause a scandal if it were known that they are lovers. Go to Assumanu, which is southeast of Ald Redaynia, and recover the glove at all costs.",
+      "BNAM": "journal \"il_maidentoken\" 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_RescueKnight",
+          "__TV": 100
+        }
+      ]
+    },
+    "151952058819421217": {
+      "flag": 0,
+      "PNAM": "1296039112203820838",
+      "NNAM": "247536760298621919",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varona nelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I already gave it to you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IL_MaidenToken",
+          "__TV": 50
+        }
+      ]
+    },
+    "247536760298621919": {
+      "flag": 0,
+      "PNAM": "151952058819421217",
+      "NNAM": "29924312862975410651",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varona nelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I like you. Here take it. Ilmeni Dren of Vivec gave this to a Buoyant Armiger, and she'd hate for that secret to get out. Do what you will with it, I have more important things to deal with then this sad love affair.",
+      "BNAM": "Journal IL_MaidenToken 50\r\nRemoveItem expensive_glove_left_ilmeni 1\r\nPlayer->AddItem expensive_glove_left_ilmeni 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "allimir",
+          "__TV": 0
+        }
+      ]
+    },
+    "29924312862975410651": {
+      "flag": 0,
+      "PNAM": "247536760298621919",
+      "NNAM": "22221194801952316608",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varona nelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ah yes. I have it, and can tell of its owner. But I don't like you enough to just hand it over.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "allimir",
+          "__TV": 0
+        }
+      ]
+    },
+    "22221194801952316608": {
+      "flag": 0,
+      "PNAM": "29924312862975410651",
+      "NNAM": "2856123761998425699",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "varona nelas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How dare you demand that after what you did to Alimir? Now it's your turn!",
+      "BNAM": "StartCombat Player",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "allimir",
+          "__TV": 1
+        }
+      ]
+    },
+    "2856123761998425699": {
+      "flag": 0,
+      "PNAM": "22221194801952316608",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, it is my glove.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

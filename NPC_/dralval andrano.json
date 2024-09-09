@@ -1,0 +1,100 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_21",
+  "MODL": null,
+  "FNAM": "Dralval Andrano",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_hypha_facia"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bc_bungler's_bane"
+    },
+    {
+      "count": -5,
+      "name": "ingred_wickwheat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scathecraw_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_red_lichen_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_kagouti_hide_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_green_lichen_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_black_lichen_01"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "cure poison",
+    "seryn's gift",
+    "resist fire",
+    "rest of st. merris",
+    "great heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 86,
+    "magicka": 160,
+    "fatigue": 223,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [60,80,51,65,59,47,49,40],
+    "skills": [26,6,6,6,41,11,6,6,11,36,62,17,17,17,22,36,52,17,41,6,6,31,16,11,10,26,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

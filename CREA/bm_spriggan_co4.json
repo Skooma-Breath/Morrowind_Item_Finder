@@ -1,0 +1,54 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Spriggan.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 20,
+    "attributes": [100,50,50,50,20,50,50,50],
+    "health": 200,
+    "magicka": 500,
+    "fatigue": 800,
+    "soul_strength": 350,
+    "combat_skill": 100,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [40,70],
+      [40,70],
+      [40,70]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Spriggan",
+  "SCRI": "ColonySpriggan4",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_belladonna_spriggan"
+    }
+  ],
+  "NPCS": [
+    "weakness fire_50",
+    "regenerate [ability]"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

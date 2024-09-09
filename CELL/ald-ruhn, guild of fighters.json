@@ -1,0 +1,3456 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [986937,1061158912]
+  },
+  "NAME": "Ald-ruhn, Guild of Fighters",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [65,60,60,0],
+    "sunlight": [80,40,20,0],
+    "fog_color": [57,15,15,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-9220": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ergnir",
+      "DATA": [-825.1990966796875,-1.6753731966018677,-747.0294799804688,0,0,1.8707964420318604]
+    },
+    "0-9231": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "tralan",
+      "DATA": [-769.0704956054688,219.25418090820312,-499.9742126464844,0,0,1.5707963705062866]
+    },
+    "0-9232": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "baradras",
+      "DATA": [118.36927032470703,-212.39064025878906,-246.72433471679688,0,0,0.08318614959716797]
+    },
+    "0-9233": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "persius mercius",
+      "DATA": [1492.642578125,-321.5056457519531,-752.059326171875,0,0,6.075000286102295]
+    },
+    "0-183483": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_redoran_hut_01_a",
+      "DATA": [128.9459991455078,360.53900146484375,-69.25299835205078,0,0,0]
+    },
+    "0-9211": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_door_01",
+      "DATA": [-384,-192,-384,0,0,1.5707963705062866]
+    },
+    "0-9212": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_door_01",
+      "FLTV": 80,
+      "KNAM": "key_persius mercius",
+      "DATA": [576,384,-640,0,0,3.1415927410125732]
+    },
+    "0-9213": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_door_01",
+      "DATA": [-256,-192,-128,0,0,4.71238899230957]
+    },
+    "0-9214": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_door_01",
+      "DATA": [-384,64,-384,0,0,1.5707963705062866]
+    },
+    "0-9217": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hammer_repair",
+      "ANAM": "ergnir",
+      "INTV": 20,
+      "NAM9": 1,
+      "DATA": [-781.244873046875,133.11502075195312,-707.4524536132812,0,0,6.258185863494873]
+    },
+    "0-9218": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "repair_prongs",
+      "XSCL": 1.7400001287460327,
+      "ANAM": "ergnir",
+      "INTV": 25,
+      "NAM9": 1,
+      "DATA": [-886.41796875,162.45819091796875,-722.8309936523438,0,0,0]
+    },
+    "0-9222": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bellows10",
+      "XSCL": 1.1800000667572021,
+      "ANAM": "ergnir",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-952.8324584960938,94.00267791748047,-712.645751953125,0,0,2.6000001430511475]
+    },
+    "0-9230": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_glass_peach_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-475.5849914550781,282.0050048828125,-638.2490234375,0,0,0.7243116497993469]
+    },
+    "0-28783": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-453.8297119140625,252.0738983154297,-624.1963500976562,0,0,0]
+    },
+    "0-28784": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [-531.2465209960938,329.7691345214844,-619.5518798828125,0,0,3.983187675476074]
+    },
+    "0-28785": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_mottled_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-435.19317626953125,242.59803771972656,-640.0472412109375,0,0,5.083186626434326]
+    },
+    "0-28786": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_green_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-476.2272644042969,253.9070281982422,-640.0472412109375,0,0,5.083186626434326]
+    },
+    "0-28787": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-453.66510009765625,245.1870574951172,-697.092041015625,0,0,5.083186626434326]
+    },
+    "0-28788": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-434.80126953125,244.08509826660156,-697.092041015625,0,0,5.083186626434326]
+    },
+    "0-28789": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-448.84173583984375,261.1479187011719,-697.092041015625,0,0,5.083186626434326]
+    },
+    "0-28790": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-495.5264587402344,283.62640380859375,-697.092041015625,0,0,5.083186626434326]
+    },
+    "0-28791": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-503.96514892578125,322.4820556640625,-626.1311645507812,0,0,3.8831875324249268]
+    },
+    "0-28792": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_06",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-500.0940246582031,294.44964599609375,-634.2150268554688,0,0,5.8823981285095215]
+    },
+    "0-28793": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_06",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-510.4974670410156,302.9849853515625,-634.2150268554688,0,0,6.08318567276001]
+    },
+    "0-28794": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_06",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-514.94091796875,292.020751953125,-634.2150268554688,0,0,5.883186340332031]
+    },
+    "0-28795": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_glass_yellow_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-519.0430297851562,323.2929992675781,-695.3090209960938,0,0,5.082398891448975]
+    },
+    "0-28796": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-551.67138671875,320.6870422363281,-695.6962280273438,0,0,5.8081865310668945]
+    },
+    "0-28797": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-484.02337646484375,269.2152099609375,-697.687255859375,0,0,5.083186626434326]
+    },
+    "0-28798": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-493.6183776855469,313.4007568359375,-697.687255859375,0,0,5.083186626434326]
+    },
+    "0-28799": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_03",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-519.9729614257812,293.8343505859375,-697.687255859375,0,0,5.083186626434326]
+    },
+    "0-28804": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_random_pos",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1098.6787109375,-355.7433776855469,-732.365234375,0,0,0.5123895406723022]
+    },
+    "0-28805": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_random_pos",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1034.094970703125,-264.28399658203125,-729.8489990234375,0,0,1.9373154640197754]
+    },
+    "0-28806": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_steel_weapons",
+      "ANAM": "ergnir",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1104.883056640625,-221.0189971923828,-735.9979858398438,0,0,0]
+    },
+    "0-28807": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_iron_weapons",
+      "ANAM": "ergnir",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1100.89599609375,-291.3529968261719,-736,0,0,1.574286937713623]
+    },
+    "0-28809": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_09",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-978.176025390625,-500,-444.1570129394531,0,0,1.5707963705062866]
+    },
+    "0-28810": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_10",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-501.4386291503906,-61.75600051879883,-224.27859497070312,0,0,3.1415927410125732]
+    },
+    "0-28811": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_09",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-572.1010131835938,-500,-444.1570129394531,0,0,1.5707963705062866]
+    },
+    "0-28812": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_09",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-773.0919799804688,-500.0469970703125,-444.1570129394531,0,0,1.5707963705062866]
+    },
+    "0-28816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_empty",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-981.9660034179688,-365.1109924316406,-496.093994140625,0,0,3.1415927410125732]
+    },
+    "0-28817": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_empty",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-572.3519897460938,-365,-496.093994140625,0,0,3.1415927410125732]
+    },
+    "0-28818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_empty",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-775.5640258789062,-365.114990234375,-496.093994140625,0,0,3.1415927410125732]
+    },
+    "0-28823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_15_64",
+      "ANAM": "persius mercius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-591.2650146484375,-230.96200561523438,-185.61199951171875,0,0,0]
+    },
+    "0-28824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-590.9456787109375,-203.45855712890625,-177.94430541992188,0,0,0]
+    },
+    "0-28825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_08",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-565.3290405273438,-201.28936767578125,-188.21730041503906,0,0,0]
+    },
+    "0-28826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_01_baradras",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-368.6549987792969,-59.35499954223633,-239.28599548339844,0,0,4.71238899230957]
+    },
+    "0-28832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [-88.79159545898438,-456.8309631347656,-121.71743774414062,0,0,0]
+    },
+    "0-28833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [341.4869079589844,-445.0118408203125,-121.71743774414062,0,0,0]
+    },
+    "0-28836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_13",
+      "ANAM": "persius mercius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-560.71728515625,-517.107421875,-736.2786254882812,0,0,0]
+    },
+    "0-28842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_gold_25",
+      "ANAM": "ergnir",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 25,
+      "DATA": [-727.5330200195312,-597.7310180664062,-645.947021484375,0,0,3.0839967727661133]
+    },
+    "0-28847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_10",
+      "ANAM": "persius mercius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-949.2119140625,222.1724395751953,-480.2787170410156,0,0,4.71238899230957]
+    },
+    "0-28849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_16_64",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-1073.253662109375,285.92218017578125,-442.165283203125,0,0,0]
+    },
+    "0-28850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-1046.8409423828125,285.68798828125,-437.0880126953125,0,0,1.0000736713409424]
+    },
+    "0-28851": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1043.114013671875,254.4817352294922,-443.90093994140625,0,0,5.683186054229736]
+    },
+    "0-28855": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1105.5653076171875,218.94569396972656,-381.46240234375,0,0,0]
+    },
+    "0-28856": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1110.8265380859375,234.68142700195312,-381.46240234375,0,0,0]
+    },
+    "0-28857": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1110.4102783203125,249.89651489257812,-381.46240234375,0,0,0]
+    },
+    "0-28858": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_gold_25",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 35,
+      "DATA": [-951.3699951171875,94.1259994506836,-490.0870056152344,0,0,0]
+    },
+    "0-28862": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_02_gold_10",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1018.0770263671875,-92.39299774169922,-374.27801513671875,0,0,0]
+    },
+    "0-28863": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_03",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1078.6119384765625,-91.32588195800781,-407.90667724609375,0,0,0.7000000476837158]
+    },
+    "0-28864": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1027.792236328125,-77.48074340820312,-408.27587890625,0,0,0]
+    },
+    "0-28865": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1020.2939453125,-89.63247680664062,-408.27587890625,0,0,0]
+    },
+    "0-28866": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_05",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1033.2275390625,-92.20924377441406,-408.27587890625,0,0,0]
+    },
+    "0-28870": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_glass_peach_02",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1083.5203857421875,-84.13331604003906,-471.164306640625,0,0,0]
+    },
+    "0-28871": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_blue_02",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1050.6011962890625,-89.09320068359375,-471.0889892578125,0,0,0]
+    },
+    "0-28872": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-980.8759765625,-89.32728576660156,-462.5309753417969,0,0,4.983187675476074]
+    },
+    "0-28873": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-948.9476928710938,-96.79258728027344,-462.5309753417969,0,0,3.8831875324249268]
+    },
+    "0-28874": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-964.0463256835938,-97.28266143798828,-462.5309753417969,0,0,4.283187389373779]
+    },
+    "0-28875": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-960.0923461914062,-82.158203125,-462.5309753417969,0,0,4.983187675476074]
+    },
+    "0-28878": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_16",
+      "ANAM": "persius mercius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [746.7116088867188,731.76513671875,-735.405517578125,0,0,3.1415929794311523]
+    },
+    "0-28883": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_11_64",
+      "ANAM": "persius mercius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [816.17578125,518.82470703125,-699.8040771484375,0,0,4.7123894691467285]
+    },
+    "0-28884": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [810.0755615234375,538.100341796875,-690.1217651367188,0,0,5.112388610839844]
+    },
+    "0-28885": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [825.1126708984375,549.7108764648438,-697.4535522460938,0,0,0.6292024850845337]
+    },
+    "0-28887": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_desk_01_pesesius",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 30,
+      "DATA": [214.44044494628906,781.0602416992188,-715.3170166015625,0,0,5.322591304779053]
+    },
+    "0-28894": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [259.39080810546875,510.9250793457031,-703.4339599609375,0,0,2.1623899936676025]
+    },
+    "0-28895": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [286.8617858886719,573.4467163085938,-703.4339599609375,0,0,4.562389373779297]
+    },
+    "0-28896": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [262.88616943359375,536.9092407226562,-696.9267578125,0,0,2.356194496154785]
+    },
+    "0-28897": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [231.11834716796875,545.2574462890625,-692.9676513671875,0,0,4.562389373779297]
+    },
+    "0-28898": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [214.158447265625,551.1334228515625,-695.1730346679688,0,0,4.562389373779297]
+    },
+    "0-28899": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_03",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [241.0502166748047,588.4473876953125,-709.4478759765625,0,0,4.062389373779297]
+    },
+    "0-28900": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_fork",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [254.6527099609375,597.848876953125,-710.31787109375,0,0,0.8126843571662903]
+    },
+    "0-28901": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_knife",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [226.9212646484375,580.6652221679688,-710.4556884765625,0,0,1.137388825416565]
+    },
+    "0-28902": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_silverware_spoon",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [220.889404296875,577.1784057617188,-710.1128540039062,0,0,0.9373899102210999]
+    },
+    "0-28903": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [329.1822814941406,820.1189575195312,-633.7169799804688,0,0,4.71238899230957]
+    },
+    "0-28915": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_13_64",
+      "ANAM": "persius mercius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [569.3431396484375,-118.45417022705078,-692.914306640625,0,0,0]
+    },
+    "0-28916": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_13_64",
+      "ANAM": "persius mercius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [477.1460876464844,-110.10934448242188,-692.914306640625,0,0,0]
+    },
+    "0-28917": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_bugdesign_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [521.6349487304688,-119.8703842163086,-697.07861328125,0,0,0]
+    },
+    "0-28918": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [487.90179443359375,-130.8189697265625,-680.5851440429688,0,0,6.108185291290283]
+    },
+    "0-28932": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_pos",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [515.9219970703125,858.7550048828125,-635.4710083007812,0,0,6.2831854820251465]
+    },
+    "0-28933": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [589.1847534179688,846.4160766601562,-674.7772827148438,0,0,4.7123894691467285]
+    },
+    "0-28934": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [586.8430786132812,862.2459716796875,-674.7772827148438,0,0,4.7123894691467285]
+    },
+    "0-28935": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [572.5842895507812,854.4219360351562,-674.7772827148438,0,0,4.7123894691467285]
+    },
+    "0-28936": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_orange_green_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [447.249267578125,856.7922973632812,-685.37109375,0,0,4.7123894691467285]
+    },
+    "0-28937": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_redware_02",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [541.51611328125,852.7371826171875,-691.00732421875,0,0,4.7123894691467285]
+    },
+    "0-28938": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [514.9364624023438,852.9588012695312,-692.0618896484375,0,0,4.7123894691467285]
+    },
+    "0-28939": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_foldedcloth00",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [482.067626953125,857.9638061523438,-692.0618896484375,0,0,4.7123894691467285]
+    },
+    "0-28940": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [597.8899536132812,859.8723754882812,-740.6602172851562,0,0,4.7123894691467285]
+    },
+    "0-28941": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [567.8078002929688,849.629638671875,-740.6602172851562,0,0,4.7123894691467285]
+    },
+    "0-28942": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [578.6177368164062,862.9937744140625,-740.6602172851562,0,0,4.7123894691467285]
+    },
+    "0-28943": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [584.2711791992188,851.8253784179688,-740.6602172851562,0,0,4.7123894691467285]
+    },
+    "0-28944": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_white_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [457.60107421875,852.9136352539062,-729.5462646484375,0,0,3.9269917011260986]
+    },
+    "0-28945": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [523.2433471679688,849.3638305664062,-726.14892578125,0,0,3.6123898029327393]
+    },
+    "0-6580": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_building_01",
+      "DATA": [128,-128,0,0,0,0]
+    },
+    "0-6581": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_room_02",
+      "DATA": [-384,-128,-128,0,0,1.5707963705062866]
+    },
+    "0-6582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_room_03",
+      "DATA": [768,-128,-128,0,0,0]
+    },
+    "0-6583": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcenter_04",
+      "DATA": [896,-128,-512,0,0,1.5707963705062866]
+    },
+    "0-6584": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_stairs_05",
+      "DATA": [1024,-128,-512,0,0,1.5707963705062866]
+    },
+    "0-8165": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-1024,-512,-384,0,0,0.00000011920928955078125]
+    },
+    "0-8168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-768,256,-384,0,0,4.71238899230957]
+    },
+    "0-8171": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-1024,256,-384,0,0,1.570796012878418]
+    },
+    "0-8173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_entrance_01",
+      "DATA": [512,512,-640,0,0,0]
+    },
+    "0-8174": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [256.0001220703125,512,-640,0,0,0.00000011920928955078125]
+    },
+    "0-8175": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [768,512,-640,0,0,4.71238899230957]
+    },
+    "0-8176": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [512,768,-640,0,0,4.712388515472412]
+    },
+    "0-8177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [768,768,-640,0,0,3.1415927410125732]
+    },
+    "0-8178": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [256.0001220703125,767.999755859375,-640,0,0,1.570796012878418]
+    },
+    "0-8179": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_doorjamb_01",
+      "DATA": [-384,-256,-384,0,0,1.5707963705062866]
+    },
+    "0-9131": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lwall_02",
+      "DATA": [896,-512,-512,0,0,3.1415927410125732]
+    },
+    "0-9132": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lentrance_04",
+      "DATA": [512,256,-512,0,0,0]
+    },
+    "0-9133": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcenter_03",
+      "DATA": [1280,-128,-512,0,0,1.5707963705062866]
+    },
+    "0-9134": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcenter_03",
+      "DATA": [512,-128,-512,0,0,4.71238899230957]
+    },
+    "0-9135": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lwall_02",
+      "DATA": [896,256,-512,0,0,0]
+    },
+    "0-9137": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lwall_01",
+      "DATA": [1536,-256,-512,0,0,1.5707963705062866]
+    },
+    "0-9138": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lwall_01",
+      "DATA": [512,-512,-512,0,0,3.1415927410125732]
+    },
+    "0-9139": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lwall_01",
+      "DATA": [1536,0,-512,0,0,1.5707963705062866]
+    },
+    "0-9140": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lwall_01",
+      "DATA": [1280,256,-512,0,0,6.2831854820251465]
+    },
+    "0-9141": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcorner_01",
+      "DATA": [1536,-512,-512,0,0,1.5707963705062866]
+    },
+    "0-9142": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcorner_01",
+      "DATA": [1536,256,-512,0,0,0]
+    },
+    "0-9143": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcorner_01",
+      "DATA": [256,-512,-512,0,0,3.1415927410125732]
+    },
+    "0-9144": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcorner_01",
+      "DATA": [256,256,-512,0,0,4.71238899230957]
+    },
+    "0-9145": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lwall_01",
+      "DATA": [1280,-512,-512,0,0,3.1415927410125732]
+    },
+    "0-9146": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [1152,-384,-512,0,0,0]
+    },
+    "0-9147": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [1408,128,-512,0,0,0]
+    },
+    "0-9148": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [1408,-384,-512,0,0,0]
+    },
+    "0-9149": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [384,128,-512,0,0,0]
+    },
+    "0-9150": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [640,128,-512,0,0,0]
+    },
+    "0-9151": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [1152,128,-512,0,0,0]
+    },
+    "0-9152": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [640,-384,-512,0,0,0]
+    },
+    "0-9153": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lcolumn_01",
+      "DATA": [384,-384,-512,0,0,0]
+    },
+    "0-9154": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_entrance_01",
+      "DATA": [-512,0,-384,0,0,4.71238899230957]
+    },
+    "0-9155": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [0,0,-640,0,0,0]
+    },
+    "0-9156": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [-256,0,-384,0,0,0]
+    },
+    "0-9157": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_corner_01",
+      "DATA": [-256,-768,-512,0,0,4.71238899230957]
+    },
+    "0-9158": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_corner_01",
+      "DATA": [-256,512,-512,0,0,6.2831854820251465]
+    },
+    "0-9159": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_short_ramp_01",
+      "DATA": [0,-512,-384,0,0,0]
+    },
+    "0-9160": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_corner_01",
+      "DATA": [0,512,-512,0,0,1.5707963705062866]
+    },
+    "0-9161": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_short_ramp_01",
+      "DATA": [-256,-512,-512,0,0,3.1415927410125732]
+    },
+    "0-9162": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_short_ramp_01",
+      "DATA": [-256,256,-512,0,0,0]
+    },
+    "0-9163": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_short_ramp_01",
+      "DATA": [0,256,-384,0,0,3.1415927410125732]
+    },
+    "0-9164": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_entrance_01",
+      "DATA": [-512,-256,-384,0,0,4.71238899230957]
+    },
+    "0-9165": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_corner_01",
+      "DATA": [0,-768,-512,0,0,3.1415927410125732]
+    },
+    "0-9166": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lentrance_01",
+      "DATA": [256,0,-512,0,0,4.71238899230957]
+    },
+    "0-9167": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_lentrance_01",
+      "DATA": [256,-256,-512,0,0,4.71238899230957]
+    },
+    "0-9168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_partition_01",
+      "DATA": [-256,-384,-384,0,0,0]
+    },
+    "0-9169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_partition_01",
+      "DATA": [-1024,-128,-384,0,0,0]
+    },
+    "0-9170": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [-256,-256,-640,0,0,0]
+    },
+    "0-9171": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [-256,-256,-384,0,0,0]
+    },
+    "0-9172": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [0,-256,-384,0,0,0]
+    },
+    "0-9173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [0,0,-384,0,0,0]
+    },
+    "0-9176": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_entrance_01",
+      "DATA": [-512,0,-640,0,0,4.71238899230957]
+    },
+    "0-9177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_entrance_01",
+      "DATA": [-512,-256,-640,0,0,4.71238899230957]
+    },
+    "0-9178": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_partition_01",
+      "DATA": [0,-384,-640,0,0,0]
+    },
+    "0-9179": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_partition_01",
+      "DATA": [0,128,-640,0,0,0]
+    },
+    "0-9180": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-512,-512,-640,0,0,4.71238899230957]
+    },
+    "0-9181": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-512,256,-640,0,0,3.1415927410125732]
+    },
+    "0-9183": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [-256,0,-640,0,0,0]
+    },
+    "0-9184": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_s_4way_01",
+      "DATA": [0,-256,-640,0,0,0]
+    },
+    "0-9185": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-512,256,-384,0,0,3.1415927410125732]
+    },
+    "0-9186": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-512,-512,-384,0,0,4.71238899230957]
+    },
+    "0-9188": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-1024,0,-384,0,0,3.1415929794311523]
+    },
+    "0-9192": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_center_01",
+      "DATA": [-768,0,-384,0,0,4.7123894691467285]
+    },
+    "0-9193": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-1024.0006103515625,-256.001220703125,-384,0,0,3.1415929794311523]
+    },
+    "0-9194": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_center_01",
+      "DATA": [-768.0010986328125,-256.001220703125,-384,0,0,4.7123894691467285]
+    },
+    "0-9195": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-768.0010986328125,-512.0009155273438,-384,0,0,1.570796012878418]
+    },
+    "0-9196": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-768,256,-640,0,0,4.71238899230957]
+    },
+    "0-9197": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_center_01",
+      "DATA": [-768,0,-640,0,0,4.7123894691467285]
+    },
+    "0-9198": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_center_01",
+      "DATA": [-768.0010986328125,-256.001220703125,-640,0,0,4.7123894691467285]
+    },
+    "0-9199": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-768.0010986328125,-512.0009155273438,-640,0,0,1.570796012878418]
+    },
+    "0-9200": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-1024,-512,-640,0,0,0.00000011920928955078125]
+    },
+    "0-9201": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-1024.0006103515625,-256.001220703125,-640,0,0,3.1415929794311523]
+    },
+    "0-9202": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_wall_01",
+      "DATA": [-1024,0,-640,0,0,3.1415929794311523]
+    },
+    "0-9203": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_corner_01",
+      "DATA": [-1024,256,-640,0,0,1.5707963705062866]
+    },
+    "0-9204": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_partition_01",
+      "DATA": [-256,128,-384,0,0,0]
+    },
+    "0-9205": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_partition_01",
+      "DATA": [-512,-128,-384,0,0,0]
+    },
+    "0-9206": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_partition_01",
+      "DATA": [-768,-128,-384,0,0,0]
+    },
+    "0-9207": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_column_01",
+      "DATA": [-640,-128,-384,0,0,0]
+    },
+    "0-9208": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_column_01",
+      "DATA": [-896,-128,-384,0,0,0]
+    },
+    "0-9209": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_doorjamb_01",
+      "DATA": [512,384,-640,0,0,6.2831854820251465]
+    },
+    "0-9210": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_doorjamb_01",
+      "DATA": [-384,0,-384,0,0,1.570796251296997]
+    },
+    "0-9215": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_anvil00",
+      "DATA": [-780.27685546875,128.54061889648438,-739.6138916015625,0,0,0.7603979706764221]
+    },
+    "0-9228": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_redoran_shelf1_01",
+      "DATA": [-478.23101806640625,294.6056823730469,-648.6360473632812,0,0,5.468582630157471]
+    },
+    "0-28782": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_forge_01",
+      "DATA": [-979.4334106445312,186.48915100097656,-777.8717651367188,0,0,5.412388324737549]
+    },
+    "0-28803": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_crate_open_01",
+      "DATA": [-984.0093994140625,-163.65499877929688,-483.3330078125,0,3.1415927410125732,0]
+    },
+    "0-28814": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_crate_open_01",
+      "DATA": [-565.83349609375,-164.65943908691406,-483.3330078125,0,3.1415927410125732,0]
+    },
+    "0-28815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_crate_open_01",
+      "DATA": [-770.68798828125,-165.9134521484375,-483.3330078125,0,3.1415927410125732,0]
+    },
+    "0-28822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [-580.2315673828125,-221.98709106445312,-225.41888427734375,0,0,0]
+    },
+    "0-28827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_01",
+      "DATA": [-424.5679016113281,-183.94805908203125,-255.35479736328125,0,0,0]
+    },
+    "0-28828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.600000023841858,
+      "DATA": [897.4854125976562,174.15615844726562,-770.2691040039062,0,0,3.1373884677886963]
+    },
+    "0-28829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_03",
+      "DATA": [417.86395263671875,-291.3065185546875,-233.26116943359375,0,0,5.1831865310668945]
+    },
+    "0-28830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_03",
+      "DATA": [-177.15579223632812,-326.2978210449219,-233.26116943359375,0,0,1.3000000715255737]
+    },
+    "0-28835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_07",
+      "XSCL": 0.8800000548362732,
+      "DATA": [128.1047821044922,-141.12322998046875,-230.32644653320312,0,0,0]
+    },
+    "0-28837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [-595.98193359375,-394.57574462890625,-639.0353393554688,0,0,0]
+    },
+    "0-28838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [-486.48651123046875,-396.59356689453125,-639.0353393554688,0,0,0]
+    },
+    "0-28839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_redoran_shelf2_01",
+      "DATA": [-727.1224365234375,-615.5778198242188,-661.0447387695312,0,0,1.5792036056518555]
+    },
+    "0-28844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [-865.378662109375,312.62835693359375,-380.0809020996094,0,0,4.683185577392578]
+    },
+    "0-28845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [-866.6146850585938,104.4888687133789,-380.0809020996094,0,0,4.683185577392578]
+    },
+    "0-28846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [-865.4642333984375,208.55303955078125,-380.0809020996094,0,0,4.683185577392578]
+    },
+    "0-28848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [-1061.5604248046875,275.5160827636719,-481.88336181640625,0,0,0]
+    },
+    "0-28852": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_02",
+      "DATA": [-1064.233642578125,143.4474639892578,-511.5093688964844,0,0,4.683186054229736]
+    },
+    "0-28853": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_redoran_shelf2_01",
+      "DATA": [-1123.4825439453125,220.5193328857422,-405.93035888671875,0,0,3.2250006198883057]
+    },
+    "0-28859": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [-1018.354248046875,-95.28211975097656,-436.4544982910156,0,0,0]
+    },
+    "0-28876": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_practice_mat",
+      "XSCL": 1.3700001239776611,
+      "DATA": [-714.468017578125,125.89659118652344,-512.3400268554688,0,0,4.71238899230957]
+    },
+    "0-28877": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.7600001096725464,
+      "DATA": [498.39715576171875,623.311767578125,-770.2514038085938,0,0,3.1415929794311523]
+    },
+    "0-28879": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_R_Bookshelf_02",
+      "DATA": [516.9155883789062,857.1564331054688,-687.6610107421875,0,0,3.1415929794311523]
+    },
+    "0-28880": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_02",
+      "DATA": [811.4158935546875,538.0464477539062,-735.118896484375,0,0,4.7123894691467285]
+    },
+    "0-28881": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [782.3637084960938,501.76409912109375,-746.4585571289062,0,0,4.7123894691467285]
+    },
+    "0-28882": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [848.7616577148438,589.0125732421875,-746.4585571289062,0,0,4.7123894691467285]
+    },
+    "0-28891": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_01",
+      "DATA": [255.35305786132812,547.1846313476562,-739.1520385742188,0,0,4.562389373779297]
+    },
+    "0-28892": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [201.31246948242188,624.2859497070312,-735.0662231445312,0,0,5.662388801574707]
+    },
+    "0-28893": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [282.2113342285156,437.756591796875,-735.0662231445312,0,0,3.2123894691467285]
+    },
+    "0-28909": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_03",
+      "DATA": [519.89013671875,-118.73248291015625,-732.7431030273438,0,0,3.1415927410125732]
+    },
+    "0-28910": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [389.3907165527344,-117.38105773925781,-724.4349975585938,0,0,4.71238899230957]
+    },
+    "0-28911": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [636.2769775390625,-120.50021362304688,-724.4352416992188,0,0,1.5707963705062866]
+    },
+    "0-28912": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [523.1376342773438,-178.21678161621094,-724.4352416992188,0,0,3.1415927410125732]
+    },
+    "0-28913": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [524.981689453125,-49.300025939941406,-724.4349975585938,0,0,6.2831854820251465]
+    },
+    "0-28928": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [771.6410522460938,-581.4290771484375,-745.782470703125,0,0,3.1373889446258545]
+    },
+    "0-28929": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [1022.623779296875,-587.16455078125,-745.782470703125,0,0,3.1373889446258545]
+    },
+    "0-295150": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.100000023841858,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [814.8023071289062,700.6542358398438,-712.3995361328125,0,0,0]
+    },
+    "0-295151": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.0600000619888306,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [810.539306640625,764.0030517578125,-711.3624877929688,0,0,0]
+    },
+    "0-295152": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [256.4542236328125,732.6504516601562,-735.0662231445312,0,0,2.529202938079834]
+    },
+    "0-295153": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_14_64",
+      "ANAM": "persius mercius",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [257.8359375,568.644775390625,-707.4283447265625,0,0,0.6500000953674316]
+    },
+    "0-295156": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [805.9494018554688,449.120361328125,-732.745849609375,0,0,5.5331854820251465]
+    },
+    "0-295158": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "XSCL": 1.540000081062317,
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [241.38552856445312,810.5252075195312,-696.81201171875,0,0,5.333185195922852]
+    },
+    "0-295160": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_cushion_round_01",
+      "DATA": [558.6682739257812,791.1401977539062,-768.080810546875,0,0,0.42500001192092896]
+    },
+    "0-295161": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_cushion_round_01",
+      "DATA": [451.0704345703125,786.1439208984375,-768.080810546875,0,0,0.42500001192092896]
+    },
+    "0-295162": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_percius_02",
+      "ANAM": "persius mercius",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 100,
+      "KNAM": "key_persius mercius",
+      "DATA": [729.1307373046875,433.15533447265625,-750.5120239257812,0,0,2.7742867469787598]
+    },
+    "0-295163": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_redoran_shelf1_01",
+      "DATA": [-478.23101806640625,294.6056823730469,-705.3572387695312,0,0,5.468582630157471]
+    },
+    "0-295164": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_05",
+      "XSCL": 1.5700000524520874,
+      "DATA": [-978.4865112304688,-190.01126098632812,-770.4569091796875,0,0,1.5749998092651367]
+    },
+    "0-295165": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_04",
+      "DATA": [-768.84619140625,321.2144470214844,-733.820068359375,0,0,3.1499996185302734]
+    },
+    "0-295166": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_04",
+      "DATA": [-978.1111450195312,-156.867431640625,-730.3735961914062,0,0,1.5749998092651367]
+    },
+    "0-295167": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "repair_journeyman_01",
+      "ANAM": "ergnir",
+      "INTV": 20,
+      "NAM9": 1,
+      "DATA": [-801.0494384765625,323.1507263183594,-701.7144165039062,0,0,0]
+    },
+    "0-295168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hammer_repair",
+      "ANAM": "ergnir",
+      "INTV": 20,
+      "NAM9": 1,
+      "DATA": [-976.899169921875,-154.72711181640625,-698.5271606445312,0,0,5.483184814453125]
+    },
+    "0-295169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hammer_repair",
+      "ANAM": "ergnir",
+      "INTV": 20,
+      "NAM9": 1,
+      "DATA": [-768.8766479492188,321.6842346191406,-701.5397338867188,0,0,0]
+    },
+    "0-295170": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hammer_repair",
+      "ANAM": "ergnir",
+      "INTV": 20,
+      "NAM9": 1,
+      "DATA": [-746.4976196289062,315.92681884765625,-702.0578002929688,0,0,6.133185386657715]
+    },
+    "0-295171": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-830.8161010742188,-579.1697387695312,-633.7174072265625,0,0,5.608186721801758]
+    },
+    "0-295172": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "hammer_repair",
+      "ANAM": "ergnir",
+      "INTV": 20,
+      "NAM9": 1,
+      "DATA": [-724.6636962890625,321.2149963378906,-702.0291748046875,0,0,0.24999971687793732]
+    },
+    "0-295173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "steel mace",
+      "ANAM": "ergnir",
+      "INTV": 1200,
+      "NAM9": 1,
+      "DATA": [-958.60400390625,-183.61700439453125,-697.35302734375,6.082472324371338,6.183701515197754,4.808382034301758]
+    },
+    "0-295174": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "steel saber",
+      "ANAM": "ergnir",
+      "INTV": 700,
+      "NAM9": 1,
+      "DATA": [-954.7230224609375,-199.4499969482422,-696.45263671875,6.126105785369873,0,4.71238899230957]
+    },
+    "0-295175": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron longsword",
+      "ANAM": "ergnir",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [-953.1013793945312,-214.7164306640625,-697.7940673828125,0.010471975430846214,6.248278617858887,4.71238899230957]
+    },
+    "0-295176": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chitin cuirass",
+      "ANAM": "ergnir",
+      "INTV": 300,
+      "NAM9": 1,
+      "DATA": [-979.5479736328125,-110.06800079345703,-697.698974609375,0,0,4.174827575683594]
+    },
+    "0-295177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_mclothes3",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-691.7100219726562,-517.8319702148438,-750.5120239257812,0,0,1.6004669666290283]
+    },
+    "0-295178": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-978.2474975585938,-575.3751220703125,-373.0920715332031,0,0,1.5500003099441528]
+    },
+    "0-295179": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1600000858306885,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-489.7828369140625,-516.2754516601562,-710.4241333007812,0,0,0]
+    },
+    "0-295180": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-1023.3864135742188,-20.79268455505371,-629.2002563476562,0,0,0]
+    },
+    "0-296011": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-978.2474975585938,-575.3751220703125,-461.8769226074219,0,0,1.625000238418579]
+    },
+    "0-296012": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-571.2362060546875,-572.0140380859375,-373.0920715332031,0,0,1.625000238418579]
+    },
+    "0-296013": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1600000858306885,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-571.2362060546875,-572.0140380859375,-461.8769226074219,0,0,1.7000001668930054]
+    },
+    "0-296014": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1800000667572021,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-775.2006225585938,-571.417724609375,-373.0920715332031,0,0,1.5500003099441528]
+    },
+    "0-296015": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-775.2006225585938,-571.417724609375,-461.8769226074219,0,0,1.625000238418579]
+    },
+    "0-296016": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_07",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-974.3197021484375,-162.3478546142578,-438.8151550292969,0,0,1.225000023841858]
+    },
+    "0-296017": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-992.16552734375,-205.59469604492188,-496.0216064453125,0,0,5.358185291290283]
+    },
+    "0-296018": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-988.8165893554688,-172.6383514404297,-438.9962463378906,0,0,0.4000000059604645]
+    },
+    "0-296019": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_glass_green_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-977.3092651367188,-180.39649963378906,-455.26123046875,0,0,1.1500000953674316]
+    },
+    "0-296020": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pot_redware_02",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-787.1760864257812,-150.02902221679688,-454.6660461425781,0,0,0.5250000357627869]
+    },
+    "0-296021": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_DE_pot_redware_03",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-767.1036376953125,-153.46429443359375,-454.6660461425781,0,0,0.8500000238418579]
+    },
+    "0-296022": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-619.850830078125,-359.1983642578125,-500.20477294921875,0,0,6.008185386657715]
+    },
+    "0-296023": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-621.551025390625,-375.9460144042969,-500.2049865722656,0,0,0.7243116497993469]
+    },
+    "0-296024": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [-462.33404541015625,-491.0604248046875,-383.5098876953125,0,0,0.699999988079071]
+    },
+    "0-296025": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01_128",
+      "DATA": [-876.6492309570312,-537.9326782226562,-383.5098876953125,0,0,0.699999988079071]
+    },
+    "0-296026": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [475.9070739746094,-136.416015625,-680.5851440429688,0,0,0.6000000238418579]
+    },
+    "0-296027": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [600.4219970703125,-119.80899810791016,-691.4719848632812,0,0,0.5742133259773254]
+    },
+    "0-296028": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [521.3314208984375,-84.30741882324219,-691.4722290039062,0,0,0.4750000238418579]
+    },
+    "0-296029": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [521.974853515625,-153.76400756835938,-691.4722290039062,0,0,0.5750000476837158]
+    },
+    "0-296030": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [441.2115478515625,-118.44723510742188,-691.4722290039062,0,0,0.5750000476837158]
+    },
+    "0-296031": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_food",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [920.2249145507812,-74.6007308959961,-711.3492431640625,0,0,0]
+    },
+    "0-296032": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_food",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [865.952880859375,-75.59502410888672,-726.3641967773438,0,0,0.17499999701976776]
+    },
+    "0-296033": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [921.4251708984375,-125.06249237060547,-723.848876953125,0,0,0.10000000149011612]
+    },
+    "0-296034": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_01_ingred",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [917.6844482421875,-179.14190673828125,-718.7902221679688,0,0,5.758185386657715]
+    },
+    "0-296035": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [866.5252685546875,-182.85816955566406,-732.74560546875,0,0,5.733184337615967]
+    },
+    "0-296036": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [890.8915405273438,-148.79098510742188,-746.0384521484375,0,0,5.483185768127441]
+    },
+    "0-296037": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [823.313720703125,-67.59280395507812,-744.954345703125,0,0,4.683185577392578]
+    },
+    "0-296038": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [1618.60546875,0.22132113575935364,-745.782470703125,0,0,4.71238899230957]
+    },
+    "0-296039": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [1611.81494140625,-250.7357635498047,-745.782470703125,0,0,4.71238899230957]
+    },
+    "0-296040": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [1022.2103881835938,334.41461181640625,-745.782470703125,0,0,3.1373889446258545]
+    },
+    "0-296041": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_bench_01",
+      "DATA": [771.2272338867188,340.15008544921875,-745.782470703125,0,0,3.1373889446258545]
+    },
+    "0-296042": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.8200000524520874,
+      "DATA": [126.75226593017578,-112.2484130859375,-260.08294677734375,0,0,3.1373884677886963]
+    },
+    "0-307260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_railing_01",
+      "DATA": [128,-256,-512,0,0,1.5707963705062866]
+    },
+    "0-307261": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_railing_01",
+      "DATA": [128,0,-512,0,0,1.5707963705062866]
+    },
+    "0-307262": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.7100000381469727,
+      "DATA": [498.83148193359375,-133.2688446044922,-771.1377563476562,0,0,3.1373884677886963]
+    },
+    "0-307263": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.600000023841858,
+      "DATA": [901.94140625,-416.43841552734375,-770.9166259765625,0,0,3.1373884677886963]
+    },
+    "0-307264": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-575.5228881835938,-59.48394012451172,-199.50054931640625,0,0,0]
+    },
+    "0-307265": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.2000000476837158,
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-946.7260131835938,295.375,-456.14251708984375,0,0,1.4749999046325684]
+    },
+    "0-311378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-131.48167419433594,865.2973022460938,-176,0,0,0]
+    },
+    "0-333441": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_v_weapon04",
+      "ANAM": "ergnir",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [-968.2839965820312,-169.3159942626953,-743.7073364257812,0,0,4.583234786987305]
+    },
+    "0-333440": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_v_armor04",
+      "ANAM": "ergnir",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 75,
+      "DATA": [-1103.697998046875,-239.18499755859375,-682.0850219726562,0,0,4.682718276977539]
+    },
+    "0-387469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_de_weapons",
+      "ANAM": "ergnir",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-1106.2178955078125,-451.28790283203125,-736,0,0,6.233185291290283]
+    },
+    "0-387470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_04",
+      "XSCL": 0.8400000333786011,
+      "DATA": [127.96038055419922,-427.36444091796875,-40.990821838378906,0,0,0]
+    },
+    "0-387471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [232.06228637695312,291.4363708496094,-633.717529296875,0,0,4.683187007904053]
+    },
+    "0-387472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [243.2406463623047,-536.492431640625,-633.717529296875,0,0,0]
+    },
+    "0-387473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [1588.064453125,-129.3369598388672,-633.717529296875,0,0,5.4831862449646]
+    },
+    "0-387474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [1553.371826171875,291.4363708496094,-633.717529296875,0,0,4.683187007904053]
+    },
+    "0-387475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05",
+      "DATA": [1564.5501708984375,-536.492431640625,-633.717529296875,0,0,0]
+    },
+    "0-387476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_paper_lantern_01_128",
+      "DATA": [879.5022583007812,-126.62979125976562,-92.67587280273438,0,0,0]
+    },
+    "0-387477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [879.9384155273438,-127.21675109863281,-41.15323257446289,0,0,0]
+    },
+    "0-387478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BookSkill_Axe1",
+      "XSCL": 0.7400000095367432,
+      "ANAM": "persius mercius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [210.8126983642578,761.1277465820312,-695.150146484375,0,0,0.40000003576278687]
+    },
+    "0-387479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Fire_NoSmoke_128",
+      "DATA": [-974.7420043945312,179.71693420410156,-712.9238891601562,0,0,0]
+    },
+    "0-387480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-968.7427368164062,170.21559143066406,-651.1145629882812,0,0,0]
+    },
+    "0-387481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "XSCL": 0.6800000071525574,
+      "DATA": [-984.5320434570312,171.41668701171875,-686.08349609375,0,0,4.883186340332031]
+    },
+    "0-387482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_02",
+      "DATA": [-983.8857421875,191.9416961669922,-685.715576171875,0,0,5.083186626434326]
+    },
+    "0-387483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_03",
+      "DATA": [-984.0335693359375,181.9943389892578,-677.2935180664062,0,0,5.4831862449646]
+    },
+    "0-387484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_04",
+      "DATA": [-972.745849609375,189.1602020263672,-677.5657348632812,0.40000003576278687,0,0]
+    },
+    "0-387485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [2.9556379318237305,-124.42677307128906,-633.7174682617188,0,0,5.608186721801758]
+    },
+    "0-387486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [6.345638751983643,546.6648559570312,-505.7176818847656,0,0,4.808187484741211]
+    },
+    "0-387487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [13.998419761657715,-781.7695922851562,-505.7176208496094,0,0,4.808187484741211]
+    },
+    "0-387488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-253.2820281982422,100.59371185302734,-377.92388916015625,0,0,3.9269909858703613]
+    },
+    "0-387489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-253.2820281982422,-353.28662109375,-377.92388916015625,0,0,3.9269909858703613]
+    },
+    "0-387490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-894.1693725585938,-146.52659606933594,-417.8217468261719,0,0,0]
+    },
+    "0-387491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-381.9479675292969,114.71793365478516,-417.8217468261719,0,0,0]
+    },
+    "0-387492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-127.07279968261719,-372.7014465332031,-417.8217468261719,0,0,0]
+    },
+    "0-387493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-127.07279968261719,114.71793365478516,-417.8217468261719,0,0,0]
+    },
+    "0-387494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-377.9661865234375,-372.7014465332031,-417.8217468261719,0,0,0]
+    },
+    "0-387495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-387.9190979003906,-141.063232421875,-417.8217468261719,0,0,0]
+    },
+    "0-387496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flame Light_64",
+      "DATA": [-894.1693725585938,-201.91648864746094,-417.8217468261719,0,0,0]
+    },
+    "0-387497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_redoran_window_02",
+      "DATA": [697.9036865234375,-12.185025215148926,-102.62890625,0,0,4.71238899230957]
+    },
+    "0-387498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_redoran_window_02",
+      "DATA": [644.7305297851562,-11.637356758117676,-103.17000579833984,6.2831854820251465,0,4.71238899230957]
+    },
+    "0-387499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_redoran_window_02",
+      "DATA": [592.2933959960938,-10.843823432922363,-106.28314208984375,6.2831854820251465,0,4.71238899230957]
+    },
+    "0-387500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_redoran_window_02",
+      "DATA": [-502.2406311035156,1.6264691352844238,-89.45027923583984,6.2831854820251465,0,4.71238899230957]
+    },
+    "0-387501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_redoran_window_02",
+      "DATA": [-449.8035583496094,0.8329365253448486,-86.33714294433594,6.2831854820251465,0,4.71238899230957]
+    },
+    "0-387502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_redoran_window_02",
+      "DATA": [-396.63043212890625,0.28526902198791504,-85.7960433959961,0,0,4.71238899230957]
+    },
+    "0-387503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_06_128",
+      "ANAM": "persius mercius",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [98.31300354003906,-132.766845703125,-176.19239807128906,0,0,5.897787094116211]
+    },
+    "0-460127": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_fg_supply",
+      "CNAM": {
+        "faction_id": "Fighters Guild",
+        "rank": 0
+      },
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [121.95195007324219,-390.7193298339844,-234.91317749023438,0,0,3.1831860542297363]
+    },
+    "0-468775": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "XSCL": 1.4600000381469727,
+      "DATA": [1663.9041748046875,-248.9239044189453,-409.61041259765625,0,0,4.71238899230957]
+    },
+    "0-468776": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_13",
+      "XSCL": 1.4600000381469727,
+      "DATA": [1663.9041748046875,4.617311954498291,-409.61041259765625,0,0,4.71238899230957]
+    },
+    "0-468777": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_warrior_01",
+      "XSCL": 1.1800000667572021,
+      "DATA": [-216.02194213867188,-315.8268127441406,-25.77384376525879,0,0,1.2292020320892334]
+    },
+    "0-468778": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_c_t_warrior_01",
+      "XSCL": 1.1800000667572021,
+      "DATA": [468.6981201171875,-315.8268127441406,-25.77384376525879,0,0,5.112388610839844]
+    },
+    "0-470837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_percius_01",
+      "ANAM": "persius mercius",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [614.3389892578125,711.8920288085938,-750.5120239257812,0,0,1.574286937713623]
+    },
+    "0-480384": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_guide_to_ald_ruhn",
+      "DATA": [153.8564910888672,-144.509765625,-204.65248107910156,0,0,5.743185043334961]
+    },
+    "0-481592": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_ABCs",
+      "DATA": [-633.0337524414062,-503.8454284667969,-712.6864013671875,0,0,1.9415934085845947]
+    },
+    "0-483301": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_charterFG",
+      "DATA": [182.7793426513672,-148.2820587158203,-201.6448516845703,0,0,6.193185329437256]
+    },
+    "0-484319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [-1110.5384521484375,185.56234741210938,-377.0342102050781,0,0,3.541592597961426]
+    },
+    "0-484320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Practice_Dummy",
+      "DATA": [-464.52203369140625,281.9522399902344,-440.8530578613281,0,0,1]
+    },
+    "0-484321": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-440.98406982421875,180.2384033203125,-378.58770751953125,0,0,5.383186340332031]
+    },
+    "0-484322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_05_128",
+      "DATA": [-596.8387451171875,328.6246337890625,-378.58770751953125,0,0,5.783185958862305]
+    }
+  }
+}

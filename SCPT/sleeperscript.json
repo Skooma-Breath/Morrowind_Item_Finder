@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 318,
+    "local_var_size": 24
+  },
+  "SCTX": "Begin sleeperScript\r\n\r\nshort sleeperOn\r\n;activates sleeper dialogue at night\r\n;other sleeper behavior (endgame, etc) is handled in dialogue\r\n\r\nshort doOnce\r\n;keeps sleepers from ForceGreeting over and over\r\n\r\nshort NoLore\r\n;don't want sleepers being too talkative\r\n\r\nif ( GetJournalIndex TT_SanctusShrine >= 20 )\r\n\tif ( GetJournalIndex TT_SanctusShrine < 50 )\r\n\t\tReturn\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex A1_2_AntabolisInformant < 10 )\r\n\tSet sleeperOn to 0\r\n\tReturn\r\n\t;sleepers don't forceGreeting you before this event\r\nendif\r\n\r\nif ( GetJournalIndex C3_DestroyDagoth >= 50 )\r\n\tSet sleeperOn to 0\r\n\tReturn\r\n\t;no more sleepers after endgame\r\nendif\r\n\r\nSet sleeperOn to 1\r\n\r\nif ( GameHour > 6 )\r\n\tif ( GameHour < 18 )\r\n\t\tSet sleeperOn to 0\r\n\t\t;1 unless sun is up... estimate, adjust\r\n\t\t;not sleepers anymore after endgame\r\n\t\tReturn\r\n\tendif\r\nendif\r\n\r\nif ( GetDistance Player > 3000 )\r\n\tset doOnce to 0\r\n\tReturn\r\nendif\r\n\r\nif ( doOnce != 0 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetDistance Player < 150 )\r\n\tForceGreeting\r\n\tset doOnce to 1\r\nendif\r\n\r\n;the idea is to have them annoyingly initiate conversation\r\n;whenever the player approaches... But only do this\r\n;once per approach... needs testing.\r\n\r\nEnd",
+  "SCVR": [
+    "sleeperOn",
+    "doOnce",
+    "NoLore"
+  ],
+  "SCDT": [6,1,3,29,32,88,205,16,32,100,16,84,84,95,83,97,110,99,116,117,115,83,104,114,105,110,101,32,62,61,32,50,48,6,1,1,28,32,88,205,16,32,100,16,84,84,95,83,97,110,99,116,117,115,83,104,114,105,110,101,32,60,32,53,48,36,1,9,1,9,1,6,1,2,35,32,88,205,16,32,100,23,65,49,95,50,95,65,110,116,97,98,111,108,105,115,73,110,102,111,114,109,97,110,116,32,60,32,49,48,5,1,115,1,0,2,32,48,36,1,9,1,6,1,2,29,32,88,205,16,32,100,16,67,51,95,68,101,115,116,114,111,121,68,97,103,111,116,104,32,62,61,32,53,48,5,1,115,1,0,2,32,48,36,1,9,1,5,1,115,1,0,2,32,49,6,1,4,15,32,71,8,71,97,109,101,72,111,117,114,32,62,32,54,6,1,2,16,32,71,8,71,97,109,101,72,111,117,114,32,60,32,49,56,5,1,115,1,0,2,32,48,36,1,9,1,9,1,6,1,2,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,62,32,51,48,48,48,5,1,115,2,0,2,32,48,36,1,9,1,6,1,1,9,32,115,2,0,32,33,61,32,48,36,1,9,1,6,1,2,19,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,32,49,53,48,232,16,5,1,115,2,0,2,32,49,9,1,1,1]
+}

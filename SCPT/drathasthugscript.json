@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 363,
+    "local_var_size": 22
+  },
+  "SCTX": "begin DrathasThugScript\r\n\r\nshort attack\r\nshort doOnce\r\nshort doOnceB\r\n\r\nif ( GetJournalIndex MS_BarbarianBook = 110 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex MS_BarbarianBook = 200 )\r\n\treturn\r\nendif\r\n\r\nif ( GetAttacked == 1 )\r\n\tif ( attack == 0 )\r\n\t\tset attack to 1\r\n\t\t\"drathas nerus\"->StartCombat Player\r\n\t\t\"melur savil\"->StartCombat dilborn\r\n\t\t\"alam merys\"->StartCombat dilborn\r\n\tendif\r\nendif\r\n\r\nif ( GetDeadCount dilborn == 1 )\r\n\tif ( doonce == 0 )\r\n\t\tStartCombat Player\r\n\t\tset doonce to 1\r\n\tendif\r\nendif\r\n\r\nif ( GetDeadCount dilborn == 0 )\r\n\tif ( attack == 1 )\r\n\t\tif ( doonceB == 0 )\r\n\t\t\tStartCombat dilborn\r\n\t\t\tset doonce to 1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( onDeath == 1 )\r\n\tset dilborn.thugDead to ( dilborn.thugDead + 1 )\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "attack",
+    "doOnce",
+    "doOnceB"
+  ],
+  "SCDT": [6,1,1,29,32,88,205,16,32,100,16,77,83,95,66,97,114,98,97,114,105,97,110,66,111,111,107,32,61,32,49,49,48,36,1,9,1,6,1,1,29,32,88,205,16,32,100,16,77,83,95,66,97,114,98,97,114,105,97,110,66,111,111,107,32,61,32,50,48,48,36,1,9,1,6,1,6,9,32,88,72,17,32,61,61,32,49,6,1,4,9,32,115,1,0,32,61,61,32,48,5,1,115,1,0,2,32,49,12,1,13,100,114,97,116,104,97,115,32,110,101,114,117,115,25,16,6,80,108,97,121,101,114,12,1,11,109,101,108,117,114,32,115,97,118,105,108,25,16,7,100,105,108,98,111,114,110,12,1,10,97,108,97,109,32,109,101,114,121,115,25,16,7,100,105,108,98,111,114,110,9,1,9,1,6,1,4,19,32,88,254,16,32,111,7,100,105,108,98,111,114,110,32,61,61,32,49,6,1,2,9,32,115,2,0,32,61,61,32,48,25,16,6,80,108,97,121,101,114,5,1,115,2,0,2,32,49,9,1,9,1,6,1,6,19,32,88,254,16,32,111,7,100,105,108,98,111,114,110,32,61,61,32,48,6,1,4,9,32,115,1,0,32,61,61,32,49,6,1,2,9,32,115,3,0,32,61,61,32,48,25,16,7,100,105,108,98,111,114,110,5,1,115,2,0,2,32,49,9,1,9,1,9,1,6,1,1,9,32,88,240,16,32,61,61,32,49,5,1,114,7,68,105,108,98,111,114,110,115,3,0,17,32,114,7,68,105,108,98,111,114,110,115,3,0,32,49,32,43,9,1,1,1]
+}

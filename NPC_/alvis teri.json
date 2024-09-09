@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Rogue",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_24",
+  "MODL": null,
+  "FNAM": "Alvis Teri",
+  "SCRI": "alvisTeriScript",
+  "AIDT": {
+    "greet": 40,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel shortsword"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_01_e"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_tshield_hlaaluguard"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_founders_helm"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 144,
+    "magicka": 26,
+    "fatigue": 246,
+    "disposition": 50,
+    "reputation": 25,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [72,52,62,58,80,54,76,40],
+    "skills": [38,14,38,14,14,42,52,14,42,6,16,6,6,6,12,6,6,6,6,6,6,50,55,12,45,30,45]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,10,0,0]
+    }
+  ]
+}

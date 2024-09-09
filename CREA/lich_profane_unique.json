@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Liche.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 20,
+    "attributes": [50,100,100,50,51,50,50,50],
+    "health": 280,
+    "magicka": 500,
+    "fatigue": 1000,
+    "soul_strength": 300,
+    "combat_skill": 80,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [20,50],
+      [20,50],
+      [20,50]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "lich",
+  "FNAM": "Profane Acolyte",
+  "SCRI": "profaneScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron_shield"
+    },
+    {
+      "count": 1,
+      "name": "random_bonemeal"
+    },
+    {
+      "count": 1,
+      "name": "random_iron_weapon"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "resist shock_50",
+    "immune to frost",
+    "summon greater bonewalker",
+    "dire shockball",
+    "dread curse: health"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

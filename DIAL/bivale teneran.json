@@ -1,0 +1,351 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "7232163411833420005": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "6539314872430632069",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled from House Hlaalu. You must make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "6539314872430632069": {
+      "flag": 0,
+      "PNAM": "7232163411833420005",
+      "NNAM": "3139612128646416607",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bivale Teneran is dead.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 200
+        }
+      ]
+    },
+    "3139612128646416607": {
+      "flag": 0,
+      "PNAM": "6539314872430632069",
+      "NNAM": "178877295958410744",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You told me you already delivered the orders.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 100
+        }
+      ]
+    },
+    "178877295958410744": {
+      "flag": 0,
+      "PNAM": "3139612128646416607",
+      "NNAM": "910080602389228061",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bivale Teneran is dead? That is unfortunate news. She was our only contact in Ald'ruhn.",
+      "BNAM": "Journal HH_IndEsp3 200",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "bivale teneran",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HH_IndEsp3",
+          "__TV": 0
+        }
+      ]
+    },
+    "910080602389228061": {
+      "flag": 0,
+      "PNAM": "178877295958410744",
+      "NNAM": "239167611342921001",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You killed Bivale Teneran? That is intolerable. I will not discuss business with you any more.",
+      "BNAM": "ModDisposition -30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "bivale teneran",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 10
+        }
+      ]
+    },
+    "239167611342921001": {
+      "flag": 0,
+      "PNAM": "910080602389228061",
+      "NNAM": "11651151962116219822",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good work, %PCName. Take these 500 drakes with my gratitude.",
+      "BNAM": "Journal HH_IndEsp3 100\r\nPlayer->AddItem Gold_001 500\r\nModPCFacRep 5 \"Hlaalu\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 50
+        }
+      ]
+    },
+    "11651151962116219822": {
+      "flag": 0,
+      "PNAM": "239167611342921001",
+      "NNAM": "2693130364288595290",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Like I said, take the scroll I gave you to Bivale Teneran in Ald'ruhn. Her shop in under the crabshell.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 10
+        }
+      ]
+    },
+    "2693130364288595290": {
+      "flag": 0,
+      "PNAM": "11651151962116219822",
+      "NNAM": "1458784812071418152",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bivale Teneran is a wealthy clothing merchant in Ald'ruhn. She keeps an eye out for us in Ald'ruhn. Her shop is under Skar, the crabshell in Ald'ruhn. Take this scroll to her.",
+      "BNAM": "Journal HH_IndEsp3 10\r\nPlayer->AddItem \"bk_OrdersForBivaleTeneran\" 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp2",
+          "__TV": 100
+        }
+      ]
+    },
+    "1458784812071418152": {
+      "flag": 0,
+      "PNAM": "2693130364288595290",
+      "NNAM": "235371551978806463",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bivale teneran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am Bivale Teneran. How may I help you?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "235371551978806463": {
+      "flag": 0,
+      "PNAM": "1458784812071418152",
+      "NNAM": "91039056255964180",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Ald-ruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bivale Teneran is the fine clothier here in Ald'ruhn. Her shop is in the Manor District, which can be found in the north part of town, under-Skar.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "91039056255964180": {
+      "flag": 0,
+      "PNAM": "235371551978806463",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, to Teneran my fine shirts must go. She is in Ald'ruhn, under the big shell.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "MV_TraderLate",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_TraderLate",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

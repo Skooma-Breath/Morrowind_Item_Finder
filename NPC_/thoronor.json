@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Savant",
+  "ANAM": "",
+  "BNAM": "b_n_wood elf_m_head_03",
+  "KNAM": "b_n_wood elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Thoronor",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "amulet of slowfalling"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": 40,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "greenspore"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 70,
+    "magicka": 100,
+    "fatigue": 180,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [56,50,44,37,44,43,71,40],
+    "skills": [20,6,10,10,10,20,10,6,40,6,6,6,6,6,6,6,35,35,22,22,22,8,28,8,38,38,8]
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

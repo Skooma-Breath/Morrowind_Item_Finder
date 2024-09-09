@@ -1,0 +1,71 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Wood Elf",
+  "CNAM": "Shipmaster",
+  "ANAM": "",
+  "BNAM": "b_n_wood elf_m_head_02",
+  "KNAM": "b_n_wood elf_m_hair_03",
+  "MODL": null,
+  "FNAM": "Elberoth",
+  "SCRI": "ColonyElberoth",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_02"
+    },
+    {
+      "count": 2,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": 20,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "mark",
+    "recall",
+    "absorb health",
+    "detect_creature",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "health": 0,
+    "magicka": 164,
+    "fatigue": 268,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,82,62,100,100,47,100,40],
+    "skills": [44,8,8,8,8,8,8,8,59,8,8,8,8,8,44,8,13,44,64,88,32,74,78,42,78,78,27]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

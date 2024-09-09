@@ -1,0 +1,466 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 7,
+    "grid": [0,1061158912]
+  },
+  "NAME": "Khuul, Rivame Samandas's Shack",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [60,40,40,0],
+    "sunlight": [80,40,0,0],
+    "fog_color": [0,0,0,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-102083": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_door",
+      "DATA": [4065.80810546875,3928.072021484375,15391.8564453125,0,0,0]
+    },
+    "0-102046": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bed_30",
+      "ANAM": "rivame samandas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4118.37548828125,4225.412109375,15388.76171875,0,0,0.21460220217704773]
+    },
+    "0-102049": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_02_CheapFood5",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4241.48291015625,4263.75830078125,15381.8203125,0,0,0]
+    },
+    "0-102053": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4273.69921875,3972.181640625,15382.86328125,0,0,0]
+    },
+    "0-102054": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "XSCL": 1.190000057220459,
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4245.419921875,4075.560546875,15343.810546875,0,0,0.9000000953674316]
+    },
+    "0-102055": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_empty",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4220.59716796875,4133.5283203125,15349.6708984375,0,0,5.983185768127441]
+    },
+    "0-102056": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4230.09716796875,4140.7578125,15415.0419921875,0,0,0]
+    },
+    "0-102057": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4010.1240234375,4127.583984375,15350.1767578125,0,0,4.066371917724609]
+    },
+    "0-102058": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_Ingredients",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4007.1025390625,4179.712890625,15344.330078125,2.083188533782959,1.5831869840621948,2.483185291290283]
+    },
+    "0-102059": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Chest_11_k01",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "FLTV": 37,
+      "TNAM": "misfortunate touch",
+      "DATA": [3984.56591796875,3979.56103515625,15332.2880859375,0,0,1.3840460777282715]
+    },
+    "0-102061": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_ingred",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3992.013671875,4036.037353515625,15323.138671875,0,0,6.183185577392578]
+    },
+    "0-102062": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_ingredients",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [3962.609619140625,4032.63818359375,15353.55859375,0,0.4000000059604645,3.182767391204834]
+    },
+    "0-102063": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4072.22998046875,4199.17578125,15323.490234375,0,0,4.883186340332031]
+    },
+    "0-102064": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_chpfood5",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4067.896240234375,4208.0732421875,15336.0068359375,0,0,4.883186340332031]
+    },
+    "0-102065": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_03_chpfood5",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4100.07421875,4189.60888671875,15335.0810546875,0,0.8000005483627319,3.2831857204437256]
+    },
+    "0-102069": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [4183.55419921875,4113.96826171875,15503.9404296875,0,0,5.483185291290283]
+    },
+    "0-102071": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_AncestorsAndTheDunmer",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4241.97314453125,4262.22900390625,15405.3232421875,0,0,5.483824253082275]
+    },
+    "0-102072": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4147.169921875,4174.77294921875,15320.3505859375,4.683187007904053,1.1831847429275513,0.5999999046325684]
+    },
+    "0-102073": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4211.146484375,4111.14697265625,15398.572265625,0,0,0]
+    },
+    "0-102077": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4215.9912109375,3954.836181640625,15393.0380859375,0,0,1.7500004768371582]
+    },
+    "0-102078": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_05",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4204.76806640625,4007.057861328125,15377.9970703125,0,0,1.3000001907348633]
+    },
+    "0-102079": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_04",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4234.27099609375,4020.314208984375,15383.0029296875,0,0,5.383187294006348]
+    },
+    "0-102080": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4232.654296875,3974.755859375,15393.3662109375,0,0,5.708186149597168]
+    },
+    "0-102081": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4198.4873046875,3991.751220703125,15376.9306640625,0,6.183185577392578,0.5]
+    },
+    "0-102082": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "rivame samandas",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [4207.82275390625,4008.992431640625,15378.9892578125,0,0.30000001192092896,1.9831854104995728]
+    },
+    "0-102045": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_de_shack_05",
+      "DATA": [4127.49365234375,4116.35009765625,15425.212890625,0,0,1.5707963705062866]
+    },
+    "0-102047": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [4269.19921875,4195.830078125,15352.8544921875,0,0.20000000298023224,4.8831868171691895]
+    },
+    "0-102048": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_post",
+      "DATA": [3966.906982421875,4255.4462890625,15357.5302734375,0,6.08318567276001,4.8831868171691895]
+    },
+    "0-102050": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "XSCL": 0.7200000286102295,
+      "DATA": [4166.00048828125,4011.197509765625,15330.7265625,0,0,1.8663723468780518]
+    },
+    "0-102051": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_02",
+      "DATA": [4218.74462890625,3993.15625,15345.72265625,0,0,1.8663723468780518]
+    },
+    "0-102052": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [4255.5166015625,3969.935791015625,15336.076171875,0,0,5.58318567276001]
+    },
+    "0-102060": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [3983.859375,4072.883544921875,15350.2724609375,0,0,0]
+    },
+    "0-102066": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [4036.800537109375,4194.93310546875,15494.6669921875,0,0,5.383186340332031]
+    },
+    "0-102067": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [4185.84130859375,4116.4287109375,15523.2666015625,0,0,5.383186340332031]
+    },
+    "0-102068": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [4228.978515625,4018.331298828125,15549.7958984375,0,0,5.983185768127441]
+    },
+    "0-102074": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [4229.60986328125,4018.029052734375,15517.3916015625,0,0,1.0831869840621948]
+    },
+    "0-102075": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "DATA": [4037.4482421875,4195.4365234375,15448.9287109375,0,0,0.48318687081336975]
+    },
+    "0-102076": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [4240.068359375,4022.33056640625,15476.533203125,2.016813039779663,2.283186912536621,0.8999984264373779]
+    },
+    "0-303571": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [3784.197509765625,3918.901123046875,15397.8994140625,0,0,3.4831860065460205]
+    },
+    "0-398634": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_07_64",
+      "DATA": [4215.115234375,3981.887451171875,15394.4912109375,0,0,2.283186435699463]
+    },
+    "0-398635": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "ANAM": "rivame samandas",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [4182.8857421875,4212.51416015625,15371.3916015625,0.10000000149011612,0.5,0.20000000298023224]
+    },
+    "0-398636": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron saber",
+      "ANAM": "rivame samandas",
+      "INTV": 700,
+      "NAM9": 1,
+      "DATA": [4154.177734375,4153.8564453125,15314.9560546875,5.183186054229736,0,1.5999999046325684]
+    },
+    "0-398637": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [4133.94775390625,4161.6845703125,15312.13671875,3.2999985218048096,1.2000000476837158,0.20000000298023224]
+    },
+    "0-398638": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [4143.07080078125,4152.76513671875,15311.41796875,2.299999952316284,0,0]
+    },
+    "0-398639": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Gold_001",
+      "DATA": [4134.07470703125,4152.74755859375,15311.697265625,3.9999985694885254,0,0]
+    },
+    "0-465841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Boat_Creak00",
+      "DATA": [4091.480712890625,4165.1923828125,15268.0625,0,0,0]
+    }
+  }
+}

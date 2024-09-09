@@ -1,0 +1,185 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "181132813177728532": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "113271209030138971",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Unel has dealt with it? That's good to hear. Perhaps once those trees are gone, the Spriggans won't be so adamant about showing up. Good work, %PCName. Make a point to keep an eye out for them in the future.",
+      "BNAM": "player->additem \"gold_001\" 2000\r\nJournal CO_10 100\r\nStartScript ColonyRootTimer",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_10",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ColonySide",
+          "__TV": 1
+        }
+      ]
+    },
+    "113271209030138971": {
+      "flag": 0,
+      "PNAM": "181132813177728532",
+      "NNAM": "40699222535513386",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Unel Lloran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They should soon be weak enough that we can cut them down - thanks to you, of course.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 90
+        }
+      ]
+    },
+    "40699222535513386": {
+      "flag": 0,
+      "PNAM": "113271209030138971",
+      "NNAM": "1793415864150414856",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Unel Lloran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We'll need to weaken the roots. Then we might be able to cut the trees down.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 70
+        }
+      ]
+    },
+    "1793415864150414856": {
+      "flag": 0,
+      "PNAM": "40699222535513386",
+      "NNAM": "757325342299910182",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Unel Lloran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Unless we have access to the roots of the trees, there's little chance we can bring them down.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_10",
+          "__TV": 50
+        }
+      ]
+    },
+    "757325342299910182": {
+      "flag": 0,
+      "PNAM": "1793415864150414856",
+      "NNAM": "1953925123536530804",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Unel Lloran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There's no way we can cut those trees down as they are now. We could weaken them maybe if we could get at the roots, but they're probably too far underground to do anything from here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_10",
+          "__TV": 40
+        }
+      ]
+    },
+    "1953925123536530804": {
+      "flag": 0,
+      "PNAM": "757325342299910182",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Unel Lloran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Some sort of magical heebie-jeebie, that'd be my guess. Either way, we can't start on the building orders until those trees are gone. Maybe if we could get at the roots or something, but we'd have to do that from underground...",
+      "BNAM": "Journal CO_10 40",
+      "SCVR": null
+    }
+  }
+}

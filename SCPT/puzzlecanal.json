@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 408,
+    "local_var_size": 12
+  },
+  "SCTX": "begin puzzlecanal\r\n\r\n;placed on puzzle stairs object\r\n;this script runs the center map of the puzzle canal\r\n; you must drown yourself in this room for the bridges to appear\r\n\r\nfloat timer\r\nshort state\r\n\r\nif ( menumode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( state == 0 )\r\n\t\"puzzle canal bridge A\"->disable\r\n\t\"puzzle canal bridge B\"->disable\r\n\tset state to 10\r\n\r\nelseif ( state == 10 )\r\n\t\r\n\t;check for player dieing in here, screen fades in and out, and you get health back\r\n\tif ( Player->GetHealth <= 10 )\r\n\r\n\t\t\t\tFadeOut 1.0\r\n\t\t\t\tset state to 20\r\n\tendif\r\n\r\nelseif ( state == 20 )\r\n\r\n\t\tset timer to ( timer + GetSecondsPassed )\r\n\r\n\t\tif ( timer >= 1.0 )\r\n\r\n\t\t\t\tPlaySound Thunder1\r\n\t\t\t\tPlayer->ModCurrentHealth 1000\r\n\t\t\t\t\"puzzle canal bridge A\"->enable\r\n\t\t\t\t\"puzzle canal bridge B\"->enable\r\n\t\t\t\t\"puzzle canal glow\"->disable\r\n\t\t\t\t\"Puzzle Canal Force Field\"->disable\r\n\t\t\t\tset timer to 0\r\n\t\t\t\tset state to 100\r\n\t\t\t\tFadeIn 1.0 \r\n\t\t\t\tdisable\t;the stairs, which this script is placed on\r\n\r\n\t\tendif\r\n\r\nelseif ( state == 100 )\t;done\r\n\r\n\t;but keep ressurecting the stupid player at least until they leave the area...\r\n\tif ( Player->GetHealth <= 10 )\r\n\t\tPlayer->ModCurrentHealth 1000\r\n\tendif\t\r\n\r\n\treturn\r\n\t\t\r\nendif\r\n\r\nend puzzlecanal\r\n\r\n\t\t\r\n\r\n\r\n",
+  "SCVR": [
+    "state",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,3,9,32,115,1,0,32,61,61,32,48,12,1,21,112,117,122,122,108,101,32,99,97,110,97,108,32,98,114,105,100,103,101,32,97,219,16,12,1,21,112,117,122,122,108,101,32,99,97,110,97,108,32,98,114,105,100,103,101,32,98,219,16,5,1,115,1,0,3,32,49,48,8,1,4,10,32,115,1,0,32,61,61,32,49,48,12,1,6,112,108,97,121,101,114,6,1,2,10,32,88,140,16,32,60,61,32,49,48,48,17,0,0,128,63,5,1,115,1,0,3,32,50,48,9,1,8,1,13,10,32,115,1,0,32,61,61,32,50,48,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,6,1,10,11,32,102,1,0,32,62,61,32,49,46,48,2,16,8,84,104,117,110,100,101,114,49,12,1,6,112,108,97,121,101,114,50,17,0,0,122,68,12,1,21,112,117,122,122,108,101,32,99,97,110,97,108,32,98,114,105,100,103,101,32,97,218,16,12,1,21,112,117,122,122,108,101,32,99,97,110,97,108,32,98,114,105,100,103,101,32,98,218,16,12,1,17,112,117,122,122,108,101,32,99,97,110,97,108,32,103,108,111,119,219,16,12,1,24,80,117,122,122,108,101,32,67,97,110,97,108,32,70,111,114,99,101,32,70,105,101,108,100,219,16,5,1,102,1,0,2,32,48,5,1,115,1,0,4,32,49,48,48,49,17,0,0,128,63,219,16,9,1,8,1,4,11,32,115,1,0,32,61,61,32,49,48,48,12,1,6,112,108,97,121,101,114,6,1,1,10,32,88,140,16,32,60,61,32,49,48,12,1,6,112,108,97,121,101,114,50,17,0,0,122,68,9,1,36,1,9,1,1,1]
+}

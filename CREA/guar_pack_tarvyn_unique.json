@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Guar_withpack.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 3,
+    "attributes": [255,50,40,50,50,50,50,50],
+    "health": 38,
+    "magicka": 5,
+    "fatigue": 400,
+    "soul_strength": 20,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [3,9],
+      [3,9],
+      [3,9]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 0,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "guar",
+  "FNAM": "Tarvyn's Guar",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_guar_hide"
+    },
+    {
+      "count": 19,
+      "name": "misc_com_plate_01"
+    },
+    {
+      "count": 9,
+      "name": "misc_com_plate_02"
+    },
+    {
+      "count": 15,
+      "name": "misc_com_plate_03"
+    },
+    {
+      "count": 22,
+      "name": "misc_com_plate_04"
+    },
+    {
+      "count": 14,
+      "name": "misc_com_plate_05"
+    },
+    {
+      "count": 2,
+      "name": "misc_com_plate_06"
+    },
+    {
+      "count": 7,
+      "name": "misc_com_plate_07"
+    },
+    {
+      "count": 4,
+      "name": "misc_com_plate_08"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "tarvyn faren"
+      },
+      "CNDT": null
+    }
+  ]
+}

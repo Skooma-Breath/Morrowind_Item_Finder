@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 114,
+    "local_var_size": 0
+  },
+  "SCTX": "begin SothaSilTeleport\r\n\r\n;global script that teleports the player to sotha sil flooded halls\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nplaysound \"conjuration hit\"\r\nPlayer->PositionCell -50, -124, -37, 90, \"Sotha Sil, Outer Flooded Halls\"\r\n;Journal TR_SothaSil 20\r\n\r\nstopscript SothaSilTeleport\r\n\r\n\r\n\r\nend",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,2,16,15,99,111,110,106,117,114,97,116,105,111,110,32,104,105,116,12,1,6,112,108,97,121,101,114,5,16,0,0,72,194,0,0,248,194,0,0,20,194,0,0,180,66,30,83,111,116,104,97,32,83,105,108,44,32,79,117,116,101,114,32,70,108,111,111,100,101,100,32,72,97,108,108,115,28,16,16,83,111,116,104,97,83,105,108,84,101,108,101,112,111,114,116,1,1]
+}

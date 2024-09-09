@@ -1,0 +1,64 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 3,
+    "attributes": [50,50,50,50,50,50,50,50],
+    "health": 38,
+    "magicka": 30,
+    "fatigue": 1000,
+    "soul_strength": 30,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 90,
+    "attacks": [
+      [3,9],
+      [3,9],
+      [3,9]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 50,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Skeleton Archer",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 60,
+      "name": "iron arrow"
+    },
+    {
+      "count": 1,
+      "name": "long bow"
+    },
+    {
+      "count": 50,
+      "name": "l_m_wpn_missle_arrow"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "immune to frost",
+    "resist shock_50"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

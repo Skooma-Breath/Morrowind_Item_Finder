@@ -1,0 +1,753 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 7,
+    "grid": [3421214,1056964608]
+  },
+  "NAME": "Solstheim, Kjolver's Dwelling",
+  "RGNN": null,
+  "WHGT": -205,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [15,15,15,0],
+    "sunlight": [30,35,40,0],
+    "fog_color": [30,52,52,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "2-8353": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "kjolver",
+      "DATA": [-448.0779113769531,1354.6290283203125,-151.9355926513672,0,0,0]
+    },
+    "2-18301": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_door_pelt",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-31.945194244384766,-478.3807373046875,16.81319236755371,0,0,1.5707963705062866]
+    },
+    "2-17340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_med_yellow",
+      "DATA": [-576.5194091796875,1297.887939453125,143.7349853515625,0,0,0]
+    },
+    "2-17341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_08",
+      "DATA": [-952.3741455078125,1756.760009765625,36.61253356933594,4.71238899230957,5.283186435699463,5.183187007904053]
+    },
+    "2-17342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_08",
+      "DATA": [-611.089111328125,1969.1507568359375,36.61253356933594,4.71238899230957,0,0]
+    },
+    "2-17343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_08",
+      "XSCL": 1.3300000429153442,
+      "DATA": [257.9820556640625,1309.6533203125,8.307212829589844,4.7123894691467285,1.1999998092651367,0.10000000149011612]
+    },
+    "2-17344": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_08",
+      "DATA": [-156.86563110351562,1881.2568359375,-96.59539031982422,4.112390518188477,0.6999998688697815,0.10000000149011612]
+    },
+    "2-17345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_08",
+      "DATA": [-568.8109130859375,1739.802490234375,229.5382843017578,3.712390184402466,0.19999989867210388,3.7831878662109375]
+    },
+    "2-17346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_med_yellow",
+      "DATA": [6.328639984130859,-216.64028930664062,91.08261108398438,0,0,0]
+    },
+    "2-17347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_med_yellow",
+      "DATA": [-125.0008773803711,916.671875,75.85980987548828,0,0,0]
+    },
+    "2-17348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_08",
+      "DATA": [1.599278450012207,1104.0191650390625,281.42706298828125,4.01239013671875,0.6999998688697815,3.5831856727600098]
+    },
+    "2-17349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_08",
+      "DATA": [-170.44876098632812,1609.296630859375,171.59971618652344,3.212390422821045,0.6999998688697815,0.10000000149011612]
+    },
+    "2-17350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_pitfire01",
+      "DATA": [-285.9766540527344,1406.83203125,-163.4310760498047,0,0,0]
+    },
+    "2-17352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_room02_entrance",
+      "DATA": [0,1024,128,0,0,4.71238899230957]
+    },
+    "2-17353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_room02_corner",
+      "DATA": [-768,1280,128,0,0,4.71238899230957]
+    },
+    "2-17354": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_room02_corner",
+      "DATA": [-768,1792,128,0,0,0]
+    },
+    "2-17355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_room02_sidewall_01",
+      "DATA": [256,1920,128,0,0,1.5707963705062866]
+    },
+    "2-17356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_room02_sidewall_01",
+      "DATA": [-256,1920,128,0,0,1.5707963705062866]
+    },
+    "2-18302": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_type02_exit_03",
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "2-18303": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.6800000071525574,
+      "DATA": [-63.266109466552734,1469.572021484375,-157.5398712158203,3.1415927410125732,0,4.900000095367432]
+    },
+    "2-18304": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "DATA": [-995.8850708007812,1421.46240234375,-91.73611450195312,3.1415927410125732,0,0.40000030398368835]
+    },
+    "2-18305": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_05",
+      "XSCL": 0.8500000238418579,
+      "DATA": [-621.0546264648438,1112.713623046875,-88.6725082397461,3.1415927410125732,0,3.012389659881592]
+    },
+    "2-18306": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_transrock_01",
+      "XSCL": 1.3300000429153442,
+      "DATA": [-1206.390380859375,1383.4307861328125,127.18830871582031,3.1831860542297363,3.1415927410125732,1.3730095624923706]
+    },
+    "2-18307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_transrock_01",
+      "XSCL": 1.3700001239776611,
+      "DATA": [383.3452453613281,819.1118774414062,69.7305679321289,3.1831858158111572,3.1415927410125732,3.773007392883301]
+    },
+    "2-18308": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_transrock_01",
+      "XSCL": 1.3300000429153442,
+      "DATA": [-1101.8070068359375,1075.445068359375,-40.8341178894043,0,3.1415927410125732,0.47300949692726135]
+    },
+    "2-18309": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.7900000214576721,
+      "DATA": [-785.166015625,1133.306396484375,-139.41590881347656,3.1415927410125732,0,3.6831858158111572]
+    },
+    "2-18310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.5200000405311584,
+      "DATA": [-728.6460571289062,1342.4530029296875,-162.5265350341797,3.1415927410125732,0,1.7831860780715942]
+    },
+    "2-18311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_05",
+      "DATA": [-905.0839233398438,1115.018798828125,-27.45000648498535,3.1415927410125732,0,4.71238899230957]
+    },
+    "2-18312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.8500000238418579,
+      "DATA": [-486.0975036621094,1165.49169921875,-116.81450653076172,3.1415927410125732,0,4.083186149597168]
+    },
+    "2-18313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.7600000500679016,
+      "DATA": [-330.4727478027344,1603.8638916015625,-162.188232421875,3.1415927410125732,0,4.299999237060547]
+    },
+    "2-18314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.5400000214576721,
+      "DATA": [-219.91278076171875,1598.1881103515625,-162.188232421875,3.1415927410125732,0,1.0000001192092896]
+    },
+    "2-18315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_transrock_01",
+      "DATA": [-718.4111328125,1002.99951171875,-40.94130325317383,0,3.1415927410125732,3.356194496154785]
+    },
+    "2-18316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_06",
+      "DATA": [-296.3021545410156,1287.7559814453125,-182.8084259033203,0,0,1.100000023841858]
+    },
+    "2-18317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_rock_06",
+      "DATA": [-665.833984375,1648.052490234375,-168.46229553222656,0,0,0]
+    },
+    "2-18318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_transrock_01",
+      "XSCL": 0.5100000500679016,
+      "DATA": [-460.42486572265625,1556.2362060546875,-113.45079803466797,0,3.1415927410125732,0.7730080485343933]
+    },
+    "2-18319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_transrock_01",
+      "XSCL": 0.6600000262260437,
+      "DATA": [-301.9894714355469,1088.076416015625,-141.0713653564453,0,3.1415927410125732,3.4730076789855957]
+    },
+    "2-32113": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [487.8385009765625,-359.9989318847656,2.52392578125,0,0,0]
+    },
+    "2-32114": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-653.0903930664062,1790.6085205078125,-99.23950958251953,0,0,3.3831868171691895]
+    },
+    "2-32115": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-776.5238037109375,1643.8212890625,-49.40414810180664,0,0,4.3831868171691895]
+    },
+    "2-32116": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [-770.9519653320312,1647.520751953125,-83.4697494506836,0,0,5.083186149597168]
+    },
+    "2-32117": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01_77",
+      "DATA": [-832.1334838867188,1611.374267578125,25.816425323486328,0,0,3.5977888107299805]
+    },
+    "2-32118": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-809.3131103515625,1572.536376953125,-75.14257049560547,0,0,4.3831868171691895]
+    },
+    "2-32119": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_basket_01",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-768.79443359375,1693.9583740234375,-111.75757598876953,0,0,5.983185768127441]
+    },
+    "2-32120": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "DATA": [-670.1410522460938,1671.731201171875,-108.5101089477539,0,0,0.270796000957489]
+    },
+    "2-32121": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_stairs00",
+      "DATA": [-573.2926025390625,1469.0013427734375,-145.99705505371094,0,0,0.5]
+    },
+    "2-32122": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [-685.6231689453125,1530.3677978515625,-113.9970474243164,0,0,2.070796489715576]
+    },
+    "2-32123": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [-624.2566528320312,1642.6983642578125,-113.9970474243164,0,0,5.212388515472412]
+    },
+    "2-32124": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [-736.5872192382812,1704.0648193359375,-113.9970474243164,0,0,5.212388515472412]
+    },
+    "2-32125": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [-797.9536743164062,1591.734130859375,-113.9970474243164,0,0,5.212388515472412]
+    },
+    "2-32126": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-663.8654174804688,1459.7374267578125,-381.2782897949219,0,0,0.5999999642372131]
+    },
+    "2-32127": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-606.616455078125,1569.2115478515625,-381.4220275878906,0,0,0.5999999642372131]
+    },
+    "2-32128": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [-562.8901977539062,1755.0289306640625,-113.9970474243164,0,0,2.070796489715576]
+    },
+    "2-32129": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_ramp00",
+      "DATA": [-675.2207641601562,1816.3953857421875,-113.9970474243164,0,0,2.070796489715576]
+    },
+    "2-32130": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-772.4382934570312,1510.907958984375,-351.2141418457031,0,0,0.5999999642372131]
+    },
+    "2-32131": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-541.8126831054688,1670.3876953125,-334.0679626464844,0,0,0.5999999642372131]
+    },
+    "2-32132": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-590.9495239257812,1838.7698974609375,-358.7525939941406,0,0,0.5999999642372131]
+    },
+    "2-32133": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-821.3959350585938,1675.95654296875,-345.6114807128906,0,0,0.5999999642372131]
+    },
+    "2-32134": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-758.7057495117188,1787.1678466796875,-335.7695617675781,0,0,0.5999999642372131]
+    },
+    "2-32135": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_cavern_beam40",
+      "DATA": [-485.59979248046875,1777.8936767578125,-382.50225830078125,0,0,0.5999999642372131]
+    },
+    "2-32136": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood20",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-113.4543228149414,1415.1917724609375,-143.66513061523438,0,0,0]
+    },
+    "2-32137": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_drinks_nord",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-180.00930786132812,1399.45703125,-125.67727661132812,0,0,0]
+    },
+    "2-32138": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood5",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-497.2777404785156,1303.75244140625,-150.1068878173828,0,0,0]
+    },
+    "2-32139": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_misc06",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-548.2744140625,1734.5301513671875,-89.66532897949219,0,0,1.9000002145767212]
+    },
+    "2-32140": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [-382.27874755859375,1444.78076171875,-172.2525634765625,0,0,5.583186149597168]
+    },
+    "2-32141": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "DATA": [-214.13539123535156,1341.961669921875,-147.6422882080078,0,0,0.6000000238418579]
+    },
+    "2-32142": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_02",
+      "DATA": [-223.50711059570312,1361.2174072265625,-146.51768493652344,0,0,0.4000000059604645]
+    },
+    "2-32143": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_03",
+      "DATA": [-220.77577209472656,1353.1922607421875,-138.6148223876953,0,0,0]
+    },
+    "2-32144": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_09",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-771.1874389648438,1663.3604736328125,-40.33255386352539,0,0,0]
+    },
+    "2-32145": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-760.4674682617188,1642.207763671875,-40.023956298828125,0,0,0]
+    },
+    "2-32146": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_06",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-413.8343505859375,1442.3355712890625,-173.69671630859375,0,0,0]
+    },
+    "2-32147": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-498.7165832519531,1301.100341796875,-105.90116882324219,0,0,0]
+    },
+    "2-32148": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bucket_01",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-115.35301971435547,1413.701416015625,-97.51847076416016,0,0,0]
+    },
+    "2-32149": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-767.3448486328125,1623.965087890625,-54.52475357055664,0,0,0]
+    },
+    "2-32150": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_drinks_nord",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-224.53016662597656,983.581298828125,-186.25653076171875,0,0,5.483185768127441]
+    },
+    "2-32151": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood20",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-189.44825744628906,1042.287353515625,-192.59744262695312,0,0,5.483185768127441]
+    },
+    "2-32152": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_cheapfood20",
+      "ANAM": "kjolver",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-134.86468505859375,979.4825439453125,-199.45046997070312,1.4000002145767212,0.30000001192092896,5.7831854820251465]
+    },
+    "2-32153": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_whitewolf",
+      "XSCL": 1.3900001049041748,
+      "DATA": [-693.8709716796875,1552.6513671875,-108.64653778076172,0,0,5.4831862449646]
+    },
+    "2-32154": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lamp_01_77",
+      "DATA": [-504.9808349609375,1773.8133544921875,25.571304321289062,0,0,3.5977888107299805]
+    },
+    "2-32489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.8100000619888306,
+      "DATA": [-236.28993225097656,25.704647064208984,-57.91577911376953,0.10000000149011612,2.9415926933288574,0.21681232750415802]
+    },
+    "2-32490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.8100000619888306,
+      "DATA": [258.5120544433594,166.0309295654297,-58.28970718383789,0.10000000149011612,3.2415924072265625,0.3168128728866577]
+    },
+    "2-32491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.8100000619888306,
+      "DATA": [-239.43479919433594,777.5009765625,-111.88500213623047,0.20000001788139343,2.9415926933288574,3.316812753677368]
+    },
+    "2-32492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_08",
+      "XSCL": 0.8100000619888306,
+      "DATA": [259.5758361816406,857.0382690429688,-106.8739013671875,0,3.441592216491699,6.199997901916504]
+    },
+    "2-32493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_coals_hot",
+      "XSCL": 1.2100000381469727,
+      "DATA": [-285.81219482421875,1397.9373779296875,-159.7150115966797,0,0,1.3000001907348633]
+    }
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [2170902,1061997773]
+  },
+  "NAME": "Skaal Village, Ingmar's House",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [30,35,36,0],
+    "sunlight": [119,83,77,0],
+    "fog_color": [22,32,33,0],
+    "fog_density": 0.800000011920929
+  },
+  "FRMR": {
+    "2-19065": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_door_rounded",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-22.534902572631836,-628.3829956054688,-130.36029052734375,0,0,0]
+    },
+    "2-13653": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_longhouse_med",
+      "DATA": [0,0,0,0,0,0]
+    },
+    "2-13654": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [683.1903076171875,-782.3380126953125,-131.34214782714844,0,0,5.583186149597168]
+    },
+    "2-13655": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [327.63873291015625,-352.0859375,-206.66229248046875,0,0,1.68761146068573]
+    },
+    "2-13656": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [140.98956298828125,594.3389282226562,-226.70164489746094,0,0,3]
+    },
+    "2-13657": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "ingmar",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [99.19804382324219,-595.0806884765625,-86.12348175048828,0,0,0.09999894350767136]
+    },
+    "2-13658": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [265.0339660644531,-355.01513671875,-218.162353515625,0,0,1.700000286102295]
+    },
+    "2-13659": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bench_04",
+      "DATA": [-97.5382308959961,588.4154663085938,-217.79562377929688,0,0,6.28318452835083]
+    },
+    "2-13661": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "DATA": [313.6539306640625,-339.5548095703125,30.146556854248047,0,0,0]
+    },
+    "2-13662": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Rope_06",
+      "XSCL": 0.6200000047683716,
+      "DATA": [240.47842407226562,-108.90948486328125,64.69293212890625,0,0,5.383186340332031]
+    },
+    "2-13663": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-340.726806640625,-67.15852355957031,-59.67097473144531,0,5.4831862449646,3.1999993324279785]
+    },
+    "2-13664": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [308.1477355957031,-360.5025939941406,-28.983985900878906,1.2000004053115845,0.6999995112419128,1.6000007390975952]
+    },
+    "2-13665": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-347.8870544433594,31.900903701782227,-54.43001174926758,1.1831867694854736,5.399998664855957,2.499997854232788]
+    },
+    "2-13666": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [230.56919860839844,-120.77375793457031,43.91591262817383,0,0,5.583184719085693]
+    },
+    "2-13667": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "XSCL": 1.4700000286102295,
+      "DATA": [-344.4400939941406,-10.129446029663086,13.058804512023926,6.283185005187988,6.183185577392578,6.283184051513672]
+    },
+    "2-13668": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-344.5448303222656,-60.68090057373047,-13.612879753112793,0,0,2.0999996662139893]
+    },
+    "2-13669": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [286.8841247558594,475.8921813964844,-224.05535888671875,0,0,4.699997425079346]
+    },
+    "2-13670": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-364.14453125,-351.0200500488281,-46.43656921386719,0,0,0.6000000238418579]
+    },
+    "2-13671": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-343.1120910644531,38.629093170166016,-13.30319595336914,0,0,1.2999991178512573]
+    },
+    "2-13672": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [325.88482666015625,-305.0965881347656,-24.915016174316406,4.683187007904053,1.3000001907348633,1.8000003099441528]
+    },
+    "2-13673": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [281.4141845703125,-473.2907409667969,-217.95303344726562,0,0,6.099997520446777]
+    },
+    "2-13674": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [319.4371643066406,-353.2204895019531,-166.93153381347656,0,0,0.7000000476837158]
+    },
+    "2-13675": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "XSCL": 1.0500000715255737,
+      "DATA": [25.134321212768555,600.2333374023438,-218.18873596191406,0,0,0]
+    },
+    "2-13676": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 0.940000057220459,
+      "DATA": [-105.96562957763672,621.31201171875,-67.10102844238281,1.5707963705062866,3.1415927410125732,0]
+    },
+    "2-13677": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_doorjam_rounded",
+      "DATA": [42.48876953125,-635.1410522460938,-121.86710357666016,0,0,0]
+    },
+    "2-13678": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [332.6163635253906,-373.5599670410156,-169.86866760253906,0,0,2.4999992847442627]
+    },
+    "2-13679": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [147.29071044921875,620.1040649414062,34.24296188354492,0,0,1.5292021036148071]
+    },
+    "2-13680": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [-368.434814453125,-334.1286315917969,-62.781734466552734,0,0,4.749088764190674]
+    },
+    "2-13681": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [-353.538330078125,90.08578491210938,-161.2038116455078,0,0,1.600000262260437]
+    },
+    "2-13682": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "XSCL": 1.03000009059906,
+      "DATA": [358.0439758300781,56.703155517578125,-218.162353515625,0,0,1.7168123722076416]
+    },
+    "2-13683": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_64",
+      "DATA": [320.3075866699219,-316.8990173339844,-152.49530029296875,0,0,1.700000286102295]
+    },
+    "2-13684": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_S_tapestry",
+      "DATA": [351.9197692871094,310.3025817871094,-76.87200164794922,0,0,4.799997806549072]
+    },
+    "2-13685": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_S_tapestry02",
+      "DATA": [361.5520935058594,-303.56402587890625,-60.286624908447266,0,0,4.71238899230957]
+    },
+    "2-13686": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "ingmar",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [350.6341857910156,-0.36362332105636597,-91.80032348632812,0,0,1.500000238418579]
+    },
+    "2-13687": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_nord_mead",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-354.3909606933594,72.29126739501953,-150.3991241455078,0,0,5.585053443908691]
+    },
+    "2-13688": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Potion_Local_Brew_01",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-356.63385009765625,31.10064697265625,-92.47195434570312,0,0,1.700000286102295]
+    },
+    "2-13689": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-355.6495056152344,138.4755401611328,-89.83164978027344,0,0,1.700000286102295]
+    },
+    "2-13690": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-366.5758056640625,107.19599914550781,-104.0328140258789,0,0,1.700000286102295]
+    },
+    "2-13691": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-344.54302978515625,119.99320983886719,-104.38416290283203,0,0,1.700000286102295]
+    },
+    "2-13692": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-357.0275573730469,158.11447143554688,-134.46548461914062,0,0,1.700000286102295]
+    },
+    "2-13693": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 1.0500000715255737,
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [94.47340393066406,-604.83251953125,-71.41697692871094,0,0,3.2831854820251465]
+    },
+    "2-13694": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-265.9825439453125,-637.3529052734375,-128.60153198242188,0,0,1.700000286102295]
+    },
+    "2-13695": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-353.5243835449219,66.72026062011719,-96.8680419921875,0,0,0.6000000238418579]
+    },
+    "2-13696": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "DATA": [354.6667785644531,1.5371339321136475,-76.75081634521484,0,0,1.700000286102295]
+    },
+    "2-13697": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [235.82615661621094,-137.68896484375,7.880341053009033,4.8831868171691895,2.5,0.19999992847442627]
+    },
+    "2-13698": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_whitewolf",
+      "XSCL": 1.4000000953674316,
+      "DATA": [286.5143737792969,457.54833984375,-218.5853729248047,6.2657318115234375,0,6.270793914794922]
+    },
+    "2-13699": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_nord_mead",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-348.29620361328125,48.06363296508789,-150.70423889160156,0,0,1.700000286102295]
+    },
+    "2-13700": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-344.1532897949219,155.29251098632812,-102.75545501708984,0,0,1.700000286102295]
+    },
+    "2-13701": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [312.8053894042969,-353.39862060546875,10.71761703491211,0,0,1.4000002145767212]
+    },
+    "2-13704": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window01_closed",
+      "XSCL": 1.0500000715255737,
+      "DATA": [-215.30970764160156,-660.021484375,-25.614587783813477,0,0,0]
+    },
+    "2-13705": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window01_closed",
+      "XSCL": 0.8400000333786011,
+      "DATA": [161.63705444335938,-664.1179809570312,-41.65732192993164,0,0,0]
+    },
+    "2-13706": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window01_closed",
+      "XSCL": 0.8400000333786011,
+      "DATA": [253.30990600585938,-656.8702392578125,-43.77151870727539,0,0,0]
+    },
+    "2-13709": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM huntsman war axe",
+      "ANAM": "ingmar",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [73.80024719238281,582.7423095703125,-209.36581420898438,3.4000015258789062,5.099998950958252,4.483187198638916]
+    },
+    "2-13710": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM nordic silver mace",
+      "ANAM": "ingmar",
+      "INTV": 3300,
+      "NAM9": 1,
+      "DATA": [-353.61968994140625,96.00328063964844,-191.58920288085938,3.1999993324279785,1.4000000953674316,0]
+    },
+    "2-13711": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM nordic silver dagger",
+      "ANAM": "ingmar",
+      "INTV": 550,
+      "NAM9": 1,
+      "DATA": [-55.99105453491211,638.9214477539062,-135.60113525390625,0,0,4.583187103271484]
+    },
+    "2-13712": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "nordic_leather_shield",
+      "ANAM": "ingmar",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [374.7567138671875,52.49081802368164,-183.8151092529297,3.000000238418579,2.483187198638916,3.183187484741211]
+    },
+    "2-13713": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [312.72772216796875,-307.6435852050781,14.28385066986084,0,0,5.09999942779541]
+    },
+    "2-13714": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "XSCL": 0.800000011920929,
+      "DATA": [30.196971893310547,593.1228637695312,-217.88546752929688,0,0.8000000715255737,4.6831865310668945]
+    },
+    "2-13715": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_01",
+      "DATA": [33.40228271484375,608.7994995117188,-212.4266815185547,0,0.8000000715255737,4.6831865310668945]
+    },
+    "2-13716": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_log_03",
+      "XSCL": 0.8800000548362732,
+      "DATA": [14.050848007202148,591.2774658203125,-206.240478515625,0.8000000715255737,5.783185958862305,0]
+    },
+    "2-13717": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bannerpost_01",
+      "DATA": [-102.66790008544922,631.6231079101562,24.273311614990234,0,0,1.5707963705062866]
+    },
+    "2-13718": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bannerpost_01",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-392.4192199707031,-122.22726440429688,-31.436912536621094,0,0,0]
+    },
+    "2-13719": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.2000000476837158,
+      "DATA": [-382.26300048828125,-120.23541259765625,-122.48591613769531,1.5707963705062866,4.71238899230957,0]
+    },
+    "2-13720": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [298.6902160644531,-209.3230438232422,-217.95303344726562,0,0,6.099997520446777]
+    },
+    "2-13721": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "ingmar",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-366.46856689453125,-199.3511962890625,-77.73623657226562,0,0,4.283185958862305]
+    },
+    "2-13722": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_hook_01",
+      "DATA": [-369.57818603515625,-202.54571533203125,-62.68672180175781,0,0,4.483185768127441]
+    },
+    "2-19066": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM huntsman war axe",
+      "ANAM": "ingmar",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [-138.15728759765625,578.4620971679688,-217.06149291992188,5.983185768127441,0.6999999284744263,4.383186340332031]
+    },
+    "2-19067": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM Huntsman Spear",
+      "ANAM": "ingmar",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [174.148681640625,204.7836456298828,17.17644500732422,0,0,4.683187007904053]
+    },
+    "2-19071": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_28",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-307.22039794921875,479.42901611328125,-193.1558837890625,0,0,1.700000286102295]
+    },
+    "2-19072": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Wool01_pants",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-298.425537109375,478.45074462890625,-213.03024291992188,0,0,0]
+    },
+    "2-19073": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_Nordic02_shoes",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-261.07293701171875,500.7005615234375,-236.81724548339844,0,0,5.08318567276001]
+    },
+    "2-19074": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM bear boots",
+      "ANAM": "ingmar",
+      "INTV": 105,
+      "NAM9": 1,
+      "DATA": [-287.3956298828125,605.9328002929688,-235.82394409179688,0,0,0]
+    },
+    "2-19075": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_BM_armor_01",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-312.9483947753906,-566.2192993164062,-215.60116577148438,0,0,3.500000476837158]
+    },
+    "2-19076": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_cupboard_clothes",
+      "ANAM": "ingmar",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-381.4234619140625,-431.6766662597656,-210.2192840576172,0,0,4.683186054229736]
+    },
+    "2-19077": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_cushion_square_04",
+      "DATA": [-334.1548156738281,-288.06866455078125,-236.8553466796875,0,0,1.7000001668930054]
+    },
+    "2-19078": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_cushion_square_08",
+      "XSCL": 0.5900000333786011,
+      "DATA": [-326.774658203125,-283.16748046875,-223.12840270996094,0,0,0]
+    },
+    "2-25842": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.7700001001358032,
+      "DATA": [-282.3829650878906,188.6958770751953,-99.9576187133789,1.5707963705062866,0,0]
+    },
+    "2-25843": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.9600000381469727,
+      "DATA": [100.50910186767578,453.95440673828125,-230.077392578125,0,0,4.683185577392578]
+    },
+    "2-25844": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.8600001335144043,
+      "DATA": [265.8407287597656,191.3441925048828,-111.02961730957031,1.5707963705062866,0,0]
+    },
+    "2-25845": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_177",
+      "DATA": [-14.474223136901855,-208.29747009277344,-40.54063415527344,0,0,0]
+    },
+    "2-25846": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_177",
+      "DATA": [-14.474223136901855,209.06076049804688,-40.54063415527344,0,0,0]
+    },
+    "2-25847": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [185.0304412841797,199.4418487548828,2.194770336151123,1.6000001430511475,0,6.26858377456665]
+    },
+    "2-25848": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [335.3226013183594,203.58642578125,2.194770336151123,1.6000001430511475,0,6.26858377456665]
+    },
+    "2-25849": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-358.6148986816406,199.4418487548828,2.194770336151123,1.6000001430511475,0,6.26858377456665]
+    },
+    "2-25850": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-221.48731994628906,202.4568328857422,2.194770336151123,1.6000001430511475,0,6.26858377456665]
+    }
+  }
+}

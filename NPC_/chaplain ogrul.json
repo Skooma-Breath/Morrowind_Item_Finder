@@ -1,0 +1,101 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Healer Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_orc_m_head_03",
+  "KNAM": "b_n_orc_m_hair_02",
+  "MODL": null,
+  "FNAM": "Chaplain Ogrul",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": -10,
+      "name": "ingred_wickwheat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_saltrice_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_rat_meat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_marshmerrow_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_crab_meat_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_ash_yam_01"
+    },
+    {
+      "count": 1,
+      "name": "l_n_amulet"
+    },
+    {
+      "count": 1,
+      "name": "l_n_rings"
+    },
+    {
+      "count": 1,
+      "name": "l_n_soul gem"
+    }
+  ],
+  "NPCS": [
+    "absorb willpower",
+    "powerwell",
+    "poet's whim",
+    "mother's kiss",
+    "purge magic",
+    "regenerate",
+    "resist common disease",
+    "stamina",
+    "vitality",
+    "cure poison",
+    "cure common disease"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 71,
+    "magicka": 74,
+    "fatigue": 228,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [53,37,79,42,41,54,50,40],
+    "skills": [16,16,16,16,21,6,11,6,6,14,14,44,29,14,44,44,29,29,6,6,6,21,6,6,10,36,36]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [5,5,5,10,0,0,0,0]
+    }
+  ]
+}

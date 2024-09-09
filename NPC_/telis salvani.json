@@ -1,0 +1,118 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_01",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Telis Salvani",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": -5,
+      "name": "ingred_rat_meat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_netch_leather_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_green_lichen_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_comberry_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_chokeweed_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bittergreen_petals_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_ash_salts_01"
+    },
+    {
+      "count": -1,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": -1,
+      "name": "p_restore_fatigue_c"
+    },
+    {
+      "count": -1,
+      "name": "p_fortify_health_c"
+    },
+    {
+      "count": -1,
+      "name": "p_disease_resistance_c"
+    },
+    {
+      "count": -1,
+      "name": "p_restore_fatigue_b"
+    },
+    {
+      "count": -1,
+      "name": "p_restore_health_b"
+    }
+  ],
+  "NPCS": [
+    "absorb fatigue",
+    "vivec's mercy",
+    "rest of st. merris",
+    "veloth's grace",
+    "restore willpower",
+    "restore intelligence",
+    "restore luck",
+    "restore endurance",
+    "cure common disease",
+    "vivec's tears",
+    "free action",
+    "heal companion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 64,
+    "magicka": 94,
+    "fatigue": 198,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [48,47,59,47,61,44,50,40],
+    "skills": [6,6,6,6,21,11,6,6,11,14,24,44,29,14,49,44,29,29,6,6,6,26,16,11,10,36,36]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "19490137733140524327": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "877220269297527221",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. Ald Daedroth is indeed a safe refuge for the Ahemmusa. Thank you, %PCName.",
+      "BNAM": "; Sinnammu Mirpal;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 40
+        }
+      ]
+    },
+    "877220269297527221": {
+      "flag": 0,
+      "PNAM": "19490137733140524327",
+      "NNAM": "361921234262745713",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you made Ald Daedroth safe for the Ahemmusa? Have you dealt with the priest Hlireni Indavel? Are there cultists or creatures of Sheogorath to threaten us? Are there any other dangers that may cause us harm? Remember... to make sure it is safe, I must accompany you to Ald Daedroth, and see for myself. If I die on my journey, it is not safe... and you shall not be named Ahemmusa Nerevarine.",
+      "BNAM": "; Sinnammu Mirpal; Journal \"A2-6_Incarnate\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 5
+        }
+      ]
+    },
+    "361921234262745713": {
+      "flag": 0,
+      "PNAM": "877220269297527221",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sinnammu mirpal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "First you will go to Ald Daedroth. You will make it safe for the Ahemmusa. You are the hero. You decide what must be done. We are not traders, to haggle over the meaning of 'safe.' We are not a warlike people. We are not strong with warriors and witch-wizards. Make Ald Daedroth safe for us. Then, when I accompany you to Ald Daedroth, then you and I will judge whether it is safe.",
+      "BNAM": "; Sinnammu Mirpal; Journal \"A2-6_Incarnate\" >= 50; \r\nJournal \"B2_AhemmusaSafe\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

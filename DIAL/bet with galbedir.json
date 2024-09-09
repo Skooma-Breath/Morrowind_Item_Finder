@@ -1,0 +1,300 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1321911584322527982": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "28406110011775631288",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and Ajira can speak with you again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "28406110011775631288": {
+      "flag": 0,
+      "PNAM": "1321911584322527982",
+      "NNAM": "23328247495332087",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ajira won the bet. Ajira does not forget your help.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "doOnce",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StolenReport",
+          "__TV": 100
+        }
+      ]
+    },
+    "23328247495332087": {
+      "flag": 0,
+      "PNAM": "28406110011775631288",
+      "NNAM": "970052703132825174",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Now Ajira will win the bet with Galbedir.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_Sabotage",
+          "__TV": 100
+        }
+      ]
+    },
+    "970052703132825174": {
+      "flag": 0,
+      "PNAM": "23328247495332087",
+      "NNAM": "2889210143552431652",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Ajira made a bet with Galbedir that Ajira would be a Journeyman before Galbedir. Now Ajira must study these mushrooms and write a report. Ajira wants you to give Galbedir a fake soul gem.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_BCShrooms",
+          "__TV": 100
+        }
+      ]
+    },
+    "2889210143552431652": {
+      "flag": 0,
+      "PNAM": "970052703132825174",
+      "NNAM": "789385102520224219",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galbedir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I have won the bet. I know where Ajira's stolen reports are. This should prove once and for all that the Bosmer are better thieves than the Khajiit.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StolenReport",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_StolenReport",
+          "__TV": 100
+        }
+      ]
+    },
+    "789385102520224219": {
+      "flag": 0,
+      "PNAM": "2889210143552431652",
+      "NNAM": "758617185296643526",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "galbedir",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you been helping Ajira with the bet? Go ahead. I have many tricks of my own. Even you and Ajira together can't stop me from winning.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_StolenReport",
+          "__TV": 100
+        }
+      ]
+    },
+    "758617185296643526": {
+      "flag": 0,
+      "PNAM": "789385102520224219",
+      "NNAM": "29042100451123317474",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranis athrys",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I know all about their bet. I did the same things when I was an apprentice. You might as well do what Ajira asks.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_Sabotage",
+          "__TV": 100
+        }
+      ]
+    },
+    "29042100451123317474": {
+      "flag": 0,
+      "PNAM": "758617185296643526",
+      "NNAM": "323123321157259513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": "Balmora, Guild of Mages",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "They've been at each other's throats since they got here over which one is a better mage and whether Khajiit are better thieves than Bosmer.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "Random100",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_StolenReport",
+          "__TV": 100
+        }
+      ]
+    },
+    "323123321157259513": {
+      "flag": 0,
+      "PNAM": "29042100451123317474",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Mages Guild",
+      "ANAM": "Balmora, Guild of Mages",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It doesn't surprise me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MG_StolenReport",
+          "__TV": 100
+        }
+      ]
+    }
+  }
+}

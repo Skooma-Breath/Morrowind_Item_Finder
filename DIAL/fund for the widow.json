@@ -1,0 +1,147 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2201221662487716577": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "29296163332644424431",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "widow vabdas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's the least they can do after Lugrub killed my husband.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "29296163332644424431": {
+      "flag": 0,
+      "PNAM": "2201221662487716577",
+      "NNAM": "95975916249321017",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You already made your contribution.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "widowFund",
+          "__TV": 1
+        }
+      ]
+    },
+    "95975916249321017": {
+      "flag": 0,
+      "PNAM": "29296163332644424431",
+      "NNAM": "113252502807215403",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, %PCName. I hope we can get everyone to contribute.",
+      "BNAM": "Player->RemoveItem Gold_001 50\r\nSet widowFund to 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "113252502807215403": {
+      "flag": 0,
+      "PNAM": "95975916249321017",
+      "NNAM": "28825456270344883",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I understand. It's not easy on a legionnaire's pay.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "28825456270344883": {
+      "flag": 0,
+      "PNAM": "113252502807215403",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "general darius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Would you like to contribute 50 septims to the fund?",
+      "BNAM": "Choice \"Yes, here's 50 gold.\" 1 \"No, nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

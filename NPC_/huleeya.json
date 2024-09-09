@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Argonian",
+  "CNAM": "Assassin Service",
+  "ANAM": "Morag Tong",
+  "BNAM": "b_n_argonian_m_head_02",
+  "KNAM": "b_n_argonian_m_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Huleeya",
+  "SCRI": "HuleeyaFollow",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16480
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "cruel sparkstar"
+    },
+    {
+      "count": 1,
+      "name": "imperial netch blade"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_b"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer right"
+    },
+    {
+      "count": 1,
+      "name": "cloth bracer left"
+    },
+    {
+      "count": 1,
+      "name": "netch_leather_greaves"
+    },
+    {
+      "count": 1,
+      "name": "newtscale_cuirass"
+    },
+    {
+      "count": -2,
+      "name": "pick_journeyman_01"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_q"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_fatigue_q"
+    },
+    {
+      "count": -2,
+      "name": "probe_journeyman_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 8,
+    "health": 72,
+    "magicka": 120,
+    "fatigue": 199,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 100,
+    "attributes": [55,60,36,74,75,34,34,40],
+    "skills": [22,6,11,6,6,22,6,11,75,6,6,6,11,6,11,6,27,11,30,46,46,46,46,46,14,14,14]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 1,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

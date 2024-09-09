@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 36,
+    "local_var_size": 10
+  },
+  "SCTX": "begin trigger_spells\r\n\r\nshort triggered\r\n\r\nif ( GetDistance \"player\" < 1000 )\r\n\tset triggered to 5\t\r\nendif\r\n\r\nend",
+  "SCVR": [
+    "triggered"
+  ],
+  "SCDT": [6,1,1,20,32,88,1,16,32,114,6,112,108,97,121,101,114,32,60,32,49,48,48,48,5,1,115,1,0,2,32,53,9,1,1,1]
+}

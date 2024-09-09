@@ -1,0 +1,94 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Spellsword",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_02",
+  "KNAM": "b_n_dark elf_m_hair_26",
+  "MODL": null,
+  "FNAM": "Feruren Oran",
+  "SCRI": "BILL_MT_WritOran",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel dai-katana"
+    },
+    {
+      "count": 1,
+      "name": "common_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "common_ring_05"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_03_c"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    }
+  ],
+  "NPCS": [
+    "heavy burden",
+    "great burden of sin",
+    "crushing burden touch",
+    "tinur's hoptoad",
+    "strong levitate",
+    "first barrier",
+    "great resist common disease",
+    "great resist fire",
+    "great resist frost",
+    "great resist magicka",
+    "greater resist poison",
+    "magickguard",
+    "great resist shock",
+    "daedric bite",
+    "fire bite",
+    "five fingers of pain"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 90,
+    "magicka": 102,
+    "fatigue": 235,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,51,66,53,56,57,35,40],
+    "skills": [38,6,23,6,23,43,23,6,11,32,57,47,15,15,20,47,32,15,6,6,6,11,16,11,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,10]
+    }
+  ]
+}

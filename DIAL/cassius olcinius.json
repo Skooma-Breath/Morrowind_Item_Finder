@@ -1,0 +1,155 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "12747321832750413845": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "321659194231728130",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cassius olcinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's me.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "321659194231728130": {
+      "flag": 0,
+      "PNAM": "12747321832750413845",
+      "NNAM": "17661097747920367",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucretinaus olcinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've paid the wizard my son's debt? I thank you. This should cover the money he owed, and a little something for you as well. Your efforts are appreciated.",
+      "BNAM": "Journal \"EB_Invisible\" 120\r\nPlayer->AddItem \"Gold_001\" 500\r\nRemoveItem \"Gold_001\" 500",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Invisible",
+          "__TV": 70
+        }
+      ]
+    },
+    "17661097747920367": {
+      "flag": 0,
+      "PNAM": "321659194231728130",
+      "NNAM": "31469430572663846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucretinaus olcinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see that you paid the debt my son owed. I thank you for your help. Here is a reward for all your efforts.",
+      "BNAM": "Journal \"EB_Invisible\" 120\r\nPlayer->AddItem \"Gold_001\" 100\r\nRemoveItem \"Gold_001\" 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Invisible",
+          "__TV": 100
+        }
+      ]
+    },
+    "31469430572663846": {
+      "flag": 0,
+      "PNAM": "17661097747920367",
+      "NNAM": "213609484182709695",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucretinaus olcinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "My son is what??? That explains why I haven't seen him for days. He's a good boy, just a bit out of touch with things. I really appreciate you helping him out here. I'd do it myself, but I really can't take the time to leave the store. Here, take this to help you along.",
+      "BNAM": "Player->AddItem \"Gold_001\" 75\r\nJournal \"EB_Invisible\" 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Invisible",
+          "__TV": 50
+        }
+      ]
+    },
+    "213609484182709695": {
+      "flag": 0,
+      "PNAM": "31469430572663846",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That little twit! Of course I made him invisible. Did he tell you why? He asked me to! Came in muttering something about just wanting everyone to leave him alone, and promised to pay me 400 septims to make him invisible to everyone. Did I get my money, though? No! He still has a debt to pay. So, when he came in a few weeks later begging me to remove it, I laughed in his face...or where I assumed it was.",
+      "BNAM": "Journal \"EB_Invisible\" 60",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Invisible",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Invisible",
+          "__TV": 60
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mage",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_f_head_05",
+  "KNAM": "b_n_dark elf_f_hair_07",
+  "MODL": null,
+  "FNAM": "Therana",
+  "SCRI": "BILL_MT_WritTherana",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "daedric dagger"
+    },
+    {
+      "count": 1,
+      "name": "amulet of spell absorption"
+    },
+    {
+      "count": 1,
+      "name": "Ring of Night-Eye"
+    },
+    {
+      "count": 1,
+      "name": "ring of firefist"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_robe_01"
+    },
+    {
+      "count": 1,
+      "name": "exquisite_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "sc_blackweakness"
+    },
+    {
+      "count": 4,
+      "name": "p_restore_magicka_e"
+    },
+    {
+      "count": 1,
+      "name": "key_abebaalslaves_01"
+    }
+  ],
+  "NPCS": [
+    "fifth barrier",
+    "llivam's reversal",
+    "absorb spell points",
+    "fire bite",
+    "firebloom"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 44,
+    "health": 300,
+    "magicka": 2000,
+    "fatigue": 313,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [83,100,100,100,100,56,100,40],
+    "skills": [9,9,9,9,9,14,9,9,14,84,100,100,100,84,100,100,84,100,9,9,9,14,68,14,9,9,9]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,0]
+    }
+  ]
+}

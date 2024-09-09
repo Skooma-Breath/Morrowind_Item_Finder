@@ -1,0 +1,59 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Steam_Centurions.NIF",
+  "FLAG": 2120,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 30,
+    "attributes": [100,25,70,50,12,100,25,50],
+    "health": 500,
+    "magicka": 30,
+    "fatigue": 1000,
+    "soul_strength": 0,
+    "combat_skill": 100,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [50,70],
+      [50,70],
+      [50,70]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 0,
+    "alarm": 60,
+    "flags": 0
+  },
+  "CNAM": "centurion_steam",
+  "FNAM": "Advanced Steam Centurion",
+  "SCRI": "cent_fab_attack",
+  "XSCL": 1.5000001192092896,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_scrap_metal"
+    }
+  ],
+  "NPCS": [
+    "reflect_60",
+    "resist magicka_50",
+    "resist paralysis_100",
+    "immune to fire",
+    "immune to frost",
+    "immune to poison",
+    "immune to shock"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

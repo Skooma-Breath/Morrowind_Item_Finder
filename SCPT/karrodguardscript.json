@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 1,
+    "script_data_size": 172,
+    "local_var_size": 23
+  },
+  "SCTX": "Begin karrodguardScript\r\n\r\nshort jailOnce\r\nshort nohello\r\n\r\nfloat timer\r\n\r\nif ( jailOnce == 2 )\r\n\treturn\r\nendif\r\n\r\nif ( cellchanged )\r\n\tif ( karrodCheapShot == 0 )\r\n\t\t;if no longer necessary disable it\r\n\t\tSet jailOnce to 2\r\n\t\tDisable\r\n\tendif\r\nendif\r\n\r\nif ( MenuMode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( timer < .5 )\r\n\t;give alarm chance to be raised\r\n\tset timer to ( timer + GetSecondsPassed )\r\n\treturn\r\nendif\r\n\r\nif ( karrodCheapShot == 1 )\r\n\tif ( jailOnce != 1 )\r\n\t\t;no one else did it so we will\r\n\t\tSet jailOnce to 1\r\n\t\tForceGreeting\r\n\tendif\r\nendif\r\n\r\nEnd karrodguardScript",
+  "SCVR": [
+    "jailOnce",
+    "nohello",
+    "timer"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,50,36,1,9,1,6,1,4,5,32,88,31,16,0,6,1,2,23,32,71,15,75,97,114,114,111,100,67,104,101,97,112,83,104,111,116,32,61,61,32,48,5,1,115,1,0,2,32,50,219,16,9,1,9,1,6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,2,8,32,102,1,0,32,60,46,53,5,1,102,1,0,10,32,102,1,0,32,88,18,16,32,43,36,1,9,1,6,1,4,23,32,71,15,75,97,114,114,111,100,67,104,101,97,112,83,104,111,116,32,61,61,32,49,6,1,2,9,32,115,1,0,32,33,61,32,49,5,1,115,1,0,2,32,49,232,16,9,1,9,1,1,1]
+}

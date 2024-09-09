@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Breton",
+  "CNAM": "Mage",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_breton_f_head_04",
+  "KNAM": "b_n_breton_f_hair_02",
+  "MODL": null,
+  "FNAM": "Edwinna Elbert",
+  "SCRI": "edwinnaScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "ebony wizard's staff"
+    },
+    {
+      "count": 1,
+      "name": "silver dagger"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05_a"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_02"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 19,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

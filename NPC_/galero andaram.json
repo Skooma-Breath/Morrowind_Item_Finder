@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_f_head_10",
+  "KNAM": "b_n_dark elf_f_hair_01",
+  "MODL": null,
+  "FNAM": "Galero Andaram",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    },
+    {
+      "count": 50,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "mark",
+    "seryn's gift",
+    "free action",
+    "cure common disease",
+    "vivec's feast",
+    "vivec's mercy",
+    "vivec's tears",
+    "veloth's grace",
+    "resist fire",
+    "resist frost",
+    "resist magicka",
+    "resist shock",
+    "rest of st. merris",
+    "regenerate",
+    "hearth heal",
+    "panacea"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 86,
+    "magicka": 108,
+    "fatigue": 231,
+    "disposition": 50,
+    "reputation": 12,
+    "rank": 5,
+    "_garbage2": 0,
+    "gold": 700,
+    "attributes": [57,54,82,54,75,38,72,40],
+    "skills": [6,6,6,6,28,11,6,6,11,18,28,54,40,18,60,54,40,40,6,6,6,33,16,11,10,43,43]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,1472 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "199641425381905494": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "981612079163648130",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eleedal_lei",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I will free the others. Soon we will return to Black Marsh.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SlaveRebellion",
+          "__TV": 50
+        }
+      ]
+    },
+    "981612079163648130": {
+      "flag": 0,
+      "PNAM": "199641425381905494",
+      "NNAM": "18195562447755",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eleedal_lei",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I am free now. I will free the others and lead them back to Black Marsh.",
+      "BNAM": "Journal HT_SlaveRebellion 50\r\nPlayer->RemoveItem \"key_abebaalslaves_01\" 1\r\nAddItem \"key_abebaalslaves_01\" 1\r\nSet slaveStatus to 3\r\nSet FreedSlavesCounter to FreedSlavesCounter + 10\r\nModDisposition 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "18195562447755": {
+      "flag": 0,
+      "PNAM": "981612079163648130",
+      "NNAM": "1313830142681810318",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eleedal_lei",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you set me free, I will free any slaves that remain here and lead them to safety.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1313830142681810318": {
+      "flag": 0,
+      "PNAM": "18195562447755",
+      "NNAM": "1942430040302163712",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eleedal_lei",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you found the key?",
+      "BNAM": "Choice \"Unlock his bracers and give him the key.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_abebaalslaves_01",
+          "__TV": 0
+        }
+      ]
+    },
+    "1942430040302163712": {
+      "flag": 0,
+      "PNAM": "1313830142681810318",
+      "NNAM": "626832206718828325",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "eleedal_lei",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you want to set us free, look for the key to our bracers somewhere here in the egg mine or in Tel Branora.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "626832206718828325": {
+      "flag": 0,
+      "PNAM": "1942430040302163712",
+      "NNAM": "300681198467613390",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You freed me, %PCName. Are you in the Twin Lamps?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "slaveStatus",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "FreedSlavesCounter",
+          "__TV": 5
+        }
+      ]
+    },
+    "300681198467613390": {
+      "flag": 0,
+      "PNAM": "626832206718828325",
+      "NNAM": "2112269131757221074",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You freed me, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "slaveStatus",
+          "__TV": 3
+        }
+      ]
+    },
+    "2112269131757221074": {
+      "flag": 0,
+      "PNAM": "300681198467613390",
+      "NNAM": "2615847683142510678",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dahleena",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, %Name is free! You are a good friend of %Name. Dahleena leaves when the moons are right.",
+      "BNAM": "Set slaveStatus to 3\r\nSet FreedSlavesCounter to FreedSlavesCounter + 1\r\nModDisposition 50\r\nJournal HR_CalderaDisrupt 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2615847683142510678": {
+      "flag": 0,
+      "PNAM": "2112269131757221074",
+      "NNAM": "57342934926223481",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, %Name is free! You are a good friend of %Name.",
+      "BNAM": "Set slaveStatus to 3\r\nSet FreedSlavesCounter to FreedSlavesCounter + 1\r\nModDisposition 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "57342934926223481": {
+      "flag": 0,
+      "PNAM": "2615847683142510678",
+      "NNAM": "303214343264320459",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, now I am free. Thank you, %PCName.",
+      "BNAM": "Set slaveStatus to 3\r\nSet FreedSlavesCounter to FreedSlavesCounter + 1\r\nModDisposition 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "303214343264320459": {
+      "flag": 0,
+      "PNAM": "57342934926223481",
+      "NNAM": "2847517866258810790",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name is so very sorry. Please do not punish poor %Name.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2847517866258810790": {
+      "flag": 0,
+      "PNAM": "303214343264320459",
+      "NNAM": "267091420155215554",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am sorry. Please forgive me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "267091420155215554": {
+      "flag": 0,
+      "PNAM": "2847517866258810790",
+      "NNAM": "2590123069223445779",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Hlormaren",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_hlormarenslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "2590123069223445779": {
+      "flag": 0,
+      "PNAM": "267091420155215554",
+      "NNAM": "226398648182778706",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Molag Mar",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. There is no hope for us.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "226398648182778706": {
+      "flag": 0,
+      "PNAM": "2590123069223445779",
+      "NNAM": "1720321173178261542",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Kudanat",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_kudanatslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "1720321173178261542": {
+      "flag": 0,
+      "PNAM": "226398648182778706",
+      "NNAM": "2411283323124512985",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Yakanalit",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_yakanalitslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "2411283323124512985": {
+      "flag": 0,
+      "PNAM": "1720321173178261542",
+      "NNAM": "2693921643411530513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Sadrith Mora, Gateway Inn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. There is no hope for us.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2693921643411530513": {
+      "flag": 0,
+      "PNAM": "2411283323124512985",
+      "NNAM": "712011242789727655",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Sinsibadon",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_sinsibadonslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "712011242789727655": {
+      "flag": 0,
+      "PNAM": "2693921643411530513",
+      "NNAM": "530232165429289",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Minabi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_minabislaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "530232165429289": {
+      "flag": 0,
+      "PNAM": "712011242789727655",
+      "NNAM": "3072424924240316428",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Abebaal Egg Mine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Our leader, Eleedal-Lei will lead us to freedom.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_SlaveRebellion",
+          "__TV": 50
+        }
+      ]
+    },
+    "3072424924240316428": {
+      "flag": 0,
+      "PNAM": "530232165429289",
+      "NNAM": "2772326544705429552",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Abebaal Egg Mine",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No, there is no need. We are already free. Speak with our leader, Eleedal-Lei and join us in this slave rebellion.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2772326544705429552": {
+      "flag": 0,
+      "PNAM": "3072424924240316428",
+      "NNAM": "19111110603127916876",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Zainsipilu",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_zainsipiluslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "19111110603127916876": {
+      "flag": 0,
+      "PNAM": "2772326544705429552",
+      "NNAM": "11723330318197440",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I am free now.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TwinLamps3",
+          "__TV": 70
+        }
+      ]
+    },
+    "11723330318197440": {
+      "flag": 0,
+      "PNAM": "19111110603127916876",
+      "NNAM": "22181768139641505",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Are you here to set me free? Should we travel together?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TwinLamps3",
+          "__TV": 10
+        }
+      ]
+    },
+    "22181768139641505": {
+      "flag": 0,
+      "PNAM": "11723330318197440",
+      "NNAM": "520421455239399130",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hides_his_foot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go free? No, I am old and could not make it on my own.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "520421455239399130": {
+      "flag": 0,
+      "PNAM": "22181768139641505",
+      "NNAM": "20269221682313710349",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "gah_julan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_drenplantationslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "20269221682313710349": {
+      "flag": 0,
+      "PNAM": "520421455239399130",
+      "NNAM": "1511598931222410982",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Dren Plantation",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_drenplantationslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "1511598931222410982": {
+      "flag": 0,
+      "PNAM": "20269221682313710349",
+      "NNAM": "1364230960270223245",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Habinbaes",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_habinbaesslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "1364230960270223245": {
+      "flag": 0,
+      "PNAM": "1511598931222410982",
+      "NNAM": "19690135432027614893",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Assarnud",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_assarnudslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "19690135432027614893": {
+      "flag": 0,
+      "PNAM": "1364230960270223245",
+      "NNAM": "79436122621222157",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. There is no hope for us.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "79436122621222157": {
+      "flag": 0,
+      "PNAM": "19690135432027614893",
+      "NNAM": "807030795185926776",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Shushan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_shushanslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "807030795185926776": {
+      "flag": 0,
+      "PNAM": "79436122621222157",
+      "NNAM": "294747312583227810",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Rotheran, Arena",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_rotheranslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "294747312583227810": {
+      "flag": 0,
+      "PNAM": "807030795185926776",
+      "NNAM": "219561677132301495",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Addamasartus",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_addamasartusslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "219561677132301495": {
+      "flag": 0,
+      "PNAM": "294747312583227810",
+      "NNAM": "1064131682241792852",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Zebabi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_zebabislaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "1064131682241792852": {
+      "flag": 0,
+      "PNAM": "219561677132301495",
+      "NNAM": "28110259223086024144",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Hinnabi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_hinnabislaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "28110259223086024144": {
+      "flag": 0,
+      "PNAM": "1064131682241792852",
+      "NNAM": "344923501556916651",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llaals ores",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No, there is no escape. You'll have to talk to the slavemaster.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_telaruhnslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "344923501556916651": {
+      "flag": 0,
+      "PNAM": "28110259223086024144",
+      "NNAM": "452829757792223617",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Tel Aruhn",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No, there is no escape.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_telaruhnslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "452829757792223617": {
+      "flag": 0,
+      "PNAM": "344923501556916651",
+      "NNAM": "30650113062954514459",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Caldera",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_calderaslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "30650113062954514459": {
+      "flag": 0,
+      "PNAM": "452829757792223617",
+      "NNAM": "294360691158826692",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Vivec, Telvanni Canalworks",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_vivectelvannislaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "294360691158826692": {
+      "flag": 0,
+      "PNAM": "30650113062954514459",
+      "NNAM": "41722152871713897",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Panat",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_panatslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "41722152871713897": {
+      "flag": 0,
+      "PNAM": "294360691158826692",
+      "NNAM": "624284792753415499",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Saturan",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "key_saturanslaves_01",
+          "__TV": 1
+        }
+      ]
+    },
+    "624284792753415499": {
+      "flag": 0,
+      "PNAM": "41722152871713897",
+      "NNAM": "7242622142754312",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Suran, Suran Slave Market",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. There is no escape.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "7242622142754312": {
+      "flag": 0,
+      "PNAM": "624284792753415499",
+      "NNAM": "5625301911022612026",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Tel Branora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. There is no escape.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "5625301911022612026": {
+      "flag": 0,
+      "PNAM": "7242622142754312",
+      "NNAM": "28146221662688417841",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Shushishi",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_shushishislaves",
+          "__TV": 0
+        }
+      ]
+    },
+    "28146221662688417841": {
+      "flag": 0,
+      "PNAM": "5625301911022612026",
+      "NNAM": "44754633117727424",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Sha-Adnius",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_shaadniusslaves_01",
+          "__TV": 0
+        }
+      ]
+    },
+    "44754633117727424": {
+      "flag": 0,
+      "PNAM": "28146221662688417841",
+      "NNAM": "619617600177165678",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Assarnud",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_assarnudslaves_01",
+          "__TV": 0
+        }
+      ]
+    },
+    "619617600177165678": {
+      "flag": 0,
+      "PNAM": "44754633117727424",
+      "NNAM": "31183117942325532704",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": "Aharunartus",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have the key. Will you let me go free?",
+      "BNAM": "Choice \"Unlock the slaves' bracers.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "key_aharunartusslaves_01",
+          "__TV": 0
+        }
+      ]
+    },
+    "31183117942325532704": {
+      "flag": 0,
+      "PNAM": "619617600177165678",
+      "NNAM": "306708653098526208",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go free? You let %Name go free?",
+      "BNAM": "Choice \"Set your slave free.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "slaveStatus",
+          "__TV": 2
+        }
+      ]
+    },
+    "306708653098526208": {
+      "flag": 0,
+      "PNAM": "31183117942325532704",
+      "NNAM": "939528842654827543",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Free? You are letting me go free?",
+      "BNAM": "Choice \"Set your slave free.\" 1 \"Nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "slaveStatus",
+          "__TV": 2
+        }
+      ]
+    },
+    "939528842654827543": {
+      "flag": 0,
+      "PNAM": "306708653098526208",
+      "NNAM": "5161469619064654",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Khajiit",
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "%Name cannot be freed without the key.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "slaveStatus",
+          "__TV": 0
+        }
+      ]
+    },
+    "5161469619064654": {
+      "flag": 0,
+      "PNAM": "939528842654827543",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": "Slave",
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must find the key to these bracers before I can be freed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "slaveStatus",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

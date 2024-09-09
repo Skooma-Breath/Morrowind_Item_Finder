@@ -1,0 +1,2358 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3147819605242949632": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2396531908936926195",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Nerevarine Prophecies are fulfilled. The Devil is dead, the Blight is gone, and the False Gods are revealed. You have triumphed at Red Mountain, guided by Azura's hand.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "2396531908936926195": {
+      "flag": 0,
+      "PNAM": "3147819605242949632",
+      "NNAM": "305152001295328041",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "han-ammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is your affair. I know nothing about it. I do not really understand this. But you have done me a great kindness, and I am grateful.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 50
+        }
+      ]
+    },
+    "305152001295328041": {
+      "flag": 0,
+      "PNAM": "2396531908936926195",
+      "NNAM": "7018211973305450",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "han-ammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have killed Ulath-Pal and his supporters? So you killed them, just because of these prophecies? You are mad. I tell you -- I am not the ashkhan, and I do not want to be ashkhan.",
+      "BNAM": "; Han-Ammu; Journal \"B4_KillWarLovers\" >= 5;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ulath-pal",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ahaz",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ashu-ahhe",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ranabi",
+          "__TV": 1
+        }
+      ]
+    },
+    "7018211973305450": {
+      "flag": 0,
+      "PNAM": "305152001295328041",
+      "NNAM": "21398285731128014568",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "han-ammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "But why tell me? I am not ashkhan. I can do nothing. And Ulath-Pal and his supporters would slash my face and kick me to death if I did not do as they say.",
+      "BNAM": "; Han-Ammu; Journal \"B4_KillWarLovers\" >= 5;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 5
+        }
+      ]
+    },
+    "21398285731128014568": {
+      "flag": 0,
+      "PNAM": "7018211973305450",
+      "NNAM": "13745379721786468",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulath-pal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. This problem has an easy solution.",
+      "BNAM": "; Ulath-Pal; Journal \"B4_KillWarLovers\" >= 1; \r\nSetFight 100\r\nSetDisposition 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 1
+        }
+      ]
+    },
+    "13745379721786468": {
+      "flag": 0,
+      "PNAM": "21398285731128014568",
+      "NNAM": "294378223498310967",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ulath-pal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want me to name you Erabenimsun Nerevarine? I would rather name you '%PCName Guar-Dung.' You are a hound. I despise you for a foreign fool, as do all my loyal gulakhans. The only honor I will show you is to kill you with my own hand if you ever trouble me again. Leave my sight, now, while you can.",
+      "BNAM": "; Ulath-Pal; Journal \"A2_6_Incarnate\" >= 30; \r\nSetDisposition 0\r\nJournal \"B4_KillWarLovers\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 50
+        }
+      ]
+    },
+    "294378223498310967": {
+      "flag": 0,
+      "PNAM": "13745379721786468",
+      "NNAM": "2947213397226413113",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manirai",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are Erabenimsun Nerevarine, and you bear the Seizing of the Erabenimsun, and so you shall be known to all the tribes.",
+      "BNAM": "; Manirai; Journal \"B4_KillWarLovers\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 505
+        }
+      ]
+    },
+    "2947213397226413113": {
+      "flag": 0,
+      "PNAM": "294378223498310967",
+      "NNAM": "2183088992902716713",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manirai",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Han-Ammu has accepted his responsibilities as ashkhan, and has named you Erabenimsun Nerevarine. Congratulations. And I must also give you the Seizing of the Erabenimsun, a tribal heirloom that ought to be held by our chosen champion as a token that we have named you Nerevarine.",
+      "BNAM": "; Manirai; Journal \"B4_KillWarLovers\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 50
+        }
+      ]
+    },
+    "2183088992902716713": {
+      "flag": 0,
+      "PNAM": "2947213397226413113",
+      "NNAM": "7363218522289716027",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manirai",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Now, with Ulath-Pal and his supporters out of the way, it is a simple matter to be named Nerevarine of the Erabenimsun. All you need to do is persuade Gulakhan Han-Ammu to become the ashkhan of the Erabenimsun. Seek him out in his gulakyurt. Be prepared, however. Han-Ammu is not the material one would choose when looking to make an ashkhan. He may be difficult to persuade.",
+      "BNAM": "; Manirai; Journal \"B4_KillWarLovers\" >= 5; ALL DEAD;\r\nJournal \"B4_KillWarLovers\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B4_KillWarLovers",
+          "__TV": 5
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ulath-pal",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ashu-ahhe",
+          "__TV": 1
+        },
+        {
+          "index": "4",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ahaz",
+          "__TV": 1
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "ranabi",
+          "__TV": 1
+        }
+      ]
+    },
+    "7363218522289716027": {
+      "flag": 0,
+      "PNAM": "2183088992902716713",
+      "NNAM": "1995418581643631720",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manirai",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "But before anything else can be done, you must first eliminate Ulath-Pal and his supporters. Then you should come speak with me, and we will discuss further how you might be named Erabenimsun Nerevarine.",
+      "BNAM": "; Manirai; Journal \"A2_6_Incarnate\" >= 30; \r\nJournal \"B4_KillWarLovers\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1995418581643631720": {
+      "flag": 0,
+      "PNAM": "7363218522289716027",
+      "NNAM": "29777273602502511840",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "manirai",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You wish to be named Erabenimsun Nerevarine? Never. Not while Ashkhan Ulath-Pal and his war-loving Erabenimsun live. They all hate Outlanders, and are proud and haughty, and will never suffer an Outlander to rule them. If you would be Nerevarine of the Erabenimsun, you must kill Ulath-Pal and his supporters, the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. Then you must help me make peace-loving Erabenimsun Gulakhan Han-Ammu our ashkhan. Ashkhan Han-Ammu could then name you Nerevarine Erabenimsun.",
+      "BNAM": "; Manirai; Journal \"A2_6_Incarnate\" >= 30; \r\nChoice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "29777273602502511840": {
+      "flag": 0,
+      "PNAM": "1995418581643631720",
+      "NNAM": "5974275582385427177",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "salattanat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nobody cares about that. You just make us tired. Go away.",
+      "BNAM": "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal \"A2_6_Incarnate\" >= 30; ; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "5974275582385427177": {
+      "flag": 0,
+      "PNAM": "29777273602502511840",
+      "NNAM": "1276031668348631360",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ainab",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nobody cares about that. You just make us tired. Go away.",
+      "BNAM": "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal \"A2_6_Incarnate\" >= 30; ; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "1276031668348631360": {
+      "flag": 0,
+      "PNAM": "5974275582385427177",
+      "NNAM": "3256812074291812967",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hirarend",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nobody cares about that. You just make us tired. Go away.",
+      "BNAM": "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal \"A2_6_Incarnate\" >= 30; ; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "3256812074291812967": {
+      "flag": 0,
+      "PNAM": "1276031668348631360",
+      "NNAM": "24844323101548930832",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kushishi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nobody cares about that. You just make us tired. Go away.",
+      "BNAM": "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal \"A2_6_Incarnate\" >= 30; ; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "24844323101548930832": {
+      "flag": 0,
+      "PNAM": "3256812074291812967",
+      "NNAM": "2749422093237918846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ranabi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nobody cares about that. You just make us tired. Go away.",
+      "BNAM": "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal \"A2_6_Incarnate\" >= 30; ; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "2749422093237918846": {
+      "flag": 0,
+      "PNAM": "24844323101548930832",
+      "NNAM": "825421654108266893",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ashu-ahhe",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nobody cares about that. You just make us tired. Go away.",
+      "BNAM": "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal \"A2_6_Incarnate\" >= 30; ; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "825421654108266893": {
+      "flag": 0,
+      "PNAM": "2749422093237918846",
+      "NNAM": "3252666872271614263",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ahaz",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Nobody cares about that. You just make us tired. Go away.",
+      "BNAM": "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat; Journal \"A2_6_Incarnate\" >= 30; ; \r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "3252666872271614263": {
+      "flag": 0,
+      "PNAM": "825421654108266893",
+      "NNAM": "8446153961906731679",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kaushad",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. We know of the prophecies. We know there are many prophecies, all of them mysterious and obscure. Our wise woman, Sonummu Zabamat, has told her chief all about these prophecies, and given her interpretations. 'A certain day to uncertain parents.' 'The Curse-of-Flesh before him flies.' 'In caverns dark Azura's eye sees, and makes to shine the moon and star.' Standard prophet-talk. Voices and verses. Very interesting. But... true? Who can tell.",
+      "BNAM": ";Ashkhan Kaushad; Journal \"A2_6_Incarnate\" >= 30;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "8446153961906731679": {
+      "flag": 0,
+      "PNAM": "3252666872271614263",
+      "NNAM": "32756145961797316361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We are living in strange times, outlander. The voices that speak in dreams say the Sleeper awakes. Dagoth Ur stirs beneath Red Mountain, and all his hosts shall spill forth and spoil the land. So it is said. And then you come, the prophesied one. Strange times. When will you go to Red Mountain to face the Devil Dagoth Ur? You go with our blessing.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B3_ZainabBride",
+          "__TV": 50
+        }
+      ]
+    },
+    "32756145961797316361": {
+      "flag": 0,
+      "PNAM": "8446153961906731679",
+      "NNAM": "2419512526283228869",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. Is that all true? That is a very interesting ring. It is part of the story of Nerevar, the ring Moon-and-Star, that none may wear but Nerevar himself. You should talk to Ashkhan Kaushad. The ashkhan is very curious about this outlander who claims to be the Nerevarine.",
+      "BNAM": ";Ashlander, Zainab Camp; Journal \"A2_6_Incarnate\" >= 30; CHOICE 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2419512526283228869": {
+      "flag": 0,
+      "PNAM": "32756145961797316361",
+      "NNAM": "1559829511966430110",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It does not matter. It is not a big thing. But you should talk to Ashkhan Kaushad, if you know something about this outlander who claims to be the Nerevarine. The ashkhan has heard the rumors, and is very curious.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1559829511966430110": {
+      "flag": 0,
+      "PNAM": "2419512526283228869",
+      "NNAM": "5162249693130729718",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Zainab Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We heard rumors. Some outlander says he is the Nerevarine. So you are that outlander? What do you say to that, eh?",
+      "BNAM": ";Ashlander, Zainab Camp;\r\nChoice \"Politely decline to comment.\" 1 \"Tell my story and show my proofs.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "5162249693130729718": {
+      "flag": 0,
+      "PNAM": "1559829511966430110",
+      "NNAM": "2177298212334017847",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You give us new hope. You have saved the Ahemmusa, and perhaps you shall fulfill the Nerevarine prophecies.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B2_AhemmusaSafe",
+          "__TV": 40
+        }
+      ]
+    },
+    "2177298212334017847": {
+      "flag": 0,
+      "PNAM": "5162249693130729718",
+      "NNAM": "1299920597158152687",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "yenammu",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Please. Do not speak to me about prophecies. We need help right now.",
+      "BNAM": ";Yenammu; Journal \"A2-6_Incarnate\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "1299920597158152687": {
+      "flag": 0,
+      "PNAM": "2177298212334017847",
+      "NNAM": "183821252677021636",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dutadalk",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You must forgive us. Perhaps these are great days. Perhaps the prophecies are fulfilled. But to the Ahemmusa, all we know is that hunger and disease stalks us, and monsters prey upon us. A hero reborn may be a wonderful thing. But it means little to us, unless we have a safe place.",
+      "BNAM": ";Dutadalk; Journal \"A2-6_Incarnate\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "183821252677021636": {
+      "flag": 0,
+      "PNAM": "1299920597158152687",
+      "NNAM": "8994220761818216966",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "kausi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We have heard of these prophecies. We have heard of an outlander who comes to claim the name of Nerevarine. What good are these prophecies? Where is this hero who comes to save us? Our herds, our people, our lands die, and no one will help us. Who is this Nerevarine?",
+      "BNAM": ";Kausi; Journal \"A2-6_Incarnate\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "8994220761818216966": {
+      "flag": 0,
+      "PNAM": "183821252677021636",
+      "NNAM": "1474013666227904633",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Ahemmusa Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We know of these prophecies. We have also heard that an outlander comes to fulfill these prophecies. Perhaps you are that outlander. Perhaps not.",
+      "BNAM": ";Ashlander, Ahemmusa Camp; Journal \"A2-6_Incarnate\" >= 50;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "1474013666227904633": {
+      "flag": 0,
+      "PNAM": "8994220761818216966",
+      "NNAM": "10287157971438214316",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Now, with the lost prophecies, much is revealed. You, the 'Outlander Incarnate beneath Red Mountain', must face Dagoth Ur to lift the seven curses of the Sixth House -- Curse-of-Fire, Curse-of-Ash, Curse-of-Flesh, Curse-of-Ghosts, Curse-of-Seed, Curse-of-Despair, Curse-of-Dreams. To remove these curses, you must go to Red Mountain and defeat Dagoth Ur and all his hosts. It is an unspeakable task. But perhaps, with Azura's blessing, at least we have hope.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 5
+        }
+      ]
+    },
+    "10287157971438214316": {
+      "flag": 0,
+      "PNAM": "1474013666227904633",
+      "NNAM": "75526499859125128",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will give you what counsel I can. But I only see what may be, not what must be.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        }
+      ]
+    },
+    "75526499859125128": {
+      "flag": 0,
+      "PNAM": "10287157971438214316",
+      "NNAM": "308574348295993367",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ask me of these things. If you are patient. If you would be wise. Or, if you are impatient to know, just ask: 'Do I pass the test of the Nerevarine prophecies?' Go ahead, outlander. I am the wise woman. Ask your questions. And I will answer.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "308574348295993367": {
+      "flag": 0,
+      "PNAM": "75526499859125128",
+      "NNAM": "17683137841717014352",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There are many Nerevarine prophecies, and they suggest many things. Aspect and uncertain parents. The moon-and-star. Sleepers. Seven curses. The curses' bane. The prophecy of the Stranger. The prophecy of the Seven Visions. The lost prophecies.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    },
+    "17683137841717014352": {
+      "flag": 0,
+      "PNAM": "308574348295993367",
+      "NNAM": "672721013212133451",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Prophecies are but words. I would judge you by your deeds -- the deeds of a warrior.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 60
+        }
+      ]
+    },
+    "672721013212133451": {
+      "flag": 0,
+      "PNAM": "17683137841717014352",
+      "NNAM": "3214628176238462343",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These are serious words, %PCName, words of life and death. I see honor and merit in you, and am proud to name you Clanfriend. But take care what you say and do in the name of the Nerevarine. Now go question Nibani Maesa, and learn all she can tell you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3214628176238462343": {
+      "flag": 0,
+      "PNAM": "672721013212133451",
+      "NNAM": "26046267772728426298",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Now that you are a Clanfriend, I want to speak plainly. I find it hard to believe that you are the Nerevarine. You are an outlander, but the Nerevarine comes to drive all outlanders from Morrowind. How could an outlander be the Incarnate? The Great Houses stole our lands and mocked us with false gods. The godless outlanders steal our land and our dignity. The Nerevarine is the last hope the Ashlanders have. I will let no outlander steal this hope from us.",
+      "BNAM": "Choice \"Continue\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    },
+    "26046267772728426298": {
+      "flag": 0,
+      "PNAM": "3214628176238462343",
+      "NNAM": "2240222414862428342",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You think you fulfill the Nerevarine prophecies. You wish to be tested to see if you are the Nerevarine. No outlander may join the Nerevarine cult. If you were a Clanfriend, an adopted member of the Ashlander tribes, then perhaps. I have an initiation rite in mind. If you pass this rite, I will adopt you as a Clanfriend of the Ashlanders. And then I will submit you to Nibani Maesa, our wise woman, who is skilled in oracles and mysteries, and who will test you against the prophecies.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 30
+        }
+      ]
+    },
+    "2240222414862428342": {
+      "flag": 0,
+      "PNAM": "26046267772728426298",
+      "NNAM": "20967225143047710150",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I know of these prophecies. But you intrude here without welcome. Leave my yurt. Now.",
+      "BNAM": "Goodbye",
+      "SCVR": null
+    },
+    "20967225143047710150": {
+      "flag": 0,
+      "PNAM": "2240222414862428342",
+      "NNAM": "134031411177545464",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I still can't believe it. An outlander.... But you are an outlander no more, %PCName. You came to us as an outlander, according to prophecy. But now you are one of us.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "134031411177545464": {
+      "flag": 0,
+      "PNAM": "20967225143047710150",
+      "NNAM": "16064487324622339",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is strange to hear an outlander claim the signs of prophecy. Stranger still to hear an outlander speak of Nerevar Moon-and-Star, and ask to be tested. Very strange.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    },
+    "16064487324622339": {
+      "flag": 0,
+      "PNAM": "134031411177545464",
+      "NNAM": "51458268263518688",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Sul-Matuul's yurt. Tell him that Zabamund has sent you to speak to him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 35
+        }
+      ]
+    },
+    "51458268263518688": {
+      "flag": 0,
+      "PNAM": "16064487324622339",
+      "NNAM": "50025363182811969",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will not listen. I will only hear your word of challenge.",
+      "BNAM": ";Zabamund;; Journal \"A2-1 Meet Sul-Matuul\" = 11; Journal \"A2-1 Meet Sul-Matuul\" 13;\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 13
+        }
+      ]
+    },
+    "50025363182811969": {
+      "flag": 0,
+      "PNAM": "51458268263518688",
+      "NNAM": "7144368928378775",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will not listen. I will only hear your word of challenge.",
+      "BNAM": ";Zabamund;; Journal \"A2-1 Meet Sul-Matuul\" = 11; Journal \"A2-1 Meet Sul-Matuul\" 13;\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 11
+        }
+      ]
+    },
+    "7144368928378775": {
+      "flag": 0,
+      "PNAM": "50025363182811969",
+      "NNAM": "2691598611640011840",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, a gift of 200 gold coins. That is an earnest proof of your respect. Yes, I believe you should speak to our ashkhan. Perhaps he will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.",
+      "BNAM": ";Zabamund\r\r\nplayer->removeitem gold_001 200\r\nJournal A2_1_MeetSulMatuul 35\r\n\"sul-matuul\"->setdisposition 50\r\n\"sul-matuul\"->setfight 30\r\n\"sul-matuul\"->stopcombat",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 200
+        }
+      ]
+    },
+    "2691598611640011840": {
+      "flag": 0,
+      "PNAM": "7144368928378775",
+      "NNAM": "2031425861182651246",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hah. Perhaps if you HAD 200 good coins, then perhaps it would be a worthy tribute. But you do not. As it is, you shall not speak to Sul-Matuul or Nibani Maesa.",
+      "BNAM": ";Zabamund",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 200
+        }
+      ]
+    },
+    "2031425861182651246": {
+      "flag": 0,
+      "PNAM": "2691598611640011840",
+      "NNAM": "26053211572630328545",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. These are not simple matters. You know a great deal more than I would have thought. And some of what you say is news to me. I believe you should speak to Sul-Matuul. Perhaps he will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.",
+      "BNAM": ";Zabamund\r\nJournal A2_1_MeetSulMatuul 35\r\n\"sul-matuul\"->setdisposition 50\r\n\"sul-matuul\"->setfight 30\r\n\"sul-matuul\"->stopcombat",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "36",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 30
+        }
+      ]
+    },
+    "26053211572630328545": {
+      "flag": 0,
+      "PNAM": "2031425861182651246",
+      "NNAM": "2832611212443226088",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All of that may be true, and I'm sure you think it is very important, but it has nothing to do with us -- at least, not the way you tell it. I'm sorry, but I will not let you bother Sul-Matuul or Nibani Maesa with all this.",
+      "BNAM": ";Zabamund",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "36",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 30
+        }
+      ]
+    },
+    "2832611212443226088": {
+      "flag": 0,
+      "PNAM": "26053211572630328545",
+      "NNAM": "2052175821158315226",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "These are indeed worthy deeds. I hear the truth in your words. Perhaps Sul-Matuul will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.",
+      "BNAM": ";Zabamund\r\nJournal A2_1_MeetSulMatuul 35\r\n\"sul-matuul\"->setdisposition 50\r\n\"sul-matuul\"->setfight 30\r\n\"sul-matuul\"->stopcombat",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 20
+        }
+      ]
+    },
+    "2052175821158315226": {
+      "flag": 0,
+      "PNAM": "2832611212443226088",
+      "NNAM": "28662182822911720524",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. I know not what to make of your deeds. Your words may be more worthy than your deeds. But you are well-spoken, and you do tell a pretty tale. Perhaps Sul-Matuul will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.",
+      "BNAM": ";Zabamund\r\nJournal A2_1_MeetSulMatuul 35\r\n\"sul-matuul\"->setdisposition 50\r\n\"sul-matuul\"->setfight 30\r\n\"sul-matuul\"->stopcombat",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "36",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 30
+        }
+      ]
+    },
+    "28662182822911720524": {
+      "flag": 0,
+      "PNAM": "2052175821158315226",
+      "NNAM": "24991678436253794",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You think well of yourself. But I do not share your opinion. You shall not speak to Sul-Matuul or Nibani Maesa.",
+      "BNAM": ";Zabamund",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "05",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 10
+        }
+      ]
+    },
+    "24991678436253794": {
+      "flag": 0,
+      "PNAM": "28662182822911720524",
+      "NNAM": "26294218232546212164",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are not an unworthy opponent. I hear honor in your words, and courage in your heart. I would regret killing you. But regret even more should you kill me. Very well. Perhaps Sul-Matuul will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.",
+      "BNAM": ";Zabamund\r\r\nJournal A2_1_MeetSulMatuul 35\r\n\"sul-matuul\"->setdisposition 50\r\n\"sul-matuul\"->setfight 30\r\n\"sul-matuul\"->stopcombat",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "26294218232546212164": {
+      "flag": 0,
+      "PNAM": "24991678436253794",
+      "NNAM": "12780160902047420777",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You would not stand a chance against me. But I hear honor in your words, and courage in your heart. Very well. Perhaps Sul-Matuul will be angry with me. But I think I can bear that. Go to the Ashkhan's Yurt and speak with Sul-Matuul. Ask him your questions, and tell him I have sent you.",
+      "BNAM": ";Zabamund\r\r\nJournal A2_1_MeetSulMatuul 35\r\n\"sul-matuul\"->setdisposition 50\r\n\"sul-matuul\"->setfight 30\r\n\"sul-matuul\"->stopcombat",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "3",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "12780160902047420777": {
+      "flag": 0,
+      "PNAM": "26294218232546212164",
+      "NNAM": "7361308292213827751",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You are a mere stripling. I might win as much honor by killing a dog. You shall not speak to Sul-Matuul or Nibani Maesa.",
+      "BNAM": ";Zabamund",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "06",
+          "operator": "4",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "7361308292213827751": {
+      "flag": 0,
+      "PNAM": "12780160902047420777",
+      "NNAM": "2473175292365830320",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "zabamund",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Nerevarine Prophecies are not for outlanders. Why should Sul-Matuul and Nibani Maesa speak to you about these things? Who are you, that we should trust you?",
+      "BNAM": ";Zabamund\r\nChoice \"Offer to fight a duel to the death for the right to speak to Sul-Matuul\" 1 \"Boast of my worthy deeds, and demand the right to speak to Sul-Matuul\" 2 \"Tell all I have learned of the Sixth House and the Nerevarine, and ask humbly to speak to Sul-Matuul\" 3 \"Offer to pay a tribute of 200 gold to speak with Sul-Matuul\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        }
+      ]
+    },
+    "2473175292365830320": {
+      "flag": 0,
+      "PNAM": "7361308292213827751",
+      "NNAM": "19414186992180510443",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The ways of the world are mysterious. How strange. The Nerevarine, an outlander. Yet Nibani Maesa tells us, was not Nerevar himself an outlander? Yet we never once thought....",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        }
+      ]
+    },
+    "19414186992180510443": {
+      "flag": 0,
+      "PNAM": "2473175292365830320",
+      "NNAM": "47161614032566472",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hear rumors, favored guest. I hear the Outlander earns honor and hospitality of the tribe. I hear the Outlander makes claim to be named 'Nerevarine'. The People respect their ashkhan and wise woman. But these are strange tidings, and hard to believe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    },
+    "47161614032566472": {
+      "flag": 0,
+      "PNAM": "19414186992180510443",
+      "NNAM": "2489025698137138111",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not talk of such things with killers of my kinsmen.",
+      "BNAM": ";Ashlander, Urshilaku Camp;; Journal \"A2-1 Meet Sul-Matuul\" = 11; Journal \"A2-1 Meet Sul-Matuul\" 13",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 13
+        }
+      ]
+    },
+    "2489025698137138111": {
+      "flag": 0,
+      "PNAM": "47161614032566472",
+      "NNAM": "173883071789174229",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not talk of such things with killers of my kinsmen.",
+      "BNAM": ";Ashlander, Urshilaku Camp;; Journal \"A2-1 Meet Sul-Matuul\" = 11; Journal \"A2-1 Meet Sul-Matuul\" 13",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 11
+        }
+      ]
+    },
+    "173883071789174229": {
+      "flag": 0,
+      "PNAM": "2489025698137138111",
+      "NNAM": "3176791671205028378",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not believe what I am hearing. You think you are the Nerevarine, and you wish to speak to Sul-Matuul and Nibani Maesa. You do not look like the Nerevarine. But you do not speak like a fool, or a madman. This is a puzzle. I tell you... go speak with Zabamund in his yurt. He is a gulakhan, Sul-Matuul's champion, and he will decide what is right. If Zabamund gives you permission, then you may enter the Ashkhan's Yurt and speak with Sul-Matuul.",
+      "BNAM": ";Ashlander, Urshilaku Camp;;1, high Disposition\r\nJournal A2_1_MeetSulMatuul 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3176791671205028378": {
+      "flag": 0,
+      "PNAM": "173883071789174229",
+      "NNAM": "1872496331345913947",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am not surprised you are ignorant, outlander. And it is not my job to teach you.",
+      "BNAM": ";Ashlander, Urshilaku Camp;;2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1872496331345913947": {
+      "flag": 0,
+      "PNAM": "3176791671205028378",
+      "NNAM": "204096968670832447",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What does an outlander have to say to an Urshilaku of the Nerevarine prophecy?",
+      "BNAM": ";Ashlander, Urshilaku Camp;\r\nChoice \"Say I fulfill the Nerevarine prophecies, and wish to speak to Sul-Matuul and Nibani Maesa.\" 1 \"Say I know little, and am curious.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 1
+        }
+      ]
+    },
+    "204096968670832447": {
+      "flag": 0,
+      "PNAM": "1872496331345913947",
+      "NNAM": "199017621209432182",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Ashlanders",
+      "ANAM": "Urshilaku Camp",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is not a matter for idle talk with strangers. Why should I trust you, outlander?",
+      "BNAM": ";Ashlander, Urshilaku Camp",
+      "SCVR": null
+    },
+    "199017621209432182": {
+      "flag": 0,
+      "PNAM": "204096968670832447",
+      "NNAM": "31349121562668227936",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Temple and the Western cults have often dismissed visions and prophecy as primitive superstition. But, in fact, it is foolish prejudice against ancient, secret wisdoms that prevents us from unlocking the secrets of the universe.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "31349121562668227936": {
+      "flag": 0,
+      "PNAM": "199017621209432182",
+      "NNAM": "19547298742003924255",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sharn gra-muzgob",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ashlander culture honors dream visions and prophecy, unlike the Temple and the Western cults, which regard visions and prophecy as primitive superstition. Wise women interpret dreams and visions, and pass them on to succeeding generations. The most common version of the Nerevarine Prophecy is THE STRANGER. Did you know that Nerevar was known to possess a magical ring named \"One-Clan-Under-Moon-and-Star.\" Nerevar swore his promise to honor ancient Ashlander traditions and land rights on this magical ring.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_4_MuzgobInformant",
+          "__TV": 15
+        }
+      ]
+    },
+    "19547298742003924255": {
+      "flag": 0,
+      "PNAM": "31349121562668227936",
+      "NNAM": "94984830546621456",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very interesting. At least part of the Nerevarine Prophecies are true. You, %PCName, and your deeds are living proof of this. But.. are you also the Nerevarine who will drive the foreigners from the land and redeem the false promises of the Great House Dunmer? Very interesting.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "94984830546621456": {
+      "flag": 0,
+      "PNAM": "19547298742003924255",
+      "NNAM": "2437133142247923208",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard it said that prophecies foretell the return of a reincarnated Nerevar, who shall drive the foreigners from the Ashlands and who shall cast down the false gods of the Temple, and restore the true worships of the Ancestors. It is a dream that would appeal to every Ashlander, but it is thought but a silly ancient legend, and little more, by many Ashlanders - myself included.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 31
+        }
+      ]
+    },
+    "2437133142247923208": {
+      "flag": 0,
+      "PNAM": "94984830546621456",
+      "NNAM": "16690324441046731256",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry, but that is not a topic for casual conversation with strangers.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "16690324441046731256": {
+      "flag": 0,
+      "PNAM": "2437133142247923208",
+      "NNAM": "13499525251056137",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The package you gave me described the prophecy's conditions, and you seem to match them. 'An orphan and outcast.' 'A youth born on a certain day to uncertain parents.' Standard vague prophecy stuff. I can see how it would be nice to have a Nerevarine in our pocket. Just in case. But the Emperor and his advisors seem to think this prophecy is genuine -- whatever a 'genuine' prophecy is -- and we're going to take it seriously. AREN'T we, %PCName?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 50
+        }
+      ]
+    },
+    "13499525251056137": {
+      "flag": 0,
+      "PNAM": "16690324441046731256",
+      "NNAM": "1192928566277959936",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "caius cosades",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The illiterate Ashlanders pass down their customs and history in the form of poetic verses. Among the things they preserve in verse are the dreams and prophetic visions of their wise women, in particular the verses that foretell the coming of the Nerevarine. But I don't know much about it. That's why I'm sending you to find out.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 50
+        }
+      ]
+    },
+    "1192928566277959936": {
+      "flag": 0,
+      "PNAM": "13499525251056137",
+      "NNAM": "652127555387519829",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The monks at Holamayan will dedicate themselves to the study of prophecies. The Temple has long dismissed prophecy as a medium of revelation and enlightenment. But you and your deeds on Red Mountain prove that wisdom may be hidden in prophecy, if only we are wise and patient enough to seek for it.",
+      "BNAM": ";Mehra Milo",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "C3_DestroyDagoth",
+          "__TV": 50
+        }
+      ]
+    },
+    "652127555387519829": {
+      "flag": 0,
+      "PNAM": "1192928566277959936",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "mehra milo",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Ashlanders have a mystical tradition of interpreting dreams and visions as prophecies. These prophecies are recorded in verse, and may be lost or garbled over the generations. But the Dissident Priests have collected many ancient prophecies of the Nerevarine, many of which they believe to be genuine. Collectively these are called the Lost Prophecies of the Incarnate. One of the sacred missions of the Dissident Priests is the collection and study of these prophecies.",
+      "BNAM": ";Mehra Milo",
+      "SCVR": null
+    }
+  }
+}

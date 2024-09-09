@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 93,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin ringAzuraScript\r\n\r\n;makes ring spin around like a cheesy B movie until you click on it\r\n\r\nshort doOnce\r\n\r\nif ( doOnce == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( CellChanged == 1 )\r\n\tDisable\r\nendif\r\n\r\nif ( OnActivate == 0 )\r\n\tRotate Z 30\r\n\treturn\r\nendif\r\n\r\nCast \"hand of azura\" Player\r\nSet doOnce to 1\r\nActivate\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,1,9,32,115,1,0,32,61,61,32,49,36,1,9,1,6,1,1,9,32,88,31,16,32,61,61,32,49,219,16,9,1,6,1,2,9,32,88,24,16,32,61,61,32,48,7,16,90,0,0,240,65,36,1,9,1,35,17,13,104,97,110,100,32,111,102,32,97,122,117,114,97,6,80,108,97,121,101,114,5,1,115,1,0,2,32,49,23,16,1,1]
+}

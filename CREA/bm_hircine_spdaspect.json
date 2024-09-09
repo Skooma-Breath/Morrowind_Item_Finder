@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\HircineWolf.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 100,
+    "attributes": [95,100,100,140,100,100,90,140],
+    "health": 1850,
+    "magicka": 350,
+    "fatigue": 1200,
+    "soul_strength": 100,
+    "combat_skill": 100,
+    "magic_skill": 100,
+    "stealth_skill": 100,
+    "attacks": [
+      [80,95],
+      [80,95],
+      [80,95]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Hircine's Aspect of Speed",
+  "SCRI": "aspect2Script",
+  "XSCL": 1.7000000476837158,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "bm_amulspd1"
+    },
+    {
+      "count": 1,
+      "name": "key_hircine3"
+    }
+  ],
+  "NPCS": [
+    "bm_spdresist"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

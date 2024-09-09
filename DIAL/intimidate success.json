@@ -1,0 +1,603 @@
+{
+  "deleted": false,
+  "DATA": 3,
+  "INFO": {
+    "2267528022103868317": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "26164113481664726296",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "cunius pelelius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Alright, alright. I'll tell you this because I trust you. Take this key. There's a record book in Odral's Helvi chest on the second floor. Stendar have mercy on me if anyone finds out about this.",
+      "BNAM": "Player->AddItem key_odral_helvi 1\r\nSet givenKey to 1\r\nJournal HR_CalderaCorrupt 30",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "givenKey",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_CalderaCorrupt",
+          "__TV": 10
+        }
+      ]
+    },
+    "26164113481664726296": {
+      "flag": 0,
+      "PNAM": "2267528022103868317",
+      "NNAM": "21616259273235719245",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Orvas Dren Druglord",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No %PCRace can intimidate me!",
+      "BNAM": "SetFight 100\r\nGoodbye",
+      "SCVR": null
+    },
+    "21616259273235719245": {
+      "flag": 0,
+      "PNAM": "26164113481664726296",
+      "NNAM": "2559720588179212606",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Murudius Flaeus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have to say it again. Look, here's key. There's a chest under Fadila's house, near the docks. Just leave me in peace.",
+      "BNAM": "Journal HH_BuriedTreasure 50\r\nPlayer->AddItem key_murudius_01 1\r\nRemoveItem key_murudius_01 1",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 50
+        }
+      ]
+    },
+    "2559720588179212606": {
+      "flag": 0,
+      "PNAM": "21616259273235719245",
+      "NNAM": "654167731665411550",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rolasa oren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, okay. I'll buy my guar hides from House Hlaalu. Just leave me alone.",
+      "BNAM": "Journal HH_IndEsp2 50",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp2",
+          "__TV": 10
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_IndEsp2",
+          "__TV": 50
+        }
+      ]
+    },
+    "654167731665411550": {
+      "flag": 0,
+      "PNAM": "2559720588179212606",
+      "NNAM": "6089851244707782",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ghost_npc_idrenie nerot",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Among mortals, you are indeed great. Among the ancestors, you are of little account.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "6089851244707782": {
+      "flag": 0,
+      "PNAM": "654167731665411550",
+      "NNAM": "287185562092168",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ghost_npc_hort_ledd",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Among mortals, you are indeed great. Among the ancestors, you are of little account.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "287185562092168": {
+      "flag": 0,
+      "PNAM": "6089851244707782",
+      "NNAM": "179936510321477857",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ghost_npc_erur-dan",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Among mortals, you are indeed great. Among the ancestors, you are of little account.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "179936510321477857": {
+      "flag": 0,
+      "PNAM": "287185562092168",
+      "NNAM": "400227747249982377",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ghost_npc_conoon chodal",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Among mortals, you are indeed great. Among the ancestors, you are of little account.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "400227747249982377": {
+      "flag": 0,
+      "PNAM": "179936510321477857",
+      "NNAM": "157997456106822924",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ghost_npc_ane teria",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Among mortals, you are indeed great. Among the ancestors, you are of little account.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "157997456106822924": {
+      "flag": 0,
+      "PNAM": "400227747249982377",
+      "NNAM": "1471322831213057918",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ghost_npc_peakstar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Among mortals, you are indeed great. Among the ancestors, you are of little account.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1471322831213057918": {
+      "flag": 0,
+      "PNAM": "157997456106822924",
+      "NNAM": "10343167362771029193",
+      "DATA": {
+        "value": 90,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's ok, really. I didn't mean it.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "10343167362771029193": {
+      "flag": 0,
+      "PNAM": "1471322831213057918",
+      "NNAM": "14035173113161727385",
+      "DATA": {
+        "value": 85,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'd rather not fight about it. Go ahead. What did you want?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "14035173113161727385": {
+      "flag": 0,
+      "PNAM": "10343167362771029193",
+      "NNAM": "2682931338265694225",
+      "DATA": {
+        "value": 80,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right, you made your point.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2682931338265694225": {
+      "flag": 0,
+      "PNAM": "14035173113161727385",
+      "NNAM": "189411893301587102",
+      "DATA": {
+        "value": 70,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I take your point. I hope we can work something out.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "189411893301587102": {
+      "flag": 0,
+      "PNAM": "2682931338265694225",
+      "NNAM": "14946981448322538",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't want any trouble. Just take it easy.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "14946981448322538": {
+      "flag": 0,
+      "PNAM": "189411893301587102",
+      "NNAM": "3204147182354114881",
+      "DATA": {
+        "value": 55,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I hear you. Can we work this out?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "3204147182354114881": {
+      "flag": 0,
+      "PNAM": "14946981448322538",
+      "NNAM": "1773222623213229315",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, if you insist. I guess I must hear you out.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1773222623213229315": {
+      "flag": 0,
+      "PNAM": "3204147182354114881",
+      "NNAM": "3016716281193932537",
+      "DATA": {
+        "value": 45,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're upsetting me. Can't we resolve this in a civil manner?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "3016716281193932537": {
+      "flag": 0,
+      "PNAM": "1773222623213229315",
+      "NNAM": "2086243121703526",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go ahead. I am listening.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2086243121703526": {
+      "flag": 0,
+      "PNAM": "3016716281193932537",
+      "NNAM": "1991421659422921552",
+      "DATA": {
+        "value": 35,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Can't we settle this peacefully?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1991421659422921552": {
+      "flag": 0,
+      "PNAM": "2086243121703526",
+      "NNAM": "1643830350181516343",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Sure, anything. Just name it, I don't want any trouble.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1643830350181516343": {
+      "flag": 0,
+      "PNAM": "1991421659422921552",
+      "NNAM": "1205123837234059222",
+      "DATA": {
+        "value": 25,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Of course, yes. I see what you mean.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1205123837234059222": {
+      "flag": 0,
+      "PNAM": "1643830350181516343",
+      "NNAM": "2591023515216602066",
+      "DATA": {
+        "value": 20,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I doubt it will come to that, really.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2591023515216602066": {
+      "flag": 0,
+      "PNAM": "1205123837234059222",
+      "NNAM": "660830491438831439",
+      "DATA": {
+        "value": 15,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's not have it come to that, Ok? What do you need?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "660830491438831439": {
+      "flag": 0,
+      "PNAM": "2591023515216602066",
+      "NNAM": "48519316258763832",
+      "DATA": {
+        "value": 10,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right. We can talk.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "48519316258763832": {
+      "flag": 0,
+      "PNAM": "660830491438831439",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ok, settle down.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

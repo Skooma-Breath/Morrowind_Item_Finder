@@ -1,0 +1,73 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Agent",
+  "ANAM": "Hlaalu",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_04",
+  "MODL": null,
+  "FNAM": "Avus Belvilo",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 60,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    }
+  ],
+  "NPCS": [
+    "blessed touch",
+    "holy word",
+    "crying eye",
+    "frenzy beast",
+    "frenzying touch",
+    "frenzy creature",
+    "frenzy humanoid",
+    "chameleon",
+    "shadow form",
+    "light",
+    "night-eye",
+    "sanctuary",
+    "father's hand",
+    "sotha's grace",
+    "noise"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 11,
+    "health": 98,
+    "magicka": 102,
+    "fatigue": 219,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [58,51,38,77,69,46,60,40],
+    "skills": [25,70,6,6,6,11,6,6,11,6,16,6,25,70,11,6,6,25,16,50,70,55,60,21,10,50,16]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

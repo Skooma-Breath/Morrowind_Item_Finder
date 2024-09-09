@@ -1,0 +1,1345 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 1,
+    "grid": [1444877,1065353216]
+  },
+  "NAME": "Solstheim, Mortrag Glacier: Huntsman's Hall",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [12,24,35,0],
+    "sunlight": [44,39,80,0],
+    "fog_color": [13,12,22,0],
+    "fog_density": 1
+  },
+  "FRMR": {
+    "2-31420": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bm_frost_giant",
+      "DATA": [-98.20852661132812,3984.927978515625,-958.6280517578125,0,0,6.183185577392578]
+    },
+    "2-31421": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_hircine_huntaspect",
+      "DATA": [250.98696899414062,5688.158203125,-964.9119873046875,0,0,3.0831868648529053]
+    },
+    "2-31422": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_hircine_spdaspect",
+      "DATA": [248.0941162109375,5687.87158203125,-961.7091674804688,0,0,2.7831852436065674]
+    },
+    "2-31423": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_hircine_straspect",
+      "DATA": [256.0129089355469,5678.208984375,-976.6461181640625,0,0,2.8831865787506104]
+    },
+    "2-31424": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_hircine2",
+      "DATA": [278.2336120605469,5616.4560546875,-974.0904541015625,0,0,2.983185291290283]
+    },
+    "2-32240": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_mazegate_03",
+      "DATA": [-363.653076171875,6159.7314453125,-752.8787231445312,0,0,2.4831864833831787]
+    },
+    "2-31426": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [-2451.800048828125,3776.582763671875,569.0509643554688,0,0,0.30000028014183044]
+    },
+    "2-31427": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_Glacier_cave01",
+      "XSCL": 2,
+      "DATA": [0,0,0,0,0,0]
+    },
+    "2-31428": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_Glacier_connect_Lcave",
+      "XSCL": 2,
+      "DATA": [0,-1536,0,0,0,3.1415927410125732]
+    },
+    "2-31429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "DATA": [471.3652648925781,1089.7510986328125,-717.10205078125,0,0,0.49999967217445374]
+    },
+    "2-31430": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_ruin_03",
+      "XSCL": 1.5000001192092896,
+      "DATA": [-581.7122802734375,6404.57568359375,-487.15643310546875,0,0,0.9168118238449097]
+    },
+    "2-31431": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_ruin_platform_01",
+      "XSCL": 0.7100000381469727,
+      "DATA": [387.1142272949219,5780.0986328125,-977.0606079101562,0,0,0]
+    },
+    "2-31432": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_ruin_platform_01",
+      "XSCL": 0.5,
+      "DATA": [-261.1780090332031,4966.4853515625,-1046.4552001953125,0,0,0]
+    },
+    "2-31433": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_ruin_stair01_short",
+      "XSCL": 1.9300000667572021,
+      "DATA": [13.375465393066406,144.7425079345703,-292.099609375,0,0,4.6831865310668945]
+    },
+    "2-31434": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [-1344,2176,256,0,0,0]
+    },
+    "2-31435": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [342.3485107421875,-1915.887939453125,0,0,0,0]
+    },
+    "2-31436": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.1299999952316284,
+      "DATA": [-1297.29736328125,4559.623046875,-1024.925537109375,0,3.1415927410125732,4.483187198638916]
+    },
+    "2-31437": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_pointy",
+      "DATA": [524.9244384765625,642.6538696289062,-359.47589111328125,0,0.2000000774860382,0]
+    },
+    "2-31438": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [64,1600,-1024,0,0,0]
+    },
+    "2-31439": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [1088.0006103515625,1600,-1024,0,0,0]
+    },
+    "2-31440": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [1088.0006103515625,3648,-1024,0,0,0]
+    },
+    "2-31441": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [64,3648,-1024,0,0,0]
+    },
+    "2-31442": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_01",
+      "XSCL": 2,
+      "DATA": [411.67462158203125,-8303.0615234375,0,0,0,0]
+    },
+    "2-31443": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_3way_01",
+      "XSCL": 2,
+      "DATA": [-612.3253173828125,-7279.06103515625,0,0,0,1.5707963705062866]
+    },
+    "2-31444": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_corner",
+      "XSCL": 2,
+      "DATA": [411.67462158203125,-9327.060546875,0,0,0,1.5707963705062866]
+    },
+    "2-31445": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_01",
+      "XSCL": 2,
+      "DATA": [-1636.3250732421875,-7279.06103515625,0,0,0,1.5707963705062866]
+    },
+    "2-31446": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_corner",
+      "XSCL": 2,
+      "DATA": [411.67462158203125,-7279.06103515625,0,0,0,0]
+    },
+    "2-31447": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_endcap_01",
+      "XSCL": 2,
+      "DATA": [-612.3253173828125,-9327.060546875,0,0,0,1.5707963705062866]
+    },
+    "2-31448": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_hall_l_endcap_01",
+      "XSCL": 2,
+      "DATA": [-2660.3251953125,-7343.06103515625,0,0,0,1.5707963705062866]
+    },
+    "2-31449": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [91.67464447021484,-7599.06103515625,0,0,0,0]
+    },
+    "2-31450": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [-365.0603332519531,-1890.6297607421875,0,0,0,0]
+    },
+    "2-31451": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_censer",
+      "XSCL": 0.9800000190734863,
+      "DATA": [-2884.32470703125,-7311.06103515625,448,0,0,0]
+    },
+    "2-31452": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_censer",
+      "XSCL": 1.5000001192092896,
+      "DATA": [1769.1710205078125,4075.27490234375,1101.011474609375,0,0,0]
+    },
+    "2-31453": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_censer",
+      "XSCL": 1.5200001001358032,
+      "DATA": [-2093.630859375,4169.21630859375,1011.0262451171875,0,0,0]
+    },
+    "2-31454": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [-1331.89697265625,4573.099609375,-736.4326782226562,0,0,1.0000001192092896]
+    },
+    "2-31455": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_icicle_02",
+      "XSCL": 1.190000057220459,
+      "DATA": [-1529.833984375,2190.965087890625,1387.8482666015625,0,0,1.0000001192092896]
+    },
+    "2-31456": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_icicle_02",
+      "DATA": [-1458.571533203125,2252.163818359375,1534.7005615234375,0,0,0]
+    },
+    "2-31457": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_icicle02",
+      "XSCL": 2,
+      "DATA": [-254.24876403808594,4311.90673828125,2692.185546875,0,0,5.383185863494873]
+    },
+    "2-31458": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_icicle",
+      "XSCL": 2,
+      "DATA": [-183.00888061523438,4252.79736328125,2762.630615234375,0,0,3.09999942779541]
+    },
+    "2-31459": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_icicle_02",
+      "XSCL": 2,
+      "DATA": [-1490.7235107421875,2161.026123046875,1448.0919189453125,0,0,1.0000001192092896]
+    },
+    "2-31460": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_03",
+      "DATA": [-757.2609252929688,1760.201416015625,-813.6607055664062,0,3.0999996662139893,0]
+    },
+    "2-31461": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_03",
+      "XSCL": 1.8000000715255737,
+      "DATA": [-2738.098388671875,4208.36181640625,-708.9261474609375,0,3.2415926456451416,4.683187007904053]
+    },
+    "2-31462": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 1.9100000858306885,
+      "DATA": [-1024,1792,-896,0,3,5.483186721801758]
+    },
+    "2-31463": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_wall_512_04",
+      "DATA": [545.4464111328125,518.8626708984375,-77.39221954345703,0,0,5.583185195922852]
+    },
+    "2-31464": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_wall_512_02",
+      "XSCL": 1.53000009059906,
+      "DATA": [-477.9238586425781,6966.580078125,-738.6602172851562,6.18318510055542,6.216811180114746,3.0831871032714844]
+    },
+    "2-31465": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.03000009059906,
+      "DATA": [453.6690368652344,4220.48486328125,-767.9998779296875,0,0,3.5831878185272217]
+    },
+    "2-31466": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "DATA": [-574.2772216796875,948.5269775390625,-612.4994506835938,0,0,5.58318567276001]
+    },
+    "2-31467": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_wall_512_04",
+      "XSCL": 1.840000033378601,
+      "DATA": [-1351.5523681640625,6781.31494140625,-617.439697265625,0,0,5.683184623718262]
+    },
+    "2-31468": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_06",
+      "XSCL": 2,
+      "DATA": [718.4978637695312,1510.88525390625,-902.7466430664062,0,3.1415927410125732,0]
+    },
+    "2-31469": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_07",
+      "XSCL": 1.3900001049041748,
+      "DATA": [-656.77099609375,1567.2099609375,-927.77001953125,0,3.1433379650115967,3.961897373199463]
+    },
+    "2-31470": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-1275.421630859375,-919.0259399414062,80,0,0,0]
+    },
+    "2-31471": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "DATA": [-488.2159729003906,2193.89208984375,-767.9998779296875,0,0,5.783185958862305]
+    },
+    "2-31472": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_ruin_platform_01",
+      "XSCL": 0.5200000405311584,
+      "DATA": [258.7646484375,5129.38720703125,-999.6897583007812,0,0,0]
+    },
+    "2-31473": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [64,5696,-1024,0,0,0]
+    },
+    "2-31474": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [1088.0006103515625,5696,-1024,0,0,0]
+    },
+    "2-31475": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [1088.0006103515625,4672.00048828125,-1024,0,0,0]
+    },
+    "2-31476": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [64,4672.00048828125,-1024,0,0,0]
+    },
+    "2-31477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-1984,3648,-1024,0,0,0]
+    },
+    "2-31478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-959.9993896484375,3648,-1024,0,0,0]
+    },
+    "2-31479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-959.9993896484375,1600,-1024,0,0,0]
+    },
+    "2-31480": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-1984,1600,-1024,0,0,0]
+    },
+    "2-31481": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-1984,4672.00048828125,-1024,0,0,0]
+    },
+    "2-31482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-959.9993896484375,5696,-1024,0,0,0]
+    },
+    "2-31483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-959.9993896484375,4672.00048828125,-1024,0,0,0]
+    },
+    "2-31484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-1984,5696,-1024,0,0,0]
+    },
+    "2-31485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-1984,2624.00048828125,-1024,0,0,0]
+    },
+    "2-31486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [-959.9993896484375,2624.00048828125,-1024,0,0,0]
+    },
+    "2-31487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [64,2624.00048828125,-1024,0,0,0]
+    },
+    "2-31488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [2112,2560,-1024,0,0,0]
+    },
+    "2-31489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.0500000715255737,
+      "DATA": [376.4982604980469,2165.2587890625,-758.1558227539062,0,0,0.6999999284744263]
+    },
+    "2-31490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.0700000524520874,
+      "DATA": [309.3556823730469,-100.1969223022461,-253.4071502685547,0,0,0.5]
+    },
+    "2-31491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "DATA": [533.2569580078125,3130.24072265625,-767.9998779296875,0,0,5.383186340332031]
+    },
+    "2-31492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_02_ruin",
+      "XSCL": 1.1700000762939453,
+      "DATA": [-353.90576171875,-166.0823974609375,-91.6226577758789,0,0.30000001192092896,4.4831862449646]
+    },
+    "2-31493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_02_ruin_02",
+      "XSCL": 1.0800000429153442,
+      "DATA": [-1997.161865234375,4208.2265625,-799.8448486328125,0,0,0]
+    },
+    "2-31494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_02_ruin",
+      "DATA": [-2002.6744384765625,5053.33349609375,-968.8142700195312,0,0,0]
+    },
+    "2-31495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_03",
+      "XSCL": 1.3000000715255737,
+      "DATA": [-1610.9149169921875,6128.7724609375,-725.7892456054688,0,0,0.30000001192092896]
+    },
+    "2-31496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_03",
+      "XSCL": 1.3000000715255737,
+      "DATA": [869.619873046875,6448.21533203125,-725.7892456054688,0,0,5.283186435699463]
+    },
+    "2-31497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [1792,5248,576,0,0,0.30000028014183044]
+    },
+    "2-31498": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [2048,3968,640,0,0,0.30000028014183044]
+    },
+    "2-31499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [-1962.1929931640625,5879.47998046875,-84.36361694335938,0,0,0.30000028014183044]
+    },
+    "2-31500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier_red_300",
+      "DATA": [-539.0592041015625,2633.06396484375,-670.1885375976562,0,0,0]
+    },
+    "2-31501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier_red_300",
+      "DATA": [-484.5833435058594,6201.478515625,160.75892639160156,0,0,0]
+    },
+    "2-31502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier_red_300",
+      "DATA": [346.16058349609375,2657.334228515625,-575.1162109375,0,0,0]
+    },
+    "2-31503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier_red_300",
+      "DATA": [386.4217224121094,3719.78955078125,-603.3916015625,0,0,0]
+    },
+    "2-31504": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier_red_300",
+      "DATA": [-1779.3787841796875,3556.27978515625,-650.5025024414062,0,0,0]
+    },
+    "2-31505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier_red_300",
+      "DATA": [-16.990447998046875,5134.01806640625,1285.8619384765625,0,0,0]
+    },
+    "2-31506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier_red_300",
+      "DATA": [-522.4736938476562,3679.07763671875,-634.0870361328125,0,0,0]
+    },
+    "2-31507": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [-2112,2752,448,0,0,0]
+    },
+    "2-31508": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [-192,2944,1984,0,0,0.30000028014183044]
+    },
+    "2-31509": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "XSCL": 1.0500000715255737,
+      "DATA": [2498.03955078125,2851.49658203125,-1131.7247314453125,0,0,3.4999992847442627]
+    },
+    "2-31510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "DATA": [2459.261962890625,5246.771484375,-1122.978759765625,0,0,2.999999761581421]
+    },
+    "2-31511": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "DATA": [2631.430908203125,4182.51318359375,-790.8261108398438,0,0,3.299999475479126]
+    },
+    "2-31512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "XSCL": 1.0099999904632568,
+      "DATA": [-1770.4697265625,6382.931640625,-1174.2178955078125,0,0,0.20000000298023224]
+    },
+    "2-31513": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "DATA": [-2937.18505859375,5265.88916015625,-1046.2813720703125,0,0,0]
+    },
+    "2-31514": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "XSCL": 1.1200000047683716,
+      "DATA": [-2799.62890625,2851.843994140625,-1064.7646484375,0,0,0]
+    },
+    "2-31515": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_glacier_arch",
+      "XSCL": 2,
+      "DATA": [-208.89254760742188,5251.76513671875,2769.93212890625,0,0,0]
+    },
+    "2-31516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_glacier_arch",
+      "XSCL": 2,
+      "DATA": [-232.39451599121094,2833.324462890625,2845.546142578125,0,0,0]
+    },
+    "2-31517": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [1088,2624,-1024,0,0,0]
+    },
+    "2-31518": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [1408,2624,128,0,0,0.30000028014183044]
+    },
+    "2-31519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 512",
+      "DATA": [-160.06039428710938,4685.41552734375,2148.159912109375,0,0,0.30000028014183044]
+    },
+    "2-31520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_censer",
+      "XSCL": 1.5200001001358032,
+      "DATA": [-157.80642700195312,4160.94775390625,2095.179931640625,0,0,0]
+    },
+    "2-31521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_03",
+      "XSCL": 2,
+      "DATA": [-576,2304,2752,0,0,0]
+    },
+    "2-31522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "BM_IC_stalag_03",
+      "XSCL": 2,
+      "DATA": [-2806.109375,3402.55859375,-613.5850830078125,0,3.1415927410125732,4.683187007904053]
+    },
+    "2-31523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "XSCL": 1.190000057220459,
+      "DATA": [-2885.192626953125,4178.45703125,-1082.1248779296875,0,0,0]
+    },
+    "2-31524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_glacier_arch02",
+      "XSCL": 2,
+      "DATA": [-152.54434204101562,4150.03125,3048.586181640625,0,0,0]
+    },
+    "2-31525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Haunted00",
+      "DATA": [-159.12474060058594,4920.19287109375,-687.8194580078125,0,0,0]
+    },
+    "2-31526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Haunted00",
+      "DATA": [351.30450439453125,1955.1800537109375,288.2289733886719,0,0,0]
+    },
+    "2-31527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Haunted00",
+      "DATA": [-861.2893676757812,4106.24462890625,-704.2351684570312,0,0,0]
+    },
+    "2-31528": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Spirit_Whisper00",
+      "DATA": [-176.70248413085938,-795.6285400390625,592.8771362304688,0,0,0]
+    },
+    "2-31529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Cave_Wind00",
+      "DATA": [-1344.326904296875,2850.769775390625,-704.2352294921875,0,0,0]
+    },
+    "2-31530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01c",
+      "DATA": [-605.634521484375,3254.100341796875,-1023.9998779296875,0,0,0]
+    },
+    "2-31531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_03a",
+      "DATA": [-331.0791320800781,3251.500244140625,-985.7802734375,0,0,4.2831854820251465]
+    },
+    "2-31532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_05",
+      "XSCL": 1.1800000667572021,
+      "DATA": [-1885.005615234375,5274.20703125,-1023.9999389648438,6.08318567276001,5.4831862449646,5.4831862449646]
+    },
+    "2-31533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_06",
+      "DATA": [-1713.1201171875,4042.18994140625,-1023.9998168945312,0,0,0]
+    },
+    "2-31534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glacier light 1024",
+      "DATA": [-258.6243896484375,5502.10498046875,79.48889923095703,0,0,0]
+    },
+    "2-31536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "DATA": [-570.52197265625,4140.32177734375,-767.9998779296875,0,0,4.483187198638916]
+    },
+    "2-31537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [-1328.7244873046875,2447.937255859375,-736.4326782226562,0,0,1.0000001192092896]
+    },
+    "2-31538": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.1299999952316284,
+      "DATA": [-1294.1248779296875,2434.460693359375,-1024.925537109375,0,3.1415927410125732,4.483187198638916]
+    },
+    "2-31539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [-1229.9588623046875,3430.009521484375,-705.822265625,0,0,2.000000238418579]
+    },
+    "2-31540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.1299999952316284,
+      "DATA": [-1204.486083984375,3433.97705078125,-994.3151245117188,0,3.1415927410125732,5.1831865310668945]
+    },
+    "2-31541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [1250.1011962890625,5237.98095703125,-622.408447265625,0,0,1.0000001192092896]
+    },
+    "2-31542": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.1299999952316284,
+      "DATA": [1284.7005615234375,5224.50439453125,-910.9013671875,0,3.1415927410125732,4.483187198638916]
+    },
+    "2-31543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [1354.3475341796875,4118.8701171875,-622.408447265625,0,0,1.0000001192092896]
+    },
+    "2-31544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.1299999952316284,
+      "DATA": [1385.9207763671875,4108.419921875,-910.9013671875,0,3.1415927410125732,4.483187198638916]
+    },
+    "2-31545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.1299999952316284,
+      "DATA": [1287.873046875,3099.343505859375,-910.9013671875,0,3.1415927410125732,4.483187198638916]
+    },
+    "2-31546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [1253.273681640625,3112.820068359375,-622.408447265625,0,0,1.0000001192092896]
+    },
+    "2-31547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_claw_01",
+      "XSCL": 1.880000114440918,
+      "DATA": [-112.18550109863281,-9291.37109375,782.0476684570312,0,3.1999998092651367,3.3000001907348633]
+    },
+    "2-31548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.1299999952316284,
+      "DATA": [-768.639892578125,-9311.5234375,-59.13741683959961,0,3.1415927410125732,5.1831865310668945]
+    },
+    "2-31549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_dae_brazier00",
+      "XSCL": 0.7900000214576721,
+      "DATA": [-794.1124267578125,-9315.490234375,229.35546875,0,0,2.000000238418579]
+    },
+    "2-31550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_pointy",
+      "DATA": [-648.2279052734375,-9579.8056640625,62.076904296875,0,1.600000023841858,1.3000000715255737]
+    },
+    "2-31551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_04a",
+      "DATA": [549.8167724609375,-9497.5068359375,102.24964141845703,0,3.1415927410125732,0]
+    },
+    "2-31552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_06",
+      "DATA": [227.05555725097656,-8818.7724609375,92.685791015625,0,5.183186054229736,0]
+    },
+    "2-31553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01a",
+      "DATA": [179.36007690429688,-8617.9140625,0.000244140625,0,0,4.983185768127441]
+    },
+    "2-31554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_07",
+      "DATA": [-1593.9205322265625,-7401.16845703125,0.0001220703125,0,0,0]
+    },
+    "2-31555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01c",
+      "DATA": [-2444.64697265625,-7119.67529296875,0.0003662109375,0,0,0]
+    },
+    "2-31556": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_rubble_01a",
+      "DATA": [-2520.29833984375,-7080.60009765625,51.35723876953125,4.283187389373779,2.000000238418579,1.100000023841858]
+    },
+    "2-31557": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_claw_01",
+      "XSCL": 1.6700000762939453,
+      "DATA": [-1159.8472900390625,-7272.08740234375,794.0167236328125,6.183185577392578,3.1415927410125732,0]
+    },
+    "2-31558": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_DAE_B_Bo_UBody",
+      "DATA": [-916.6602783203125,-1301.65283203125,597.3684692382812,0.000000014901161193847657,6.08318567276001,4.783185005187988]
+    },
+    "2-31559": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_DAE_B_Bo_LBody",
+      "DATA": [-895.96484375,-1355.619140625,5.279876708984375,0,0,5.083185195922852]
+    },
+    "2-31560": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_buttress_ruin_01",
+      "DATA": [827.3844604492188,-700.4656982421875,169.3996124267578,0,0,0.10000001639127731]
+    },
+    "2-31561": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_buttress_ruin_01",
+      "DATA": [-867.6436157226562,-556.268310546875,169.3996124267578,0,0,0.10000001639127731]
+    },
+    "2-31562": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_glacier_wind",
+      "DATA": [35.08055877685547,3819.297119140625,-1427.601318359375,0,0,0]
+    },
+    "2-31563": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Haunted00",
+      "DATA": [324.35980224609375,4416.68408203125,-718.617919921875,0,0,0]
+    },
+    "2-31564": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Daedric_Chant00",
+      "DATA": [-352.6349182128906,6236.03076171875,-417.7406311035156,0,0,0]
+    },
+    "2-32241": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "XSCL": 0.5,
+      "DATA": [-253.9208526611328,6238.10986328125,-1369.36962890625,0,0,2.4831864833831787]
+    },
+    "2-32242": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_mezzanine_edge",
+      "XSCL": 0.5,
+      "DATA": [-367.2287902832031,6174.4755859375,-887.6473999023438,0,0,4.066370487213135]
+    },
+    "2-32243": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_pillar_tall.max",
+      "XSCL": 0.5,
+      "DATA": [-466.38861083984375,6074.1796875,-1369.36962890625,0,0,2.4831864833831787]
+    },
+    "2-32244": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_mezzanine_edge",
+      "XSCL": 0.5,
+      "DATA": [-340.60845947265625,6150.78857421875,-440.2054138183594,0,0,0.8831835985183716]
+    },
+    "2-32666": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_platform_512_01",
+      "XSCL": 1.8300000429153442,
+      "DATA": [35.70893478393555,-2166.13671875,352.9906005859375,1.5707963705062866,0,6.2831854820251465]
+    },
+    "2-32790": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_02_ruin",
+      "DATA": [-2079.770751953125,3026.810546875,-873.3040771484375,0,0,4.683186054229736]
+    },
+    "2-32791": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_dae_pillar_01",
+      "XSCL": 1.0700000524520874,
+      "DATA": [-493.8204650878906,3152.725830078125,-767.9009399414062,0,0,1.2000001668930054]
+    },
+    "2-33626": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [2112,5696,-1024,0,0,0]
+    },
+    "2-33627": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [2112,4672,-1024,0,0,0]
+    },
+    "2-33628": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_dae_room_l_floor_01",
+      "XSCL": 2,
+      "DATA": [2112,3584,-1024,0,0,0]
+    }
+  }
+}

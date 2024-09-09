@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Sorcerer",
+  "ANAM": "Telvanni",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_18",
+  "MODL": null,
+  "FNAM": "Aryon",
+  "SCRI": "aryonScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 90,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "daedric shortsword"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_robe_01_t"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "sc_blackstorm"
+    },
+    {
+      "count": 1,
+      "name": "sc_manarape"
+    },
+    {
+      "count": 3,
+      "name": "p_restore_health_q"
+    },
+    {
+      "count": 3,
+      "name": "p_restore_magicka_q"
+    }
+  ],
+  "NPCS": [
+    "Aryon_rest"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 31,
+    "health": 198,
+    "magicka": 200,
+    "fatigue": 329,
+    "disposition": 50,
+    "reputation": 16,
+    "rank": 7,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [70,100,100,73,83,86,57,40],
+    "skills": [8,8,45,45,8,13,8,8,13,80,90,80,65,80,85,90,28,28,8,8,8,13,55,50,8,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

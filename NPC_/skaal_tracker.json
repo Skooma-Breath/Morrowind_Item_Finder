@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Warrior",
+  "ANAM": "Skaal",
+  "BNAM": "b_n_nord_m_head_01",
+  "KNAM": "b_n_nord_m_hair04",
+  "MODL": null,
+  "FNAM": "Skaal Tracker",
+  "SCRI": "weretrackerStatScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM nordic_longsword_tracker"
+    },
+    {
+      "count": 1,
+      "name": "BM bear boots"
+    },
+    {
+      "count": 1,
+      "name": "BM bear greaves"
+    },
+    {
+      "count": 1,
+      "name": "BM bear cuirass"
+    },
+    {
+      "count": 1,
+      "name": "BM Bear Helmet"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntLGaunt"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntLPauldron"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntRGaunt"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntRPauldron"
+    },
+    {
+      "count": 1,
+      "name": "BM_skaalhuntshield"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 45,
+    "health": 364,
+    "magicka": 130,
+    "fatigue": 375,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,65,75,100,100,100,56,40],
+    "skills": [100,86,100,100,96,100,96,91,100,9,9,9,9,9,9,9,9,9,9,9,9,100,9,59,9,9,9]
+  },
+  "AI_": [
+    {
+      "distance": 1024,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

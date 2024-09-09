@@ -1,0 +1,125 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "8191302791563031377": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1908821209379030060",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neloth",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, yes, I'm Neloth. What do you want?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1908821209379030060": {
+      "flag": 0,
+      "PNAM": "8191302791563031377",
+      "NNAM": "13766104192368526095",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vares reram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Master Neloth is right here.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "neloth",
+          "__TV": 0
+        }
+      ]
+    },
+    "13766104192368526095": {
+      "flag": 0,
+      "PNAM": "1908821209379030060",
+      "NNAM": "3091723482254523222",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora, Tel Naga Upper Tower",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "To speak to Master Neloth, just head east along the central passage. And mind the central shaft -- it's a long fall.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "neloth",
+          "__TV": 0
+        }
+      ]
+    },
+    "3091723482254523222": {
+      "flag": 0,
+      "PNAM": "13766104192368526095",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you want to speak to Master Neloth, he's in the Upper Tower of Tel Naga. There's a west-facing entrance from the upper terrace. I suppose you could get there from the Great Hall or Upper Hall, but it's confusing, and you still have to fly. From the west-facing upper terrace entrance, just take the passage east to Master Neloth. And you'll have to cross the central shaft -- don't fall down it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "neloth",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

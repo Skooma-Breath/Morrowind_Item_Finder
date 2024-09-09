@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Trader Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_01",
+  "MODL": null,
+  "FNAM": "Naspis Apinia",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_ring_05"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "divine intervention",
+    "soul trap",
+    "telekinesis",
+    "detect_key"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 11,
+    "health": 106,
+    "magicka": 112,
+    "fatigue": 207,
+    "disposition": 50,
+    "reputation": 8,
+    "rank": 3,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [66,56,46,49,54,46,82,40],
+    "skills": [35,16,16,16,40,26,16,16,16,6,6,6,6,6,40,6,6,25,40,40,25,11,6,6,10,50,30]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

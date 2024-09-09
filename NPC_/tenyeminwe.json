@@ -1,0 +1,78 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "High Elf",
+  "CNAM": "Battlemage",
+  "ANAM": "Mages Guild",
+  "BNAM": "b_n_high elf_f_head_03",
+  "KNAM": "b_n_high elf_f_hair_02",
+  "MODL": null,
+  "FNAM": "Tenyeminwe",
+  "SCRI": "tenyeminweFollow",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 100,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_amulet_05"
+    },
+    {
+      "count": 1,
+      "name": "common_ring_05"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_05_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "sc_summonflameatronach"
+    },
+    {
+      "count": 1,
+      "name": "sc_summonfrostatronach"
+    },
+    {
+      "count": 80,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": [
+    "frost shield",
+    "frostfist",
+    "frostbite",
+    "vivec's_wrath"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 87,
+    "magicka": 168,
+    "fatigue": 230,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [63,84,70,52,100,45,47,40],
+    "skills": [6,6,6,41,6,26,41,6,75,46,62,56,22,56,36,17,46,17,6,6,6,6,6,26,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,10,10]
+    }
+  ]
+}

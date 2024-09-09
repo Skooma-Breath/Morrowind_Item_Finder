@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Redguard",
+  "CNAM": "Drillmaster Service",
+  "ANAM": "Fighters Guild",
+  "BNAM": "b_n_redguard_m_head_03",
+  "KNAM": "b_n_redguard_m_hair_01",
+  "MODL": null,
+  "FNAM": "Hasell",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel poisonsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_04"
+    },
+    {
+      "count": 20,
+      "name": "random gold"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 90,
+    "magicka": 90,
+    "fatigue": 216,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [66,45,35,60,61,55,34,40],
+    "skills": [44,14,19,19,34,44,34,29,49,6,6,6,6,6,6,6,6,36,6,6,36,6,26,6,10,6,36]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

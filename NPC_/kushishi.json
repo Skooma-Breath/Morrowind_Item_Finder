@@ -1,0 +1,65 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Herder",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_f_head_01",
+  "KNAM": "b_n_dark elf_f_hair_22",
+  "MODL": null,
+  "FNAM": "Kushishi",
+  "SCRI": "WarLoverKill",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 70,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "chitin spear"
+    },
+    {
+      "count": 1,
+      "name": "common_skirt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01_e"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_e"
+    }
+  ],
+  "NPCS": [
+    "seryn's blessing",
+    "cure common disease other",
+    "cure common disease victim"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 12,
+    "health": 122,
+    "magicka": 98,
+    "fatigue": 248,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [58,49,48,83,68,59,47,40],
+    "skills": [26,6,26,6,6,11,26,41,46,6,16,6,6,6,11,41,6,6,17,36,36,56,27,56,17,17,17]
+  },
+  "AI_": [
+    {
+      "distance": 2000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

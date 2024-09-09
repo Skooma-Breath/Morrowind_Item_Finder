@@ -1,0 +1,18 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 4,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 362,
+    "local_var_size": 37
+  },
+  "SCTX": "Begin WereCheckScript\r\n\r\n;THIS SCRIPT WILL CHECK TO SEE IF THE PLAYER HAS HAD LYCANTHROPY DISEASE FOR 3 DAYS\r\n;AFTER 3 DAYS, PLAYER WILL BE GIVEN HIRCINE BINK DREAM AND WILL BE GIVEN FULL BLOWN WEREWOLF-ISM\r\n;SCRIPT WILL CHECK FOR DISEASE, CHECK TIME HAD, SET SOME VARIABLES, AND DO OTHER FUN THINGS SCRIPTS LIKE THIS SHOULD DO\r\n;THOSE RESPONSIBLE FOR WRITING THIS SCRIPT HAVE BEEN SACKED\r\n\r\nshort currentDay\r\nshort dayCount\r\nshort hasDisease\r\nshort state\r\n\r\n;PCWerewolf, 0 = Normal, 1 = Werewolf, -1 = Cured\r\n\r\nif ( PCVampire == 1 ) ;MAKE SURE PC CAN'T BE VAMP AND WERE\r\n\treturn\r\nendif\r\n\r\nif ( state == -1 )\r\n\treturn\r\nendif\r\n\r\nif ( state == 10 )\r\n\r\n\t;MessageBox \"You've just waited too long to get rid of Lycanthropy!\"\r\n\tset state to -1\r\n\tStartScript WereChangeScript\r\n\tset PCWereWolf to 1\t\t\r\n\r\nendif\r\n\r\nif ( PCWerewolf != 0 )\r\n\tstopscript WereCheckScript \t;stop this script if they become a werewolf\r\n\treturn\r\nendif\r\n\r\nif ( player->GetSpell \"werewolf blood\" == 1 )\r\n\t\t;MessageBox \"HAS WEREWOLF DISEASE!!!\"\r\n\t\tif ( hasDisease == 0 )\r\n\t\t\tset hasDisease to 1\r\n\t\t\t;MessageBox \"HASDISEASE SHOULD BE SET TO 1\"\r\n\t\t\tset currentDay to Day\r\n\t\tendif\r\n\r\nelse\r\n\t\tif ( hasDisease == 1 )\t\t;they had it at one point, but don't anymore\r\n\t\t\tset hasDisease to 0\r\n\t\t\tset currentDay to 0\r\n\t\t\tset dayCount to 0\r\n\t\tendif\r\nendif\r\n\r\n\r\nif ( hasDisease == 1 )\t\t\t;has disease will get set back to 0 before here if they cured it\r\n\r\n\tif ( currentDay != day )\t;the day has changed, so up the count\r\n\r\n\t\tset dayCount to dayCount + 1\r\n\t\tset currentDay to Day\r\n\r\n\tendif\r\n\r\n\tif ( dayCount >= 3 )\t;goes over 3 days\r\n\t\tset state to 10\r\n\tendif\r\n\r\nendif\r\n\r\nEnd WereCheckScript",
+  "SCVR": [
+    "currentDay",
+    "dayCount",
+    "hasDisease",
+    "state"
+  ],
+  "SCDT": [6,1,1,17,32,71,9,80,67,86,97,109,112,105,114,101,32,61,61,32,49,36,1,9,1,6,1,1,10,32,115,4,0,32,61,61,32,45,49,36,1,9,1,6,1,3,10,32,115,4,0,32,61,61,32,49,48,5,1,115,4,0,7,32,45,49,32,49,32,42,27,16,16,87,101,114,101,67,104,97,110,103,101,83,99,114,105,112,116,5,1,71,10,80,67,87,101,114,101,119,111,108,102,2,32,49,9,1,6,1,2,18,32,71,10,80,67,87,101,114,101,119,111,108,102,32,33,61,32,48,28,16,15,87,101,114,101,67,104,101,99,107,83,99,114,105,112,116,36,1,9,1,12,1,6,112,108,97,121,101,114,6,1,4,26,32,88,31,17,32,111,14,119,101,114,101,119,111,108,102,32,98,108,111,111,100,32,61,61,32,49,6,1,2,9,32,115,3,0,32,61,61,32,48,5,1,115,3,0,2,32,49,5,1,115,1,0,8,32,71,4,68,97,121,0,0,9,1,7,1,5,6,1,3,9,32,115,3,0,32,61,61,32,49,5,1,115,3,0,2,32,48,5,1,115,1,0,2,32,48,5,1,115,2,0,2,32,48,9,1,9,1,6,1,7,9,32,115,3,0,32,61,61,32,49,6,1,2,15,32,115,1,0,32,33,61,32,71,4,68,97,121,0,0,5,1,115,2,0,8,32,115,2,0,32,49,32,43,5,1,115,1,0,8,32,71,4,68,97,121,0,0,9,1,6,1,1,9,32,115,2,0,32,62,61,32,51,5,1,115,4,0,3,32,49,48,9,1,9,1,1,1]
+}

@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 262,
+    "local_var_size": 7
+  },
+  "SCTX": "begin BILL_GTs_Cursed_Chest\r\n; Cursed chest behavour in the 'Sandas Ancestral Tomb'\r\n\r\n; script location: should be placed on 'chest_tomb_sandas'\r\n\r\n;Fixed by Doug 03/20. Could still be wierdness. See also the next script on the two skeletal guards...\r\n\r\n; variables\r\nshort doOnce\r\n\r\nif ( OnActivate == 1 )\r\n\tif ( doOnce == 1 )\r\n\t\tActivate\r\n\t\treturn\r\n\telse\r\n\t\tMessageBox \"You suddenly feel quite cold...\"\r\n\r\n\t\t;I think the idea was to remove the corpses and replace them with skeletons...\r\n\t\t;The following should actually do that.\r\n\r\n\t\t\"contain_corpse_Sandas00\"->Disable\r\n\t\t\"skeleton champ_sandas00\"->Enable\r\n\t\tset \"skeleton champ_sandas00\".getimBoy to 1\r\n\r\n\t\t\"contain_corpse_Sandas10\"->Disable\r\n\t\t\"skeleton champ_sandas10\"->Enable\r\n\t\tset \"skeleton champ_sandas10\".getimBoy to 1\r\n\r\n\t\tSet doOnce to 1\r\n\tendif\r\nendif\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,13,9,32,88,24,16,32,61,61,32,49,6,1,2,9,32,115,1,0,32,61,61,32,49,23,16,36,1,7,1,8,0,16,31,0,89,111,117,32,115,117,100,100,101,110,108,121,32,102,101,101,108,32,113,117,105,116,101,32,99,111,108,100,46,46,46,0,0,12,1,23,99,111,110,116,97,105,110,95,99,111,114,112,115,101,95,83,97,110,100,97,115,48,48,219,16,12,1,23,115,107,101,108,101,116,111,110,32,99,104,97,109,112,95,115,97,110,100,97,115,48,48,218,16,5,1,114,23,115,107,101,108,101,116,111,110,32,99,104,97,109,112,95,115,97,110,100,97,115,48,48,115,1,0,2,32,49,12,1,23,99,111,110,116,97,105,110,95,99,111,114,112,115,101,95,83,97,110,100,97,115,49,48,219,16,12,1,23,115,107,101,108,101,116,111,110,32,99,104,97,109,112,95,115,97,110,100,97,115,49,48,218,16,5,1,114,23,115,107,101,108,101,116,111,110,32,99,104,97,109,112,95,115,97,110,100,97,115,49,48,115,1,0,2,32,49,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

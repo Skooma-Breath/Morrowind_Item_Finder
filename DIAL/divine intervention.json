@@ -1,0 +1,506 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "3089529952262693622": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "5080143422909823943",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ama Nin_DisguiseMara",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Woe is me. I prayed for aid, and received a cruel rebuff. It is enough to make one wonder about the gods. Perhaps they are evil and cruel, or careless and indifferent to the fate of poor mortals. Go, then. Leave me to suffer -- no doubt, as the gods intend.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "5080143422909823943": {
+      "flag": 0,
+      "PNAM": "3089529952262693622",
+      "NNAM": "292981449246703859",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ama Nin_DisguiseMara",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bless you, and all your endeavors. Farewell, and good fortune. But before I go, please -- let me at least give you a gift. All I have is this lucky change of clothes I've carried with me on my travels. I never wear them -- I just keep them as a good luck charm. Perhaps you can wear them in remembrance of me, and in token of your generosity to a stranger.",
+      "BNAM": "Journal IC26_AmaNin_free 5\r\nplayer->removeitem sc_divineintervention 1\r\nplayer->additem Maras_Skirt 1\r\nplayer->additem Maras_Blouse 1\r\nplayer->modReputation 1\r\ndisable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "292981449246703859": {
+      "flag": 0,
+      "PNAM": "5080143422909823943",
+      "NNAM": "1128619038211112222",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ama Nin_DisguiseMara",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "At last! You have found a Divine Intervention scroll? Give me that scroll, and I'm free.",
+      "BNAM": "Choice \"Give Divine Intervention scroll.\" 3  \"Keep Divine Intervention scroll.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC26_AmaNin_free",
+          "__TV": 1
+        }
+      ]
+    },
+    "1128619038211112222": {
+      "flag": 0,
+      "PNAM": "292981449246703859",
+      "NNAM": "73903210745468506",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ama Nin_DisguiseMara",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You haven't GOT a Divine Intervention scroll? But... I thought you were a servant of the Imperial cult? Surely the prudent and pious champion of the faith will carry Divine Interventions scrolls, both for personal use and for the aid of the less fortunate. Alas. I think you should go get a Divine Interventions scroll and bring it back to me so I can be rescued.",
+      "BNAM": "Journal IC26_AmaNin_free 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        }
+      ]
+    },
+    "73903210745468506": {
+      "flag": 0,
+      "PNAM": "1128619038211112222",
+      "NNAM": "3162927018253629519",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ama Nin_DisguiseMara",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Woe is me. I prayed for aid, and received a cruel rebuff. It is enough to make one wonder about the gods. Perhaps they are evil and cruel, or careless and indifferent to the fate of poor mortals. Go, then. Leave me to suffer -- no doubt, as the gods intend.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3162927018253629519": {
+      "flag": 0,
+      "PNAM": "73903210745468506",
+      "NNAM": "199701931547912601",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ama Nin_DisguiseMara",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bless you, and all your endeavors. Farewell, and good fortune. But before I go, please -- let me at least give you a gift. All I have is this lucky change of clothes I've carried with me on my travels. I never wear them -- I just keep them as a good luck charm. Perhaps you can wear them in remembrance of me, and in token of your generosity to a stranger.",
+      "BNAM": "Journal IC26_AmaNin_free 5\r\nplayer->removeitem sc_divineintervention 1\r\nplayer->additem Maras_Skirt 1\r\nplayer->additem Maras_Blouse 1\r\nplayer->modReputation 1\r\ndisable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "199701931547912601": {
+      "flag": 0,
+      "PNAM": "3162927018253629519",
+      "NNAM": "19859151573141413527",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ama Nin_DisguiseMara",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Mara be praised! And you, too, for your forethought and compassion. Since you came prepared -- not just for yourself, but for other poor victims -- a scroll of Divine Intervention can carry me from this terrible captivity to the safety of an Imperial cult shrine. Please, give me that scroll. I don't want to be here a moment longer.",
+      "BNAM": "Choice \"Give Divine Intervention scroll.\" 1  \"Keep Divine Intervention scroll.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        }
+      ]
+    },
+    "19859151573141413527": {
+      "flag": 0,
+      "PNAM": "199701931547912601",
+      "NNAM": "493197851392013947",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Jon Hawker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just my luck. In answer to my prayers, the Nine send me a tight-wad hero. The gods have a funny sense of humor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "493197851392013947": {
+      "flag": 0,
+      "PNAM": "19859151573141413527",
+      "NNAM": "105418323257312223",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Jon Hawker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, friend. And goodbye. But before I go, let me give you a gift. They took everything, but I managed to keep these gloves hidden. I've always been fond of them, and their maker. Wear them in good health, and in remembrance of me.",
+      "BNAM": "Journal IC25_JonHawker_free 5\r\nplayer->removeitem sc_divineintervention 1\r\nplayer->additem \"Zenithar's_Warning\" 1\r\nplayer->additem \"Zenithar's_Wiles\" 1\r\nplayer->modReputation 1\r\ndisable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "105418323257312223": {
+      "flag": 0,
+      "PNAM": "493197851392013947",
+      "NNAM": "27024195352719422090",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Jon Hawker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So. You found a Divine Intervention scroll? Give me that scroll, and I'm free.",
+      "BNAM": "Choice \"Give Divine Intervention scroll.\" 3  \"Keep Divine Intervention scroll.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC25_JonHawker_free",
+          "__TV": 1
+        }
+      ]
+    },
+    "27024195352719422090": {
+      "flag": 0,
+      "PNAM": "105418323257312223",
+      "NNAM": "73212269203227534",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Jon Hawker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You haven't GOT a Divine Intervention scroll? My bad luck, to ALMOST be rescued. I had some Divine Interventions scrolls when I was captured, but they took all my possessions. Maybe you can find a Divine Intervention scroll around here somewhere.",
+      "BNAM": "Journal IC25_JonHawker_free 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        }
+      ]
+    },
+    "73212269203227534": {
+      "flag": 0,
+      "PNAM": "27024195352719422090",
+      "NNAM": "29621537671216868",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Jon Hawker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Just my luck. In answer to my prayers, the Nine send me a tight-wad hero. The gods have a funny sense of humor.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "29621537671216868": {
+      "flag": 0,
+      "PNAM": "73212269203227534",
+      "NNAM": "2516522342224081737",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Jon Hawker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thank you, friend. And goodbye. But before I go, let me give you a gift. They took everything, but I managed to keep these gloves hidden. I've always been fond of them, and their maker. Wear them in good health, and in remembrance of me.",
+      "BNAM": "Journal IC25_JonHawker_free 5\r\nplayer->additem \"Zenithar's_Warning\" 1\r\nplayer->additem \"Zenithar's_Wiles\" 1\r\nplayer->removeitem sc_divineintervention 1\r\nplayer->modReputation 1\r\ndisable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2516522342224081737": {
+      "flag": 0,
+      "PNAM": "29621537671216868",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Jon Hawker",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Lucky for me you came prepared -- not just for yourself, but for others. Don't worry about my stuff -- it wasn't worth anything. I just want out of here. Give me that scroll, and I'm free.",
+      "BNAM": "Choice \"Give Divine Intervention scroll.\" 1  \"Keep Divine Intervention scroll.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "sc_divineintervention",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}

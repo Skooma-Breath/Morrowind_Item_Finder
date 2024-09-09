@@ -1,0 +1,88 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Guard",
+  "ANAM": "Royal Guard",
+  "BNAM": "B_N_Imperial_M_Head_06",
+  "KNAM": "b_n_imperial_m_hair_04",
+  "MODL": null,
+  "FNAM": "Drusus Gratus",
+  "SCRI": "karrodfightstopScript",
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "adamantium_claymore"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_boots"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_greaves"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "Helsethguard_Helmet"
+    },
+    {
+      "count": 5,
+      "name": "p_restore_health_e"
+    }
+  ],
+  "NPCS": [
+    "Royal_Blood",
+    "Royal_Resistance"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 40,
+    "health": 295,
+    "magicka": 166,
+    "fatigue": 400,
+    "disposition": 40,
+    "reputation": 2,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,83,100,100,83,100,73,40],
+    "skills": [94,78,78,94,98,100,33,33,33,9,69,9,9,9,9,54,54,9,9,9,9,14,9,9,19,19,59]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

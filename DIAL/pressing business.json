@@ -1,0 +1,186 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "4253175241618111558": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1701148282063111743",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It is good the shirts have been delivered. I thank you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_TraderLate",
+          "__TV": 100
+        }
+      ]
+    },
+    "1701148282063111743": {
+      "flag": 0,
+      "PNAM": "4253175241618111558",
+      "NNAM": "31298159051931415852",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I will find another way to deliver my shirts, you who are not helpful.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_TraderLate",
+          "__TV": 40
+        }
+      ]
+    },
+    "31298159051931415852": {
+      "flag": 0,
+      "PNAM": "1701148282063111743",
+      "NNAM": "5362326491184315061",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, we have made our arrangement. Now go, Oath-Swearer. You must deliver those shirts for me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_TraderLate",
+          "__TV": 30
+        }
+      ]
+    },
+    "5362326491184315061": {
+      "flag": 0,
+      "PNAM": "31298159051931415852",
+      "NNAM": "159489297246356020",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No? Very sad for both of us. We both stood to gain much. Perhaps you are already cursed by Zenithar, yes? Perhaps he will not accept your oath. I must go. I don't want your curse to be rubbing off on me. No, not on me.",
+      "BNAM": "Journal \"MV_TraderLate\" 40\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "159489297246356020": {
+      "flag": 0,
+      "PNAM": "5362326491184315061",
+      "NNAM": "843215059274174023",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Most excellent, yes? We will both gain from this...I shall keep my good name, and you shall benefit from Teneran's generosity. Wonderful. Take care, %PCName, one should not take an oath sworn to Zenithar lightly. No, never lightly.",
+      "BNAM": "AddTopic \"Rasha's Shirts\"\r\nJournal \"MV_TraderLate\" 30\r\nRemoveItem \"Exquisite_Shirt_01_Rasha\" 5\r\nPlayer->AddItem \"Exquisite_Shirt_01_Rasha\" 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "843215059274174023": {
+      "flag": 0,
+      "PNAM": "159489297246356020",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "rasha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes. Most pressing. I have, you see, a shipment of clothing...fine clothing, it is...to get to Ald-ruhn. But, I fear other business draws me away. Perhaps, I think, you and I might come to an arrangement, yes? If you will deliver Rasha's shirts...these fine, fine shirts...to Bivale Teneran the clothier in Ald-ruhn, she will pay you for your services. And a generous woman she is. I would ask that you swear an oath to Zenithar to seal our arrangement, though. Yes. What do you think of my offer, hmmmm?",
+      "BNAM": "Journal \"MV_TraderLate\" 20\r\nChoice \"I swear to Zenithar I will deliver your shipment.\" 1 \"I'm sorry. I cannot do that now.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "MV_TraderLate",
+          "__TV": 20
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 3,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 290,
+    "local_var_size": 29
+  },
+  "SCTX": "Begin staceyScript\r\n\r\n;script on Gentleman Jim Stacey\r\n\r\n;local for dialogue which is set if the player puts Enamor and the note in the right chest.\r\n; appended to by BILL, 20010913\r\n\r\nshort enamorInChest\r\nshort doneKey\r\nshort nolore\r\n\r\n;don't process when disabled\r\nif ( GetDisabled == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetJournalIndex TG_KillHardHeart >= 100 )\r\n\tif ( CellChanged == 1 )\r\n\t\tDisable\r\n\t\tReturn\r\n\t\t; make him disappear when you're the Master Thief\r\n\tendif\r\nelse\r\n\tif ( OnDeath == 1 )\r\n          if ( doneKey == 0 )\r\n\t\t     AddItem Skeleton_key 1\r\n\t\t     ; make him drop the Skeleton key if the player doesn't already have it\r\n\t\t     ; can't be in his inventory, re: pickpocket, lest the player get it twice\r\n               set doneKey to 1\r\n\t\tendif\r\n\tendif\r\nendif\r\n\r\nif ( GetJournalIndex TG_SS_Enamor >= 100 )\r\n\treturn\r\nendif\r\n\r\nif ( \"de_p_chest_02salynsaret\"->GetItemCount \"Glass_Dagger_Enamor\" >= 1 )\r\n\tif ( \"de_p_chest_02salynsaret\"->GetItemCount \"bk_Enamor\" >= 1 )\r\n\t\tSet enamorInChest to 1\r\n\tendif\r\nendif\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "enamorInChest",
+    "doneKey",
+    "nolore"
+  ],
+  "SCDT": [6,1,1,9,32,88,220,16,32,61,61,32,49,36,1,9,1,6,1,4,30,32,88,205,16,32,100,16,84,71,95,75,105,108,108,72,97,114,100,72,101,97,114,116,32,62,61,32,49,48,48,6,1,2,9,32,88,31,16,32,61,61,32,49,219,16,36,1,9,1,7,1,6,6,1,4,9,32,88,240,16,32,61,61,32,49,6,1,2,9,32,115,2,0,32,61,61,32,48,212,16,12,83,107,101,108,101,116,111,110,95,107,101,121,1,0,5,1,115,2,0,2,32,49,9,1,9,1,9,1,6,1,1,26,32,88,205,16,32,100,12,84,71,95,83,83,95,69,110,97,109,111,114,32,62,61,32,49,48,48,36,1,9,1,12,1,23,100,101,95,112,95,99,104,101,115,116,95,48,50,115,97,108,121,110,115,97,114,101,116,6,1,3,31,32,88,253,16,32,111,19,71,108,97,115,115,95,68,97,103,103,101,114,95,69,110,97,109,111,114,32,62,61,32,49,12,1,23,100,101,95,112,95,99,104,101,115,116,95,48,50,115,97,108,121,110,115,97,114,101,116,6,1,1,21,32,88,253,16,32,111,9,98,107,95,69,110,97,109,111,114,32,62,61,32,49,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

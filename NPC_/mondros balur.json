@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Master-at-Arms",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Mondros Balur",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 0,
+    "alarm": 100,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver longsword"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_tshield_redoranguard"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_helm"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 17,
+    "health": 187,
+    "magicka": 106,
+    "fatigue": 287,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [100,53,43,62,80,82,40,40],
+    "skills": [44,20,44,44,59,64,59,59,25,7,17,7,7,7,12,7,7,7,7,7,7,36,56,12,10,7,31]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,60,100,10,0,0,0,10]
+    }
+  ]
+}

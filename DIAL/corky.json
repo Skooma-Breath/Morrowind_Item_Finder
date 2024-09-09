@@ -1,0 +1,202 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2407225043312036645": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "187951460920413072",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llovyn andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I can't forgive someone who can just kill a guar like that.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "2",
+          "identifier": "guar_llovyn_unique",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_RentCollector",
+          "__TV": 10
+        }
+      ]
+    },
+    "187951460920413072": {
+      "flag": 0,
+      "PNAM": "2407225043312036645",
+      "NNAM": "109725487887331732",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "llovyn andus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I call him that 'cause he likes to eat corkbulb.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_RentCollector",
+          "__TV": 10
+        }
+      ]
+    },
+    "109725487887331732": {
+      "flag": 0,
+      "PNAM": "187951460920413072",
+      "NNAM": "24861003013209710",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drulene falen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He's doing fine, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "guar_llovyn_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "24861003013209710": {
+      "flag": 0,
+      "PNAM": "109725487887331732",
+      "NNAM": "24613114336792985",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drulene falen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right. Here's your money. Come here, Corky!",
+      "BNAM": "Player->AddItem Gold_001 200\r\nModDisposition 10\r\n\"guar_llovyn_unique\"->AiWander 1024 0 60 20 10 0 0 0 0 0 0\r\nSet corkyFollow to 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "24613114336792985": {
+      "flag": 0,
+      "PNAM": "24861003013209710",
+      "NNAM": "3128027972622610355",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drulene falen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, if you change your mind, you know where to find me.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3128027972622610355": {
+      "flag": 0,
+      "PNAM": "24613114336792985",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drulene falen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Corky, huh? He's too old to butcher, but he looks like he was a fine guar in his youth. I might could use him as a stud. Would you take 200 drakes for him?",
+      "BNAM": "Choice \"Yes, that's a fair price.\" 1 \"No, nevermind.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "corkyFollow",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "guar_llovyn_unique",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

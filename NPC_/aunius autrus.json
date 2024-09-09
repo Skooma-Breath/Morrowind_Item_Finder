@@ -1,0 +1,102 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Priest Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "B_N_Imperial_M_Head_07",
+  "KNAM": "b_n_imperial_m_hair_04",
+  "MODL": null,
+  "FNAM": "Aunius Autrus",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "wooden staff of chastening"
+    },
+    {
+      "count": 1,
+      "name": "expensive_robe_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": -5,
+      "name": "ingred_guar_hide_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_scamp_skin_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_ash_yam_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_bloat_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_netch_leather_01"
+    },
+    {
+      "count": -10,
+      "name": "ingred_scrib_jerky_01"
+    },
+    {
+      "count": -5,
+      "name": "ingred_gravedust_01"
+    }
+  ],
+  "NPCS": [
+    "absorb health",
+    "absorb fatigue",
+    "absorb willpower",
+    "absorb strength",
+    "absorb speed",
+    "absorb personality",
+    "absorb luck",
+    "absorb intelligence",
+    "absorb endurance",
+    "absorb agility",
+    "mother's kiss",
+    "regenerate",
+    "stamina",
+    "divine intervention",
+    "purge magic",
+    "spell absorption"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 65,
+    "magicka": 96,
+    "fatigue": 193,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [51,48,61,37,50,44,65,40],
+    "skills": [6,6,6,6,41,16,6,6,6,14,29,44,14,29,44,44,29,44,6,6,6,26,6,6,16,31,11]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

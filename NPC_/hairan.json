@@ -1,0 +1,115 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Hunter",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_m_head_04",
+  "KNAM": "b_n_dark elf_m_hair_21",
+  "MODL": null,
+  "FNAM": "Hairan",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 70,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 20,
+      "name": "flame arrow"
+    },
+    {
+      "count": 20,
+      "name": "chitin arrow"
+    },
+    {
+      "count": 1,
+      "name": "chitin short bow"
+    },
+    {
+      "count": 1,
+      "name": "chitin shortsword"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_01_e"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_e"
+    },
+    {
+      "count": 1,
+      "name": "chitin_shield"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - right"
+    },
+    {
+      "count": 1,
+      "name": "chitin guantlet - left"
+    },
+    {
+      "count": 1,
+      "name": "chitin boots"
+    },
+    {
+      "count": 1,
+      "name": "chitin greaves"
+    },
+    {
+      "count": 1,
+      "name": "chitin cuirass"
+    },
+    {
+      "count": 1,
+      "name": "chitin_mask_helm"
+    },
+    {
+      "count": 5,
+      "name": "ingred_guar_hide_marsus"
+    }
+  ],
+  "NPCS": [
+    "free action",
+    "cure poison",
+    "seryn's gift",
+    "troll's blood",
+    "veloth's grace"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 94,
+    "magicka": 94,
+    "fatigue": 224,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [54,47,40,82,82,48,35,40],
+    "skills": [24,6,24,6,6,11,24,6,44,6,16,6,6,6,11,24,6,6,15,48,34,54,58,54,15,15,15]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    },
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "tinti"
+      },
+      "CNDT": null
+    }
+  ]
+}

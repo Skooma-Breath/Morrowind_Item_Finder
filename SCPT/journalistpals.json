@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 135,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin JournalistPals\r\n\r\nshort nolore\r\n\r\nif ( GetAttacked = 1 )\r\n\tStartCombat Player\r\n\tsetdisposition 0\r\n\tSetFight 90\r\n\t\"Veros Nerethi\"->startcombat player\r\n\t\"Feranos Hlando\"->startcombat player\r\n\t\"Sendel Tedas\"->startcombat player\r\n\t\"Trels Varis\"->startcombat player\r\nendif\r\n\r\nend JournalistPals",
+  "SCVR": [
+    "nolore"
+  ],
+  "SCDT": [6,1,7,8,32,88,72,17,32,61,32,49,25,16,6,80,108,97,121,101,114,153,16,0,0,0,0,0,17,0,0,180,66,12,1,13,86,101,114,111,115,32,78,101,114,101,116,104,105,25,16,6,112,108,97,121,101,114,12,1,14,70,101,114,97,110,111,115,32,72,108,97,110,100,111,25,16,6,112,108,97,121,101,114,12,1,12,83,101,110,100,101,108,32,84,101,100,97,115,25,16,6,112,108,97,121,101,114,12,1,11,84,114,101,108,115,32,86,97,114,105,115,25,16,6,112,108,97,121,101,114,9,1,1,1]
+}

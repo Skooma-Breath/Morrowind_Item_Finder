@@ -1,0 +1,93 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Scout",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_08",
+  "KNAM": "b_n_dark elf_m_hair_16",
+  "MODL": null,
+  "FNAM": "Goras Andrelo",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 40,
+      "name": "iron arrow"
+    },
+    {
+      "count": 1,
+      "name": "long bow"
+    },
+    {
+      "count": 1,
+      "name": "steel longsword"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_shield"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_helm"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 90,
+    "magicka": 94,
+    "fatigue": 204,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [51,47,37,58,71,58,34,40],
+    "skills": [44,14,44,14,14,49,14,14,49,6,16,21,6,6,11,6,21,21,6,36,6,26,16,26,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

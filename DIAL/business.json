@@ -1,0 +1,2876 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2530620179628421004": {
+      "flag": 0,
+      "PNAM": "19179164301317622870",
+      "NNAM": "1915929438198417015",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Actually, I believe we've finished our business. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. Now you are my guest, I am your host, and we have time for explanations. Or counsel. Or questions. Or bitter recriminations, if you like. Or you may leave, if you wish. As you wish. But I think before you leave you should hear how to defeat Dagoth Ur, and how you must use the artifact Wraithguard.",
+      "BNAM": ";Vivec; Journal \"B8_MeetVivec\" >= 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B8_MeetVivec",
+          "__TV": 50
+        }
+      ]
+    },
+    "1915929438198417015": {
+      "flag": 0,
+      "PNAM": "2530620179628421004",
+      "NNAM": "20571299903066227513",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "[There is a brief sensation of motion in total darkness, floating, but without a sense of weight or direction.] ...you know it. Now. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. We have time for questions, if you like. Or you may leave, as you wish. But I think there are at least two things you ought to know before you leave: how to use Wraithguard, and how to defeat Dagoth Ur.",
+      "BNAM": ";Vivec; CHOICE 8; ; \r\nJournal \"B8_MeetVivec\" 50\r\nplayer->additem \"Wraithguard\" 1\r\nplayer->removeitem \"misc_Wraithguard_no_equip\" 1\r\nmodFactionReaction Temple Nerevarine 6\r\nmodFactionReaction Redoran Nerevarine 2\r\nmodFactionReaction Hlaalu Nerevarine 2\r\nwulf->enable\r\nplayer->modReputation 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "20571299903066227513": {
+      "flag": 0,
+      "PNAM": "1915929438198417015",
+      "NNAM": "22053304572540420424",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "[There is a brief sensation of motion in total darkness, floating, but without a sense of weight or direction.] ...you know it. Now. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. We have time for questions, if you like. Or you may leave, as you wish. But I think there are at least two things you ought to know before you leave: how to use Wraithguard, and how to defeat Dagoth Ur.",
+      "BNAM": ";Vivec; CHOICE 8; ; \r\nJournal \"B8_MeetVivec\" 50\r\nplayer->additem \"Wraithguard\" 1\r\nplayer->removeitem \"misc_Wraithguard_no_equip\" 1\r\nmodFactionReaction Temple Nerevarine 10\r\nmodFactionReaction Redoran Nerevarine 2\r\nmodFactionReaction Hlaalu Nerevarine 2\r\nwulf->enable\r\nplayer->modReputation 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "22053304572540420424": {
+      "flag": 0,
+      "PNAM": "20571299903066227513",
+      "NNAM": "4715135021278523560",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Temple",
+      "SNAM": null,
+      "NAME": "[There is a brief sensation of motion in total darkness, floating, but without a sense of weight or direction.] ...you know it. Now. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. We have time for questions, if you like. Or you may leave, as you wish.  But I think there are at least two things you ought to know before you leave: how to use Wraithguard, and how to defeat Dagoth Ur.",
+      "BNAM": ";Vivec; CHOICE 8; ; \r\nJournal \"B8_MeetVivec\" 50\r\nplayer->additem \"Wraithguard\" 1\r\nmodFactionReaction Temple Nerevarine 6\r\nmodFactionReaction Redoran Nerevarine 2\r\nmodFactionReaction Hlaalu Nerevarine 2\r\nwulf->enable\r\nplayer->removeitem \"misc_Wraithguard_no_equip\" 1\r\nplayer->modReputation 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        }
+      ]
+    },
+    "4715135021278523560": {
+      "flag": 0,
+      "PNAM": "22053304572540420424",
+      "NNAM": "1389871372227023138",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "[There is a brief sensation of motion in total darkness, floating, but without a sense of weight or direction.] ...you know it. Now. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. We have time for questions, if you like. Or you may leave, as you wish.  But I think there are at least two things you ought to know before you leave: how to use Wraithguard, and how to defeat Dagoth Ur.",
+      "BNAM": ";Vivec; CHOICE 8; ; \r\nJournal \"B8_MeetVivec\" 50\r\nplayer->additem \"Wraithguard\" 1\r\nmodFactionReaction Temple Nerevarine 10\r\nmodFactionReaction Redoran Nerevarine 2\r\nmodFactionReaction Hlaalu Nerevarine 2\r\nwulf->enable\r\nplayer->removeitem \"misc_Wraithguard_no_equip\" 1\r\nplayer->modReputation 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "1389871372227023138": {
+      "flag": 0,
+      "PNAM": "4715135021278523560",
+      "NNAM": "8334214621756822057",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "[There is a brief sensation of motion in total darkness, floating, but without a sense of weight or direction.] ...you know it. Now. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. We have time for questions, if you like. Or you may leave, as you wish.  But I think there are at least two things you ought to know before you leave: how to use Wraithguard, and how to defeat Dagoth Ur.",
+      "BNAM": ";Vivec; CHOICE 8; ; \r\nJournal \"B8_MeetVivec\" 50\r\nplayer->additem \"Wraithguard\" 1\r\nmodFactionReaction Temple Nerevarine 10\r\nmodFactionReaction Redoran Nerevarine 2\r\nmodFactionReaction Hlaalu Nerevarine 2\r\nwulf->enable\r\nplayer->modReputation 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 8
+        }
+      ]
+    },
+    "8334214621756822057": {
+      "flag": 0,
+      "PNAM": "1389871372227023138",
+      "NNAM": "2415110759132931569",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A sensible response. Alas, I am not looking for someone sensible. I'm sorry. I'm afraid that you will not find Wraithguard of much use to you, for without your oath, I shall not teach you how to use it. So that concludes our interview. I hope it has not been an inconvenience. And if you change your mind, come back.",
+      "BNAM": ";Vivec; CHOICE 7; \r\nJournal \"B8_MeetVivec\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "2415110759132931569": {
+      "flag": 0,
+      "PNAM": "8334214621756822057",
+      "NNAM": "2133311851905214528",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A sensible response. Alas, I am not looking for someone sensible. I'm sorry. I'm afraid that you will not find Wraithguard of much use to you, for without your oath, I shall not teach you how to use it. So that concludes our interview. I hope it has not been an inconvenience. And if you change your mind, come back.",
+      "BNAM": ";Vivec; CHOICE 7; \r\nJournal \"B8_MeetVivec\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 7
+        }
+      ]
+    },
+    "2133311851905214528": {
+      "flag": 0,
+      "PNAM": "2415110759132931569",
+      "NNAM": "3106115163765829584",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. I'm afraid, then, that you will not find Wraithguard of much use to you, for without your oath, I shall not teach you how to use it. So that concludes our interview. I hope it has not been an inconvenience. And if you change your mind, come back.",
+      "BNAM": ";Vivec; CHOICE 6; \r\nJournal \"B8_MeetVivec\" 38",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "3106115163765829584": {
+      "flag": 0,
+      "PNAM": "2133311851905214528",
+      "NNAM": "13783146652734014349",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry. I'm afraid, then, that you will not find Wraithguard of much use to you, for without your oath, I shall not teach you how to use it. So that concludes our interview. I hope it has not been an inconvenience. And if you change your mind, come back.",
+      "BNAM": ";Vivec; CHOICE 6; \r\nJournal \"B8_MeetVivec\" 38",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 6
+        }
+      ]
+    },
+    "13783146652734014349": {
+      "flag": 0,
+      "PNAM": "3106115163765829584",
+      "NNAM": "30571826548214184",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Not very sensible. But very good. I was hoping for someone who would have no hesitations about making such an oath. You will now have a brief, momentary sensation of time passing. Don't be alarmed. You are being taken out of time in order to avoid the unpleasant experience of learning how to use Wraithguard. It will be over before...",
+      "BNAM": ";Vivec; CHOICE 5; \r\nChoice \"Continue\" 8",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "30571826548214184": {
+      "flag": 0,
+      "PNAM": "13783146652734014349",
+      "NNAM": "977083230312155",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll take your 'maybe' as a 'no.' Then that concludes our interview. I hope it has not been an inconvenience. And if you change your mind, come back.",
+      "BNAM": ";Vivec; CHOICE 4; \r\nJournal \"B8_MeetVivec\" 36",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "977083230312155": {
+      "flag": 0,
+      "PNAM": "30571826548214184",
+      "NNAM": "323618749958311718",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then that concludes our interview. I hope it has not been an inconvenience. And if you change your mind, come back.",
+      "BNAM": ";Vivec; CHOICE 3; \r\nJournal \"B8_MeetVivec\" 34",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "323618749958311718": {
+      "flag": 0,
+      "PNAM": "977083230312155",
+      "NNAM": "781611952132852829",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good. Sensible of you. And now, will you give your oath, before all gods and men, before all spirits visible and invisible, before my honor and your honor, to dedicate yourself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people?",
+      "BNAM": ";Vivec; CHOICE 2; \r\nChoice \"Yes, I so swear\" 5 \"No, I shall not swear\" 6 \"Maybe... it depends...\" 7",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "781611952132852829": {
+      "flag": 0,
+      "PNAM": "323618749958311718",
+      "NNAM": "26276111512336711749",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Next, I propose to surrender to you the power and responsibility of defeating Dagoth Ur. You may choose to refuse; I will not compel you. You will receive the power as a gift, in the form of an artifact called 'Wraithguard.\" You may accept the gift, then do with it as you will. You will receive the responsibility as an oath. You may give your oath, then keep it or break it as you like. First, will you accept Wraithguard as a gift?",
+      "BNAM": ";Vivec; CHOICE 1; \r\nChoice \"Yes, I accept Wraithguard\" 2 \"No, I refuse Wraithguard\" 3 \"Maybe... it depends...\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "26276111512336711749": {
+      "flag": 0,
+      "PNAM": "781611952132852829",
+      "NNAM": "832512132506726163",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's see. You accepted an artifact called Wraithguard. Then I proposed that you accept the responsibility of defeating Dagoth Ur, and swearing an oath to that effect. You may give your oath, then keep it or break it as you like. So. Will you give your oath, before all gods and men, before all spirits visible and invisible, before my honor and your honor, to dedicate yourself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people?",
+      "BNAM": ";Vivec; Journal \"B8_MeetVivec\" = 40; \r\nChoice \"Yes, I so swear\" 5 \"No, I shall not swear\" 6 \"Maybe... it depends...\" 7",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "B8_MeetVivec",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "832512132506726163": {
+      "flag": 0,
+      "PNAM": "26276111512336711749",
+      "NNAM": "1191819453148052298",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's see. You accepted an artifact called Wraithguard. Then I proposed that you accept the responsibility of defeating Dagoth Ur, and swearing an oath to that effect. You may give your oath, then keep it or break it as you like. So. Will you give your oath, before all gods and men, before all spirits visible and invisible, before my honor and your honor, to dedicate yourself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people?",
+      "BNAM": ";Vivec; Journal \"B8_MeetVivec\" = 38; \r\nChoice \"Yes, I so swear\" 5 \"No, I shall not swear\" 6 \"Maybe... it depends...\" 7",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "B8_MeetVivec",
+          "__TV": 38
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "misc_wraithguard_no_equip",
+          "__TV": 1
+        }
+      ]
+    },
+    "1191819453148052298": {
+      "flag": 0,
+      "PNAM": "832512132506726163",
+      "NNAM": "10614846064858263",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's try again, shall we? I propose to give you an artifact called 'Wraithguard.\" You may accept the gift, then do with it as you will. I propose that you accept the responsibility of defeating Dagoth Ur, and swearing an oath to that effect. You may give your oath, then keep it or break it as you like. First, will you accept Wraithguard as a gift?",
+      "BNAM": ";Vivec; Journal \"B8_MeetVivec\" = 36; \r\nChoice \"Yes, I accept Wraithguard\" 2 \"No, I refuse Wraithguard\" 3 \"Maybe... it depends...\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "B8_MeetVivec",
+          "__TV": 36
+        }
+      ]
+    },
+    "10614846064858263": {
+      "flag": 0,
+      "PNAM": "1191819453148052298",
+      "NNAM": "9654141542779126358",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Let's try again, shall we? I propose to give you an artifact called 'Wraithguard.\" You may accept the gift, then do with it as you will. I propose that you accept the responsibility of defeating Dagoth Ur, and swearing an oath to that effect. You may give your oath, then keep it or break it as you like. First, will you accept Wraithguard as a gift?",
+      "BNAM": ";Vivec; Journal \"B8_MeetVivec\" = 34; \r\nChoice \"Yes, I accept Wraithguard\" 2 \"No, I refuse Wraithguard\" 3 \"Maybe... it depends...\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "B8_MeetVivec",
+          "__TV": 34
+        }
+      ]
+    },
+    "9654141542779126358": {
+      "flag": 0,
+      "PNAM": "10614846064858263",
+      "NNAM": "23639281082304622292",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "vivec_god",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "When I was young like you, I was very impatient. So I will keep our business short. Then, later, there may be time for other things. First, I propose to remove my curse upon the Nerevarine, end the persecution of the Dissident Priests, and proclaim to all Morrowind that %PCName is the Incarnate and Nerevarine, the prophesied savior of Morrowind, and the last hope to withstand the menace of Dagoth Ur and the Sixth House. These things I will do, whether you wish or not.",
+      "BNAM": ";Vivec; \r\nChoice \"Continue\" 1",
+      "SCVR": null
+    },
+    "23639281082304622292": {
+      "flag": 0,
+      "PNAM": "9654141542779126358",
+      "NNAM": "27763163211212118790",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, my friend %PCName. You say you want to ask me some questions. What would you wish to know about the Ashlanders and the Nerevarine cult? Or perhaps you wish to know more about my life as a trader?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 31
+        }
+      ]
+    },
+    "27763163211212118790": {
+      "flag": 0,
+      "PNAM": "23639281082304622292",
+      "NNAM": "8973149151212329660",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I believe I have answered your questions about choosing a thoughtful gift. That was your business with me, was it not?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 20
+        }
+      ]
+    },
+    "8973149151212329660": {
+      "flag": 0,
+      "PNAM": "27763163211212118790",
+      "NNAM": "2557799611354620779",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Everything? I am not so wise as to know everything about the Ashlanders, and I have no wish to spend long hours with a stranger attempting such a task. If you will excuse me....",
+      "BNAM": "ModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "2557799611354620779": {
+      "flag": 0,
+      "PNAM": "8973149151212329660",
+      "NNAM": "18391127743166232332",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry, but your request is not a proper one, and I will not discuss this with strangers. If you will excuse me....",
+      "BNAM": "ModDisposition -10\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "18391127743166232332": {
+      "flag": 0,
+      "PNAM": "2557799611354620779",
+      "NNAM": "3224919880373231894",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A curious question. A gift is a sign of courtesy among strangers, and affection among friends. Among strangers, a thoughtful gift is a sign that you are cautious, and considerate, and aware of the other's wants and needs. Such is particularly useful for traders and travelers. Among friends, it is a private thing, and subtle, with great risks, for the test of the gift is how well it is tailored to the receiver.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "3224919880373231894": {
+      "flag": 0,
+      "PNAM": "18391127743166232332",
+      "NNAM": "284891313219116585",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "hassour zainsubani",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I see. You wish to learn of Ashlanders from me. And what is it that you wish to learn?",
+      "BNAM": "Choice \"What are their gift-giving customs?\" 1 \"What do you know about the Nerevarine cult\" 2 \"Tell me everything.\" 3",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A1_11_ZainsubaniInformant",
+          "__TV": 1
+        }
+      ]
+    },
+    "284891313219116585": {
+      "flag": 0,
+      "PNAM": "3224919880373231894",
+      "NNAM": "315331857463478502",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Surely you do not expect me to discuss business with you when you have broken the rules. You must make amends, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "315331857463478502": {
+      "flag": 0,
+      "PNAM": "284891313219116585",
+      "NNAM": "2850088431265210407",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 9
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "House Hlaalu's business is in your hands now, %PCName.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "2850088431265210407": {
+      "flag": 0,
+      "PNAM": "315331857463478502",
+      "NNAM": "18786176901061512283",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "To be %NextPCRank in anything other than name, you must win control of the Camonna Tong from my brother, Orvas Dren.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 100
+        }
+      ]
+    },
+    "18786176901061512283": {
+      "flag": 0,
+      "PNAM": "2850088431265210407",
+      "NNAM": "24810172091641526445",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "In order for House Hlaalu and the most virtuous aspects of the Empire to survive, we must find a way to control the Ordinators.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_WinSaryoni",
+          "__TV": 100
+        }
+      ]
+    },
+    "24810172091641526445": {
+      "flag": 0,
+      "PNAM": "18786176901061512283",
+      "NNAM": "168693420113732656",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Vedam Dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Perhaps I will discuss business with you when you have earned a higher rank in House Hlaalu.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "168693420113732656": {
+      "flag": 0,
+      "PNAM": "24810172091641526445",
+      "NNAM": "5125210912504723923",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "How can I trust you if you cannot stick to the simple rules of House Hlaalu?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "5125210912504723923": {
+      "flag": 0,
+      "PNAM": "168693420113732656",
+      "NNAM": "1646225972260727326",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You have done all that I would ask. Speak with Crassius Curio or my father, Duke Dren.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TwinLamps3",
+          "__TV": 100
+        }
+      ]
+    },
+    "1646225972260727326": {
+      "flag": 0,
+      "PNAM": "5125210912504723923",
+      "NNAM": "33681084949773781",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "The real business of Vvardenfell is slavery.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_LiteracyCampaign",
+          "__TV": 100
+        }
+      ]
+    },
+    "33681084949773781": {
+      "flag": 0,
+      "PNAM": "1646225972260727326",
+      "NNAM": "453711957525225546",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Business? How can you talk about business when people cannot read?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HH_LiteracyCampaign",
+          "__TV": 100
+        }
+      ]
+    },
+    "453711957525225546": {
+      "flag": 0,
+      "PNAM": "33681084949773781",
+      "NNAM": "20598282182891213468",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ilmeni dren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "What business? Prove yourself in House Hlaalu and then perhaps we can discuss business.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "20598282182891213468": {
+      "flag": 0,
+      "PNAM": "453711957525225546",
+      "NNAM": "2312725998153272213",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You've broken the rules of House Hlaalu, sweetie. It brings tears to my eyes when I think about your disloyalty. Maybe you can make amends and make everything better.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2312725998153272213": {
+      "flag": 0,
+      "PNAM": "20598282182891213468",
+      "NNAM": "1333213500351817338",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I can't talk about business to anyone who doesn't belong to House Hlaalu, sweetie.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "46",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        }
+      ]
+    },
+    "1333213500351817338": {
+      "flag": 0,
+      "PNAM": "2312725998153272213",
+      "NNAM": "27722183252963525488",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "I have no more business for you, pudding. Maybe it's time you were introduced to Duke Vedam Dren in Ebonheart.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DestroyTelUvirith",
+          "__TV": 100
+        }
+      ]
+    },
+    "27722183252963525488": {
+      "flag": 0,
+      "PNAM": "1333213500351817338",
+      "NNAM": "22289122691671718174",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "The naughty Telvanni also built a stronghold without a charter. Before the Duke grants this stronghold legitimacy, I want you to deal with the Telvanni sorcerer Reynel Uvirith.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 200
+        }
+      ]
+    },
+    "22289122691671718174": {
+      "flag": 0,
+      "PNAM": "27722183252963525488",
+      "NNAM": "861676401378717692",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You know how I feel about you, but I just can't discuss business with anyone under the rank of %NextPCRank. You'll also need to build a big stronghold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BeroSupport",
+          "__TV": 100
+        }
+      ]
+    },
+    "861676401378717692": {
+      "flag": 0,
+      "PNAM": "22289122691671718174",
+      "NNAM": "201288990252962879",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "It would be a good idea to win the support of another Councilman, my sweet. Of all the Councilmen, I believe only Dram Bero has the courage to support an outlander.",
+      "BNAM": "Journal HH_BeroSupport 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DestroyIndarysManor",
+          "__TV": 100
+        }
+      ]
+    },
+    "201288990252962879": {
+      "flag": 0,
+      "PNAM": "861676401378717692",
+      "NNAM": "28029291762234614585",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "House Redoran built a stronghold without a charter from the Duke. You're the perfect %PCRace to teach Redoran Lord Banden Indarys a lesson.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 100
+        }
+      ]
+    },
+    "28029291762234614585": {
+      "flag": 0,
+      "PNAM": "201288990252962879",
+      "NNAM": "3650187842756516767",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You know how I feel about you, but I just can't discuss business with you right now. Have you checked your advancement in House Hlaalu, dumpling?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Stronghold",
+          "__TV": 100
+        }
+      ]
+    },
+    "3650187842756516767": {
+      "flag": 0,
+      "PNAM": "28029291762234614585",
+      "NNAM": "12572144892470120733",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You know how I feel about you, but I just can't discuss business with you right now. Have you checked your advancement in House Hlaalu, dumpling? You also need to build yourself a stronghold.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "02",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 100
+        }
+      ]
+    },
+    "12572144892470120733": {
+      "flag": 0,
+      "PNAM": "3650187842756516767",
+      "NNAM": "17258200042046829022",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You know how I feel about you, but I just don't have any business to discuss with any %PCRank. Maybe Edryno Arethi here in Vivec or Nileno Dorvayn in Balmora can help you out.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_NordSmugglers",
+          "__TV": 100
+        }
+      ]
+    },
+    "17258200042046829022": {
+      "flag": 0,
+      "PNAM": "12572144892470120733",
+      "NNAM": "1860766962834532205",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Now that you've had some experience in ebony smuggling, pudding pie, I want you to look for Velfred the Outlaw.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 100
+        }
+      ]
+    },
+    "1860766962834532205": {
+      "flag": 0,
+      "PNAM": "17258200042046829022",
+      "NNAM": "1117113995377626704",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Make sure Odral Helvi gets arrested for the shipment of ebony he wants my little sweetheart to deliver.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 10
+        }
+      ]
+    },
+    "1117113995377626704": {
+      "flag": 0,
+      "PNAM": "1860766962834532205",
+      "NNAM": "20963185872032015548",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "You're doing well, dumpling. Just speak with Odral Helvi again and keep me informed.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankFraud",
+          "__TV": 100
+        }
+      ]
+    },
+    "20963185872032015548": {
+      "flag": 0,
+      "PNAM": "1117113995377626704",
+      "NNAM": "3628283521129728633",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 4
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Speak with Odral Helvi in Caldera. Turn your charms on him, sweetie, and talk about business. If you feel his request is questionable, speak with me for further directions. Keep Uncle Crassius well informed, and I'll reward you.",
+      "BNAM": "Journal HH_BankFraud 5",
+      "SCVR": null
+    },
+    "3628283521129728633": {
+      "flag": 0,
+      "PNAM": "20963185872032015548",
+      "NNAM": "13817163092139214286",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "crassius curio",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "I do not have any business for you right now, %PCName.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "13817163092139214286": {
+      "flag": 0,
+      "PNAM": "3628283521129728633",
+      "NNAM": "2407829818866830623",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't think so. You've been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2407829818866830623": {
+      "flag": 0,
+      "PNAM": "13817163092139214286",
+      "NNAM": "1975389172802530530",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is no business that must be done here in Caldera.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EbonyDelivery",
+          "__TV": 100
+        }
+      ]
+    },
+    "1975389172802530530": {
+      "flag": 0,
+      "PNAM": "2407829818866830623",
+      "NNAM": "1538253213186831688",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need you deliver a shipment of ebony to a friend of mine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_RentCollector",
+          "__TV": 100
+        }
+      ]
+    },
+    "1538253213186831688": {
+      "flag": 0,
+      "PNAM": "1975389172802530530",
+      "NNAM": "1064819235715623",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am responsible for land in the Ascadian Isles and at this time of year, I need to collect the rent and taxes from the farmers.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_ReplaceDocs",
+          "__TV": 100
+        }
+      ]
+    },
+    "1064819235715623": {
+      "flag": 0,
+      "PNAM": "1538253213186831688",
+      "NNAM": "1038812370104151217",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "There is an error in some of the documents in the Hall of Records. I need someone to replace these erroneous documents.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_CaptureSpy",
+          "__TV": 100
+        }
+      ]
+    },
+    "1038812370104151217": {
+      "flag": 0,
+      "PNAM": "1064819235715623",
+      "NNAM": "152411345827291790",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Important documents are missing from the offices here in Caldera. I need someone to catch whoever stole the Caldera mining contracts.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankFraud",
+          "__TV": 100
+        }
+      ]
+    },
+    "152411345827291790": {
+      "flag": 0,
+      "PNAM": "1038812370104151217",
+      "NNAM": "196872834366430786",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "odral helvi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need a courier to deliver a package of sealed orders.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankFraud",
+          "__TV": 5
+        }
+      ]
+    },
+    "196872834366430786": {
+      "flag": 0,
+      "PNAM": "152411345827291790",
+      "NNAM": "13644267092915212775",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled. Go up to the Plaza and talk with Crassius Curio to make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "13644267092915212775": {
+      "flag": 0,
+      "PNAM": "196872834366430786",
+      "NNAM": "1511124819313232685",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's business as usual in Vivec. Speak with Crassius Curio at his manor here in the Hlaalu Compound or speak with Nileno Dorvayn in Balmora.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_GuardMerchant",
+          "__TV": 100
+        }
+      ]
+    },
+    "1511124819313232685": {
+      "flag": 0,
+      "PNAM": "13644267092915212775",
+      "NNAM": "172662958831501274",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thieves have broken into a shop here in Vivec three nights in a row. I need someone to defend Ralen Tilvur's shop.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_SunkenTreasure",
+          "__TV": 100
+        }
+      ]
+    },
+    "172662958831501274": {
+      "flag": 0,
+      "PNAM": "1511124819313232685",
+      "NNAM": "1211346992252624367",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A ship wrecked off Azura's coast over a year ago. I need someone to find the wreckage of the Prelude.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_AshlanderEbony",
+          "__TV": 100
+        }
+      ]
+    },
+    "1211346992252624367": {
+      "flag": 0,
+      "PNAM": "172662958831501274",
+      "NNAM": "22320224861140512191",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The business of Vvardenfell is the ebony trade.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_TheExterminator",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Odirniran",
+          "__TV": 100
+        }
+      ]
+    },
+    "22320224861140512191": {
+      "flag": 0,
+      "PNAM": "1211346992252624367",
+      "NNAM": "1084532371793912498",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Today's business involves Yngling Half-Troll's prized game rats.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Odirniran",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EscortMerchant",
+          "__TV": 100
+        }
+      ]
+    },
+    "1084532371793912498": {
+      "flag": 0,
+      "PNAM": "22320224861140512191",
+      "NNAM": "1882511482964028504",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Not business today, but duty. House Hlaalu sent a team to an illegal Telvanni base, but they have not returned from Odirniran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EscortMerchant",
+          "__TV": 100
+        }
+      ]
+    },
+    "1882511482964028504": {
+      "flag": 0,
+      "PNAM": "1084532371793912498",
+      "NNAM": "304514284982221469",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Bandits are always bad for business. Because of bandits on the road to Pelagiad, the Hlaalu trader Tarvyn Faren needs an escort.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BuriedTreasure",
+          "__TV": 100
+        }
+      ]
+    },
+    "304514284982221469": {
+      "flag": 0,
+      "PNAM": "1882511482964028504",
+      "NNAM": "2140417512378819679",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need someone to collect a debt from Murudius Flaeus.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_BankCourier",
+          "__TV": 100
+        }
+      ]
+    },
+    "2140417512378819679": {
+      "flag": 0,
+      "PNAM": "304514284982221469",
+      "NNAM": "1906819117996216090",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "edryno arethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, of course, I need a courier to deliver this sealed report.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1906819117996216090": {
+      "flag": 0,
+      "PNAM": "2140417512378819679",
+      "NNAM": "17785267832841114552",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've been expelled. I can't give you duties, but perhaps I can help you make amends.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "17785267832841114552": {
+      "flag": 0,
+      "PNAM": "1906819117996216090",
+      "NNAM": "281421122316734830",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "What can I do for you, %PCRank?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp4",
+          "__TV": 100
+        }
+      ]
+    },
+    "281421122316734830": {
+      "flag": 0,
+      "PNAM": "17785267832841114552",
+      "NNAM": "2188414712131681506",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have no more business for you. Why not speak with Crassius Curio or Edryno Arethi? They both live in the Hlaalu Canton in Vivec. Curio Manor is in the Plaza, and Edryno lives in the Waistworks.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Retaliation",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 100
+        },
+        {
+          "index": "5",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp4",
+          "__TV": 100
+        }
+      ]
+    },
+    "2188414712131681506": {
+      "flag": 0,
+      "PNAM": "281421122316734830",
+      "NNAM": "18302821131843301",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Business as usual, except for the ebony trade.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_Retaliation",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 100
+        }
+      ]
+    },
+    "18302821131843301": {
+      "flag": 0,
+      "PNAM": "2188414712131681506",
+      "NNAM": "30332181942176210856",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ralen Hlaalu was murdered recently. I would ask for you to retaliate against this crime, but perhaps you've found Ralen Hlaalo's murderer already...",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 100
+        },
+        {
+          "index": "4",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "town_balmora",
+          "__TV": 30
+        }
+      ]
+    },
+    "30332181942176210856": {
+      "flag": 0,
+      "PNAM": "18302821131843301",
+      "NNAM": "23520118791343631855",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A Hlaalu noble was recently murdered. I need someone to find out who killed Ralen Hlaalo.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp3",
+          "__TV": 100
+        }
+      ]
+    },
+    "23520118791343631855": {
+      "flag": 0,
+      "PNAM": "30332181942176210856",
+      "NNAM": "252702831620587956",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No. I heard you killed Bivale Teneran. I will not discuss business with you any more.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "bivale teneran",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp2",
+          "__TV": 100
+        }
+      ]
+    },
+    "252702831620587956": {
+      "flag": 0,
+      "PNAM": "23520118791343631855",
+      "NNAM": "1596209191259920175",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need someone to deliver new orders to Bivale Teneran.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp2",
+          "__TV": 100
+        }
+      ]
+    },
+    "1596209191259920175": {
+      "flag": 0,
+      "PNAM": "252702831620587956",
+      "NNAM": "23759173511560924816",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "House Redoran sells more guar hides than House Hlaalu. Someone needs to convince the alchemists in Vivec to buy only imported House Hlaalu guar hides.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_EggMine",
+          "__TV": 100
+        }
+      ]
+    },
+    "23759173511560924816": {
+      "flag": 0,
+      "PNAM": "1596209191259920175",
+      "NNAM": "1626626658685928313",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A rival of House Hlaalu gets his wealth from an egg mine. I need someone to destroy this rival's wealth by killing the queen in the Inanius egg mine.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_IndEsp1",
+          "__TV": 100
+        }
+      ]
+    },
+    "1626626658685928313": {
+      "flag": 0,
+      "PNAM": "23759173511560924816",
+      "NNAM": "161119938163597032",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I need someone to visit an apothecary in Vivec and... acquire certain alchemical formulas.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DisguisedArmor",
+          "__TV": 100
+        }
+      ]
+    },
+    "161119938163597032": {
+      "flag": 0,
+      "PNAM": "1626626658685928313",
+      "NNAM": "14606224187126867",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "I need someone to visit an apothecary in Vivec and... acquire certain alchemical formulas.",
+      "BNAM": ";khajiit and argonians should NOT get the previous quest",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "PCRace",
+          "__TV": 1
+        }
+      ]
+    },
+    "14606224187126867": {
+      "flag": 0,
+      "PNAM": "161119938163597032",
+      "NNAM": "23070227192935122659",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "I need someone to visit an apothecary in Vivec and... acquire certain alchemical formulas.",
+      "BNAM": ";khajiit and argonians should NOT get the previous quest",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "PCRace",
+          "__TV": 6
+        }
+      ]
+    },
+    "23070227192935122659": {
+      "flag": 0,
+      "PNAM": "14606224187126867",
+      "NNAM": "662426651178401914",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Like I said, wear Felsen Sethandus' helm and use the phrase \"orphan of Arnesia\" with Neminda in Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "44",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DisguisedArmor",
+          "__TV": 10
+        }
+      ]
+    },
+    "662426651178401914": {
+      "flag": 0,
+      "PNAM": "23070227192935122659",
+      "NNAM": "16866243742322118151",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Like I said, wear Relmerea Saram's helm and use the phrase \"orphan of Arnesia\" with Neminda in Ald'ruhn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "44",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HH_DisguisedArmor",
+          "__TV": 10
+        }
+      ]
+    },
+    "16866243742322118151": {
+      "flag": 0,
+      "PNAM": "662426651178401914",
+      "NNAM": "1805121922893719179",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Hlaalu",
+      "SNAM": null,
+      "NAME": "Just a minute, %PCName. Say that again.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1805121922893719179": {
+      "flag": 0,
+      "PNAM": "16866243742322118151",
+      "NNAM": "11115191771879031203",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nileno dorvayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you want to talk business, you've come to the right place. Do you want to join House Hlaalu?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "11115191771879031203": {
+      "flag": 0,
+      "PNAM": "1805121922893719179",
+      "NNAM": "313639872174827490",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Hlaalu",
+      "ANAM": "Balmora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you want to talk business, speak with Nileno Dorvayn.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "313639872174827490": {
+      "flag": 0,
+      "PNAM": "11115191771879031203",
+      "NNAM": "22838144922953728258",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Hlaalu",
+      "ANAM": "Vivec",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you want to talk business, speak with Crassius Curio or Edryno Arethi.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "3748250542379720869": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "19179164301317622870",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dovor Oren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's no concern of yours, %PCRace.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Warlords",
+          "__TV": 200
+        }
+      ]
+    },
+    "19179164301317622870": {
+      "flag": 0,
+      "PNAM": "3748250542379720869",
+      "NNAM": "2530620179628421004",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dovor Oren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've done more than enough for us, %PCName. Thank you for your help.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_Warlords",
+          "__TV": 120
+        }
+      ]
+    },
+    "22838144922953728258": {
+      "flag": 0,
+      "PNAM": "313639872174827490",
+      "NNAM": "1572968893026920615",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dovor Oren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, let's discuss what you can do to assist my, err, our cause.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_Warlords",
+          "__TV": 10
+        }
+      ]
+    },
+    "1572968893026920615": {
+      "flag": 0,
+      "PNAM": "22838144922953728258",
+      "NNAM": "1976941562344311212",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dovor Oren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm.  At a second glance, perhaps I shouldn't be so dismissive.  You seem a rather resourceful sort.  We're, ah, investing in the future, you see.  The city right now exists under a blanket of fear; a blind guar can see that the tension between the Imperials and the Temple will soon be boiling over into the streets.  When that happens, it's going to be every %PCRace for himself, yes?  Well, we're stockpiling for just that occasion, which is certainly inevitable at this point.  And maybe you can assist us.",
+      "BNAM": "Journal MS_Warlords 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Felvan Ienith",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Olvyne Dobar",
+          "__TV": 0
+        }
+      ]
+    },
+    "1976941562344311212": {
+      "flag": 0,
+      "PNAM": "1572968893026920615",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Dovor Oren",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't recall inviting you to discuss the issue; you can't be trusted.  Keep walking, %PCRace.",
+      "BNAM": "Goodbye",
+      "SCVR": null
+    }
+  }
+}

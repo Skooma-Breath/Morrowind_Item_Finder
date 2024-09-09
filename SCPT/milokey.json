@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 77,
+    "local_var_size": 0
+  },
+  "SCTX": "begin MiloKey\r\n\r\nif ( GetDisabled == 1 )\r\n\tif ( GetJournalIndex \"A2_4_MiloGone\" > 0 )\r\n\t\tEnable\r\n\t\tMessageBox \"I have just enabled!!!\"\r\n\tendif\r\nendif\r\n\r\nend",
+  "SCVR": null,
+  "SCDT": [6,1,4,9,32,88,220,16,32,61,61,32,49,6,1,2,24,32,88,205,16,32,100,13,65,50,95,52,95,77,105,108,111,71,111,110,101,32,62,32,48,218,16,0,16,22,0,73,32,104,97,118,101,32,106,117,115,116,32,101,110,97,98,108,101,100,33,33,33,0,0,9,1,9,1,1,1]
+}

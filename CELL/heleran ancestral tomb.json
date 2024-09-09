@@ -1,0 +1,653 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 1,
+    "grid": [663080,1065353216]
+  },
+  "NAME": "Heleran Ancestral Tomb",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [15,15,15,0],
+    "sunlight": [15,15,15,0],
+    "fog_color": [40,30,10,0],
+    "fog_density": 1
+  },
+  "FRMR": {
+    "0-333306": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ancestor_guardian_heler",
+      "DATA": [5504,3904,14496,0,0,4.71238899230957]
+    },
+    "0-351151": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_com_trapbottom_01",
+      "DATA": [1846.3609619140625,3648,15369.443359375,0,0,0]
+    },
+    "0-333307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_random_pos",
+      "XSCL": 1.4300000667572021,
+      "DATA": [4387.7177734375,3340.544921875,14511.7626953125,0,0,0]
+    },
+    "0-333308": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_random_pos",
+      "DATA": [4680.134765625,3391.572998046875,14496,0,0,0]
+    },
+    "0-333309": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_random_pos",
+      "DATA": [4631.24658203125,3386.218994140625,14560,0,0,0.1853981614112854]
+    },
+    "0-333310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_01_food",
+      "DATA": [4689.85595703125,4069.288330078125,14513.2099609375,0,0,0]
+    },
+    "0-333311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_02_food",
+      "DATA": [4668.82421875,4128.29052734375,14522.296875,0,0,0]
+    },
+    "0-333312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_03_ingred",
+      "XSCL": 0.6600000262260437,
+      "DATA": [4631.265625,4090.639892578125,14491.4794921875,0,0,0]
+    },
+    "0-333313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_ingred",
+      "DATA": [4610.6240234375,4156.18896484375,14508.1513671875,0,0,0]
+    },
+    "0-333314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_05_ingred",
+      "DATA": [4699.40576171875,4199.37451171875,14520.6513671875,0,0,0]
+    },
+    "0-333315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_random_pos",
+      "DATA": [4586.9921875,3378.540771484375,14496,0,0,0.48539814352989197]
+    },
+    "0-333316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_random_pos",
+      "DATA": [3921.4169921875,3342.211669921875,14497.37109375,0,0,0]
+    },
+    "0-333317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "barrel_01_random_pos",
+      "DATA": [4476.35302734375,3390.408447265625,14497.37109375,0,0,0]
+    },
+    "0-333318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "XSCL": 1.0099999904632568,
+      "DATA": [3781.448974609375,3583.716796875,14460.7529296875,0,0,3.141592025756836]
+    },
+    "0-333319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_ndoor_01",
+      "XSCL": 1.0099999904632568,
+      "DATA": [4814.49169921875,3846.753173828125,14457.943359375,0,0,3.1415915489196777]
+    },
+    "0-333320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_stairslong_01",
+      "DATA": [2752,3648,15104,0,0,0.0000015497207641601562]
+    },
+    "0-333321": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [3903.998046875,3904,14592,0,0,6.283185005187988]
+    },
+    "0-333322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_entrance_01",
+      "DATA": [3904,3648,14592,0,0,6.283185005187988]
+    },
+    "0-333323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_hall_04",
+      "DATA": [3647.99951171875,3648.000244140625,14592,0,0,6.283185005187988]
+    },
+    "0-333324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_center_01",
+      "DATA": [4416,3904.000244140625,14592,0,0,1.5707955360412598]
+    },
+    "0-333325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [4671.99951171875,3648.000244140625,14592,0,0,3.141592502593994]
+    },
+    "0-333326": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [3904,3392,14592,0,0,3.141592502593994]
+    },
+    "0-333327": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [4416,3392.000244140625,14592,0,0,4.712388515472412]
+    },
+    "0-333328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [4160,3392,14592,0,0,4.712388515472412]
+    },
+    "0-333329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [4672,3392.000244140625,14592,0,0,1.570796012878418]
+    },
+    "0-333330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [4160,4160,14592,0,0,1.570796012878418]
+    },
+    "0-333331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [4672,4160,14592,0,0,6.283185005187988]
+    },
+    "0-333332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_wall_01",
+      "DATA": [4415.99951171875,4160,14592,0,0,1.570796012878418]
+    },
+    "0-333333": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_center_01",
+      "DATA": [4160,3648,14592,0,0,4.71238899230957]
+    },
+    "0-333334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_center_01",
+      "DATA": [4416,3648.000244140625,14592,0,0,1.5707955360412598]
+    },
+    "0-333335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_banner_temple_01_indoors",
+      "XSCL": 1.25,
+      "DATA": [4269.39208984375,4238.03857421875,14582.333984375,0,0,0.00000011920928955078125]
+    },
+    "0-333336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bannerpost_02",
+      "DATA": [4272.6923828125,4240.7333984375,14678.908203125,0,0,1.570796012878418]
+    },
+    "0-333337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_center_01",
+      "DATA": [4160,3904,14592,0,0,1.5707955360412598]
+    },
+    "0-333338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_entrance_01",
+      "DATA": [4672,3904,14592,0,0,3.141592502593994]
+    },
+    "0-333339": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_hall_04",
+      "DATA": [4927.205078125,3903.78955078125,14591.4970703125,0,0,3.141592502593994]
+    },
+    "0-333340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_v_s_int_corner_01",
+      "DATA": [3904,4160,14592,0,0,4.71238899230957]
+    },
+    "0-333342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothilarge_connector_01",
+      "DATA": [5311.205078125,3903.7900390625,14719.4970703125,0,0,1.5707955360412598]
+    },
+    "0-333343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothilarge_cap_01",
+      "DATA": [5823.205078125,3903.7900390625,14719.4970703125,0,0,4.7123894691467285]
+    },
+    "0-333345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_common_trellis",
+      "XSCL": 2,
+      "DATA": [5823.27197265625,3907.266357421875,14399.4970703125,0,0,3.141592502593994]
+    },
+    "0-333347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_skull_01",
+      "XSCL": 1.790000081062317,
+      "DATA": [5246.35791015625,4036.555908203125,14468.9638671875,0.10000038146972656,5.603982925415039,1.549999713897705]
+    },
+    "0-333348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.790000081062317,
+      "DATA": [5248.5498046875,3998.4736328125,14472.3505859375,6.133184909820557,0.0000003725290298461914,3.5876107215881348]
+    },
+    "0-333349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5388.7509765625,3730.16845703125,14467.2841796875,1.649999737739563,0.6999979019165039,2.8376126289367676]
+    },
+    "0-333350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5375.20458984375,3839.78955078125,14471.4091796875,0,6.233185291290283,3.6376118659973145]
+    },
+    "0-333351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5338.95947265625,3781.66357421875,14468.7314453125,0,4.483184337615967,0.18761253356933594]
+    },
+    "0-333352": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.790000081062317,
+      "DATA": [5233.37353515625,4007.13916015625,14466.541015625,1.5,2.6331839561462402,2.7376112937927246]
+    },
+    "0-333353": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5351.2861328125,3773.55908203125,14471.9736328125,0,1.0499999523162842,1.0876116752624512]
+    },
+    "0-333354": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.2700001001358032,
+      "DATA": [5391.71484375,3794.7919921875,14466.32421875,1.649999737739563,5.38318395614624,2.8376126289367676]
+    },
+    "0-333355": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_skull_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5350.5673828125,3754.2158203125,14473.3056640625,0,1.270796537399292,2.6000008583068848]
+    },
+    "0-333356": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.790000081062317,
+      "DATA": [5267.326171875,4051.37255859375,14467.0341796875,1.4499996900558472,3.2831835746765137,2.4376111030578613]
+    },
+    "0-333357": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_skull_01",
+      "XSCL": 1.2700001001358032,
+      "DATA": [5888.826171875,4050.16162109375,14467.8603515625,4.997787952423096,0,1.5707955360412598]
+    },
+    "0-333358": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.2700001001358032,
+      "DATA": [5919.26171875,4036.8623046875,14469.427734375,6.133184909820557,1.6000005006790161,2.8022141456604004]
+    },
+    "0-333359": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.2700001001358032,
+      "DATA": [5905.7724609375,4040.19775390625,14465.6572265625,1.5707963705062866,2.356194496154785,5.4977874755859375]
+    },
+    "0-333360": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.2700001001358032,
+      "DATA": [5902.787109375,4046.001953125,14464.4609375,1.5707963705062866,3.1415927410125732,3.141592502593994]
+    },
+    "0-333366": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5863.6650390625,3764.543701171875,14465.021484375,1.649999737739563,0.6999979019165039,2.8376126289367676]
+    },
+    "0-333367": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5849.45751953125,3877.317138671875,14470.955078125,0,6.233185291290283,3.4376115798950195]
+    },
+    "0-333368": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5810.6240234375,3819.96484375,14465.517578125,4.783185958862305,4.483184337615967,0.18761253356933594]
+    },
+    "0-333369": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5823.537109375,3810.0673828125,14470.8115234375,0.10000000894069672,6.133185386657715,1.0876116752624512]
+    },
+    "0-333370": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.2700001001358032,
+      "DATA": [5863.96484375,3831.30029296875,14464.3564453125,1.649999737739563,5.38318395614624,2.8376126289367676]
+    },
+    "0-333371": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_skull_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5824.13623046875,3776.84619140625,14469.29296875,5.683186054229736,1.270796537399292,2.6000008583068848]
+    },
+    "0-333372": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [6009.4736328125,3853.89013671875,14464.0859375,1.749999761581421,0.6999979019165039,2.0522141456604004]
+    },
+    "0-333373": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5922.3818359375,3921.82666015625,14471.51171875,0,1.0499999523162842,2.85221529006958]
+    },
+    "0-333374": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5937.85302734375,3855.09619140625,14463.630859375,1.7000001668930054,4.483184337615967,5.685400009155273]
+    },
+    "0-333375": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_rib_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5947.92236328125,3871.195068359375,14470.5322265625,5.683184623718262,4.733185768127441,0.3022141456604004]
+    },
+    "0-333376": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_01",
+      "XSCL": 1.2700001001358032,
+      "DATA": [5965.873046875,3901.681640625,14463.2919921875,1.749999761581421,5.38318395614624,2.0522141456604004]
+    },
+    "0-333377": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_bone_skull_01",
+      "XSCL": 1.630000114440918,
+      "DATA": [5965.4697265625,3843.89501953125,14467.9375,4.983186721801758,1.270796537399292,1.814603328704834]
+    },
+    "0-333378": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [3775.044921875,3648.1142578125,14460.232421875,0,0,6.283185005187988]
+    },
+    "0-333379": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_dj_01",
+      "DATA": [4809.62451171875,3910.7646484375,14457.5380859375,0,0,6.283185005187988]
+    },
+    "0-333380": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_stairslong_01",
+      "DATA": [2240,3648,15360,0,0,0.0000015497207641601562]
+    },
+    "0-333381": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_stairslong_01",
+      "DATA": [3264,3648,14848,0,0,0.0000015497207641601562]
+    },
+    "0-351150": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_velothismall_cap_01",
+      "DATA": [1856,3648,15360,0,0,4.71238899230957]
+    },
+    "0-362417": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [1752.1611328125,3804.04541015625,15281.1044921875,0,0,3.983187675476074]
+    },
+    "0-464034": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_tomb_skele_lev-2",
+      "DATA": [3894.3291015625,4116.50244140625,14464.955078125,0,0,5.883186340332031]
+    },
+    "0-484188": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Sound_Spirit_Whisper00",
+      "DATA": [6036.8544921875,3892.1171875,14610.6435546875,0,0,0]
+    },
+    "0-484189": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_torch",
+      "DATA": [4699.21826171875,3477.265625,14496,0,0,5.883185863494873]
+    },
+    "0-484303": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_tomb_large00",
+      "FLTV": 10,
+      "TNAM": "trap_frost00",
+      "DATA": [5983.1533203125,3969.75244140625,14480.984375,0,0,1.0000005960464478]
+    }
+  }
+}

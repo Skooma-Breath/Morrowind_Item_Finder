@@ -1,0 +1,55 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Khajiit",
+  "CNAM": "Slave",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_f_head_02",
+  "KNAM": "b_n_khajiit_f_hair05",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ahdahni",
+  "SCRI": "slaveScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 70,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_04"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_c"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_right"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 2,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

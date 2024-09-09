@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 115,
+    "local_var_size": 15
+  },
+  "SCTX": "begin OrdinatorUniform\r\n\r\n;script for ordinator armor so people can react to you wearing it\r\n\r\nshort OnPCEquip\r\nshort OnPC\t\t\t\t;this is needed since this script also runs on the armor pieces the NPC wears\r\n\r\nif ( OnPCEquip == 1 )\r\n\tset WearingOrdinatorUni to 1\r\n\tset OnPC to 1\r\nendif\r\n\r\n;this one has been equipped by PC ast some point, so check for it being unequipped\r\n\r\nif ( OnPC == 1 )\r\n\r\n\t;oops, now he took it off\r\n\tif ( OnPCEquip == 0 )\r\n\t\tset WearingOrdinatorUni  to 0\r\n\t\tset OnPC to 0\t\t\t\t\t\t;start looking again if he has it on\r\n\tendif\r\n\r\nendif\r\n\r\nend OrdinatorUniform\r\n",
+  "SCVR": [
+    "OnPCEquip",
+    "OnPC"
+  ],
+  "SCDT": [6,1,2,9,32,115,1,0,32,61,61,32,49,5,1,71,19,87,101,97,114,105,110,103,79,114,100,105,110,97,116,111,114,85,110,105,2,32,49,5,1,115,2,0,2,32,49,9,1,6,1,4,9,32,115,2,0,32,61,61,32,49,6,1,2,9,32,115,1,0,32,61,61,32,48,5,1,71,19,87,101,97,114,105,110,103,79,114,100,105,110,97,116,111,114,85,110,105,2,32,48,5,1,115,2,0,2,32,48,9,1,9,1,1,1]
+}

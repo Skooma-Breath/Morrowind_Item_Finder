@@ -1,0 +1,48 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Spriggan.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 20,
+    "attributes": [100,50,50,75,23,50,50,75],
+    "health": 200,
+    "magicka": 500,
+    "fatigue": 800,
+    "soul_strength": 350,
+    "combat_skill": 90,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [12,44],
+      [12,44],
+      [12,44]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "BM_spriggan",
+  "FNAM": "Spriggan",
+  "SCRI": "treesprigScript",
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "core": {
+        "position": [3.40282346e+38,3.40282346e+38,3.40282346e+38],
+        "duration": 0,
+        "name": "BM_spriggan_st_UNIQUE"
+      },
+      "CNDT": null
+    }
+  ]
+}

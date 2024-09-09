@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "17498218802788614295": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "326995002383219361",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already completed the initiation rite.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 45
+        }
+      ]
+    },
+    "326995002383219361": {
+      "flag": 0,
+      "PNAM": "17498218802788614295",
+      "NNAM": "9722245681613512088",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "This is my father's Bonebiter Bow. You have completed the initiation rite. I name you %PCName, Clanfriend of the Ashlanders. Keep my father's bow, and bear it with honor. You are a friend of our tribe, and may rest in any Urshilaku bed, but do not harm other tribe members, or take their things. And now I will fulfill my other promise. Go to the wise woman's yurt, and Nibani Maesa shall examine you, and test you against the Nerevarine prophecies.",
+      "BNAM": "Journal \"A2_1_MeetSulMatuul\" 45\r\nPCJoinFaction Ashlanders\r\nmoddisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "bonebiter_bow_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "9722245681613512088": {
+      "flag": 0,
+      "PNAM": "326995002383219361",
+      "NNAM": "798277064645198",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Until you bring me the Bonebiter Bow, you may not go before Nibani Maesa to be tested for the Nerevarine prophecies.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "bonebiter_bow_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "798277064645198": {
+      "flag": 0,
+      "PNAM": "9722245681613512088",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "sul-matuul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "To be adopted into the tribe, you must undergo a harrowing. In a harrowing, you will be judged by the spirits and ancestors to see if you are worthy. Go to the Urshilaku Burial Caverns and fetch me Sul-Senipul's Bonebiter Bow. Sul-Senipul was my father, and his spirit guards his bonemold long bow deep in the burial caverns. Return to me with this bow, and I will adopt you into the Ashlander tribes as a Clanfriend.",
+      "BNAM": "Journal \"A2_1_MeetSulMatuul\" 40",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_1_MeetSulMatuul",
+          "__TV": 30
+        }
+      ]
+    }
+  }
+}

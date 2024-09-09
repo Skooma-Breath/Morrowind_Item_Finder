@@ -1,0 +1,142 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "9798319332731915436": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "25870232672445614525",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falx carius2",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I believe we can find our way out of this demon realm.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_WildHunt",
+          "__TV": 42
+        }
+      ]
+    },
+    "25870232672445614525": {
+      "flag": 0,
+      "PNAM": "9798319332731915436",
+      "NNAM": "2476326893296078206",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falx carius2",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I cannot believe this! Your mind has been clouded by these demons! I am sorry to have to fight you, %PCName, for I thought you a friend. If this is how it must be, I wish you an honorable death.",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nJournal BM_WildHunt 44",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_WildHunt",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2476326893296078206": {
+      "flag": 0,
+      "PNAM": "25870232672445614525",
+      "NNAM": "1223925555317134583",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falx carius2",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I am glad for your companionship. Together we will fight our way through these demon hordes and escape this evil prison. There is a door in the center of this maze, but we will need a key to enter. Let us go find this key and leave this place.",
+      "BNAM": "AiFollow Player 0 0 0 0 0 0\r\nJournal BM_WildHunt 42",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_WildHunt",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "1223925555317134583": {
+      "flag": 0,
+      "PNAM": "2476326893296078206",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "falx carius2",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is what the demon told me. We are to fight our way through this maze, which is hunted by the werewolves the demon calls his Hounds. I am weak, my friend, and have been here for too long. Perhaps together, we can find our way to safety. We must find the key to allow us through the gate in the center of this maze.",
+      "BNAM": "Choice \"Let us go together.\" 1 \"Only one of us can survive. It will be me.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_WildHunt",
+          "__TV": 30
+        }
+      ]
+    }
+  }
+}

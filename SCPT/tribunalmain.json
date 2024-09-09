@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 170,
+    "local_var_size": 22
+  },
+  "SCTX": "Begin TribunalMain\r\n\r\nshort disablestate\r\nshort newstate\r\n\r\n;by default, enable teleport and levitate\r\nset newstate to 0\r\n\r\n;only need to check cells in interiors\r\nif ( GetInterior )\r\n\tif ( GetPCCell \"Sotha Sil,\" == 1 )\r\n\t\t;disable teleport and levitate here\r\n\t\tset newstate to 1\r\n\telseif ( GetPCCell \"Mournhold\" == 1 )\r\n\t\t;disable levitate only here\r\n\t\tset newstate to 2\r\n\tendif\r\nendif\r\n\r\n;if state should change\r\nif ( disablestate != newstate )\r\n\tif ( newstate == 1 )\r\n\t\tDisableTeleporting\r\n\t\tDisableLevitation\r\n\telseif ( newstate == 2 )\r\n\t\tDisableLevitation\r\n\telseif ( newstate == 0 )\r\n\t\tEnableTeleporting\r\n\t\tEnableLevitation\r\n\tendif\r\n\tset disablestate to newstate\r\nendif\r\n\r\nend",
+  "SCVR": [
+    "disablestate",
+    "newstate"
+  ],
+  "SCDT": [5,1,115,2,0,2,32,48,6,1,5,5,32,88,11,17,0,6,1,1,22,32,88,18,17,32,99,10,83,111,116,104,97,32,83,105,108,44,32,61,61,32,49,5,1,115,2,0,2,32,49,8,1,1,21,32,88,18,17,32,99,9,77,111,117,114,110,104,111,108,100,32,61,61,32,49,5,1,115,2,0,2,32,50,9,1,9,1,6,1,10,12,32,115,1,0,32,33,61,32,115,2,0,0,6,1,2,9,32,115,2,0,32,61,61,32,49,239,16,148,17,8,1,1,9,32,115,2,0,32,61,61,32,50,148,17,8,1,2,9,32,115,2,0,32,61,61,32,48,238,16,147,17,9,1,5,1,115,1,0,5,32,115,2,0,0,9,1,1,1]
+}

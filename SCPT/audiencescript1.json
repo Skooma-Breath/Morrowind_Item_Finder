@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 58,
+    "local_var_size": 10
+  },
+  "SCTX": "begin audienceScript1\r\n\r\nshort walkstate\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\nif ( walkstate == 1 )\r\n\tjodhur->AiTravel -783, -1426, -91, 180\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "walkstate"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,115,1,0,32,61,61,32,49,12,1,6,106,111,100,104,117,114,248,16,0,192,67,196,0,64,178,196,0,0,182,194,3,9,1,1,1]
+}

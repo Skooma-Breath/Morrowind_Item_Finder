@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 63,
+    "local_var_size": 14
+  },
+  "SCTX": "Begin Huleeya_disposition_check\r\n\r\n;Huleeya Disposition >= 50; good report to Morag Tong\r\n\r\nshort HuleeyaFriend\r\n\r\nif ( MenuMode == 1 )\r\n\tReturn\r\nendif\r\n\r\nif ( Huleeya->GetDisposition > 50 )\r\n\tset HuleeyaFriend to 1\r\nelse\r\n\tset HuleeyaFriend to 0\r\nendif\r\n\r\nEnd\r\n",
+  "SCVR": [
+    "HuleeyaFriend"
+  ],
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,12,1,7,104,117,108,101,101,121,97,6,1,1,9,32,88,152,16,32,62,32,53,48,5,1,115,1,0,2,32,49,7,1,1,5,1,115,1,0,2,32,48,9,1,1,1]
+}

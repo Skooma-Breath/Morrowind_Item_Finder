@@ -1,0 +1,61 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Dark Elf",
+  "CNAM": "Scout",
+  "ANAM": "Ashlanders",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_15",
+  "MODL": null,
+  "FNAM": "Yenammu",
+  "SCRI": "AhemmusaKill",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel katana"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02_r"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01_a"
+    },
+    {
+      "count": 1,
+      "name": "chitin_towershield"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 11,
+    "health": 121,
+    "magicka": 102,
+    "fatigue": 233,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [58,51,41,70,79,64,36,40],
+    "skills": [50,16,50,16,16,55,16,16,55,6,16,25,6,6,11,6,25,25,6,40,6,30,16,30,10,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

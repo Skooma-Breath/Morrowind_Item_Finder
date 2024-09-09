@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 181,
+    "local_var_size": 0
+  },
+  "SCTX": "begin All_Nerevarine\r\n\r\nif ( GetJournalIndex B1_UnifyUrshilaku >= 50 )\r\n\r\n    if ( GetJournalIndex B2_AhemmusaSafe >= 50 )\r\n\r\n        if ( GetJournalIndex B3_ZainabBride >= 50 )\r\n\r\n            if ( GetJournalIndex B4_KillWarLovers >= 50 )\r\n\r\n                Journal B8_All_Nerevarine 50\r\n                StopScript All_Nerevarine\r\n\r\n            endif\r\n\r\n        endif\r\n\r\n    endif\r\n\r\nendif\r\n\r\nend All_Nerevarine",
+  "SCVR": null,
+  "SCDT": [6,1,8,30,32,88,205,16,32,100,17,66,49,95,85,110,105,102,121,85,114,115,104,105,108,97,107,117,32,62,61,32,53,48,6,1,6,28,32,88,205,16,32,100,15,66,50,95,65,104,101,109,109,117,115,97,83,97,102,101,32,62,61,32,53,48,6,1,4,27,32,88,205,16,32,100,14,66,51,95,90,97,105,110,97,98,66,114,105,100,101,32,62,61,32,53,48,6,1,2,29,32,88,205,16,32,100,16,66,52,95,75,105,108,108,87,97,114,76,111,118,101,114,115,32,62,61,32,53,48,204,16,17,66,56,95,65,108,108,95,78,101,114,101,118,97,114,105,110,101,50,0,255,255,28,16,14,65,108,108,95,78,101,114,101,118,97,114,105,110,101,9,1,9,1,9,1,9,1,1,1]
+}

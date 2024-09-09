@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Imperial",
+  "CNAM": "Healer Service",
+  "ANAM": "Imperial Cult",
+  "BNAM": "b_n_imperial_m_head_04",
+  "KNAM": "b_n_imperial_m_hair_05",
+  "MODL": null,
+  "FNAM": "Synnolian Tunifus",
+  "SCRI": "WaitOneDay",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_05_b"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 15,
+      "name": "random gold"
+    },
+    {
+      "count": 1,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "cure common disease",
+    "balyna's efficacious balm",
+    "balyna's antidote",
+    "stamina",
+    "restore endurance",
+    "restore intelligence",
+    "restore agility",
+    "detect enchantment",
+    "purge magic",
+    "rally creature",
+    "divine intervention",
+    "Cure Blight_Self"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 71,
+    "magicka": 98,
+    "fatigue": 200,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 500,
+    "attributes": [50,49,66,39,55,45,74,40],
+    "skills": [6,6,6,6,28,16,6,6,6,15,15,47,32,15,47,47,32,32,6,6,6,28,6,6,10,48,43]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

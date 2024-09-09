@@ -1,0 +1,214 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2485732163286322874": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1539433321411228868",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dinok",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I gave you all I have.",
+      "BNAM": "player->additem ingred_scrib_jelly_01 1\r\njournal IC4_scrib_A 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC4_scrib_A",
+          "__TV": 1
+        }
+      ]
+    },
+    "1539433321411228868": {
+      "flag": 0,
+      "PNAM": "2485732163286322874",
+      "NNAM": "2190216439103128843",
+      "DATA": {
+        "value": 50,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dinok",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want scrib jelly for the Imperial cult? For cure poison potions, I suppose. Here. I have a little bit left from my shift.",
+      "BNAM": "player->additem ingred_scrib_jelly_01 1\r\njournal IC4_scrib_A 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC4_scrib",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC4_scrib",
+          "__TV": 50
+        }
+      ]
+    },
+    "2190216439103128843": {
+      "flag": 0,
+      "PNAM": "1539433321411228868",
+      "NNAM": "2006718089303436331",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "findulain",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're looking for scrib jelly? Plenty of scribs in Shulk Eggmine. Help yourself. The hive replaces them in no time. And look around outside. Scribs wander around outside the mines. I'm sure I saw one out here just a while ago.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC4_scrib",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC4_scrib",
+          "__TV": 50
+        }
+      ]
+    },
+    "2006718089303436331": {
+      "flag": 0,
+      "PNAM": "2190216439103128843",
+      "NNAM": "103208332180972772",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "findulain",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Scribs are little baby kwama. We shuck the shells, crush the flesh into a jelly. Doesn't taste bad. And filling. Takes a while getting used to the texture, though.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "103208332180972772": {
+      "flag": 0,
+      "PNAM": "2006718089303436331",
+      "NNAM": "3135289841504518178",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Synnolian Tunifus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Scribs are a larval form of the kwama. Crushed scribs produce a nutritious but sour-tasting gelatin with modest magical properties that the natives eat with gusto.",
+      "BNAM": ";alchemist",
+      "SCVR": null
+    },
+    "3135289841504518178": {
+      "flag": 0,
+      "PNAM": "103208332180972772",
+      "NNAM": "31294228192733412809",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tendris vedran",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Scribs are a larval form of the kwama. Crushed scribs produce a nutritious but sour-tasting gelatin with modest magical properties that the natives eat with gusto.",
+      "BNAM": ";alchemist",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "31294228192733412809": {
+      "flag": 0,
+      "PNAM": "3135289841504518178",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "anarenen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Scribs are a larval form of the kwama. Crushed scribs produce a nutritious but sour-tasting gelatin with modest magical properties that the natives eat with gusto.",
+      "BNAM": ";alchemist",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

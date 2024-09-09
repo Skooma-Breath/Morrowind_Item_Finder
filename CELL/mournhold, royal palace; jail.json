@@ -1,0 +1,877 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3223332,1056964608]
+  },
+  "NAME": "Mournhold, Royal Palace: Jail",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [86,66,58,0],
+    "sunlight": [26,23,21,0],
+    "fog_color": [36,47,49,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "1-25588": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Guard_Helseth",
+      "DATA": [-258.32415771484375,279.22509765625,-114.30744171142578,0,0,1.7000001668930054]
+    },
+    "1-25589": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Guard_Helseth",
+      "DATA": [12.061344146728516,1025.2784423828125,-114.30744171142578,0,0,0]
+    },
+    "1-17589": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_02",
+      "DATA": [-64,-128,0,0,0,0]
+    },
+    "1-22863": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "stolen_goods",
+      "ANAM": "Guard_Helseth",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [-262.3916015625,1230.5419921875,-37.992515563964844,0,0,5.7831854820251465]
+    },
+    "1-17590": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [0,0,0,0,0,1.5707963705062866]
+    },
+    "1-17591": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,0,0,0,0,0]
+    },
+    "1-17592": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,0,0,0,0,4.71238899230957]
+    },
+    "1-17593": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [0,-128,0,0,0,0]
+    },
+    "1-17594": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [-256,256,0,0,0,4.71238899230957]
+    },
+    "1-17595": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_hall_01",
+      "DATA": [-512,512,0,0,0,4.71238899230957]
+    },
+    "1-17596": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [-256,512,0,0,0,3.1415927410125732]
+    },
+    "1-17597": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_hall_01",
+      "DATA": [256,512,0,0,0,1.5707963705062866]
+    },
+    "1-17598": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [0,512,0,0,0,0]
+    },
+    "1-17599": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_hall_01",
+      "DATA": [256,768,0,0,0,1.5707963705062866]
+    },
+    "1-17600": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [0,768,0,0,0,0]
+    },
+    "1-17601": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [-256,768,0,0,0,3.1415927410125732]
+    },
+    "1-17602": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_hall_01",
+      "DATA": [-512,768,0,0,0,4.71238899230957]
+    },
+    "1-17603": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_hall_01",
+      "DATA": [256,1024,0,0,0,1.5707963705062866]
+    },
+    "1-17604": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [0,1024,0,0,0,0]
+    },
+    "1-17605": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [-256,1024,0,0,0,3.1415927410125732]
+    },
+    "1-17606": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_hall_01",
+      "DATA": [-512,1024,0,0,0,4.71238899230957]
+    },
+    "1-17607": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [0,1280,0,0,0,3.1415927410125732]
+    },
+    "1-17608": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-256,1280,0,0,0,1.5707963705062866]
+    },
+    "1-17609": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_wall_01",
+      "DATA": [-640,1024,0,0,0,0]
+    },
+    "1-17610": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_wall_01",
+      "DATA": [-640,768,0,0,0,0]
+    },
+    "1-17611": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_wall_01",
+      "DATA": [-640,512,0,0,0,0]
+    },
+    "1-17612": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_wall_01",
+      "DATA": [384,512,0,0,0,0]
+    },
+    "1-17613": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_wall_01",
+      "DATA": [384,768,0,0,0,0]
+    },
+    "1-17614": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_wall_01",
+      "DATA": [384,1024,0,0,0,0]
+    },
+    "1-17615": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [256,256,0,0,0,3.1415927410125732]
+    },
+    "1-17616": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_02",
+      "DATA": [0,256,0,0,0,4.71238899230957]
+    },
+    "1-17617": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [-384,512,0,0,0,4.71238899230957]
+    },
+    "1-17618": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [-384,768,0,0,0,4.71238899230957]
+    },
+    "1-17619": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [-384,1024,0,0,0,4.71238899230957]
+    },
+    "1-17620": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [128,1024,0,0,0,4.71238899230957]
+    },
+    "1-17621": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [128,768.0000610351562,0,0,0,4.71238899230957]
+    },
+    "1-17622": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_02",
+      "DATA": [128,512.0000610351562,0,0,0,4.71238899230957]
+    },
+    "1-17623": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_jaildoor_01",
+      "XSCL": 1.0700000524520874,
+      "FLTV": 75,
+      "DATA": [-384.073974609375,442.3927917480469,0,0,0,1.5707963705062866]
+    },
+    "1-17624": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_jaildoor_01",
+      "XSCL": 1.0600000619888306,
+      "FLTV": 75,
+      "DATA": [-384.1125183105469,698.9619140625,0,0,0,1.5707963705062866]
+    },
+    "1-17625": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_jaildoor_01",
+      "XSCL": 1.0600000619888306,
+      "FLTV": 75,
+      "DATA": [-385.3623046875,954.8309326171875,-0.023464679718017578,0,0,1.5707963705062866]
+    },
+    "1-17626": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_jaildoor_01",
+      "XSCL": 1.0600000619888306,
+      "FLTV": 75,
+      "DATA": [128.69912719726562,580.9786987304688,0,0,0,4.71238899230957]
+    },
+    "1-17627": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_jaildoor_01",
+      "XSCL": 1.0700000524520874,
+      "FLTV": 75,
+      "DATA": [129.0286865234375,837.6182861328125,0,0,0,4.71238899230957]
+    },
+    "1-17628": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_jaildoor_01",
+      "XSCL": 1.0800000429153442,
+      "FLTV": 75,
+      "DATA": [129.36485290527344,1093.7781982421875,0,0,0,4.71238899230957]
+    },
+    "1-17629": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-38.09138870239258,1270.2381591796875,-52.73395538330078,0,0,1.0707964897155762]
+    },
+    "1-17630": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_02",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-31.54349136352539,1250.651123046875,-63.148582458496094,0,0,5.8539838790893555]
+    },
+    "1-17631": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_goblet_02",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-42.55169677734375,1284.2965087890625,-63.148582458496094,0,0,5.8539838790893555]
+    },
+    "1-17632": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_02",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-63.53935241699219,1276.1600341796875,-66.7142562866211,0,0,5.8539838790893555]
+    },
+    "1-17633": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_05",
+      "DATA": [-50.35854721069336,1264.1185302734375,-97.10240936279297,0,0,5.8539838790893555]
+    },
+    "1-17634": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [15.4773530960083,1279.679931640625,-88.28447723388672,0,0,0.6707960367202759]
+    },
+    "1-17635": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-120.41584014892578,1304.122802734375,-88.28447723388672,0,0,5.953981876373291]
+    },
+    "1-17637": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_06_64",
+      "ANAM": "ordinator stationary",
+      "INTV": 1125515264,
+      "NAM9": 1,
+      "DATA": [-51.62344741821289,1248.566162109375,-41.07221221923828,0,0,6.004081726074219]
+    },
+    "1-17638": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_foodMult",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-285.9514465332031,1322.0556640625,-93.33475494384766,0,0,4.683187007904053]
+    },
+    "1-17639": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_bottle05_5",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-277.6545104980469,1245.124755859375,-92.70866394042969,0,0,4.983186721801758]
+    },
+    "1-17640": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_empty",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-209.3489532470703,1322.300537109375,-92.70866394042969,0,0,2.8831865787506104]
+    },
+    "1-17641": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_de_weapons",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-257.65289306640625,1307.0308837890625,-29.33474349975586,0,0,4.282990455627441]
+    },
+    "1-17642": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.040000081062317,
+      "DATA": [-133.9834442138672,1221.0888671875,-127.91268157958984,0,0,6.258185386657715]
+    },
+    "1-17643": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-560.5052490234375,1022.6185302734375,-115.36731719970703,0,0,1.674999713897705]
+    },
+    "1-17644": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [-572.6846923828125,809.773193359375,-108.27616882324219,0,0,3.183187961578369]
+    },
+    "1-17645": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-521.9563598632812,723.4315795898438,-115.36732482910156,0,0,3.1750030517578125]
+    },
+    "1-17646": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_table_04",
+      "DATA": [-169.346923828125,110.19168853759766,-98.17626953125,0,0,4.683187007904053]
+    },
+    "1-17647": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-255.9083709716797,153.84286499023438,-91.5757827758789,0,0,4.683187007904053]
+    },
+    "1-17648": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-239.52293395996094,57.563720703125,-91.5757827758789,0,0,4.383187294006348]
+    },
+    "1-17649": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8300000429153442,
+      "DATA": [-228.93679809570312,-104.7046890258789,84.77877044677734,0,0,0.07079600542783737]
+    },
+    "1-17650": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8300000429153442,
+      "DATA": [-363.4568176269531,15.39611530303955,76.3906478881836,0,0,1.5415931940078735]
+    },
+    "1-17651": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_04",
+      "XSCL": 1.3200000524520874,
+      "DATA": [-5.30875301361084,108.80536651611328,-127.8891830444336,0,0,6.253981590270996]
+    },
+    "1-17652": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_77",
+      "DATA": [-152.7519073486328,65.5671157836914,-48.627010345458984,0,0,0.4269891083240509]
+    },
+    "1-17653": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Quill",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-173.91246032714844,111.4191665649414,-68.96105194091797,0,0,1.3000004291534424]
+    },
+    "1-17654": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "sc_paper plain",
+      "XSCL": 1.4700000286102295,
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-180.47171020507812,132.99298095703125,-68.86534881591797,0,0,5.083186626434326]
+    },
+    "1-17655": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Inkwell",
+      "XSCL": 0.8600000143051147,
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-185.0264434814453,135.02264404296875,-63.664127349853516,0,0,4.483187198638916]
+    },
+    "1-17656": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-561.2406005859375,512.2682495117188,-115.36732482910156,0,0,1.574999213218689]
+    },
+    "1-17657": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [-481.20037841796875,495.48504638671875,-108.27616882324219,0,0,3.183187961578369]
+    },
+    "1-17658": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [274.8141174316406,552.6454467773438,-115.36732482910156,0,0,6.1750030517578125]
+    },
+    "1-17659": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [287.55560302734375,457.29803466796875,-108.27616119384766,0,0,0.2000022828578949]
+    },
+    "1-17660": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_stool_02",
+      "DATA": [323.92047119140625,826.3401489257812,-108.27616119384766,0,0,0.3000022768974304]
+    },
+    "1-17661": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [278.4755859375,725.6328735351562,-115.36732482910156,0,0,6.275002956390381]
+    },
+    "1-17662": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [317.2571716308594,1024.9888916015625,-115.36732482910156,0,0,1.5918174982070923]
+    },
+    "1-17663": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_column_01",
+      "DATA": [-128,896,0,0,0,0]
+    },
+    "1-17664": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_column_01",
+      "DATA": [-128,384,0,0,0,0]
+    },
+    "1-17665": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-181.98805236816406,819.7247314453125,-91.5758056640625,0,0,0.47079598903656006]
+    },
+    "1-17666": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [-76.6015396118164,442.038330078125,-91.5758056640625,0,0,4.053982734680176]
+    },
+    "1-17667": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8300000429153442,
+      "DATA": [366.4364013671875,30.280250549316406,78.08919525146484,0,0,4.753983020782471]
+    },
+    "1-17668": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8300000429153442,
+      "DATA": [238.01007080078125,-107.22126007080078,78.32365417480469,0,0,6.224778652191162]
+    },
+    "1-17669": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_foodMult",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [275.2304992675781,293.62322998046875,-95.99996185302734,0,0,6.1831865310668945]
+    },
+    "1-17670": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_bottle05_5",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [199.0792236328125,279.90521240234375,-95.99996185302734,0,0,0.20000095665454865]
+    },
+    "1-17671": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_empty",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [280.89337158203125,217.22988891601562,-95.99996185302734,0,0,4.383185863494873]
+    },
+    "1-17672": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_de_weapons",
+      "ANAM": "ordinator stationary",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [262.2451171875,264.332763671875,-31.999950408935547,0,0,5.782989978790283]
+    },
+    "1-17673": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [312.76373291015625,24.33943748474121,-91.57575988769531,0,0,1.5831873416900635]
+    },
+    "1-17674": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_com_rm_chair_03",
+      "DATA": [234.98190307617188,-63.65641784667969,-91.57575988769531,0,0,2.7831873893737793]
+    },
+    "1-17675": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_De_Lamp_07_Blue",
+      "DATA": [-305.0733337402344,-57.2816162109375,3.6733245849609375,0,0,4.71238899230957]
+    },
+    "1-25173": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [-624.157958984375,1330.9378662109375,-48,0,0,4.71238899230957]
+    },
+    "1-25174": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "orange light",
+      "DATA": [-138.66595458984375,655.5335693359375,243.8944091796875,0,0,0]
+    },
+    "1-25175": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "orange light",
+      "DATA": [-12.016029357910156,47.58206558227539,248.43313598632812,0,0,0]
+    },
+    "1-25176": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-131.40231323242188,1350.2548828125,61.84477996826172,0,0,0.10000000149011612]
+    },
+    "1-25177": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-132.5160369873047,840.7765502929688,60.46612548828125,0,0,0.10000000149011612]
+    },
+    "1-25178": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-130.75518798828125,445.7091369628906,65.70381927490234,0,0,0.10000000149011612]
+    },
+    "1-25179": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [330.0098876953125,124.2203140258789,59.080387115478516,0,0,4.6831865310668945]
+    }
+  }
+}

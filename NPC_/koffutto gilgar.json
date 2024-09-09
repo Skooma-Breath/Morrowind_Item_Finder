@@ -1,0 +1,103 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Orc",
+  "CNAM": "Sorcerer",
+  "ANAM": "",
+  "BNAM": "b_n_orc_m_head_01",
+  "KNAM": "b_n_orc_m_hair_03",
+  "MODL": null,
+  "FNAM": "Koffutto Gilgar",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "staff_hasedoki_unique"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "common_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_right"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_bracer_left"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_cuirass"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_health_q"
+    },
+    {
+      "count": 25,
+      "name": "Gold_001"
+    }
+  ],
+  "NPCS": [
+    "weary",
+    "summon greater bonewalker",
+    "summon least bonewalker",
+    "wizard rend",
+    "commanding touch",
+    "reflect",
+    "weak spelldrinker",
+    "summon skeletal minion",
+    "Ghost Curse"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 175,
+    "magicka": 148,
+    "fatigue": 281,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [59,74,95,50,45,77,43,40],
+    "skills": [16,16,39,39,30,6,11,6,6,56,56,56,41,56,56,18,18,18,6,6,6,6,29,29,6,6,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

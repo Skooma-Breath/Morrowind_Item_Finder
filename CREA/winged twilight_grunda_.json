@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\WingedTwilight.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 1,
+    "level": 20,
+    "attributes": [50,50,100,50,8,50,50,50],
+    "health": 260,
+    "magicka": 250,
+    "fatigue": 800,
+    "soul_strength": 350,
+    "combat_skill": 90,
+    "magic_skill": 110,
+    "stealth_skill": 50,
+    "attacks": [
+      [20,55],
+      [20,55],
+      [20,55]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "winged twilight",
+  "FNAM": "Molag Grunda",
+  "SCRI": "molaggrundaScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_void_salts"
+    }
+  ],
+  "NPCS": [
+    "reflect_20"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

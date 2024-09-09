@@ -1,0 +1,46 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "wolf\\skinNPC.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 10,
+    "attributes": [255,50,40,50,50,50,50,50],
+    "health": 38,
+    "magicka": 5,
+    "fatigue": 400,
+    "soul_strength": 20,
+    "combat_skill": 30,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [1,9],
+      [1,9],
+      [1,9]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 70,
+    "flee": 50,
+    "alarm": 0,
+    "flags": 29884416
+  },
+  "CNAM": null,
+  "FNAM": "Werewolf",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": null,
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 256,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,20,20,20,10,0,0,0]
+    }
+  ]
+}

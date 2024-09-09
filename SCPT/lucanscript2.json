@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 53,
+    "local_var_size": 17
+  },
+  "SCTX": "Begin lucanScript2\r\n\r\nshort greetonce\r\nshort nolore\r\n\r\nif ( GetDistance Player <= 300 )\r\n\tif greetonce == 0\r\n\t\tForceGreeting\r\n\t\tset greetonce to 1\r\n\tendif\r\nendif\r\n\r\nEnd lucanScript2",
+  "SCVR": [
+    "greetonce",
+    "nolore"
+  ],
+  "SCDT": [6,1,4,20,32,88,1,16,32,114,6,80,108,97,121,101,114,32,60,61,32,51,48,48,6,1,2,9,32,115,1,0,32,61,61,32,48,232,16,5,1,115,1,0,2,32,49,9,1,9,1,1,1]
+}

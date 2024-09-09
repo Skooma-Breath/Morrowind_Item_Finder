@@ -1,0 +1,60 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Skeleton.NIF",
+  "FLAG": 1037,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 10,
+    "attributes": [100,50,50,50,50,50,50,50],
+    "health": 150,
+    "magicka": 30,
+    "fatigue": 1000,
+    "soul_strength": 200,
+    "combat_skill": 80,
+    "magic_skill": 80,
+    "stealth_skill": 20,
+    "attacks": [
+      [10,30],
+      [10,30],
+      [10,30]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "skeleton",
+  "FNAM": "Skeleton Berserker",
+  "SCRI": null,
+  "XSCL": 1.100000023841858,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM nordic silver claymore"
+    },
+    {
+      "count": 4,
+      "name": "random_bonemeal"
+    }
+  ],
+  "NPCS": [
+    "immune to poison",
+    "immune to disease",
+    "immune to frost",
+    "resist shock_50"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

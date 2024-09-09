@@ -1,0 +1,125 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "274028629326191476": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "119523070011984762",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "theldyn virith",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I haven't heard about any more trouble along the caravan track, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HR_Kagouti",
+          "__TV": 100
+        }
+      ]
+    },
+    "119523070011984762": {
+      "flag": 0,
+      "PNAM": "274028629326191476",
+      "NNAM": "222837934133111340",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "theldyn virith",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, I guess the Kagouti you already killed near there are the ones that were attacking travelers. If I hear about any more attacks I'll let you know.",
+      "BNAM": "Journal HR_Kagouti 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "HR_Kagouti",
+          "__TV": 0
+        },
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "kagouti_hrk",
+          "__TV": 1
+        }
+      ]
+    },
+    "222837934133111340": {
+      "flag": 0,
+      "PNAM": "119523070011984762",
+      "NNAM": "1617913282209311210",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "theldyn virith",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good work, %PCName. We need to keep the trade routes running, even with all that's going on.",
+      "BNAM": "Journal HR_Kagouti 100\r\nModPCFacRep 5 \"Redoran\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "5",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "kagouti_hrk",
+          "__TV": 1
+        }
+      ]
+    },
+    "1617913282209311210": {
+      "flag": 0,
+      "PNAM": "222837934133111340",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "theldyn virith",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A den of Kagouti have been attacking travelers just south of the Ouada Samsi. Find this Kagouti den, kill the pack leader, and report back to me.",
+      "BNAM": "Journal HR_Kagouti 10",
+      "SCVR": null
+    }
+  }
+}

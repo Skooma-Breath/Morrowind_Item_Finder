@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Dreugh.NIF",
+  "FLAG": 24,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 5,
+    "attributes": [50,50,70,50,60,50,50,50],
+    "health": 60,
+    "magicka": 75,
+    "fatigue": 400,
+    "soul_strength": 75,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 25,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": null,
+  "FNAM": "Dreugh",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_dreugh_wax"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [0,0,0,0,0,0,0,0]
+    }
+  ]
+}

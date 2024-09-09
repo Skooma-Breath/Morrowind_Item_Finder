@@ -1,0 +1,215 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "22935285051102919033": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3181823687238116822",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "thrud",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You help Thrud free Dilborn, and make bad people sad. Thrud happy, happy, happy -- like pig in mud!  Now Dilborn read many books for Thrud, make Thrud smart.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_BarbarianBook",
+          "__TV": 160
+        }
+      ]
+    },
+    "3181823687238116822": {
+      "flag": 0,
+      "PNAM": "22935285051102919033",
+      "NNAM": "26168303952191121965",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "thrud",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You try help Thrud free Dilborn. But Dilborn gone. Thrud sad. Now Thrud got books, but not got Dilborn. Thrud stay here now and pray to book spirits so Dilborn not be lonely.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_BarbarianBook",
+          "__TV": 150
+        }
+      ]
+    },
+    "26168303952191121965": {
+      "flag": 0,
+      "PNAM": "3181823687238116822",
+      "NNAM": "25769127661071629949",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "thrud",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You help Thrud free Dilborn. Thrud happy, happy, happy -- like pig in mud! Now Dilborn read many books for Thrud, make Thrud smart.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_BarbarianBook",
+          "__TV": 110
+        }
+      ]
+    },
+    "25769127661071629949": {
+      "flag": 0,
+      "PNAM": "26168303952191121965",
+      "NNAM": "680331054211436846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "thrud",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to sewers, %PCName. Thrud see Dilborn go to sewers.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_BarbarianBook",
+          "__TV": 20
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "5",
+          "identifier": "MS_BarbarianBook",
+          "__TV": 100
+        }
+      ]
+    },
+    "680331054211436846": {
+      "flag": 0,
+      "PNAM": "25769127661071629949",
+      "NNAM": "14173265921352611430",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "thrud",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thrud happy, happy, %PCRace. Find Dilborn now, yes? Thrud see Dilborn go down in sewers near here. Dilborn go to sewers lots to meet friends, Dilborn says. Most times, Dilborn back soon, and happy, happy. But Dilborn not back soon now. We go to sewers, find Dilborn!",
+      "BNAM": "Journal \"MS_BarbarianBook\" 20\r\nthrud->AiFollow Player 0,0,0,0,0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "14173265921352611430": {
+      "flag": 0,
+      "PNAM": "680331054211436846",
+      "NNAM": "1074712006559130422",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "thrud",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Thrud sad. Thrud want Dilborn come back soon.",
+      "BNAM": "Journal \"MS_BarbarianBook\" 100",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1074712006559130422": {
+      "flag": 0,
+      "PNAM": "14173265921352611430",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "thrud",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Dilborn big and mighty wizard. Dilborn read books to Thrud... all the words, big words, two, maybe three times. Now Dilborn gone, no one read books to Thrud. Thrud sad. Thrud miss friend Dilborn. You help Thrud find Dilborn?",
+      "BNAM": "Choice \"Okay, I will help you.\" 1 \"No, thanks. I don't have the time.\" 2",
+      "SCVR": null
+    }
+  }
+}

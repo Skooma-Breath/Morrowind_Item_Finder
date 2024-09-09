@@ -1,0 +1,67 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Trader Service",
+  "ANAM": "Imperial Legion",
+  "BNAM": "b_n_nord_m_head_01",
+  "KNAM": "b_n_nord_m_hair04",
+  "MODL": null,
+  "FNAM": "Urfing",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "steel mace"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_04_a"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_05"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    }
+  ],
+  "NPCS": [
+    "almsivi intervention",
+    "almalexia's grace",
+    "divine intervention",
+    "soul trap",
+    "telekinesis"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 104,
+    "magicka": 86,
+    "fatigue": 226,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 400,
+    "attributes": [73,43,53,45,51,55,58,40],
+    "skills": [32,15,25,20,42,20,25,20,15,6,6,6,6,6,38,6,6,23,38,38,23,6,6,6,10,38,23]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

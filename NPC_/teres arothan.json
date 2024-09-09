@@ -1,0 +1,89 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Healer",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_12",
+  "MODL": null,
+  "FNAM": "Teres Arothan",
+  "SCRI": "teresArothanScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "iron mace"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_02"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_02"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_b"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_fatigue_b"
+    }
+  ],
+  "NPCS": [
+    "heavy burden touch",
+    "calm creature",
+    "calm humanoid",
+    "mark",
+    "recall",
+    "sotha's mirror",
+    "vivec's feast",
+    "spell absorption",
+    "vitality",
+    "seryn's blessing",
+    "strong resist fire",
+    "strong resist frost",
+    "strong resist magicka",
+    "strong resist poison",
+    "strong resist shock",
+    "dispel",
+    "detect_creature",
+    "Swimmer's_Blessing",
+    "cure common disease victim"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 7,
+    "health": 64,
+    "magicka": 94,
+    "fatigue": 198,
+    "disposition": 70,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [48,47,59,47,75,44,50,40],
+    "skills": [6,6,6,6,21,11,6,6,50,14,24,44,29,14,49,44,29,29,6,6,6,26,16,11,6,36,36]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

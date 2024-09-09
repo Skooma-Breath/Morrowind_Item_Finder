@@ -1,0 +1,77 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 10,
+  "RNAM": "Imperial",
+  "CNAM": "Monk Service",
+  "ANAM": "Blades",
+  "BNAM": "b_n_imperial_m_head_01",
+  "KNAM": "b_n_imperial_m_hair_01",
+  "MODL": null,
+  "FNAM": "Caius Cosades",
+  "SCRI": "SpyMasterScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 90,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_belt_01"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_04"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_02"
+    },
+    {
+      "count": 5,
+      "name": "ingred_moon_sugar_01"
+    }
+  ],
+  "NPCS": [
+    "absorb health [ranged]",
+    "absorb spell points [ranged]",
+    "rilm's gift",
+    "seryn's blessing",
+    "variable resist common disease",
+    "strong resist fire",
+    "variable resist fire",
+    "strong resist frost",
+    "variable resist frost",
+    "strong resist magicka",
+    "variable resist magicka",
+    "strong resist poison",
+    "variable resist poison",
+    "strong resist shock",
+    "variable resist shock"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 25,
+    "health": 201,
+    "magicka": 118,
+    "fatigue": 310,
+    "disposition": 50,
+    "reputation": 20,
+    "rank": 9,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [90,59,66,100,100,54,64,40],
+    "skills": [39,7,7,7,44,17,7,7,54,7,7,7,7,7,7,39,7,70,19,66,66,56,19,51,10,70,70]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

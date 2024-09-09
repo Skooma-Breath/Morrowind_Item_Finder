@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": true,
+  "FLAG": 8,
+  "RNAM": "Nord",
+  "CNAM": "Necromancer",
+  "ANAM": "Skaal",
+  "BNAM": "b_n_nord_m_head_02",
+  "KNAM": "B_N_Nord_M_Hair07",
+  "MODL": null,
+  "FNAM": "Tymvaul",
+  "SCRI": "TymvaulScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "mantle of woe"
+    }
+  ],
+  "NPCS": [
+    "summon skeletal minion",
+    "flay spirit [ranged]",
+    "force bolt"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 30,
+    "health": 300,
+    "magicka": 500,
+    "fatigue": 325,
+    "disposition": 0,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [96,100,100,62,72,67,71,40],
+    "skills": [8,8,18,13,54,13,18,13,8,78,78,64,78,78,78,27,27,64,8,44,44,8,8,8,8,8,8]
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

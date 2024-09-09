@@ -1,0 +1,75 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Imperial",
+  "CNAM": "Guard",
+  "ANAM": "East Empire Company",
+  "BNAM": "B_N_Imperial_M_Head_07",
+  "KNAM": "B_N_Imperial_M_Hair_08",
+  "MODL": null,
+  "FNAM": "Afer Flaccus",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver longsword"
+    },
+    {
+      "count": 1,
+      "name": "steel_shield"
+    },
+    {
+      "count": 1,
+      "name": "steel_gauntlet_right"
+    },
+    {
+      "count": 1,
+      "name": "steel_gauntlet_left"
+    },
+    {
+      "count": 1,
+      "name": "steel_boots"
+    },
+    {
+      "count": 1,
+      "name": "steel_greaves"
+    },
+    {
+      "count": 1,
+      "name": "steel_pauldron_right"
+    },
+    {
+      "count": 1,
+      "name": "steel_pauldron_left"
+    },
+    {
+      "count": 1,
+      "name": "steel_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 40,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

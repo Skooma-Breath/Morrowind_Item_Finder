@@ -1,0 +1,569 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2671417056199682241": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "32098280671370025271",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I no longer have the Black Jinx.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_BlackJinx",
+          "__TV": 50
+        }
+      ]
+    },
+    "32098280671370025271": {
+      "flag": 0,
+      "PNAM": "2671417056199682241",
+      "NNAM": "2332118487701510594",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 7
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "It's yours, %PCRank.",
+      "BNAM": "RemoveItem Ring_BlackJinx_uniq 1\r\nPlayer->AddItem Ring_BlackJinx_uniq 1\r\nJournal HT_BlackJinx 50",
+      "SCVR": null
+    },
+    "2332118487701510594": {
+      "flag": 0,
+      "PNAM": "32098280671370025271",
+      "NNAM": "2618932278204710860",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Yes, I have the ring, but we in the Morag Tong have a special interest in the ring as well. Would you steal from us, brother %PCName?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "44",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2618932278204710860": {
+      "flag": 0,
+      "PNAM": "2332118487701510594",
+      "NNAM": "1301327073112815215",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Morag Tong",
+      "SNAM": null,
+      "NAME": "Yes, I have the ring, but we in the Morag Tong have a special interest in the ring as well. Would you steal from us, sister %PCName?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "1301327073112815215": {
+      "flag": 0,
+      "PNAM": "2618932278204710860",
+      "NNAM": "2928129078161822531",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you do have some courage. We shall settle this now. To the death!",
+      "BNAM": "SetFight 100\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2928129078161822531": {
+      "flag": 0,
+      "PNAM": "1301327073112815215",
+      "NNAM": "1381345251844718733",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So you are just another Telvanni coward. Go back to your servants, %PCRace. If you have any.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1381345251844718733": {
+      "flag": 0,
+      "PNAM": "2928129078161822531",
+      "NNAM": "1801015442259206251",
+      "DATA": {
+        "value": 60,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If Dratha needs the ring so badly, I do not understand why she does not seek after it herself. Hiding behind mere servants like you is a sign of cowardice. Yes, I admit it. I have the ring. If you want it, you can fight me for it.",
+      "BNAM": "Choice \"Challenge him to a duel. Right here, right now.\" 1 \"Nevermind.\" 2",
+      "SCVR": null
+    },
+    "1801015442259206251": {
+      "flag": 0,
+      "PNAM": "1381345251844718733",
+      "NNAM": "258030180245451464",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "alven salas",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Suppose I did have this ring, this \"Black Jinx?\" Would you take what is not rightfully yours?",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "258030180245451464": {
+      "flag": 0,
+      "PNAM": "1801015442259206251",
+      "NNAM": "22039284382638715866",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, this is it. Mistress Dratha will appreciate this. The ring can instill fear in others. I know a spell or two that are not as powerful as this ring, but I will teach them to you if you wish to learn.",
+      "BNAM": "Journal HT_BlackJinx 100\r\nPlayer->RemoveItem Ring_BlackJinx_uniq 1\r\nAddItem Ring_BlackJinx_uniq 1\r\nModPCFacRep 5 \"Telvanni\"\r\nModDisposition 10\r\nChoice \"Yes, teach me the spells.\" 3 \"Nevemind.\" 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ring_blackjinx_uniq",
+          "__TV": 0
+        }
+      ]
+    },
+    "22039284382638715866": {
+      "flag": 0,
+      "PNAM": "258030180245451464",
+      "NNAM": "17359974917517533",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Why should I believe you if you won't show me the ring? Bring the ring to me or stop wasting my time.",
+      "BNAM": "ModDisposition -5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "17359974917517533": {
+      "flag": 0,
+      "PNAM": "22039284382638715866",
+      "NNAM": "13763159281593021698",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Then keep trying. Surely someone here in Sadrith Mora has heard of it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "13763159281593021698": {
+      "flag": 0,
+      "PNAM": "17359974917517533",
+      "NNAM": "1563516389297868833",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Very well. [Raven teaches you how to demoralize your opponents.] If you want more chores, speak with the other Mouths.",
+      "BNAM": "Player->AddSpell \"demoralize creature\"\r\nPlayer->AddSpell \"demoralize humanoid\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "1563516389297868833": {
+      "flag": 0,
+      "PNAM": "13763159281593021698",
+      "NNAM": "6203273181049916331",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "If you want more chores, speak with the others Mouths.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "6203273181049916331": {
+      "flag": 0,
+      "PNAM": "1563516389297868833",
+      "NNAM": "17244526716127431",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have already given me the Black Jinx.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_BlackJinx",
+          "__TV": 100
+        }
+      ]
+    },
+    "17244526716127431": {
+      "flag": 0,
+      "PNAM": "6203273181049916331",
+      "NNAM": "710931352669115448",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Have you found the Ring of the Black Jinx?",
+      "BNAM": "Choice \"Yes, here it is.\" 1 \"No, not yet.\" 2",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_BlackJinx",
+          "__TV": 10
+        }
+      ]
+    },
+    "710931352669115448": {
+      "flag": 0,
+      "PNAM": "17244526716127431",
+      "NNAM": "17669191692911415784",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "raven omayn",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Telvanni",
+      "SNAM": null,
+      "NAME": "Mistress Dratha has always had an interest in this ring. She believes that the ring is now here in Sadrith Mora. Acquire this ring and deliver it to me.",
+      "BNAM": "Journal HT_BlackJinx 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "HT_Muck",
+          "__TV": 100
+        }
+      ]
+    },
+    "17669191692911415784": {
+      "flag": 0,
+      "PNAM": "710931352669115448",
+      "NNAM": "274411852152014200",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "dratha",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, I am looking for it. Have you found it? You should learn to go through the proper channels. Take the ring to my Mouth, Raven Omayn in Sadrith Mora.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "HT_BlackJinx",
+          "__TV": 100
+        }
+      ]
+    },
+    "274411852152014200": {
+      "flag": 0,
+      "PNAM": "17669191692911415784",
+      "NNAM": "57194689113888439",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora, Morag Tong Guild",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That is none of your concern, %PCName.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "57194689113888439": {
+      "flag": 0,
+      "PNAM": "274411852152014200",
+      "NNAM": "4399324382600825275",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": "Telvanni",
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard that Mistress Dratha was looking for this ring, but I do not know where you might find one.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    },
+    "4399324382600825275": {
+      "flag": 0,
+      "PNAM": "57194689113888439",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": "Dark Elf",
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Sadrith Mora",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have heard of it. I believe the ring belongs to the Morag Tong. If you are brave, perhaps you could ask them. They have a guildhall on the northeast side of town.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

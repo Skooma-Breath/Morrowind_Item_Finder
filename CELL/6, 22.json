@@ -1,0 +1,976 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 2,
+    "grid": [6,22]
+  },
+  "NAME": null,
+  "RGNN": "Sheogorad",
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": null,
+  "FRMR": {
+    "0-166292": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "DATA": [54208.87890625,184602.40625,1627.48779296875,0,0,4.283185958862305]
+    },
+    "0-166293": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_06",
+      "DATA": [54311.92578125,184245.453125,1756.85791015625,0,0,1.3000000715255737]
+    },
+    "0-166294": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [54709.65625,184487.53125,1634.6510009765625,0,0,0]
+    },
+    "0-279251": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_emp_parasol_01",
+      "XSCL": 1.7300001382827759,
+      "DATA": [56691.078125,182213.9375,1846.58447265625,0,0,5.983185291290283]
+    },
+    "0-279252": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [55836.73046875,185501.46875,422.6526794433594,0,0,3.883186101913452]
+    },
+    "0-279253": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [54049.984375,184101.15625,1015.2373657226562,0.09999942779541016,0,5.683185577392578]
+    },
+    "0-279254": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [54663.15625,184047.578125,694.6574096679688,0.09999942779541016,0,2.483186960220337]
+    },
+    "0-279255": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.7200000286102295,
+      "DATA": [54684.0078125,186121.75,1991.48193359375,0,0,6.08318567276001]
+    },
+    "0-279256": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_06",
+      "XSCL": 2,
+      "DATA": [53924.51171875,186045.6875,1592.467041015625,0,0,2.900000810623169]
+    },
+    "0-279257": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [54322.0546875,185199.5625,1500.5989990234375,0,0,1.8000001907348633]
+    },
+    "0-279258": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [54106.1328125,186197.765625,1379.23193359375,0.09999942779541016,0,1.2000000476837158]
+    },
+    "0-279259": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [53914.64453125,185612.8125,1058.65185546875,0.09999942779541016,0,4.283187389373779]
+    },
+    "0-279260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_08",
+      "XSCL": 1.4900001287460327,
+      "DATA": [55588.58203125,185436.03125,1578.4859619140625,0,0,2.000000238418579]
+    },
+    "0-279261": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_08",
+      "XSCL": 1.4900001287460327,
+      "DATA": [54029.28515625,185322.265625,1670.5224609375,0,0,0.9000001549720764]
+    },
+    "0-279262": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.2200000286102295,
+      "DATA": [55628.453125,185038.53125,1422.2904052734375,0,0,1.0000001192092896]
+    },
+    "0-279263": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.2200000286102295,
+      "DATA": [54931.5625,183988.65625,1618.3250732421875,0,0,2.1000001430511475]
+    },
+    "0-279264": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [55991.91015625,185126.234375,1392.566162109375,0,0,3.5]
+    },
+    "0-279265": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_emp_parasol_02",
+      "DATA": [55130.7578125,185786.796875,2206.18359375,0,0,2.6999995708465576]
+    },
+    "0-279266": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_emp_parasol_02",
+      "XSCL": 0.8400000333786011,
+      "DATA": [54416.234375,184722.625,1931.4508056640625,0,0,0.5999994277954102]
+    },
+    "0-279267": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Flora_tree_AC_04",
+      "XSCL": 2,
+      "DATA": [54722.23828125,186527.796875,2306.076416015625,0,0,1.3000001907348633]
+    },
+    "0-279268": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_emp_parasol_01",
+      "XSCL": 1.7300001382827759,
+      "DATA": [54847.94921875,183790.671875,2329.066650390625,0,0,4.18318510055542]
+    },
+    "0-279269": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_black_anther_01",
+      "DATA": [54484.3515625,185256.578125,1595.07177734375,0,0,0]
+    },
+    "0-279270": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_gold_kanet_01",
+      "DATA": [54495.37109375,185156.390625,1540.7008056640625,0,0,0]
+    },
+    "0-279271": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_green_lichen_01",
+      "DATA": [54424.41015625,185082.40625,1564.9381103515625,5.583186149597168,5.4831862449646,0]
+    },
+    "0-279272": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_green_lichen_02",
+      "XSCL": 1.440000057220459,
+      "DATA": [54435.1015625,185119.53125,1615.792724609375,0,5.1831865310668945,0]
+    },
+    "0-279273": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_01",
+      "DATA": [54225.2578125,185078.953125,1666.6756591796875,6.183185577392578,6.08318567276001,0.5]
+    },
+    "0-279274": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_stoneflower_01",
+      "DATA": [54625.5625,184713.28125,1566.6435546875,0,0,0]
+    },
+    "0-279275": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_willow_flower_01",
+      "DATA": [54574.859375,184799.953125,1576.1534423828125,0,0,5.083186149597168]
+    },
+    "0-279276": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_willow_flower_02",
+      "XSCL": 1.4200000762939453,
+      "DATA": [54608.51171875,184639.859375,1579.762451171875,0,0,0]
+    },
+    "0-279277": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_02",
+      "DATA": [54341.90234375,184796.5625,1630.9305419921875,0,0,0.30000001192092896]
+    },
+    "0-279278": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [54633.89453125,184761.453125,1353.3392333984375,0,0,1.8000001907348633]
+    },
+    "0-279279": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [54882.234375,185317.859375,1635.849853515625,0,0,5.099998950958252]
+    },
+    "0-279280": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.2200000286102295,
+      "DATA": [55020.78125,185467.359375,1742.030517578125,0,0,5.783186435699463]
+    },
+    "0-279281": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [54692.6328125,185576.65625,1841.97314453125,0,0,5.883185863494873]
+    },
+    "0-279282": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [54500.49609375,185395.953125,1660.311279296875,0,0,1.4000000953674316]
+    },
+    "0-279283": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_03",
+      "DATA": [55133.08984375,185251.296875,1660.8050537109375,0,0,0]
+    },
+    "0-279284": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_01",
+      "XSCL": 1.2400000095367432,
+      "DATA": [54913.015625,184371.796875,1671.5408935546875,6.183185577392578,6.08318567276001,5.783185958862305]
+    },
+    "0-279285": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_08",
+      "XSCL": 1.4900001287460327,
+      "DATA": [56584.375,182098.03125,1240.836669921875,0,0,0.5]
+    },
+    "0-279286": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [56921.92578125,182478.4375,1165.5059814453125,0,0,1.999999761581421]
+    },
+    "0-279287": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.2200000286102295,
+      "DATA": [57009.23046875,182063.484375,1289.1553955078125,0,0,5.783185958862305]
+    },
+    "0-279288": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [56451.6953125,182721.515625,979.6043090820312,0.09999942779541016,0,2.483186960220337]
+    },
+    "0-279289": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.3900001049041748,
+      "DATA": [56880.6328125,182762,543.9188842773438,0.09999942779541016,0,3.283186912536621]
+    },
+    "0-279290": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_02",
+      "DATA": [56835.953125,182459.984375,1391.8172607421875,5.883185863494873,5.883185863494873,0]
+    },
+    "0-279291": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_04",
+      "DATA": [55120.83984375,184275.5625,1427.4761962890625,0,0,1.3000001907348633]
+    },
+    "0-279292": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_02",
+      "DATA": [55134.3125,184444.265625,1441.7916259765625,0,0,1.3000001907348633]
+    },
+    "0-279293": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_02",
+      "XSCL": 1.3900001049041748,
+      "DATA": [54984.5546875,184429.328125,1429.3321533203125,0,0,1.3000001907348633]
+    },
+    "0-279294": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_04",
+      "XSCL": 0.6000000238418579,
+      "DATA": [54626.83203125,185291.265625,1520.18603515625,0,0,3.799999952316284]
+    },
+    "0-279295": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_02",
+      "XSCL": 1.1100000143051147,
+      "DATA": [54708.8671875,185223.5,1472.388671875,0,0,4.59999942779541]
+    },
+    "0-279296": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_02",
+      "XSCL": 0.800000011920929,
+      "DATA": [54588.70703125,185203.515625,1495.2100830078125,0,0,3.799999952316284]
+    },
+    "0-279297": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_tree_ac_02",
+      "XSCL": 1.3900001049041748,
+      "DATA": [55265.19921875,185183.4375,1527.8389892578125,0,0,0]
+    },
+    "0-279298": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_tree_ac_01",
+      "XSCL": 1.6800000667572021,
+      "DATA": [55267.21484375,184073.015625,1721.5667724609375,0,0,0]
+    },
+    "0-279299": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.2200000286102295,
+      "DATA": [55569.64453125,184068.21875,1471.5316162109375,0,0,5.283186912536621]
+    },
+    "0-279300": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_02",
+      "XSCL": 1.2200000286102295,
+      "DATA": [55208.27734375,185254.4375,1492.134765625,0,0,3.1000003814697266]
+    },
+    "0-279301": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_t_podbud_02",
+      "XSCL": 0.8300000429153442,
+      "DATA": [55172.5234375,185152.578125,1487.3160400390625,0,0,3.1000003814697266]
+    },
+    "0-279302": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_02",
+      "DATA": [55418.19921875,185080.296875,1540.73974609375,5.883185863494873,0,1.2000000476837158]
+    },
+    "0-279303": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [57097.78515625,185329.71875,489.39422607421875,0.09999942779541016,0,4.783186912536621]
+    },
+    "0-279304": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_08",
+      "XSCL": 1.4900001287460327,
+      "DATA": [57059.1015625,185019.796875,802.4136352539062,0,0,1.4000002145767212]
+    },
+    "0-279305": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_06",
+      "XSCL": 2,
+      "DATA": [57313.98046875,185704.875,1036.757568359375,0,0,3.40000057220459]
+    },
+    "0-279306": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [57192.9609375,184847.40625,876.6861572265625,0,0,2.299999952316284]
+    },
+    "0-279307": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [56589.6484375,183417.609375,460.6867370605469,0.09999942779541016,0,0.6831890344619751]
+    },
+    "0-279308": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_06",
+      "XSCL": 2,
+      "DATA": [56159.140625,183371.609375,1008.0494995117188,0,0,1.2000017166137695]
+    },
+    "0-279309": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [56729.27734375,184026.5,912.7849731445312,0,0,5.983185768127441]
+    },
+    "0-279310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [56525.296875,184193.765625,1182.2164306640625,0,0,4.183187484741211]
+    },
+    "0-279311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.7200000286102295,
+      "DATA": [56172.921875,184123.40625,1165.4537353515625,0,0,4.383187294006348]
+    },
+    "0-279312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [53768.21875,181189.84375,2000.173095703125,0,0,0.6999997496604919]
+    },
+    "0-279313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.2200000286102295,
+      "DATA": [54140.02734375,181150.734375,2029.8970947265625,0,0,4.4831862449646]
+    },
+    "0-279314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_08",
+      "XSCL": 1.4900001287460327,
+      "DATA": [54044.44140625,180762.84375,2186.091552734375,0,0,5.4831862449646]
+    },
+    "0-279315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [53788.734375,180784.3125,1030.2593994140625,0,0,1.0831862688064575]
+    },
+    "0-279316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [52658.0625,181368.578125,1097.0013427734375,0.09999942779541016,0,1.9831873178482056]
+    },
+    "0-279317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_06",
+      "XSCL": 2,
+      "DATA": [52328.70703125,181087.53125,1644.3648681640625,0,0,0.6000003218650818]
+    },
+    "0-279318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [52729.95703125,181854.890625,1459.31591796875,0,0,5.783185958862305]
+    },
+    "0-279319": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [52429.4609375,181949.921875,1389.734130859375,0,0,5.383185863494873]
+    },
+    "0-279320": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [52166.6875,181972.8125,1476.689453125,0,0,3.583186388015747]
+    },
+    "0-279321": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.7200000286102295,
+      "DATA": [51915.609375,181715.78125,1443.2626953125,0,0,3.783186435699463]
+    },
+    "0-279322": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [52092.890625,181131.578125,901.2893676757812,0.09999942779541016,0,5.183186054229736]
+    },
+    "0-279323": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [55285.97265625,180822.78125,1990.89892578125,0,0,5.4831862449646]
+    },
+    "0-279324": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [55026.76171875,180871.734375,2260.330322265625,0,0,3.6831881999969482]
+    },
+    "0-279325": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.7200000286102295,
+      "DATA": [54751.25,180641.078125,2243.567626953125,0,0,3.883188009262085]
+    },
+    "0-279326": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [53702.51171875,183215.875,1565.3096923828125,0.09999942779541016,0,0.8831868171691895]
+    },
+    "0-279327": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.3900001049041748,
+      "DATA": [53649.51953125,183643.5,1129.6246337890625,0.09999942779541016,0,1.6831868886947632]
+    },
+    "0-279328": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [53002.67578125,183333.5,1046.392578125,0.09999942779541016,0,5.366374492645264]
+    },
+    "0-279329": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_06",
+      "XSCL": 2,
+      "DATA": [53061.24609375,182904.484375,1593.7550048828125,0,0,5.8831868171691895]
+    },
+    "0-279330": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [52467.97265625,183440.015625,1786.5374755859375,0,0,3.3831865787506104]
+    },
+    "0-279331": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [52427.40234375,183168.625,1613.9090576171875,0,0,2.5831873416900635]
+    },
+    "0-279332": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.7200000286102295,
+      "DATA": [52301.4921875,182920.875,1334.07373046875,0,0,2.7831871509552]
+    },
+    "0-279333": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [49627.68359375,183826.359375,864.31884765625,0,0,1.283185601234436]
+    },
+    "0-279334": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_02",
+      "XSCL": 2,
+      "DATA": [50117.30859375,182515,1091.041015625,0,0,4.08318567276001]
+    },
+    "0-279335": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_08",
+      "XSCL": 1.4900001287460327,
+      "DATA": [49911.8125,182906.8125,1276.9595947265625,0,0,2.5831875801086426]
+    },
+    "0-279336": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [50194.4453125,182913.640625,121.12745666503906,0,0,4.466372489929199]
+    },
+    "0-279337": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "terrain_rock_ac_07",
+      "XSCL": 1.2200000286102295,
+      "DATA": [49781.27734375,182650.484375,1097.7281494140625,0,0,1.5831865072250366]
+    },
+    "0-279338": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.3900001049041748,
+      "DATA": [49390.44921875,184486.125,-87.25072479248047,0.09999942779541016,0,2.6831867694854736]
+    },
+    "0-279339": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.3900001049041748,
+      "DATA": [51630.14453125,180653.65625,1259.213134765625,0.09999942779541016,0,1.1831871271133423]
+    },
+    "0-279340": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [51259.2734375,180250.3125,863.7833251953125,0.09999942779541016,0,4.866374969482422]
+    },
+    "0-279341": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.3900001049041748,
+      "DATA": [49489.28515625,180303.109375,553.8775634765625,0.09999942779541016,0,3.483186721801758]
+    },
+    "0-279342": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [49603.33203125,181595.96875,1025.8072509765625,0,0,6.183185577392578]
+    },
+    "0-279343": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [49166.62109375,180863.546875,470.64569091796875,0.09999942779541016,0,0.48318901658058167]
+    },
+    "0-279344": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_t_menhir_01",
+      "XSCL": 1.690000057220459,
+      "DATA": [49425.48046875,181776.9375,1192.17529296875,0,0,4.383187294006348]
+    },
+    "0-279345": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_emp_parasol_02",
+      "XSCL": 1.290000081062317,
+      "DATA": [49970.625,183144.65625,2224.971923828125,0,0,4.399999141693115]
+    },
+    "0-279346": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_01",
+      "XSCL": 1.53000009059906,
+      "DATA": [55230.5078125,181036.453125,1899.9296875,0.3999999761581421,0,0.4000000059604645]
+    },
+    "0-279347": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_02",
+      "XSCL": 0.5,
+      "DATA": [52926.65625,181771.96875,1689.0660400390625,0,0,0.10000001639127731]
+    },
+    "0-279348": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_03",
+      "XSCL": 0.5,
+      "DATA": [52638.13671875,182012.265625,1500.611572265625,0,0,1.100000023841858]
+    },
+    "0-279349": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [55384.1953125,182744.671875,1389.1197509765625,0.09999942779541016,0,1.6000003814697266]
+    },
+    "0-279350": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 1.6200001239776611,
+      "DATA": [54980.0390625,182280.4375,1068.5396728515625,0.09999942779541016,0,4.6831865310668945]
+    },
+    "0-279351": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_kreshweed_01",
+      "XSCL": 0.5,
+      "DATA": [54751.50390625,182107.625,1698.8642578125,5.983185291290283,0,0.4000000059604645]
+    },
+    "0-404488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_shore_cliffracer_lev-2",
+      "DATA": [51374.2890625,184837,2247.483642578125,0,0,0]
+    },
+    "0-404489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_shore_cliffracer_lev+0",
+      "DATA": [54584.609375,183247.515625,2354.65283203125,0,0,0]
+    },
+    "0-404490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_sheogorad_lev-1",
+      "DATA": [51442.171875,182105.984375,1255.4385986328125,0,0,0]
+    },
+    "0-404491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_sheogorad_lev-1",
+      "DATA": [55619.765625,184654.640625,1404.9718017578125,0,0,0]
+    },
+    "0-436822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Ex_T_menhir_L_01",
+      "XSCL": 2,
+      "DATA": [51680.73828125,188116.578125,-923.2044677734375,0,0,4.549558162689209]
+    }
+  }
+}

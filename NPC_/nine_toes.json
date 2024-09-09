@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Argonian",
+  "CNAM": "Hunter",
+  "ANAM": "Blades",
+  "BNAM": "b_n_argonian_m_head_03",
+  "KNAM": "b_n_argonian_m_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Nine-Toes",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 16384
+  },
+  "NPCO": [
+    {
+      "count": 80,
+      "name": "steel bolt"
+    },
+    {
+      "count": 1,
+      "name": "steel crossbow"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_01"
+    }
+  ],
+  "NPCS": [
+    "righteousness",
+    "absorb speed [ranged]",
+    "free action",
+    "balyna's antidote",
+    "cure poison",
+    "seryn's gift",
+    "resist fire",
+    "resist cold",
+    "resist common disease",
+    "resist frost",
+    "resist magicka",
+    "balyna's perfect balm",
+    "strong heal companion",
+    "troll's blood",
+    "veloth's grace"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 80,
+    "magicka": 94,
+    "fatigue": 224,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [54,47,40,92,82,38,35,40],
+    "skills": [24,6,29,6,6,6,24,11,54,6,6,6,50,6,11,24,11,11,10,50,28,44,44,50,10,10,10]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,10]
+    }
+  ]
+}

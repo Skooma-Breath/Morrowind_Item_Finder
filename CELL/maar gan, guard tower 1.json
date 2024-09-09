@@ -1,0 +1,763 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [594999,1061158912]
+  },
+  "NAME": "Maar Gan, Guard Tower 1",
+  "RGNN": null,
+  "WHGT": null,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,50,0],
+    "sunlight": [61,40,20,0],
+    "fog_color": [55,20,9,0],
+    "fog_density": 0.75
+  },
+  "FRMR": {
+    "0-233754": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "redoran guard male",
+      "DATA": [341.742431640625,195.28564453125,-614.6806640625,0,0,0]
+    },
+    "0-233782": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_trapdoor_01",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [0,0,128,0,0,4.71238899230957]
+    },
+    "0-233784": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_door_01",
+      "DATA": [768,64,-256,0,0,1.5707963705062866]
+    },
+    "0-233766": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [402.8338623046875,397.8363037109375,-575.5628662109375,0,0,3.3331868648529053]
+    },
+    "0-233767": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_11",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [436.853515625,353.03271484375,-635.0070190429688,4.71238899230957,0.5,0]
+    },
+    "0-233769": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_06_64",
+      "ANAM": "redoran guard male",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [361.8751525878906,372.1617126464844,-574.3739624023438,0,0,6.183185577392578]
+    },
+    "0-233771": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [507.45623779296875,471.0684509277344,-605.4373779296875,0,0,3.78279185295105]
+    },
+    "0-233773": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [554.7150268554688,448.29583740234375,-604.7451171875,0,0,4.108185291290283]
+    },
+    "0-233776": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_armorbonemold_",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [0.9824316501617432,-200.6293487548828,-606.70166015625,0,0,1.8203784227371216]
+    },
+    "0-233777": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_de_weapons",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-68.19756317138672,-95.67354583740234,-606.70166015625,0,0,1.4716320037841797]
+    },
+    "0-233778": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_de_mclothes",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-70.4031982421875,-27.774723052978516,-606.70166015625,0,0,1.5454031229019165]
+    },
+    "0-233779": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-84.60645294189453,39.9219970703125,-633.0413818359375,0,0,1.5951567888259888]
+    },
+    "0-233780": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Sack_02_Ingred",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-98.0113525390625,95.04424285888672,-617.8518676757812,0,0,1.0457963943481445]
+    },
+    "0-233781": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_tankard_01",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [321.6636657714844,377.9258728027344,-576.2692260742188,0,0,5.683186054229736]
+    },
+    "0-233785": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [-101.39459228515625,38.13190460205078,-615.0042114257812,0,0.17499999701976776,1.5701568126678467]
+    },
+    "0-233786": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_28",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [784.4296875,-83.11846160888672,-599.4100952148438,0,0,1.7561944723129272]
+    },
+    "0-233787": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_28",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [253.74395751953125,-370.0429992675781,-599.4100952148438,0,0,3.885397434234619]
+    },
+    "0-233791": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_mclothes3",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [471.6378173828125,-448.6937561035156,-622.5126342773438,0,0,3.1415927410125732]
+    },
+    "0-233794": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_gah-julan_cuirass",
+      "ANAM": "redoran guard male",
+      "INTV": 510,
+      "NAM9": 1,
+      "DATA": [-65.26966857910156,-97.90714263916016,-573.7279052734375,0,0,5.537389278411865]
+    },
+    "0-233796": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_helm",
+      "ANAM": "redoran guard male",
+      "INTV": 180,
+      "NAM9": 1,
+      "DATA": [-72.84609985351562,-24.998424530029297,-569.0297241210938,0.7000000476837158,0,0]
+    },
+    "0-233798": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_01",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [353.0970764160156,394.58892822265625,-567.6581420898438,0,0,0]
+    },
+    "0-233799": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_10",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [362.83636474609375,402.8418273925781,-565.2988891601562,0,0,0.30000001192092896]
+    },
+    "0-233800": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_14",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [369.1141357421875,391.3267822265625,-566.2659912109375,0,0,0.8999999761581421]
+    },
+    "0-233755": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_tower_01",
+      "DATA": [0,0,128,0,0,4.71238899230957]
+    },
+    "0-233756": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_redoran_hut_bfloor_01",
+      "DATA": [384,0,-512,0,0,4.71238899230957]
+    },
+    "0-233757": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_stairs_06",
+      "DATA": [384,0,-512,0,0,4.71238899230957]
+    },
+    "0-233758": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_int_rail_02",
+      "DATA": [384,0,-384,0,0,4.71238899230957]
+    },
+    "0-233763": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [280.1858215332031,412.2579040527344,-607.06640625,0,0,5.083186626434326]
+    },
+    "0-233764": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [580.9571533203125,317.4557800292969,-607.06640625,0,0,1.7000001668930054]
+    },
+    "0-233765": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [452.5819396972656,435.6070861816406,-607.06640625,0,0,0.7000000476837158]
+    },
+    "0-233770": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rug_big_06",
+      "XSCL": 1.4600000381469727,
+      "DATA": [57.131961822509766,-6.6191253662109375,-643.4909057617188,0,0,4.71238899230957]
+    },
+    "0-233783": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_r_s_doorjamb_01",
+      "DATA": [768,0,-256,0,0,1.5707963705062866]
+    },
+    "0-233788": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [685.1758422851562,-169.14926147460938,-509.27935791015625,0,0,4.9977874755859375]
+    },
+    "0-233789": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_screen_guar_01",
+      "DATA": [231.3367462158203,-260.554443359375,-509.279296875,0,0,0.13539816439151764]
+    },
+    "0-233797": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_01",
+      "DATA": [363.87786865234375,384.7816467285156,-611.15185546875,0,0,0.20000001788139343]
+    },
+    "0-291260": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [826.0183715820312,-534.783203125,-303.9998779296875,0,0,0.7853981852531433]
+    },
+    "0-339806": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_01_food",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [67.71487426757812,171.0343475341797,-334.7902526855469,0,0,5.633186340332031]
+    },
+    "0-339807": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "XSCL": 1.0600000619888306,
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [113.46199798583984,215.4441680908203,-337.1999206542969,0,0,2.208186149597168]
+    },
+    "0-339808": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [17.290164947509766,141.76124572753906,-348.7456359863281,0,0,6.008185386657715]
+    },
+    "0-339809": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-17.32343101501465,101.52243041992188,-348.7456359863281,0,0,5.933185577392578]
+    },
+    "0-339810": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron longsword",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [581.0819091796875,179.6591033935547,-322.85260009765625,0,0,0.4000000059604645]
+    },
+    "0-339811": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_table_05",
+      "DATA": [588.0137329101562,200.95323181152344,-353.7207946777344,0,0,0.574999988079071]
+    },
+    "0-339812": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [652.0135498046875,183.67886352539062,-330.0443420410156,4.758185386657715,0,6.083185195922852]
+    },
+    "0-339813": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Uni_Spearholder_01",
+      "DATA": [655.4658813476562,181.9063720703125,-341.4114074707031,0,0,0.40000003576278687]
+    },
+    "0-339814": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [649.9147338867188,188.7466583251953,-330.0443420410156,4.758185386657715,0,0]
+    },
+    "0-339815": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [660.378662109375,187.9001007080078,-330.0443420410156,4.758185386657715,0,0.05000000447034836]
+    },
+    "0-339816": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron spear",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [653.743408203125,190.89297485351562,-330.0443420410156,4.758185386657715,0,0]
+    },
+    "0-339817": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [403.19769287109375,284.00799560546875,-256.07415771484375,0,0,0.42500001192092896]
+    },
+    "0-339818": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [114.77145385742188,163.32057189941406,-339.84893798828125,0,0,3.408186197280884]
+    },
+    "0-339819": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_02_steel_weapons",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [471.9679260253906,278.37432861328125,-346.25445556640625,0,0,0.2499997317790985]
+    },
+    "0-339820": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron dagger",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [573.2297973632812,204.17723083496094,-324.2093200683594,0,0,0.5745329260826111]
+    },
+    "0-339821": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [32.70133590698242,83.6397933959961,-256.07415771484375,0,0,6.108185768127441]
+    },
+    "0-339822": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [56.99231719970703,-220.37840270996094,-604.7637939453125,0,0,0.9249999523162842]
+    },
+    "0-339823": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_chpfood5",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-58.36256408691406,-154.33529663085938,-604.7637939453125,0,0,0.2750000059604645]
+    },
+    "0-339824": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_01_saltrice_10",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-87.00812530517578,40.85329818725586,-623.2105102539062,0,0,1.5951567888259888]
+    },
+    "0-339825": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_02",
+      "XSCL": 1.53000009059906,
+      "DATA": [382.21392822265625,-330.1797790527344,-644.977294921875,0,0,3.1415927410125732]
+    },
+    "0-339826": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [590.0548095703125,419.79486083984375,-619.9165649414062,0,0,4.399999618530273]
+    },
+    "0-339827": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [521.6810913085938,434.9656066894531,-616.4160766601562,0,0,3.25]
+    },
+    "0-339828": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_03",
+      "XSCL": 0.9500000476837158,
+      "DATA": [859.235107421875,0.1764812469482422,-442.25091552734375,0,0,4.71238899230957]
+    },
+    "0-339829": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_chair_02",
+      "DATA": [806.6996459960938,182.02084350585938,-607.06640625,0,0,0.7999998331069946]
+    },
+    "0-339830": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_02",
+      "XSCL": 1.53000009059906,
+      "DATA": [383.7781982421875,326.1319580078125,-644.7483520507812,0,0,0]
+    },
+    "0-339831": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_02",
+      "XSCL": 1.53000009059906,
+      "DATA": [710.7900390625,3.2931294441223145,-644.977294921875,0,0,1.5707963705062866]
+    },
+    "0-339832": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [443.50042724609375,24.390050888061523,-604.7635498046875,0,0,1.4853981733322144]
+    },
+    "0-339833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [447.0856018066406,-28.03679656982422,-604.7635498046875,0,0,0.7853981852531433]
+    },
+    "0-339834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_chpfood3",
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [471.57183837890625,-0.6542911529541016,-616.4465942382812,0,0,1.4500000476837158]
+    },
+    "0-393310": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "XSCL": 1.1200000047683716,
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [777.5950927734375,-138.308837890625,-597.3447265625,0.4000000059604645,0,2.000000238418579]
+    },
+    "0-393311": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Uni_Pillow_02",
+      "XSCL": 1.1100000143051147,
+      "ANAM": "redoran guard male",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [212.57476806640625,-336.1307067871094,-598.4472045898438,5.983185768127441,5.883185863494873,3.9000000953674316]
+    },
+    "0-393312": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_03",
+      "XSCL": 0.9500000476837158,
+      "DATA": [371.0456237792969,477.9439392089844,-442.25091552734375,0,0,3.1415927410125732]
+    },
+    "0-393313": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_03",
+      "XSCL": 0.9500000476837158,
+      "DATA": [371.0456237792969,-476.662353515625,-442.25091552734375,0,0,6.2831854820251465]
+    },
+    "0-393314": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [-35.04767608642578,162.6255340576172,-511.50994873046875,0,0,0.32500001788139343]
+    },
+    "0-393315": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [544.3988037109375,-372.30059814453125,-510.6274719238281,0,0,0.32500001788139343]
+    },
+    "0-393316": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_01",
+      "DATA": [731.19189453125,184.00460815429688,-510.6274719238281,0,0,1.2250001430511475]
+    },
+    "0-393317": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_paper_lantern_04",
+      "XSCL": 1.290000081062317,
+      "DATA": [10.295525550842285,-14.547466278076172,378.6630554199219,0,0,5.083186626434326]
+    },
+    "0-393318": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 2,
+      "DATA": [15.498640060424805,-14.01484203338623,450.4664001464844,0,0,4.71238899230957]
+    },
+    "0-233790": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_p_chest_02_mclothes3",
+      "ANAM": "redoran guard male",
+      "INTV": 1,
+      "NAM9": 1,
+      "DATA": [845.6351928710938,109.36461639404297,-622.5126342773438,0,0,1.2306534051895142]
+    }
+  }
+}

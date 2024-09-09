@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\DwarvenSpecter.NIF",
+  "FLAG": 1224,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 25,
+    "attributes": [50,50,50,50,30,50,50,50],
+    "health": 60,
+    "magicka": 75,
+    "fatigue": 400,
+    "soul_strength": 200,
+    "combat_skill": 90,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 30,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "dwarven ghost",
+  "FNAM": "Radac Stungnthumz",
+  "SCRI": "radacScript",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_ectoplasm"
+    }
+  ],
+  "NPCS": [
+    "grave curse: luck",
+    "grave curse: willpower",
+    "immune to normal weapons",
+    "chameleon_60",
+    "reflect_20"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,20,50,0,0,0,20,0]
+    }
+  ]
+}

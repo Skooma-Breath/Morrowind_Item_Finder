@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 68,
+    "local_var_size": 0
+  },
+  "SCTX": "Begin freleneCellDoor\r\n\r\nif ( GetLocked == 1 )\r\n\tset \"Frelene Acques\".doorLocked to 1\r\nelse\r\n\tset \"Frelene Acques\".doorLocked to 0\r\nendif\r\n\r\nEnd",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,97,17,32,61,61,32,49,5,1,114,14,102,114,101,108,101,110,101,32,97,99,113,117,101,115,115,4,0,2,32,49,7,1,1,5,1,114,14,102,114,101,108,101,110,101,32,97,99,113,117,101,115,115,4,0,2,32,48,9,1,1,1]
+}

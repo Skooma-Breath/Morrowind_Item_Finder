@@ -1,0 +1,236 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "323935311797628253": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "866190213220526108",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ahnia",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What is it you want, %PCRace?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_ScrollSales",
+          "__TV": 30
+        }
+      ]
+    },
+    "866190213220526108": {
+      "flag": 0,
+      "PNAM": "323935311797628253",
+      "NNAM": "23178191041217228903",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ten-Tongues_Weerhat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Look, I didn't want anything to do with her.  She forced me into it. I swear!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_ScrollSales",
+          "__TV": 60
+        }
+      ]
+    },
+    "23178191041217228903": {
+      "flag": 0,
+      "PNAM": "866190213220526108",
+      "NNAM": "98105796263814848",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ten-Tongues_Weerhat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, okay.... don't hurt me!  She's the one who's been giving me scrolls to sell.  She gave me this stolen book too, but no one can read it, so no one would buy it from me.  Just take it, and leave me alone.  I swear it wasn't my idea... but it's not like the book will do you any good, anyway. From what I hear, the guy who owned it is dead.",
+      "BNAM": "Journal MS_ScrollSales 60\r\nremoveitem \"bk_nermarcnotes\" 1\r\nplayer->additem \"bk_nermarcnotes\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_ScrollSales",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "0",
+          "identifier": "Elbert Nermarc",
+          "__TV": 1
+        }
+      ]
+    },
+    "98105796263814848": {
+      "flag": 0,
+      "PNAM": "23178191041217228903",
+      "NNAM": "2750517570258688883",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ten-Tongues_Weerhat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, okay.... don't hurt me!  She's the one who's been giving me scrolls to sell.  She gave me this stolen book too, but no one can read it, so no one would buy it from me.  Just take it, and leave me alone.  I swear it wasn't my idea...",
+      "BNAM": "Journal MS_ScrollSales 60\r\nremoveitem \"bk_nermarcnotes\" 1\r\nplayer->additem \"bk_nermarcnotes\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_ScrollSales",
+          "__TV": 50
+        }
+      ]
+    },
+    "2750517570258688883": {
+      "flag": 0,
+      "PNAM": "98105796263814848",
+      "NNAM": "46596349303625335",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ten-Tongues_Weerhat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You did what? She's dead? Great. There goes my business. Look, I don't want any trouble. She gave me the scrolls, and she gave me this stolen book. Just take it, and leave me alone.",
+      "BNAM": "Journal MS_ScrollSales 60\r\nremoveitem \"bk_nermarcnotes\" 1\r\nplayer->additem \"bk_nermarcnotes\" 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ScrollSales",
+          "__TV": 40
+        }
+      ]
+    },
+    "46596349303625335": {
+      "flag": 0,
+      "PNAM": "2750517570258688883",
+      "NNAM": "105685401251218947",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ten-Tongues_Weerhat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Look, I don't think we should talk any more about it.  Let's just forget the whole thing, okay?  Pretend I never said a word.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_ScrollSales",
+          "__TV": 30
+        }
+      ]
+    },
+    "105685401251218947": {
+      "flag": 0,
+      "PNAM": "46596349303625335",
+      "NNAM": "309361847591039442",
+      "DATA": {
+        "value": 85,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ten-Tongues_Weerhat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Okay, okay.  She's a Khajiit.  An entrepreneur of sorts.  She'll meet me in the sewers beneath here from time to time, and have things for me to sell.  I try not to ask too many questions, you know?  She carries a pretty sharp knife.  So I just do business, like I always do.  There's no harm in it, right?  It's not like it's hurting anyone.",
+      "BNAM": "Journal MS_ScrollSales 30\r\nStartScript \"ScrollSales\"\r\naddtopic \"Ten-Tongues Weerhat\"",
+      "SCVR": null
+    },
+    "309361847591039442": {
+      "flag": 0,
+      "PNAM": "105685401251218947",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Ten-Tongues_Weerhat",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'm sorry, who?  No, I didn't say Ahnia... you must have mis-heard me. Heh. Nope. Nothing to tell at all. Certainly not.",
+      "BNAM": null,
+      "SCVR": null
+    }
+  }
+}

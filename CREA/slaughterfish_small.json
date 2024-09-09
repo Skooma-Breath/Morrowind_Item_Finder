@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\BabelFish.NIF",
+  "FLAG": 24,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 2,
+    "attributes": [50,50,20,50,50,50,50,50],
+    "health": 15,
+    "magicka": 10,
+    "fatigue": 300,
+    "soul_strength": 10,
+    "combat_skill": 40,
+    "magic_skill": 80,
+    "stealth_skill": 10,
+    "attacks": [
+      [1,5],
+      [1,5],
+      [1,5]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 100,
+    "flee": 0,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "slaughterfish",
+  "FNAM": "Small Slaughterfish",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_scales"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [0,0,0,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Fabricant_Hulking.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 20,
+    "attributes": [100,50,50,80,20,50,50,50],
+    "health": 400,
+    "magicka": 165,
+    "fatigue": 1000,
+    "soul_strength": 165,
+    "combat_skill": 100,
+    "magic_skill": 75,
+    "stealth_skill": 20,
+    "attacks": [
+      [50,90],
+      [50,90],
+      [50,90]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "fabricant_hulking",
+  "FNAM": "Hulking Fabricant",
+  "SCRI": "fab_cent_attack",
+  "XSCL": 1.3000000715255737,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "hulking_fabricant_elixir"
+    }
+  ],
+  "NPCS": [
+    "regenerate [ability]",
+    "resist shock_75",
+    "resist paralysis_50",
+    "weakness shock_25"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,20,10,20,0,0,0,0]
+    }
+  ]
+}

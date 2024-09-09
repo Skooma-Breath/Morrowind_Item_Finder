@@ -1,0 +1,248 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "46662122842887030": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "25759346779414877",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "nibani maesa",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Go to Ald'ruhn, the chief town of the Redoran. They say the council meets under the shell of a giant Emperor crab. The Redoran are proud and haughty, known as great warriors and great worshippers of the Tribunal. Since they love the Temple and Vivec, they cannot love you. The Temple warriors hate the Nerevarine prophecies, and will kill you if they see you. Be careful.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "A2_6_Incarnate",
+          "__TV": 50
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "B5_RedoranHort",
+          "__TV": 50
+        }
+      ]
+    },
+    "25759346779414877": {
+      "flag": 0,
+      "PNAM": "46662122842887030",
+      "NNAM": "42414593202123354",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "bolvyn venim",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Even if you get the councilors on your side, I will veto them. I would rather die than see House Redoran dishonored by an outlander.",
+      "BNAM": null,
+      "SCVR": null
+    },
+    "42414593202123354": {
+      "flag": 0,
+      "PNAM": "25759346779414877",
+      "NNAM": "313867236248843459",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Perhaps if you consult the recent edition of the Red Book of Great House Redoran, you'll note that it lists the current Redoran councilors and their residences.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B5_RedoranBook",
+          "__TV": 1
+        }
+      ]
+    },
+    "313867236248843459": {
+      "flag": 0,
+      "PNAM": "42414593202123354",
+      "NNAM": "207924979163721176",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "neminda",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "The Redoran councilors are among the most distinguished and honorable Dunmer in Morrowind. Here. Perhaps you'd like to review a recent edition of the Red Book of Great House Redoran. It lists the current Redoran councilors and their residences.",
+      "BNAM": "Player->AddItem \"bk_RedBook426\" 1\r\nJournal B5_RedoranBook 1",
+      "SCVR": null
+    },
+    "207924979163721176": {
+      "flag": 0,
+      "PNAM": "313867236248843459",
+      "NNAM": "11560326981415026465",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have killed one of the Redoran Councilors. I will not give you any aid.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "2",
+          "details": "sX",
+          "operator": "2",
+          "identifier": "RedoranMurdered",
+          "__TV": 0
+        }
+      ]
+    },
+    "11560326981415026465": {
+      "flag": 0,
+      "PNAM": "207924979163721176",
+      "NNAM": "104471515838016293",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Currently the Redoran Councilors are myself, Athyn Sarethi, the Archmaster Bolvyn Venim, Garisa Llethri, Hlaren Ramoran, Brara Morvayn, and Miner Arobar. Did you not get a Red Book of the Great House Redoran?",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B5_RedoranBook",
+          "__TV": 1
+        }
+      ]
+    },
+    "104471515838016293": {
+      "flag": 0,
+      "PNAM": "11560326981415026465",
+      "NNAM": "27375101302218828398",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athyn sarethi",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Currently the Redoran Councilors are myself, Athyn Sarethi, the Archmaster Bolvyn Venim, Garisa Llethri, Hlaren Ramoran, Brara Morvayn, and Miner Arobar. Please take this copy of the Red Book. It lists each of the councilors and where they currently reside.",
+      "BNAM": "Player->AddItem \"bk_RedBook426\" 1\r\nJournal B5_RedoranBook 1",
+      "SCVR": null
+    },
+    "27375101302218828398": {
+      "flag": 0,
+      "PNAM": "104471515838016293",
+      "NNAM": "22336237631390313514",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Redoran",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You should consult the recent edition of the Red Book of Great House Redoran. It lists the current Redoran councilors and their residences.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "B5_RedoranBook",
+          "__TV": 1
+        }
+      ]
+    },
+    "22336237631390313514": {
+      "flag": 0,
+      "PNAM": "27375101302218828398",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 8,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Redoran",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Here's a recent edition of the Red Book of Great House Redoran. It lists the current Redoran councilors and their residences.",
+      "BNAM": "Player->AddItem \"bk_RedBook426\" 1\r\nJournal B5_RedoranBook 1",
+      "SCVR": null
+    }
+  }
+}

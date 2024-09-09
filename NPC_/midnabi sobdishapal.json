@@ -1,0 +1,80 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Mabrigash",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_f_head_08",
+  "KNAM": "b_n_dark elf_f_hair_11",
+  "MODL": null,
+  "FNAM": "Midnabi Sobdishapal",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "chitin war axe"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_01_e"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_01_e"
+    },
+    {
+      "count": 1,
+      "name": "chitin_shield"
+    }
+  ],
+  "NPCS": [
+    "deadly poison [ranged]",
+    "weakness to blight disease",
+    "weakness to corprus disease",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison",
+    "dire weakness to shock",
+    "calm creature",
+    "strong resist fire",
+    "strong resist frost",
+    "strong resist magicka",
+    "daedric bite",
+    "ghost_snake"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 77,
+    "magicka": 88,
+    "fatigue": 220,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 0,
+    "attributes": [49,44,78,40,47,53,34,40],
+    "skills": [35,6,6,6,6,10,35,6,25,8,48,38,8,8,28,38,8,22,6,20,6,10,16,10,6,20,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

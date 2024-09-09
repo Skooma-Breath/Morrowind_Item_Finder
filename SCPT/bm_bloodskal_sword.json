@@ -1,0 +1,16 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 2,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 63,
+    "local_var_size": 15
+  },
+  "SCTX": "Begin bm_bloodskal_sword\r\n\r\n;activates the draugr and skeletons when player picks up sword\r\n\r\nshort OnPCAdd\r\nshort doonce\r\n\r\nif (doonce==1)\r\n\treturn\r\nendif\r\n\r\nif (OnPCAdd == 1)\r\n\tset doonce to 1\r\n\tJournal BM_Bloodskal01 10\r\n\treturn\r\nendif\r\n\r\nEnd\r\n\r\n\r\n",
+  "SCVR": [
+    "OnPCAdd",
+    "doonce"
+  ],
+  "SCDT": [6,1,1,7,32,115,2,0,61,61,49,36,1,9,1,6,1,3,9,32,115,1,0,32,61,61,32,49,5,1,115,2,0,2,32,49,204,16,14,66,77,95,66,108,111,111,100,115,107,97,108,48,49,10,0,255,255,36,1,9,1,1,1]
+}

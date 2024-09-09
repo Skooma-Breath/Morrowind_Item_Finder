@@ -1,0 +1,933 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3157537,1061997773]
+  },
+  "NAME": "Skaal Village, Ice-Mane's Hut",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [50,50,40,0],
+    "sunlight": [80,60,40,0],
+    "fog_color": [33,46,48,0],
+    "fog_density": 0.800000011920929
+  },
+  "FRMR": {
+    "2-11545": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "risi ice-mane",
+      "DATA": [52.23024368286133,-174.7493438720703,-224.97250366210938,0,0,0]
+    },
+    "2-11547": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_BMtrial_unique",
+      "DATA": [304.94830322265625,293.3006896972656,-184.32994079589844,0,0,1]
+    },
+    "2-19062": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_door_rounded",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-70.69474029541016,-627.3399658203125,-130.3603057861328,0,0,0]
+    },
+    "2-11548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_longhouse_med",
+      "DATA": [0,0,0,0,0,0]
+    },
+    "2-11549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_S_doorjam_rounded",
+      "DATA": [-8,-632,-124.68850708007812,0,0,0]
+    },
+    "2-13566": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [614.4451293945312,-238.0810089111328,-156.68798828125,0,0,2.1000001430511475]
+    },
+    "2-13567": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_table_03",
+      "DATA": [332.5112609863281,-321.8511962890625,-206.6622772216797,0,0,1.587611436843872]
+    },
+    "2-13568": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_logpile10",
+      "DATA": [-219.4446258544922,578.7579956054688,-216.119873046875,0,0,3.1999993324279785]
+    },
+    "2-13569": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "risi ice-mane",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [333.4905700683594,-2.1366987228393555,-81.05538177490234,0,0,4.599998950958252]
+    },
+    "2-13570": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [-63.21261215209961,503.6765441894531,-217.9045867919922,0,0,4.683186054229736]
+    },
+    "2-13571": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [-344.7437438964844,7.273837089538574,-217.9045867919922,0,0,4.683186054229736]
+    },
+    "2-13572": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_04",
+      "XSCL": 0.8800000548362732,
+      "DATA": [-307.67694091796875,102.47499084472656,31.592571258544922,0,0,3.683187961578369]
+    },
+    "2-13573": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Rope_06",
+      "XSCL": 0.7800000309944153,
+      "DATA": [285.8250427246094,111.11453247070312,51.22739028930664,0.10000001639127731,6.08318567276001,3.2831881046295166]
+    },
+    "2-13574": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_01",
+      "DATA": [-330.8216552734375,-346.4452819824219,-72.30756378173828,6.183185577392578,0.7000001072883606,5.983185768127441]
+    },
+    "2-13575": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-289.8825988769531,116.43180847167969,-27.624338150024414,1.2000004053115845,0.6999995112419128,6.183186054229736]
+    },
+    "2-13576": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [-333.81280517578125,-398.04119873046875,-71.83612823486328,1.1831867694854736,4.916812419891357,2.3999991416931152]
+    },
+    "2-13577": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-296.5673828125,121.56329345703125,12.56890869140625,0,0,5.983185768127441]
+    },
+    "2-13578": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "XSCL": 1.6100001335144043,
+      "DATA": [-334.6681213378906,-366.7740173339844,15.69739818572998,6.183185577392578,0.3999999761581421,0.08318676799535751]
+    },
+    "2-13579": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-323.6759033203125,-353.5670471191406,-25.050811767578125,0,0,4.783186435699463]
+    },
+    "2-13581": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-377.6929016113281,77.38233184814453,-72.93769073486328,0,0,5.1831865310668945]
+    },
+    "2-13582": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.3200000524520874,
+      "DATA": [-324.0787048339844,-391.1809387207031,-28.537555694580078,0,0,1.8000001907348633]
+    },
+    "2-13583": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "DATA": [59.246089935302734,590.82080078125,-219.06964111328125,0,0,5.1831865310668945]
+    },
+    "2-13584": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "DATA": [323.421142578125,227.26071166992188,-217.95303344726562,0,0,3.200000047683716]
+    },
+    "2-13585": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [183.01979064941406,404.4051513671875,-229.59510803222656,0,0,3.7831878662109375]
+    },
+    "2-13586": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_basket_02",
+      "XSCL": 1.0500000715255737,
+      "DATA": [357.9422607421875,39.09619140625,-214.18601989746094,0.08318519592285156,3.316812753677368,5.083186149597168]
+    },
+    "2-13587": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_bench_01",
+      "DATA": [-341.34259033203125,17.166095733642578,-180.84266662597656,0,3.1415927410125732,4.6831865310668945]
+    },
+    "2-13588": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_whitewolf",
+      "XSCL": 0.9800000190734863,
+      "DATA": [228.6737060546875,325.2063903808594,-182.35244750976562,0,0,0]
+    },
+    "2-13589": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [349.5086669921875,-303.6777038574219,-169.8817138671875,0,0,5.58318567276001]
+    },
+    "2-13590": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_nord_fireplace_01",
+      "DATA": [-214.8579559326172,607.273193359375,36.05548095703125,0,0,1.629202127456665]
+    },
+    "2-13591": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_bedroll",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-276.2291564941406,272.6373291015625,-224.05531311035156,0,0,2.0831868648529053]
+    },
+    "2-13592": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [-381.8423156738281,107.15096282958984,-90.28296661376953,0,0,4.71238899230957]
+    },
+    "2-13593": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [-358.53253173828125,-364.2425537109375,-161.20382690429688,0,0,1.5831881761550903]
+    },
+    "2-13594": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_ex_stool_02",
+      "XSCL": 1.1100000143051147,
+      "DATA": [339.7760009765625,426.602783203125,-215.89218139648438,0,0,1.7000000476837158]
+    },
+    "2-13595": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_candle_07_64",
+      "DATA": [340.706787109375,425.69781494140625,-173.58929443359375,0,0,0]
+    },
+    "2-13596": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 0.7600000500679016,
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-331.0600891113281,-490.3478698730469,-37.11232376098633,0,0,4.58318567276001]
+    },
+    "2-13598": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_S_tapestry02",
+      "DATA": [-390.1202697753906,-100.7234878540039,-71.79749298095703,0,0,1.6000001430511475]
+    },
+    "2-13599": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 1.0500000715255737,
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [341.0990905761719,-4.508857250213623,-66.52330780029297,0,0,1.4999991655349731]
+    },
+    "2-13600": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_lantern_01_128",
+      "ANAM": "risi ice-mane",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [-325.1670227050781,-492.6404724121094,-48.994422912597656,0,0,1.1000001430511475]
+    },
+    "2-13601": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_nord_mead",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-360.24969482421875,-313.42486572265625,-105.45409393310547,0,0,3.2831883430480957]
+    },
+    "2-13602": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_12",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [312.8861083984375,-358.6568603515625,-157.57919311523438,0,0,0]
+    },
+    "2-13603": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [320.79998779296875,-263.1293029785156,-171.96688842773438,0,0,0]
+    },
+    "2-13604": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [312.1935729980469,-305.1630859375,-173.45938110351562,0,0,0]
+    },
+    "2-13605": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [347.0970153808594,-382.6305847167969,-159.7201690673828,0,0,0]
+    },
+    "2-13606": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [306.1317443847656,-254.24021911621094,-172.5792694091797,0,0,1.4000000953674316]
+    },
+    "2-13607": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_hook",
+      "XSCL": 1.0500000715255737,
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-41.335426330566406,-1.381321907043457,-25.11517906188965,0,0,1.583187222480774]
+    },
+    "2-13608": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Light_Com_Candle_01_64",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [338.2929382324219,-254.04786682128906,-165.51014709472656,0,0,5.1831865310668945]
+    },
+    "2-13610": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_14",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [242.3943634033203,326.0829162597656,-204.96658325195312,0,0,0]
+    },
+    "2-13611": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_p_bed_14",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [237.52816772460938,544.7930297851562,-204.96658325195312,0,0,0]
+    },
+    "2-13612": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.03000009059906,
+      "DATA": [222.77926635742188,545.8280029296875,-180.5440673828125,0,0,4.783186912536621]
+    },
+    "2-13613": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 0.9700000286102295,
+      "DATA": [-265.73321533203125,288.12030029296875,-218.85855102539062,0,0,0.570796012878418]
+    },
+    "2-13615": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_Com_Planter",
+      "DATA": [-276.5458984375,-568.0325927734375,-219.2303924560547,0,0,0]
+    },
+    "2-13618": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "potion_nord_mead",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-355.3493347167969,-292.9681091308594,-104.99776458740234,0,0,3.2831883430480957]
+    },
+    "2-13619": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_fork",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [346.5706481933594,-281.96429443359375,-172.5792694091797,0,0,5.883185386657715]
+    },
+    "2-13620": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [335.80938720703125,-293.6568298339844,-170.02545166015625,0,0,0.49999940395355225]
+    },
+    "2-13621": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_basket_01",
+      "DATA": [-365.2787170410156,-127.09662628173828,-196.00770568847656,0.3999999165534973,4.783186912536621,0.5]
+    },
+    "2-13622": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ingred_bread_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [349.3509216308594,-317.52642822265625,-169.8817138671875,0,0,5.183186054229736]
+    },
+    "2-13623": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_128",
+      "DATA": [-30.64988136291504,-204.20840454101562,-38.83475112915039,0,0,0]
+    },
+    "2-13624": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_spoon_02",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-363.70843505859375,-391.0685729980469,-150.20974731445312,0,0,3.2831883430480957]
+    },
+    "2-13625": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_knife",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-349.0288391113281,-377.18841552734375,-150.09364318847656,0,0,3.683187961578369]
+    },
+    "2-13626": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-364.1429748535156,-369.0820007324219,-142.89794921875,0,0,1.4831881523132324]
+    },
+    "2-13627": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_tankard_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-357.44854736328125,-351.2232971191406,-142.89794921875,0,0,3.2831883430480957]
+    },
+    "2-13628": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Pitcher_Metal_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-349.749267578125,-315.3398742675781,-136.4769287109375,0,0,3.2831883430480957]
+    },
+    "2-13629": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_03",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-349.8205871582031,-438.28900146484375,-147.80198669433594,0,0,3.2831883430480957]
+    },
+    "2-13630": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_04",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-362.4748840332031,-413.31427001953125,-144.76007080078125,0,0,3.2831883430480957]
+    },
+    "2-13631": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_bowl_03",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-367.4198913574219,-443.04034423828125,-147.80198669433594,0,0,3.2831883430480957]
+    },
+    "2-13632": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-366.21600341796875,-425.8415222167969,-188.4332275390625,0,0,3.2831883430480957]
+    },
+    "2-13633": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-358.59234619140625,-443.15777587890625,-188.55935668945312,0,0,3.2831883430480957]
+    },
+    "2-13634": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_wood_cup_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-349.9616394042969,-431.6549377441406,-188.4332275390625,0,0,3.2831883430480957]
+    },
+    "2-13635": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_basket_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-359.5065002441406,-375.333251953125,-194.99041748046875,0,0,3.583188056945801]
+    },
+    "2-13636": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_empty",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-351.41259765625,-236.57423400878906,-201.35806274414062,0,0,3.2831883430480957]
+    },
+    "2-13637": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [337.1749267578125,-462.6323547363281,-201.35806274414062,0,0,0]
+    },
+    "2-13638": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_food",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [305.3316345214844,-587.6891479492188,-201.35806274414062,0,0,0]
+    },
+    "2-13640": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window",
+      "DATA": [-195.34193420410156,-661.6607666015625,-45.63718032836914,0,0,6.253391742706299]
+    },
+    "2-13641": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window",
+      "DATA": [184.06088256835938,-657.9758911132812,-45.63718032836914,0,0,6.253391742706299]
+    },
+    "2-13642": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [312.7621765136719,544.0458374023438,-177.85791015625,0,0,0]
+    },
+    "2-13643": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [313.60748291015625,321.1653137207031,-177.85791015625,0,0,0]
+    },
+    "2-13644": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_lev_gold",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [296.4550476074219,431.12109375,-215.60116577148438,0,0,1.5000001192092896]
+    },
+    "2-13645": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_PigChildren",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [324.4212646484375,225.1865997314453,-196.45370483398438,0,0,1.0000001192092896]
+    },
+    "2-13646": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_03_64",
+      "ANAM": "risi ice-mane",
+      "INTV": 1123024896,
+      "NAM9": 1,
+      "DATA": [324.1442565917969,221.70333862304688,-189.52647399902344,0,0,0]
+    },
+    "2-13647": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bk_yellowbookofriddles",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-379.8055419921875,118.36511993408203,-78.3083267211914,0,0,0]
+    },
+    "2-13649": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_bottle_02",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-359.1819152832031,-430.4944152832031,-89.45948791503906,0,0,3.2831883430480957]
+    },
+    "2-13650": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-355.5799255371094,-299.43548583984375,-194.6205291748047,0,0,3.2831883430480957]
+    },
+    "2-13651": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_com_metal_plate_04",
+      "ANAM": "risi ice-mane",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-368.5029296875,-327.90887451171875,-194.6205291748047,0,0,3.2831883430480957]
+    },
+    "2-19063": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window_closed",
+      "DATA": [404.026123046875,-151.9869384765625,-37.91423797607422,0,0,4.683187007904053]
+    },
+    "2-19064": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ex_S_window_closed",
+      "DATA": [405.2945861816406,-267.4514465332031,-37.91423797607422,0,0,4.683187007904053]
+    },
+    "2-25833": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.9600000381469727,
+      "DATA": [194.32960510253906,-313.8200378417969,-230.7274627685547,0,0,6.183185577392578]
+    },
+    "2-25834": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "XSCL": 1.4100000858306885,
+      "DATA": [-388.9002380371094,374.1788635253906,-55.28687286376953,1.5707963705062866,1.5707963705062866,0]
+    },
+    "2-25835": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-400.793701171875,324.3017883300781,15.596426963806152,1.6000001430511475,1.5707963705062866,6.26858377456665]
+    },
+    "2-25836": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.9600000381469727,
+      "DATA": [-237.17538452148438,-317.2709655761719,-230.7274627685547,0,0,2.999999523162842]
+    },
+    "2-25837": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.9600000381469727,
+      "DATA": [-214.72799682617188,441.73638916015625,-230.7274627685547,0,0,1.600000023841858]
+    },
+    "2-25838": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_rug_redwolf",
+      "DATA": [91.54075622558594,503.2190856933594,-234.04307556152344,0,0,3.370795965194702]
+    },
+    "2-25839": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_shack_hook",
+      "XSCL": 1.190000057220459,
+      "DATA": [-397.7581787109375,424.7579650878906,10.466300964355469,1.6000001430511475,1.5707963705062866,6.26858377456665]
+    },
+    "2-25840": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_com_chandelier_01_128",
+      "DATA": [78.93306732177734,212.32421875,-39.38972473144531,0,0,0]
+    },
+    "2-25841": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_rug_bearskin",
+      "XSCL": 1.9600000381469727,
+      "DATA": [29.960983276367188,309.009765625,-230.7274627685547,0,0,6.183185577392578]
+    }
+  }
+}

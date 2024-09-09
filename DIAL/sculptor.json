@@ -1,0 +1,326 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "105762705172818140": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1446457051840520784",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "duma gro-lag",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Come back when you got the stuff I need.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "DA_Boethiah",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "DA_Boethiah",
+          "__TV": 60
+        }
+      ]
+    },
+    "1446457051840520784": {
+      "flag": 0,
+      "PNAM": "105762705172818140",
+      "NNAM": "2987732068325268228",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "duma gro-lag",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Come back when you got the stuff I need.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "bk_Boethiah's Glory_unique",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "DA_Boethiah",
+          "__TV": 50
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "DA_Boethiah",
+          "__TV": 60
+        }
+      ]
+    },
+    "2987732068325268228": {
+      "flag": 0,
+      "PNAM": "1446457051840520784",
+      "NNAM": "13922325701797817131",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "duma gro-lag",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You got the stuff? Good, give it here. Okay, I found a place. Nice and away from stuff. Take me a few weeks, though. Gotta get some assistant sculpturists to help me out. Not easy to find, you know? Anyhow, it be done in not too long. I gonna build it at Khartag Point up on coast from here. Up north. You can't miss. It real big.",
+      "BNAM": "Journal \"DA_Boethiah\" 60\r\nPlayer->RemoveItem \"Gold_001\" 2000\r\nPlayer->RemoveItem \"bk_Boethiah's Glory_unique\" 1\r\nAddItem \"Gold_001\" 2000\r\nAddItem \"bk_Boethiah's Glory_unique\" 1\r\nStartScript ShrineBoethiah\r\nAddTopic \"Shrine of Boethiah\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 2000
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "bk_Boethiah's Glory_unique",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "DA_Boethiah",
+          "__TV": 40
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "DA_Boethiah",
+          "__TV": 60
+        }
+      ]
+    },
+    "13922325701797817131": {
+      "flag": 0,
+      "PNAM": "2987732068325268228",
+      "NNAM": "104931979206010663",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "duma gro-lag",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Me do big statue? Hmmm...could be good. Ghorak not throw that far at all! Tell you what--I make you statue. Need money, though for material. Need 2,000 septims for everything. And need plans. How I supposed to make big statue just like old one and not know what old one look like? Must be statue book somewhere tell me how to make shrine! Find me plans and gold, and I make your statue. Meantime, I find a good place to build it.",
+      "BNAM": "Journal \"DA_Boethiah\" 50",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "DA_Boethiah",
+          "__TV": 40
+        }
+      ]
+    },
+    "104931979206010663": {
+      "flag": 0,
+      "PNAM": "13922325701797817131",
+      "NNAM": "2882619774129331461",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "duma gro-lag",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "No? Okay, you come back if you want \"Untitled Rock,\" though.",
+      "BNAM": "Journal \"DA_Boethiah\" 45",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "DA_Boethiah",
+          "__TV": 40
+        },
+        {
+          "index": "1",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "2882619774129331461": {
+      "flag": 0,
+      "PNAM": "104931979206010663",
+      "NNAM": "777471382982715200",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "duma gro-lag",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Me? Well, I have done a few pieces. Mostly, Ghorak just throw them really far. You interested in buying a piece? I'm working on one now...for now, I call \"Untitled Rock.\"",
+      "BNAM": "Journal \"DA_Boethiah\" 40\r\nChoice \"I wish for you to recreate the Shrine of Boethiah.\" 1 \"No, I'm not interested in your work.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "DA_Boethiah",
+          "__TV": 40
+        }
+      ]
+    },
+    "777471382982715200": {
+      "flag": 0,
+      "PNAM": "2882619774129331461",
+      "NNAM": "297061261653136735",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "verick gemain",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A sculptor? Not going to find many around here. Art's not really at a premium, you know? There's an orc in town who likes to carve up some stones, but I'm not about to buy his sculptures. He lives in Ghorak Manor with a bunch of other orcs. Odd ones, to be sure.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "DA_Boethiah",
+          "__TV": 30
+        }
+      ]
+    },
+    "297061261653136735": {
+      "flag": 0,
+      "PNAM": "777471382982715200",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": "Caldera",
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I certainly haven't heard of one around here. You might ask Verick Gemaine, though. He's a trader here in town, and buys and sells many different things. If anyone knows of a local sculptor, it would be him.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "DA_Boethiah",
+          "__TV": 30
+        },
+        {
+          "index": "1",
+          "scvr_type": "C",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "NoLore",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

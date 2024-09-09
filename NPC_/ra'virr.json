@@ -1,0 +1,81 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Khajiit",
+  "CNAM": "Trader Service",
+  "ANAM": "",
+  "BNAM": "b_n_khajiit_m_head_01",
+  "KNAM": "b_n_khajiit_m_hair01",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Ra'Virr",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 13983
+  },
+  "NPCO": [
+    {
+      "count": -1,
+      "name": "devil spear"
+    },
+    {
+      "count": 1,
+      "name": "steel warhammer"
+    },
+    {
+      "count": -1,
+      "name": "fiend katana"
+    },
+    {
+      "count": -1,
+      "name": "fiend tanto"
+    },
+    {
+      "count": -1,
+      "name": "demon tanto"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shirt_02"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03_c"
+    },
+    {
+      "count": -2,
+      "name": "misc_de_bowl_orange_green_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 5,
+    "health": 64,
+    "magicka": 92,
+    "fatigue": 182,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 600,
+    "attributes": [56,46,36,58,46,32,59,40],
+    "skills": [26,12,12,12,26,12,12,12,17,5,5,5,5,5,34,5,5,25,39,39,34,10,10,5,20,34,24]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

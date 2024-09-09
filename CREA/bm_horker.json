@@ -1,0 +1,53 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\Horker.NIF",
+  "FLAG": 88,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 5,
+    "attributes": [90,50,50,70,16,50,50,50],
+    "health": 100,
+    "magicka": 50,
+    "fatigue": 500,
+    "soul_strength": 80,
+    "combat_skill": 90,
+    "magic_skill": 50,
+    "stealth_skill": 50,
+    "attacks": [
+      [1,12],
+      [1,12],
+      [1,12]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 81,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": null,
+  "FNAM": "Horker",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_horker_tusk"
+    }
+  ],
+  "NPCS": [
+    "immune to frost"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Dark Elf",
+  "CNAM": "Warrior",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_01",
+  "MODL": null,
+  "FNAM": "Banden Indarys",
+  "SCRI": "bandenIndarysScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 80,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "extravagant_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_ring_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_glove_left_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_glove_right_01"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_shirt_01_r"
+    },
+    {
+      "count": 1,
+      "name": "extravagant_pants_01"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_boots"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_greaves"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_r"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_pauldron_l"
+    },
+    {
+      "count": 1,
+      "name": "bonemold_gah-julan_cuirass"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 19,
+    "disposition": 50,
+    "reputation": 14,
+    "rank": 6,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [40,20,20,10,0,0,0,0]
+    }
+  ]
+}

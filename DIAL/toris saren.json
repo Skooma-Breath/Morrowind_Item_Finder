@@ -1,0 +1,261 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "31622245761269217751": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "17521268213258123123",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have been expelled.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "17521268213258123123": {
+      "flag": 0,
+      "PNAM": "31622245761269217751",
+      "NNAM": "30923121053170710200",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Toris Saren is dead by your hand.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritSaren",
+          "__TV": 100
+        }
+      ]
+    },
+    "30923121053170710200": {
+      "flag": 0,
+      "PNAM": "17521268213258123123",
+      "NNAM": "2749526863171126654",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You say Toris Saren is already dead? By your own hand? That is unfortunate. The Saren family is influential and it is clear that the execution of this Writ was not honorable. You will get credit for this Writ, but I must use the payment to mend relations with the Saren family.",
+      "BNAM": "Journal MT_WritSaren 100\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition -10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "3",
+          "identifier": "toris saren",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritSaren",
+          "__TV": 0
+        }
+      ]
+    },
+    "2749526863171126654": {
+      "flag": 0,
+      "PNAM": "30923121053170710200",
+      "NNAM": "252632453295095407",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have claimed and executed the Writ on Toris Saren. Here is your payment.",
+      "BNAM": "Journal MT_WritSaren 110\r\nPlayer->AddItem \"Gold_001\" 500\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritSaren",
+          "__TV": 90
+        }
+      ]
+    },
+    "252632453295095407": {
+      "flag": 0,
+      "PNAM": "2749526863171126654",
+      "NNAM": "25706151801018223005",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have claimed and executed the Writ on Toris Saren. Here is your payment.",
+      "BNAM": "Journal MT_WritSaren 100\r\nPlayer->AddItem \"Gold_001\" 500\r\nModPCFacRep 5 \"Morag Tong\"\r\nModDisposition 5",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MT_WritSaren",
+          "__TV": 80
+        }
+      ]
+    },
+    "25706151801018223005": {
+      "flag": 0,
+      "PNAM": "252632453295095407",
+      "NNAM": "3104920736297131424",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_saren",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritSaren",
+          "__TV": 10
+        }
+      ]
+    },
+    "3104920736297131424": {
+      "flag": 0,
+      "PNAM": "25706151801018223005",
+      "NNAM": "13937285692277523983",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have given this Writ to you already, %PCName. As you know, Writs are issued only once. Your official paperwork will exonerate you from your deeds when you are confronted by the authorities - so guard it well. If you have lost it, you will have to suffer punishment for your crimes. This can be costly... very costly. But members of the %Faction must have immaculate reputations.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "writ_saren",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MT_WritSaren",
+          "__TV": 10
+        }
+      ]
+    },
+    "13937285692277523983": {
+      "flag": 0,
+      "PNAM": "3104920736297131424",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": 7,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": null,
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": "Morag Tong",
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Toris Saren may be found in Saren Manor in the Plaza of the Redoran Canton here in Vivec. His family is influential. Make sure his execution is swift and honorable. You need no more instructions than this.",
+      "BNAM": "Journal MT_WritSaren 10\r\nPlayer->AddItem \"writ_saren\" 1",
+      "SCVR": null
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Apothecary Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_f_head_06",
+  "KNAM": "b_n_dark elf_f_hair_12",
+  "MODL": null,
+  "FNAM": "Teril Savani",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8464
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "common_robe_03_a"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_01"
+    },
+    {
+      "count": -10,
+      "name": "p_cure_common_s"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_paralyzation_s"
+    },
+    {
+      "count": 1,
+      "name": "p_cure_poison_s"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_fatigue_c"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_health_c"
+    },
+    {
+      "count": 1,
+      "name": "p_fortify_magicka_c"
+    },
+    {
+      "count": 1,
+      "name": "p_light_b"
+    },
+    {
+      "count": 1,
+      "name": "p_poison_resistance_c"
+    },
+    {
+      "count": 1,
+      "name": "p_reflection_c"
+    },
+    {
+      "count": 1,
+      "name": "p_night-eye_c"
+    },
+    {
+      "count": 1,
+      "name": "p_restore_fatigue_c"
+    },
+    {
+      "count": 2,
+      "name": "p_restore_health_c"
+    },
+    {
+      "count": 1,
+      "name": "p_fire_shield_c"
+    },
+    {
+      "count": 1,
+      "name": "p_swift_swim_c"
+    },
+    {
+      "count": 1,
+      "name": "p_water_walking_s"
+    },
+    {
+      "count": 1,
+      "name": "p_water_breathing_s"
+    },
+    {
+      "count": -10,
+      "name": "p_cure_blight_s"
+    },
+    {
+      "count": -5,
+      "name": "p_disease_resistance_q"
+    },
+    {
+      "count": -2,
+      "name": "p_disease_resistance_e"
+    }
+  ],
+  "NPCS": [
+    "deadly poison",
+    "dire weakness to fire",
+    "dire weakness to frost",
+    "dire weakness to magicka",
+    "dire weakness to poison"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 10,
+    "health": 72,
+    "magicka": 148,
+    "fatigue": 201,
+    "disposition": 50,
+    "reputation": 6,
+    "rank": 2,
+    "_garbage2": 0,
+    "gold": 200,
+    "attributes": [56,74,47,63,57,35,55,40],
+    "skills": [24,6,6,6,39,11,6,6,11,34,58,15,15,15,20,34,48,15,39,6,6,29,16,11,10,24,6]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,10,0,0,0]
+    }
+  ]
+}

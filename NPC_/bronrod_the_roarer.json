@@ -1,0 +1,63 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 24,
+  "RNAM": "Nord",
+  "CNAM": "Healer Service",
+  "ANAM": "Skaal",
+  "BNAM": "b_n_nord_m_head_05",
+  "KNAM": "b_n_nord_m_hair05",
+  "MODL": null,
+  "FNAM": "Bronrod the Roarer",
+  "SCRI": "nolore",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10256
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "BM nordic silver mace"
+    },
+    {
+      "count": 1,
+      "name": "BM_Nordic01_gloveL"
+    },
+    {
+      "count": 1,
+      "name": "BM_Nordic01_gloveR"
+    },
+    {
+      "count": 1,
+      "name": "BM_Nordic01_Robe"
+    },
+    {
+      "count": 1,
+      "name": "BM_Nordic01_shoes"
+    },
+    {
+      "count": 1,
+      "name": "BM_Nordic01_pants"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 35,
+    "disposition": 50,
+    "reputation": 2,
+    "rank": 0,
+    "gold": 500
+  },
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,0,0,0,0,0]
+    }
+  ]
+}

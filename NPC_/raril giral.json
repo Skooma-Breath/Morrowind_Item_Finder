@@ -1,0 +1,85 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Publican",
+  "ANAM": "",
+  "BNAM": "b_n_dark elf_m_head_03",
+  "KNAM": "b_n_dark elf_m_hair_25",
+  "MODL": null,
+  "FNAM": "Raril Giral",
+  "SCRI": "Pub_Vivec_Black",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8208
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_05"
+    },
+    {
+      "count": -10,
+      "name": "random_food"
+    },
+    {
+      "count": -5,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": -5,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -5,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": -5,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -3,
+      "name": "potion_cyro_brandy_01"
+    },
+    {
+      "count": -3,
+      "name": "Potion_Cyro_Whiskey_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 6,
+    "health": 66,
+    "magicka": 116,
+    "fatigue": 180,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [46,58,34,54,56,46,51,40],
+    "skills": [20,6,20,6,20,10,6,20,10,6,16,6,6,6,10,6,6,6,42,42,13,48,23,18,20,42,28]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

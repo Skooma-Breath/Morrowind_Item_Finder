@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 34,
+    "local_var_size": 0
+  },
+  "SCTX": "begin Bed_Standard\r\n\r\n;used for standard beds the player can activate and sleep in\r\n\r\nif ( MenuMode == 0)\r\n\r\n\tif ( OnActivate == 1 )\r\n\r\n\t\tShowRestMenu\r\n\r\n\tendif\r\n\r\nendif\r\n\r\nend\r\n",
+  "SCVR": null,
+  "SCDT": [6,1,3,9,32,88,32,16,32,61,61,32,48,6,1,1,9,32,88,24,16,32,61,61,32,49,229,16,9,1,9,1,1,1]
+}

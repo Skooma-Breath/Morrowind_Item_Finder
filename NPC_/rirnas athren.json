@@ -1,0 +1,72 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "Dark Elf",
+  "CNAM": "Priest Service",
+  "ANAM": "Temple",
+  "BNAM": "b_n_dark elf_m_head_05",
+  "KNAM": "b_n_dark elf_m_hair_06",
+  "MODL": null,
+  "FNAM": "Rirnas Athren",
+  "SCRI": null,
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 43032
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "wooden staff"
+    },
+    {
+      "count": 1,
+      "name": "common_robe_03_a"
+    },
+    {
+      "count": 1,
+      "name": "common_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "common_shoes_03"
+    }
+  ],
+  "NPCS": [
+    "charisma",
+    "nimbleness",
+    "resist poison",
+    "resist paralysis",
+    "almsivi intervention",
+    "rally humanoid",
+    "rally creature",
+    "recall",
+    "enrichment",
+    "Quicksilver"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 9,
+    "health": 73,
+    "magicka": 102,
+    "fatigue": 216,
+    "disposition": 50,
+    "reputation": 4,
+    "rank": 1,
+    "_garbage2": 0,
+    "gold": 150,
+    "attributes": [54,51,68,49,63,45,47,40],
+    "skills": [6,6,6,6,38,11,6,6,11,15,42,47,15,32,52,47,32,47,6,6,6,28,16,11,10,23,6]
+  },
+  "AI_": [
+    {
+      "distance": 128,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

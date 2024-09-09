@@ -1,0 +1,97 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 9,
+  "RNAM": "Dark Elf",
+  "CNAM": "Publican",
+  "ANAM": "Redoran",
+  "BNAM": "b_n_dark elf_f_head_04",
+  "KNAM": "b_n_dark elf_f_hair_18",
+  "MODL": null,
+  "FNAM": "Galore Salvi",
+  "SCRI": "Pub_Ghost_Dusk",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 100,
+    "flags": 8208
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "silver shortsword"
+    },
+    {
+      "count": 1,
+      "name": "lifestone"
+    },
+    {
+      "count": 1,
+      "name": "expensive_skirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_belt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": -20,
+      "name": "random_food"
+    },
+    {
+      "count": -5,
+      "name": "potion_local_liquor_01"
+    },
+    {
+      "count": -5,
+      "name": "Potion_Local_Brew_01"
+    },
+    {
+      "count": -3,
+      "name": "potion_comberry_brandy_01"
+    },
+    {
+      "count": -3,
+      "name": "potion_comberry_wine_01"
+    },
+    {
+      "count": -2,
+      "name": "potion_cyro_brandy_01"
+    },
+    {
+      "count": -2,
+      "name": "Potion_Cyro_Whiskey_01"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 14,
+    "health": 103,
+    "magicka": 142,
+    "fatigue": 218,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 650,
+    "attributes": [57,71,40,75,64,46,79,40],
+    "skills": [28,6,28,6,28,11,6,28,11,6,16,6,6,6,11,6,6,6,54,54,18,60,28,23,10,54,40]
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

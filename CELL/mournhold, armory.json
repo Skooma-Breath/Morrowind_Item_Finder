@@ -1,0 +1,997 @@
+{
+  "deleted": false,
+  "DATA": {
+    "flags": 5,
+    "grid": [3223332,1056964608]
+  },
+  "NAME": "Mournhold, Armory",
+  "RGNN": null,
+  "WHGT": 0,
+  "NAM5": null,
+  "AMBI": {
+    "ambient": [86,66,58,0],
+    "sunlight": [26,23,21,0],
+    "fog_color": [36,47,49,0],
+    "fog_density": 0.5
+  },
+  "FRMR": {
+    "1-24254": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Catia Sosia",
+      "DATA": [64.97882843017578,125.48434448242188,-110.96104431152344,0,0,3.0999996662139893]
+    },
+    "1-24255": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "ordinator_mh_stationary",
+      "DATA": [-410.40765380859375,-90.71409606933594,-104.8026351928711,0,0,1.600000023841858]
+    },
+    "1-16904": {
+      "deleted": false,
+      "persistent": true,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "In_MH_door_01",
+      "DATA": [-128.04493713378906,-272.7791748046875,0,0,0,3.1415927410125732]
+    },
+    "1-16905": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [128,-128,256,0,0,4.71238899230957]
+    },
+    "1-16906": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [-128,-128,256,0,0,3.1415929794311523]
+    },
+    "1-16907": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-384,-128,256,0,0,0.00000011920928955078125]
+    },
+    "1-16908": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-384,128,256,0,0,1.5707961320877075]
+    },
+    "1-16909": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_02",
+      "DATA": [-128,128,256,0,0,3.1415929794311523]
+    },
+    "1-16910": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_entrance_01",
+      "DATA": [-128,-128,0,0,0,1.5707964897155762]
+    },
+    "1-16911": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_doorjamb_01",
+      "DATA": [-128,-256,0,0,0,0]
+    },
+    "1-16912": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [128,384,256,0,0,3.1415929794311523]
+    },
+    "1-16913": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_stairs_01",
+      "DATA": [-128,384,128,0,0,0.00000011920928955078125]
+    },
+    "1-16914": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [128,384,0,0,0,3.1415929794311523]
+    },
+    "1-16915": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [128,128,256,0,0,1.5707961320877075]
+    },
+    "1-16916": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [128,-128,0,0,0,4.71238899230957]
+    },
+    "1-16917": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_center_01",
+      "DATA": [-128,128,0,0,0,4.71238899230957]
+    },
+    "1-16918": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [128,128,0,0,0,1.5707963705062866]
+    },
+    "1-16919": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-384,-128,0,0,0,0.00000011920928955078125]
+    },
+    "1-16920": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_wall_01",
+      "DATA": [-384,128,0,0,0,4.71238899230957]
+    },
+    "1-16921": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_corner_01",
+      "DATA": [-384,384,0,0,0,1.5707961320877075]
+    },
+    "1-16922": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "in_MH_int_rail_01",
+      "DATA": [-128,384,256,0,0,0]
+    },
+    "1-20477": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_uni_pillow_01",
+      "XSCL": 1.1200000047683716,
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-431.7424011230469,-139.30279541015625,183.82757568359375,0,0,0]
+    },
+    "1-20478": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "netch_leather_gauntlet_left",
+      "ANAM": "Catia Sosia",
+      "INTV": 25,
+      "NAM9": 1,
+      "DATA": [-8.107315063476562,28.018081665039062,-64,0,0,6.183185577392578]
+    },
+    "1-20479": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "netch_leather_gauntlet_right",
+      "ANAM": "Catia Sosia",
+      "INTV": 25,
+      "NAM9": 1,
+      "DATA": [0,16,-64,0,0,0.7000000476837158]
+    },
+    "1-20482": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_02_128",
+      "DATA": [181.38055419921875,432.7823486328125,258.8165283203125,0,0,4.785398006439209]
+    },
+    "1-20483": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "meldor",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-136,16,-96,0,0,0]
+    },
+    "1-20484": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_03",
+      "ANAM": "meldor",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-200,16,-96,0,0,4.71238899230957]
+    },
+    "1-20485": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_bar_02",
+      "ANAM": "meldor",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-200,208,-96,0,0,3.1415927410125732]
+    },
+    "1-20486": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_shield",
+      "ANAM": "Catia Sosia",
+      "INTV": 300,
+      "NAM9": 1,
+      "DATA": [-197.30604553222656,30.592147827148438,-57.28866958618164,0.06108652427792549,0,0.9995331764221191]
+    },
+    "1-20487": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_pauldron_r",
+      "ANAM": "Catia Sosia",
+      "INTV": 150,
+      "NAM9": 1,
+      "DATA": [-198.97589111328125,71.64414978027344,-62.44266891479492,0,0,5.683185577392578]
+    },
+    "1-20488": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09_64",
+      "DATA": [-103.96099090576172,8.05511474609375,-44.182945251464844,0,0,0]
+    },
+    "1-20489": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_helm",
+      "ANAM": "Catia Sosia",
+      "INTV": 180,
+      "NAM9": 1,
+      "DATA": [-206.21713256835938,102.5802001953125,-57.3295783996582,0,5.583186149597168,1.5000001192092896]
+    },
+    "1-20490": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_04",
+      "ANAM": "meldor",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-8,16,-96,0,0,4.71238899230957]
+    },
+    "1-20491": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_shelf_02",
+      "DATA": [-476.4125671386719,120.42008209228516,-21.27947425842285,0,0,4.719370365142822]
+    },
+    "1-20492": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chest_small_01_gold_50",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 50,
+      "DATA": [-88.86784362792969,31.239673614501953,-55.71636962890625,0,0,3.5123894214630127]
+    },
+    "1-20493": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_09_64",
+      "DATA": [-473.07122802734375,78.77195739746094,7.162890911102295,0,0,3.8685851097106934]
+    },
+    "1-20494": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_03",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-477.2411193847656,96.49440002441406,-5.1289753913879395,0,0,6.239380359649658]
+    },
+    "1-20495": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Misc_Com_Bottle_08",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-485.5550231933594,104.38325500488281,5.347949504852295,0,0,3.0831868648529053]
+    },
+    "1-20496": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8400000333786011,
+      "DATA": [-443.68463134765625,-208.58514404296875,72.71502685546875,0,0,0.6292020082473755]
+    },
+    "1-20497": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_armorbonemold_",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [153.70469665527344,-164.62088012695312,-95.99996948242188,0,0,0.5994837880134583]
+    },
+    "1-20499": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_boots",
+      "ANAM": "Catia Sosia",
+      "INTV": 150,
+      "NAM9": 1,
+      "DATA": [193.78286743164062,206.9196319580078,-97.81300354003906,0,0,1.799728274345398]
+    },
+    "1-20500": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_p_bookshelf_01",
+      "DATA": [197.3368377685547,145.3643798828125,-63.237979888916016,0,0,1.5292021036148071]
+    },
+    "1-20501": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron boots",
+      "ANAM": "Catia Sosia",
+      "INTV": 450,
+      "NAM9": 1,
+      "DATA": [198.37644958496094,90.57600402832031,-97.29402160644531,0,0,1.599727749824524]
+    },
+    "1-20502": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "trollbone_helm",
+      "ANAM": "Catia Sosia",
+      "INTV": 180,
+      "NAM9": 1,
+      "DATA": [192.339599609375,205.4534454345703,-1.5977087020874023,0,5.783185958862305,1.5292021036148071]
+    },
+    "1-20503": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "iron_helmet",
+      "ANAM": "Catia Sosia",
+      "INTV": 100,
+      "NAM9": 1,
+      "DATA": [194.67601013183594,148.5423583984375,0,0,0,1.6007606983184814]
+    },
+    "1-20504": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "chitin cuirass",
+      "ANAM": "Catia Sosia",
+      "INTV": 300,
+      "NAM9": 1,
+      "DATA": [202.06927490234375,103.354736328125,-51.659019470214844,0,0,1.89921236038208]
+    },
+    "1-20505": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "dreugh_shield",
+      "ANAM": "Catia Sosia",
+      "INTV": 800,
+      "NAM9": 1,
+      "DATA": [200.99351501464844,182.6223907470703,-46.781455993652344,0,0.20000000298023224,0.20000001788139343]
+    },
+    "1-20506": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "bonemold_cuirass",
+      "ANAM": "Catia Sosia",
+      "INTV": 480,
+      "NAM9": 1,
+      "DATA": [199.5013427734375,156.71868896484375,-96.39082336425781,0,0,1.5000001192092896]
+    },
+    "1-20509": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_basket_01_ingredien",
+      "XSCL": 1.2600001096725464,
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [135.78968811035156,429.7031555175781,-19.595905303955078,0,0,2.883283853530884]
+    },
+    "1-20510": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_msugar2",
+      "XSCL": 1.1700000762939453,
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [95.3189697265625,392.9241638183594,-33.399017333984375,0,0,5.508188247680664]
+    },
+    "1-20511": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8400000333786011,
+      "DATA": [-110.13707733154297,240.0739288330078,74.65006256103516,0,0,3.1415927410125732]
+    },
+    "1-20512": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "meldor",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-200,144,-96,0,0,4.71238899230957]
+    },
+    "1-20516": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "meldor",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-200,80,-96,0,0,4.71238899230957]
+    },
+    "1-20519": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_armornetch_mel",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [187.6451416015625,325.0976257324219,-95.99996948242188,0,0,4.183900356292725]
+    },
+    "1-20520": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_armornetch_mel",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [142.50730895996094,414.7018127441406,-95.99996948242188,0,0,4.183900356292725]
+    },
+    "1-20521": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "crate_01_armorchitin_me",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [77.05540466308594,378.6106872558594,-95.99996948242188,0,0,3.983187675476074]
+    },
+    "1-20522": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8400000333786011,
+      "DATA": [198.06594848632812,-194.01075744628906,75.63555908203125,0,0,5.412387847900391]
+    },
+    "1-20523": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "active_de_r_bed_01",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-362.60382080078125,-146.59437561035156,158.9407958984375,0,0,3.2831876277923584]
+    },
+    "1-20524": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_r_Table_09",
+      "XSCL": 0.7100000381469727,
+      "DATA": [-432.92340087890625,-47.28095245361328,148.5494384765625,0,0,6.183185577392578]
+    },
+    "1-20525": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [-435.11309814453125,-49.31087875366211,187.621826171875,0,0,3.1269924640655518]
+    },
+    "1-20526": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_closet_01_fcloth01",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-398.8181457519531,139.19911193847656,207.77586364746094,0,0,5.4831862449646]
+    },
+    "1-20527": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "de_r_drawers_01_fcloth",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [195.25392150878906,128.4694366455078,176.67037963867188,0,0,1.600000262260437]
+    },
+    "1-20529": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_wallscreen_02",
+      "DATA": [-239.10708618164062,-136.70269775390625,131.65953063964844,0,0,1.383188009262085]
+    },
+    "1-20530": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_02",
+      "XSCL": 0.7300000190734863,
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-190.81561279296875,197.0657501220703,174.22259521484375,0,0,5.983185768127441]
+    },
+    "1-20531": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.8500000238418579,
+      "DATA": [-187.3430633544922,198.4038848876953,127.42779541015625,0,0,5.983185768127441]
+    },
+    "1-20532": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_planter_01",
+      "XSCL": 0.8500000238418579,
+      "DATA": [-396.7811584472656,441.85638427734375,-128.99856567382812,0,0,0]
+    },
+    "1-20533": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "flora_plant_03",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-391.9137268066406,435.9817810058594,-81.64888763427734,0,0,0]
+    },
+    "1-20534": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_01",
+      "XSCL": 1.4100000858306885,
+      "DATA": [-115.78559112548828,7.596188545227051,125.46672058105469,0,0,5.883185863494873]
+    },
+    "1-20535": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "urn_04_food",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-114.41346740722656,-195.55117797851562,172.15110778808594,0,0,0.7749989032745361]
+    },
+    "1-20536": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-66.77572631835938,-195.51004028320312,163.3299560546875,0,0,1.2749994993209839]
+    },
+    "1-20537": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-186.0965118408203,-126.90576171875,166.3639373779297,0,0,5.524998188018799]
+    },
+    "1-20538": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_sack_02_pos",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-127.68130493164062,-153.58224487304688,154.15469360351562,0,0,1.7668136358261108]
+    },
+    "1-20539": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Com_Basket_01_POS",
+      "XSCL": 1.350000023841858,
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-172.2595672607422,-182.70318603515625,178.69931030273438,0,0,1.2749994993209839]
+    },
+    "1-20540": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [44.34010314941406,-180.39785766601562,174.21609497070312,0,0,4.458186149597168]
+    },
+    "1-20541": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_table_08",
+      "DATA": [136.94403076171875,-144.25782775878906,155.91717529296875,0,0,0.9000000953674316]
+    },
+    "1-20542": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_bowl_01",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [147.383544921875,-132.9571533203125,190.72003173828125,0,0,1.1250001192092896]
+    },
+    "1-20543": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_pitcher_01",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [118.73406219482422,-117.11370086669922,198.62208557128906,0,0,1.9000738859176636]
+    },
+    "1-20544": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_candle_02_64",
+      "DATA": [130.00189208984375,-162.7238006591797,203.1487579345703,0,0,5.226990699768066]
+    },
+    "1-20545": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "misc_de_goblet_04",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [153.05296325683594,-161.86526489257812,190.726806640625,0,0,1.6750001907348633]
+    },
+    "1-20546": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [204.0241241455078,453.05633544921875,332.51458740234375,0,0,3.999999523162842]
+    },
+    "1-20547": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [-442.19744873046875,433.26141357421875,4.202040672302246,0,0,3.2750003337860107]
+    },
+    "1-20548": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_de_rug_big_01",
+      "XSCL": 1.4100000858306885,
+      "DATA": [-192.77279663085938,-19.11675262451172,-130.53326416015625,0,0,0.30000001192092896]
+    },
+    "1-20549": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_r_chair_03",
+      "DATA": [173.3043670654297,-48.48225021362305,172.03912353515625,0,0,0.27499884366989136]
+    },
+    "1-20550": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-456.5065002441406,448.9569091796875,76.88524627685547,0,0,2.3999998569488525]
+    },
+    "1-20551": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lamp_03_128",
+      "DATA": [-421.64105224609375,-183.1699676513672,5.978763580322266,0,0,3.2750003337860107]
+    },
+    "1-20552": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8400000333786011,
+      "DATA": [-124.97573852539062,-238.67831420898438,333.3899230957031,0,0,0.02920200675725937]
+    },
+    "1-20553": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_07",
+      "XSCL": 0.8400000333786011,
+      "DATA": [238.72633361816406,127.98066711425781,335.6641540527344,0,0,4.712388515472412]
+    },
+    "1-20554": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [201.6119842529297,-192.51287841796875,337.33587646484375,0,0,5.499998569488525]
+    },
+    "1-20555": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_tapestry_10",
+      "XSCL": 0.800000011920929,
+      "DATA": [-447.3492736816406,-206.4719696044922,334.54620361328125,0,0,0.7168123722076416]
+    },
+    "1-22167": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glass_bracer_left",
+      "ANAM": "Catia Sosia",
+      "INTV": 400,
+      "NAM9": 1,
+      "DATA": [195.33453369140625,67.65672302246094,-4.472559452056885,0,0.10000001639127731,6.08318567276001]
+    },
+    "1-22168": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glass_bracer_right",
+      "ANAM": "Catia Sosia",
+      "INTV": 400,
+      "NAM9": 1,
+      "DATA": [189.45181274414062,80.92436218261719,-4.657442569732666,0,0.10000001639127731,0.4000000059604645]
+    },
+    "1-22169": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glass_pauldron_left",
+      "ANAM": "Catia Sosia",
+      "INTV": 500,
+      "NAM9": 1,
+      "DATA": [198.7388458251953,93.91606140136719,-6.243551731109619,0,0,0]
+    },
+    "1-22170": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "glass_pauldron_right",
+      "ANAM": "Catia Sosia",
+      "INTV": 500,
+      "NAM9": 1,
+      "DATA": [194.14797973632812,110.1871109008789,-6.407717227935791,0,0,5.883185863494873]
+    },
+    "1-24161": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [187.26148986816406,127.35395050048828,347.0938415527344,0,0,0.00000016391277313232422]
+    },
+    "1-24162": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [190.3756561279297,130.87400817871094,366.0670471191406,0,0,3.2123892307281494]
+    },
+    "1-24163": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-129.41452026367188,-192.23440551757812,346.3647155761719,0,0,1.5000003576278687]
+    },
+    "1-24164": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "furn_de_rope_03",
+      "DATA": [-125.68303680419922,-195.091796875,365.3379211425781,0,0,4.712390422821045]
+    },
+    "1-24165": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-256.127197265625,3.706411838531494,111.4197769165039,0,0,1.5000003576278687]
+    },
+    "1-24166": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "light_de_lantern_03_128",
+      "DATA": [-1.9601691961288452,3.1894004344940186,111.09693908691406,0,0,1.5000003576278687]
+    },
+    "1-25066": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "NorthMarker",
+      "DATA": [475.179443359375,91.58319091796875,195.611083984375,0,0,0]
+    },
+    "1-25067": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "Furn_De_Bar_01",
+      "ANAM": "meldor",
+      "INTV": 0,
+      "NAM9": 1,
+      "DATA": [-72,16,-96,0,0,3.1415927410125732]
+    },
+    "1-25429": {
+      "deleted": false,
+      "persistent": false,
+      "initially_disabled": false,
+      "blocked": false,
+      "NAME": "com_chest_02_v_sosia",
+      "ANAM": "Catia Sosia",
+      "INTV": 0,
+      "NAM9": 1,
+      "FLTV": 100,
+      "DATA": [-115.53005981445312,188.71466064453125,-102.92154693603516,0,0,0]
+    }
+  }
+}

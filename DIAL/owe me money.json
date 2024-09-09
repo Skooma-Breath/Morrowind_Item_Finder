@@ -1,0 +1,329 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "58116666271127724": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "582119794288556",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Get out of my sight, %PCRace.",
+      "BNAM": "Goodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MS_BarbarianBook",
+          "__TV": 110
+        }
+      ]
+    },
+    "582119794288556": {
+      "flag": 0,
+      "PNAM": "58116666271127724",
+      "NNAM": "2160018469323218417",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right, he can go.  Alam, remove his bracers.  Dilborn, never show your face to me again, or I'll slice it off with a rusty spoon, you hear me?",
+      "BNAM": "Journal \"MS_BarbarianBook\" 110\r\nplayer->removeitem gold_001 1000\r\nadditem gold_001 1000\r\ndilborn->RemoveItem \"slave_bracer_left\" 1\r\ndilborn->RemoveItem \"slave_bracer_right\"1\r\nthrud->AiWander 0,0,0,0,0\r\n\"alam merys\"->AiTravel 40, -6187, 782, 0\r\n\"melur savil\"->AiTravel -413, -6189, 782, 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "2160018469323218417": {
+      "flag": 0,
+      "PNAM": "582119794288556",
+      "NNAM": "10085130271548314146",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the cash, %PCRace. Bring it to me when you do. Dilborn doesn't move unless I have the money in my hands.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 1000
+        }
+      ]
+    },
+    "10085130271548314146": {
+      "flag": 0,
+      "PNAM": "2160018469323218417",
+      "NNAM": "17589248173044824100",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "All right, he can go. Alam, remove his bracers. Dilborn, never show your face to me again, or I'll slice it off with a rusty spoon, you hear me?",
+      "BNAM": "Journal \"MS_BarbarianBook\" 110\r\ndilborn->RemoveItem \"slave_bracer_left\" 1\r\ndilborn->RemoveItem \"slave_bracer_right\" 1\r\nplayer->removeitem gold_001 3000\r\nadditem gold_001 3000\r\nthrud->AiWander 0,0,0,0,0\r\n\"alam merys\"->AiTravel 40, -6187, 782, 0\r\n\"melur savil\"->AiTravel -413, -6189, 782, 0\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 3000
+        }
+      ]
+    },
+    "17589248173044824100": {
+      "flag": 0,
+      "PNAM": "10085130271548314146",
+      "NNAM": "3424132652208025920",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have the cash, %PCRace. Bring it to me when you do. Dilborn doesn't move unless I have the money in my hands.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 3000
+        }
+      ]
+    },
+    "3424132652208025920": {
+      "flag": 0,
+      "PNAM": "17589248173044824100",
+      "NNAM": "20598309892040931970",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "How unfortunate. Boys, go ahead and get rid of that naked Breton monkey. I'll take care of the hero and his witless man-child over here.",
+      "BNAM": "set \"alam merys\".attack to 1\r\nset \"melur savil\".attack to 1\r\nset dilborn.attacked to 1\r\nStartCombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "20598309892040931970": {
+      "flag": 0,
+      "PNAM": "3424132652208025920",
+      "NNAM": "12702298852038222342",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You can pay me 1,000 septims, or go away and stop annoying me. What will it be?",
+      "BNAM": "Choice \"Okay, here's the money.\" 4 \"Forget it. Let him go now.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MS_BarbarianBook",
+          "__TV": 40
+        }
+      ]
+    },
+    "12702298852038222342": {
+      "flag": 0,
+      "PNAM": "20598309892040931970",
+      "NNAM": "46111725143574533",
+      "DATA": {
+        "value": 80,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well... I hesitate to set a precedent... but only because I can't abide his constant whining, I'll reduce his ransom to the inconsequential sum of 1,000 septims. Now, are you going to pay for little Dilborn or not?",
+      "BNAM": "Journal \"MS_BarbarianBook\" 40\r\nChoice \"Okay, here's the money.\" 4 \"Forget it. Let him go now.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "46111725143574533": {
+      "flag": 0,
+      "PNAM": "12702298852038222342",
+      "NNAM": "3066034622170814595",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Not for you, my little %PCRace friend. If they owe me money, even my closest associates have trouble persuading me to back off a debt.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "3066034622170814595": {
+      "flag": 0,
+      "PNAM": "46111725143574533",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "drathas nerus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "That's right, %PCRace. We indulge in a bit of gambling down here from time to time, away from the prying eyes of the guards, you know? Dilborn is one of our best customers. He currently owes... if my memory serves me right...  yes, Dilborn owes me the sum total of 3,000 septims. And he's not leaving here until he pays his debts.",
+      "BNAM": "Journal \"MS_BarbarianBook\" 30\r\nChoice \"Could you lower his ransom at all?\" 1 \"Hold on, I can pay his ransom.\" 2 \"Let him go now or feel my wrath.\" 3",
+      "SCVR": null
+    }
+  }
+}

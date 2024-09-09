@@ -1,0 +1,54 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\DuskyAlit.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 7,
+    "attributes": [75,30,30,65,42,30,200,30],
+    "health": 105,
+    "magicka": 75,
+    "fatigue": 1000,
+    "soul_strength": 25,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [7,21],
+      [7,21],
+      [7,21]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "alit",
+  "FNAM": "Blighted Alit",
+  "SCRI": "diseaseBlackHeart",
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_alit_hide"
+    }
+  ],
+  "NPCS": [
+    "alit bite",
+    "black-heart blight"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 1000,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [30,50,30,0,0,0,0,0]
+    }
+  ]
+}

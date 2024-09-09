@@ -1,0 +1,57 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\DwarvenSpecter.NIF",
+  "FLAG": 1096,
+  "NPDT": {
+    "creature_type": 2,
+    "level": 5,
+    "attributes": [50,50,50,50,30,50,50,50],
+    "health": 60,
+    "magicka": 75,
+    "fatigue": 400,
+    "soul_strength": 200,
+    "combat_skill": 50,
+    "magic_skill": 90,
+    "stealth_skill": 20,
+    "attacks": [
+      [5,15],
+      [5,15],
+      [5,15]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 20,
+    "alarm": 0,
+    "flags": 0
+  },
+  "CNAM": "dwarven ghost",
+  "FNAM": "Dwarven Spectre",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "random_ectoplasm"
+    }
+  ],
+  "NPCS": [
+    "grave curse: luck",
+    "grave curse: willpower",
+    "immune to normal weapons",
+    "chameleon_60",
+    "reflect_20"
+  ],
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [20,20,50,0,0,0,20,0]
+    }
+  ]
+}

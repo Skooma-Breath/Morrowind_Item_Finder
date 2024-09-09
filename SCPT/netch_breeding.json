@@ -1,0 +1,13 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 0,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 73,
+    "local_var_size": 0
+  },
+  "SCTX": "begin Netch_breeding\r\n;put on breeding netch for message when you kill them\r\n\r\n\r\nif ( menumode == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( OnDeath == 1 )\r\n\tMessageBox \"You have killed a breeding Netch.\"\r\nendif\r\n\r\nend Netch_breeding\r\n\r\n\t\r\n",
+  "SCVR": null,
+  "SCDT": [6,1,1,9,32,88,32,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,88,240,16,32,61,61,32,49,0,16,33,0,89,111,117,32,104,97,118,101,32,107,105,108,108,101,100,32,97,32,98,114,101,101,100,105,110,103,32,78,101,116,99,104,46,0,0,9,1,1,1]
+}

@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 25,
+  "RNAM": "Argonian",
+  "CNAM": "Slave",
+  "ANAM": "",
+  "BNAM": "b_n_argonian_f_head_01",
+  "KNAM": "b_n_argonian_f_hair04",
+  "MODL": "base_animKnA.nif",
+  "FNAM": "Meeh-Mei",
+  "SCRI": "slaveScript",
+  "AIDT": {
+    "greet": 30,
+    "fight": 0,
+    "flee": 70,
+    "alarm": 0,
+    "flags": 0
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "miner's pick"
+    },
+    {
+      "count": 1,
+      "name": "common_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "slave_bracer_right"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "NPDT": {
+    "level": 1,
+    "disposition": 50,
+    "reputation": 0,
+    "rank": 0,
+    "gold": 0
+  },
+  "AI_": [
+    {
+      "distance": 64,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,0,0]
+    }
+  ]
+}

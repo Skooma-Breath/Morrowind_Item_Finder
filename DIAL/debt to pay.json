@@ -1,0 +1,340 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "1415222945102534996": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "1134621824134899520",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I don't want to see that little brat again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "EB_Invisible",
+          "__TV": 70
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "1",
+          "identifier": "EB_Invisible",
+          "__TV": 80
+        },
+        {
+          "index": "2",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "1",
+          "identifier": "EB_Invisible",
+          "__TV": 90
+        }
+      ]
+    },
+    "1134621824134899520": {
+      "flag": 0,
+      "PNAM": "1415222945102534996",
+      "NNAM": "13827143292579016616",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I heard his father gave you the money to pay his debt. Return when you actually have it.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Invisible",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 400
+        }
+      ]
+    },
+    "13827143292579016616": {
+      "flag": 0,
+      "PNAM": "1134621824134899520",
+      "NNAM": "53866192621123505",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's good that his father is paying off the debt. Makes sense, I suppose. Well, I'll remove the spell. From all I've heard, his father is an honest man, and I've no problem with him.",
+      "BNAM": "Journal \"EB_Invisible\" 100\r\nPlayer->RemoveItem \"Gold_001\" 400\r\nAddItem \"Gold_001\" 400\r\n\"Cassius Olcinius\"->RemoveSpell \"chameleon_100_unique\"",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Invisible",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 400
+        }
+      ]
+    },
+    "53866192621123505": {
+      "flag": 0,
+      "PNAM": "13827143292579016616",
+      "NNAM": "259167841963830948",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, he should. He's an idiot. A harmless idiot, but an idiot nonetheless.",
+      "BNAM": "Journal \"EB_Invisible\" 80",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "259167841963830948": {
+      "flag": 0,
+      "PNAM": "53866192621123505",
+      "NNAM": "1922214682341318268",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You want to pay the debt? Fine with me. I'll remove the spell. But I don't want to see the little fool back here again any time soon.",
+      "BNAM": "Journal \"EB_Invisible\" 70\r\n\"Cassius Olcinius\"->RemoveSpell \"chameleon_100_unique\"\r\nPlayer->RemoveItem \"Gold_001\" 400\r\nAddItem \"Gold_001\" 400",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 400
+        }
+      ]
+    },
+    "1922214682341318268": {
+      "flag": 0,
+      "PNAM": "259167841963830948",
+      "NNAM": "192622284101972085",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He still owes me 400 septims. I haven't even charged interest on the debt, because I don't believe the little fool would understand what it meant. You can pay the debt yourself, if you wish.",
+      "BNAM": "Choice \"I'll pay the debt for him.\" 1 \"He should learn to pay his own debts.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "Gold_001",
+          "__TV": 400
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Invisible",
+          "__TV": 70
+        }
+      ]
+    },
+    "192622284101972085": {
+      "flag": 0,
+      "PNAM": "1922214682341318268",
+      "NNAM": "185240441343718954",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "fevyn ralen",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He still owes me 400 septims. I haven't even charged interest on the debt, because I don't believe the little fool would understand what it meant.",
+      "BNAM": "Choice \"He should learn to pay his own debts.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "4",
+          "identifier": "Gold_001",
+          "__TV": 400
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Invisible",
+          "__TV": 70
+        }
+      ]
+    },
+    "185240441343718954": {
+      "flag": 0,
+      "PNAM": "192622284101972085",
+      "NNAM": "6607131942262019218",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucretinaus olcinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A debt to that wizard? Foolish boy. The number of times I've heard about stupid things Cassius Olcinius has done would turn your head.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "EB_Invisible",
+          "__TV": 70
+        }
+      ]
+    },
+    "6607131942262019218": {
+      "flag": 0,
+      "PNAM": "185240441343718954",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "lucretinaus olcinius",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Cassius did what??? What??? Oh, that foolish boy. Still, he's mine, and I do love him. Here, take this money and repay his debt for me. It amazes me what young people will do sometimes.",
+      "BNAM": "Journal \"EB_Invisible\" 90\r\nPlayer->AddItem \"Gold_001\" 400\r\nRemoveItem \"Gold_001\" 400",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "EB_Invisible",
+          "__TV": 90
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "1",
+          "identifier": "EB_Invisible",
+          "__TV": 70
+        }
+      ]
+    }
+  }
+}

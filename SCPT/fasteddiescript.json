@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 155,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin fastEddieScript\r\n\r\nshort noLore\r\n\r\n;do stuff here to make him disappear for a week\r\n\r\nif ( CellChanged == 0 )\r\n\tReturn\r\nendif\r\n\r\nif ( GetJournalIndex HT_EddieRing == 50 )\r\n\tDisable\r\nendif\r\n\r\nif ( GetJournalIndex HT_EddieRing == 70 )\r\n\tEnable\r\nendif\r\n\r\nif ( GetJournalIndex HT_EddieAmulet == 50 )\r\n\tDisable\r\nendif\r\n\r\nif ( GetJournalIndex HT_EddieAmulet == 70 )\r\n\tEnable\r\nendif\r\n\r\nEnd",
+  "SCVR": [
+    "noLore"
+  ],
+  "SCDT": [6,1,1,9,32,88,31,16,32,61,61,32,48,36,1,9,1,6,1,1,25,32,88,205,16,32,100,12,72,84,95,69,100,100,105,101,82,105,110,103,32,61,61,32,53,48,219,16,9,1,6,1,1,25,32,88,205,16,32,100,12,72,84,95,69,100,100,105,101,82,105,110,103,32,61,61,32,55,48,218,16,9,1,6,1,1,27,32,88,205,16,32,100,14,72,84,95,69,100,100,105,101,65,109,117,108,101,116,32,61,61,32,53,48,219,16,9,1,6,1,1,27,32,88,205,16,32,100,14,72,84,95,69,100,100,105,101,65,109,117,108,101,116,32,61,61,32,55,48,218,16,9,1,1,1]
+}

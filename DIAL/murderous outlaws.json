@@ -1,0 +1,138 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "195281316563177139": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "3208032034350723826",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjol",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're still here? I think you'd best be on your way. I'd hate for any of those \"outlaws\" to find you. Heh.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_Bastard",
+          "__TV": 105
+        }
+      ]
+    },
+    "3208032034350723826": {
+      "flag": 0,
+      "PNAM": "195281316563177139",
+      "NNAM": "178153472462823046",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjol",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "A wise choice, traveler. As I mentioned, these are dangerous times. You had best be on your way now.",
+      "BNAM": "Journal \"MV_Bastard\" 105\r\nPlayer->RemoveItem \"Gold_001\" 100\r\nAddItem \"Gold_001\" 100\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "178153472462823046": {
+      "flag": 0,
+      "PNAM": "3208032034350723826",
+      "NNAM": "1915129571230053201",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjol",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hrmph. It seemed a small price to pay for your life. No matter, though. I'll have that gold one way or another.",
+      "BNAM": "ModDisposition -40\r\nSetFight 100\r\nStartcombat Player\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "1915129571230053201": {
+      "flag": 0,
+      "PNAM": "178153472462823046",
+      "NNAM": "30269227881530530954",
+      "DATA": {
+        "value": 40,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjol",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, yes, these are dangerous times. They'll rob you blind and cut your throat without giving it a second thought. It's a bad idea to carry anything of value on your person. In fact, it's probably best if you give me that gold of yours...100 septims, perhaps? I think you'll find the way less dangerous if you do.",
+      "BNAM": "Journal \"MV_Bastard\" 100\r\nChoice \"Give Fjol 100 septims.\" 1 \"Refuse to give Fjol 100 septims.\" 2",
+      "SCVR": null
+    },
+    "30269227881530530954": {
+      "flag": 0,
+      "PNAM": "1915129571230053201",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Fjol",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Indeed. Like me. You'll be giving me 100 septims now, if you want to live through the day. Either way you choose is fine with me.",
+      "BNAM": "Journal \"MV_Bastard\" 100\r\nChoice \"Give Fjol 100 septims\" 1 \"Refuse to give Fjol 100 septims\" 2",
+      "SCVR": null
+    }
+  }
+}

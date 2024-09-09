@@ -1,0 +1,296 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "12429283541209626294": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "90379251001624293",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "chaplain ogrul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Hmm. You wouldn't want me to think you greedy, eh? One trick is all you get.",
+      "BNAM": "; Chaplain Ogrul; Journal IC2_muck >= 15;",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC2_Muck",
+          "__TV": 15
+        }
+      ]
+    },
+    "90379251001624293": {
+      "flag": 0,
+      "PNAM": "12429283541209626294",
+      "NNAM": "11534295138828240",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "chaplain ogrul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. Now, if you'll excuse me, I must return to my duties. Farewell, and give my regards to Synnolian.",
+      "BNAM": "; Chaplain Ogrul; Journal IC2_muck >= 10; Journal IC2_muck >= 50; CHOICE 5; \r\nJournal IC2_muck 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC2_Muck",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC2_Muck",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 5
+        }
+      ]
+    },
+    "11534295138828240": {
+      "flag": 0,
+      "PNAM": "90379251001624293",
+      "NNAM": "2197335622848132383",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "chaplain ogrul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. [Chaplain Ogrul teaches you his version of the Restore Luck spell.] There. I hope you find it useful. Now, if you'll excuse me, I must return to my duties. Farewell, and give my regards to Synnolian.",
+      "BNAM": "; Chaplain Ogrul; Journal IC2_muck >= 10; Journal IC2_muck >= 50; CHOICE 4; \r\nplayer->addspell \"Ogrul's_Lucky_Again\"\r\nJournal IC2_muck 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC2_Muck",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC2_Muck",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 4
+        }
+      ]
+    },
+    "2197335622848132383": {
+      "flag": 0,
+      "PNAM": "11534295138828240",
+      "NNAM": "19036125621059723103",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "chaplain ogrul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. [Chaplain Ogrul teaches you his version of the Restore Speed spell.] There. I hope you find it useful. Now, if you'll excuse me, I must return to my duties. Farewell, and give my regards to Synnolian.",
+      "BNAM": "; Chaplain Ogrul; Journal IC2_muck >= 10; Journal IC2_muck >= 50; CHOICE 3; \r\nplayer->addspell \"Ogrul's_Quick_Again\"\r\nJournal IC2_muck 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC2_Muck",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC2_Muck",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        }
+      ]
+    },
+    "19036125621059723103": {
+      "flag": 0,
+      "PNAM": "2197335622848132383",
+      "NNAM": "117626231348325405",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "chaplain ogrul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. [Chaplain Ogrul teaches you his version of the Restore Willpower spell.] There. I hope you find it useful. Now, if you'll excuse me, I must return to my duties. Farewell, and give my regards to Synnolian.",
+      "BNAM": "; Chaplain Ogrul; Journal IC2_muck >= 10; Journal IC2_muck >= 50; CHOICE 2; \r\nplayer->addspell \"Ogrul's_Staunch_Again\"\r\nJournal IC2_muck 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC2_Muck",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC2_Muck",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "117626231348325405": {
+      "flag": 0,
+      "PNAM": "19036125621059723103",
+      "NNAM": "29834119271760117125",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "chaplain ogrul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "As you wish. [Chaplain Ogrul teaches you his version of the Restore Strength spell.] There. I hope you find it useful. Now, if you'll excuse me, I must return to my duties. Farewell, and give my regards to Synnolian.",
+      "BNAM": "; Chaplain Ogrul; Journal IC2_muck >= 10; Journal IC2_muck >= 50; CHOICE 1; \r\nplayer->addspell \"Ogrul's_Strong_Again\"\r\nJournal IC2_muck 15",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "IC2_Muck",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC2_Muck",
+          "__TV": 50
+        },
+        {
+          "index": "2",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "29834119271760117125": {
+      "flag": 0,
+      "PNAM": "117626231348325405",
+      "NNAM": "",
+      "DATA": {
+        "value": 30,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "chaplain ogrul",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "So Synnolian suggested I might teach you a little trick, eh? Well, I might at that. In fact, I'll give you a choice. Which would you rather learn? A restore strength spell? A restore willpower spell? A restore speed spell? Or a restore luck spell?",
+      "BNAM": "; Chaplain Ogrul; Journal IC2_muck >= 10; Journal IC2_muck >= 50; \r\nChoice \"Restore strength, please.\" 1 \"Restore willpower, please.\" 2 \"Restore speed, please.\" 3 \"Restore luck, please.\" 4 \"No spell for me, thanks.\" 5",
+      "SCVR": [
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "IC2_Muck",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

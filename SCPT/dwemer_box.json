@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 120,
+    "local_var_size": 7
+  },
+  "SCTX": "begin Dwemer_box\r\n\r\nshort doOnce\r\n\r\nif ( OnActivate == 0 )\r\n\tReturn\r\nendif\r\n\r\nif ( doOnce == 0 )\r\n\tif ( GetJournalIndex A1_2_AntabolisInformant >= 1 )\r\n\t\tjournal A1_2_AntabolisInformant 7\r\n\t\tset doOnce to 1\r\n\t\tActivate\r\n\tendif\r\nelse\r\n\tActivate\r\nendif\r\n\r\nend Dwemer_box",
+  "SCVR": [
+    "doOnce"
+  ],
+  "SCDT": [6,1,1,9,32,88,24,16,32,61,61,32,48,36,1,9,1,6,1,5,9,32,115,1,0,32,61,61,32,48,6,1,3,35,32,88,205,16,32,100,23,65,49,95,50,95,65,110,116,97,98,111,108,105,115,73,110,102,111,114,109,97,110,116,32,62,61,32,49,204,16,23,65,49,95,50,95,65,110,116,97,98,111,108,105,115,73,110,102,111,114,109,97,110,116,7,0,255,255,5,1,115,1,0,2,32,49,23,16,9,1,7,1,1,23,16,9,1,1,1]
+}

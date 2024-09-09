@@ -1,0 +1,84 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "FLAG": 8,
+  "RNAM": "High Elf",
+  "CNAM": "Alchemist",
+  "ANAM": "Clan Aundae",
+  "BNAM": "B_V_High Elf_M_Head_01",
+  "KNAM": "b_n_high elf_m_hair_05",
+  "MODL": null,
+  "FNAM": "Mororurg",
+  "SCRI": "Vampire_Aundae",
+  "AIDT": {
+    "greet": 30,
+    "fight": 30,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 12560
+  },
+  "NPCO": [
+    {
+      "count": 1,
+      "name": "expensive_amulet_01"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shirt_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_shoes_03"
+    },
+    {
+      "count": 1,
+      "name": "expensive_pants_03"
+    },
+    {
+      "count": 1,
+      "name": "l_m_wpn_melee_short blade"
+    },
+    {
+      "count": 1,
+      "name": "l_m_potion"
+    }
+  ],
+  "NPCS": [
+    "crushing burden",
+    "crushing burden of sin",
+    "weary",
+    "cruel weary",
+    "wild levitate",
+    "bound longsword",
+    "bound mace",
+    "bound spear",
+    "summon greater bonewalker",
+    "commanding touch",
+    "reflect",
+    "weak spelldrinker",
+    "slowfall",
+    "summon skeletal minion"
+  ],
+  "DODT": null,
+  "NPDT": {
+    "level": 15,
+    "health": 115,
+    "magicka": 200,
+    "fatigue": 225,
+    "disposition": 50,
+    "reputation": 10,
+    "rank": 4,
+    "_garbage2": 0,
+    "gold": 250,
+    "attributes": [48,100,74,55,50,48,53,50],
+    "skills": [29,6,6,6,29,6,6,6,6,66,28,61,23,61,56,18,66,41,6,6,6,6,6,6,6,29,29]
+  },
+  "AI_": [
+    {
+      "distance": 0,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [60,20,10,10,0,0,10,0]
+    }
+  ]
+}

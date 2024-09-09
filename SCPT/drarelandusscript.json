@@ -1,0 +1,15 @@
+{
+  "deleted": false,
+  "SCHD": {
+    "num_shorts": 1,
+    "num_longs": 0,
+    "num_floats": 0,
+    "script_data_size": 69,
+    "local_var_size": 7
+  },
+  "SCTX": "Begin drarelAndusScript\r\n\r\nshort noLore\r\n\r\nif ( GetDisabled == 1 )\r\n\treturn\r\nendif\r\n\r\nif ( GetHealth <= 0 )\r\n\treturn\r\nendif\r\n\r\nif ( GetTarget \"Player\" == 0 )\r\n\tStartCombat Player\r\nendif\r\n\r\nEnd\r\n\r\nEnd",
+  "SCVR": [
+    "noLore"
+  ],
+  "SCDT": [6,1,1,9,32,88,220,16,32,61,61,32,49,36,1,9,1,6,1,1,9,32,88,140,16,32,60,61,32,48,36,1,9,1,6,1,1,18,32,88,80,17,32,114,6,80,108,97,121,101,114,32,61,61,32,48,25,16,6,80,108,97,121,101,114,9,1,1,1]
+}

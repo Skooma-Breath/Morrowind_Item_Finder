@@ -1,0 +1,104 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "10069139481424330250": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "246726257187299582",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good to have it back. Thank you.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SkoomaCorpse",
+          "__TV": 20
+        }
+      ]
+    },
+    "246726257187299582": {
+      "flag": 0,
+      "PNAM": "10069139481424330250",
+      "NNAM": "304241277686459998",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Oh, you've found it! Excellent. Here's a little something for you. It was supposed to be Ernil's when he got here. Tsiya would appreciate it if you'd keep quiet about this. You understand, yes?",
+      "BNAM": "Journal \"MV_SkoomaCorpse\" 20\r\nRemoveItem \"Gold_001\" 50\r\nAddItem \"Apparatus_A_Spipe_Tsiya\" 1\r\nPlayer->RemoveItem \"Apparatus_A_Spipe_Tsiya\" 1\r\nPlayer->AddItem \"Gold_001\" 50\r\nRemoveItem \"Ingred_Moon_Sugar_01\" 10\r\nPlayer->AddItem \"Ingred_Moon_Sugar_01\" 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "MV_SkoomaCorpse",
+          "__TV": 15
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "apparatus_a_spipe_tsiya",
+          "__TV": 1
+        }
+      ]
+    },
+    "304241277686459998": {
+      "flag": 0,
+      "PNAM": "246726257187299582",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "tsiya",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, well, Ernil was supposed to be delivering that to me. Would have been nice to have.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "MV_SkoomaCorpse",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

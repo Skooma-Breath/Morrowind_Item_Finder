@@ -1,0 +1,172 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "244201160417278158": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "28754201552050312126",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ingmar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "He's dead by my hand, finally.  Thanks again for the assistance, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Ingmar",
+          "__TV": 50
+        }
+      ]
+    },
+    "28754201552050312126": {
+      "flag": 0,
+      "PNAM": "244201160417278158",
+      "NNAM": "3102294442442729894",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ingmar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Good!  With your help I'll make short work of the draugr!  Lead on, %PCName.  I'll follow, and when we encounter the beast you distract it while I attack.  Please, do not attack the draugr!  I alone must attack and kill it.  At least then, well...I may retain a shred of my honor, and will at least feel like I earned my place among my people, even if I did get a little help.",
+      "BNAM": "Journal \"BM_Ingmar\" 30\r\nmoddisposition 10\r\nAiFollow Player 0 0 0 0 0 0",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "3102294442442729894": {
+      "flag": 0,
+      "PNAM": "28754201552050312126",
+      "NNAM": "627514773120215849",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ingmar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You're right, I know.  I just fear that if I confront the creature again, it may be my end.  So be it.  Farewell, %PCName.",
+      "BNAM": "Journal \"BM_Ingmar\" 20\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "627514773120215849": {
+      "flag": 0,
+      "PNAM": "3102294442442729894",
+      "NNAM": "2119730618105851846",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ingmar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aye, it's the draugr that resides here in Valbrandr Barrow.  I'm supposed to kill it, you see.  Single-handedly.  Killing a draugr is a task every Skaal lad must complete before becoming a man.  Only...I can't kill it.  I've tried.  It nearly slit my throat!  But I can't return to my village until it's dead.  Say...maybe you could help! You could go with me, serve as a distraction!",
+      "BNAM": "Journal \"BM_Ingmar\" 10\r\nChoice \"That wouldn't be right, Ingmar.  You've got to kill this creature yourself.\" 1 \"All right, I'll help.  No sense letting you get killed.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "BM_Ingmar",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "6",
+          "details": "DX",
+          "operator": "4",
+          "identifier": "draugr_valbrandr",
+          "__TV": 1
+        }
+      ]
+    },
+    "2119730618105851846": {
+      "flag": 0,
+      "PNAM": "627514773120215849",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ingmar",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Aye, it's the draugr that resides here in Valbrandr Barrow.  A foul, undead beast!",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "2",
+          "identifier": "BM_Ingmar",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Ingmar",
+          "__TV": 50
+        }
+      ]
+    }
+  }
+}

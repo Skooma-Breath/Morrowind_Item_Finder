@@ -1,0 +1,51 @@
+{
+  "deleted": false,
+  "persistent": false,
+  "MODL": "r\\CaveMudcrab.NIF",
+  "FLAG": 72,
+  "NPDT": {
+    "creature_type": 0,
+    "level": 1,
+    "attributes": [15,15,0,15,6,15,75,30],
+    "health": 15,
+    "magicka": 10,
+    "fatigue": 300,
+    "soul_strength": 20,
+    "combat_skill": 60,
+    "magic_skill": 3,
+    "stealth_skill": 75,
+    "attacks": [
+      [1,10],
+      [1,10],
+      [1,10]
+    ],
+    "gold": 0
+  },
+  "AIDT": {
+    "greet": 0,
+    "fight": 90,
+    "flee": 30,
+    "alarm": 0,
+    "flags": 10485760
+  },
+  "CNAM": "mudcrab",
+  "FNAM": "Mudcrab",
+  "SCRI": null,
+  "XSCL": null,
+  "NPCO": [
+    {
+      "count": 3,
+      "name": "random_crab_meat"
+    }
+  ],
+  "NPCS": null,
+  "DODT": null,
+  "AI_": [
+    {
+      "distance": 512,
+      "duration": 5,
+      "time_of_day": 0,
+      "idles": [50,50,0,0,0,0,0,0]
+    }
+  ]
+}

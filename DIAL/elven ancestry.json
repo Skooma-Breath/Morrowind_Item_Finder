@@ -1,0 +1,74 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "73568883172923504": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "12814134512194227469",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I have long believed that I, Athellor, have the blood of the Falmer flowing through my veins!  I'm on a journey of self-discovery, %PCName.  I wish to know who I am, and where I came from. I'm hoping that if I find some evidence of the Falmer's existence, I will better understand myself, and my past.  But alas, I'm a noble, not an adventurer.  That's why I've come to this establishment.   I'm hoping to hire an explorer to do some of the more...physical work. Another drink?",
+      "BNAM": "player->additem \"potion_cyro_brandy_01\" 1\r\nJournal \"BM_Falmer\" 30\r\nModDisposition 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Falmer",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "4",
+          "identifier": "BM_Falmer",
+          "__TV": 30
+        }
+      ]
+    },
+    "12814134512194227469": {
+      "flag": 0,
+      "PNAM": "73568883172923504",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "athellor",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I KNOW I have Falmer ancestors.  I can feel the chill Falmer blood coursing through my veins.  That's why I'm in this bar.  I need to hire an explorer to seek out the evidence I need.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "BM_Falmer",
+          "__TV": 30
+        }
+      ]
+    }
+  }
+}

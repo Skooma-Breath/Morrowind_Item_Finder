@@ -1,0 +1,756 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "14837323502099612939": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "13777963420716707",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "We've got all the picks we need for now, %PCName.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "CO_3a",
+          "__TV": 20
+        }
+      ]
+    },
+    "13777963420716707": {
+      "flag": 0,
+      "PNAM": "14837323502099612939",
+      "NNAM": "1336112862201359427",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Well, it seems you've come across several of them! I can afford to take six of those off your hands; I hope 500 gold each is sufficient. I believe it's quite a bit more than their actual worth, but we do need them. Thank you, %PCName. I won't be requiring any more, I don't think.",
+      "BNAM": "player->removeitem \"miner's pick\" 6\r\nplayer->additem \"gold_001\" 3000\r\nJournal CO_3a 20\r\nset \"Falco Galenus\".picks to 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "miner's pick",
+          "__TV": 6
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 0
+        }
+      ]
+    },
+    "1336112862201359427": {
+      "flag": 0,
+      "PNAM": "13777963420716707",
+      "NNAM": "18947131982194012159",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have some more, do you? Well, these five should do just fine. That'll get us started, at least. Thank you for your help, %PCName. I appreciate the effort. Here's the money for them.",
+      "BNAM": "player->removeitem \"miner's pick\" 5\r\nplayer->additem \"gold_001\" 2500\r\nset \"Falco Galenus\".picks to 6\r\nJournal co_3a 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "miner's pick",
+          "__TV": 5
+        }
+      ]
+    },
+    "18947131982194012159": {
+      "flag": 0,
+      "PNAM": "1336112862201359427",
+      "NNAM": "2022211479744530820",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Five of them, eh? Very well - I'll take all of them. I trust that 500 gold a piece is acceptable; it is much more than they're worth. Thank you, %PCName. I'll pay you for one more, if you can find it.",
+      "BNAM": "player->removeitem \"miner's pick\" 5\r\nplayer->additem \"gold_001\" 2500\r\nset \"Falco Galenus\".picks to 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 5
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 0
+        }
+      ]
+    },
+    "2022211479744530820": {
+      "flag": 0,
+      "PNAM": "18947131982194012159",
+      "NNAM": "1795132521608514327",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Four more picks should fill out what we need, %PCName. I appreciate you taking the time to find them for us. Here's the money.",
+      "BNAM": "player->removeitem \"miner's pick\" 4\r\nplayer->additem \"gold_001\" 2000\r\nset \"Falco Galenus\".picks to ( \"Falco Galenus\".picks + 4 )\r\nJournal CO_3a 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "miner's pick",
+          "__TV": 4
+        }
+      ]
+    },
+    "1795132521608514327": {
+      "flag": 0,
+      "PNAM": "2022211479744530820",
+      "NNAM": "1552401062351896",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Found four more, have you? Excellent work. If you can find one more, we should have enough to last us for a while.",
+      "BNAM": "player->removeitem \"miner's pick\" 4\r\nplayer->additem \"gold_001\" 2000\r\nset \"Falco Galenus\".picks to ( \"Falco Galenus\".picks + 4 )",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 4
+        }
+      ]
+    },
+    "1552401062351896": {
+      "flag": 0,
+      "PNAM": "1795132521608514327",
+      "NNAM": "3564257574955713",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found four of them? Well, that's good news. I'll gladly take those off your hands; I trust 500 gold each will suffice? We could still use one or two more, if you can find them.",
+      "BNAM": "player->removeitem \"miner's pick\" 4\r\nplayer->additem \"gold_001\" 2000\r\nset \"Falco Galenus\".picks to 4",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 4
+        }
+      ]
+    },
+    "3564257574955713": {
+      "flag": 0,
+      "PNAM": "1552401062351896",
+      "NNAM": "17196103712834627391",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Three pick axes are just what we needed, %PCName. Thank you for finding them. That should be enough for now; I appreciate your efforts, and I won't soon forget you did this for us.",
+      "BNAM": "player->removeitem \"miner's pick\" 3\r\nplayer->additem \"gold_001\" 1500\r\nset \"Falco Galenus\".picks to 6",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 3
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "miner's pick",
+          "__TV": 3
+        }
+      ]
+    },
+    "17196103712834627391": {
+      "flag": 0,
+      "PNAM": "3564257574955713",
+      "NNAM": "110731795215042201",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I'll take all three of those picks, %PCName. They'll make a big difference. But we could still use more, if you can find them.",
+      "BNAM": "player->removeitem \"miner's pick\" 3\r\nplayer->additem \"gold_001\" 1500\r\nset \"Falco Galenus\".picks to ( \"Falco Galenus\".picks + 3 )",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "5",
+          "identifier": "picks",
+          "__TV": 2
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 3
+        }
+      ]
+    },
+    "110731795215042201": {
+      "flag": 0,
+      "PNAM": "17196103712834627391",
+      "NNAM": "15762128773238218933",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Two picks will round out what we need, %PCName. I appreciate the effort you've made in getting them.",
+      "BNAM": "player->removeitem \"miner's pick\" 2\r\nplayer->additem \"gold_001\" 1000\r\nset \"Falco Galenus\".picks to 6\r\nJournal CO_3a 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 4
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 2
+        }
+      ]
+    },
+    "15762128773238218933": {
+      "flag": 0,
+      "PNAM": "110731795215042201",
+      "NNAM": "22311451631025853",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "More picks? Wonderful. They're much needed. Thank you, %PCName. And here, take this.",
+      "BNAM": "player->removeitem \"miner's pick\" 2\r\nplayer->additem \"gold_001\" 1000\r\nset \"Falco Galenus\".picks to ( \"Falco Galenus\".picks + 2 )",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "picks",
+          "__TV": 4
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "picks",
+          "__TV": 1
+        },
+        {
+          "index": "3",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 2
+        }
+      ]
+    },
+    "22311451631025853": {
+      "flag": 0,
+      "PNAM": "15762128773238218933",
+      "NNAM": "3674108701631125198",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You have two of them? Excellent! I'll take those, and I can give you 500 gold a piece. A good bit more than they're worth, but I'm willing to pay it; we're in dire need of them. Thank you, %PCName.",
+      "BNAM": "player->removeitem \"miner's pick\" 2\r\nplayer->additem \"gold_001\" 1000\r\nset \"Falco Galenus\".picks to ( \"Falco Galenus\".picks + 2 )",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 0
+        },
+        {
+          "index": "2",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 2
+        }
+      ]
+    },
+    "3674108701631125198": {
+      "flag": 0,
+      "PNAM": "22311451631025853",
+      "NNAM": "3054873462512512922",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "One more pick should be all we need, %PCName. Thank you for finding them all.",
+      "BNAM": "player->removeitem \"miner's pick\" 1\r\nplayer->additem \"gold_001\" 500\r\nset \"Falco Galenus\".picks to 6\r\nJournal CO_3a 20",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "11111 test journal",
+          "__TV": 0
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "miner's pick",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 5
+        }
+      ]
+    },
+    "3054873462512512922": {
+      "flag": 0,
+      "PNAM": "3674108701631125198",
+      "NNAM": "22809173611921443",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Every pick axe makes our job easier, %PCName. Thank you for bringing me this one.",
+      "BNAM": "player->removeitem \"miner's pick\" 1\r\nplayer->additem \"gold_001\" 500\r\nset \"Falco Galenus\".picks to ( \"Falco Galenus\".picks + 1 )",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "picks",
+          "__TV": 1
+        }
+      ]
+    },
+    "22809173611921443": {
+      "flag": 0,
+      "PNAM": "3054873462512512922",
+      "NNAM": "265699676246418529",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You've found one of them! I feared they'd all been lost in the wreck. Thank you, %PCName. I'll give you 500 gold for it, if only because I'm so desperate to have it.",
+      "BNAM": "player->removeitem \"miner's pick\" 1\r\nplayer->additem \"gold_001\" 500\r\nset \"Falco Galenus\".picks to ( \"Falco Galenus\".picks + 1 )",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "miner's pick",
+          "__TV": 1
+        },
+        {
+          "index": "2",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "picks",
+          "__TV": 0
+        }
+      ]
+    },
+    "265699676246418529": {
+      "flag": 0,
+      "PNAM": "22809173611921443",
+      "NNAM": "2234319399260617058",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Any pick axes you can bring us will be an immense help.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 10
+        },
+        {
+          "index": "1",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "4",
+          "identifier": "picks",
+          "__TV": 6
+        }
+      ]
+    },
+    "2234319399260617058": {
+      "flag": 0,
+      "PNAM": "265699676246418529",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Falco Galenus",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, there were several miner's picks that were supposed to be sent over. We can manage without the other things, but we really need those to make any decent progress in the mine. Did you happen to check the wreckage? There's always a chance that a few of the supplies survived the wreck. Well, if you come across any, I'd be willing to pay you to deliver them here. Keep it in mind, will you?",
+      "BNAM": "Journal CO_3a 10",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "CO_3a",
+          "__TV": 0
+        }
+      ]
+    }
+  }
+}

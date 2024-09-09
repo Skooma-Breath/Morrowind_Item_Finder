@@ -1,0 +1,490 @@
+{
+  "deleted": false,
+  "DATA": 0,
+  "INFO": {
+    "2439032532318968299": {
+      "flag": 0,
+      "PNAM": "",
+      "NNAM": "2817927533913016814",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "39",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        }
+      ]
+    },
+    "2817927533913016814": {
+      "flag": 0,
+      "PNAM": "2439032532318968299",
+      "NNAM": "935410727927029042",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Yes, Ajira knows that you are wise and brave and you have found the Warlock's Ring.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_WarlocksRing",
+          "__TV": 100
+        }
+      ]
+    },
+    "935410727927029042": {
+      "flag": 0,
+      "PNAM": "2817927533913016814",
+      "NNAM": "16380316071683419112",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "So you have found the Warlock's Ring. Remember that Ajira is your good friend who shares all her secrets.",
+      "BNAM": "Journal MG_WarlocksRing 100\r\nPlayer->ModReputation 1",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ring_warlock_unique",
+          "__TV": 0
+        },
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_WarlocksRing",
+          "__TV": 10
+        }
+      ]
+    },
+    "16380316071683419112": {
+      "flag": 0,
+      "PNAM": "935410727927029042",
+      "NNAM": "602497971940413272",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Have you found the Warlock's Ring? Ajira has told you all she knows.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_WarlocksRing",
+          "__TV": 10
+        }
+      ]
+    },
+    "602497971940413272": {
+      "flag": 0,
+      "PNAM": "16380316071683419112",
+      "NNAM": "3210859491424513287",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": 6
+      },
+      "ONAM": "ajira",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": "Mages Guild",
+      "SNAM": null,
+      "NAME": "Ajira knows that Vindamea Drethan has the Warlock's Ring. Ajira tells you this because Ajira does not like Vindamea Drethan. She is in Ashirbadon, a cave on a small island west of the ruins of Bal Fell.",
+      "BNAM": "Journal MG_WarlocksRing 10",
+      "SCVR": [
+        {
+          "index": "3",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "3",
+          "identifier": "MG_StaffMagnus",
+          "__TV": 100
+        }
+      ]
+    },
+    "3210859491424513287": {
+      "flag": 0,
+      "PNAM": "602497971940413272",
+      "NNAM": "69702323051336646",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have Warlock's Ring with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ring_warlock_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "69702323051336646": {
+      "flag": 0,
+      "PNAM": "3210859491424513287",
+      "NNAM": "248183423205827718",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!",
+      "BNAM": "SetPCCrimeLevel 100000\r\nSet PCThief to 1\r\nGoodbye",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ringwarlock",
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "2",
+          "identifier": "ring_vampiric_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "248183423205827718": {
+      "flag": 0,
+      "PNAM": "69702323051336646",
+      "NNAM": "2985049913112024728",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Yes, thank you for allowing us to add it to our collection.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "3",
+          "identifier": "ringwarlock",
+          "__TV": 2
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ring_warlock_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "2985049913112024728": {
+      "flag": 0,
+      "PNAM": "248183423205827718",
+      "NNAM": "956324070265951193",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "It's your choice, of course.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 2
+        }
+      ]
+    },
+    "956324070265951193": {
+      "flag": 0,
+      "PNAM": "2985049913112024728",
+      "NNAM": "1229381203042418964",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Unless Syrabane himself comes to collect the ring, it will retain a place in our collection for a long time to come.  Thank you, %PCName.",
+      "BNAM": "set ringwarlock to 2\r\nplayer->removeitem \"ring_warlock_unique\" 1\r\nset MuseumDonations to MuseumDonations + 1\r\n\"ring_warlock_unique_x\"->Enable\r\nmoddisposition 5",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 3
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ring_warlock_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "1229381203042418964": {
+      "flag": 0,
+      "PNAM": "956324070265951193",
+      "NNAM": "2511370672016919386",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "Unless Syrabane himself comes to collect the ring, it will retain a place in our collection for a long time to come.  Thank you, %PCName.",
+      "BNAM": "set ringwarlock to 2\r\nplayer->removeitem \"ring_warlock_unique\" 1\r\nplayer->additem \"gold_001\" 11000\r\n\"ring_warlock_unique_x\"->Enable",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "3",
+          "identifier": "ring_warlock_unique",
+          "__TV": 1
+        }
+      ]
+    },
+    "2511370672016919386": {
+      "flag": 0,
+      "PNAM": "1229381203042418964",
+      "NNAM": "15506533540610320",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "You don't have Warlock's Ring with you? Then come back with it, and we'll settle the deal.",
+      "BNAM": null,
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "1",
+          "details": "50",
+          "operator": "0",
+          "identifier": null,
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "5",
+          "details": "IX",
+          "operator": "0",
+          "identifier": "ring_warlock_unique",
+          "__TV": 0
+        }
+      ]
+    },
+    "15506533540610320": {
+      "flag": 0,
+      "PNAM": "2511370672016919386",
+      "NNAM": "18290294773021417900",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not wish to know what you must have been through to acquire this ring.  If it has outlived its usefulness to you, perhaps you would be willing to sell it to the museum? Or perhaps you would like to donate it? I can offer you 11000 gold, should you decide to sell it.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2 \"Donate the item.\" 3",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ringwarlock",
+          "__TV": 1
+        },
+        {
+          "index": "1",
+          "scvr_type": "4",
+          "details": "JX",
+          "operator": "0",
+          "identifier": "TR_Blade",
+          "__TV": 40
+        }
+      ]
+    },
+    "18290294773021417900": {
+      "flag": 0,
+      "PNAM": "15506533540610320",
+      "NNAM": "",
+      "DATA": {
+        "value": 0,
+        "rank": -1,
+        "gender": -1,
+        "player_rank": -1
+      },
+      "ONAM": "Torasa Aram",
+      "RNAM": null,
+      "CNAM": null,
+      "FNAM": null,
+      "ANAM": null,
+      "DNAM": null,
+      "SNAM": null,
+      "NAME": "I do not wish to know what you must have been through to acquire this ring.  If it has outlived its usefulness to you, perhaps you would be willing to sell it to the museum? If so, I can give you 11000 gold in exchange.",
+      "BNAM": "Choice: \"Sell the item.\" 1 \"Keep the item.\" 2",
+      "SCVR": [
+        {
+          "index": "0",
+          "scvr_type": "3",
+          "details": "sX",
+          "operator": "0",
+          "identifier": "ringwarlock",
+          "__TV": 1
+        }
+      ]
+    }
+  }
+}
