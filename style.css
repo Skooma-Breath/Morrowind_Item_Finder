@@ -1,0 +1,66 @@
+body {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2B2B2B;
+    color: #D4C391;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #C1A35F;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+input, button {
+    margin: 10px 0;
+    background-color: #3A3A3A;
+    border: 1px solid #C1A35F;
+    color: #D4C391;
+    padding: 8px 12px;
+    font-size: 1em;
+}
+
+input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #C1A35F;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4A4A4A;
+}
+
+#loadingMessage {
+    margin: 20px 0;
+    font-style: italic;
+    color: #8F8F8F;
+}
+
+#results {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #4A4A4A;
+}
+
+#results h2, #results h3 {
+    color: #C1A35F;
+}
+
+#results p {
+    margin: 5px 0;
+}
+
+#results p[style*="margin-left: 20px"] {
+    color: #A0A0A0;
+}
