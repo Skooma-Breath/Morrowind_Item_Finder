@@ -1,22 +1,11 @@
-const dataDirectory = './';
-const listDirectory = './list/';
-let lichenData = {};
-let cachedData = {};
+let allData = null;
 
-// Web Worker for search operations
-const searchWorker = new Worker('searchWorker.js');
-
-async function loadJSONFiles() {
+async function loadData() {
     try {
-        const listFiles = ['cell.json', 'npc_.json', 'cont.json'];
-        const promises = listFiles.map(file => 
-            fetch(`${listDirectory}${file}`).then(response => response.json())
-        );
-        const results = await Promise.all(promises);
-        listFiles.forEach((file, index) => {
-            lichenData[file.split('.')[0]] = results[index];
-        });
+        const response = await fetch('./alldata.json');
+        allData = await response.json();
         console.log('All data loaded successfully');
+        console.log('Data structure:', Object.keys(allData));
         document.getElementById('loadingMessage').style.display = 'none';
         document.getElementById('searchInput').disabled = false;
         document.getElementById('searchButton').disabled = false;
@@ -31,44 +20,109 @@ function searchLichen() {
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '<p>Searching...</p>';
 
-    if (cachedData[searchTerm]) {
-        displayResults(cachedData[searchTerm], searchTerm);
-        return;
+    if (allData) {
+        const results = performSearch(searchTerm, allData);
+        displayResults(results, searchTerm);
+    } else {
+        resultsDiv.innerHTML = '<p>Data not loaded. Please try again.</p>';
     }
-
-    searchWorker.postMessage({ searchTerm, lichenData, dataDirectory });
 }
 
-searchWorker.onmessage = function(e) {
-    const { cellCounts, cellContents, totalCount, searchTerm } = e.data;
-    cachedData[searchTerm] = { cellCounts, cellContents, totalCount };
-    displayResults({ cellCounts, cellContents, totalCount }, searchTerm);
-};
+function performSearch(searchTerm, allData) {
+    console.log('Performing search for:', searchTerm);
+    const results = {
+        totalCount: 0,
+        locations: {}
+    };
 
-function displayResults({ cellCounts, cellContents, totalCount }, searchTerm) {
-    const resultsDiv = document.getElementById('results');
-    resultsDiv.innerHTML = '';
-
-    if (Object.keys(cellCounts).length > 0) {
-        resultsDiv.innerHTML += `<h2>Count by cell for '${searchTerm}':</h2>`;
-        const sortedCells = Object.entries(cellCounts).sort((a, b) => a[0].localeCompare(b[0], undefined, {sensitivity: 'base'}));
+    if (allData.objects[searchTerm]) {
+        const itemData = allData.objects[searchTerm];
+        console.log('Item data found:', itemData);
         
-        for (const [cell, count] of sortedCells) {
-            resultsDiv.innerHTML += `<p>${cell} - count: ${count}</p>`;
-            if (cellContents[cell]) {
-                for (const [container, itemCount] of Object.entries(cellContents[cell])) {
-                    if (container.toLowerCase() !== searchTerm.toLowerCase()) {
-                        resultsDiv.innerHTML += `<p style="margin-left: 20px;">${container}: ${itemCount}</p>`;
+        // Process static placements
+        for (const [location, count] of Object.entries(itemData.static_locations || {})) {
+            addToResults(results, location, count, 'static');
+        }
+
+        // Process containers
+        for (const [containerName, containerData] of Object.entries(allData.objects)) {
+            if (containerData.type === 'item' && containerData.contents) {
+                const itemInContainer = containerData.contents.find(item => item.item.toLowerCase() === searchTerm.toLowerCase());
+                if (itemInContainer) {
+                    for (const [location, count] of Object.entries(containerData.locations)) {
+                        const adjustedCount = itemInContainer.count === -1 ? 1 : Math.abs(itemInContainer.count);
+                        addToResults(results, location, adjustedCount, 'containers', containerName);
                     }
                 }
             }
         }
 
-        resultsDiv.innerHTML += `<h3>Total occurrences: ${totalCount}</h3>`;
+        // Process NPCs
+        for (const [npcName, npcData] of Object.entries(allData.npcs)) {
+            const itemInNPC = npcData.inventory.find(item => item.item.toLowerCase() === searchTerm.toLowerCase());
+            if (itemInNPC) {
+                for (const [location, count] of Object.entries(allData.objects[npcName].locations)) {
+                    const adjustedCount = itemInNPC.count === -1 ? 1 : Math.abs(itemInNPC.count);
+                    addToResults(results, location, adjustedCount, 'npcs', npcName);
+                }
+            }
+        }
     } else {
-        resultsDiv.innerHTML = `<p>The item '${searchTerm}' was not found in any file.</p>`;
+        console.log('Item not found in allData.objects');
+    }
+
+    console.log('Final search results:', results);
+    return results;
+}
+
+function addToResults(results, location, count, type, container = null) {
+    if (!results.locations[location]) {
+        results.locations[location] = { count: 0, static: 0, containers: {}, npcs: {} };
+    }
+    
+    if (type === 'static') {
+        results.locations[location].static += count;
+    } else if (type === 'containers') {
+        results.locations[location].containers[container] = count;
+    } else if (type === 'npcs') {
+        results.locations[location].npcs[container] = count;
+    }
+    
+    results.locations[location].count += count;
+    results.totalCount += count;
+}
+
+function displayResults(results, searchTerm) {
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';
+
+    if (Object.keys(results.locations).length > 0) {
+        resultsDiv.innerHTML += `<h2>Count by cell for '${searchTerm}':</h2>`;
+        resultsDiv.innerHTML += `<p>Total occurrences: ${results.totalCount}</p>`;
+        
+        const sortedLocations = Object.entries(results.locations).sort((a, b) => b[1].count - a[1].count);
+        
+        for (const [location, info] of sortedLocations) {
+            resultsDiv.innerHTML += `<p>${location}: ${info.count}</p>`;
+            
+            if (info.static > 0) {
+                resultsDiv.innerHTML += `<p style="margin-left: 20px;">Static placed: ${info.static}</p>`;
+            }
+            
+            for (const [container, count] of Object.entries(info.containers)) {
+                resultsDiv.innerHTML += `<p style="margin-left: 20px;">${container}: ${count} (in container)</p>`;
+            }
+            
+            for (const [npc, count] of Object.entries(info.npcs)) {
+                resultsDiv.innerHTML += `<p style="margin-left: 20px;">${npc}: ${count} (on NPC)</p>`;
+            }
+            
+            resultsDiv.innerHTML += '<br>';
+        }
+    } else {
+        resultsDiv.innerHTML = `<p>The item '${searchTerm}' was not found.</p>`;
     }
 }
 
 // Load data when the page loads
-document.addEventListener('DOMContentLoaded', loadJSONFiles);
+document.addEventListener('DOMContentLoaded', loadData);

@@ -105,7 +105,7 @@ def search_for_item(item_name):
     return cell_counts, cell_contents, total_count
 
 # Usage
-item_to_find = "daedric_greaves"
+item_to_find = "iron_cuirass"
 
 cell_counts, cell_contents, total_occurrences = search_for_item(item_to_find)
 
