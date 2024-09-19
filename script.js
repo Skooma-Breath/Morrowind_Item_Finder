@@ -56,10 +56,11 @@ function performSearch(searchTerm, allData) {
             if (containerData.type === 'item' && containerData.contents) {
                 const itemInContainer = containerData.contents.find(item => item.item.toLowerCase() === searchTerm.toLowerCase());
                 if (itemInContainer) {
-                    for (const [location, count] of Object.entries(containerData.locations)) {
-                        const adjustedCount = itemInContainer.count === -1 ? 1 : Math.abs(itemInContainer.count);
-                        addToResults(results, location, adjustedCount, 'containers', containerName);
-                    }
+                  for (const [location, containerCount] of Object.entries(containerData.locations)) {
+                      const adjustedCount = itemInContainer.count === -1 ? 1 : Math.abs(itemInContainer.count);
+                      const totalCount = adjustedCount * containerCount;
+                      addToResults(results, location, totalCount, 'containers', containerName, containerCount);
+                  }
                 }
             }
         }
@@ -82,7 +83,7 @@ function performSearch(searchTerm, allData) {
     return results;
 }
 
-function addToResults(results, location, count, type, container = null) {
+function addToResults(results, location, count, type, container = null, containerCount = 1) {
     if (!results.locations[location]) {
         results.locations[location] = { count: 0, static: 0, containers: {}, npcs: {} };
     }
@@ -90,9 +91,16 @@ function addToResults(results, location, count, type, container = null) {
     if (type === 'static') {
         results.locations[location].static += count;
     } else if (type === 'containers') {
-        results.locations[location].containers[container] = count;
+        if (!results.locations[location].containers[container]) {
+            results.locations[location].containers[container] = { itemCount: 0, containerCount: 0 };
+        }
+        results.locations[location].containers[container].itemCount += count;
+        results.locations[location].containers[container].containerCount += containerCount;
     } else if (type === 'npcs') {
-        results.locations[location].npcs[container] = count;
+        if (!results.locations[location].npcs[container]) {
+            results.locations[location].npcs[container] = 0;
+        }
+        results.locations[location].npcs[container] += count;
     }
     
     results.locations[location].count += count;
@@ -116,8 +124,8 @@ function displayResults(results, searchTerm) {
                 resultsDiv.innerHTML += `<p style="margin-left: 20px;">Static placed: ${info.static}</p>`;
             }
             
-            for (const [container, count] of Object.entries(info.containers)) {
-                resultsDiv.innerHTML += `<p style="margin-left: 20px;">${container}: ${count} (in container)</p>`;
+            for (const [container, data] of Object.entries(info.containers)) {
+                resultsDiv.innerHTML += `<p style="margin-left: 20px;">${container}: ${data.itemCount} (in ${data.containerCount} container${data.containerCount > 1 ? 's' : ''})</p>`;
             }
             
             for (const [npc, count] of Object.entries(info.npcs)) {
