@@ -82,7 +82,7 @@ button:hover {
 .npmp-wiki {
   color: #d2c9b0;
   text-decoration: none;
-  margin-left: 5px;
+  margin-left: 5px; 
 }
 
 .alchemie:hover {
@@ -113,4 +113,30 @@ button:hover {
   color: #d2c9b0;
   text-decoration: none;
   margin-left: 5px;
+}
+
+
+
+.heading-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    white-space: nowrap;
+}
+
+.heading-container a {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.heading-container a:first-child {
+    margin-left: 10px; /* Add a small left margin to the first link */
+}
+
+/* Adjust the main content to start below the heading container */
+h1, #loadingMessage, #searchInput, #searchButton, #results {
+    margin-top: 20px; /* Adjust this value as needed */
 }
