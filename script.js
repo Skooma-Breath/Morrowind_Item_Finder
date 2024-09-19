@@ -1,5 +1,11 @@
 let allData = null;
 
+function checkEnter(event) {
+    if (event.key === "Enter") {
+        searchLichen();
+    }
+}
+
 async function loadData() {
     try {
         const response = await fetch('./alldata.json');
@@ -26,6 +32,7 @@ function searchLichen() {
     } else {
         resultsDiv.innerHTML = '<p>Data not loaded. Please try again.</p>';
     }
+    document.getElementById('searchInput').focus();
 }
 
 function performSearch(searchTerm, allData) {

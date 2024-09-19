@@ -9,7 +9,7 @@
 <body>
     <h1>Morrowind Explorer</h1>
     <div id="loadingMessage">Loading data, please wait...</div>
-    <input type="text" id="searchInput" placeholder="Enter object Id" disabled>
+    <input type="text" id="searchInput" placeholder="Enter item name" disabled onkeyup="checkEnter(event)">
     <button id="searchButton" onclick="searchLichen()" disabled>Search</button>
     <div id="results"></div>
 
